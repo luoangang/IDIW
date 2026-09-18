@@ -1,0 +1,208 @@
+-- Schema v4: compact relational model for sources, monitors, runs, and module resources.
+CREATE TABLE IF NOT EXISTS schema_migrations (
+  version INT UNSIGNED PRIMARY KEY,
+  name VARCHAR(255) NOT NULL,
+  applied_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+CREATE TABLE IF NOT EXISTS sources (
+  source_key VARCHAR(64) PRIMARY KEY,
+  module_name VARCHAR(64) NOT NULL,
+  label VARCHAR(100) NOT NULL,
+  adapter_name VARCHAR(255) NOT NULL,
+  resource_type VARCHAR(64) NOT NULL DEFAULT 'document',
+  supported_modes_json JSON NOT NULL,
+  enabled TINYINT(1) NOT NULL DEFAULT 1,
+  item_limit INT UNSIGNED NOT NULL DEFAULT 10,
+  config_json JSON NOT NULL,
+  status VARCHAR(32) NOT NULL DEFAULT 'active',
+  created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  updated_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  INDEX idx_sources_module (module_name)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+CREATE TABLE IF NOT EXISTS monitors (
+  id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(255) NOT NULL,
+  module_name VARCHAR(64) NOT NULL,
+  query_text VARCHAR(255) NOT NULL,
+  aliases_json JSON NOT NULL,
+  schedule_type ENUM('daily','weekly') NOT NULL DEFAULT 'daily',
+  schedule_time TIME NOT NULL DEFAULT '08:00:00',
+  weekday TINYINT UNSIGNED NULL,
+  timezone VARCHAR(64) NOT NULL DEFAULT 'Asia/Shanghai',
+  enabled TINYINT(1) NOT NULL DEFAULT 1,
+  last_run_at DATETIME NULL,
+  next_run_at DATETIME NULL,
+  created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  updated_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  INDEX idx_monitors_due (enabled, next_run_at),
+  INDEX idx_monitors_module (module_name)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+CREATE TABLE IF NOT EXISTS monitor_sources (
+  monitor_id BIGINT UNSIGNED NOT NULL,
+  source_key VARCHAR(64) NOT NULL,
+  enabled TINYINT(1) NOT NULL DEFAULT 1,
+  item_limit INT UNSIGNED NOT NULL DEFAULT 10,
+  config_json JSON NOT NULL,
+  cursor_json JSON NULL,
+  last_success_at DATETIME NULL,
+  last_error TEXT NULL,
+  updated_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (monitor_id, source_key),
+  CONSTRAINT fk_monitor_sources_monitor FOREIGN KEY (monitor_id)
+    REFERENCES monitors(id) ON DELETE CASCADE,
+  CONSTRAINT fk_monitor_sources_source FOREIGN KEY (source_key)
+    REFERENCES sources(source_key) ON DELETE RESTRICT
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+CREATE TABLE IF NOT EXISTS monitor_runs (
+  id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  monitor_id BIGINT UNSIGNED NULL,
+  module_name VARCHAR(64) NOT NULL,
+  query_text VARCHAR(255) NOT NULL DEFAULT '',
+  mode VARCHAR(16) NOT NULL DEFAULT 'search',
+  trigger_type ENUM('manual','scheduled') NOT NULL DEFAULT 'manual',
+  options_json JSON NOT NULL,
+  source_results_json JSON NULL,
+  status ENUM('running','completed','partial','failed','stopped') NOT NULL DEFAULT 'running',
+  total_fetched INT UNSIGNED NOT NULL DEFAULT 0,
+  total_inserted INT UNSIGNED NOT NULL DEFAULT 0,
+  total_updated INT UNSIGNED NOT NULL DEFAULT 0,
+  error_message TEXT NULL,
+  started_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  finished_at DATETIME NULL,
+  CONSTRAINT fk_monitor_runs_monitor FOREIGN KEY (monitor_id)
+    REFERENCES monitors(id) ON DELETE SET NULL,
+  INDEX idx_monitor_runs_monitor (monitor_id, started_at),
+  INDEX idx_monitor_runs_module (module_name, started_at)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+CREATE TABLE IF NOT EXISTS news_resources (
+  id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  resource_uid CHAR(36) NOT NULL,
+  source_key VARCHAR(64) NOT NULL,
+  resource_type VARCHAR(64) NOT NULL,
+  external_id VARCHAR(512) NULL,
+  title VARCHAR(1000) NOT NULL,
+  url TEXT NOT NULL,
+  summary MEDIUMTEXT NULL,
+  content LONGTEXT NULL,
+  author_display VARCHAR(500) NULL,
+  publisher VARCHAR(255) NULL,
+  published_at DATETIME NULL,
+  language VARCHAR(32) NULL,
+  identity_hash CHAR(64) NOT NULL,
+  canonical_hash CHAR(64) NOT NULL,
+  content_hash CHAR(64) NOT NULL,
+  metadata_json JSON NULL,
+  matched_queries_json JSON NULL,
+  first_run_id BIGINT UNSIGNED NULL,
+  last_run_id BIGINT UNSIGNED NULL,
+  first_seen_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  last_seen_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  UNIQUE KEY uk_news_uid (resource_uid),
+  UNIQUE KEY uk_news_identity (source_key, identity_hash),
+  INDEX idx_news_source_time (source_key, published_at),
+  INDEX idx_news_last_seen (last_seen_at),
+  INDEX idx_news_canonical (canonical_hash)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+CREATE TABLE IF NOT EXISTS paper_resources (
+  id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  resource_uid CHAR(36) NOT NULL,
+  source_key VARCHAR(64) NOT NULL,
+  resource_type VARCHAR(64) NOT NULL DEFAULT 'academic_paper',
+  external_id VARCHAR(512) NULL,
+  journal_key VARCHAR(128) NULL,
+  title VARCHAR(1000) NOT NULL,
+  url TEXT NOT NULL,
+  summary MEDIUMTEXT NULL,
+  content LONGTEXT NULL,
+  author_display VARCHAR(500) NULL,
+  authors_json JSON NULL,
+  affiliations_json JSON NULL,
+  keywords_json JSON NULL,
+  publisher VARCHAR(255) NULL,
+  published_at DATETIME NULL,
+  publication_date VARCHAR(32) NULL,
+  language VARCHAR(32) NULL,
+  doi VARCHAR(512) NULL,
+  publication_year SMALLINT NULL,
+  volume VARCHAR(64) NULL,
+  issue VARCHAR(64) NULL,
+  pages VARCHAR(64) NULL,
+  funding_json JSON NULL,
+  citation_text TEXT NULL,
+  identity_hash CHAR(64) NOT NULL,
+  canonical_hash CHAR(64) NOT NULL,
+  content_hash CHAR(64) NOT NULL,
+  metadata_json JSON NULL,
+  matched_queries_json JSON NULL,
+  first_run_id BIGINT UNSIGNED NULL,
+  last_run_id BIGINT UNSIGNED NULL,
+  first_seen_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  last_seen_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  UNIQUE KEY uk_paper_uid (resource_uid),
+  UNIQUE KEY uk_paper_identity (source_key, identity_hash),
+  INDEX idx_paper_doi (doi),
+  INDEX idx_paper_journal_year (journal_key, publication_year),
+  INDEX idx_paper_last_seen (last_seen_at)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+CREATE TABLE IF NOT EXISTS patent_resources (
+  id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  resource_uid CHAR(36) NOT NULL,
+  source_key VARCHAR(64) NOT NULL,
+  resource_type VARCHAR(64) NOT NULL DEFAULT 'patent',
+  external_id VARCHAR(512) NULL,
+  patent_number VARCHAR(255) NULL,
+  application_number VARCHAR(255) NULL,
+  publication_number VARCHAR(255) NULL,
+  title VARCHAR(1000) NOT NULL,
+  url TEXT NOT NULL,
+  summary MEDIUMTEXT NULL,
+  content LONGTEXT NULL,
+  applicants_json JSON NULL,
+  inventors_json JSON NULL,
+  classification_json JSON NULL,
+  priority_date DATE NULL,
+  application_date DATE NULL,
+  publication_date DATE NULL,
+  legal_status VARCHAR(128) NULL,
+  country_code VARCHAR(16) NULL,
+  publisher VARCHAR(255) NULL,
+  published_at DATETIME NULL,
+  language VARCHAR(32) NULL,
+  identity_hash CHAR(64) NOT NULL,
+  canonical_hash CHAR(64) NOT NULL,
+  content_hash CHAR(64) NOT NULL,
+  metadata_json JSON NULL,
+  matched_queries_json JSON NULL,
+  first_run_id BIGINT UNSIGNED NULL,
+  last_run_id BIGINT UNSIGNED NULL,
+  first_seen_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  last_seen_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  UNIQUE KEY uk_patent_uid (resource_uid),
+  UNIQUE KEY uk_patent_identity (source_key, identity_hash),
+  INDEX idx_patent_number (patent_number),
+  INDEX idx_patent_last_seen (last_seen_at)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+CREATE TABLE IF NOT EXISTS monitor_resource_matches (
+  monitor_id BIGINT UNSIGNED NOT NULL,
+  module_name VARCHAR(64) NOT NULL,
+  resource_uid CHAR(36) NOT NULL,
+  first_run_id BIGINT UNSIGNED NOT NULL,
+  last_run_id BIGINT UNSIGNED NOT NULL,
+  first_matched_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  last_matched_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  match_count INT UNSIGNED NOT NULL DEFAULT 1,
+  relevance_score DECIMAL(6,5) NULL,
+  match_reason_json JSON NULL,
+  PRIMARY KEY (monitor_id, module_name, resource_uid),
+  CONSTRAINT fk_monitor_resource_monitor FOREIGN KEY (monitor_id)
+    REFERENCES monitors(id) ON DELETE CASCADE,
+  INDEX idx_monitor_resource_last (monitor_id, last_matched_at)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;

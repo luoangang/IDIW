@@ -1,0 +1,25 @@
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+
+# Local databases, backups, and runtime output
+*.db
+*.sqlite
+*.sqlite3
+*.log
+backups/
+logs/
+
+# Generated report previews; keep the final DOCX and its build script
+reports/_build/
+reports/_rendered*/
+
+# Editor and test artifacts
+.coverage
+htmlcov/
+.idea/
+.vscode/
