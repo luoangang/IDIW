@@ -1,1 +1,0 @@
-"""News source plugins."""

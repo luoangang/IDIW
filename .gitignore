@@ -13,6 +13,7 @@ __pycache__/
 *.log
 backups/
 logs/
+crawler_platform_runtime/
 
 # Generated report previews; keep the final DOCX and its build script
 reports/_build/

@@ -1,0 +1,37 @@
+{
+  "protocol_version": "1.0",
+  "package_key": "google_news_rss",
+  "package_version": "1.0.1",
+  "name": "Google 新闻 RSS",
+  "description": "通过 Google 新闻搜索 RSS 获取主题相关新闻",
+  "category": "news",
+  "runtime": {"type": "python", "python_version": "3.9", "entrypoint": "crawler.py", "dependencies": "requirements.lock"},
+  "capabilities": {"incremental": false},
+  "parameters_schema": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "type": "object",
+    "properties": {
+      "language": {"type": "string", "enum": ["zh-CN", "en-US"], "default": "zh-CN"},
+      "country": {"type": "string", "enum": ["CN", "US", "GB"], "default": "CN"}
+    },
+    "additionalProperties": false
+  },
+  "secret_names": [],
+  "output_schema_version": 1,
+  "output_schema": {
+    "fields": [
+      {"name": "external_id", "type": "string", "max_length": 1000, "nullable": false},
+      {"name": "title", "type": "string", "max_length": 1000, "nullable": false},
+      {"name": "url", "type": "text", "nullable": false},
+      {"name": "summary", "type": "text", "nullable": true},
+      {"name": "publisher", "type": "string", "max_length": 255, "nullable": true},
+      {"name": "published_at", "type": "datetime", "nullable": true},
+      {"name": "language", "type": "string", "max_length": 32, "nullable": false},
+      {"name": "country", "type": "string", "max_length": 16, "nullable": false},
+      {"name": "source_site", "type": "string", "max_length": 128, "nullable": false}
+    ],
+    "identity_fields": ["source_site", "external_id"],
+    "indexes": [["published_at"], ["language", "country"]],
+    "mapping": {"title": "title", "url": "url", "summary": "summary", "published_at": "published_at"}
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "protocol_version": "1.0",
+  "execution_id": "00000000-0000-0000-0000-000000000004",
+  "package_key": "magetech_journals",
+  "package_version": "1.0.0",
+  "query": "人工智能",
+  "aliases": ["生成式人工智能"],
+  "limit": 10,
+  "parameters": {
+    "journal_keys": ["data_analysis", "lis", "qbzl"],
+    "max_pages_per_journal": 2,
+    "request_delay_ms": 0
+  },
+  "cursor": null,
+  "time_range": {"from": null, "to": null},
+  "deadline_at": "2099-01-01T00:00:00Z"
+}

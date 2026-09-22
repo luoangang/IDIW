@@ -1,0 +1,1 @@
+{"protocol_version":"1.0","execution_id":"00000000-0000-0000-0000-000000000003","package_key":"google_news_rss","package_version":"1.0.1","query":"人工智能","aliases":[],"limit":10,"parameters":{"language":"zh-CN","country":"CN"},"cursor":null,"time_range":{"from":null,"to":null},"deadline_at":"2099-01-01T00:00:00Z"}

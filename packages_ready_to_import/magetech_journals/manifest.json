@@ -1,0 +1,52 @@
+{
+  "protocol_version": "1.0",
+  "package_key": "magetech_journals",
+  "package_version": "1.0.0",
+  "name": "玛格泰克中文期刊检索包",
+  "description": "按检索词统一查询数据分析与知识发现、图书情报工作、情报资料工作三个玛格泰克期刊站点",
+  "category": "paper",
+  "runtime": {
+    "type": "python",
+    "python_version": "3.9",
+    "entrypoint": "crawler.py",
+    "dependencies": "requirements.lock"
+  },
+  "capabilities": {"incremental": false},
+  "parameters_schema": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "type": "object",
+    "properties": {
+      "journal_keys": {
+        "type": "array",
+        "items": {"type": "string", "enum": ["data_analysis", "lis", "qbzl"]},
+        "default": ["data_analysis", "lis", "qbzl"]
+      },
+      "max_pages_per_journal": {"type": "integer", "minimum": 1, "maximum": 100, "default": 20},
+      "request_delay_ms": {"type": "integer", "minimum": 0, "maximum": 5000, "default": 300}
+    },
+    "additionalProperties": false
+  },
+  "secret_names": [],
+  "output_schema_version": 1,
+  "output_schema": {
+    "fields": [
+      {"name": "journal_key", "type": "string", "max_length": 64, "nullable": false},
+      {"name": "journal_name", "type": "string", "max_length": 255, "nullable": false},
+      {"name": "external_id", "type": "string", "max_length": 255, "nullable": false},
+      {"name": "title", "type": "string", "max_length": 1000, "nullable": false},
+      {"name": "url", "type": "text", "nullable": false},
+      {"name": "authors", "type": "array", "nullable": false, "schema": {"type": "array", "items": {"type": "string"}}},
+      {"name": "abstract", "type": "text", "nullable": true},
+      {"name": "doi", "type": "string", "max_length": 255, "nullable": true},
+      {"name": "year", "type": "integer", "nullable": true},
+      {"name": "volume", "type": "string", "max_length": 64, "nullable": true},
+      {"name": "issue", "type": "string", "max_length": 64, "nullable": true},
+      {"name": "pages", "type": "string", "max_length": 64, "nullable": true},
+      {"name": "pdf_url", "type": "text", "nullable": true},
+      {"name": "source_site", "type": "string", "max_length": 128, "nullable": false}
+    ],
+    "identity_fields": ["journal_key", "external_id"],
+    "indexes": [["journal_key", "external_id"], ["year"], ["doi"]],
+    "mapping": {"title": "title", "url": "url", "summary": "abstract"}
+  }
+}

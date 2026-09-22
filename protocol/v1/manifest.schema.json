@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.example/crawler-platform/v1/manifest.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["protocol_version", "package_key", "package_version", "name", "category", "runtime", "capabilities", "parameters_schema", "output_schema_version", "output_schema"],
+  "properties": {
+    "protocol_version": {"const": "1.0"},
+    "package_key": {"type": "string", "pattern": "^[a-z][a-z0-9_]{2,63}$"},
+    "package_version": {"type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"},
+    "name": {"type": "string", "minLength": 1},
+    "description": {"type": "string"},
+    "category": {"type": "string", "minLength": 1, "maxLength": 64},
+    "runtime": {
+      "type": "object", "additionalProperties": false,
+      "required": ["type", "python_version", "entrypoint", "dependencies"],
+      "properties": {
+        "type": {"const": "python"}, "python_version": {"type": "string", "pattern": "^3\\.(9|10|11|12)$"},
+        "entrypoint": {"type": "string"}, "dependencies": {"type": "string"}
+      }
+    },
+    "capabilities": {
+      "type": "object", "additionalProperties": false, "required": ["incremental"],
+      "properties": {"incremental": {"type": "boolean"}}
+    },
+    "parameters_schema": {"type": "object"},
+    "secret_names": {"type": "array", "items": {"type": "string", "pattern": "^[A-Z][A-Z0-9_]{1,63}$"}, "uniqueItems": true},
+    "output_schema_version": {"type": "integer", "minimum": 1},
+    "output_schema": {"$ref": "output-schema.schema.json"}
+  }
+}

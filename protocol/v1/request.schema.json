@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object", "additionalProperties": false,
+  "required": ["protocol_version", "execution_id", "package_key", "package_version", "query", "aliases", "limit", "parameters", "cursor", "time_range", "deadline_at"],
+  "properties": {
+    "protocol_version": {"const": "1.0"}, "execution_id": {"type": "string", "format": "uuid"},
+    "package_key": {"type": "string"}, "package_version": {"type": "string"},
+    "query": {"type": "string", "minLength": 1}, "aliases": {"type": "array", "items": {"type": "string"}},
+    "limit": {"type": "integer", "minimum": 1, "maximum": 10000}, "parameters": {"type": "object"},
+    "cursor": {}, "cursor_version": {"type": "integer", "minimum": 0},
+    "time_range": {"type": "object", "required": ["from", "to"], "properties": {"from": {"type": ["string", "null"]}, "to": {"type": ["string", "null"]}}},
+    "deadline_at": {"type": "string", "format": "date-time"}
+  }
+}

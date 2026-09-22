@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object", "additionalProperties": false,
+  "required": ["protocol_version", "execution_id", "status", "item_count", "next_cursor", "has_more", "warnings", "error"],
+  "properties": {
+    "protocol_version": {"const": "1.0"}, "execution_id": {"type": "string", "format": "uuid"},
+    "status": {"enum": ["completed", "partial", "failed"]}, "item_count": {"type": "integer", "minimum": 0},
+    "next_cursor": {}, "has_more": {"type": "boolean"}, "warnings": {"type": "array"},
+    "error": {"type": ["object", "null"]}
+  }
+}

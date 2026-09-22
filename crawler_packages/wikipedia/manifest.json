@@ -1,0 +1,33 @@
+{
+  "protocol_version": "1.0",
+  "package_key": "wikipedia",
+  "package_version": "1.0.1",
+  "name": "Wikipedia",
+  "description": "获取中文维基百科词条，并可回退英文词条",
+  "category": "encyclopedia",
+  "runtime": {"type": "python", "python_version": "3.9", "entrypoint": "crawler.py", "dependencies": "requirements.lock"},
+  "capabilities": {"incremental": false},
+  "parameters_schema": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "type": "object",
+    "properties": {"english_fallback": {"type": "boolean", "default": true}},
+    "additionalProperties": false
+  },
+  "secret_names": [],
+  "output_schema_version": 1,
+  "output_schema": {
+    "fields": [
+      {"name": "external_id", "type": "string", "max_length": 256, "nullable": false},
+      {"name": "title", "type": "string", "max_length": 1000, "nullable": false},
+      {"name": "url", "type": "text", "nullable": false},
+      {"name": "summary", "type": "text", "nullable": true},
+      {"name": "content", "type": "text", "nullable": true},
+      {"name": "publisher", "type": "string", "max_length": 255, "nullable": false},
+      {"name": "language", "type": "string", "max_length": 32, "nullable": false},
+      {"name": "source_site", "type": "string", "max_length": 128, "nullable": false}
+    ],
+    "identity_fields": ["source_site", "external_id"],
+    "indexes": [["external_id"], ["language"]],
+    "mapping": {"title": "title", "url": "url", "summary": "summary"}
+  }
+}
