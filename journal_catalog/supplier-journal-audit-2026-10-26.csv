@@ -1,0 +1,631 @@
+﻿package,journal_key,name,url,status,positive_count,confirmation_count,confirmation_status,filter_status,first_title,error
+qinyun_journals,0eb50457b4d030d9,上海商业,http://www.shsyzz.cn,failed,0,,,,,0eb50457b4d030d9 (上海商业): ValueError: UNSUPPORTED_TEMPLATE: no ASP.NET key_query form
+qinyun_journals,c9c2b03a042479e1,上海师范大学学报（自然科学版）,http://shnu.ijournals.cn,verified,1,3,passed_with_items,filters_query,基于YOLOv11s的无人机目标检测方法的研究,
+qinyun_journals,6d1744a2c2a38374,上海护理,http://shhl.ijournal.cn,verified,1,3,passed_with_items,filters_query,COPD患者呼吸困难体验质性研究的Meta整合,
+qinyun_journals,cd31e80ebdd3bf53,上海涂料,http://shtl.chinajournal.net.cn,failed,0,,,,,cd31e80ebdd3bf53 (上海涂料): URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)>
+qinyun_journals,4be4ac7f54ef8c74,上海理工大学学报,http://jns.usst.edu.cn,verified,1,3,passed_with_items,filters_query,双股射流撞击雾化的数值模拟研究,
+qinyun_journals,77989859edb9462a,上海理工大学学报（社会科学版）,http://jss.usst.edu.cn,verified,1,3,passed_with_items,filters_query,中外大学生英语作文中的词汇和句法复杂度对比研究,
+qinyun_journals,72f7992320714a7e,世界睡眠医学杂志,http://www.sjsmyxzz.com,failed,0,,,,,72f7992320714a7e (世界睡眠医学杂志): ValueError: UNSUPPORTED_TEMPLATE: no ASP.NET key_query form
+qinyun_journals,c3cd23730ecaa89d,东南国防医药,http://dngfyy.paperopen.com,failed,0,,,,,c3cd23730ecaa89d (东南国防医药): ValueError: UNSUPPORTED_TEMPLATE: no ASP.NET key_query form
+qinyun_journals,2f13b0950759e0c2,东南大学学报（哲学社会科学版）,http://skxb.seu.edu.cn,verified,1,3,passed_with_items,filters_query,在线负面评论反馈与潜在消费者推断——基于在线随机实验的研究,
+qinyun_journals,e169aba0a3620074,中共成都市委党校学报,http://cddx.chinajournal.net.cn,failed,0,,,,,e169aba0a3620074 (中共成都市委党校学报): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,94a92ca09f30e7a1,中共济南市委党校学报,http://jndx.gov.cn,failed,0,,,,,94a92ca09f30e7a1 (中共济南市委党校学报): ValueError: UNSUPPORTED_TEMPLATE: no ASP.NET key_query form
+qinyun_journals,e6428230da2971a7,中医眼耳鼻喉杂志,http://zyyebhzz.paperopen.com,failed,0,,,,,e6428230da2971a7 (中医眼耳鼻喉杂志): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,cc31432ea76d571f,中医药信息,http://zyyxx.hljucm.net/ch/index.aspx,verified,1,3,passed_with_items,filters_query,基于YOLOv11－ACW的野外中草药目标检测研究,
+qinyun_journals,8a8513ccd5251bd2,中医药学报,http://zyyxb.hljucm.net,verified,1,3,passed_with_items,filters_query,大补阴丸治疗2型糖尿病合并骨关节炎的实验研究,
+qinyun_journals,a317a0b27f8af91e,中医药导报,http://www.zyydb.com,failed,0,,,,,a317a0b27f8af91e (中医药导报): ValueError: UNSUPPORTED_TEMPLATE: no ASP.NET key_query form
+qinyun_journals,27cca1fd7dfd4e87,中医药文化,http://ygwz.chinajournal.net.cn,failed,0,,,,,27cca1fd7dfd4e87 (中医药文化): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,fd2c5d0e6e21fa9b,中医药文化（英文）,https://www.editorialmanager.com/cmc,failed,0,,,,,fd2c5d0e6e21fa9b (中医药文化（英文）): ValueError: UNSUPPORTED_TEMPLATE: no ASP.NET key_query form
+qinyun_journals,0cf4fdac8a7cf2ef,中华女子学院学报,http://znxy.chinajournal.net.cn,failed,0,,,,,0cf4fdac8a7cf2ef (中华女子学院学报): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,f16c09bfb691acd3,中华放射医学与防护杂志,http://www.cjrmp.net,verified,1,3,passed_with_items,filters_query,偏等中心容积旋转调强放疗技术在同时性双侧乳腺癌放疗的可行性研究,
+qinyun_journals,ecf1f1f0fc1c1b2d,中华流行病学杂志,http://chinaepi.icdc.cn,verified,1,3,passed_with_items,filters_query,糖耐量异常人群健康行为干预研究,
+qinyun_journals,9eb617598cfb7ac6,中南医学科学杂志,http://nhqks.cnjournals.com/yx,verified,1,3,passed_with_items,filters_query,中性粒细胞与巨噬细胞在细菌感染中协同作用的研究进展,
+qinyun_journals,1b3949cd4acde7e9,中国中药杂志,http://www.cjcmm.com.cn,failed,0,,,,,1b3949cd4acde7e9 (中国中药杂志): URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)>
+qinyun_journals,9dac0750ac9bebdf,中国中西医结合外科杂志,http://tcmsj.ijournal.cn,verified,1,3,passed_with_items,filters_query,基于吴咸中“以法为突破口，抓法求理”学术思想探究通里攻下法治疗阳明腑实证肠道屏障功能障碍的中西医结合研究,
+qinyun_journals,e4bc646cf79121f2,中国中西医结合皮肤性病学杂志,http://zxyd.chinajournal.net.cn,failed,0,,,,,e4bc646cf79121f2 (中国中西医结合皮肤性病学杂志): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,c87d36422778037d,中国中西医结合肾病杂志,http://JXSB.chinajournal.net.cn,failed,0,,,,,c87d36422778037d (中国中西医结合肾病杂志): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,aed34ef08ab4dd40,中国临床新医学,http://www.zglcxyxzz.com,verified,1,3,passed_with_items,filters_query,子宫腺肌病热消融治疗的临床策略与研究进展,
+qinyun_journals,f3e4acb5d5a5b938,中国介入影像与治疗学,http://www.cjiit.com,verified,1,3,passed_with_items,filters_query,约束型球囊用于下肢外周动脉疾病研究进展,
+qinyun_journals,94128c9d10f83790,中国保安,http://www.zgba.org,failed,0,,,,,94128c9d10f83790 (中国保安): ValueError: UNSUPPORTED_TEMPLATE: no ASP.NET key_query form
+qinyun_journals,5dd8741e45289333,中国修船,http://zgxc.chinajournal.net.cn,failed,0,,,,,5dd8741e45289333 (中国修船): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,956a23beff9c91cb,中国兽药杂志,http://zgsyzz.ivdc.org.cn,verified,1,3,passed_with_items,filters_query,蛋鸡宝薄层鉴别质量标准提升研究,
+qinyun_journals,b6e9c4269ec3bb32,中国农业大学学报（社会科学版）,http://zgnydxsk.cnjournals.net,verified,1,3,passed_with_items,filters_query,重识“社会基础”：一项对脐橙经营中交往细节的社会学研究,
+qinyun_journals,d460a22dffaa2e3b,中国农业文摘-农业工程,http://zgnywz.cnjournals.net,verified,1,3,passed_with_items,filters_query,乡村振兴背景下乡村碳中和的实现路径研究——以遵义市S镇为例,
+qinyun_journals,72e1e50d662fbc78,中国农业资源与区划,http://cjarrp.ijournals.cn,failed,0,,,,,72e1e50d662fbc78 (中国农业资源与区划): ValueError: UNSUPPORTED_TEMPLATE: no ASP.NET key_query form
+qinyun_journals,2e5c0c8cac402118,中国初级卫生保健,http://www.cphc.cn,verified,1,3,passed_with_items,filters_query,基于中医药总费用核算的辽宁省基层医疗卫生机构 中医药服务能力发展情况研究,
+qinyun_journals,fe0c4cc5349a7506,中国医学影像技术,http://www.cjmit.com,verified,1,3,passed_with_items,filters_query,多模态高级MRI技术用于脑小血管病研究进展,
+qinyun_journals,57a1b79740fcf4e0,中国医疗美容,http://zgylmr.org.cn,failed,0,,,,,57a1b79740fcf4e0 (中国医疗美容): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,9315179ed7df988d,中国医院管理,http://www.zgyygl.com,verified,1,3,passed_with_items,filters_query,基于“明智选择”倡议的价值医疗服务循证报告框架研究,
+qinyun_journals,0a8e3dbe7016749e,中国卫生政策研究,http://journal.healthpolicy.cn,failed,0,,,,,0a8e3dbe7016749e (中国卫生政策研究): HTTPError: HTTP Error 502: Bad Gateway
+qinyun_journals,156e0a5131fdd0b7,中国卫生经济,http://www.cn-he.cn,verified,1,3,passed_with_items,filters_query,中国全民健身政策演进对脑相关疾病负担的影响研究,
+qinyun_journals,5261148fb0383dc3,中国图书馆学报,http://www.jlis.cn,verified,1,3,passed_with_items,filters_query,面向知识熵减的智慧图书馆:Lib3范式研究,
+qinyun_journals,ead9e7ee5c315dd0,中国图象图形学报,http://www.cjig.cn,failed,0,,,,,ead9e7ee5c315dd0 (中国图象图形学报): ValueError: UNSUPPORTED_TEMPLATE: no ASP.NET key_query form
+qinyun_journals,526ef8f7974e1915,中国小儿血液与肿瘤杂志,http://zgxy.chinajournal.net.cn,failed,0,,,,,526ef8f7974e1915 (中国小儿血液与肿瘤杂志): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,b101fac010368464,中国工业医学杂志,http://zggyyx.ijournals.cn,verified,1,3,passed_with_items,filters_query,单细胞转录组测序技术在化学性肝损伤研究中的应用,
+qinyun_journals,c1d61a939f28a7c8,中国康复,http://www.zgkfzz.com,verified,1,3,passed_with_items,filters_query,早中期帕金森病患者全维度注意功能特征及注意功能亚型分类研究,
+qinyun_journals,caccd8a5b86cebcf,中国性科学,http://www.zgxkxzzs.com,no_results_for_test_query,0,,,,,
+qinyun_journals,318e07b2969133fc,中国感染控制杂志,http://www.zggrkz.com,verified,1,3,passed_with_items,filters_query,产碳青霉烯酶肠杆菌目细菌感染临床特征、耐药性及预后:一项前瞻性单中心研究,
+qinyun_journals,39dd2005992e24ec,中国整形与重建外科（英文）,http://cjprs.org.cn,failed,0,,,,,39dd2005992e24ec (中国整形与重建外科（英文）): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,57c856e448f004ce,中国斜视与小儿眼科杂志,http://zgxs.chinajournal.net.cn,failed,0,,,,,57c856e448f004ce (中国斜视与小儿眼科杂志): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,fc21d96bc64a4bca,中国材料进展,http://www.mat-china.com,failed,0,,,,,fc21d96bc64a4bca (中国材料进展): ValueError: UNSUPPORTED_TEMPLATE: no ASP.NET key_query form
+qinyun_journals,1227d9ee0e362761,中国民族民间医药,http://www.mzmjyy.com,verified,1,3,passed_with_items,filters_query,小儿湿疹洗液质量标准研究,
+qinyun_journals,dc18e2d163c7942f,中国照明电器,http://zgzm.chinajournal.net.cn,failed,0,,,,,dc18e2d163c7942f (中国照明电器): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,c531f51e6b7aa782,中国物业管理,http://www.ecpmi.org.cn,failed,0,,,,,c531f51e6b7aa782 (中国物业管理): ValueError: UNSUPPORTED_TEMPLATE: no ASP.NET key_query form
+qinyun_journals,a319cd999cfc194d,中国环境管理,http://www.zghjgl.com,verified,1,3,passed_with_items,filters_query,美丽中国先行区建设背景下京津冀环境经济演进趋势研究,
+qinyun_journals,d0d82d5ce3a1c949,中国现代医生,http://www.zgxdys.com,failed,0,,,,,d0d82d5ce3a1c949 (中国现代医生): URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1082)>
+qinyun_journals,636afdf7d3f23c2a,中国畜牧兽医文摘,http://www.zxwa.chinajournal.net.cn,failed,0,,,,,636afdf7d3f23c2a (中国畜牧兽医文摘): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,90fb2ff6c7892aec,中国肿瘤生物治疗杂志,http://www.biother.cn,verified,1,3,passed_with_items,filters_query,脂滴包被蛋白3在肿瘤中的作用研究进展,
+qinyun_journals,967fa2632d7dc8ab,中国证券期货,http://www.zqqh.chinajournal.net.cn,failed,0,,,,,967fa2632d7dc8ab (中国证券期货): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,fa1f51351e4e6377,中国骨伤,http://www.zggszz.com,verified,1,3,passed_with_items,filters_query,不同时间应用巨刺电针改善全膝关节置换术后疼痛及关节功能的随机对照研究,
+qinyun_journals,9a7bb82b46dbf7da,中国骨质疏松杂志,http://www.chinacjo.com,verified,1,3,passed_with_items,filters_query,新疆农牧区老年人UHR与肌少症相关性研究,
+qinyun_journals,e87304b8af6a99a5,临床医药实践,http://sxlc.chinajournal.net.cn,failed,0,,,,,e87304b8af6a99a5 (临床医药实践): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,9245873d16de2cea,乐府新声,http://www.sycm.edu.cn,failed,0,,,,,9245873d16de2cea (乐府新声): ValueError: UNSUPPORTED_TEMPLATE: no ASP.NET key_query form
+qinyun_journals,272eee67e3973078,云南中医中药杂志,http://yzyy.chinajournal.net.cn,failed,0,,,,,272eee67e3973078 (云南中医中药杂志): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,8b2c130f21e4afb5,云南大学学报（法学版）,http://ynfx.chinajournal.net.cn,failed,0,,,,,8b2c130f21e4afb5 (云南大学学报（法学版）): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,589acc2266c72634,云南电力技术,http://yndljs.cnjournals.cn,verified,1,3,passed_with_items,filters_query,三氟碘甲烷在有功负载电流下分解特性研究,
+qinyun_journals,4bf211261f900e6b,交大法学,http://lawreview.sjtu.edu.cn,verified,1,3,passed_with_items,filters_query,面向空间智能的隐私升维与权利保护研究,
+qinyun_journals,8b3fb741b2fb407a,人才资源开发,http://xzrg.chinajournal.net.cn,failed,0,,,,,8b3fb741b2fb407a (人才资源开发): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,9ccae64ff85a2173,人民论坛·学术前沿,http://rmxs.chinajournal.net.cn,failed,0,,,,,9ccae64ff85a2173 (人民论坛·学术前沿): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,21e0dacd9a69a83b,今日科苑,http://modsci.cnais.org.cn,verified,1,3,passed_with_items,filters_query,学科奥赛获奖者的学业及职业发展去向研究——以200名北京市奥赛获奖者为样本,
+qinyun_journals,488d232367f29cf4,仪器仪表学报（英文版）,http://www.etmchina.com,failed,0,,,,,488d232367f29cf4 (仪器仪表学报（英文版）): ValueError: UNSUPPORTED_TEMPLATE: no ASP.NET key_query form
+qinyun_journals,9c9d540c0cbff866,价格理论与实践,http://www.price-world.com.cn,failed,0,,,,,9c9d540c0cbff866 (价格理论与实践): ValueError: UNSUPPORTED_TEMPLATE: no ASP.NET key_query form
+qinyun_journals,5b4fe0837d6b60ab,会计研究,http://kjyj.chinajournal.net.cn,failed,0,,,,,5b4fe0837d6b60ab (会计研究): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,c680faf8615f187c,传感器世界,http://www.sensorworld.com.cn,failed,0,,,,,c680faf8615f187c (传感器世界): ValueError: UNSUPPORTED_TEMPLATE: no ASP.NET key_query form
+qinyun_journals,34dc0e2df64cb679,传感技术学报,http://chinatransducers.seu.edu.cn,verified,1,3,passed_with_items,filters_query,纳米孔传感器前端放大电路研究进展,
+qinyun_journals,7934fe4fdd274b89,体育科学研究,https://xuebaobangong.jmu.edu.cn/tyb,failed,0,,,,,7934fe4fdd274b89 (体育科学研究): ValueError: UNSUPPORTED_TEMPLATE: no ASP.NET key_query form
+qinyun_journals,3c189c58dcb9f4c9,保鲜与加工,http://www.bxyjg.com,verified,1,3,passed_with_items,filters_query,肉桂醛/β-环糊精包合物的制备及其对‘徐香’ 猕猴桃即食货架期品质的影响研究,
+qinyun_journals,cdccfe0de1f69e37,信阳农林学院学报,http://xyng.chinajournal.net.cn,failed,0,,,,,cdccfe0de1f69e37 (信阳农林学院学报): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,7b669781d203d249,儿科药学杂志,http://www.ekyxzz.com.cn,verified,1,3,passed_with_items,filters_query,母乳乳清蛋白辅助治疗儿童病毒性上呼吸道感染的随机对照研究,
+qinyun_journals,49f584b5df6a1cbb,光学仪器,http://joi.usst.edu.cn,verified,1,3,passed_with_items,filters_query,黄色荧光碳点的可控制备及其对Hg 2+ 的高灵敏检测研究,
+qinyun_journals,01cc41d3056fd4ce,光源与照明,http://gyzm.chinajournal.net.cn,failed,0,,,,,01cc41d3056fd4ce (光源与照明): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,bf91f345ed45a30a,全球变化数据仓储（中英文）,http://www.geodoi.ac.cn,failed,0,,,,,bf91f345ed45a30a (全球变化数据仓储（中英文）): HTTPError: HTTP Error 500: Internal Server Error
+qinyun_journals,d647a113c5629e95,全科医学临床与教育,http://www.zhqkyx.cn,failed,0,,,,,d647a113c5629e95 (全科医学临床与教育): ValueError: UNSUPPORTED_TEMPLATE: no ASP.NET key_query form
+qinyun_journals,d75c6418e77b1734,公路交通技术,http://gljt.chinajournal.net.cn,failed,0,,,,,d75c6418e77b1734 (公路交通技术): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,fead91fc2a60528d,兰州大学学报（社会科学版）,http://www.ldsk.chinajournal.net.cn,failed,0,,,,,fead91fc2a60528d (兰州大学学报（社会科学版）): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,53d07a0c31f66aab,兰州大学学报（自然科学版）,http://ldzk.chinajournal.net.cn,failed,0,,,,,53d07a0c31f66aab (兰州大学学报（自然科学版）): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,32941de87d6e2813,内江科技,http://kjnj.chinajournal.net.cn,failed,0,,,,,32941de87d6e2813 (内江科技): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,aaafc1a86263dd7c,内科急危重症杂志,http://nkjwzzzz.chmed.net,verified,1,3,passed_with_items,filters_query,成人支气管扩张症治疗最新研究进展：从症状控制到精准干预,
+qinyun_journals,3a70fb0d4ccc9908,内蒙古民族大学学报（社会科学版）,http://nmsx.chinajournal.net.cn,failed,0,,,,,3a70fb0d4ccc9908 (内蒙古民族大学学报（社会科学版）): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,07e9609253d00754,内蒙古石油化工,http://nmsh.chinajournal.net.cn,failed,0,,,,,07e9609253d00754 (内蒙古石油化工): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,36d74fb9189ffe5b,内蒙古社会科学,http://nmgshkx.paperopen.com,failed,0,,,,,36d74fb9189ffe5b (内蒙古社会科学): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,36b34b965b9dc352,军事高等教育研究,http://gdjyyjxb.nudt.edu.cn,verified,1,3,passed_with_items,filters_query,《军事高等教育研究》2026年第3期封面,
+qinyun_journals,e6521284304ba05b,军队政工理论研究,http://www.jdzg.chinajournal.net.cn,failed,0,,,,,e6521284304ba05b (军队政工理论研究): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,2216e63cddc2b871,农业工程技术·农产品加工业,http://nygn.chinajournal.net.cn,failed,0,,,,,2216e63cddc2b871 (农业工程技术·农产品加工业): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,d486f953645ea450,农业环境科学学报,https://www.aes.org.cn/nyhjkxxb/ch/index.aspx,verified,1,3,passed_with_items,filters_query,生物降解塑料自然和人工强化环境中碳代谢研究进展与展望,
+qinyun_journals,39897ff0e0e35e8f,农业资源与环境学报,https://www.aed.org.cn/nyzyyhjxb/ch/index.aspx,verified,1,3,passed_with_items,filters_query,过硫酸盐缓释技术原位修复地下水中难降解有机污染物研究进展,
+qinyun_journals,bb21c7e76eaae5ab,农村金融研究,http://ncjr.chinajournal.net.cn,failed,0,,,,,bb21c7e76eaae5ab (农村金融研究): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,221736e17f43312b,农银学刊,http://lhwg.chinajournal.net.cn,failed,0,,,,,221736e17f43312b (农银学刊): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,36f1ede8b1cff8e7,创意世界,http://www.iprchn.com/cysj,failed,0,,,,,36f1ede8b1cff8e7 (创意世界): ValueError: UNSUPPORTED_TEMPLATE: no ASP.NET key_query form
+qinyun_journals,32ed243228fcb866,创意设计源,https://idea.sada.edu.cn/cysjy/home,failed,0,,,,,32ed243228fcb866 (创意设计源): HTTPError: HTTP Error 500: Internal Server Error
+qinyun_journals,a02e4c49b7284da6,创造,http://cuza.chinajournal.net.cn,failed,0,,,,,a02e4c49b7284da6 (创造): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,cf3bcd358c450600,化学通报（印刷版）,http://www.hxtb.org.cn,verified,1,3,passed_with_items,filters_query,糠醛电催化还原的研究进展,
+qinyun_journals,5e23cab608a2d9fe,化纤与纺织技术,http://www.gdhq.chinajournal.net.cn,failed,0,,,,,5e23cab608a2d9fe (化纤与纺织技术): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,b1b0d1e1d5b34bf5,北华航天工业学院学报,http://hhgy.chinajournal.net.cn,failed,0,,,,,b1b0d1e1d5b34bf5 (北华航天工业学院学报): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,2a9ca0fcf18f674e,北方园艺,http://bfyy.haasep.cn,failed,0,,,,,2a9ca0fcf18f674e (北方园艺): ValueError: UNSUPPORTED_TEMPLATE: no ASP.NET key_query form
+qinyun_journals,fbdb99f154df56e3,医学与社会,http://yxysh.hust.edu.cn,failed,0,,,,,fbdb99f154df56e3 (医学与社会): ValueError: UNSUPPORTED_TEMPLATE: no ASP.NET key_query form
+qinyun_journals,b7574be55e56c62e,医学动物防制,http://www.yxdwfz.com,failed,0,,,,,b7574be55e56c62e (医学动物防制): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,ac5ad5935c475268,医学研究杂志,http://www.yxyjzz.cn,failed,0,,,,,ac5ad5935c475268 (医学研究杂志): URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>
+qinyun_journals,64c0b9e4d99a1f8e,华东电力,http://hddl.chinajournal.net.cn,failed,0,,,,,64c0b9e4d99a1f8e (华东电力): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,69fcb22e4618f491,华中师范大学研究生论丛,https://zsdx.chinajournal.net.cn,failed,0,,,,,69fcb22e4618f491 (华中师范大学研究生论丛): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,caad31f515891d61,华人时刊,http://hrsk.chinajournal.net.cn,failed,0,,,,,caad31f515891d61 (华人时刊): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,c3d0caf85f12e769,华侨华人历史研究,http://hqly.chinajournal.net.cn,failed,0,,,,,c3d0caf85f12e769 (华侨华人历史研究): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,5337102f3eed69b8,华南农业大学学报（社会科学版）,https://xuebao.scau.edu.cn/sk/ch/index.aspx,no_results_for_test_query,0,,,,,
+qinyun_journals,bfb45fc2426d9bd7,华夏医学,https://hxyx.glmc.edu.cn,failed,0,,,,,bfb45fc2426d9bd7 (华夏医学): ValueError: UNSUPPORTED_TEMPLATE: no ASP.NET key_query form
+qinyun_journals,a567677e4e0d99ce,华章,http://www.hjts.chinajournal.net.cn,failed,0,,,,,a567677e4e0d99ce (华章): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,fb3e283a4b537cac,南京社会科学,http://njsh.chinajournal.net.cn,failed,0,,,,,fb3e283a4b537cac (南京社会科学): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,2c1be600e1e343c9,南华大学学报（自然科学版）,http://nhqks.cnjournals.com/zr/ch/index.aspx,verified,1,3,passed_with_items,filters_query,液氮循环冷冲击作用下砂岩铀矿储层孔隙结构演化及分形特征研究,
+qinyun_journals,1378f99e250e089a,南开管理评论,http://nbr.nankai.edu.cn,failed,0,,,,,1378f99e250e089a (南开管理评论): HTTPError: HTTP Error 403: Forbidden
+qinyun_journals,032f397f0d77838f,南方职业教育学刊,http://www.nfzj.chinajournal.net.cn,failed,0,,,,,032f397f0d77838f (南方职业教育学刊): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,9f53855ac96e8237,卫生经济研究,http://www.wsjjyj.com,failed,0,,,,,9f53855ac96e8237 (卫生经济研究): ValueError: UNSUPPORTED_TEMPLATE: no ASP.NET key_query form
+qinyun_journals,0f65cab6a6b3ce7b,印染,https://yira.chinajournal.net.cn,failed,0,,,,,0f65cab6a6b3ce7b (印染): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,8aee93044feb13ef,原子与分子物理学报,http://jamp.ijournals.cn,verified,1,3,passed_with_items,filters_query,As掺杂(NaNH2)2与NaH反应机理及氢转移机制的密度泛函理论研究,
+qinyun_journals,73ac2b1acddc7a66,右江民族医学院学报,http://xb.ymun.edu.cn,failed,0,,,,,73ac2b1acddc7a66 (右江民族医学院学报): ValueError: response exceeds 3 MB
+qinyun_journals,bd2589c5c46353ad,合成树脂及塑料,http://hcsz.chinajournal.net.cn,failed,0,,,,,bd2589c5c46353ad (合成树脂及塑料): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,6161fa602f0eb35e,吉林体育学院学报,http://jlty.chinajournal.net.cn,failed,0,,,,,6161fa602f0eb35e (吉林体育学院学报): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,2a686be18094033a,听力学及言语疾病杂志,http://tlxj.chinajournal.net.cn,failed,0,,,,,2a686be18094033a (听力学及言语疾病杂志): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,c4288c5127810852,哈尔滨医科大学学报,http://hydx.chinajournal.net.cn,failed,0,,,,,c4288c5127810852 (哈尔滨医科大学学报): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,277b37562ac1aaca,哈尔滨商业大学学报（社会科学版）,http://www.hljc.chinajournal.net.cn,failed,0,,,,,277b37562ac1aaca (哈尔滨商业大学学报（社会科学版）): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,588358831368b82d,哈尔滨工业大学学报,http://hit.alljournals.cn,verified,1,3,passed_with_items,filters_query,碳纤维水性上浆剂研究进展,
+qinyun_journals,3e70db7ce9732836,哈尔滨工业大学学报（英文版）,http://hit.alljournals.cn/jhit_cn/ch/index.aspx,verified,1,3,passed_with_items,filters_query,Review: Progress in the Preparation of Iron Based Magnetic Nanoparticles for Biomedical Applications,
+qinyun_journals,f92ed5dc6ac2e9be,哈尔滨市委党校学报,http://www.bswd.chinajournal.net.cn,failed,0,,,,,f92ed5dc6ac2e9be (哈尔滨市委党校学报): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,979a090ca84eb671,唐山学院学报,http://xuebao.tsc.edu.cn,failed,0,,,,,979a090ca84eb671 (唐山学院学报): HTTPError: HTTP Error 502: Bad Gateway
+qinyun_journals,52156f0a45297d2a,商业文化,http://sywh.chinajournal.net.cn,failed,0,,,,,52156f0a45297d2a (商业文化): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,39395f3f65bf5e37,四川档案,http://scda.chinajournal.net.cn,failed,0,,,,,39395f3f65bf5e37 (四川档案): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,77741bc2d77e2c5e,四川水利,http://scsn.chinajournal.net.cn,failed,0,,,,,77741bc2d77e2c5e (四川水利): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,9cdcc229c0c4f403,固体力学学报（英文版）,http://www.editorialmanager.com/amss/default.aspx,failed,0,,,,,9cdcc229c0c4f403 (固体力学学报（英文版）): ValueError: UNSUPPORTED_TEMPLATE: no ASP.NET key_query form
+qinyun_journals,cc9f4cbb779a8a10,国际城市规划,http://www.upi-planning.org.cn,failed,0,,,,,cc9f4cbb779a8a10 (国际城市规划): ValueError: UNSUPPORTED_TEMPLATE: no ASP.NET key_query form
+qinyun_journals,5636d3ff7212bc02,地球学报,http://www.cagsbulletin.com,verified,1,3,passed_with_items,filters_query,云南澜沧发展河花岗岩体成因研究——锆石U-Pb年龄、地球化学及Sr-Nd-Pb同位素制约,
+qinyun_journals,2db1ad993d8145b4,城镇供水,http://www.czgszz.cn,failed,0,,,,,2db1ad993d8145b4 (城镇供水): ValueError: UNSUPPORTED_TEMPLATE: no ASP.NET key_query form
+qinyun_journals,2801bffa66176712,复旦教育论坛,http://fdjylt.ijournals.cn,verified,1,3,passed_with_items,filters_query,AI时代的研究效率与评价转向,
+qinyun_journals,c882ae1d13aeb066,外国教育研究,http://www.sfe.org.cn,failed,0,,,,,c882ae1d13aeb066 (外国教育研究): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,51752a69a625e72d,大家,http://daji.chinajournal.net.cn,failed,0,,,,,51752a69a625e72d (大家): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,911e424333c39409,大电机技术,http://djdj.chinajournal.net.cn,failed,0,,,,,911e424333c39409 (大电机技术): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,3cb577d1ad5742ba,大连医科大学学报,https://journal.dmu.edu.cn,failed,0,,,,,3cb577d1ad5742ba (大连医科大学学报): URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)>
+qinyun_journals,4c0ee94bafc4a023,大连干部学刊,https://dlgb.chinajournal.net.cn,failed,0,,,,,4c0ee94bafc4a023 (大连干部学刊): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,6a59d34db4be441a,天府新论,http://www.tianfuxinlun.com,verified,1,3,passed_with_items,filters_query,人工智能的社会技术想象与情感话语建构研究——基于全球AI治理政策的媒介话语分析,
+qinyun_journals,4c6f43d6d18067e4,天津医科大学学报,http://tjykdxxb.paperopen.com,failed,0,,,,,4c6f43d6d18067e4 (天津医科大学学报): ValueError: UNSUPPORTED_TEMPLATE: no ASP.NET key_query form
+qinyun_journals,56587206a18ec241,天津外国语大学学报,http://tjwg.chinajournal.net.cn,failed,0,,,,,56587206a18ec241 (天津外国语大学学报): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,e704927b8703e4e5,天津师范大学学报（基础教育版）,http://tsjy.chinajournal.net.cn,failed,0,,,,,e704927b8703e4e5 (天津师范大学学报（基础教育版）): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,68ac73cb33b95037,学术交流,http://xsjl.chinajournal.net.cn,failed,0,,,,,68ac73cb33b95037 (学术交流): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,eb777ad673cb2fa4,学术探索,http://yxst.chinajournal.net.cn,failed,0,,,,,eb777ad673cb2fa4 (学术探索): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,765c32f663eca953,学校党建与思想教育,http://xxdj.chinajournal.net.cn,failed,0,,,,,765c32f663eca953 (学校党建与思想教育): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,f2971d791d509e19,宁夏党校学报,http://nxdb.chinajournal.net.cn,failed,0,,,,,f2971d791d509e19 (宁夏党校学报): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,4e2499a176dab411,安徽建筑大学学报,http://xuebao.ahjzu.edu.cn,verified,1,3,passed_with_items,filters_query,西部干旱区风化煤资源化利用评价指标体系构建与研究,
+qinyun_journals,58c932ec3481d2a0,实验室研究与探索,http://sysy.chinajournal.net.cn,failed,0,,,,,58c932ec3481d2a0 (实验室研究与探索): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,a6b06d97662d3fec,审计研究,http://sjyz.chinajournal.net.cn,failed,0,,,,,a6b06d97662d3fec (审计研究): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,126cd92f3966721b,小学教学研究,http://xxjy.chinajournal.net.cn,failed,0,,,,,126cd92f3966721b (小学教学研究): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,82836de721c7003d,山东农业大学学报（社会科学版）,http://www.sdnd.chinajournal.net.cn,failed,0,,,,,82836de721c7003d (山东农业大学学报（社会科学版）): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,3671c3394e523510,山东水利,http://sdsl.ijournals.cn,failed,0,,,,,3671c3394e523510 (山东水利): ValueError: UNSUPPORTED_TEMPLATE: no ASP.NET key_query form
+qinyun_journals,2c8ec2f75c22a6e5,山西林业,http://sxly.chinajournal.net.cn,failed,0,,,,,2c8ec2f75c22a6e5 (山西林业): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,03dd9e27cc1fb6c4,山西果树（已更名为《果树资源学报》）,http://sxgs.chinajournal.net.cn,failed,0,,,,,03dd9e27cc1fb6c4 (山西果树（已更名为《果树资源学报》）): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,3222de5cf5b82c4a,山西煤炭,http://sxmt.chinajournal.net.cn,failed,0,,,,,3222de5cf5b82c4a (山西煤炭): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,32670fd074d31755,山西高等学校社会科学学报,http://sxgd.chinajournal.net.cn,failed,0,,,,,32670fd074d31755 (山西高等学校社会科学学报): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,d5b9ed4836e18ec0,岩石矿物学杂志,http://www.yskw.ac.cn,verified,1,3,passed_with_items,filters_query,相山破火山口火山杂岩体的岩石学研究,
+qinyun_journals,0b27df440c8c6497,工业仪表与自动化装置,http://yb-zdh.shaangu-group.com,failed,0,,,,,0b27df440c8c6497 (工业仪表与自动化装置): ValueError: UNSUPPORTED_TEMPLATE: no ASP.NET key_query form
+qinyun_journals,8c52e666ab456be5,工业安全与环保,http://gyaf.chinajournal.net.cn,failed,0,,,,,8c52e666ab456be5 (工业安全与环保): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,9dc6502000685b80,工业用水与废水,http://hggs.chinajournal.net.cn,failed,0,,,,,9dc6502000685b80 (工业用水与废水): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,eb2e56f838579ae0,工程科学与技术,http://jsuese.scu.edu.cn,failed,0,,,,,eb2e56f838579ae0 (工程科学与技术): ValueError: UNSUPPORTED_TEMPLATE: no ASP.NET key_query form
+qinyun_journals,e7d3361ef389677a,广西畜牧兽医,http://gxsm.chinajournal.net.cn,failed,0,,,,,e7d3361ef389677a (广西畜牧兽医): ValueError: UNSUPPORTED_TEMPLATE: no ASP.NET key_query form
+qinyun_journals,b03c1541d0ba978a,广西社会主义学院学报,http://gxsx.chinajournal.net.cn,failed,0,,,,,b03c1541d0ba978a (广西社会主义学院学报): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,bea287f20343ff80,广西科学,http://gxkx.ijournals.cn,verified,1,3,passed_with_items,filters_query,基于多组学的茶枝柑果皮多甲氧基黄酮积累机制研究,
+qinyun_journals,499af0ba2d032d98,广西财经学院学报,http://gxsy.chinajournal.net.cn,failed,0,,,,,499af0ba2d032d98 (广西财经学院学报): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,450693a151ed2234,广西质量监督导报,http://gxzl.chinajournal.net.cn,failed,0,,,,,450693a151ed2234 (广西质量监督导报): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,42bb32a3c3a0a7a8,广西通信技术,http://gxtx.chinajournal.net.cn,failed,0,,,,,42bb32a3c3a0a7a8 (广西通信技术): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,367f86a5fcd49c53,应用数学年刊（英文版）,http://aam.fzu.edu.cn,no_results_for_test_query,0,,,,,
+qinyun_journals,825175c63ef7b359,应用昆虫学报,http://www.ent-bull.com.cn,failed,0,,,,,825175c63ef7b359 (应用昆虫学报): ValueError: UNSUPPORTED_TEMPLATE: no ASP.NET key_query form
+qinyun_journals,207ca7b3389a95bd,延安职业技术学院学报,http://yaxb.chinajournal.net.cn,failed,0,,,,,207ca7b3389a95bd (延安职业技术学院学报): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,4e871f743dec6f96,建筑师,http://thearchitect.cabp.com.cn,verified,1,3,passed_with_items,filters_query,世界聚落研究五十年——原广司与山本理显建筑思想和作品中的聚落观,
+qinyun_journals,d3e4f07fdae6e883,建筑科学,http://jzkx.chinajournal.net.cn,failed,0,,,,,d3e4f07fdae6e883 (建筑科学): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,407bbf998779b585,建筑设计管理,http://jzgl.chinajournal.net.cn,failed,0,,,,,407bbf998779b585 (建筑设计管理): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,9767755d1a2bae52,开发研究,http://kfyj.chinajournal.net.cn,failed,0,,,,,9767755d1a2bae52 (开发研究): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,f5a0fd28c6f831c8,开放导报,http://www.kfdb.chinajournal.net.cn,failed,0,,,,,f5a0fd28c6f831c8 (开放导报): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,783d4e5ea99c45c7,微循环学杂志,http://wxhx.chinajournal.net.cn,failed,0,,,,,783d4e5ea99c45c7 (微循环学杂志): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,e7f68c87b158e4bc,心血管病学进展,http://xxgbxzz.paperopen.com,failed,0,,,,,e7f68c87b158e4bc (心血管病学进展): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,c097072813f99134,情报工程,http://tie.istic.ac.cn,verified,1,3,passed_with_items,filters_query,多属性学术评价值的误差形成机制及对策研究,
+qinyun_journals,814c4a05c861621b,感染医学（英文）,http://www.editorialmanager.com/imj/default2.aspx,failed,0,,,,,814c4a05c861621b (感染医学（英文）): ValueError: UNSUPPORTED_TEMPLATE: no ASP.NET key_query form
+qinyun_journals,e6617e666872491a,投资与合作,http://tzyh.chinajournal.net.cn,failed,0,,,,,e6617e666872491a (投资与合作): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,14273ee1adf880a6,探求,http://taqu.chinajournal.net.cn,failed,0,,,,,14273ee1adf880a6 (探求): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,e44531a8b77a5b01,探索,http://www.tszzs.net,failed,0,,,,,e44531a8b77a5b01 (探索): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,520abd55a8b4035a,控制理论与应用,http://jcta.alljournals.ac.cn,failed,0,,,,,520abd55a8b4035a (控制理论与应用): ValueError: UNSUPPORTED_TEMPLATE: no ASP.NET key_query form
+qinyun_journals,ba73907a271a23cb,收获,http://www.shouhuo-harvest.com,failed,0,,,,,ba73907a271a23cb (收获): ValueError: UNSUPPORTED_TEMPLATE: no ASP.NET key_query form
+qinyun_journals,7b4d5f038bf0c455,放射学实践,http://www.fsxsj.net,verified,1,3,passed_with_items,filters_query,基于深度学习重建的薄层容积内插屏气(VIBE）序列与常规容积内插屏气序列在肝细胞癌及胆管细胞癌MRI图像质量对比研究,
+qinyun_journals,9966d2024d8900c2,教育学报,http://xkjy.chinajournal.net.cn,failed,0,,,,,9966d2024d8900c2 (教育学报): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,0a165801390c7aba,数字与缩微影像,http://svji.chinajournal.net.cn,failed,0,,,,,0a165801390c7aba (数字与缩微影像): ValueError: UNSUPPORTED_TEMPLATE: no ASP.NET key_query form
+qinyun_journals,0c286bec1ed1f16e,数理统计与管理,http://sltj.chinajournal.net.cn,failed,0,,,,,0c286bec1ed1f16e (数理统计与管理): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,366aebd154838152,数量经济技术经济研究,http://www.jqte.net,verified,1,3,passed_with_items,filters_query,数字赋能何以激发内生动力？——数字乡村建设的扶智扶志效应及其协同机制研究,
+qinyun_journals,e92231adf9e4ba06,文山学院学报,http://wssz.chinajournal.net.cn,failed,0,,,,,e92231adf9e4ba06 (文山学院学报): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,9f554d77818b6446,新疆农垦经济,http://www.xjnkjj.com,failed,0,,,,,9f554d77818b6446 (新疆农垦经济): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,70aec81a5dea6c47,新疆农机化,http://xjnj.chinajournal.net.cn,failed,0,,,,,70aec81a5dea6c47 (新疆农机化): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,64f07b507865963a,旅游纵览,http://lyzl.chinajournal.net.cn,failed,0,,,,,64f07b507865963a (旅游纵览): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,0bee72b294fae703,智慧农业导刊,http://www.zhnydk.com,failed,0,,,,,0bee72b294fae703 (智慧农业导刊): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,78fb999d36d0f8ab,智能系统学报,http://tis.hrbeu.edu.cn,failed,0,,,,,78fb999d36d0f8ab (智能系统学报): HTTPError: HTTP Error 502: Bad Gateway
+qinyun_journals,6e2af7a557a2aa53,有色金属材料与工程,http://snm.usst.edu.cn,verified,1,3,passed_with_items,filters_query,PVP链长对CeO 2 抛光液分散性及CMP性能的影响研究,
+qinyun_journals,4fb71bd5b0fdc82a,服装学报,http://fzxb.paperonce.org,failed,0,,,,,4fb71bd5b0fdc82a (服装学报): ValueError: UNSUPPORTED_TEMPLATE: no ASP.NET key_query form
+qinyun_journals,2e869766686ac06a,林业与环境科学,http://sci.sinogaf.cn,verified,1,3,passed_with_items,filters_query,长春花属育种及相关性状遗传机理研究进展,
+qinyun_journals,69d3d2f1b6d9e38d,林业科技通讯,http://www.lykt.net.cn,failed,0,,,,,69d3d2f1b6d9e38d (林业科技通讯): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,94c4e302d21875ae,林业经济,http://lyjj.chinajournal.net.cn,failed,0,,,,,94c4e302d21875ae (林业经济): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,00978e1ee3be6ec6,校园心理,http://yxxl.chinajournal.net.cn,failed,0,,,,,00978e1ee3be6ec6 (校园心理): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,d6ab4495f483137c,武汉工程大学学报,http://www.jwit.org.cn,failed,0,,,,,d6ab4495f483137c (武汉工程大学学报): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,4c13ff2d510ff14c,气象与减灾研究,http://journal.weather.cn,verified,1,3,passed_with_items,filters_query,“天镜·江西”移动端应用本地化研究与实现,
+qinyun_journals,5fe126950f68a229,水利水电科技进展,http://jour.hhu.edu.cn,failed,0,,,,,5fe126950f68a229 (水利水电科技进展): HTTPError: HTTP Error 412: Precondition Failed
+qinyun_journals,87d978741a9e5772,水利经济,http://jour.hhu.edu.cn/sljj,failed,0,,,,,87d978741a9e5772 (水利经济): HTTPError: HTTP Error 412: Precondition Failed
+qinyun_journals,13986b4ccc70ddbc,水利规划与设计,http://slgh.chinajournal.net.cn,failed,0,,,,,13986b4ccc70ddbc (水利规划与设计): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,0cf7f53e62dde0bd,水电站设计,http://SDSJ.chinajournal.net.cn,failed,0,,,,,0cf7f53e62dde0bd (水电站设计): ValueError: UNSUPPORTED_TEMPLATE: no ASP.NET key_query form
+qinyun_journals,a3d591f61844c3d3,水科学与工程技术,http://hbsd.chinajournal.net.cn,failed,0,,,,,a3d591f61844c3d3 (水科学与工程技术): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,8e11170c500c7013,水资源与水工程学报,http://szyysgcxb.alljournals.ac.cn,verified,1,3,passed_with_items,filters_query,水文变异下赣江尾闾适宜生态流量与调控研究,
+qinyun_journals,658e1d06cf6452a1,汉字文化,http://hzwz.chinajournal.net.cn,failed,0,,,,,658e1d06cf6452a1 (汉字文化): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,4af5bb099d2c0eb0,汉语学报,http://www.hyxa.chinajournal.net.cn,failed,0,,,,,4af5bb099d2c0eb0 (汉语学报): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,df27f3e8d6cb2071,汉语言文学研究,http://hywx.chinajournal.net.cn,failed,0,,,,,df27f3e8d6cb2071 (汉语言文学研究): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,e2793129ff222857,汕头大学学报（人文社会科学版）,http://rwst.chinajournal.net.cn,failed,0,,,,,e2793129ff222857 (汕头大学学报（人文社会科学版）): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,6883c4aabead225f,江南大学学报（人文社会科学版）,http://jndxxbrwb.paperonce.org,failed,0,,,,,6883c4aabead225f (江南大学学报（人文社会科学版）): ValueError: UNSUPPORTED_TEMPLATE: no ASP.NET key_query form
+qinyun_journals,427dfa7693948a25,江海学刊,http://www.jhxk.cn,failed,0,,,,,427dfa7693948a25 (江海学刊): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,b79dfd7c29f4ddc0,江苏农业学报,http://jsnyxb.jaas.ac.cn,failed,0,,,,,b79dfd7c29f4ddc0 (江苏农业学报): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,3af0e5641a97576c,江苏建材,http://JSJW.chinajournal.net.cn,failed,0,,,,,3af0e5641a97576c (江苏建材): ValueError: UNSUPPORTED_TEMPLATE: no ASP.NET key_query form
+qinyun_journals,1de78b1d689d5ac5,江苏水利,http://jssl.paperopen.com,failed,0,,,,,1de78b1d689d5ac5 (江苏水利): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,a4ee20bb6fb91328,江苏蚕业,http://kscy.chinajournal.net.cn,failed,0,,,,,a4ee20bb6fb91328 (江苏蚕业): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,210907d47428a418,江苏预防医学,http://jsyf.chinajournal.net.cn,failed,0,,,,,210907d47428a418 (江苏预防医学): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,2d9a386cf85ae52c,江西师范大学学报（自然科学版）,http://lkxb.jxnu.edu.cn,failed,0,,,,,2d9a386cf85ae52c (江西师范大学学报（自然科学版）): HTTPError: HTTP Error 502: Bad Gateway
+qinyun_journals,3d609e9c815fd017,江西畜牧兽医杂志,http://jxxs.chinajournal.net.cn,failed,0,,,,,3d609e9c815fd017 (江西畜牧兽医杂志): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,2693c382d3688cd2,沈阳农业大学学报（社会科学版）,http://syld.chinajournal.net.cn,failed,0,,,,,2693c382d3688cd2 (沈阳农业大学学报（社会科学版）): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,50ff202503d27511,沈阳师范大学学报（社会科学版）,http://syss.chinajournal.net.cn,failed,0,,,,,50ff202503d27511 (沈阳师范大学学报（社会科学版）): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,3a5aa1197ab6b7c9,沈阳师范大学学报（自然科学版）,http://zrb.synu.edu.cn,failed,0,,,,,3a5aa1197ab6b7c9 (沈阳师范大学学报（自然科学版）): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,003ba34d3cf92deb,河北体育学院学报,http://xb.hepec.edu.cn,verified,1,3,passed_with_items,filters_query,大型体育赛事碳中和法律保障体系的比较研究——基于日本、中国、法国奥运实践的考察,
+qinyun_journals,a7fbf2499d3156a4,河北冶金,http://www.hbyjqk.com,failed,0,,,,,a7fbf2499d3156a4 (河北冶金): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,40854a614dca6737,河北北方学院学报（社会科学版）,http://hbbfxyxb.ijournals.cn,failed,0,,,,,40854a614dca6737 (河北北方学院学报（社会科学版）): ValueError: UNSUPPORTED_TEMPLATE: no ASP.NET key_query form
+qinyun_journals,fa954fbeecf63610,河北开放大学学报,http://hbgd.chinajournal.net.cn,failed,0,,,,,fa954fbeecf63610 (河北开放大学学报): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,a00ea97c8eba2585,河北教育（教学版）,http://www.hbsjyxczx.cn,failed,0,,,,,a00ea97c8eba2585 (河北教育（教学版）): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,40c3e45e9d62b95e,河北果树,http://hbgs.chinajournal.net.cn,failed,0,,,,,40c3e45e9d62b95e (河北果树): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,2f0b8511a32fe506,河北经贸大学学报（综合版）,http://hbyt.chinajournal.net.cn,failed,0,,,,,2f0b8511a32fe506 (河北经贸大学学报（综合版）): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,06f76038acd1a0ca,河南城建学院学报,http://cjgz.chinajournal.net.cn,failed,0,,,,,06f76038acd1a0ca (河南城建学院学报): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,f1dbc3b71c3302f2,河南大学学报（自然科学版）,https://hdzr.chinajournal.net.cn,failed,0,,,,,f1dbc3b71c3302f2 (河南大学学报（自然科学版）): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,72eb147b64df3719,河南工学院学报,http://hnjd.chinajournal.net.cn,failed,0,,,,,72eb147b64df3719 (河南工学院学报): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,1cd9c468ad3b4712,河海大学学报（哲学社会科学版）,https://jour.hhu.edu.cn/hhdxxbsk/home,verified,1,3,passed_with_items,filters_query,“十五五”时期乡村治理现代化系统性完善路径研究,
+qinyun_journals,344ec3659672d3c6,河海大学学报（自然科学版）,https://jour.hhu.edu.cn/hhdxxbzr/home,verified,1,3,passed_with_items,filters_query,南海西北部台风过程风、浪统计特征研究,
+qinyun_journals,e89f3e0a2652a5b0,浙江中医药大学学报,https://xuebao.zcmu.edu.cn,verified,1,3,passed_with_items,filters_query,人工智能赋能中医诊疗的研究进展,
+qinyun_journals,70343cffc97b5bf9,浙江临床医学,http://www.zjlcyx.com,verified,1,3,passed_with_items,filters_query,D-D值与急性主动脉夹层预后的相关性研究,
+qinyun_journals,dd0a1eb6f6491bc2,浙江创伤外科,http://www.zjcswk.net,verified,1,3,passed_with_items,filters_query,牙列缺损合并重度牙周炎患者植牙同期CGF联合引导骨再生术治疗的疗效研究,
+qinyun_journals,2aa8f9017bdd9379,浙江医学,http://www.zjyxzzs.com,verified,1,3,passed_with_items,filters_query,川芎嗪调控AnxA5/MAPK/CD44信号通路抑制脑胶质瘤生成的作用研究,
+qinyun_journals,84d733bbb9f6acef,浙江艺术职业学院学报,http://zjys.chinajournal.net.cn,failed,0,,,,,84d733bbb9f6acef (浙江艺术职业学院学报): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,fe508fa894016f08,海南师范大学学报（自然科学版）,http://hsxblk.hainnu.edu.cn,verified,1,3,passed_with_items,filters_query,沙溪斑岩型铜金矿床流体包裹体研究,
+qinyun_journals,158ac7057f047724,海洋开发与管理,http://www.haiyangkaifayuguanli.com,verified,1,3,passed_with_items,filters_query,浒苔绿潮前置打捞指挥监管信息平台构建与应用研究,
+qinyun_journals,cf51edbf91bded2e,清华大学教育研究,http://tje.ioe.tsinghua.edu.cn,failed,0,,,,,cf51edbf91bded2e (清华大学教育研究): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,05af81e8a9ac25a3,渔业致富指南,http://yyzf.chinajournal.net.cn,failed,0,,,,,05af81e8a9ac25a3 (渔业致富指南): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,05d9d393e2f37e13,渤海大学学报（哲学社会科学版）,https://zaie.chinajournal.net.cn,failed,0,,,,,05d9d393e2f37e13 (渤海大学学报（哲学社会科学版）): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,ccd97e5f82c36f70,湖北中医药大学学报,http://hbzyy.cnjournals.com,verified,1,3,passed_with_items,filters_query,中药复方药动药效相关性研究的方法与思考,
+qinyun_journals,15afcdb3146b050b,湖北民族大学学报（医学版）,http://hbmdyx.chinajournal.net.cn,failed,0,,,,,15afcdb3146b050b (湖北民族大学学报（医学版）): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,a66bb88a95a01845,湖北民族大学学报（自然科学版）,http://hbxz.chinajournal.net.cn,failed,0,,,,,a66bb88a95a01845 (湖北民族大学学报（自然科学版）): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,6266b62f12b19c37,湖南工业大学学报,http://qkxb.hut.edu.cn/zk,failed,0,,,,,6266b62f12b19c37 (湖南工业大学学报): ValueError: UNSUPPORTED_TEMPLATE: no ASP.NET key_query form
+qinyun_journals,99110c4c0829dfdb,湖南工业大学学报（社会科学版）,http://qkxb.hut.edu.cn/sk,failed,0,,,,,99110c4c0829dfdb (湖南工业大学学报（社会科学版）): ValueError: UNSUPPORTED_TEMPLATE: no ASP.NET key_query form
+qinyun_journals,c2121f2a93a92b66,湖南警察学院学报,http://hnga.chinajournal.net.cn,failed,0,,,,,c2121f2a93a92b66 (湖南警察学院学报): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,9ba0d8b7e9314afa,湖湘论坛,http://hxlt.chinajournal.net.cn,failed,0,,,,,9ba0d8b7e9314afa (湖湘论坛): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,0644b07d532b4802,激光杂志,http://www.laserjournal.cn,failed,0,,,,,0644b07d532b4802 (激光杂志): ValueError: UNSUPPORTED_TEMPLATE: no ASP.NET key_query form
+qinyun_journals,e0bebab0a3716038,热带农业科学,http://rdnk.chinajournal.net.cn,failed,0,,,,,e0bebab0a3716038 (热带农业科学): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,4d443e58527d5d58,热科学与技术,http://rkxyjs.ijournals.cn,verified,1,3,passed_with_items,filters_query,V肋通道内超临界航空煤油流动换热特性研究,
+qinyun_journals,b02d196c4d97383d,燃气资讯,http://www.gas800.com,failed,0,,,,,b02d196c4d97383d (燃气资讯): ValueError: UNSUPPORTED_TEMPLATE: no ASP.NET key_query form
+qinyun_journals,728721f1bd86d8d3,牡丹江教育学院学报,http://mdjj.chinajournal.net.cn,failed,0,,,,,728721f1bd86d8d3 (牡丹江教育学院学报): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,61ab100cd246f163,物理通报,http://wltb.ijournal.cn,verified,1,3,passed_with_items,filters_query,一类n阶 Mö b i u s - S t r i p网络的电特性研究,
+qinyun_journals,d3754d9497e0e8a2,特钢技术,http://www.tgjs.chinajournal.net.cn,failed,0,,,,,d3754d9497e0e8a2 (特钢技术): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,26b156457340c047,环境监测管理与技术,http://hjjcgl.cnjournals.net,verified,1,3,passed_with_items,filters_query,江苏近海主要生态因子分布特征及红色赤潮藻适生性研究,
+qinyun_journals,759bd4b46a32133b,环球人文地理,http://hqdl.chinajournal.net.cn,failed,0,,,,,759bd4b46a32133b (环球人文地理): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,885b1b2764d11bf3,现代世界警察,http://phcppsu.com.cn,failed,0,,,,,885b1b2764d11bf3 (现代世界警察): ValueError: UNSUPPORTED_TEMPLATE: no ASP.NET key_query form
+qinyun_journals,9f85bc1051d07ab1,现代中西医结合杂志,http://www.87738668.com,failed,0,,,,,9f85bc1051d07ab1 (现代中西医结合杂志): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,7911e42fed55aeec,现代临床医学,http://www.tougao120.com,failed,0,,,,,7911e42fed55aeec (现代临床医学): HTTPError: HTTP Error 502: Bad Gateway
+qinyun_journals,4d82d009322b7ebe,现代交通技术,http://www.xdjtjs.com,verified,1,3,passed_with_items,filters_query,温湿度变化对膨胀土裂隙演化影响的试验研究,
+qinyun_journals,26ebc3f0028d809a,现代农业科技,http://www.xdnykj.com,verified,1,3,passed_with_items,filters_query,基于改进YOLOv8的玉米叶病虫害检测算法研究,
+qinyun_journals,57a9b0af102fde1d,现代农村科技,http://www.xdnckj.com,failed,0,,,,,57a9b0af102fde1d (现代农村科技): ValueError: UNSUPPORTED_TEMPLATE: no ASP.NET key_query form
+qinyun_journals,172823ac02187c52,现代制造技术与装备,http://sdji.chinajournal.net.cn,failed,0,,,,,172823ac02187c52 (现代制造技术与装备): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,cdefc462bd1cf580,现代商贸工业,http://www.xdsm.chinajournal.net.cn,failed,0,,,,,cdefc462bd1cf580 (现代商贸工业): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,51c6d48e77ac9691,现代基础教育研究,http://shnu.ijournals.cn/jyb/ch/index.aspx,verified,1,3,passed_with_items,filters_query,编辑视角下中小学教师学术研究的提升路径,
+qinyun_journals,fc2ff54a78b60c88,现代工业经济和信息化,http://xdgy.chinajournal.net.cn,failed,0,,,,,fc2ff54a78b60c88 (现代工业经济和信息化): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,570684491c86df96,现代技术陶瓷,http://www.xdjstc.com,verified,1,3,passed_with_items,filters_query,高温高压下高熵碳化物(TiZrHfNbTa)C-纳米SiC复合陶瓷的制备与性能调控研究,
+qinyun_journals,cf8561a2bec7b8e7,现代日本经济,http://xdrj.chinajournal.net.cn,failed,0,,,,,cf8561a2bec7b8e7 (现代日本经济): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,a8e877f0298f5585,现代经济探讨,http://jjtl.chinajournal.net.cn,failed,0,,,,,a8e877f0298f5585 (现代经济探讨): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,659a812005466878,现代远程教育研究,http://xdyjyj.scou.cn,failed,0,,,,,659a812005466878 (现代远程教育研究): HTTPError: HTTP Error 406: Not Acceptable
+qinyun_journals,d215644bc998e351,甘肃冶金,http://gsye.chinajournal.net.cn,failed,0,,,,,d215644bc998e351 (甘肃冶金): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,55a24d6ac63e9dcf,甘肃高师学报,http://xuebao.lzcu.edu.cn,failed,0,,,,,55a24d6ac63e9dcf (甘肃高师学报): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,330dc8ae8411daa0,生物化学与生物物理进展,http://www.pibb.ac.cn,failed,0,,,,,330dc8ae8411daa0 (生物化学与生物物理进展): ValueError: UNSUPPORTED_TEMPLATE: no ASP.NET key_query form
+qinyun_journals,523ee66365771173,生物医学工程学进展,http://www.bmeprogress.com,verified,1,3,passed_with_items,filters_query,NIH对基于多模态人工智能研究项目资助情况分析及启示,
+qinyun_journals,b0615870ada23b5c,生物工程学报,http://journals.im.ac.cn/cjbcn,verified,1,3,passed_with_items,filters_query,大肠杆菌原核增强子样序列的克隆及其结构与功能的研究,
+qinyun_journals,029d4573fa91ed49,生物骨科材料与临床研究,http://www.swgkcl.com,verified,1,3,passed_with_items,filters_query,血栓弹力图评价老年股骨颈骨折患者围手术期应用大剂量氨甲环酸安全性及有效性的定量研究,
+qinyun_journals,7ec91f711f376924,电子世界,http://elew.chinajournal.net.cn,failed,0,,,,,7ec91f711f376924 (电子世界): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,9b49858bfc62826f,电子器件,http://chinaelectrondevices.seu.edu.cn,verified,1,3,passed_with_items,filters_query,二维材料中红外光电探测器研究进展,
+qinyun_journals,95ba256b11e94608,电气电子教学学报,http://jeee.seu.edu.cn,verified,1,3,passed_with_items,filters_query,基于机器视觉的面板缺陷检测实验探索与研究,
+qinyun_journals,5268c320bd1f662e,电池工业,http://www.chinabattery.org,failed,0,,,,,5268c320bd1f662e (电池工业): ValueError: UNSUPPORTED_TEMPLATE: no ASP.NET key_query form
+qinyun_journals,cd9dc16aa9eff77c,电网与清洁能源,http://apshe.ijournals.cn,verified,1,3,passed_with_items,filters_query,基于自适应事件触发的电网电压恢复仿真研究,
+qinyun_journals,80b225e7cb60f04a,电讯技术,http://www.teleonline.cn,failed,0,,,,,80b225e7cb60f04a (电讯技术): TimeoutError: timed out
+qinyun_journals,a1d47a9d867f9cab,疯狂英语（理论版）,http://fdjs.chinajournal.net.cn,failed,0,,,,,a1d47a9d867f9cab (疯狂英语（理论版）): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,b804b04b38dd16e2,盐城工学院学报（社会科学版）,http://ygsk.ycit.cn,verified,1,3,passed_with_items,filters_query,汉盐渎县建县研究及县治位置分析,
+qinyun_journals,4fc0647829f3dd02,盐城工学院学报（自然科学版）,http://ygzk.ycit.cn,verified,1,3,passed_with_items,filters_query,某城市河流水质污染情况研究及影响因素分析,
+qinyun_journals,15719554014f5cdd,真空电子技术,http://zkdj.chinajournal.net.cn,failed,0,,,,,15719554014f5cdd (真空电子技术): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,75fc2f3e9b249630,石油沥青,http://Oile.Chinajournal.net.cn,failed,0,,,,,75fc2f3e9b249630 (石油沥青): ValueError: UNSUPPORTED_TEMPLATE: no ASP.NET key_query form
+qinyun_journals,32d64e190ea044f9,石油研究（英文）,http://www.editorialmanager.com/ptlrs,failed,0,,,,,32d64e190ea044f9 (石油研究（英文）): ValueError: UNSUPPORTED_TEMPLATE: no ASP.NET key_query form
+qinyun_journals,bbb232f7d7002548,矿床地质,http://www.kcdz.ac.cn,verified,1,3,passed_with_items,filters_query,大吨位-低品位金矿床成因研究——以内蒙古朱拉扎嘎金矿床为例,
+qinyun_journals,7b04c8ce7e8a6ce5,社会科学研究,http://shkxyj.ijournals.cn,verified,1,3,passed_with_items,filters_query,分化与整合：生命历程理论的动态与趋势——兼论其对中国转型期社会研究的意义,
+qinyun_journals,73cd8f144e946c9f,福建分析测试,http://fjfc.chinajournal.net.cn,failed,0,,,,,73cd8f144e946c9f (福建分析测试): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,df27374684fa2eef,福建师范大学学报（自然科学版）,http://fjsz.chinajournal.net.cn,failed,0,,,,,df27374684fa2eef (福建师范大学学报（自然科学版）): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,7713213ba19d76d9,福建林业科技,http://fjlk.chinajournal.net.cn,failed,0,,,,,7713213ba19d76d9 (福建林业科技): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,3f1319b7b0f810f9,福建轻纺,http://www.fjqgs.com,failed,0,,,,,3f1319b7b0f810f9 (福建轻纺): HTTPError: HTTP Error 403: Forbidden
+qinyun_journals,32d5aba9bae348ab,福建金融,http://fjjr.chinajournal.net.cn,failed,0,,,,,32d5aba9bae348ab (福建金融): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,0da5df72000d4e9f,科学技术与工程,http://www.stae.com.cn,failed,0,,,,,0da5df72000d4e9f (科学技术与工程): HTTPError: HTTP Error 500: Internal Server Error
+qinyun_journals,ed24664e08ef2e17,科技与经济,http://www.kjyjj.cn,verified,1,3,passed_with_items,filters_query,数字普惠金融的动态演进、区域差异及其发展趋势研究 ——以陕西为例,
+qinyun_journals,2457ca171e4344e2,秘书之友,http://misy.chinajournal.net.cn,failed,0,,,,,2457ca171e4344e2 (秘书之友): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,9cc7c64b2c3492f6,税务与经济,http://swyj.chinajournal.net.cn,failed,0,,,,,9cc7c64b2c3492f6 (税务与经济): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,a7e44a58c56e8bbf,空军工程大学学报,http://kjgcdx.ijournal.cn,verified,1,3,passed_with_items,filters_query,基于LightGBM 算法的飞行冲突探测研究,
+qinyun_journals,4eb1da941acc93c1,粮油与饲料科技,http://jxsl.chinajournal.net.cn,failed,0,,,,,4eb1da941acc93c1 (粮油与饲料科技): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,f3c9ecfa538d94bb,纸和造纸,http://zzxx.cnjournals.com,verified,1,3,passed_with_items,filters_query,传统手工麻纸的发展演变及其保护利用研究,
+qinyun_journals,b1150029f44f5b11,经济与管理,http://jjgl.chinajournal.net.cn,failed,0,,,,,b1150029f44f5b11 (经济与管理): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,73db7e161cef0d45,经济法论坛,https://jjfl.chinajournal.net.cn,failed,0,,,,,73db7e161cef0d45 (经济法论坛): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,e28d8ac1b6f378f6,统一战线学研究,http://www.cqsh.chinajournal.net.cn,failed,0,,,,,e28d8ac1b6f378f6 (统一战线学研究): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,990ff14fa6350550,综合运输,http://yszh.chinajournal.net.cn,failed,0,,,,,990ff14fa6350550 (综合运输): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,32b77c38ea06c294,美术教育研究,http://www.msjyyj.com,failed,0,,,,,32b77c38ea06c294 (美术教育研究): ValueError: UNSUPPORTED_TEMPLATE: no ASP.NET key_query form
+qinyun_journals,7ca46701ee237b9e,聚酯工业,http://jzgy.chinajournal.net.cn,failed,0,,,,,7ca46701ee237b9e (聚酯工业): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,a558d4ac70e7b24a,能源研究与信息,http://eri.usst.edu.cn,verified,1,3,passed_with_items,filters_query,污泥复合有机物厌氧消化生产生物天然气技术研究,
+qinyun_journals,cbff869f1fe39f9c,脊柱外科杂志,http://www.spinejournal.net,verified,1,3,passed_with_items,filters_query,腰部垫枕在骨质疏松性椎体压缩性骨折治疗中的应用研究进展,
+qinyun_journals,2e5dd2463af9e67a,自动化与仪器仪表,http://www.zdhyyqyb.cn,failed,0,,,,,2e5dd2463af9e67a (自动化与仪器仪表): ValueError: UNSUPPORTED_TEMPLATE: no ASP.NET key_query form
+qinyun_journals,2cefcb64539c7390,自然科学博物馆研究,http://zrkxbwg.cnjournals.com,verified,1,3,passed_with_items,filters_query,基于体验式参与的科技类博物馆展教设计优化路径研究——以欧洲三家场馆为例,
+qinyun_journals,9da154d4b91d777a,航天器工程,http://htgc.chinajournal.net.cn,failed,0,,,,,9da154d4b91d777a (航天器工程): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,bbdf9376a647161a,荆楚学刊,http://szsz.chinajournal.net.cn,failed,0,,,,,bbdf9376a647161a (荆楚学刊): ValueError: UNSUPPORTED_TEMPLATE: no ASP.NET key_query form
+qinyun_journals,f0e401992791b6a8,药学研究,http://www.yaoxueyanjiu.org.cn,verified,1,3,passed_with_items,filters_query,文献计量视域下的中医药与循证医学的交叉融合与现代研究,
+qinyun_journals,6313aa47014f75e6,萍乡学院学报,http://pxjy.chinajournal.net.cn,failed,0,,,,,6313aa47014f75e6 (萍乡学院学报): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,da5563ffa7f9bf00,西北农业学报,http://xbnyxb.alljournals.cn,verified,1,3,passed_with_items,filters_query,9个甜樱桃品（系）果实发育过程中品质形成规律研究,
+qinyun_journals,8c8de922e99e8e57,西北农林科技大学学报（自然科学版）,http://www.xnxbz.net,verified,1,3,passed_with_items,filters_query,基于SA‐PSO算法的杉木林间伐方案研究,
+qinyun_journals,d26088e6f78b2a81,西北民族大学学报（自然科学版）,http://xmxb.chinajournal.net.cn,failed,0,,,,,d26088e6f78b2a81 (西北民族大学学报（自然科学版）): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,6530b2ae72285e16,西南金融,http://scjr.chinajournal.net.cn,failed,0,,,,,6530b2ae72285e16 (西南金融): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,23217b7a1ea453dd,西部中医药,http://gszy.paperopen.com,failed,0,,,,,23217b7a1ea453dd (西部中医药): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,9c7e96b85cc4c4ba,西部人居环境学刊,http://www.hsfwest.com,verified,1,3,passed_with_items,filters_query,光健康与人因工程：从极端环境到人居空间的循证设计 研究,
+qinyun_journals,057813db16cc21b2,西部医学,http://www.xbyxqk.cn,verified,1,3,passed_with_items,filters_query,安罗替尼通过下调SERF1A逆转肺腺癌中贝伐珠单抗耐药性的实验研究,
+qinyun_journals,5aac4b11c15c405e,计算力学学报,http://cjcm.ijournals.net.cn,verified,1,3,passed_with_items,filters_query,海洋电缆智能设计分析与运维的研究进展,
+qinyun_journals,cca291a268c4cc17,计算技术与自动化,http://jsjsyzdh.cnjournals.net,verified,1,3,passed_with_items,filters_query,安全威胁特征正则化下的闭源终端设备自动化应急响应研究,
+qinyun_journals,eff77f26c8a6aa4d,语文建设,http://www.ywjs.chinajournal.net.cn,failed,0,,,,,eff77f26c8a6aa4d (语文建设): ValueError: UNSUPPORTED_TEMPLATE: no ASP.NET key_query form
+qinyun_journals,3f89b0c824dbfeda,语言教学与研究,http://yyjx.chinajournal.net.cn,failed,0,,,,,3f89b0c824dbfeda (语言教学与研究): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,22b2ceee52081f99,财经理论研究,http://ncxb.chinajournal.net.cn,failed,0,,,,,22b2ceee52081f99 (财经理论研究): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,e88d57a6736db20f,轨道交通装备与技术,http://tdgr.chinajournal.net.cn,failed,0,,,,,e88d57a6736db20f (轨道交通装备与技术): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,5edf218759c065c3,轻工机械,http://www.qgjxzz.com,verified,1,3,passed_with_items,filters_query,跨临界CO2热泵气体冷却器传热窄点分布模拟研究,
+qinyun_journals,7a91ccec92c6311c,邵阳学院学报（社会科学版）,http://sysg.chinajournal.net.cn,failed,0,,,,,7a91ccec92c6311c (邵阳学院学报（社会科学版）): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,92198d33470c3c6c,郑州大学学报（工学版）,http://gxb.zzu.edu.cn,failed,0,,,,,92198d33470c3c6c (郑州大学学报（工学版）): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,6df402f7eb36627d,重庆医科大学学报,http://cyxb.cnjournals.com,failed,0,,,,,6df402f7eb36627d (重庆医科大学学报): HTTPError: HTTP Error 500: Internal Server Error
+qinyun_journals,e0d5d4829c127e94,重庆邮电大学学报（社会科学版）,http://journal2.cqupt.edu.cn,failed,0,,,,,e0d5d4829c127e94 (重庆邮电大学学报（社会科学版）): HTTPError: HTTP Error 412: Precondition Failed
+qinyun_journals,b36f391c99ba4969,金融发展研究,http://www.sdjr.chinajournal.net.cn,failed,0,,,,,b36f391c99ba4969 (金融发展研究): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,5ebdebceae1cf3de,金融理论探索,http://jrjy.chinajournal.net.cn,failed,0,,,,,5ebdebceae1cf3de (金融理论探索): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,7a62929e9dfffbb7,针灸临床杂志,http://zjlczz.hljucm.net,verified,1,3,passed_with_items,filters_query,“脑肠同治”针刺治疗脑梗死患者的临床疗效及fNIRS研究,
+qinyun_journals,849ff77b8c788239,铁道标准设计,http://tdbs.chinajournal.net.cn,failed,0,,,,,849ff77b8c788239 (铁道标准设计): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,63f28f62f33082c7,铁道运营技术,http://tdyy.chinajournal.net.cn,failed,0,,,,,63f28f62f33082c7 (铁道运营技术): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,28d899272a410834,铁道运输与经济,http://tdys.chinajournal.net.cn,failed,0,,,,,28d899272a410834 (铁道运输与经济): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,2f0ce523ce58cb86,铜业工程,http://www.tygc.net,verified,1,3,passed_with_items,filters_query,微纳米铜粉制备及抗氧化研究进展,
+qinyun_journals,30b792b02c003abc,长江大学学报（社会科学版）,http://cjdxxbskb.paperonce.org,failed,0,,,,,30b792b02c003abc (长江大学学报（社会科学版）): ValueError: UNSUPPORTED_TEMPLATE: no ASP.NET key_query form
+qinyun_journals,bc7ae7105d9c14a7,陕西行政学院学报,http://sxsx.chinajournal.net.cn,failed,0,,,,,bc7ae7105d9c14a7 (陕西行政学院学报): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,817e0fdddbace580,集美大学学报（自然科学版）,http://xuebaobangong.jmu.edu.cn/zkb,failed,0,,,,,817e0fdddbace580 (集美大学学报（自然科学版）): ValueError: UNSUPPORTED_TEMPLATE: no ASP.NET key_query form
+qinyun_journals,877fbd40ad8f4630,预防医学论坛,http://yxwx.chinajournal.net.cn,failed,0,,,,,877fbd40ad8f4630 (预防医学论坛): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,16e0a0eb27fb618d,高教学刊,http://www.gjxkzzs.com,failed,0,,,,,16e0a0eb27fb618d (高教学刊): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,955e34ec8eb4f6ea,高教探索,http://gjta.chinajournal.net.cn,failed,0,,,,,955e34ec8eb4f6ea (高教探索): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,bbeafe0f5cb4d566,高等数学研究,http://xusj.chinajournal.net.cn,failed,0,,,,,bbeafe0f5cb4d566 (高等数学研究): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,a374834a687fb8dc,鸭绿江,http://yalv.chinajournal.net.cn,failed,0,,,,,a374834a687fb8dc (鸭绿江): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,08f8479e319af198,麦类作物学报,http://mlzwxb.alljournals.ac.cn,verified,1,3,passed_with_items,filters_query,小麦 TaHsp90 基因家族鉴定及其参与耐热的初步研究,
+qinyun_journals,6f5592fb6c9c544b,黑河学刊,http://hhxk.chinajournal.net.cn,failed,0,,,,,6f5592fb6c9c544b (黑河学刊): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,83ae1d19d34179a3,黑龙江农业科学,http://hljnykx.paperonce.org,failed,0,,,,,83ae1d19d34179a3 (黑龙江农业科学): ValueError: UNSUPPORTED_TEMPLATE: no ASP.NET key_query form
+qinyun_journals,dfd9dc7552662327,黑龙江金融,http://hljr.chinajournal.net.cn,failed,0,,,,,dfd9dc7552662327 (黑龙江金融): ValueError: UNSUPPORTED_TEMPLATE: unknown ASP.NET query field
+qinyun_journals,jos,软件学报,https://jos.org.cn,verified,1,3,passed_with_items,filters_query,向量加法系统可达性问题复杂性下界研究综述,
+rhzh_journals,13456b1dda3b969d,上海工程技术大学学报,https://xuebao.sues.edu.cn,verified,1,3,passed_with_items,filters_query,水体环境内分泌干扰物质的最新 研究 进展,
+rhzh_journals,4eaab0edcea38818,上海海事大学学报,http://www.smujournal.cn,failed,0,,,,,4eaab0edcea38818 (上海海事大学学报): HTTPError: HTTP Error 303: 
+rhzh_journals,26edf6a5bfda3bd4,上海预防医学,http://www.sjpm.org.cn,verified,1,3,passed_with_items,filters_query,衰弱对全因死亡风险的影响,
+rhzh_journals,da3fe8c4d187e802,世界林业研究,http://www.sjlyyj.com,failed,0,,,,,da3fe8c4d187e802 (世界林业研究): HTTPError: HTTP Error 502: Bad Gateway
+rhzh_journals,6c190a74085c5535,东南园艺,http://dnyy.fjnyxb.cn,verified,1,3,passed_with_items,filters_query,香酸柑橘花朵的挥发性成分分析,
+rhzh_journals,01480bbe9b77c432,东方电气评论,http://dfdqpl.xml-journal.net,verified,1,3,passed_with_items,filters_query,水泥窑炉富氧掺氢燃烧试验 研究,
+rhzh_journals,e8340b0b2724b895,中华全科医学,http://www.zhqkyx.net,verified,1,3,passed_with_items,filters_query,护理 研究 生Seminar模式构建的行动 研究,
+rhzh_journals,495abbaf232583e8,中华医院感染学杂志,http://zhyygrxzz.xml-journal.net,failed,0,,,,,495abbaf232583e8 (中华医院感染学杂志): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries; /search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries
+rhzh_journals,3561b28fde042a05,中华疾病控制杂志,http://zhjbkz.ahmu.edu.cn,verified,1,3,passed_with_items,filters_query,高脂血症危险因素 研究,
+rhzh_journals,d2634a8a4fefebc2,中华高血压杂志,http://zhgxyzz.xml-journal.net,verified,1,3,passed_with_items,filters_query,住院高血压儿童用药现状：一项多中心 研究,
+rhzh_journals,3988e2b2b1c0896e,中南林业调查规划,https://zny.csforestry.cn,failed,0,,,,,3988e2b2b1c0896e (中南林业调查规划): URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)>
+rhzh_journals,7eb360aa7003b555,中国体视学与图像分析,http://www.cjsia.org.cn,verified,1,3,passed_with_items,filters_query,Fe-Pd-Co三元系相平衡的实验 研究,
+rhzh_journals,970a7d8ffa02f08b,中国光学（中英文）,http://www.chineseoptics.net.cn,no_results_for_test_query,0,,,,,
+rhzh_journals,e7343e83539a83e8,中国公共卫生,http://www.zgggws.com,failed,0,,,,,e7343e83539a83e8 (中国公共卫生): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries; /search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries
+rhzh_journals,77da7b1bd610203c,中国军事科学,http://journal.mlpla.mil.cn,failed,0,,,,,77da7b1bd610203c (中国军事科学): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries; /search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries
+rhzh_journals,91c3f76d86497215,中国冶金,http://www.chinamet.cn,failed,0,,,,,91c3f76d86497215 (中国冶金): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries; /search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries
+rhzh_journals,9569a5a6c4a3924b,中国医疗器械杂志,https://zgylqxzz.xml-journal.net,verified,1,3,passed_with_items,filters_query,药械组合产品 研究 及应用进展,
+rhzh_journals,d9b0bbc88ff1fe54,中国地质,http://geochina.cgs.gov.cn,verified,1,3,passed_with_items,filters_query,外贝加尔大骨节病地区水文地球化学特征分析,
+rhzh_journals,3687874e5508b7bb,中国地质灾害与防治学报,http://www.zgdzzhyfzxb.com,failed,0,,,,,3687874e5508b7bb (中国地质灾害与防治学报): URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)>
+rhzh_journals,f6c45c6f44b17b90,中国地质（英文）,http://chinageology.cgs.cn,no_results_for_test_query,0,,,,,
+rhzh_journals,0d8f6cf5b2afd461,中国城市林业,http://journals.caf.ac.cn/zgcsly,failed,0,,,,,0d8f6cf5b2afd461 (中国城市林业): HTTPError: HTTP Error 303: 
+rhzh_journals,69613dde47853257,中国妇幼卫生杂志,http://zgfyws.chinawch.cn,failed,0,,,,,69613dde47853257 (中国妇幼卫生杂志): TimeoutError: The read operation timed out
+rhzh_journals,aca879563e1290c1,中国学校卫生,http://www.cjsh.org.cn,verified,1,3,passed_with_items,filters_query,台湾出生队列 研究 综述,
+rhzh_journals,a7f2a2a443c86bed,中国岩溶,http://zgyr.karst.ac.cn,verified,1,3,passed_with_items,filters_query,国外洞穴 研究 概况,
+rhzh_journals,63c49a17b2bc2008,中国海洋工程（英文版）,http://www.chinaoceanengin.cn,no_results_for_test_query,0,,,,,
+rhzh_journals,ee6261e67e219461,中国烟草学报,http://ycxb.tobacco.org.cn,no_results_for_test_query,0,,,,,
+rhzh_journals,aa309dfc77bd9c62,中国烟草科学,http://www.zgyckx.com.cn,verified,1,3,passed_with_items,filters_query,"面向21 世纪, 加速烟草育种 研究",
+rhzh_journals,085e57825191f8ef,中国物理B（英文版）,http://cpb.iphy.ac.cn,failed,0,,,,,085e57825191f8ef (中国物理B（英文版）): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries; /search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries
+rhzh_journals,9fbbdc4a2ee1a69e,中国物理C（英文版）,http://cpc.ihep.ac.cn,failed,0,,,,,9fbbdc4a2ee1a69e (中国物理C（英文版）): RemoteDisconnected: Remote end closed connection without response
+rhzh_journals,095194386ee81b1c,中国环境监测,http://www.cnemce.cn,failed,0,,,,,095194386ee81b1c (中国环境监测): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries; /search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries
+rhzh_journals,4ad69b343e88d5b9,中国现代应用药学,http://www.chinjmap.com,verified,1,3,passed_with_items,filters_query,代谢组学 研究 技术进展,
+rhzh_journals,48bf9df7e2f2af7f,中国生态农业学报（中英文）,http://www.ecoagri.ac.cn,failed,0,,,,,48bf9df7e2f2af7f (中国生态农业学报（中英文）): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries; /search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries
+rhzh_journals,6049a1efefd9784a,中国病毒学,http://www.virosin.org,failed,0,,,,,6049a1efefd9784a (中国病毒学): HTTPError: HTTP Error 502: Bad Gateway
+rhzh_journals,0ca748492f5caf93,中国耳鼻咽喉颅底外科杂志,http://www.xyosbs.com,failed,0,,,,,0ca748492f5caf93 (中国耳鼻咽喉颅底外科杂志): HTTPError: HTTP Error 406: Not Acceptable
+rhzh_journals,b2e76a506c76aeed,中国舰船研究,http://www.ship-research.com,failed,0,,,,,b2e76a506c76aeed (中国舰船研究): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries; /search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries
+rhzh_journals,1470b9d883e961ee,中国药科大学学报,https://jcpu.cpu.edu.cn,verified,1,3,passed_with_items,filters_query,"Synthesis,characterization and cytotoxicity of platinum(II) complexes with 2-methyl-2-substituted phenoxypropanoic acid as leaving ligands",
+rhzh_journals,8dddb59a11e26ef2,中国防汛抗旱,http://www.cfdm.cn,verified,1,3,passed_with_items,filters_query,基于CiteSpace的干旱监测 研究 热点可视化分析,
+rhzh_journals,b20b69cf91145255,中文信息学报,http://jcip.cipsc.org.cn,verified,1,3,passed_with_items,filters_query,大数据时代的计算政治学 研究,
+rhzh_journals,95e6196394e96569,云南农业大学学报,http://xb.ynau.edu.cn,failed,0,,,,,95e6196394e96569 (云南农业大学学报): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries; /search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries
+rhzh_journals,4b60438bc82d290d,云南农业大学学报（自然科学）,http://xb.ynau.edu.cn/jwk_zk,failed,0,,,,,4b60438bc82d290d (云南农业大学学报（自然科学）): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries; /search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries
+rhzh_journals,829e43c1b0dfe764,云南大学学报（自然科学版）,http://www.yndxxb.ynu.edu.cn,failed,0,,,,,829e43c1b0dfe764 (云南大学学报（自然科学版）): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: HTTP Error 404: ; /search: HTTP Error 404: 
+rhzh_journals,90be70398d61f558,交通信息与安全,http://www.jtxa.net,verified,1,3,passed_with_items,filters_query,大规模飞机排班问题 研究 综述,
+rhzh_journals,0d980a50f6de17e9,体育科学,http://tykx.xml-journal.net,failed,0,,,,,0d980a50f6de17e9 (体育科学): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries; /search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries
+rhzh_journals,83241a5231827636,信号处理,http://signal.ejournal.org.cn,failed,0,,,,,83241a5231827636 (信号处理): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries; /search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries
+rhzh_journals,11692cf8685844f6,信息与控制,http://xk.sia.cn,failed,0,,,,,11692cf8685844f6 (信息与控制): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries; /search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries
+rhzh_journals,65625908c72fdcb8,信阳师范大学学报（哲学社会科学版）,http://xb.xynu.edu.cn,verified,1,3,passed_with_items,filters_query,教育 研究 三种范式的比较,
+rhzh_journals,0b24ed6bccef5007,信阳师范大学学报（自然科学版）,http://journal.xynu.edu.cn,verified,1,3,passed_with_items,filters_query,南水水库鲂鱼体长与鳞长的生长关系,
+rhzh_journals,a0ca85235e2f2e1a,光学与光电技术,http://gxygdjs.xml-journal.net,verified,1,3,passed_with_items,filters_query,超短激光脉冲中时空耦合效应的 研究 进展,
+rhzh_journals,27d5597cee27b39f,光电工程,https://www.oejournal.org/J/OEE.html,failed,0,,,,,27d5597cee27b39f (光电工程): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: HTTP Error 404: ; /search: HTTP Error 404: 
+rhzh_journals,efafeb0841401e77,光电科学（英文）,http://www.oejournal.org/oes,failed,0,,,,,efafeb0841401e77 (光电科学（英文）): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries; /search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries
+rhzh_journals,0c6ffa711482d2ff,全球定位系统,http://www.qqdwxt.cn,verified,1,3,passed_with_items,filters_query,雾定位及其应用 研究,
+rhzh_journals,51bdd2ff95642845,兰州交通大学学报,https://journal.lzjtu.edu.cn,verified,1,3,passed_with_items,filters_query,甘草酸的提取方法及应用 研究 进展,
+rhzh_journals,2be2f85e2a0dd0fa,内江师范学院学报,http://xb.njtc.edu.cn,verified,1,3,passed_with_items,filters_query,视觉素养 研究 综述,
+rhzh_journals,563f07e19f22d76c,军事医学,http://journal.mlpla.mil.cn/jsyx,failed,0,,,,,563f07e19f22d76c (军事医学): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries; /search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries
+rhzh_journals,2a95dd8cfdb76a28,农业工程学报,http://www.tcsae.org,verified,1,3,passed_with_items,filters_query,地下滴灌技术的 研究 现状与发展,
+rhzh_journals,432f7675ebc996bb,农业工程技术,http://www.nygcjs.cn,verified,1,3,passed_with_items,filters_query,江苏南繁硅谷建设 研究,
+rhzh_journals,00796374865b63f7,农业现代化研究,http://nyxdhyj.isa.ac.cn,failed,0,,,,,00796374865b63f7 (农业现代化研究): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries; /search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries
+rhzh_journals,3e147c42dfae7184,农技服务,http://www.njfw.org.cn,verified,1,3,passed_with_items,filters_query,金线莲 研究 进展及保护利用 研究,
+rhzh_journals,3aa08861956236ea,制造技术与机床,https://1951.mtmt.com.cn,verified,1,3,passed_with_items,filters_query,以铣代镗工艺 研究,
+rhzh_journals,e0f919ab54be1ff4,功能材料与器件学报,http://www.jfmd.net.cn,failed,0,,,,,e0f919ab54be1ff4 (功能材料与器件学报): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries; /search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries
+rhzh_journals,7a1163a9d045c3dc,功能高分子学报,http://gngfzxb.ecust.edu.cn,failed,0,,,,,7a1163a9d045c3dc (功能高分子学报): HTTPError: HTTP Error 483: 
+rhzh_journals,d65a8795f7f45028,勘察科学技术,http://kckxjs.cn,failed,0,,,,,d65a8795f7f45028 (勘察科学技术): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries; /search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries
+rhzh_journals,8a65fd17ceeedfbb,化学物理学报（英文版）,http://cjcp.ustc.edu.cn,failed,0,,,,,8a65fd17ceeedfbb (化学物理学报（英文版）): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: HTTP Error 404: Not Found; /search: HTTP Error 404: Not Found
+rhzh_journals,e22ccb57d930c57e,北京工业大学学报,https://journal.bjut.edu.cn/bjgydxxb,failed,0,,,,,e22ccb57d930c57e (北京工业大学学报): HTTPError: HTTP Error 421: Misdirected Request
+rhzh_journals,f08d9cbaa5b5d9e7,北京工业大学学报（社会科学版）,https://journal.bjut.edu.cn,failed,0,,,,,f08d9cbaa5b5d9e7 (北京工业大学学报（社会科学版）): HTTPError: HTTP Error 421: Misdirected Request
+rhzh_journals,28d12160767a2ca6,北京师范大学学报（自然科学版）,http://www.bnujournal.com,verified,1,3,passed_with_items,filters_query,爬坡沙丘的 研究 进展,
+rhzh_journals,ad18905acc7def35,北京林业大学学报,http://j.bjfu.edu.cn,failed,0,,,,,ad18905acc7def35 (北京林业大学学报): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries; /search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries
+rhzh_journals,b523505e2f6ac5db,北京理工大学学报,http://journal.bit.edu.cn/zrb/ch/index.aspx,failed,0,,,,,b523505e2f6ac5db (北京理工大学学报): JSONDecodeError: Expecting value: line 2 column 1 (char 2)
+rhzh_journals,101937a04ad10d88,北京理工大学学报（社会科学版）,http://journal.bit.edu.cn/sk/ch/index.aspx,failed,0,,,,,101937a04ad10d88 (北京理工大学学报（社会科学版）): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: HTTP Error 404: Not Found; /search: HTTP Error 404: Not Found
+rhzh_journals,0470aef5b3fdebb4,北京科技大学学报（社会科学版）,https://bkds.ustb.edu.cn,verified,1,3,passed_with_items,filters_query,机构话语 研究 述评—— 研究 现状、 研究 意义与展望,
+rhzh_journals,6863a3132f91844e,半导体学报（英文版）,http://www.jos.ac.cn,failed,0,,,,,6863a3132f91844e (半导体学报（英文版）): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: HTTP Error 500: Internal Server Error; /search: HTTP Error 500: Internal Server Error
+rhzh_journals,1aaa8e7cfb1fceb9,华东地质,http://www.hddz.cgsnjzx.cn,failed,0,,,,,1aaa8e7cfb1fceb9 (华东地质): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries; /search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries
+rhzh_journals,635681cc5323af53,华东理工大学学报（自然科学版）,http://journal.ecust.edu.cn,failed,0,,,,,635681cc5323af53 (华东理工大学学报（自然科学版）): HTTPError: HTTP Error 483: 
+rhzh_journals,610b9a2de07beabc,华北地震科学,http://www.nceqsci.com,verified,1,3,passed_with_items,filters_query,国外灾害行为 研究 :缘起、议题和发现,
+rhzh_journals,9f455e15e1fc98dc,华南农业大学学报,https://journal.scau.edu.cn,verified,1,3,passed_with_items,filters_query,水稻航天育种 研究 进展与展望,
+rhzh_journals,a339b6d699f5396f,华南师范大学学报（社会科学版）,http://journal.scnu.edu.cn,failed,0,,,,,a339b6d699f5396f (华南师范大学学报（社会科学版）): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries; /search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries
+rhzh_journals,28d54ab726c01634,华南师范大学学报（自然科学版）,https://journal-n.scnu.edu.cn,verified,1,3,passed_with_items,filters_query,论教育 研究 的意义生成方法,
+rhzh_journals,9f38f4515af316e9,南京中医药大学学报,http://xb.njucm.edu.cn,failed,0,,,,,9f38f4515af316e9 (南京中医药大学学报): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: HTTP Error 500: ; /search: HTTP Error 500: 
+rhzh_journals,6ac7cb1366f2922e,南方农业学报,http://nfnyxb.xml-journal.net,verified,1,3,passed_with_items,filters_query,罗汉果 研究 综述,
+rhzh_journals,74f5e0c52be8d0a5,南方水产科学,http://www.schinafish.cn,failed,0,,,,,74f5e0c52be8d0a5 (南方水产科学): HTTPError: HTTP Error 502: Bad Gateway
+rhzh_journals,43822640e4c8f926,南方能源建设,https://www.energychina.press,verified,1,3,passed_with_items,filters_query,基于多孔介质燃烧器的氨重整制氢技术分析,
+rhzh_journals,63893165c279a4ed,南昌航空大学学报（社会科学版）,http://qk.nchu.edu.cn/skb,verified,1,3,passed_with_items,filters_query,二十一世纪素质教育 研究 热点回溯与展望,
+rhzh_journals,faa81399f69672e1,南昌航空大学学报（自然科学版）,http://qk.nchu.edu.cn,verified,1,3,passed_with_items,filters_query,国内外预印本 研究 综述,
+rhzh_journals,cc2cdf37556311e6,台湾农业探索,http://twnt.fjnyxb.cn,verified,1,3,passed_with_items,filters_query,我国相对贫困 研究 现状及 研究 热点分析,
+rhzh_journals,5fd3b968592e8690,器官移植,http://www.organtranspl.com,failed,0,,,,,5fd3b968592e8690 (器官移植): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries; /search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries
+rhzh_journals,e44e20dce3525583,四川大学学报（医学版）,https://ykxb.scu.edu.cn,verified,1,3,passed_with_items,filters_query,新西兰大白兔脊髓血供的解剖学 研究,
+rhzh_journals,6776376b5315c81c,四川林业科技,http://www.sjfsci.com,failed,0,,,,,6776376b5315c81c (四川林业科技): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries; /search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries
+rhzh_journals,e0e4d5fad4343004,土壤与作物,http://sc.iga.ac.cn,verified,1,3,passed_with_items,filters_query,野韭( Allium ramosum ) 研究 及展望,
+rhzh_journals,ba1fd015f4e480f2,土壤通报,http://www.trtb.net,verified,1,3,passed_with_items,filters_query,耕地质量建设与管理的现实困境及其改进路径,
+rhzh_journals,4c834649b573a094,土木建筑工程信息技术,http://tmjzgcxxjs.manuscripts.cn,verified,1,3,passed_with_items,filters_query,封五-浙建集团设计 研究 总院,
+rhzh_journals,97baa61c8ca30a3f,地球与行星物理（英文）,http://www.eppcgs.org,no_results_for_test_query,0,,,,,
+rhzh_journals,912d94e870b17943,地球物理学报,http://www.geophy.cn,verified,1,3,passed_with_items,filters_query,磁岛合并 研究,
+rhzh_journals,8aee26cc41b6c04e,地球物理学进展,http://www.progeophys.cn,failed,0,,,,,8aee26cc41b6c04e (地球物理学进展): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: HTTP Error 303: ; /search: UNSUPPORTED_TEMPLATE: no RHZH HTML article-list
+rhzh_journals,1ac267b64d447057,地质力学学报,https://journal.geomech.ac.cn,verified,1,3,passed_with_items,filters_query,油田断裂封闭性 研究,
+rhzh_journals,58d74dd017dded0e,地质科学,http://www.dzkx.org,failed,0,,,,,58d74dd017dded0e (地质科学): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: HTTP Error 303: ; /search: UNSUPPORTED_TEMPLATE: no RHZH HTML article-list
+rhzh_journals,74e0e13c0a9f03d6,地质通报,http://dzhtb.cgs.cn,verified,1,3,passed_with_items,filters_query,准噶尔盆地西北缘断裂带构造变形机制,
+rhzh_journals,ee89dc48d5fae47a,地震学报,https://www.dzxb.org,verified,1,3,passed_with_items,filters_query,华东地区地电阻率各向异性度的地震前兆异常特征初步 研究 .,
+rhzh_journals,41d97e211c171cf7,地震学报（英文版）,https://www.equsci.org.cn,verified,1,3,passed_with_items,filters_query,智利北部俯冲板块内地震活动特征 研究,
+rhzh_journals,5f4a747e79aa106c,地震科学进展,http://www.gjdzdt.cn,failed,0,,,,,5f4a747e79aa106c (地震科学进展): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries; /search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries
+rhzh_journals,3650c3a527dc442a,声学学报,https://jac.ac.cn,verified,1,3,passed_with_items,filters_query,语言 研究 ——技术与科学,
+rhzh_journals,2c22bdfe7c635a55,声学技术,http://www.sxjs.ac.cn,verified,1,3,passed_with_items,filters_query,耳语音的语音处理 研究 综述,
+rhzh_journals,d40b085e83d80fa4,天文学报,http://www.twxb.org,failed,0,,,,,d40b085e83d80fa4 (天文学报): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries; /search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries
+rhzh_journals,8946722b2ca7a3ad,安徽工业大学学报（社会科学版）,http://xuebaosk.ahut.edu.cn,failed,0,,,,,8946722b2ca7a3ad (安徽工业大学学报（社会科学版）): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries; /search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries
+rhzh_journals,ec5cd099cb89f1fe,安徽工业大学学报（自然科学版）,http://xuebaozk.ahut.edu.cn,failed,0,,,,,ec5cd099cb89f1fe (安徽工业大学学报（自然科学版）): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries; /search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries
+rhzh_journals,9905a614f14c39e9,安徽理工大学学报（自然科学版）,https://xbzkb.aust.edu.cn,failed,0,,,,,9905a614f14c39e9 (安徽理工大学学报（自然科学版）): URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1082)>
+rhzh_journals,a5322dd1765e8f17,实验科学与技术,http://www.sy.uestc.edu.cn,verified,1,3,passed_with_items,filters_query,高校实验教学中心存在的问题及对策 研究,
+rhzh_journals,742033e39606a545,寒地医学（英文）,http://www.frigidzonemedicine.com.cn,no_results_for_test_query,0,,,,,
+rhzh_journals,3e71a5c6d061e473,小城镇建设,http://www.dosct.cn,failed,0,,,,,3e71a5c6d061e473 (小城镇建设): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries; /search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries
+rhzh_journals,808fe7ca2bb460ac,山东煤炭科技,http://sdmtkj.xml-journal.net,verified,1,3,passed_with_items,filters_query,千米定向长钻孔瓦斯抽采工艺 研究 及应用,
+rhzh_journals,51076c8882a5125c,山地科学学报（英文）,http://jms.imde.ac.cn,failed,0,,,,,51076c8882a5125c (山地科学学报（英文）): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries; /search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries
+rhzh_journals,aff04056831c4af6,岩土工程学报,http://www.cgejournal.com,failed,0,,,,,aff04056831c4af6 (岩土工程学报): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries; /search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries
+rhzh_journals,305375039951656e,岩土工程技术,http://ytgcjs.xml-journal.net,verified,1,3,passed_with_items,filters_query,冻融试验 研究,
+rhzh_journals,3405188f6dc7c3b3,岩石学报,http://www.ysxb.ac.cn,failed,0,,,,,3405188f6dc7c3b3 (岩石学报): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: HTTP Error 303: ; /search: UNSUPPORTED_TEMPLATE: no RHZH HTML article-list
+rhzh_journals,86cc5cde3531ba99,岩矿测试,http://www.ykcs.ac.cn,query_ignored,1,3,passed_with_items,query_ignored,密云水库水质分布的相关性 研究,
+rhzh_journals,1d2ebe2c7e1a99bc,工业工程,http://iej.gdut.edu.cn,failed,0,,,,,1d2ebe2c7e1a99bc (工业工程): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries; /search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries
+rhzh_journals,689e0b0e7c10256f,工业建筑,http://www.ic-mag.com,failed,0,,,,,689e0b0e7c10256f (工业建筑): IncompleteRead: IncompleteRead(39523 bytes read)
+rhzh_journals,cbf5ccb9ed48e3b5,工矿自动化,http://www.gkzdh.cn,verified,1,3,passed_with_items,filters_query,矿井瓦斯传感器的近代 研究 方法及方向,
+rhzh_journals,6800f58dc59ec246,工程力学,http://engineeringmechanics.cn,verified,1,3,passed_with_items,filters_query,钢管混凝土粘结-滑移性能试验 研究 及数值分析,
+rhzh_journals,fcf9db5e51601eca,工程地质学报,http://www.gcdz.org,verified,1,3,passed_with_items,filters_query,软土基坑变形失稳形态模拟试验 研究,
+rhzh_journals,cae273782b082d2c,工程机械与维修,http://www.ccmm.com.cn,verified,1,3,passed_with_items,filters_query,铁尾矿陶粒轻质透水混凝土的配置方法 研究,
+rhzh_journals,b11e9e7fdb08aa16,工程科学学报,http://cje.ustb.edu.cn,verified,1,0,failed,filters_query,Cyberism: 四层学科谱系与 研究 纲领,b11e9e7fdb08aa16 (工程科学学报): TimeoutError: timed out
+rhzh_journals,42240702ae573e09,广东工业大学学报,https://xbzrb.gdut.edu.cn,verified,1,3,passed_with_items,filters_query,国内移动电子商务领域前沿动态 研究,
+rhzh_journals,0cf9fea48fbf978a,应用光学,http://www.yygx.net,verified,1,3,passed_with_items,filters_query,数字微光器件 研究 进展,
+rhzh_journals,95a0b4536be5b09f,应用基础与工程科学学报,http://www.jbse.net,verified,1,3,passed_with_items,filters_query,酸性环境冻融循环对花岗岩剪切蠕变特性影响 研究,
+rhzh_journals,712f7c84b7d2eabb,应用数学和力学,http://www.applmathmech.cn,verified,1,3,passed_with_items,filters_query,天然心瓣关闭机理 研究,
+rhzh_journals,fd2cda5af79f072b,应用概率统计,http://aps.ecnu.edu.cn,failed,0,,,,,fd2cda5af79f072b (应用概率统计): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries; /search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries
+rhzh_journals,a44f25f1fc4ac150,应用气象学报,http://qikan.camscma.cn,failed,0,,,,,a44f25f1fc4ac150 (应用气象学报): HTTPError: HTTP Error 308: Permanent Redirect
+rhzh_journals,a6a8c896bede1234,应用海洋学学报,http://xuebao.jao.org.cn,verified,1,3,passed_with_items,filters_query,我国东亚江豚的 研究 现状、面临的威胁与保护建议,
+rhzh_journals,2cd1c4ed7fb00aeb,建筑史学刊,https://www.jgcm.ac.cn/jah,verified,1,3,passed_with_items,filters_query,电解磨削的 研究,
+rhzh_journals,de05396fea14b220,强激光与粒子束,http://www.hplpb.com.cn,failed,0,,,,,de05396fea14b220 (强激光与粒子束): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries; /search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries
+rhzh_journals,7dc7036206d7dcb3,徐州医科大学学报,http://xb.xzhmu.edu.cn,failed,0,,,,,7dc7036206d7dcb3 (徐州医科大学学报): URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)>
+rhzh_journals,d61d24cfa22e4870,循证医学,http://www.jebm.cn,failed,0,,,,,d61d24cfa22e4870 (循证医学): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries; /search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries
+rhzh_journals,8595a05d464b9569,微波学报,http://wbxb.xml-journal.net,verified,1,3,passed_with_items,filters_query,组合夹具的 研究 状况与应用,
+rhzh_journals,c307f78bae041f7f,心脏杂志,http://www.heartj.cn,verified,1,3,passed_with_items,filters_query,心律失常的心肌电生理 研究 进展,
+rhzh_journals,8735bed0ed239e52,指挥与控制学报,http://www.jc2.org.cn,failed,0,,,,,8735bed0ed239e52 (指挥与控制学报): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries; /search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries
+rhzh_journals,258e8d214f0dca0a,数字中医药（英文）,http://www.dcmhi.com.cn,verified,1,3,passed_with_items,filters_query,论数字中医药 研究,
+rhzh_journals,11df32ca3dde8573,数字技术与应用,http://www.szjsyyy.cn,failed,0,,,,,11df32ca3dde8573 (数字技术与应用): HTTPError: HTTP Error 502: Bad Gateway
+rhzh_journals,caf52c621657d272,新医学,http://www.xinyixue.cn,failed,0,,,,,caf52c621657d272 (新医学): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries; /search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries
+rhzh_journals,250d85355bfb434c,新疆农业科学,http://www.xjnykx.com,verified,1,3,passed_with_items,filters_query,融雪模型 研究 进展,
+rhzh_journals,0832534f9c8a0729,无损检测,http://www.mat-test.com,failed,0,,,,,0832534f9c8a0729 (无损检测): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries; /search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries
+rhzh_journals,d844f2fb64573f7d,昆明医科大学学报,https://kyxuebao.kmmu.edu.cn,verified,1,3,passed_with_items,filters_query,痤疮 研究 进展,
+rhzh_journals,3deee97d57685dc2,智能建筑与工程机械,http://www.znjzygcjx.com,verified,1,3,passed_with_items,filters_query,叉车防磁设计 研究,
+rhzh_journals,d62ab82d674f0835,智能感知工程,http://www.cjipe.cn,verified,1,3,passed_with_items,filters_query,电解磨削的 研究,
+rhzh_journals,45d77d795a892f26,暴雨灾害,http://www.byzh.org.cn,verified,1,3,passed_with_items,filters_query,“雅安天漏” 研究 进展,
+rhzh_journals,b4c1e18f8c3bc9be,有色金属科学与工程,http://ysjskxygc.xml-journal.net,verified,1,3,passed_with_items,filters_query,空气幕 研究 进展,
+rhzh_journals,2b9bbc8b471c6603,机器人,http://robot.sia.cn,failed,0,,,,,2b9bbc8b471c6603 (机器人): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries; /search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries
+rhzh_journals,9f197ba37ed00277,机器智能研究（英文）,http://www.mi-research.net,failed,0,,,,,9f197ba37ed00277 (机器智能研究（英文）): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries; /search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries
+rhzh_journals,9b7b1c22818db969,机械研究与应用,http://www.jxyj1978.com,verified,1,3,passed_with_items,filters_query,飞行汽车 研究 现状与关键技术,
+rhzh_journals,a04ee8fd82073a3c,核动力工程,http://hdlgc.xml-journal.net,no_results_for_test_query,0,,,,,
+rhzh_journals,77531f3095f90ead,植物科学学报,http://www.plantscience.cn,failed,0,,,,,77531f3095f90ead (植物科学学报): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries; /search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries
+rhzh_journals,0464cc3b2b250bf1,植物营养与肥料学报,http://www.plantnutrifert.org,failed,0,,,,,0464cc3b2b250bf1 (植物营养与肥料学报): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries; /search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries
+rhzh_journals,e7ec0ad268c5a587,武汉大学学报（信息科学版）,http://ch.whu.edu.cn,failed,0,,,,,e7ec0ad268c5a587 (武汉大学学报（信息科学版）): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries; /search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries
+rhzh_journals,348683f0beafa544,气候与环境研究,http://www.iapjournals.ac.cn/qhhj,failed,0,,,,,348683f0beafa544 (气候与环境研究): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries; /search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries
+rhzh_journals,e5ff81762a9472c8,水下无人系统学报,http://sxwrxtxb.xml-journal.net,failed,0,,,,,e5ff81762a9472c8 (水下无人系统学报): HTTPError: HTTP Error 502: Bad Gateway
+rhzh_journals,b872dd2e0bbd9aa1,水利水电快报,http://www.slsdkb.cjw.cn,verified,1,3,passed_with_items,filters_query,葛洲坝工程泥沙问题的 研究 与实践,
+rhzh_journals,508243207f4348a2,水利水运工程学报,http://slsy.nhri.cn,verified,1,3,passed_with_items,filters_query,浮式防波堤 研究 进展,
+rhzh_journals,f654cf0323c7e0a6,水文地质工程地质,http://www.swdzgcdz.com,failed,0,,,,,f654cf0323c7e0a6 (水文地质工程地质): URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)>
+rhzh_journals,9d472a9176e650f4,水科学与水工程（英文）,http://wse.hhu.edu.cn,failed,0,,,,,9d472a9176e650f4 (水科学与水工程（英文）): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: HTTP Error 500: Internal Server Error; /search: HTTP Error 500: Internal Server Error
+rhzh_journals,e07e9bbbd89bec8b,水科学进展,http://skxjz.nhri.cn,verified,1,3,passed_with_items,filters_query,九秩砺初心 智水润中华,
+rhzh_journals,3b11538cf1e0f3fd,求是学刊,http://qsxk.hlju.edu.cn,failed,0,,,,,3b11538cf1e0f3fd (求是学刊): HTTPError: HTTP Error 403: Forbidden
+rhzh_journals,1a14d565871feea9,江苏中医药,http://www.jstcm.cn,failed,0,,,,,1a14d565871feea9 (江苏中医药): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries; /search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries
+rhzh_journals,a4fb0971bf2db94d,江西农业学报,http://jxnyxb.xml-journal.net,failed,0,,,,,a4fb0971bf2db94d (江西农业学报): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries; /search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries
+rhzh_journals,06318d24c6c99af0,汽车工艺师,http://www.auto1950.com,failed,0,,,,,06318d24c6c99af0 (汽车工艺师): TimeoutError: The read operation timed out
+rhzh_journals,a78b925afff735a0,沉积与特提斯地质,http://www.cjyttsdz.com.cn,failed,0,,,,,a78b925afff735a0 (沉积与特提斯地质): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries; /search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries
+rhzh_journals,350c066edebbda85,沉积学报,http://www.cjxb.ac.cn,verified,1,3,passed_with_items,filters_query,东海沉积地层矿物 研究,
+rhzh_journals,2c6c0500f2c8da4c,河南工业大学学报（自然科学版）,http://xuebaozk.haut.edu.cn,failed,0,,,,,2c6c0500f2c8da4c (河南工业大学学报（自然科学版）): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries; /search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries
+rhzh_journals,6fe593393e8f3700,油气储运,https://yqcy.pipechina.com.cn,verified,1,3,passed_with_items,filters_query,管道凹陷 研究 现状,
+rhzh_journals,6752ac468e826722,浙江农林大学学报,http://zlxb.zafu.edu.cn,no_results_for_test_query,0,,,,,
+rhzh_journals,6913dc42b2e53d59,浙江林业科技,http://zjlykj.xml-journal.net,failed,0,,,,,6913dc42b2e53d59 (浙江林业科技): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries; /search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries
+rhzh_journals,b874577718c363d3,海洋地质与第四纪地质,http://www.jhydz.com.cn,verified,1,3,passed_with_items,filters_query,中国东部海域活动构造定量 研究 若干问题探讨,
+rhzh_journals,feb44d2c4893377c,海洋学报（英文版）,http://www.aosocean.com,verified,1,3,passed_with_items,filters_query,珠江河口潮能收支 研究,
+rhzh_journals,c8359ce73939d1b4,海洋科学进展,http://www.ams-journal.org.cn,failed,0,,,,,c8359ce73939d1b4 (海洋科学进展): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: HTTP Error 404: ; /search: HTTP Error 404: 
+rhzh_journals,8a8ce5363a4b0632,深空探测学报（中英文）,http://jdse.bit.edu.cn/sktcxb,verified,1,3,passed_with_items,filters_query,微阴极电弧推力器 研究 进展,
+rhzh_journals,2ab4253c3e6c5c21,渔业研究,http://www.hyyysci.com,verified,1,3,passed_with_items,filters_query,机器学习在渔业 研究 中的应用进展与展望,
+rhzh_journals,45a7d6cd1ddffcb4,湿地科学,http://wetlands.neigae.ac.cn,verified,1,3,passed_with_items,filters_query,湿地植物刈割 研究 进展,
+rhzh_journals,66d06d5944830fcd,激光技术,https://www.jgjs.net.cn,failed,0,,,,,66d06d5944830fcd (激光技术): URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1082)>
+rhzh_journals,fe931ab56b9de639,烟草科技,http://www.tobst.cn,failed,0,,,,,fe931ab56b9de639 (烟草科技): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries; /search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries
+rhzh_journals,9e09f47c497b80c8,热加工工艺,http://www.rjggy.com,failed,0,,,,,9e09f47c497b80c8 (热加工工艺): HTTPError: HTTP Error 502: Bad Gateway
+rhzh_journals,6978e890d55c4e81,热带气象学报（英文版）,http://jtm.itmm.org.cn,failed,0,,,,,6978e890d55c4e81 (热带气象学报（英文版）): HTTPError: HTTP Error 504: Gateway Time-out
+rhzh_journals,96f6dff01304043f,热带生物学报（中英文）,https://rdswxb.hainanu.edu.cn,verified,1,3,passed_with_items,filters_query,作物模拟 研究 进展,
+rhzh_journals,eaf28a71e77a3f4f,焊接,http://magazines.hwi.com.cn,no_results_for_test_query,0,,,,,
+rhzh_journals,5317945300ace56a,焊接学报,http://hjxb.hwi.com.cn,no_results_for_test_query,0,,,,,
+rhzh_journals,b2fc3e257c6620eb,煤炭学报,http://www.mtxb.com.cn,failed,0,,,,,b2fc3e257c6620eb (煤炭学报): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries; /search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries
+rhzh_journals,683d1a19ea7768c1,煤炭科学技术,http://www.mtkxjs.com.cn,failed,0,,,,,683d1a19ea7768c1 (煤炭科学技术): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries; /search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries
+rhzh_journals,c5c46c1463c402db,煤田地质与勘探,http://www.mtdzykt.com,failed,0,,,,,c5c46c1463c402db (煤田地质与勘探): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries; /search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries
+rhzh_journals,cabd4446e7cf9c0a,煤矿安全,http://www.mkaqzz.com,failed,0,,,,,cabd4446e7cf9c0a (煤矿安全): HTTPError: HTTP Error 502: Bad Gateway
+rhzh_journals,18d94a1645508cb7,爆炸与冲击,http://www.bzycj.cn,no_results_for_test_query,0,,,,,
+rhzh_journals,7f64bead17fa202a,物理,http://www.wuli.ac.cn,verified,1,3,passed_with_items,filters_query,同步辐射在高压 研究 中的应用,
+rhzh_journals,5dca7702eced0807,物理学报,https://wulixb.iphy.ac.cn,verified,1,3,passed_with_items,filters_query,在时域实验 研究 扩散诱导的Ramsey压窄,
+rhzh_journals,eb9b4c9d36d7902a,环境工程技术学报,http://www.hjgcjsxb.org.cn,failed,0,,,,,eb9b4c9d36d7902a (环境工程技术学报): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries; /search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries
+rhzh_journals,9b12c30edd6657ac,环境科学导刊,http://hjkxdk.yraes.org.cn,verified,1,3,passed_with_items,filters_query,含氰废渣高温焚烧处置技术 研究,
+rhzh_journals,c51b2b97e1398b11,现代教育论丛,http://xdjylc.scnu.edu.cn,failed,0,,,,,c51b2b97e1398b11 (现代教育论丛): TimeoutError: timed out
+rhzh_journals,463944b977a9ac3c,现代物理知识,http://mp.ihep.ac.cn,verified,1,3,passed_with_items,filters_query,日本热核 研究 突破,
+rhzh_journals,8ac6c5ff8efa1af3,现代电力,http://xddl.ncepujournal.com,verified,1,3,passed_with_items,filters_query,风电场建模 研究 综述,
+rhzh_journals,30e2b211206c47fa,现代隧道技术,http://www.xdsdjs.com,verified,1,3,passed_with_items,filters_query,岩爆灾害 研究 与进展,
+rhzh_journals,f5ad153394e9d3e7,生态与农村环境学报,http://www.ere.ac.cn,failed,0,,,,,f5ad153394e9d3e7 (生态与农村环境学报): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries; /search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries
+rhzh_journals,69592b7b76fd6669,生物质资源与工程（英文）,http://jbb.xml-journal.net,no_results_for_test_query,0,,,,,
+rhzh_journals,ee9b486d9c952074,电子与信息学报,http://jeit.ac.cn,no_results_for_test_query,0,,,,,
+rhzh_journals,871d6fec6caff6bb,电子学报（英文）,https://cje.ejournal.org.cn,no_results_for_test_query,0,,,,,
+rhzh_journals,6944f0c1e3052ea8,电子科技大学学报,http://www.juestc.uestc.edu.cn,verified,1,3,passed_with_items,filters_query,基于信息融合技术的航空电子设备故障诊断 研究,
+rhzh_journals,ca83a20dcfb7959e,电子科技学刊,http://www.journal.uestc.edu.cn,no_results_for_test_query,0,,,,,
+rhzh_journals,a4f35b05c01c128b,电气工程学报,http://www.jgcm.ac.cn/dqgcxb,failed,0,,,,,a4f35b05c01c128b (电气工程学报): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries; /search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries
+rhzh_journals,fa2a4f2f8e489f24,电波科学学报,http://www.cjors.cn,verified,1,3,passed_with_items,filters_query,二次静电放电仿真与实验 研究,
+rhzh_journals,705020db9038b3b2,电磁科学（英文）,http://www.emscience.org,failed,0,,,,,705020db9038b3b2 (电磁科学（英文）): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries; /search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries
+rhzh_journals,8d5c0e3c95ffef79,皮革科学与工程,http://www.scupgkg.cn,verified,1,3,passed_with_items,filters_query,后疫情时代 研究 生思想行为特点与教育对策 研究 ——基于轻工技术与工程专业 研究 生调查的实证分析,
+rhzh_journals,60f29d08aab0910b,真空科学与技术学报,http://cjvst.cvs.org.cn,verified,1,3,passed_with_items,filters_query,分子真空泵 研究 进展,
+rhzh_journals,e6f14b1ddaa9ec58,石油实验地质,http://www.sysydz.net,no_results_for_test_query,0,,,,,
+rhzh_journals,0f18216a5aadfb1d,石油物探,http://gpp.geophysics.cn,failed,0,,,,,0f18216a5aadfb1d (石油物探): HTTPError: HTTP Error 502: Bad Gateway
+rhzh_journals,6c4572fb5ef26d3e,石油钻采工艺,http://www.syzcgy.cn,verified,1,3,passed_with_items,filters_query,斜井射孔工艺 研究 与应用,
+rhzh_journals,ac3bed9a91787221,矿业研究与开发,http://www.chinamine.org.cn,verified,1,3,passed_with_items,filters_query,改性粘土浆的试验 研究,
+rhzh_journals,b9c749f74f38b0be,矿业科学学报,http://kykxxb.cumtb.edu.cn,verified,1,3,passed_with_items,filters_query,随钻岩性识别技术 研究 进展,
+rhzh_journals,3d8c7a7f761a8442,矿业装备,http://www.kyzb2011.com,verified,1,3,passed_with_items,filters_query,刮板输送机中部槽磨粒磨损试验 研究,
+rhzh_journals,ef3acbdc7982e900,矿产保护与利用,http://kcbhyly.xml-journal.net,verified,1,3,passed_with_items,filters_query,微生物浸铜技术 研究 进展,
+rhzh_journals,0a75e1268d7f4301,矿产综合利用,http://www.kczhly.com,verified,1,3,passed_with_items,filters_query,红土镍矿处理工艺 研究 现状,
+rhzh_journals,99f6f09112445440,福建农业科技,http://fjnk.fjnyxb.cn,verified,1,3,passed_with_items,filters_query,基于Citespace的农村产业融合 研究 综述,
+rhzh_journals,3b29060b2df6068a,空间科学与试验学报,http://www.spacejournal.cn,verified,1,3,passed_with_items,filters_query,卫星遥感数据在生态系统生产总值核算中的应用,
+rhzh_journals,d8fcd1f6c304620f,空间科学学报,http://www.cjss.ac.cn,failed,0,,,,,d8fcd1f6c304620f (空间科学学报): TimeoutError: The read operation timed out
+rhzh_journals,4f3a3930dc909991,等离子体科学和技术（英文版）,http://pst.hfcas.ac.cn,verified,1,3,passed_with_items,filters_query,等离子主动流动控制 研究,
+rhzh_journals,a03529025b270e3b,管理科学,http://glkx.hit.edu.cn,failed,0,,,,,a03529025b270e3b (管理科学): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: HTTP Error 404: Not Found; /search: HTTP Error 404: Not Found
+rhzh_journals,0ba480bd41d298cb,管道保护,https://gdbh.pipechina.com.cn,verified,1,3,passed_with_items,filters_query,海底管道新型原位修复技术 研究 进展,
+rhzh_journals,78beb292730d50d5,粉末冶金技术,http://pmt.ustb.edu.cn,failed,0,,,,,78beb292730d50d5 (粉末冶金技术): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries; /search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries
+rhzh_journals,d0007314ea677233,红外技术,http://hwjs.nvir.cn,verified,1,3,passed_with_items,filters_query,昆明物理 研究 所2006年 研究 生招生简章,
+rhzh_journals,3fb95f3da916ffb0,罕见病研究,https://jrd.pumch.cn,failed,0,,,,,3fb95f3da916ffb0 (罕见病研究): TimeoutError: The read operation timed out
+rhzh_journals,028f1f1e92c7038d,职业卫生与应急救援,https://www.oher.com.cn,verified,1,3,passed_with_items,filters_query,功能性口罩 研究 进展,
+rhzh_journals,5c4e9ff0dd1898bc,肿瘤防治研究,http://www.zlfzyj.com,failed,0,,,,,5c4e9ff0dd1898bc (肿瘤防治研究): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries; /search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries
+rhzh_journals,a8b3cab2e6492773,能源环境保护,https://www.eep1987.com,verified,1,3,passed_with_items,filters_query,煤田勘探阶段环境地质 研究 与评价,
+rhzh_journals,074e2c34b1a376ae,腐蚀与防护,http://www.mat-test.com/Journals/CP.htm,failed,0,,,,,074e2c34b1a376ae (腐蚀与防护): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: HTTP Error 404: ; /search: HTTP Error 404: 
+rhzh_journals,8298cc13a9e419b4,自动化学报,http://www.aas.net.cn,verified,1,3,passed_with_items,filters_query,LQ逆问题 研究,
+rhzh_journals,6124a906796a5f98,自然保护地,http://www.npa.net.cn,failed,0,,,,,6124a906796a5f98 (自然保护地): TimeoutError: timed out
+rhzh_journals,5c0d136f02c0028d,茶叶学报,http://cyxb.fjnyxb.cn,verified,1,3,passed_with_items,filters_query,“三茶”统筹背景下“小而美”茶旅业态可持续性评估与优化,
+rhzh_journals,a7c5d727ba68fc4e,蚌埠医科大学学报,https://xuebao.bbmu.edu.cn,verified,1,3,passed_with_items,filters_query,抗PD-1/PD-Ls抗体在肿瘤治疗中的应用 研究 进展,
+rhzh_journals,d6c7892963101ba0,蛋白质与细胞,http://www.protein-cell.net,no_results_for_test_query,0,,,,,
+rhzh_journals,cbe04ee66f2e803b,西南交通大学学报,http://xnjdxb.swjtu.edu.cn,failed,0,,,,,cbe04ee66f2e803b (西南交通大学学报): HTTPError: HTTP Error 502: Bad Gateway
+rhzh_journals,4da65ae4ce4e8982,西南林业大学学报,http://xnldxb.ns.swfu.edu.cn,verified,1,3,passed_with_items,filters_query,紫茎泽兰防除技术 研究 课题总结会在昆明举行,
+rhzh_journals,77369f7fd9e79d93,解放军医学院学报,https://xuebao.301hospital.com.cn,verified,1,3,passed_with_items,filters_query,医疗风险调查 研究 中应注意的问题,
+rhzh_journals,e1178cab6f2669fa,计算,https://cccf.hrbeu.edu.cn,failed,0,,,,,e1178cab6f2669fa (计算): URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)>
+rhzh_journals,39216a4458aad880,计算机应用与软件,http://www.shcas.net,failed,0,,,,,39216a4458aad880 (计算机应用与软件): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries; /search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries
+rhzh_journals,3ee3df5b2fea6d37,计算机研究与发展,https://crad.ict.ac.cn,verified,1,3,passed_with_items,filters_query,以数据为中心的智慧城市 研究 综述,
+rhzh_journals,7452d152b0e9ba06,计算机科学技术学报（英文版）,http://jcst.ict.ac.cn,failed,0,,,,,7452d152b0e9ba06 (计算机科学技术学报（英文版）): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries; /search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries
+rhzh_journals,160c46bb12ea266f,计算机辅助工程,http://www.chinacae.cn,failed,0,,,,,160c46bb12ea266f (计算机辅助工程): HTTPError: HTTP Error 303: 
+rhzh_journals,b37908b7d9b91992,计算机辅助设计与图形学学报,https://www.jcad.cn,verified,1,3,passed_with_items,filters_query,可重构制造系统重构算法的实例 研究,
+rhzh_journals,67667b743e27ce52,证券市场导报,https://zqscdb.szse.cn,verified,1,3,passed_with_items,filters_query,治理主体权责边界与国有企业创新——来自党委前置 研究 清单的证据,
+rhzh_journals,3afc9679579678e7,轻工学报,http://qgxb.zzuli.edu.cn/zzqgxb,failed,0,,,,,3afc9679579678e7 (轻工学报): HTTPError: HTTP Error 500: Internal Server Error
+rhzh_journals,14acecae8458145b,选煤技术,http://www.xuanmeijishu.com,failed,0,,,,,14acecae8458145b (选煤技术): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries; /search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries
+rhzh_journals,0c00b2cba0c3bb0d,郑州轻工业大学学报（社会科学版）,http://qgxb.zzuli.edu.cn/zzqgyxyxb,failed,0,,,,,0c00b2cba0c3bb0d (郑州轻工业大学学报（社会科学版）): HTTPError: HTTP Error 500: Internal Server Error
+rhzh_journals,104fb1a33fcd2685,采矿与岩层控制工程学报,https://ckyckz.kcyjy.com,verified,1,3,passed_with_items,filters_query,我国煤炭行业节能 研究,
+rhzh_journals,1e7781fa6d1503fc,钢铁研究学报,http://www.chinamet.cn/Jweb_gtyjxb_cn/CN/home,failed,0,,,,,1e7781fa6d1503fc (钢铁研究学报): JSONDecodeError: Expecting value: line 2 column 1 (char 2)
+rhzh_journals,42c8297db0759858,钢铁钒钛,http://www.gtft.cn,failed,0,,,,,42c8297db0759858 (钢铁钒钛): HTTPError: HTTP Error 502: Bad Gateway
+rhzh_journals,6af7f66d02d0faa9,铁路计算机应用,http://tljsjyy.xml-journal.net,verified,1,3,passed_with_items,filters_query,面向铁路的工业互联网平台体系架构 研究,
+rhzh_journals,3c41ea89a67ba47b,防化研究,https://journal.mlpla.mil.cn/fhyj,verified,1,3,passed_with_items,filters_query,Comparative study of cytochrome P450 expression in three permanent human hepatocytes,
+rhzh_journals,a4c942dd57eb3a92,防护工程,http://journal.mlpla.mil.cn/fhgc,failed,0,,,,,a4c942dd57eb3a92 (防护工程): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries; /search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries
+rhzh_journals,b763af06d5effc47,陕西地质,http://sxdz.xml-journal.net,failed,0,,,,,b763af06d5effc47 (陕西地质): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries; /search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries
+rhzh_journals,a1ee4a4afb1a9da0,陕西煤炭,http://www.sxmtzz.com,verified,1,3,passed_with_items,filters_query,煤岩体裂隙演化进展 研究,
+rhzh_journals,2c9a87a4cbf598f6,集装箱化,http://www.containerizations.com,failed,0,,,,,2c9a87a4cbf598f6 (集装箱化): HTTPError: HTTP Error 303: 
+rhzh_journals,b82ce05e9cc4a2d4,项目管理技术,http://www.pmtm.net.cn,failed,0,,,,,b82ce05e9cc4a2d4 (项目管理技术): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries; /search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries
+rhzh_journals,d16216acf633d167,风景园林,http://www.lalavision.com,verified,1,3,passed_with_items,filters_query,西湖“八景”的风景特质 研究,
+rhzh_journals,cbbafe783f161ec4,高压物理学报,http://www.gywlxb.cn,failed,0,,,,,cbbafe783f161ec4 (高压物理学报): TimeoutError: The read operation timed out
+rhzh_journals,e267d09373876a2b,高原山地气象研究,https://www.gysdqxyj.cn,verified,1,3,passed_with_items,filters_query,高原天气 研究 若干进展——基于中国气象局成都高原气象 研究 所相关 研究,
+rhzh_journals,d1d3952353039c20,高能物理与核物理,http://hepnp.ihep.ac.cn,failed,0,,,,,d1d3952353039c20 (高能物理与核物理): RemoteDisconnected: Remote end closed connection without response
+rhzh_journals,9d2e8e9fbdff80f7,黄河水利职业技术大学学报,https://xb.yrctu.edu.cn,verified,1,3,passed_with_items,filters_query,国内外汽车碰撞事故 研究 综述,
+rhzh_journals,4eccd70e0d00db5a,黄金,http://hj.chncgri.cn,failed,0,,,,,4eccd70e0d00db5a (黄金): ValueError: UNSUPPORTED_TEMPLATE: /cn/search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries; /search: UNSUPPORTED_TEMPLATE: only placeholder article-list entries
+sancai_journals,7371a30d9aa7945b,合肥师范学院学报,http://xbbjb.hfnu.edu.cn,verified,1,3,passed_with_items,filters_query,四十五年知与行：储朝晖的教育研究与探索,
+sancai_journals,1d43330d46323f18,安徽师范大学学报（社会科学版）,http://journal.ahnu.edu.cn,filter_unconfirmed,1,3,passed_with_items,inconclusive,政策工具视角下我国单项体育产业政策文本研究 ——基于国务院“31号文”的分析,1d43330d46323f18 (安徽师范大学学报（社会科学版）): HTTPError: HTTP Error 502: Bad Gateway
+sancai_journals,0c2a365ad24fa663,机械与电子,http://xueb.git.edu.cn,failed,0,,,,,0c2a365ad24fa663 (机械与电子): ValueError: UNSUPPORTED_TEMPLATE: no verified Samson ArticleSearch API

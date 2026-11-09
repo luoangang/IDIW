@@ -1,0 +1,2612 @@
+[
+  {
+    "source_row": 70,
+    "journal_key": "13456b1dda3b969d",
+    "name": "上海工程技术大学学报",
+    "url": "https://xuebao.sues.edu.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 94,
+    "journal_key": "4eaab0edcea38818",
+    "name": "上海海事大学学报",
+    "url": "http://www.smujournal.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 135,
+    "journal_key": "26edf6a5bfda3bd4",
+    "name": "上海预防医学",
+    "url": "http://www.sjpm.org.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 189,
+    "journal_key": "da3fe8c4d187e802",
+    "name": "世界林业研究",
+    "url": "http://www.sjlyyj.com",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 274,
+    "journal_key": "6c190a74085c5535",
+    "name": "东南园艺",
+    "url": "http://dnyy.fjnyxb.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 287,
+    "journal_key": "01480bbe9b77c432",
+    "name": "东方电气评论",
+    "url": "http://dfdqpl.xml-journal.net",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": "xml-journal.net",
+    "evidence": "url_signature"
+  },
+  {
+    "source_row": 386,
+    "journal_key": "e8340b0b2724b895",
+    "name": "中华全科医学",
+    "url": "http://www.zhqkyx.net",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 415,
+    "journal_key": "495abbaf232583e8",
+    "name": "中华医院感染学杂志",
+    "url": "http://zhyygrxzz.xml-journal.net",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": "xml-journal.net",
+    "evidence": "url_signature"
+  },
+  {
+    "source_row": 506,
+    "journal_key": "3561b28fde042a05",
+    "name": "中华疾病控制杂志",
+    "url": "http://zhjbkz.ahmu.edu.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 576,
+    "journal_key": "d2634a8a4fefebc2",
+    "name": "中华高血压杂志",
+    "url": "http://zhgxyzz.xml-journal.net",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": "xml-journal.net",
+    "evidence": "url_signature"
+  },
+  {
+    "source_row": 587,
+    "journal_key": "3988e2b2b1c0896e",
+    "name": "中南林业调查规划",
+    "url": "https://zny.csforestry.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 688,
+    "journal_key": "7eb360aa7003b555",
+    "name": "中国体视学与图像分析",
+    "url": "http://www.cjsia.org.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 718,
+    "journal_key": "970a7d8ffa02f08b",
+    "name": "中国光学（中英文）",
+    "url": "http://www.chineseoptics.net.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 722,
+    "journal_key": "e7343e83539a83e8",
+    "name": "中国公共卫生",
+    "url": "http://www.zgggws.com",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 740,
+    "journal_key": "77da7b1bd610203c",
+    "name": "中国军事科学",
+    "url": "http://journal.mlpla.mil.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 774,
+    "journal_key": "91c3f76d86497215",
+    "name": "中国冶金",
+    "url": "http://www.chinamet.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 837,
+    "journal_key": "9569a5a6c4a3924b",
+    "name": "中国医疗器械杂志",
+    "url": "https://zgylqxzz.xml-journal.net",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": "xml-journal.net",
+    "evidence": "url_signature"
+  },
+  {
+    "source_row": 934,
+    "journal_key": "d9b0bbc88ff1fe54",
+    "name": "中国地质",
+    "url": "http://geochina.cgs.gov.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 938,
+    "journal_key": "3687874e5508b7bb",
+    "name": "中国地质灾害与防治学报",
+    "url": "http://www.zgdzzhyfzxb.com",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 940,
+    "journal_key": "f6c45c6f44b17b90",
+    "name": "中国地质（英文）",
+    "url": "http://chinageology.cgs.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 944,
+    "journal_key": "0d8f6cf5b2afd461",
+    "name": "中国城市林业",
+    "url": "http://journals.caf.ac.cn/zgcsly",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 964,
+    "journal_key": "69613dde47853257",
+    "name": "中国妇幼卫生杂志",
+    "url": "http://zgfyws.chinawch.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 970,
+    "journal_key": "aca879563e1290c1",
+    "name": "中国学校卫生",
+    "url": "http://www.cjsh.org.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1005,
+    "journal_key": "a7f2a2a443c86bed",
+    "name": "中国岩溶",
+    "url": "http://zgyr.karst.ac.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1226,
+    "journal_key": "63c49a17b2bc2008",
+    "name": "中国海洋工程（英文版）",
+    "url": "http://www.chinaoceanengin.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1246,
+    "journal_key": "ee6261e67e219461",
+    "name": "中国烟草学报",
+    "url": "http://ycxb.tobacco.org.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1247,
+    "journal_key": "aa309dfc77bd9c62",
+    "name": "中国烟草科学",
+    "url": "http://www.zgyckx.com.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1266,
+    "journal_key": "085e57825191f8ef",
+    "name": "中国物理B（英文版）",
+    "url": "http://cpb.iphy.ac.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1267,
+    "journal_key": "9fbbdc4a2ee1a69e",
+    "name": "中国物理C（英文版）",
+    "url": "http://cpc.ihep.ac.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1275,
+    "journal_key": "095194386ee81b1c",
+    "name": "中国环境监测",
+    "url": "http://www.cnemce.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1284,
+    "journal_key": "4ad69b343e88d5b9",
+    "name": "中国现代应用药学",
+    "url": "http://www.chinjmap.com",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1297,
+    "journal_key": "48bf9df7e2f2af7f",
+    "name": "中国生态农业学报（中英文）",
+    "url": "http://www.ecoagri.ac.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1337,
+    "journal_key": "6049a1efefd9784a",
+    "name": "中国病毒学",
+    "url": "http://www.virosin.org",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1496,
+    "journal_key": "0ca748492f5caf93",
+    "name": "中国耳鼻咽喉颅底外科杂志",
+    "url": "http://www.xyosbs.com",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1524,
+    "journal_key": "b2e76a506c76aeed",
+    "name": "中国舰船研究",
+    "url": "http://www.ship-research.com",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1553,
+    "journal_key": "1470b9d883e961ee",
+    "name": "中国药科大学学报",
+    "url": "https://jcpu.cpu.edu.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1645,
+    "journal_key": "8dddb59a11e26ef2",
+    "name": "中国防汛抗旱",
+    "url": "http://www.cfdm.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1845,
+    "journal_key": "b20b69cf91145255",
+    "name": "中文信息学报",
+    "url": "http://jcip.cipsc.org.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1948,
+    "journal_key": "95e6196394e96569",
+    "name": "云南农业大学学报",
+    "url": "http://xb.ynau.edu.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1949,
+    "journal_key": "4b60438bc82d290d",
+    "name": "云南农业大学学报（自然科学）",
+    "url": "http://xb.ynau.edu.cn/jwk_zk",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1959,
+    "journal_key": "829e43c1b0dfe764",
+    "name": "云南大学学报（自然科学版）",
+    "url": "http://www.yndxxb.ynu.edu.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2025,
+    "journal_key": "90be70398d61f558",
+    "name": "交通信息与安全",
+    "url": "http://www.jtxa.net",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2230,
+    "journal_key": "0d980a50f6de17e9",
+    "name": "体育科学",
+    "url": "http://tykx.xml-journal.net",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": "xml-journal.net",
+    "evidence": "url_signature"
+  },
+  {
+    "source_row": 2291,
+    "journal_key": "83241a5231827636",
+    "name": "信号处理",
+    "url": "http://signal.ejournal.org.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2294,
+    "journal_key": "11692cf8685844f6",
+    "name": "信息与控制",
+    "url": "http://xk.sia.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2326,
+    "journal_key": "65625908c72fdcb8",
+    "name": "信阳师范大学学报（哲学社会科学版）",
+    "url": "http://xb.xynu.edu.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2327,
+    "journal_key": "0b24ed6bccef5007",
+    "name": "信阳师范大学学报（自然科学版）",
+    "url": "http://journal.xynu.edu.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2367,
+    "journal_key": "a0ca85235e2f2e1a",
+    "name": "光学与光电技术",
+    "url": "http://gxygdjs.xml-journal.net",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": "xml-journal.net",
+    "evidence": "url_signature"
+  },
+  {
+    "source_row": 2382,
+    "journal_key": "27d5597cee27b39f",
+    "name": "光电工程",
+    "url": "https://www.oejournal.org/J/OEE.html",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2384,
+    "journal_key": "efafeb0841401e77",
+    "name": "光电科学（英文）",
+    "url": "http://www.oejournal.org/oes",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2429,
+    "journal_key": "0c6ffa711482d2ff",
+    "name": "全球定位系统",
+    "url": "http://www.qqdwxt.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2469,
+    "journal_key": "51bdd2ff95642845",
+    "name": "兰州交通大学学报",
+    "url": "https://journal.lzjtu.edu.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2506,
+    "journal_key": "2be2f85e2a0dd0fa",
+    "name": "内江师范学院学报",
+    "url": "http://xb.njtc.edu.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2558,
+    "journal_key": "563f07e19f22d76c",
+    "name": "军事医学",
+    "url": "http://journal.mlpla.mil.cn/jsyx",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2578,
+    "journal_key": "2a95dd8cfdb76a28",
+    "name": "农业工程学报",
+    "url": "http://www.tcsae.org",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2579,
+    "journal_key": "432f7675ebc996bb",
+    "name": "农业工程技术",
+    "url": "http://www.nygcjs.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2593,
+    "journal_key": "00796374865b63f7",
+    "name": "农业现代化研究",
+    "url": "http://nyxdhyj.isa.ac.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2628,
+    "journal_key": "3e147c42dfae7184",
+    "name": "农技服务",
+    "url": "http://www.njfw.org.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2774,
+    "journal_key": "3aa08861956236ea",
+    "name": "制造技术与机床",
+    "url": "https://1951.mtmt.com.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2797,
+    "journal_key": "e0f919ab54be1ff4",
+    "name": "功能材料与器件学报",
+    "url": "http://www.jfmd.net.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2798,
+    "journal_key": "7a1163a9d045c3dc",
+    "name": "功能高分子学报",
+    "url": "http://gngfzxb.ecust.edu.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2825,
+    "journal_key": "d65a8795f7f45028",
+    "name": "勘察科学技术",
+    "url": "http://kckxjs.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2852,
+    "journal_key": "8a65fd17ceeedfbb",
+    "name": "化学物理学报（英文版）",
+    "url": "http://cjcp.ustc.edu.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2910,
+    "journal_key": "e22ccb57d930c57e",
+    "name": "北京工业大学学报",
+    "url": "https://journal.bjut.edu.cn/bjgydxxb",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2911,
+    "journal_key": "f08d9cbaa5b5d9e7",
+    "name": "北京工业大学学报（社会科学版）",
+    "url": "https://journal.bjut.edu.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2916,
+    "journal_key": "28d12160767a2ca6",
+    "name": "北京师范大学学报（自然科学版）",
+    "url": "http://www.bnujournal.com",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2932,
+    "journal_key": "ad18905acc7def35",
+    "name": "北京林业大学学报",
+    "url": "http://j.bjfu.edu.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2938,
+    "journal_key": "b523505e2f6ac5db",
+    "name": "北京理工大学学报",
+    "url": "http://journal.bit.edu.cn/zrb/ch/index.aspx",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2939,
+    "journal_key": "101937a04ad10d88",
+    "name": "北京理工大学学报（社会科学版）",
+    "url": "http://journal.bit.edu.cn/sk/ch/index.aspx",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2948,
+    "journal_key": "0470aef5b3fdebb4",
+    "name": "北京科技大学学报（社会科学版）",
+    "url": "https://bkds.ustb.edu.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3057,
+    "journal_key": "6863a3132f91844e",
+    "name": "半导体学报（英文版）",
+    "url": "http://www.jos.ac.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3061,
+    "journal_key": "1aaa8e7cfb1fceb9",
+    "name": "华东地质",
+    "url": "http://www.hddz.cgsnjzx.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3070,
+    "journal_key": "635681cc5323af53",
+    "name": "华东理工大学学报（自然科学版）",
+    "url": "http://journal.ecust.edu.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3096,
+    "journal_key": "610b9a2de07beabc",
+    "name": "华北地震科学",
+    "url": "http://www.nceqsci.com",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3109,
+    "journal_key": "9f455e15e1fc98dc",
+    "name": "华南农业大学学报",
+    "url": "https://journal.scau.edu.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3114,
+    "journal_key": "a339b6d699f5396f",
+    "name": "华南师范大学学报（社会科学版）",
+    "url": "http://journal.scnu.edu.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3115,
+    "journal_key": "28d54ab726c01634",
+    "name": "华南师范大学学报（自然科学版）",
+    "url": "https://journal-n.scnu.edu.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3140,
+    "journal_key": "9f38f4515af316e9",
+    "name": "南京中医药大学学报",
+    "url": "http://xb.njucm.edu.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3192,
+    "journal_key": "6ac7cb1366f2922e",
+    "name": "南方农业学报",
+    "url": "http://nfnyxb.xml-journal.net",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": "xml-journal.net",
+    "evidence": "url_signature"
+  },
+  {
+    "source_row": 3202,
+    "journal_key": "74f5e0c52be8d0a5",
+    "name": "南方水产科学",
+    "url": "http://www.schinafish.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3207,
+    "journal_key": "43822640e4c8f926",
+    "name": "南方能源建设",
+    "url": "https://www.energychina.press",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3218,
+    "journal_key": "63893165c279a4ed",
+    "name": "南昌航空大学学报（社会科学版）",
+    "url": "http://qk.nchu.edu.cn/skb",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3219,
+    "journal_key": "faa81399f69672e1",
+    "name": "南昌航空大学学报（自然科学版）",
+    "url": "http://qk.nchu.edu.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3345,
+    "journal_key": "cc2cdf37556311e6",
+    "name": "台湾农业探索",
+    "url": "http://twnt.fjnyxb.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3502,
+    "journal_key": "5fd3b968592e8690",
+    "name": "器官移植",
+    "url": "http://www.organtranspl.com",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3520,
+    "journal_key": "e44e20dce3525583",
+    "name": "四川大学学报（医学版）",
+    "url": "https://ykxb.scu.edu.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3535,
+    "journal_key": "6776376b5315c81c",
+    "name": "四川林业科技",
+    "url": "http://www.sjfsci.com",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3770,
+    "journal_key": "e0e4d5fad4343004",
+    "name": "土壤与作物",
+    "url": "http://sc.iga.ac.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3774,
+    "journal_key": "ba1fd015f4e480f2",
+    "name": "土壤通报",
+    "url": "http://www.trtb.net",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3782,
+    "journal_key": "4c834649b573a094",
+    "name": "土木建筑工程信息技术",
+    "url": "http://tmjzgcxxjs.manuscripts.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3799,
+    "journal_key": "97baa61c8ca30a3f",
+    "name": "地球与行星物理（英文）",
+    "url": "http://www.eppcgs.org",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3805,
+    "journal_key": "912d94e870b17943",
+    "name": "地球物理学报",
+    "url": "http://www.geophy.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3806,
+    "journal_key": "8aee26cc41b6c04e",
+    "name": "地球物理学进展",
+    "url": "http://www.progeophys.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3827,
+    "journal_key": "1ac267b64d447057",
+    "name": "地质力学学报",
+    "url": "https://journal.geomech.ac.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3833,
+    "journal_key": "58d74dd017dded0e",
+    "name": "地质科学",
+    "url": "http://www.dzkx.org",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3837,
+    "journal_key": "74e0e13c0a9f03d6",
+    "name": "地质通报",
+    "url": "http://dzhtb.cgs.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3841,
+    "journal_key": "ee89dc48d5fae47a",
+    "name": "地震学报",
+    "url": "https://www.dzxb.org",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3842,
+    "journal_key": "41d97e211c171cf7",
+    "name": "地震学报（英文版）",
+    "url": "https://www.equsci.org.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3848,
+    "journal_key": "5f4a747e79aa106c",
+    "name": "地震科学进展",
+    "url": "http://www.gjdzdt.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3927,
+    "journal_key": "3650c3a527dc442a",
+    "name": "声学学报",
+    "url": "https://jac.ac.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3928,
+    "journal_key": "2c22bdfe7c635a55",
+    "name": "声学技术",
+    "url": "http://www.sxjs.ac.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4098,
+    "journal_key": "d40b085e83d80fa4",
+    "name": "天文学报",
+    "url": "http://www.twxb.org",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4308,
+    "journal_key": "8946722b2ca7a3ad",
+    "name": "安徽工业大学学报（社会科学版）",
+    "url": "http://xuebaosk.ahut.edu.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4309,
+    "journal_key": "ec5cd099cb89f1fe",
+    "name": "安徽工业大学学报（自然科学版）",
+    "url": "http://xuebaozk.ahut.edu.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4321,
+    "journal_key": "9905a614f14c39e9",
+    "name": "安徽理工大学学报（自然科学版）",
+    "url": "https://xbzkb.aust.edu.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4401,
+    "journal_key": "a5322dd1765e8f17",
+    "name": "实验科学与技术",
+    "url": "http://www.sy.uestc.edu.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4438,
+    "journal_key": "742033e39606a545",
+    "name": "寒地医学（英文）",
+    "url": "http://www.frigidzonemedicine.com.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4454,
+    "journal_key": "3e71a5c6d061e473",
+    "name": "小城镇建设",
+    "url": "http://www.dosct.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4567,
+    "journal_key": "808fe7ca2bb460ac",
+    "name": "山东煤炭科技",
+    "url": "http://sdmtkj.xml-journal.net",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": "xml-journal.net",
+    "evidence": "url_signature"
+  },
+  {
+    "source_row": 4597,
+    "journal_key": "51076c8882a5125c",
+    "name": "山地科学学报（英文）",
+    "url": "http://jms.imde.ac.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4650,
+    "journal_key": "aff04056831c4af6",
+    "name": "岩土工程学报",
+    "url": "http://www.cgejournal.com",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4651,
+    "journal_key": "305375039951656e",
+    "name": "岩土工程技术",
+    "url": "http://ytgcjs.xml-journal.net",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": "xml-journal.net",
+    "evidence": "url_signature"
+  },
+  {
+    "source_row": 4656,
+    "journal_key": "3405188f6dc7c3b3",
+    "name": "岩石学报",
+    "url": "http://www.ysxb.ac.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4658,
+    "journal_key": "86cc5cde3531ba99",
+    "name": "岩矿测试",
+    "url": "http://www.ykcs.ac.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4682,
+    "journal_key": "1d2ebe2c7e1a99bc",
+    "name": "工业工程",
+    "url": "http://iej.gdut.edu.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4684,
+    "journal_key": "689e0b0e7c10256f",
+    "name": "工业建筑",
+    "url": "http://www.ic-mag.com",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4701,
+    "journal_key": "cbf5ccb9ed48e3b5",
+    "name": "工矿自动化",
+    "url": "http://www.gkzdh.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4712,
+    "journal_key": "6800f58dc59ec246",
+    "name": "工程力学",
+    "url": "http://engineeringmechanics.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4715,
+    "journal_key": "fcf9db5e51601eca",
+    "name": "工程地质学报",
+    "url": "http://www.gcdz.org",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4726,
+    "journal_key": "cae273782b082d2c",
+    "name": "工程机械与维修",
+    "url": "http://www.ccmm.com.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4732,
+    "journal_key": "b11e9e7fdb08aa16",
+    "name": "工程科学学报",
+    "url": "http://cje.ustb.edu.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4798,
+    "journal_key": "42240702ae573e09",
+    "name": "广东工业大学学报",
+    "url": "https://xbzrb.gdut.edu.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4908,
+    "journal_key": "0cf9fea48fbf978a",
+    "name": "应用光学",
+    "url": "http://www.yygx.net",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4914,
+    "journal_key": "95a0b4536be5b09f",
+    "name": "应用基础与工程科学学报",
+    "url": "http://www.jbse.net",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4921,
+    "journal_key": "712f7c84b7d2eabb",
+    "name": "应用数学和力学",
+    "url": "http://www.applmathmech.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4927,
+    "journal_key": "fd2cda5af79f072b",
+    "name": "应用概率统计",
+    "url": "http://aps.ecnu.edu.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4928,
+    "journal_key": "a44f25f1fc4ac150",
+    "name": "应用气象学报",
+    "url": "http://qikan.camscma.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4931,
+    "journal_key": "a6a8c896bede1234",
+    "name": "应用海洋学学报",
+    "url": "http://xuebao.jao.org.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4972,
+    "journal_key": "2cd1c4ed7fb00aeb",
+    "name": "建筑史学刊",
+    "url": "https://www.jgcm.ac.cn/jah",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5028,
+    "journal_key": "de05396fea14b220",
+    "name": "强激光与粒子束",
+    "url": "http://www.hplpb.com.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5117,
+    "journal_key": "7dc7036206d7dcb3",
+    "name": "徐州医科大学学报",
+    "url": "http://xb.xzhmu.edu.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5122,
+    "journal_key": "d61d24cfa22e4870",
+    "name": "循证医学",
+    "url": "http://www.jebm.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5131,
+    "journal_key": "8595a05d464b9569",
+    "name": "微波学报",
+    "url": "http://wbxb.xml-journal.net",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": "xml-journal.net",
+    "evidence": "url_signature"
+  },
+  {
+    "source_row": 5171,
+    "journal_key": "c307f78bae041f7f",
+    "name": "心脏杂志",
+    "url": "http://www.heartj.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5306,
+    "journal_key": "8735bed0ed239e52",
+    "name": "指挥与控制学报",
+    "url": "http://www.jc2.org.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5437,
+    "journal_key": "258e8d214f0dca0a",
+    "name": "数字中医药（英文）",
+    "url": "http://www.dcmhi.com.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5449,
+    "journal_key": "11df32ca3dde8573",
+    "name": "数字技术与应用",
+    "url": "http://www.szjsyyy.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5624,
+    "journal_key": "caf52c621657d272",
+    "name": "新医学",
+    "url": "http://www.xinyixue.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5672,
+    "journal_key": "250d85355bfb434c",
+    "name": "新疆农业科学",
+    "url": "http://www.xjnykx.com",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5818,
+    "journal_key": "0832534f9c8a0729",
+    "name": "无损检测",
+    "url": "http://www.mat-test.com",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5873,
+    "journal_key": "d844f2fb64573f7d",
+    "name": "昆明医科大学学报",
+    "url": "https://kyxuebao.kmmu.edu.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5919,
+    "journal_key": "3deee97d57685dc2",
+    "name": "智能建筑与工程机械",
+    "url": "http://www.znjzygcjx.com",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5922,
+    "journal_key": "d62ab82d674f0835",
+    "name": "智能感知工程",
+    "url": "http://www.cjipe.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5937,
+    "journal_key": "45d77d795a892f26",
+    "name": "暴雨灾害",
+    "url": "http://www.byzh.org.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5955,
+    "journal_key": "b4c1e18f8c3bc9be",
+    "name": "有色金属科学与工程",
+    "url": "http://ysjskxygc.xml-journal.net",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": "xml-journal.net",
+    "evidence": "url_signature"
+  },
+  {
+    "source_row": 5970,
+    "journal_key": "2b9bbc8b471c6603",
+    "name": "机器人",
+    "url": "http://robot.sia.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5974,
+    "journal_key": "9f197ba37ed00277",
+    "name": "机器智能研究（英文）",
+    "url": "http://www.mi-research.net",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5988,
+    "journal_key": "9b7b1c22818db969",
+    "name": "机械研究与应用",
+    "url": "http://www.jxyj1978.com",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6084,
+    "journal_key": "a04ee8fd82073a3c",
+    "name": "核动力工程",
+    "url": "http://hdlgc.xml-journal.net",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": "xml-journal.net",
+    "evidence": "url_signature"
+  },
+  {
+    "source_row": 6152,
+    "journal_key": "77531f3095f90ead",
+    "name": "植物科学学报",
+    "url": "http://www.plantscience.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6153,
+    "journal_key": "0464cc3b2b250bf1",
+    "name": "植物营养与肥料学报",
+    "url": "http://www.plantnutrifert.org",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6190,
+    "journal_key": "e7ec0ad268c5a587",
+    "name": "武汉大学学报（信息科学版）",
+    "url": "http://ch.whu.edu.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6275,
+    "journal_key": "348683f0beafa544",
+    "name": "气候与环境研究",
+    "url": "http://www.iapjournals.ac.cn/qhhj",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6299,
+    "journal_key": "e5ff81762a9472c8",
+    "name": "水下无人系统学报",
+    "url": "http://sxwrxtxb.xml-journal.net",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": "xml-journal.net",
+    "evidence": "url_signature"
+  },
+  {
+    "source_row": 6315,
+    "journal_key": "b872dd2e0bbd9aa1",
+    "name": "水利水电快报",
+    "url": "http://www.slsdkb.cjw.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6318,
+    "journal_key": "508243207f4348a2",
+    "name": "水利水运工程学报",
+    "url": "http://slsy.nhri.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6338,
+    "journal_key": "f654cf0323c7e0a6",
+    "name": "水文地质工程地质",
+    "url": "http://www.swdzgcdz.com",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6353,
+    "journal_key": "9d472a9176e650f4",
+    "name": "水科学与水工程（英文）",
+    "url": "http://wse.hhu.edu.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6354,
+    "journal_key": "e07e9bbbd89bec8b",
+    "name": "水科学进展",
+    "url": "http://skxjz.nhri.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6370,
+    "journal_key": "3b11538cf1e0f3fd",
+    "name": "求是学刊",
+    "url": "http://qsxk.hlju.edu.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6405,
+    "journal_key": "1a14d565871feea9",
+    "name": "江苏中医药",
+    "url": "http://www.jstcm.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6462,
+    "journal_key": "a4fb0971bf2db94d",
+    "name": "江西农业学报",
+    "url": "http://jxnyxb.xml-journal.net",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": "xml-journal.net",
+    "evidence": "url_signature"
+  },
+  {
+    "source_row": 6507,
+    "journal_key": "06318d24c6c99af0",
+    "name": "汽车工艺师",
+    "url": "http://www.auto1950.com",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6548,
+    "journal_key": "a78b925afff735a0",
+    "name": "沉积与特提斯地质",
+    "url": "http://www.cjyttsdz.com.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6549,
+    "journal_key": "350c066edebbda85",
+    "name": "沉积学报",
+    "url": "http://www.cjxb.ac.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6640,
+    "journal_key": "2c6c0500f2c8da4c",
+    "name": "河南工业大学学报（自然科学版）",
+    "url": "http://xuebaozk.haut.edu.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6679,
+    "journal_key": "6fe593393e8f3700",
+    "name": "油气储运",
+    "url": "https://yqcy.pipechina.com.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6781,
+    "journal_key": "6752ac468e826722",
+    "name": "浙江农林大学学报",
+    "url": "http://zlxb.zafu.edu.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6806,
+    "journal_key": "6913dc42b2e53d59",
+    "name": "浙江林业科技",
+    "url": "http://zjlykj.xml-journal.net",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": "xml-journal.net",
+    "evidence": "url_signature"
+  },
+  {
+    "source_row": 6862,
+    "journal_key": "b874577718c363d3",
+    "name": "海洋地质与第四纪地质",
+    "url": "http://www.jhydz.com.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6865,
+    "journal_key": "feb44d2c4893377c",
+    "name": "海洋学报（英文版）",
+    "url": "http://www.aosocean.com",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6880,
+    "journal_key": "c8359ce73939d1b4",
+    "name": "海洋科学进展",
+    "url": "http://www.ams-journal.org.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6928,
+    "journal_key": "8a8ce5363a4b0632",
+    "name": "深空探测学报（中英文）",
+    "url": "http://jdse.bit.edu.cn/sktcxb",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6949,
+    "journal_key": "2ab4253c3e6c5c21",
+    "name": "渔业研究",
+    "url": "http://www.hyyysci.com",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7076,
+    "journal_key": "45a7d6cd1ddffcb4",
+    "name": "湿地科学",
+    "url": "http://wetlands.neigae.ac.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7105,
+    "journal_key": "66d06d5944830fcd",
+    "name": "激光技术",
+    "url": "https://www.jgjs.net.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7137,
+    "journal_key": "fe931ab56b9de639",
+    "name": "烟草科技",
+    "url": "http://www.tobst.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7140,
+    "journal_key": "9e09f47c497b80c8",
+    "name": "热加工工艺",
+    "url": "http://www.rjggy.com",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7153,
+    "journal_key": "6978e890d55c4e81",
+    "name": "热带气象学报（英文版）",
+    "url": "http://jtm.itmm.org.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7155,
+    "journal_key": "96f6dff01304043f",
+    "name": "热带生物学报（中英文）",
+    "url": "https://rdswxb.hainanu.edu.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7161,
+    "journal_key": "eaf28a71e77a3f4f",
+    "name": "焊接",
+    "url": "http://magazines.hwi.com.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7162,
+    "journal_key": "5317945300ace56a",
+    "name": "焊接学报",
+    "url": "http://hjxb.hwi.com.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7172,
+    "journal_key": "b2fc3e257c6620eb",
+    "name": "煤炭学报",
+    "url": "http://www.mtxb.com.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7177,
+    "journal_key": "683d1a19ea7768c1",
+    "name": "煤炭科学技术",
+    "url": "http://www.mtkxjs.com.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7182,
+    "journal_key": "c5c46c1463c402db",
+    "name": "煤田地质与勘探",
+    "url": "http://www.mtdzykt.com",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7183,
+    "journal_key": "cabd4446e7cf9c0a",
+    "name": "煤矿安全",
+    "url": "http://www.mkaqzz.com",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7201,
+    "journal_key": "18d94a1645508cb7",
+    "name": "爆炸与冲击",
+    "url": "http://www.bzycj.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7227,
+    "journal_key": "7f64bead17fa202a",
+    "name": "物理",
+    "url": "http://www.wuli.ac.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7231,
+    "journal_key": "5dca7702eced0807",
+    "name": "物理学报",
+    "url": "https://wulixb.iphy.ac.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7281,
+    "journal_key": "eb9b4c9d36d7902a",
+    "name": "环境工程技术学报",
+    "url": "http://www.hjgcjsxb.org.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7301,
+    "journal_key": "9b12c30edd6657ac",
+    "name": "环境科学导刊",
+    "url": "http://hjkxdk.yraes.org.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7414,
+    "journal_key": "c51b2b97e1398b11",
+    "name": "现代教育论丛",
+    "url": "http://xdjylc.scnu.edu.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7431,
+    "journal_key": "463944b977a9ac3c",
+    "name": "现代物理知识",
+    "url": "http://mp.ihep.ac.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7435,
+    "journal_key": "8ac6c5ff8efa1af3",
+    "name": "现代电力",
+    "url": "http://xddl.ncepujournal.com",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7481,
+    "journal_key": "30e2b211206c47fa",
+    "name": "现代隧道技术",
+    "url": "http://www.xdsdjs.com",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7560,
+    "journal_key": "f5ad153394e9d3e7",
+    "name": "生态与农村环境学报",
+    "url": "http://www.ere.ac.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7616,
+    "journal_key": "69592b7b76fd6669",
+    "name": "生物质资源与工程（英文）",
+    "url": "http://jbb.xml-journal.net",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": "xml-journal.net",
+    "evidence": "url_signature"
+  },
+  {
+    "source_row": 7670,
+    "journal_key": "ee9b486d9c952074",
+    "name": "电子与信息学报",
+    "url": "http://jeit.ac.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7689,
+    "journal_key": "871d6fec6caff6bb",
+    "name": "电子学报（英文）",
+    "url": "https://cje.ejournal.org.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7707,
+    "journal_key": "6944f0c1e3052ea8",
+    "name": "电子科技大学学报",
+    "url": "http://www.juestc.uestc.edu.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7709,
+    "journal_key": "ca83a20dcfb7959e",
+    "name": "电子科技学刊",
+    "url": "http://www.journal.uestc.edu.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7729,
+    "journal_key": "a4f35b05c01c128b",
+    "name": "电气工程学报",
+    "url": "http://www.jgcm.ac.cn/dqgcxb",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7740,
+    "journal_key": "fa2a4f2f8e489f24",
+    "name": "电波科学学报",
+    "url": "http://www.cjors.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7747,
+    "journal_key": "705020db9038b3b2",
+    "name": "电磁科学（英文）",
+    "url": "http://www.emscience.org",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7830,
+    "journal_key": "8d5c0e3c95ffef79",
+    "name": "皮革科学与工程",
+    "url": "http://www.scupgkg.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7847,
+    "journal_key": "60f29d08aab0910b",
+    "name": "真空科学与技术学报",
+    "url": "http://cjvst.cvs.org.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7901,
+    "journal_key": "e6f14b1ddaa9ec58",
+    "name": "石油实验地质",
+    "url": "http://www.sysydz.net",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7911,
+    "journal_key": "0f18216a5aadfb1d",
+    "name": "石油物探",
+    "url": "http://gpp.geophysics.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7925,
+    "journal_key": "6c4572fb5ef26d3e",
+    "name": "石油钻采工艺",
+    "url": "http://www.syzcgy.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7932,
+    "journal_key": "ac3bed9a91787221",
+    "name": "矿业研究与开发",
+    "url": "http://www.chinamine.org.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7933,
+    "journal_key": "b9c749f74f38b0be",
+    "name": "矿业科学学报",
+    "url": "http://kykxxb.cumtb.edu.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7935,
+    "journal_key": "3d8c7a7f761a8442",
+    "name": "矿业装备",
+    "url": "http://www.kyzb2011.com",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7937,
+    "journal_key": "ef3acbdc7982e900",
+    "name": "矿产保护与利用",
+    "url": "http://kcbhyly.xml-journal.net",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": "xml-journal.net",
+    "evidence": "url_signature"
+  },
+  {
+    "source_row": 7939,
+    "journal_key": "0a75e1268d7f4301",
+    "name": "矿产综合利用",
+    "url": "http://www.kczhly.com",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8030,
+    "journal_key": "99f6f09112445440",
+    "name": "福建农业科技",
+    "url": "http://fjnk.fjnyxb.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8224,
+    "journal_key": "3b29060b2df6068a",
+    "name": "空间科学与试验学报",
+    "url": "http://www.spacejournal.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8225,
+    "journal_key": "d8fcd1f6c304620f",
+    "name": "空间科学学报",
+    "url": "http://www.cjss.ac.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8240,
+    "journal_key": "4f3a3930dc909991",
+    "name": "等离子体科学和技术（英文版）",
+    "url": "http://pst.hfcas.ac.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8257,
+    "journal_key": "a03529025b270e3b",
+    "name": "管理科学",
+    "url": "http://glkx.hit.edu.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8262,
+    "journal_key": "0ba480bd41d298cb",
+    "name": "管道保护",
+    "url": "https://gdbh.pipechina.com.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8267,
+    "journal_key": "78beb292730d50d5",
+    "name": "粉末冶金技术",
+    "url": "http://pmt.ustb.edu.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8325,
+    "journal_key": "d0007314ea677233",
+    "name": "红外技术",
+    "url": "http://hwjs.nvir.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8482,
+    "journal_key": "3fb95f3da916ffb0",
+    "name": "罕见病研究",
+    "url": "https://jrd.pumch.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8538,
+    "journal_key": "028f1f1e92c7038d",
+    "name": "职业卫生与应急救援",
+    "url": "https://www.oher.com.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8584,
+    "journal_key": "5c4e9ff0dd1898bc",
+    "name": "肿瘤防治研究",
+    "url": "http://www.zlfzyj.com",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8607,
+    "journal_key": "a8b3cab2e6492773",
+    "name": "能源环境保护",
+    "url": "https://www.eep1987.com",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8616,
+    "journal_key": "074e2c34b1a376ae",
+    "name": "腐蚀与防护",
+    "url": "http://www.mat-test.com/Journals/CP.htm",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8629,
+    "journal_key": "8298cc13a9e419b4",
+    "name": "自动化学报",
+    "url": "http://www.aas.net.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8635,
+    "journal_key": "6124a906796a5f98",
+    "name": "自然保护地",
+    "url": "http://www.npa.net.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8772,
+    "journal_key": "5c0d136f02c0028d",
+    "name": "茶叶学报",
+    "url": "http://cyxb.fjnyxb.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8828,
+    "journal_key": "a7c5d727ba68fc4e",
+    "name": "蚌埠医科大学学报",
+    "url": "https://xuebao.bbmu.edu.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8835,
+    "journal_key": "d6c7892963101ba0",
+    "name": "蛋白质与细胞",
+    "url": "http://www.protein-cell.net",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8900,
+    "journal_key": "cbe04ee66f2e803b",
+    "name": "西南交通大学学报",
+    "url": "http://xnjdxb.swjtu.edu.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8909,
+    "journal_key": "4da65ae4ce4e8982",
+    "name": "西南林业大学学报",
+    "url": "http://xnldxb.ns.swfu.edu.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9007,
+    "journal_key": "77369f7fd9e79d93",
+    "name": "解放军医学院学报",
+    "url": "https://xuebao.301hospital.com.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9019,
+    "journal_key": "e1178cab6f2669fa",
+    "name": "计算",
+    "url": "https://cccf.hrbeu.edu.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9039,
+    "journal_key": "39216a4458aad880",
+    "name": "计算机应用与软件",
+    "url": "http://www.shcas.net",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9046,
+    "journal_key": "3ee3df5b2fea6d37",
+    "name": "计算机研究与发展",
+    "url": "https://crad.ict.ac.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9050,
+    "journal_key": "7452d152b0e9ba06",
+    "name": "计算机科学技术学报（英文版）",
+    "url": "http://jcst.ict.ac.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9052,
+    "journal_key": "160c46bb12ea266f",
+    "name": "计算机辅助工程",
+    "url": "http://www.chinacae.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9054,
+    "journal_key": "b37908b7d9b91992",
+    "name": "计算机辅助设计与图形学学报",
+    "url": "https://www.jcad.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9067,
+    "journal_key": "67667b743e27ce52",
+    "name": "证券市场导报",
+    "url": "https://zqscdb.szse.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9285,
+    "journal_key": "3afc9679579678e7",
+    "name": "轻工学报",
+    "url": "http://qgxb.zzuli.edu.cn/zzqgxb",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9377,
+    "journal_key": "14acecae8458145b",
+    "name": "选煤技术",
+    "url": "http://www.xuanmeijishu.com",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9441,
+    "journal_key": "0c00b2cba0c3bb0d",
+    "name": "郑州轻工业大学学报（社会科学版）",
+    "url": "http://qgxb.zzuli.edu.cn/zzqgyxyxb",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9462,
+    "journal_key": "104fb1a33fcd2685",
+    "name": "采矿与岩层控制工程学报",
+    "url": "https://ckyckz.kcyjy.com",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9560,
+    "journal_key": "1e7781fa6d1503fc",
+    "name": "钢铁研究学报",
+    "url": "http://www.chinamet.cn/Jweb_gtyjxb_cn/CN/home",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9564,
+    "journal_key": "42c8297db0759858",
+    "name": "钢铁钒钛",
+    "url": "http://www.gtft.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9579,
+    "journal_key": "6af7f66d02d0faa9",
+    "name": "铁路计算机应用",
+    "url": "http://tljsjyy.xml-journal.net",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": "xml-journal.net",
+    "evidence": "url_signature"
+  },
+  {
+    "source_row": 9682,
+    "journal_key": "3c41ea89a67ba47b",
+    "name": "防化研究",
+    "url": "https://journal.mlpla.mil.cn/fhyj",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9683,
+    "journal_key": "a4c942dd57eb3a92",
+    "name": "防护工程",
+    "url": "http://journal.mlpla.mil.cn/fhgc",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9708,
+    "journal_key": "b763af06d5effc47",
+    "name": "陕西地质",
+    "url": "http://sxdz.xml-journal.net",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": "xml-journal.net",
+    "evidence": "url_signature"
+  },
+  {
+    "source_row": 9722,
+    "journal_key": "a1ee4a4afb1a9da0",
+    "name": "陕西煤炭",
+    "url": "http://www.sxmtzz.com",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9744,
+    "journal_key": "2c9a87a4cbf598f6",
+    "name": "集装箱化",
+    "url": "http://www.containerizations.com",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9851,
+    "journal_key": "b82ce05e9cc4a2d4",
+    "name": "项目管理技术",
+    "url": "http://www.pmtm.net.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9869,
+    "journal_key": "d16216acf633d167",
+    "name": "风景园林",
+    "url": "http://www.lalavision.com",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9952,
+    "journal_key": "cbbafe783f161ec4",
+    "name": "高压物理学报",
+    "url": "http://www.gywlxb.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9957,
+    "journal_key": "e267d09373876a2b",
+    "name": "高原山地气象研究",
+    "url": "https://www.gysdqxyj.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 10009,
+    "journal_key": "d1d3952353039c20",
+    "name": "高能物理与核物理",
+    "url": "http://hepnp.ihep.ac.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 10035,
+    "journal_key": "9d2e8e9fbdff80f7",
+    "name": "黄河水利职业技术大学学报",
+    "url": "https://xb.yrctu.edu.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 10037,
+    "journal_key": "4eccd70e0d00db5a",
+    "name": "黄金",
+    "url": "http://hj.chncgri.cn",
+    "supplier": "仁和汇智",
+    "template_group": "rhzh",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  }
+]

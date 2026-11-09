@@ -1,0 +1,62 @@
+[
+  {
+    "source_row": 2027,
+    "journal_key": "e60fb00be47651cc",
+    "name": "交通安全与环境（英文）",
+    "url": "https://academic.oup.com/tse",
+    "supplier": "牛津大学出版社",
+    "template_group": "牛津大学出版社",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2553,
+    "journal_key": "8d138c1e8daab811",
+    "name": "再生生物材料（英文）",
+    "url": "https://academic.oup.com/rb",
+    "supplier": "牛津大学出版社",
+    "template_group": "牛津大学出版社",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3571,
+    "journal_key": "5fca2482cb1a3a9d",
+    "name": "园艺研究（英文）",
+    "url": "https://academic.oup.com/hr",
+    "supplier": "牛津大学出版社",
+    "template_group": "牛津大学出版社",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3622,
+    "journal_key": "fde235a4fd796e3c",
+    "name": "国家科学评论（英文版）",
+    "url": "http://academic.oup.com/nsr",
+    "supplier": "牛津大学出版社",
+    "template_group": "牛津大学出版社",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8286,
+    "journal_key": "4a93a30020fd52cb",
+    "name": "精准临床医学（英文）",
+    "url": "https://academic.oup.com/pcm",
+    "supplier": "牛津大学出版社",
+    "template_group": "牛津大学出版社",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8588,
+    "journal_key": "8db6121e5d546cde",
+    "name": "胃肠病学报道（英文）",
+    "url": "https://academic.oup.com/gastro",
+    "supplier": "牛津大学出版社",
+    "template_group": "牛津大学出版社",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  }
+]

@@ -4,6 +4,7 @@
 __pycache__/
 *.py[cod]
 .pytest_cache/
+.test_tmp/
 .venv/
 
 # Local databases, backups, and runtime output

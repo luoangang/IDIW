@@ -1,0 +1,112 @@
+[
+  {
+    "source_row": 2379,
+    "journal_key": "4e8b8e96eb7ae6ca",
+    "name": "光电子快报（英文版）",
+    "url": "http://link.springer.com/journal/11801",
+    "supplier": "Springer Nature",
+    "template_group": "Springer Nature",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3659,
+    "journal_key": "dcfd9b19206cacc0",
+    "name": "国际口腔科学杂志（英文版）",
+    "url": "http://www.nature.com/ijos",
+    "supplier": "Springer Nature",
+    "template_group": "Springer Nature",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3703,
+    "journal_key": "ff41ab4962f5414c",
+    "name": "国际煤炭科学技术学报（英文）",
+    "url": "http://link.springer.com/journal/40789",
+    "supplier": "Springer Nature",
+    "template_group": "Springer Nature",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3802,
+    "journal_key": "2955a6b5bfb5e8f5",
+    "name": "地球化学学报（英文版）",
+    "url": "https://www.springer.com/journal/11631",
+    "supplier": "Springer Nature",
+    "template_group": "Springer Nature",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5325,
+    "journal_key": "17afb316b570e6f7",
+    "name": "控制理论与技术（英文版）",
+    "url": "https://www.springer.com/journal/11768",
+    "supplier": "Springer Nature",
+    "template_group": "Springer Nature",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5334,
+    "journal_key": "bc5a2b39b7b0afb6",
+    "name": "摩擦（英文）",
+    "url": "https://www.springer.com/journal/40544",
+    "supplier": "Springer Nature",
+    "template_group": "Springer Nature",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7573,
+    "journal_key": "0f5104ccd59cb37e",
+    "name": "生态过程（英文）",
+    "url": "https://ecologicalprocesses.springeropen.com",
+    "supplier": "Springer Nature",
+    "template_group": "Springer Nature",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7606,
+    "journal_key": "cb28ad66bdb28ea6",
+    "name": "生物技术通报（英文）",
+    "url": "https://www.springer.com/journal/42994",
+    "supplier": "Springer Nature",
+    "template_group": "Springer Nature",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7613,
+    "journal_key": "751528fca2ca52cf",
+    "name": "生物设计与制造（英文）",
+    "url": "https://link.springer.com/journal/42242",
+    "supplier": "Springer Nature",
+    "template_group": "Springer Nature",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8592,
+    "journal_key": "ff3f82468743556b",
+    "name": "胶原与皮革（英文）",
+    "url": "https://jlse.springeropen.com",
+    "supplier": "Springer Nature",
+    "template_group": "Springer Nature",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9501,
+    "journal_key": "1aad1cbdf57abb33",
+    "name": "量子前沿（英文）",
+    "url": "https://link.springer.com/journal/44214",
+    "supplier": "Springer Nature",
+    "template_group": "Springer Nature",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  }
+]

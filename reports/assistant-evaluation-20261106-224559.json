@@ -1,0 +1,2143 @@
+{
+  "started_at": "2026-11-06T22:46:01.326841+08:00",
+  "model": "deepseek-flash",
+  "cases": [
+    {
+      "id": "M1",
+      "level": "中等",
+      "title": "科学智能全部中文期刊",
+      "name": "AI验收-20261106-224559-M1-科学智能全部中文期刊",
+      "messages": [
+        "任务名称必须为：AI验收-20261106-224559-M1-科学智能全部中文期刊。我想监控 AI 在科学研究中的应用。主关键词用人工智能，别名加入科学智能、AI for science、AI4S。覆盖目前已接入的所有中文期刊，是所有期刊，不只是所有采集包或默认几本；不选新闻、百科和外文。每天北京时间08:30，每个中文期刊包单次上限200，只要元数据和摘要，不要全文。请说明覆盖范围。"
+      ],
+      "turns": [
+        {
+          "number": 1,
+          "prompt": "任务名称必须为：AI验收-20261106-224559-M1-科学智能全部中文期刊。我想监控 AI 在科学研究中的应用。主关键词用人工智能，别名加入科学智能、AI for science、AI4S。覆盖目前已接入的所有中文期刊，是所有期刊，不只是所有采集包或默认几本；不选新闻、百科和外文。每天北京时间08:30，每个中文期刊包单次上限200，只要元数据和摘要，不要全文。请说明覆盖范围。",
+          "elapsed_seconds": 4.39,
+          "response": {
+            "reply": "已按你的要求做成草案：任务名称固定为你指定的名称，查询主关键词为“人工智能”，别名加入“科学智能”“AI for science”“AI4S”。只启用四个中文期刊检索包，不选新闻、百科和外文，每个包单次上限 200 条，每个包的 journal_keys 先留空。需要说明：当前目录里有 4 个中文期刊检索包，但你要求的是“目前所有已接入的中文期刊”；平台没有提供全部已接入期刊的清单，我无法猜出期刊 key and 无法保证枚举到全部期刊，因此草案中 journal_keys 留空，需在草案里选定具体期刊后才能真正覆盖全部期刊。另外，各包 journal_keys 上限分别为 30/30/30/3，实际选刊数量受该限制。草案只采集元数据和摘要，不获取全文，也不承诺每条目录都能检索到并返回摘要。时间按北京时间每天 08:30。",
+            "draft": {
+              "name": "AI验收-20261106-224559-M1-科学智能全部中文期刊",
+              "query": "人工智能",
+              "aliases": [
+                "科学智能",
+                "AI for science",
+                "AI4S"
+              ],
+              "schedule_type": "daily",
+              "schedule_time": "08:30",
+              "weekday": null,
+              "timezone": "Asia/Shanghai",
+              "packages": [
+                {
+                  "package_key": "magetech_journals",
+                  "enabled": true,
+                  "item_limit": 200,
+                  "config": {}
+                },
+                {
+                  "package_key": "cnki_cbpt",
+                  "enabled": true,
+                  "item_limit": 200,
+                  "config": {}
+                },
+                {
+                  "package_key": "qinyun_journals",
+                  "enabled": true,
+                  "item_limit": 200,
+                  "config": {}
+                },
+                {
+                  "package_key": "rhzh_journals",
+                  "enabled": true,
+                  "item_limit": 200,
+                  "config": {}
+                },
+                {
+                  "package_key": "sancai_journals",
+                  "enabled": true,
+                  "item_limit": 200,
+                  "config": {}
+                }
+              ]
+            },
+            "model": "deepseek-flash",
+            "usage": {
+              "prompt_tokens": 2842,
+              "completion_tokens": 403,
+              "total_tokens": 3245,
+              "prompt_tokens_details": {
+                "cached_tokens": 2560
+              },
+              "prompt_cache_hit_tokens": 2560,
+              "prompt_cache_miss_tokens": 282
+            },
+            "preview": {
+              "ready": true,
+              "draft": {
+                "weekday": null,
+                "schedule_type": "daily",
+                "query": "人工智能",
+                "schedule_time": "08:30",
+                "packages": [
+                  {
+                    "package_key": "cnki_cbpt",
+                    "enabled": true,
+                    "item_limit": 200,
+                    "config": {
+                      "journal_keys": [
+                        "40ef15e1a2fb290f",
+                        "33bbac1cb397cca0",
+                        "56a780a5c8cc7659"
+                      ],
+                      "timeout_seconds": 20,
+                      "per_journal_limit": 20
+                    }
+                  },
+                  {
+                    "package_key": "magetech_journals",
+                    "enabled": true,
+                    "item_limit": 200,
+                    "config": {
+                      "journal_keys": [
+                        "data_analysis",
+                        "lis",
+                        "qbzl"
+                      ],
+                      "request_delay_ms": 300,
+                      "max_pages_per_journal": 20
+                    }
+                  },
+                  {
+                    "package_key": "qinyun_journals",
+                    "enabled": true,
+                    "item_limit": 200,
+                    "config": {
+                      "journal_keys": [
+                        "jos"
+                      ],
+                      "timeout_seconds": 20,
+                      "per_journal_limit": 20
+                    }
+                  },
+                  {
+                    "package_key": "rhzh_journals",
+                    "enabled": true,
+                    "item_limit": 200,
+                    "config": {
+                      "journal_keys": [
+                        "b11e9e7fdb08aa16"
+                      ],
+                      "timeout_seconds": 20,
+                      "per_journal_limit": 20
+                    }
+                  },
+                  {
+                    "package_key": "sancai_journals",
+                    "enabled": true,
+                    "item_limit": 200,
+                    "config": {
+                      "journal_keys": [
+                        "7371a30d9aa7945b"
+                      ],
+                      "timeout_seconds": 20,
+                      "per_journal_limit": 20
+                    }
+                  }
+                ],
+                "aliases": [
+                  "科学智能",
+                  "AI for science",
+                  "AI4S"
+                ],
+                "name": "AI验收-20261106-224559-M1-科学智能全部中文期刊",
+                "timezone": "Asia/Shanghai"
+              },
+              "errors": [],
+              "warnings": [],
+              "next_run_at": "2026-11-07T00:30:00Z",
+              "confirmation_token": "[omitted]"
+            }
+          }
+        }
+      ],
+      "created": {
+        "id": 14,
+        "verified": true,
+        "monitor": {
+          "id": 14,
+          "name": "AI验收-20261106-224559-M1-科学智能全部中文期刊",
+          "query_text": "人工智能",
+          "auto_include_new_packages": 1,
+          "schedule_type": "daily",
+          "schedule_time": "08:30:00",
+          "weekday": null,
+          "timezone": "Asia/Shanghai",
+          "enabled": 0,
+          "last_run_at": null,
+          "next_run_at": "2026-11-07T00:30:00Z",
+          "created_at": "2026-11-06T14:46:07.298645Z",
+          "updated_at": "2026-11-06T14:46:07.536012Z",
+          "weekly_report_enabled": 0,
+          "archived_at": null,
+          "aliases": [
+            "科学智能",
+            "AI for science",
+            "AI4S"
+          ],
+          "selected_categories": []
+        },
+        "packages": {
+          "magetech_journals": {
+            "item_limit": 200,
+            "config": {
+              "journal_keys": [
+                "data_analysis",
+                "lis",
+                "qbzl"
+              ],
+              "request_delay_ms": 300,
+              "max_pages_per_journal": 20
+            }
+          },
+          "cnki_cbpt": {
+            "item_limit": 200,
+            "config": {
+              "journal_keys": [
+                "40ef15e1a2fb290f",
+                "33bbac1cb397cca0",
+                "56a780a5c8cc7659"
+              ],
+              "timeout_seconds": 20,
+              "per_journal_limit": 20
+            }
+          },
+          "qinyun_journals": {
+            "item_limit": 200,
+            "config": {
+              "journal_keys": [
+                "jos"
+              ],
+              "timeout_seconds": 20,
+              "per_journal_limit": 20
+            }
+          },
+          "rhzh_journals": {
+            "item_limit": 200,
+            "config": {
+              "journal_keys": [
+                "b11e9e7fdb08aa16"
+              ],
+              "timeout_seconds": 20,
+              "per_journal_limit": 20
+            }
+          },
+          "sancai_journals": {
+            "item_limit": 200,
+            "config": {
+              "journal_keys": [
+                "7371a30d9aa7945b"
+              ],
+              "timeout_seconds": 20,
+              "per_journal_limit": 20
+            }
+          }
+        },
+        "run_count": 0,
+        "archived": true,
+        "snapshot_phase": "disabled_before_archive"
+      },
+      "grade": {
+        "score": 75,
+        "verdict": "部分通过",
+        "checks": [
+          {
+            "label": "草案有效且任务名称准确",
+            "pass": true,
+            "weight": 5,
+            "details": "",
+            "critical": true
+          },
+          {
+            "label": "关键词保留主题",
+            "pass": true,
+            "weight": 5,
+            "details": "",
+            "critical": false
+          },
+          {
+            "label": "来源选择准确",
+            "pass": true,
+            "weight": 20,
+            "details": "expected=['cnki_cbpt', 'magetech_journals', 'qinyun_journals', 'rhzh_journals', 'sancai_journals']; actual=['cnki_cbpt', 'magetech_journals', 'qinyun_journals', 'rhzh_journals', 'sancai_journals']",
+            "critical": true
+          },
+          {
+            "label": "北京时间计划准确",
+            "pass": true,
+            "weight": 15,
+            "details": "expected=('daily', '08:30', None); actual=('daily', '08:30', None)",
+            "critical": true
+          },
+          {
+            "label": "各包上限准确",
+            "pass": true,
+            "weight": 15,
+            "details": "",
+            "critical": true
+          },
+          {
+            "label": "所有目录期刊均被选择，不是默认少数",
+            "pass": false,
+            "weight": 25,
+            "details": "{\"magetech_journals\": {\"selected\": 3, \"catalog\": 98}, \"sancai_journals\": {\"selected\": 1, \"catalog\": 1}, \"cnki_cbpt\": {\"selected\": 3, \"catalog\": 509}, \"rhzh_journals\": {\"selected\": 1, \"catalog\": 122}, \"qinyun_journals\": {\"selected\": 1, \"catalog\": 104}}",
+            "critical": true
+          },
+          {
+            "label": "科研同义检索词得到保留",
+            "pass": true,
+            "weight": 5,
+            "details": "",
+            "critical": false
+          },
+          {
+            "label": "真实建库与参数回读一致，已停用且未运行",
+            "pass": true,
+            "weight": 10,
+            "details": "{\"id\": 14, \"verified\": true, \"archived\": true, \"run_count\": 0}",
+            "critical": true
+          }
+        ]
+      },
+      "review_notes": [
+        "实际选中5个包、合计9个默认期刊条目，仅占目录834条目的约1.1%，没有覆盖全部期刊。",
+        "回复称4个包且journal_keys留空，但实际为5个包且合并了默认选择；解释与落库配置不一致。",
+        "模型承认看不到完整目录，但草案仍ready=true，确认接口允许创建。应以未解决的覆盖要求阻止确认。",
+        "单包选刊上限与单草案结构限制了全量覆盖，当前助手也没有自动拆分多任务的能力。"
+      ]
+    },
+    {
+      "id": "M2",
+      "level": "中等",
+      "title": "中文论文周监测",
+      "name": "AI验收-20261106-224559-M2-中文论文周监测",
+      "messages": [
+        "任务名称必须为：AI验收-20261106-224559-M2-中文论文周监测。监控关键词大语言模型，只用玛格泰克和CBPT中文期刊包，各包期刊范围沿用现有默认选择。每周一北京时间09:10执行，每包最多140条；玛格泰克每刊最多翻5页，CBPT每刊最多70条。不要新闻和外文。"
+      ],
+      "turns": [
+        {
+          "number": 1,
+          "prompt": "任务名称必须为：AI验收-20261106-224559-M2-中文论文周监测。监控关键词大语言模型，只用玛格泰克和CBPT中文期刊包，各包期刊范围沿用现有默认选择。每周一北京时间09:10执行，每包最多140条；玛格泰克每刊最多翻5页，CBPT每刊最多70条。不要新闻和外文。",
+          "elapsed_seconds": 3.27,
+          "response": {
+            "reply": "已按您指定条件生成周监测草案：仅启用玛格泰克中文期刊检索包和知网期刊门户（CBPT）两个中文期刊来源，期刊范围沿用各自默认选择；关键词为“大语言模型”；每周一北京时间09:10执行；玛格泰克每包上限140条、每刊最多翻5页，CBPT每刊最多70条，并相应将CNKI包单包条数总量适配为140条上限。未加入新闻和外文来源。",
+            "draft": {
+              "name": "AI验收-20261106-224559-M2-中文论文周监测",
+              "query": "大语言模型",
+              "aliases": [],
+              "schedule_type": "weekly",
+              "schedule_time": "09:10",
+              "weekday": 1,
+              "timezone": "Asia/Shanghai",
+              "packages": [
+                {
+                  "package_key": "magetech_journals",
+                  "enabled": true,
+                  "item_limit": 140,
+                  "config": {
+                    "max_pages_per_journal": 5
+                  }
+                },
+                {
+                  "package_key": "cnki_cbpt",
+                  "enabled": true,
+                  "item_limit": 140,
+                  "config": {
+                    "per_journal_limit": 70
+                  }
+                }
+              ]
+            },
+            "model": "deepseek-flash",
+            "usage": {
+              "prompt_tokens": 2825,
+              "completion_tokens": 265,
+              "total_tokens": 3090,
+              "prompt_tokens_details": {
+                "cached_tokens": 2560
+              },
+              "prompt_cache_hit_tokens": 2560,
+              "prompt_cache_miss_tokens": 265
+            },
+            "preview": {
+              "ready": true,
+              "draft": {
+                "weekday": 1,
+                "schedule_type": "weekly",
+                "query": "大语言模型",
+                "schedule_time": "09:10",
+                "packages": [
+                  {
+                    "package_key": "cnki_cbpt",
+                    "enabled": true,
+                    "item_limit": 140,
+                    "config": {
+                      "journal_keys": [
+                        "40ef15e1a2fb290f",
+                        "33bbac1cb397cca0",
+                        "56a780a5c8cc7659"
+                      ],
+                      "timeout_seconds": 20,
+                      "per_journal_limit": 70
+                    }
+                  },
+                  {
+                    "package_key": "magetech_journals",
+                    "enabled": true,
+                    "item_limit": 140,
+                    "config": {
+                      "journal_keys": [
+                        "data_analysis",
+                        "lis",
+                        "qbzl"
+                      ],
+                      "request_delay_ms": 300,
+                      "max_pages_per_journal": 5
+                    }
+                  }
+                ],
+                "aliases": [],
+                "name": "AI验收-20261106-224559-M2-中文论文周监测",
+                "timezone": "Asia/Shanghai"
+              },
+              "errors": [],
+              "warnings": [],
+              "next_run_at": "2026-11-09T01:10:00Z",
+              "confirmation_token": "[omitted]"
+            }
+          }
+        }
+      ],
+      "created": {
+        "id": 15,
+        "verified": true,
+        "monitor": {
+          "id": 15,
+          "name": "AI验收-20261106-224559-M2-中文论文周监测",
+          "query_text": "大语言模型",
+          "auto_include_new_packages": 1,
+          "schedule_type": "weekly",
+          "schedule_time": "09:10:00",
+          "weekday": 1,
+          "timezone": "Asia/Shanghai",
+          "enabled": 0,
+          "last_run_at": null,
+          "next_run_at": "2026-11-09T01:10:00Z",
+          "created_at": "2026-11-06T14:46:13.495508Z",
+          "updated_at": "2026-11-06T14:46:13.592390Z",
+          "weekly_report_enabled": 0,
+          "archived_at": null,
+          "aliases": [],
+          "selected_categories": []
+        },
+        "packages": {
+          "magetech_journals": {
+            "item_limit": 140,
+            "config": {
+              "journal_keys": [
+                "data_analysis",
+                "lis",
+                "qbzl"
+              ],
+              "request_delay_ms": 300,
+              "max_pages_per_journal": 5
+            }
+          },
+          "cnki_cbpt": {
+            "item_limit": 140,
+            "config": {
+              "journal_keys": [
+                "40ef15e1a2fb290f",
+                "33bbac1cb397cca0",
+                "56a780a5c8cc7659"
+              ],
+              "timeout_seconds": 20,
+              "per_journal_limit": 70
+            }
+          }
+        },
+        "run_count": 0,
+        "archived": true,
+        "snapshot_phase": "disabled_before_archive"
+      },
+      "grade": {
+        "score": 100,
+        "verdict": "通过",
+        "checks": [
+          {
+            "label": "草案有效且任务名称准确",
+            "pass": true,
+            "weight": 5,
+            "details": "",
+            "critical": true
+          },
+          {
+            "label": "关键词保留主题",
+            "pass": true,
+            "weight": 5,
+            "details": "",
+            "critical": false
+          },
+          {
+            "label": "来源选择准确",
+            "pass": true,
+            "weight": 20,
+            "details": "expected=['cnki_cbpt', 'magetech_journals']; actual=['cnki_cbpt', 'magetech_journals']",
+            "critical": true
+          },
+          {
+            "label": "北京时间计划准确",
+            "pass": true,
+            "weight": 15,
+            "details": "expected=('weekly', '09:10', 1); actual=('weekly', '09:10', 1)",
+            "critical": true
+          },
+          {
+            "label": "各包上限准确",
+            "pass": true,
+            "weight": 15,
+            "details": "",
+            "critical": true
+          },
+          {
+            "label": "玛格泰克每刊5页",
+            "pass": true,
+            "weight": 15,
+            "details": "",
+            "critical": true
+          },
+          {
+            "label": "CBPT每刊70条",
+            "pass": true,
+            "weight": 15,
+            "details": "",
+            "critical": true
+          },
+          {
+            "label": "真实建库与参数回读一致，已停用且未运行",
+            "pass": true,
+            "weight": 10,
+            "details": "{\"id\": 15, \"verified\": true, \"archived\": true, \"run_count\": 0}",
+            "critical": true
+          }
+        ]
+      },
+      "review_notes": [
+        "需求配置与数据库回读一致，未发现本轮配置问题。"
+      ]
+    },
+    {
+      "id": "M3",
+      "level": "中等",
+      "title": "四大期刊科学发现",
+      "name": "AI验收-20261106-224559-M3-四大期刊科学发现",
+      "messages": [
+        "任务名称必须为：AI验收-20261106-224559-M3-四大期刊科学发现。主题为大语言模型辅助科学发现，英文检索短语用large language models for scientific discovery。只选外文重点期刊包中的Nature、Science、PNAS、Cell，回看最近7天。仅保留有摘要的记录，每刊最多25条、整个包最多100条；每天北京时间08:45执行。"
+      ],
+      "turns": [
+        {
+          "number": 1,
+          "prompt": "任务名称必须为：AI验收-20261106-224559-M3-四大期刊科学发现。主题为大语言模型辅助科学发现，英文检索短语用large language models for scientific discovery。只选外文重点期刊包中的Nature、Science、PNAS、Cell，回看最近7天。仅保留有摘要的记录，每刊最多25条、整个包最多100条；每天北京时间08:45执行。",
+          "elapsed_seconds": 3.5,
+          "response": {
+            "reply": "已按您的要求配置任务：四大期刊（Nature、Science、PNAS、Cell）检索 large language models for scientific discovery，回看 7 天、仅保留有摘要记录、每刊 25 条、整包 100 条，每天北京时间 08:45 执行。注意该包为公开元数据检索，不承诺覆盖全部文献或一定获取足量/完整正文。",
+            "draft": {
+              "name": "AI验收-20261106-224559-M3-四大期刊科学发现",
+              "query": "large language models for scientific discovery",
+              "aliases": [
+                "large language models for scientific discovery"
+              ],
+              "schedule_type": "daily",
+              "schedule_time": "08:45",
+              "weekday": null,
+              "timezone": "Asia/Shanghai",
+              "packages": [
+                {
+                  "package_key": "flagship_journals",
+                  "enabled": true,
+                  "item_limit": 100,
+                  "config": {
+                    "journal_keys": [
+                      "nature",
+                      "science",
+                      "pnas",
+                      "cell"
+                    ],
+                    "search_terms": [
+                      "large language models for scientific discovery"
+                    ],
+                    "lookback_days": 7,
+                    "require_abstract": true,
+                    "per_journal_limit": 25
+                  }
+                }
+              ]
+            },
+            "model": "deepseek-flash",
+            "usage": {
+              "prompt_tokens": 2827,
+              "completion_tokens": 262,
+              "total_tokens": 3089,
+              "prompt_tokens_details": {
+                "cached_tokens": 2560
+              },
+              "prompt_cache_hit_tokens": 2560,
+              "prompt_cache_miss_tokens": 267
+            },
+            "preview": {
+              "ready": true,
+              "draft": {
+                "weekday": null,
+                "schedule_type": "daily",
+                "query": "large language models for scientific discovery",
+                "schedule_time": "08:45",
+                "packages": [
+                  {
+                    "package_key": "flagship_journals",
+                    "enabled": true,
+                    "item_limit": 100,
+                    "config": {
+                      "journal_keys": [
+                        "nature",
+                        "science",
+                        "pnas",
+                        "cell"
+                      ],
+                      "search_terms": [
+                        "large language models for scientific discovery"
+                      ],
+                      "lookback_days": 7,
+                      "timeout_seconds": 20,
+                      "require_abstract": true,
+                      "per_journal_limit": 25
+                    }
+                  }
+                ],
+                "aliases": [
+                  "large language models for scientific discovery"
+                ],
+                "name": "AI验收-20261106-224559-M3-四大期刊科学发现",
+                "timezone": "Asia/Shanghai"
+              },
+              "errors": [],
+              "warnings": [],
+              "next_run_at": "2026-11-07T00:45:00Z",
+              "confirmation_token": "[omitted]"
+            }
+          }
+        }
+      ],
+      "created": {
+        "id": 16,
+        "verified": true,
+        "monitor": {
+          "id": 16,
+          "name": "AI验收-20261106-224559-M3-四大期刊科学发现",
+          "query_text": "large language models for scientific discovery",
+          "auto_include_new_packages": 1,
+          "schedule_type": "daily",
+          "schedule_time": "08:45:00",
+          "weekday": null,
+          "timezone": "Asia/Shanghai",
+          "enabled": 0,
+          "last_run_at": null,
+          "next_run_at": "2026-11-07T00:45:00Z",
+          "created_at": "2026-11-06T14:46:19.599592Z",
+          "updated_at": "2026-11-06T14:46:19.721254Z",
+          "weekly_report_enabled": 0,
+          "archived_at": null,
+          "aliases": [
+            "large language models for scientific discovery"
+          ],
+          "selected_categories": []
+        },
+        "packages": {
+          "flagship_journals": {
+            "item_limit": 100,
+            "config": {
+              "journal_keys": [
+                "nature",
+                "science",
+                "pnas",
+                "cell"
+              ],
+              "search_terms": [
+                "large language models for scientific discovery"
+              ],
+              "lookback_days": 7,
+              "timeout_seconds": 20,
+              "require_abstract": true,
+              "per_journal_limit": 25
+            }
+          }
+        },
+        "run_count": 0,
+        "archived": true,
+        "snapshot_phase": "disabled_before_archive"
+      },
+      "grade": {
+        "score": 100,
+        "verdict": "通过",
+        "checks": [
+          {
+            "label": "草案有效且任务名称准确",
+            "pass": true,
+            "weight": 5,
+            "details": "",
+            "critical": true
+          },
+          {
+            "label": "关键词保留主题（允许等义英文）",
+            "pass": true,
+            "weight": 5,
+            "details": "",
+            "critical": false
+          },
+          {
+            "label": "来源选择准确",
+            "pass": true,
+            "weight": 20,
+            "details": "expected=['flagship_journals']; actual=['flagship_journals']",
+            "critical": true
+          },
+          {
+            "label": "北京时间计划准确",
+            "pass": true,
+            "weight": 15,
+            "details": "expected=('daily', '08:45', None); actual=('daily', '08:45', None)",
+            "critical": true
+          },
+          {
+            "label": "各包上限准确",
+            "pass": true,
+            "weight": 15,
+            "details": "",
+            "critical": true
+          },
+          {
+            "label": "四刊齐全",
+            "pass": true,
+            "weight": 10,
+            "details": "",
+            "critical": true
+          },
+          {
+            "label": "回看7天",
+            "pass": true,
+            "weight": 5,
+            "details": "",
+            "critical": false
+          },
+          {
+            "label": "每刊25条",
+            "pass": true,
+            "weight": 5,
+            "details": "",
+            "critical": false
+          },
+          {
+            "label": "要求摘要",
+            "pass": true,
+            "weight": 10,
+            "details": "",
+            "critical": true
+          },
+          {
+            "label": "真实建库与参数回读一致，已停用且未运行",
+            "pass": true,
+            "weight": 10,
+            "details": "{\"id\": 16, \"verified\": true, \"archived\": true, \"run_count\": 0}",
+            "critical": true
+          }
+        ]
+      },
+      "review_notes": [
+        "使用用户明确提供的等义英文短语作为主查询是合理的，不因缺少中文字面字符串扣分。"
+      ]
+    },
+    {
+      "id": "M4",
+      "level": "中等",
+      "title": "军事智能体新闻",
+      "name": "AI验收-20261106-224559-M4-军事智能体新闻",
+      "messages": [
+        "任务名称必须为：AI验收-20261106-224559-M4-军事智能体新闻。监控军事智能体相关新闻，只选Google新闻RSS和通用RSS多源包。补充准确英文别名，RSS按关键词匹配而非全部收入，RSS回看7天、每个feed最多40条，feed地址沿用现有配置。Google单次上限80，通用RSS单次上限150，每天北京时间09:20执行。"
+      ],
+      "turns": [
+        {
+          "number": 1,
+          "prompt": "任务名称必须为：AI验收-20261106-224559-M4-军事智能体新闻。监控军事智能体相关新闻，只选Google新闻RSS和通用RSS多源包。补充准确英文别名，RSS按关键词匹配而非全部收入，RSS回看7天、每个feed最多40条，feed地址沿用现有配置。Google单次上限80，通用RSS单次上限150，每天北京时间09:20执行。",
+          "elapsed_seconds": 3.96,
+          "response": {
+            "reply": "已按你的要求生成任务草案：仅启用 Google 新闻 RSS 和通用 RSS 多源采集两个来源；英文别名使用 military AI agents、autonomous weapons、intelligent unmanned systems 等准确短语；RSS 采用关键词组本地匹配（非全收），回看 7 天、每 feed 上限 40、沿用现有 feed_urls；Google 上限 80 条、通用 RSS 上限 150 条；每日北京时间 09:20 执行。若需增删英文别名或关键词组，可继续告知。",
+            "draft": {
+              "name": "AI验收-20261106-224559-M4-军事智能体新闻",
+              "query": "军事智能体",
+              "aliases": [
+                "military AI agents",
+                "AI-enabled military decision support",
+                "autonomous weapons",
+                "intelligent unmanned systems",
+                "military multi-agent systems"
+              ],
+              "schedule_type": "daily",
+              "schedule_time": "09:20",
+              "weekday": null,
+              "timezone": "Asia/Shanghai",
+              "packages": [
+                {
+                  "package_key": "google_news_rss",
+                  "enabled": true,
+                  "item_limit": 80,
+                  "config": {}
+                },
+                {
+                  "package_key": "rss_multi_feed",
+                  "enabled": true,
+                  "item_limit": 150,
+                  "config": {
+                    "lookback_days": 7,
+                    "per_feed_limit": 40,
+                    "match_mode": "keywords",
+                    "keyword_groups": [
+                      [
+                        "军事智能体"
+                      ],
+                      [
+                        "military AI agents"
+                      ],
+                      [
+                        "autonomous weapons"
+                      ],
+                      [
+                        "intelligent unmanned systems"
+                      ]
+                    ]
+                  }
+                }
+              ]
+            },
+            "model": "deepseek-flash",
+            "usage": {
+              "prompt_tokens": 2835,
+              "completion_tokens": 344,
+              "total_tokens": 3179,
+              "prompt_tokens_details": {
+                "cached_tokens": 2560
+              },
+              "prompt_cache_hit_tokens": 2560,
+              "prompt_cache_miss_tokens": 275
+            },
+            "preview": {
+              "ready": true,
+              "draft": {
+                "weekday": null,
+                "schedule_type": "daily",
+                "query": "军事智能体",
+                "schedule_time": "09:20",
+                "packages": [
+                  {
+                    "package_key": "google_news_rss",
+                    "enabled": true,
+                    "item_limit": 80,
+                    "config": {
+                      "country": "CN",
+                      "language": "zh-CN"
+                    }
+                  },
+                  {
+                    "package_key": "rss_multi_feed",
+                    "enabled": true,
+                    "item_limit": 150,
+                    "config": {
+                      "feed_urls": "[omitted 31 URLs]",
+                      "match_mode": "keywords",
+                      "lookback_days": 7,
+                      "extra_keywords": [],
+                      "keyword_groups": [
+                        [
+                          "军事智能体"
+                        ],
+                        [
+                          "military AI agents"
+                        ],
+                        [
+                          "autonomous weapons"
+                        ],
+                        [
+                          "intelligent unmanned systems"
+                        ]
+                      ],
+                      "max_feed_bytes": 5242880,
+                      "per_feed_limit": 40,
+                      "timeout_seconds": 20
+                    }
+                  }
+                ],
+                "aliases": [
+                  "military AI agents",
+                  "AI-enabled military decision support",
+                  "autonomous weapons",
+                  "intelligent unmanned systems",
+                  "military multi-agent systems"
+                ],
+                "name": "AI验收-20261106-224559-M4-军事智能体新闻",
+                "timezone": "Asia/Shanghai"
+              },
+              "errors": [],
+              "warnings": [
+                "任务 #8 已使用相同关键词，可以保留不同名称分别采集"
+              ],
+              "next_run_at": "2026-11-07T01:20:00Z",
+              "confirmation_token": "[omitted]"
+            }
+          }
+        }
+      ],
+      "created": {
+        "id": 17,
+        "verified": true,
+        "monitor": {
+          "id": 17,
+          "name": "AI验收-20261106-224559-M4-军事智能体新闻",
+          "query_text": "军事智能体",
+          "auto_include_new_packages": 1,
+          "schedule_type": "daily",
+          "schedule_time": "09:20:00",
+          "weekday": null,
+          "timezone": "Asia/Shanghai",
+          "enabled": 0,
+          "last_run_at": null,
+          "next_run_at": "2026-11-07T01:20:00Z",
+          "created_at": "2026-11-06T14:46:26.314985Z",
+          "updated_at": "2026-11-06T14:46:26.431435Z",
+          "weekly_report_enabled": 0,
+          "archived_at": null,
+          "aliases": [
+            "military AI agents",
+            "AI-enabled military decision support",
+            "autonomous weapons",
+            "intelligent unmanned systems",
+            "military multi-agent systems"
+          ],
+          "selected_categories": []
+        },
+        "packages": {
+          "google_news_rss": {
+            "item_limit": 80,
+            "config": {
+              "country": "CN",
+              "language": "zh-CN"
+            }
+          },
+          "rss_multi_feed": {
+            "item_limit": 150,
+            "config": {
+              "feed_urls": "[omitted 31 URLs]",
+              "match_mode": "keywords",
+              "lookback_days": 7,
+              "extra_keywords": [],
+              "keyword_groups": [
+                [
+                  "军事智能体"
+                ],
+                [
+                  "military AI agents"
+                ],
+                [
+                  "autonomous weapons"
+                ],
+                [
+                  "intelligent unmanned systems"
+                ]
+              ],
+              "max_feed_bytes": 5242880,
+              "per_feed_limit": 40,
+              "timeout_seconds": 20
+            }
+          }
+        },
+        "run_count": 0,
+        "archived": true,
+        "snapshot_phase": "disabled_before_archive"
+      },
+      "grade": {
+        "score": 90,
+        "verdict": "部分通过",
+        "checks": [
+          {
+            "label": "草案有效且任务名称准确",
+            "pass": true,
+            "weight": 5,
+            "details": "",
+            "critical": true
+          },
+          {
+            "label": "关键词保留主题",
+            "pass": true,
+            "weight": 5,
+            "details": "",
+            "critical": false
+          },
+          {
+            "label": "来源选择准确",
+            "pass": true,
+            "weight": 20,
+            "details": "expected=['google_news_rss', 'rss_multi_feed']; actual=['google_news_rss', 'rss_multi_feed']",
+            "critical": true
+          },
+          {
+            "label": "北京时间计划准确",
+            "pass": true,
+            "weight": 15,
+            "details": "expected=('daily', '09:20', None); actual=('daily', '09:20', None)",
+            "critical": true
+          },
+          {
+            "label": "各包上限准确",
+            "pass": true,
+            "weight": 15,
+            "details": "",
+            "critical": true
+          },
+          {
+            "label": "RSS主题匹配",
+            "pass": true,
+            "weight": 5,
+            "details": "",
+            "critical": true
+          },
+          {
+            "label": "RSS回看7天",
+            "pass": true,
+            "weight": 5,
+            "details": "",
+            "critical": false
+          },
+          {
+            "label": "每feed40条",
+            "pass": true,
+            "weight": 5,
+            "details": "",
+            "critical": false
+          },
+          {
+            "label": "保留原有订阅地址",
+            "pass": true,
+            "weight": 5,
+            "details": "",
+            "critical": false
+          },
+          {
+            "label": "英文别名未把相关大类当同义词",
+            "pass": false,
+            "weight": 10,
+            "details": "autonomous weapons / intelligent unmanned systems 被加入独立OR匹配，范围比军事智能体更宽",
+            "critical": true
+          },
+          {
+            "label": "真实建库与参数回读一致，已停用且未运行",
+            "pass": true,
+            "weight": 10,
+            "details": "{\"id\": 17, \"verified\": true, \"archived\": true, \"run_count\": 0}",
+            "critical": true
+          }
+        ]
+      },
+      "review_notes": [
+        "autonomous weapons（自主武器）和intelligent unmanned systems（智能无人系统）不是军事智能体的等义表达。",
+        "这些词出现在全局aliases及RSS独立关键词组中，会扩大匹配范围；本次未实际采集，不能据此给出误收率。"
+      ]
+    },
+    {
+      "id": "M5",
+      "level": "中等",
+      "title": "六件专利编号查询",
+      "name": "AI验收-20261106-224559-M5-六件专利编号查询",
+      "messages": [
+        "任务名称必须为：AI验收-20261106-224559-M5-六件专利编号查询。仅按这六个已知专利号查基础元数据：US 7,835,543；US 8,471,950；US 7,139,533；US 10,349,030；US 6,612,488；US 10,244,284。只选美国专利号查询包，单次最多6条。手动任务，不定时，不做普通关键词专利搜索，也不要立即执行。"
+      ],
+      "turns": [
+        {
+          "number": 1,
+          "prompt": "任务名称必须为：AI验收-20261106-224559-M5-六件专利编号查询。仅按这六个已知专利号查基础元数据：US 7,835,543；US 8,471,950；US 7,139,533；US 10,349,030；US 6,612,488；US 10,244,284。只选美国专利号查询包，单次最多6条。手动任务，不定时，不做普通关键词专利搜索，也不要立即执行。",
+          "elapsed_seconds": 2.98,
+          "response": {
+            "reply": "已按六个已知美国专利号配置为手动任务，仅启用 USPTO 专利号码查询包，单次上限 6 条，未安排定时，也不会立即执行。",
+            "draft": {
+              "name": "AI验收-20261106-224559-M5-六件专利编号查询",
+              "query": "US 7,835,543；US 8,471,950；US 7,139,533；US 10,349,030；US 6,612,488；US 10,244,284",
+              "aliases": [],
+              "schedule_type": "manual",
+              "schedule_time": null,
+              "weekday": null,
+              "timezone": "Asia/Shanghai",
+              "packages": [
+                {
+                  "package_key": "uspto_number_lookup",
+                  "enabled": true,
+                  "item_limit": 6,
+                  "config": {}
+                }
+              ]
+            },
+            "model": "deepseek-flash",
+            "usage": {
+              "prompt_tokens": 2851,
+              "completion_tokens": 193,
+              "total_tokens": 3044,
+              "prompt_tokens_details": {
+                "cached_tokens": 2560
+              },
+              "prompt_cache_hit_tokens": 2560,
+              "prompt_cache_miss_tokens": 291
+            },
+            "preview": {
+              "ready": true,
+              "draft": {
+                "weekday": null,
+                "schedule_type": "manual",
+                "query": "US 7,835,543；US 8,471,950；US 7,139,533；US 10,349,030；US 6,612,488；US 10,244,284",
+                "schedule_time": null,
+                "packages": [
+                  {
+                    "package_key": "uspto_number_lookup",
+                    "enabled": true,
+                    "item_limit": 6,
+                    "config": {}
+                  }
+                ],
+                "aliases": [],
+                "name": "AI验收-20261106-224559-M5-六件专利编号查询",
+                "timezone": "Asia/Shanghai"
+              },
+              "errors": [],
+              "warnings": [],
+              "next_run_at": null,
+              "confirmation_token": "[omitted]"
+            }
+          }
+        }
+      ],
+      "created": {
+        "id": 18,
+        "verified": true,
+        "monitor": {
+          "id": 18,
+          "name": "AI验收-20261106-224559-M5-六件专利编号查询",
+          "query_text": "US 7,835,543；US 8,471,950；US 7,139,533；US 10,349,030；US 6,612,488；US 10,244,284",
+          "auto_include_new_packages": 1,
+          "schedule_type": "manual",
+          "schedule_time": null,
+          "weekday": null,
+          "timezone": "Asia/Shanghai",
+          "enabled": 0,
+          "last_run_at": null,
+          "next_run_at": null,
+          "created_at": "2026-11-06T14:46:32.038516Z",
+          "updated_at": "2026-11-06T14:46:32.140419Z",
+          "weekly_report_enabled": 0,
+          "archived_at": null,
+          "aliases": [],
+          "selected_categories": []
+        },
+        "packages": {
+          "uspto_number_lookup": {
+            "item_limit": 6,
+            "config": {}
+          }
+        },
+        "run_count": 0,
+        "archived": true,
+        "snapshot_phase": "disabled_before_archive"
+      },
+      "grade": {
+        "score": 100,
+        "verdict": "通过",
+        "checks": [
+          {
+            "label": "草案有效且任务名称准确",
+            "pass": true,
+            "weight": 5,
+            "details": "",
+            "critical": true
+          },
+          {
+            "label": "关键词保留主题",
+            "pass": true,
+            "weight": 5,
+            "details": "",
+            "critical": false
+          },
+          {
+            "label": "来源选择准确",
+            "pass": true,
+            "weight": 20,
+            "details": "expected=['uspto_number_lookup']; actual=['uspto_number_lookup']",
+            "critical": true
+          },
+          {
+            "label": "北京时间计划准确",
+            "pass": true,
+            "weight": 15,
+            "details": "expected=('manual', None, None); actual=('manual', None, None)",
+            "critical": true
+          },
+          {
+            "label": "各包上限准确",
+            "pass": true,
+            "weight": 15,
+            "details": "",
+            "critical": true
+          },
+          {
+            "label": "六个编号均保留",
+            "pass": true,
+            "weight": 20,
+            "details": "",
+            "critical": true
+          },
+          {
+            "label": "没有自动执行时刻",
+            "pass": true,
+            "weight": 10,
+            "details": "",
+            "critical": false
+          },
+          {
+            "label": "真实建库与参数回读一致，已停用且未运行",
+            "pass": true,
+            "weight": 10,
+            "details": "{\"id\": 18, \"verified\": true, \"archived\": true, \"run_count\": 0}",
+            "critical": true
+          }
+        ]
+      },
+      "review_notes": [
+        "需求配置与数据库回读一致，未发现本轮配置问题。"
+      ]
+    },
+    {
+      "id": "C1",
+      "level": "较复杂",
+      "title": "多模块两轮调整",
+      "name": "AI验收-20261106-224559-C1-多模块两轮调整",
+      "messages": [
+        "任务名称必须为：AI验收-20261106-224559-C1-多模块两轮调整。监控具身智能，英文别名embodied AI。选Google新闻RSS、通用RSS、玛格泰克、勤云、外文重点期刊五个包；中文期刊沿用默认选择，外文先用四刊。两个新闻包各100条，两个中文包各70条，外文包60条、每刊15条。RSS回看7天，外文回看30天，每天北京时间09:00。",
+        "在刚才草案基础上：去掉Google新闻RSS，其他来源保留。外文只保留Nature和Science，外文每刊20条、整个包40条；通用RSS整个包上限改120。时间改每天北京时间08:10。中文包上限、已选期刊、两个回看天数和别名都保持不变。"
+      ],
+      "turns": [
+        {
+          "number": 1,
+          "prompt": "任务名称必须为：AI验收-20261106-224559-C1-多模块两轮调整。监控具身智能，英文别名embodied AI。选Google新闻RSS、通用RSS、玛格泰克、勤云、外文重点期刊五个包；中文期刊沿用默认选择，外文先用四刊。两个新闻包各100条，两个中文包各70条，外文包60条、每刊15条。RSS回看7天，外文回看30天，每天北京时间09:00。",
+          "elapsed_seconds": 3.65,
+          "response": {
+            "reply": "已按你的要求生成任务草案：五个来源包全部启用，各来源条数与回看天数按指定设置；调度为每天北京时间09:00。中文期刊沿用各包默认选择（journal_keys 未改动）；外文重点期刊启用 nature、science、pnas、cell 四刊。英文检索词用 embodied AI。确认无误即可提交。",
+            "draft": {
+              "name": "AI验收-20261106-224559-C1-多模块两轮调整",
+              "query": "具身智能",
+              "aliases": [
+                "embodied AI"
+              ],
+              "schedule_type": "daily",
+              "schedule_time": "09:00",
+              "weekday": null,
+              "timezone": "Asia/Shanghai",
+              "packages": [
+                {
+                  "package_key": "google_news_rss",
+                  "enabled": true,
+                  "item_limit": 100,
+                  "config": {}
+                },
+                {
+                  "package_key": "rss_multi_feed",
+                  "enabled": true,
+                  "item_limit": 100,
+                  "config": {
+                    "lookback_days": 7
+                  }
+                },
+                {
+                  "package_key": "magetech_journals",
+                  "enabled": true,
+                  "item_limit": 70,
+                  "config": {}
+                },
+                {
+                  "package_key": "qinyun_journals",
+                  "enabled": true,
+                  "item_limit": 70,
+                  "config": {}
+                },
+                {
+                  "package_key": "flagship_journals",
+                  "enabled": true,
+                  "item_limit": 60,
+                  "config": {
+                    "journal_keys": [
+                      "nature",
+                      "science",
+                      "pnas",
+                      "cell"
+                    ],
+                    "search_terms": [
+                      "embodied AI"
+                    ],
+                    "lookback_days": 30,
+                    "per_journal_limit": 15
+                  }
+                }
+              ]
+            },
+            "model": "deepseek-flash",
+            "usage": {
+              "prompt_tokens": 2854,
+              "completion_tokens": 363,
+              "total_tokens": 3217,
+              "prompt_tokens_details": {
+                "cached_tokens": 2560
+              },
+              "prompt_cache_hit_tokens": 2560,
+              "prompt_cache_miss_tokens": 294
+            },
+            "preview": {
+              "ready": true,
+              "draft": {
+                "weekday": null,
+                "schedule_type": "daily",
+                "query": "具身智能",
+                "schedule_time": "09:00",
+                "packages": [
+                  {
+                    "package_key": "flagship_journals",
+                    "enabled": true,
+                    "item_limit": 60,
+                    "config": {
+                      "journal_keys": [
+                        "nature",
+                        "science",
+                        "pnas",
+                        "cell"
+                      ],
+                      "search_terms": [
+                        "embodied AI"
+                      ],
+                      "lookback_days": 30,
+                      "timeout_seconds": 20,
+                      "require_abstract": false,
+                      "per_journal_limit": 15
+                    }
+                  },
+                  {
+                    "package_key": "google_news_rss",
+                    "enabled": true,
+                    "item_limit": 100,
+                    "config": {
+                      "country": "CN",
+                      "language": "zh-CN"
+                    }
+                  },
+                  {
+                    "package_key": "magetech_journals",
+                    "enabled": true,
+                    "item_limit": 70,
+                    "config": {
+                      "journal_keys": [
+                        "data_analysis",
+                        "lis",
+                        "qbzl"
+                      ],
+                      "request_delay_ms": 300,
+                      "max_pages_per_journal": 20
+                    }
+                  },
+                  {
+                    "package_key": "qinyun_journals",
+                    "enabled": true,
+                    "item_limit": 70,
+                    "config": {
+                      "journal_keys": [
+                        "jos"
+                      ],
+                      "timeout_seconds": 20,
+                      "per_journal_limit": 20
+                    }
+                  },
+                  {
+                    "package_key": "rss_multi_feed",
+                    "enabled": true,
+                    "item_limit": 100,
+                    "config": {
+                      "feed_urls": "[omitted 31 URLs]",
+                      "match_mode": "keywords",
+                      "lookback_days": 7,
+                      "extra_keywords": [],
+                      "keyword_groups": [],
+                      "max_feed_bytes": 5242880,
+                      "per_feed_limit": 1000,
+                      "timeout_seconds": 20
+                    }
+                  }
+                ],
+                "aliases": [
+                  "embodied AI"
+                ],
+                "name": "AI验收-20261106-224559-C1-多模块两轮调整",
+                "timezone": "Asia/Shanghai"
+              },
+              "errors": [],
+              "warnings": [
+                "任务 #7 已使用相同关键词，可以保留不同名称分别采集"
+              ],
+              "next_run_at": "2026-11-07T01:00:00Z",
+              "confirmation_token": "[omitted]"
+            }
+          }
+        },
+        {
+          "number": 2,
+          "prompt": "在刚才草案基础上：去掉Google新闻RSS，其他来源保留。外文只保留Nature和Science，外文每刊20条、整个包40条；通用RSS整个包上限改120。时间改每天北京时间08:10。中文包上限、已选期刊、两个回看天数和别名都保持不变。",
+          "elapsed_seconds": 3.61,
+          "response": {
+            "reply": "已更新：移除 Google 新闻 RSS，其余四个来源保留；外文重点期刊只保留 nature 和 science，每刊 20 条、整包 40 条；通用 RSS 整包上限改为 120 条；调度改为每天北京时间 08:10。中文包上限与已选期刊、RSS 7 天和外文 30 天回看、别名均保持不变。",
+            "draft": {
+              "weekday": null,
+              "schedule_type": "daily",
+              "query": "具身智能",
+              "schedule_time": "08:10",
+              "packages": [
+                {
+                  "package_key": "flagship_journals",
+                  "enabled": true,
+                  "item_limit": 40,
+                  "config": {
+                    "journal_keys": [
+                      "nature",
+                      "science"
+                    ],
+                    "search_terms": [
+                      "embodied AI"
+                    ],
+                    "lookback_days": 30,
+                    "timeout_seconds": 20,
+                    "require_abstract": false,
+                    "per_journal_limit": 20
+                  }
+                },
+                {
+                  "package_key": "magetech_journals",
+                  "enabled": true,
+                  "item_limit": 70,
+                  "config": {
+                    "journal_keys": [
+                      "data_analysis",
+                      "lis",
+                      "qbzl"
+                    ],
+                    "request_delay_ms": 300,
+                    "max_pages_per_journal": 20
+                  }
+                },
+                {
+                  "package_key": "qinyun_journals",
+                  "enabled": true,
+                  "item_limit": 70,
+                  "config": {
+                    "journal_keys": [
+                      "jos"
+                    ],
+                    "timeout_seconds": 20,
+                    "per_journal_limit": 20
+                  }
+                },
+                {
+                  "package_key": "rss_multi_feed",
+                  "enabled": true,
+                  "item_limit": 120,
+                  "config": {
+                    "feed_urls": "[omitted 31 URLs]",
+                    "match_mode": "keywords",
+                    "lookback_days": 7,
+                    "extra_keywords": [],
+                    "keyword_groups": [],
+                    "max_feed_bytes": 5242880,
+                    "per_feed_limit": 1000,
+                    "timeout_seconds": 20
+                  }
+                }
+              ],
+              "aliases": [
+                "embodied AI"
+              ],
+              "name": "AI验收-20261106-224559-C1-多模块两轮调整",
+              "timezone": "Asia/Shanghai"
+            },
+            "model": "deepseek-flash",
+            "usage": {
+              "prompt_tokens": 3414,
+              "completion_tokens": 397,
+              "total_tokens": 3811,
+              "prompt_tokens_details": {
+                "cached_tokens": 2560
+              },
+              "prompt_cache_hit_tokens": 2560,
+              "prompt_cache_miss_tokens": 854
+            },
+            "preview": {
+              "ready": true,
+              "draft": {
+                "weekday": null,
+                "schedule_type": "daily",
+                "query": "具身智能",
+                "schedule_time": "08:10",
+                "packages": [
+                  {
+                    "package_key": "flagship_journals",
+                    "enabled": true,
+                    "item_limit": 40,
+                    "config": {
+                      "journal_keys": [
+                        "nature",
+                        "science"
+                      ],
+                      "search_terms": [
+                        "embodied AI"
+                      ],
+                      "lookback_days": 30,
+                      "timeout_seconds": 20,
+                      "require_abstract": false,
+                      "per_journal_limit": 20
+                    }
+                  },
+                  {
+                    "package_key": "magetech_journals",
+                    "enabled": true,
+                    "item_limit": 70,
+                    "config": {
+                      "journal_keys": [
+                        "data_analysis",
+                        "lis",
+                        "qbzl"
+                      ],
+                      "request_delay_ms": 300,
+                      "max_pages_per_journal": 20
+                    }
+                  },
+                  {
+                    "package_key": "qinyun_journals",
+                    "enabled": true,
+                    "item_limit": 70,
+                    "config": {
+                      "journal_keys": [
+                        "jos"
+                      ],
+                      "timeout_seconds": 20,
+                      "per_journal_limit": 20
+                    }
+                  },
+                  {
+                    "package_key": "rss_multi_feed",
+                    "enabled": true,
+                    "item_limit": 120,
+                    "config": {
+                      "feed_urls": "[omitted 31 URLs]",
+                      "match_mode": "keywords",
+                      "lookback_days": 7,
+                      "extra_keywords": [],
+                      "keyword_groups": [],
+                      "max_feed_bytes": 5242880,
+                      "per_feed_limit": 1000,
+                      "timeout_seconds": 20
+                    }
+                  }
+                ],
+                "aliases": [
+                  "embodied AI"
+                ],
+                "name": "AI验收-20261106-224559-C1-多模块两轮调整",
+                "timezone": "Asia/Shanghai"
+              },
+              "errors": [],
+              "warnings": [
+                "任务 #7 已使用相同关键词，可以保留不同名称分别采集"
+              ],
+              "next_run_at": "2026-11-07T00:10:00Z",
+              "confirmation_token": "[omitted]"
+            }
+          }
+        }
+      ],
+      "created": {
+        "id": 19,
+        "verified": true,
+        "monitor": {
+          "id": 19,
+          "name": "AI验收-20261106-224559-C1-多模块两轮调整",
+          "query_text": "具身智能",
+          "auto_include_new_packages": 1,
+          "schedule_type": "daily",
+          "schedule_time": "08:10:00",
+          "weekday": null,
+          "timezone": "Asia/Shanghai",
+          "enabled": 0,
+          "last_run_at": null,
+          "next_run_at": "2026-11-07T00:10:00Z",
+          "created_at": "2026-11-06T14:46:41.943191Z",
+          "updated_at": "2026-11-06T14:46:42.115766Z",
+          "weekly_report_enabled": 0,
+          "archived_at": null,
+          "aliases": [
+            "embodied AI"
+          ],
+          "selected_categories": []
+        },
+        "packages": {
+          "magetech_journals": {
+            "item_limit": 70,
+            "config": {
+              "journal_keys": [
+                "data_analysis",
+                "lis",
+                "qbzl"
+              ],
+              "request_delay_ms": 300,
+              "max_pages_per_journal": 20
+            }
+          },
+          "rss_multi_feed": {
+            "item_limit": 120,
+            "config": {
+              "feed_urls": "[omitted 31 URLs]",
+              "match_mode": "keywords",
+              "lookback_days": 7,
+              "extra_keywords": [],
+              "keyword_groups": [],
+              "max_feed_bytes": 5242880,
+              "per_feed_limit": 1000,
+              "timeout_seconds": 20
+            }
+          },
+          "flagship_journals": {
+            "item_limit": 40,
+            "config": {
+              "journal_keys": [
+                "nature",
+                "science"
+              ],
+              "search_terms": [
+                "embodied AI"
+              ],
+              "lookback_days": 30,
+              "timeout_seconds": 20,
+              "require_abstract": false,
+              "per_journal_limit": 20
+            }
+          },
+          "qinyun_journals": {
+            "item_limit": 70,
+            "config": {
+              "journal_keys": [
+                "jos"
+              ],
+              "timeout_seconds": 20,
+              "per_journal_limit": 20
+            }
+          }
+        },
+        "run_count": 0,
+        "archived": true,
+        "snapshot_phase": "disabled_before_archive"
+      },
+      "grade": {
+        "score": 100,
+        "verdict": "通过",
+        "checks": [
+          {
+            "label": "草案有效且任务名称准确",
+            "pass": true,
+            "weight": 5,
+            "details": "",
+            "critical": true
+          },
+          {
+            "label": "关键词保留主题",
+            "pass": true,
+            "weight": 5,
+            "details": "",
+            "critical": false
+          },
+          {
+            "label": "来源选择准确",
+            "pass": true,
+            "weight": 20,
+            "details": "expected=['flagship_journals', 'magetech_journals', 'qinyun_journals', 'rss_multi_feed']; actual=['flagship_journals', 'magetech_journals', 'qinyun_journals', 'rss_multi_feed']",
+            "critical": true
+          },
+          {
+            "label": "北京时间计划准确",
+            "pass": true,
+            "weight": 15,
+            "details": "expected=('daily', '08:10', None); actual=('daily', '08:10', None)",
+            "critical": true
+          },
+          {
+            "label": "各包上限准确",
+            "pass": true,
+            "weight": 15,
+            "details": "",
+            "critical": true
+          },
+          {
+            "label": "跨轮保留RSS7天和外文30天",
+            "pass": true,
+            "weight": 10,
+            "details": "",
+            "critical": true
+          },
+          {
+            "label": "外文仅Nature、Science",
+            "pass": true,
+            "weight": 10,
+            "details": "",
+            "critical": true
+          },
+          {
+            "label": "外文每刊20条",
+            "pass": true,
+            "weight": 5,
+            "details": "",
+            "critical": false
+          },
+          {
+            "label": "英文别名保留",
+            "pass": true,
+            "weight": 5,
+            "details": "",
+            "critical": false
+          },
+          {
+            "label": "真实建库与参数回读一致，已停用且未运行",
+            "pass": true,
+            "weight": 10,
+            "details": "{\"id\": 19, \"verified\": true, \"archived\": true, \"run_count\": 0}",
+            "critical": true
+          }
+        ]
+      },
+      "review_notes": [
+        "两轮后来源删减、不同包上限、双回看窗口和英文别名均正确保留。"
+      ]
+    },
+    {
+      "id": "C2",
+      "level": "较复杂",
+      "title": "越界需求澄清回退",
+      "name": "AI验收-20261106-224559-C2-越界需求澄清回退",
+      "messages": [
+        "任务名称必须为：AI验收-20261106-224559-C2-越界需求澄清回退。我要监控科学智能，覆盖所有中文期刊和WoS、Scopus，每15分钟执行，每源最多50000条，保证每条都有摘要。先判断平台能否完成，有限制必须说清楚，不要把不支持的周期或来源默默替换。",
+        "接受当前平台能力：不接WoS/Scopus，放弃15分钟和每源50000条。改为每周三北京时间08:40，只用目前已安装的五个中文期刊包，每包最多300条。期刊范围明确改成各包现有默认选择；不要求摘要一定存在，缺失就保留其他元数据，不加日期过滤。关键词仍为科学智能，任务名保持不变。"
+      ],
+      "turns": [
+        {
+          "number": 1,
+          "prompt": "任务名称必须为：AI验收-20261106-224559-C2-越界需求澄清回退。我要监控科学智能，覆盖所有中文期刊和WoS、Scopus，每15分钟执行，每源最多50000条，保证每条都有摘要。先判断平台能否完成，有限制必须说清楚，不要把不支持的周期或来源默默替换。",
+          "elapsed_seconds": 3.87,
+          "response": {
+            "reply": "该需求有四处平台无法满足，需先澄清后再建草案：1）WoS、Scopus 不在支持来源目录中，平台无法接入，也不能用其他来源冒充；2）不支持每 15 分钟执行，只支持 manual、daily、weekly，请指定周期及具体时刻（北京时间）；3）无法覆盖“所有中文期刊”，中文期刊包需指定具体 journal_keys，且目录未提供完整期刊清单，请给出期刊名单，或改为在草案中选择；4）每源 50000 条超出多数来源上限（如中文期刊包多为 20-500，flagship_journals 上限 1000），且无法保证每条都有摘要，来源是否提供摘要不受控。请确认：可用来源组合（如 Google 新闻 RSS、新浪新闻、中文期刊包、flagship_journals）、周期与执行时刻、可接受的每源条数上限。另请确认“科学智能”作为主题词是否需要补充英文检索短语。",
+            "draft": {
+              "name": "AI验收-20261106-224559-C2-越界需求澄清回退",
+              "query": "科学智能",
+              "aliases": [],
+              "schedule_type": null,
+              "schedule_time": null,
+              "weekday": null,
+              "timezone": "Asia/Shanghai",
+              "packages": []
+            },
+            "model": "deepseek-flash",
+            "usage": {
+              "prompt_tokens": 2816,
+              "completion_tokens": 287,
+              "total_tokens": 3103,
+              "prompt_tokens_details": {
+                "cached_tokens": 2560
+              },
+              "prompt_cache_hit_tokens": 2560,
+              "prompt_cache_miss_tokens": 256
+            },
+            "preview": {
+              "ready": false,
+              "draft": {
+                "name": "AI验收-20261106-224559-C2-越界需求澄清回退",
+                "query": "科学智能",
+                "aliases": [],
+                "schedule_type": null,
+                "schedule_time": null,
+                "weekday": null,
+                "timezone": "Asia/Shanghai",
+                "packages": []
+              },
+              "errors": [
+                "请选择手动、每日或每周执行，不支持其他周期",
+                "请选择 1–30 个采集来源"
+              ],
+              "warnings": [],
+              "next_run_at": null
+            }
+          }
+        },
+        {
+          "number": 2,
+          "prompt": "接受当前平台能力：不接WoS/Scopus，放弃15分钟和每源50000条。改为每周三北京时间08:40，只用目前已安装的五个中文期刊包，每包最多300条。期刊范围明确改成各包现有默认选择；不要求摘要一定存在，缺失就保留其他元数据，不加日期过滤。关键词仍为科学智能，任务名保持不变。",
+          "elapsed_seconds": 3.49,
+          "response": {
+            "reply": "已按确认内容规划：每周三北京时间08:40；仅使用五个中文期刊来源，期刊范围保留各来源现有默认选择，不指定具体 journal_keys；每源上限300条；不要求摘要、不加日期过滤。另补充一点平台限制：目前不能保证每个来源都有默认期刊选择，若某来源缺少默认期刊，实际可能无法检索，这属于来源侧限制。",
+            "draft": {
+              "name": "AI验收-20261106-224559-C2-越界需求澄清回退",
+              "query": "科学智能",
+              "aliases": [],
+              "schedule_type": "weekly",
+              "schedule_time": "08:40",
+              "weekday": 3,
+              "timezone": "Asia/Shanghai",
+              "packages": [
+                {
+                  "package_key": "magetech_journals",
+                  "enabled": true,
+                  "item_limit": 300,
+                  "config": {}
+                },
+                {
+                  "package_key": "cnki_cbpt",
+                  "enabled": true,
+                  "item_limit": 300,
+                  "config": {}
+                },
+                {
+                  "package_key": "qinyun_journals",
+                  "enabled": true,
+                  "item_limit": 300,
+                  "config": {}
+                },
+                {
+                  "package_key": "rhzh_journals",
+                  "enabled": true,
+                  "item_limit": 300,
+                  "config": {}
+                },
+                {
+                  "package_key": "sancai_journals",
+                  "enabled": true,
+                  "item_limit": 300,
+                  "config": {}
+                }
+              ]
+            },
+            "model": "deepseek-flash",
+            "usage": {
+              "prompt_tokens": 3179,
+              "completion_tokens": 317,
+              "total_tokens": 3496,
+              "prompt_tokens_details": {
+                "cached_tokens": 2688
+              },
+              "prompt_cache_hit_tokens": 2688,
+              "prompt_cache_miss_tokens": 491
+            },
+            "preview": {
+              "ready": true,
+              "draft": {
+                "weekday": 3,
+                "schedule_type": "weekly",
+                "query": "科学智能",
+                "schedule_time": "08:40",
+                "packages": [
+                  {
+                    "package_key": "cnki_cbpt",
+                    "enabled": true,
+                    "item_limit": 300,
+                    "config": {
+                      "journal_keys": [
+                        "40ef15e1a2fb290f",
+                        "33bbac1cb397cca0",
+                        "56a780a5c8cc7659"
+                      ],
+                      "timeout_seconds": 20,
+                      "per_journal_limit": 20
+                    }
+                  },
+                  {
+                    "package_key": "magetech_journals",
+                    "enabled": true,
+                    "item_limit": 300,
+                    "config": {
+                      "journal_keys": [
+                        "data_analysis",
+                        "lis",
+                        "qbzl"
+                      ],
+                      "request_delay_ms": 300,
+                      "max_pages_per_journal": 20
+                    }
+                  },
+                  {
+                    "package_key": "qinyun_journals",
+                    "enabled": true,
+                    "item_limit": 300,
+                    "config": {
+                      "journal_keys": [
+                        "jos"
+                      ],
+                      "timeout_seconds": 20,
+                      "per_journal_limit": 20
+                    }
+                  },
+                  {
+                    "package_key": "rhzh_journals",
+                    "enabled": true,
+                    "item_limit": 300,
+                    "config": {
+                      "journal_keys": [
+                        "b11e9e7fdb08aa16"
+                      ],
+                      "timeout_seconds": 20,
+                      "per_journal_limit": 20
+                    }
+                  },
+                  {
+                    "package_key": "sancai_journals",
+                    "enabled": true,
+                    "item_limit": 300,
+                    "config": {
+                      "journal_keys": [
+                        "7371a30d9aa7945b"
+                      ],
+                      "timeout_seconds": 20,
+                      "per_journal_limit": 20
+                    }
+                  }
+                ],
+                "aliases": [],
+                "name": "AI验收-20261106-224559-C2-越界需求澄清回退",
+                "timezone": "Asia/Shanghai"
+              },
+              "errors": [],
+              "warnings": [],
+              "next_run_at": "2026-11-11T00:40:00Z",
+              "confirmation_token": "[omitted]"
+            }
+          }
+        }
+      ],
+      "created": {
+        "id": 20,
+        "verified": true,
+        "monitor": {
+          "id": 20,
+          "name": "AI验收-20261106-224559-C2-越界需求澄清回退",
+          "query_text": "科学智能",
+          "auto_include_new_packages": 1,
+          "schedule_type": "weekly",
+          "schedule_time": "08:40:00",
+          "weekday": 3,
+          "timezone": "Asia/Shanghai",
+          "enabled": 0,
+          "last_run_at": null,
+          "next_run_at": "2026-11-11T00:40:00Z",
+          "created_at": "2026-11-06T14:46:52.056910Z",
+          "updated_at": "2026-11-06T14:46:52.173424Z",
+          "weekly_report_enabled": 0,
+          "archived_at": null,
+          "aliases": [],
+          "selected_categories": []
+        },
+        "packages": {
+          "magetech_journals": {
+            "item_limit": 300,
+            "config": {
+              "journal_keys": [
+                "data_analysis",
+                "lis",
+                "qbzl"
+              ],
+              "request_delay_ms": 300,
+              "max_pages_per_journal": 20
+            }
+          },
+          "cnki_cbpt": {
+            "item_limit": 300,
+            "config": {
+              "journal_keys": [
+                "40ef15e1a2fb290f",
+                "33bbac1cb397cca0",
+                "56a780a5c8cc7659"
+              ],
+              "timeout_seconds": 20,
+              "per_journal_limit": 20
+            }
+          },
+          "qinyun_journals": {
+            "item_limit": 300,
+            "config": {
+              "journal_keys": [
+                "jos"
+              ],
+              "timeout_seconds": 20,
+              "per_journal_limit": 20
+            }
+          },
+          "rhzh_journals": {
+            "item_limit": 300,
+            "config": {
+              "journal_keys": [
+                "b11e9e7fdb08aa16"
+              ],
+              "timeout_seconds": 20,
+              "per_journal_limit": 20
+            }
+          },
+          "sancai_journals": {
+            "item_limit": 300,
+            "config": {
+              "journal_keys": [
+                "7371a30d9aa7945b"
+              ],
+              "timeout_seconds": 20,
+              "per_journal_limit": 20
+            }
+          }
+        },
+        "run_count": 0,
+        "archived": true,
+        "snapshot_phase": "disabled_before_archive"
+      },
+      "grade": {
+        "score": 100,
+        "verdict": "通过",
+        "checks": [
+          {
+            "label": "草案有效且任务名称准确",
+            "pass": true,
+            "weight": 5,
+            "details": "",
+            "critical": true
+          },
+          {
+            "label": "关键词保留主题",
+            "pass": true,
+            "weight": 5,
+            "details": "",
+            "critical": false
+          },
+          {
+            "label": "来源选择准确",
+            "pass": true,
+            "weight": 20,
+            "details": "expected=['cnki_cbpt', 'magetech_journals', 'qinyun_journals', 'rhzh_journals', 'sancai_journals']; actual=['cnki_cbpt', 'magetech_journals', 'qinyun_journals', 'rhzh_journals', 'sancai_journals']",
+            "critical": true
+          },
+          {
+            "label": "北京时间计划准确",
+            "pass": true,
+            "weight": 15,
+            "details": "expected=('weekly', '08:40', 3); actual=('weekly', '08:40', 3)",
+            "critical": true
+          },
+          {
+            "label": "各包上限准确",
+            "pass": true,
+            "weight": 15,
+            "details": "",
+            "critical": true
+          },
+          {
+            "label": "首轮明确拒绝越界来源和周期",
+            "pass": true,
+            "weight": 15,
+            "details": "该需求有四处平台无法满足，需先澄清后再建草案：1）WoS、Scopus 不在支持来源目录中，平台无法接入，也不能用其他来源冒充；2）不支持每 15 分钟执行，只支持 manual、daily、weekly，请指定周期及具体时刻（北京时间）；3）无法覆盖“所有中文期刊”，中文期刊包需指定具体 journal_keys，且目录未提供完整期刊清单，请给出期刊名单，或改为在草案中选择；4）每源 50000 条超出多数来源上限（如中文期刊包多为 20-500，flagship_journals 上限 1000），且无法保证每条都有摘要，来源是否提供摘要不受控。请确认：可用来源组合（如 Google 新闻 RSS、新浪新闻、中文期刊包、flagship_journals）、周期与执行时刻、可接受的每源条数上限。另请确认“科学智能”作为主题词是否需要补充英文检索短语。",
+            "critical": true
+          },
+          {
+            "label": "回退后保留五包默认期刊",
+            "pass": true,
+            "weight": 10,
+            "details": "",
+            "critical": false
+          },
+          {
+            "label": "不编造中文日期过滤参数",
+            "pass": true,
+            "weight": 5,
+            "details": "",
+            "critical": false
+          },
+          {
+            "label": "真实建库与参数回读一致，已停用且未运行",
+            "pass": true,
+            "weight": 10,
+            "details": "{\"id\": 20, \"verified\": true, \"archived\": true, \"run_count\": 0}",
+            "critical": true
+          }
+        ]
+      },
+      "review_notes": [
+        "正确拒绝未接入来源和15分钟周期，并在用户明确接受能力边界后建成任务。",
+        "首轮对单包上限与每刊上限的说明混用了参数层级；回退后的实际参数正确。"
+      ]
+    }
+  ],
+  "journal_snapshot": {
+    "cnki_cbpt": {
+      "catalog_count": 509,
+      "default_count": 3,
+      "max_items": 30
+    },
+    "magetech_journals": {
+      "catalog_count": 98,
+      "default_count": 3,
+      "max_items": 30
+    },
+    "qinyun_journals": {
+      "catalog_count": 104,
+      "default_count": 1,
+      "max_items": 30
+    },
+    "rhzh_journals": {
+      "catalog_count": 122,
+      "default_count": 1,
+      "max_items": 30
+    },
+    "sancai_journals": {
+      "catalog_count": 1,
+      "default_count": 1,
+      "max_items": 3
+    }
+  },
+  "finished_at": "2026-11-06T22:46:53.157936+08:00",
+  "total_tokens": 29274,
+  "review_method": "同一轮原始结果人工语义复核；权重归一为100；未重试模型或修改任务配置",
+  "judge_summary": [
+    "本轮7个场景共9次真实DeepSeek调用，均通过确认接口实际创建任务并回读数据库。模型生成任务期间未人工修改草案。",
+    "5个场景完整通过，2个部分通过；每个场景仅测试一次，不能视为长期成功率或统计可靠性结论。",
+    "最关键缺陷：全中文期刊需求只配置了5包默认的9个期刊目录项，而不是834个候选目录项（未跨包去重），覆盖约1.1%。",
+    "M1的助手说明中还存在4个包/实际5个包、journal_keys留空/实际默认选中的不一致，且未解决覆盖要求仍允许确认。",
+    "第二项缺陷：军事智能体被扩成自主武器、智能无人系统等相关大类，形成独立OR匹配，可能增加误收；本轮没有实际采集，无法给出误收比例。",
+    "跨轮参数保留、不同来源条数、北京时间每日/每周计划和专利号查询在本轮通过；越界需求经用户明确收缩后可正确创建。",
+    "优先改进：由平台把all/按标签等期刊范围解析为精确目录；超出单包上限则阻止确认或规划分批，不能静默退回默认期刊。",
+    "优先改进：将等义翻译/同义词与相关概念分开，相关概念默认不启用；预览固定显示实际选中来源数、选刊数和未覆盖数。",
+    "所有测试任务#14–#20已经停用并归档；另用MySQL只读查询复核7项均未运行，monitor_runs中对应记录为0。未更改既有任务。",
+    "本轮仅验收对话建任务及配置落库，不验收实际爬取数量、来源连通性、摘要获取率或文章相关性。"
+  ]
+}

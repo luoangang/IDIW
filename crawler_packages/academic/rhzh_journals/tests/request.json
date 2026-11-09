@@ -1,0 +1,1 @@
+{"protocol_version":"1.0","execution_id":"00000000-0000-0000-0000-000000000102","package_key":"rhzh_journals","package_version":"1.0.0","query":"人工智能","aliases":[],"limit":1,"parameters":{"journal_keys":["b11e9e7fdb08aa16"],"per_journal_limit":1,"timeout_seconds":20},"cursor":null,"time_range":{"from":null,"to":null},"deadline_at":"2099-01-01T00:00:00Z"}

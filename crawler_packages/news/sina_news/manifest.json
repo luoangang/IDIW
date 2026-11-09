@@ -1,0 +1,49 @@
+{
+  "protocol_version": "1.0",
+  "package_key": "sina_news",
+  "package_version": "1.0.0",
+  "name": "新浪新闻搜索",
+  "description": "通过新浪搜索新闻接口按关键词采集新闻摘要和来源信息",
+  "category": "news",
+  "runtime": {
+    "type": "python",
+    "python_version": "3.14",
+    "entrypoint": "crawler.py",
+    "dependencies": "requirements.lock"
+  },
+  "capabilities": {"incremental": true},
+  "parameters_schema": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "type": "object",
+    "properties": {
+      "sort": {"type": "integer", "enum": [0, 1], "default": 0},
+      "page_size": {"type": "integer", "minimum": 1, "maximum": 50, "default": 10},
+      "max_pages": {"type": "integer", "minimum": 1, "maximum": 100, "default": 10}
+    },
+    "additionalProperties": false
+  },
+  "secret_names": [],
+  "output_schema_version": 1,
+  "output_schema": {
+    "fields": [
+      {"name": "external_id", "type": "string", "max_length": 256, "nullable": false},
+      {"name": "title", "type": "string", "max_length": 1000, "nullable": false},
+      {"name": "url", "type": "text", "nullable": false},
+      {"name": "summary", "type": "text", "nullable": true},
+      {"name": "author", "type": "string", "max_length": 255, "nullable": true},
+      {"name": "publisher", "type": "string", "max_length": 255, "nullable": true},
+      {"name": "published_at", "type": "datetime", "nullable": true},
+      {"name": "thumbnail_url", "type": "text", "nullable": true},
+      {"name": "document_type", "type": "string", "max_length": 64, "nullable": true},
+      {"name": "source_site", "type": "string", "max_length": 128, "nullable": false}
+    ],
+    "identity_fields": ["source_site", "external_id"],
+    "indexes": [["published_at"], ["publisher"], ["document_type"]],
+    "mapping": {
+      "title": "title",
+      "url": "url",
+      "summary": "summary",
+      "published_at": "published_at"
+    }
+  }
+}

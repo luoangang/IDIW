@@ -3,113 +3,360 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>爬虫工具包平台</title>
+  <title>采集管理平台</title>
   <style>
-    :root { color-scheme: light; font-family: "Microsoft YaHei", system-ui, sans-serif; color: #17212b; background: #f4f6f8; }
-    * { box-sizing: border-box; }
-    body { margin: 0; }
-    header { background: #16324a; color: white; padding: 22px 32px; display: flex; align-items: center; justify-content: space-between; }
-    h1 { font-size: 22px; margin: 0; letter-spacing: 0; }
-    header span { color: #b9ccda; font-size: 13px; }
-    main { max-width: 1280px; margin: 0 auto; padding: 26px 28px 48px; }
-    section { margin-bottom: 30px; }
-    h2 { font-size: 17px; margin: 0 0 12px; }
-    .toolbar { display: flex; gap: 10px; align-items: end; flex-wrap: wrap; margin-bottom: 12px; }
-    label { display: grid; gap: 5px; color: #536170; font-size: 12px; }
-    input, select { min-height: 36px; border: 1px solid #b8c2cc; border-radius: 5px; padding: 7px 10px; background: white; color: #17212b; }
-    input[type=file] { padding: 5px; }
-    button { min-height: 36px; border: 0; border-radius: 5px; padding: 7px 13px; background: #176b5b; color: white; cursor: pointer; font-weight: 600; }
-    button.secondary { background: #365d7d; }
-    button:disabled { opacity: .45; cursor: wait; }
-    table { width: 100%; border-collapse: collapse; background: white; border: 1px solid #d4dbe2; }
-    th, td { padding: 10px 12px; border-bottom: 1px solid #e1e6eb; text-align: left; font-size: 13px; vertical-align: middle; }
-    th { background: #e9edf1; color: #435160; font-weight: 700; }
-    tr:last-child td { border-bottom: 0; }
-    .status { display: inline-block; padding: 3px 7px; border-radius: 4px; background: #e5eaee; font-size: 12px; }
-    .ready, .completed { color: #096443; background: #dff3e9; }
-    .running, .queued { color: #805400; background: #fff0c7; }
-    .failed, .partial { color: #9a2d28; background: #f9dfdd; }
-    .packages { display: flex; flex-wrap: wrap; gap: 8px 18px; min-height: 36px; align-items: center; }
-    .packages label { display: flex; grid: none; align-items: center; gap: 5px; font-size: 13px; color: #263441; }
-    .notice { min-height: 24px; color: #315a73; font-size: 13px; margin: 8px 0; }
-    .empty { color: #7c8894; }
-    @media (max-width: 760px) { header { padding: 18px; } main { padding: 20px 14px; } .scroll { overflow-x: auto; } table { min-width: 760px; } }
+    :root{color-scheme:light;font-family:"Microsoft YaHei",system-ui,sans-serif;color:#17212b;background:#f5f7f8}*{box-sizing:border-box}[hidden]{display:none!important}body{margin:0;min-width:1080px}a{color:#176b5b;text-decoration:none}a:hover{text-decoration:underline}
+    .sidebar{position:fixed;inset:0 auto 0 0;width:206px;background:#fff;border-right:1px solid #dce2e5;padding:28px 18px;display:flex;flex-direction:column}.brand{font-size:19px;font-weight:700;color:#183d34;padding:0 12px 30px}.sidebar nav{display:grid;gap:6px}.sidebar nav a{color:#536170;font-size:14px;padding:12px;border-radius:5px}.sidebar nav a:hover{background:#f2f5f4;text-decoration:none}.sidebar nav a.active{background:#e3f1eb;color:#12604e;font-weight:700}.connection{margin-top:auto;padding:18px 12px 0;border-top:1px solid #e4e9ec;color:#75818d;font-size:12px}
+    main{margin-left:206px;padding:30px 32px 48px}section{margin-bottom:24px}h1{font-size:22px;margin:0;letter-spacing:0}h2{font-size:17px;margin:0 0 16px}.section-head{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-bottom:24px}.section-head h2{margin:0}.page-head{margin-bottom:24px}.page-head h1{margin-bottom:6px}.page-meta{color:#75818d;font-size:12px}.button-link{display:inline-flex;align-items:center;min-height:36px;border-radius:5px;padding:7px 13px;background:#176b5b;color:white;font-size:13px;font-weight:600}.button-link:hover{text-decoration:none;background:#145849}.back-link{display:inline-block;font-size:13px;margin-bottom:18px}.filter-bar{display:flex;align-items:center;gap:14px;margin-bottom:16px}.filter-bar input{width:280px}.record-count{font-size:12px;color:#75818d}.form-section{padding:24px 0;border-top:1px solid #dce2e5}.form-actions{display:flex;align-items:center;gap:16px;padding-top:18px}.run-summary{display:flex;gap:30px;flex-wrap:wrap;padding:20px 0;margin-bottom:24px;border-top:1px solid #dce2e5;border-bottom:1px solid #dce2e5}.run-summary dt{font-size:12px;color:#75818d;margin-bottom:6px}.run-summary dd{margin:0;font-size:17px;font-weight:600}.error-message{white-space:pre-wrap;overflow-wrap:anywhere;max-width:600px;color:#9a2d28;font-size:12px;line-height:1.6}.view[hidden]{display:none}.view{max-width:1600px;margin:0 auto}.view table th{white-space:nowrap}.toolbar input[type=text]{width:280px}
+    .toolbar{display:flex;gap:10px;align-items:end;flex-wrap:wrap;margin-bottom:12px}label{display:grid;gap:5px;color:#536170;font-size:12px}input,select{min-height:36px;border:1px solid #b8c2cc;border-radius:5px;padding:7px 10px;background:white;color:#17212b}input[type=file]{padding:5px}input[type=checkbox]{min-height:auto;width:16px;height:16px;padding:0}input[type=number]{width:112px}
+    button{min-height:36px;border:0;border-radius:5px;padding:7px 13px;background:#176b5b;color:white;cursor:pointer;font-weight:600}button.secondary,.button-link.secondary{background:#365d7d}button.tertiary{background:#687684}button:disabled{opacity:.45;cursor:wait}
+    table{width:100%;border-collapse:collapse;background:white;border:1px solid #d4dbe2}th,td{padding:10px 12px;border-bottom:1px solid #e1e6eb;text-align:left;font-size:13px;vertical-align:middle}th{background:#e9edf1;color:#435160;font-weight:700}tr:last-child td{border-bottom:0}
+    .status{display:inline-block;padding:3px 7px;border-radius:4px;background:#e5eaee;font-size:12px}.ready,.completed{color:#096443;background:#dff3e9}.running,.queued{color:#805400;background:#fff0c7}.failed,.partial{color:#9a2d28;background:#f9dfdd}
+    .source-name{font-weight:700;color:#263441}.source-meta{color:#75818d;font-size:12px;margin-top:3px}.toggle{display:inline-flex;align-items:center;gap:7px;color:#263441;font-size:13px}.parameter-list{display:flex;gap:10px;align-items:end;flex-wrap:wrap}.parameter-list label{min-width:120px}.parameter-list select,.parameter-list input{max-width:190px}.actions{display:flex;gap:7px;white-space:nowrap}.notice{min-height:24px;color:#315a73;font-size:13px;margin:8px 0}.empty{color:#7c8894}.hidden{display:none}
+    .scroll{overflow-x:auto}#runError{margin-bottom:24px}#packageRows button{white-space:nowrap}#packageRows td:last-child{min-width:140px}dialog{width:620px;max-width:calc(100vw - 28px);max-height:85vh;overflow:auto;border:1px solid #b8c2cc;border-radius:6px;padding:22px;color:#17212b}dialog::backdrop{background:rgba(23,33,43,.4)}.default-parameters{display:grid;gap:16px}.default-parameters label{font-size:13px}.default-parameters input,.default-parameters select{width:100%;max-width:none}.default-parameters input[type=checkbox]{width:16px}.default-parameters textarea,.parameter-list textarea{border:1px solid #b8c2cc;border-radius:5px;padding:8px;min-height:90px;max-width:100%;resize:vertical;font-family:inherit}.default-parameters select[multiple]{min-height:110px}.parameter-help{font-size:12px;color:#75818d}.dialog-actions{display:flex;justify-content:flex-end;gap:8px;margin-top:16px}
+    #dataFilters{flex-wrap:wrap;align-items:end}#dataFilters select{width:210px}#dataFilters input{width:250px}.data-table{table-layout:fixed}.data-table td{vertical-align:top}.data-title{border:0;background:none;color:#176b5b;padding:0;min-height:0;font-size:13px;text-align:left;white-space:normal;overflow-wrap:anywhere;line-height:1.6}.data-title:hover{text-decoration:underline}.data-summary{color:#75818d;font-size:12px;line-height:1.6;margin-top:5px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}.pagination{display:flex;align-items:center;justify-content:flex-end;gap:10px;flex-wrap:wrap;margin-top:18px}.page-numbers{display:flex;align-items:center;gap:4px}.page-numbers button{width:36px;min-height:36px;padding:0;background:#fff;color:#365d7d;border:1px solid #b8c2cc}.page-numbers button:hover{background:#e8f0f4}.page-numbers button[aria-current=page]{background:#176b5b;color:#fff;border-color:#176b5b}.page-jump{display:flex;align-items:center;gap:6px;margin-left:8px}.page-jump label{display:block;white-space:nowrap}.page-jump input{width:70px;text-align:center}.page-jump button{min-width:52px}#recordDialog{width:900px}.record-fields{margin:0}.record-fields>div{display:grid;grid-template-columns:155px minmax(0,1fr);gap:20px;padding:13px 0;border-bottom:1px solid #e1e6eb}.record-fields dt{font-size:12px;color:#75818d;overflow-wrap:anywhere}.record-fields dd{margin:0;white-space:pre-wrap;overflow-wrap:anywhere;line-height:1.7;font-size:13px;max-height:360px;overflow:auto}.record-matches{display:flex;flex-wrap:wrap;gap:12px;font-size:13px;margin-bottom:22px}.record-meta{font-size:12px;color:#75818d;margin-bottom:18px}
+    .report-text{white-space:pre-wrap;line-height:1.8;max-width:1000px}.report-highlight{padding:18px 0;border-top:1px solid #dce2e5}.report-highlight h3{font-size:15px;margin:0 0 8px}.report-evidence{display:flex;gap:12px;flex-wrap:wrap;margin-top:10px;font-size:12px}
+    .monitor-tabs{display:inline-flex;border:1px solid #b8c2cc;border-radius:5px;overflow:hidden}.monitor-tabs button{border-radius:0;background:#fff;color:#536170;min-height:36px}.monitor-tabs button+button{border-left:1px solid #b8c2cc}.monitor-tabs button[aria-selected=true]{background:#176b5b;color:#fff}.form-warning{font-size:12px;color:#805400;min-height:18px}.form-warning.error{color:#9a2d28}#restoreName{width:100%}
+.assistant-layout{display:grid;grid-template-columns:minmax(280px,.85fr) minmax(380px,1.3fr);gap:28px;align-items:start}.assistant-conversation{border:1px solid #d4dbe2;background:#fff;border-radius:6px;overflow:hidden}.assistant-messages{height:55vh;min-height:340px;max-height:650px;overflow:auto;padding:18px}.assistant-message{padding:12px 0;border-bottom:1px solid #e1e6eb}.assistant-message:last-child{border-bottom:0}.assistant-message strong{font-size:12px;color:#536170}.assistant-message p{white-space:pre-wrap;overflow-wrap:anywhere;font-size:13px;line-height:1.8;margin:6px 0}.assistant-message.user strong{color:#176b5b}.assistant-composer{padding:14px;border-top:1px solid #d4dbe2}.assistant-composer textarea{width:100%;min-height:90px;resize:vertical;border:1px solid #b8c2cc;border-radius:5px;padding:10px;font:inherit;font-size:13px}.assistant-composer .form-actions{padding-top:10px;justify-content:space-between}.assistant-privacy{font-size:12px;color:#75818d;margin-top:10px;line-height:1.6}.assistant-draft-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:18px}.assistant-draft-head h2{margin:0}.assistant-fields{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:18px}.assistant-fields input,.assistant-fields select{width:100%}.assistant-fields .wide{grid-column:1/-1}.assistant-fields textarea{width:100%;min-height:68px;padding:8px;border:1px solid #b8c2cc;border-radius:5px;font-family:inherit;resize:vertical}.assistant-review{padding:14px 0;border-top:1px solid #dce2e5;font-size:13px;line-height:1.7;overflow-wrap:anywhere}.assistant-review ul{padding-left:20px;margin:8px 0}.assistant-review .warning{color:#805400}.assistant-source-limit{width:88px!important}.assistant-empty{padding:40px 0;border-top:1px solid #dce2e5;color:#75818d;font-size:13px}.assistant-confirm-list{font-size:13px;line-height:1.8;white-space:pre-wrap}.assistant-next{font-size:12px;color:#536170;margin-top:12px}#assistantDraftForm>.scroll{max-height:320px;overflow:auto}#assistantDraftForm thead{position:sticky;top:0;z-index:1}
+    #journalDialog{width:760px}.journal-tools{display:flex;gap:10px;align-items:end;flex-wrap:wrap;margin:14px 0}.journal-tools input{width:260px}.journal-tools select{width:160px}.journal-list{max-height:45vh;overflow:auto;border:1px solid #d4dbe2}.journal-item{display:flex;align-items:center;gap:10px;padding:9px 12px;border-bottom:1px solid #e1e6eb;font-size:13px;color:#263441}.journal-item:last-child{border-bottom:0}.journal-item input{flex:none}.journal-item-name{flex:1;min-width:0}.journal-tag{font-size:11px;color:#365d7d;background:#e8f0f4;border-radius:3px;padding:2px 5px;white-space:nowrap}.journal-picker-button{max-width:220px}.journal-count{font-size:12px;color:#536170}
   </style>
 </head>
 <body>
-  <header><h1>爬虫工具包平台</h1><span id="health">正在连接</span></header>
+  <aside class="sidebar"><a href="/monitors" data-nav class="brand">采集管理平台</a><nav aria-label="主导航"><a href="/sources" data-nav data-nav-section="sources">采集源管理</a><a href="/proxies" data-nav data-nav-section="proxies">代理池</a><a href="/monitors" data-nav data-nav-section="monitors">监控任务</a><a href="/assistant" data-nav data-nav-section="assistant">大模型辅助</a><a href="/runs" data-nav data-nav-section="runs">运行记录</a><a href="/data" data-nav data-nav-section="data">数据预览</a><a href="/reports" data-nav data-nav-section="reports">情报周报</a></nav><div class="connection" id="health" role="status">正在连接</div></aside>
   <main>
-    <section>
-      <h2>工具包</h2>
-      <form id="importForm" class="toolbar">
-        <label>导入 ZIP 工具包<input id="packageFile" type="file" accept=".zip" required></label>
-        <button type="submit">导入</button>
-      </form>
-      <div class="notice" id="importNotice"></div>
-      <div class="scroll"><table><thead><tr><th>名称</th><th>标识</th><th>分类</th><th>版本</th><th>结果表</th><th>状态</th></tr></thead><tbody id="packageRows"></tbody></table></div>
-    </section>
-    <section>
-      <h2>创建监控任务</h2>
-      <form id="monitorForm">
-        <div class="toolbar">
-          <label>任务名称<input id="monitorName" required placeholder="人工智能监控"></label>
-          <label>关键词<input id="monitorQuery" required placeholder="人工智能"></label>
-        </div>
-        <div class="packages" id="packageChoices"></div>
-        <div class="notice" id="monitorNotice"></div>
-        <button type="submit">创建任务</button>
-      </form>
-    </section>
-    <section>
-      <h2>监控任务</h2>
-      <div class="scroll"><table><thead><tr><th>ID</th><th>名称</th><th>关键词</th><th>计划</th><th>状态</th><th>操作</th></tr></thead><tbody id="monitorRows"></tbody></table></div>
-    </section>
-    <section>
-      <h2>最近运行</h2>
-      <div class="scroll"><table><thead><tr><th>ID</th><th>任务</th><th>状态</th><th>获取</th><th>新增</th><th>更新</th><th>未变化</th><th>开始时间</th></tr></thead><tbody id="runRows"></tbody></table></div>
-    </section>
+    <section id="assistantView" class="view" hidden><div class="section-head page-head"><div><h1>大模型辅助</h1><div id="assistantModelStatus" class="page-meta">正在连接</div></div><button id="assistantReset" type="button" class="secondary">新对话</button></div><div class="assistant-layout"><div class="assistant-conversation"><div id="assistantMessages" class="assistant-messages" role="log" aria-live="polite"></div><form id="assistantChatForm" class="assistant-composer"><label for="assistantInput">采集需求</label><textarea id="assistantInput" maxlength="4000" required placeholder="每天北京时间 09:00 监控具身智能的新闻和中文论文，每个来源最多 100 条"></textarea><div class="form-actions"><span id="assistantChatStatus" class="record-count" role="status"></span><button id="assistantSend" type="submit">发送</button></div><div class="assistant-privacy">对话将发送至 DeepSeek，请勿填写密码或密钥。确认前不会创建任务。</div></form></div><div><div class="assistant-draft-head"><h2>任务草案</h2><span id="assistantDraftState" class="record-count"></span></div><div id="assistantDraftEmpty" class="assistant-empty">尚无任务草案</div><form id="assistantDraftForm" hidden><div class="assistant-fields"><label class="wide">任务名称<input id="assistantName" required maxlength="255"></label><label class="wide">关键词或查询编号<input id="assistantQuery" required maxlength="1000"></label><label class="wide">检索别名<textarea id="assistantAliases" aria-label="检索别名，每行一项"></textarea></label><label>执行方式<select id="assistantSchedule" required><option value="">请选择</option><option value="manual">手动</option><option value="daily">每天</option><option value="weekly">每周</option></select></label><label id="assistantTimeLabel">北京时间<input id="assistantTime" type="time"></label><label id="assistantWeekdayLabel" hidden>星期<select id="assistantWeekday"><option value="">请选择</option><option value="1">星期一</option><option value="2">星期二</option><option value="3">星期三</option><option value="4">星期四</option><option value="5">星期五</option><option value="6">星期六</option><option value="7">星期日</option></select></label></div><h2>采集来源</h2><div class="scroll"><table><thead><tr><th>启用</th><th>来源</th><th>单次上限</th><th>参数</th></tr></thead><tbody id="assistantSourceRows"></tbody></table></div><div id="assistantReview" class="assistant-review" role="status"></div><div class="form-actions"><button id="assistantCheck" type="submit" class="secondary">检查配置</button><button id="assistantCreate" type="button" disabled>确认创建</button></div></form></div></div></section>
+    <section id="sourcesView" class="view" hidden><div class="section-head page-head"><h1>采集源管理</h1><button type="button" id="openImport">导入采集源</button></div><div class="filter-bar"><input id="sourceSearch" type="search" placeholder="搜索来源名称、标识或分类" aria-label="搜索采集源"><span id="sourceCount" class="record-count"></span></div><div class="notice" id="importNotice" role="status"></div><div class="scroll"><table><thead><tr><th>名称</th><th>标识</th><th>分类</th><th>版本</th><th>结果表</th><th>状态</th><th>运行环境</th><th>采集源默认配置</th></tr></thead><tbody id="packageRows"></tbody></table></div></section>
+    <section id="proxiesView" class="view" hidden><div class="page-head"><h1>代理池</h1></div><form id="proxyForm" class="toolbar"><label>节点名称<input id="proxyName" type="text" maxlength="128" required></label><label>代理地址<input id="proxyUrl" type="url" placeholder="http://host:port" size="42" required></label><button type="submit" id="saveProxy">添加节点</button><button type="button" class="tertiary" id="cancelProxyEdit" hidden>取消编辑</button></form><div class="notice" id="proxyNotice" role="status"></div><div class="record-count" id="proxyCount"></div><div class="scroll"><table><thead><tr><th>名称</th><th>地址</th><th>状态</th><th>分配次数</th><th>上次分配</th><th>操作</th></tr></thead><tbody id="proxyRows"></tbody></table></div></section>
+    <section id="newMonitorView" class="view" hidden><a class="back-link" href="/monitors" data-nav>返回监控任务</a><div class="page-head"><h1>新建监控任务</h1></div><form id="monitorForm"><div class="form-section"><h2>任务信息</h2><div class="toolbar"><label>任务名称<input id="monitorName" required maxlength="255" placeholder="人工智能监控"></label><label>关键词<input id="monitorQuery" required placeholder="人工智能"></label><label>执行方式<select id="createSchedule"><option value="daily" selected>每天</option><option value="manual">手动</option></select></label><label id="createScheduleTimeLabel">北京时间<input id="createScheduleTime" type="time" value="09:00" required></label></div><div id="monitorNameWarning" class="form-warning" role="status"></div><div id="monitorQueryWarning" class="form-warning" role="status"></div></div><div class="form-section"><h2>采集来源</h2><div class="scroll"><table><thead><tr><th>启用</th><th>采集来源</th><th>分类</th><th>单次采集上限</th></tr></thead><tbody id="packageChoices"></tbody></table></div></div><div class="notice" id="monitorNotice" role="status"></div><div class="form-actions"><button type="submit" id="createMonitorButton">创建任务</button><a href="/monitors" data-nav>取消</a></div></form></section>
+    <section id="monitorsView" class="view" hidden><div class="section-head page-head"><h1>监控任务</h1><a href="/monitors/new" data-nav class="button-link">新建任务</a></div><div class="filter-bar"><div class="monitor-tabs" role="tablist" aria-label="任务状态"><button type="button" data-monitor-tab="active" role="tab" aria-selected="true">进行中</button><button type="button" data-monitor-tab="archived" role="tab" aria-selected="false">已归档</button></div><input id="monitorSearch" type="search" placeholder="搜索任务名称或关键词" aria-label="搜索监控任务"><span id="monitorCount" class="record-count"></span></div><div class="notice" id="taskNotice" role="status"></div><div class="scroll"><table><thead><tr><th>ID</th><th>名称</th><th>关键词</th><th>执行计划</th><th>状态</th><th>操作</th></tr></thead><tbody id="monitorRows"></tbody></table></div></section>
+    <section id="sourceManager" class="view" hidden><a href="/monitors" class="back-link" data-nav>返回监控任务</a><div class="page-head"><h1 id="sourceManagerTitle">任务来源设置</h1></div><div class="scroll"><table><thead><tr><th>启用</th><th>采集来源</th><th>单次采集上限</th><th>插件参数</th><th>最近状态</th></tr></thead><tbody id="sourceManagerRows"></tbody></table></div><div class="notice" id="sourceManagerNotice" role="status"></div><div class="form-actions"><button type="button" id="saveSourceSettings">保存设置</button><a href="/monitors" data-nav>取消</a></div></section>
+    <section id="runsView" class="view" hidden><div class="section-head page-head"><h1>运行记录</h1><button type="button" class="secondary" id="refreshRuns">刷新</button></div><div class="filter-bar"><label>任务<select id="runMonitorFilter"><option value="">全部任务</option></select></label><label>状态<select id="runStatusFilter"><option value="">全部状态</option><option value="queued">排队中</option><option value="running">运行中</option><option value="completed">已完成</option><option value="partial">部分完成</option><option value="failed">失败</option></select></label><span id="runCount" class="record-count"></span></div><div class="scroll"><table><thead><tr><th>ID</th><th>任务</th><th>状态</th><th>获取</th><th>新增</th><th>更新</th><th>未变化</th><th>开始时间</th><th>操作</th></tr></thead><tbody id="runRows"></tbody></table></div></section>
+    <section id="runDetailView" class="view" hidden><a href="/runs" data-nav class="back-link" id="backToRuns">返回运行记录</a><div class="section-head page-head"><h1 id="runDetailTitle">运行详情</h1><a href="/monitors" data-nav id="runMonitorLink">查看任务来源</a></div><dl id="runSummary" class="run-summary"></dl><div id="runError" class="error-message"></div><h2>各来源执行结果</h2><div class="scroll"><table><thead><tr><th>来源</th><th>状态</th><th>代理节点</th><th>获取</th><th>新增</th><th>更新</th><th>未变化</th><th>错误详情</th></tr></thead><tbody id="runPackageRows"></tbody></table></div><div class="notice" id="runDetailNotice" role="status"></div></section>
+    <section id="dataView" class="view" hidden><div class="section-head page-head"><h1>数据预览</h1><button type="button" class="secondary" id="refreshData">刷新数据</button></div><form id="dataFilters" class="filter-bar"><label>监控任务<select id="dataMonitor"><option value="">全部任务</option></select></label><label>采集源<select id="dataSource"><option value="">全部采集源</option></select></label><label>标题检索<input type="search" id="dataQuery" placeholder="搜索已采集的标题" maxlength="200"></label><button type="submit">查询</button></form><div class="notice" id="dataNotice" role="status"></div><div class="record-count" id="dataCount"></div><div class="scroll"><table class="data-table"><colgroup><col style="width:165px"><col><col style="width:165px"><col style="width:165px"><col style="width:85px"></colgroup><thead><tr><th>采集源</th><th>内容预览</th><th>发布日期</th><th>最近采集</th><th>操作</th></tr></thead><tbody id="dataRows"></tbody></table></div><nav class="pagination" id="dataPagination" aria-label="数据分页" hidden><span id="dataPage" class="record-count" aria-live="polite"></span><button type="button" class="secondary" id="dataPrevious">上一页</button><div id="dataPageNumbers" class="page-numbers"></div><button type="button" class="secondary" id="dataNext">下一页</button><form id="dataJumpForm" class="page-jump"><label for="dataJumpPage">跳至</label><input id="dataJumpPage" type="number" min="1" step="1" required aria-label="跳转页码"><span>页</span><button type="submit" id="dataJumpButton">跳转</button></form></nav></section>
+    <section id="reportsView" class="view" hidden><div class="section-head page-head"><h1>情报周报</h1><button type="button" class="secondary" id="refreshReports">刷新</button></div><h2>任务设置</h2><div class="notice" id="reportNotice" role="status"></div><div class="scroll"><table><thead><tr><th>监控任务</th><th>关键词</th><th>每周自动生成</th><th>操作</th></tr></thead><tbody id="reportMonitorRows"></tbody></table></div><h2 style="margin-top:28px">生成记录</h2><div class="scroll"><table><thead><tr><th>周起始日</th><th>监控任务</th><th>状态</th><th>新增匹配</th><th>完成时间</th><th>操作</th></tr></thead><tbody id="reportRows"></tbody></table></div></section>
+    <section id="reportDetailView" class="view" hidden><a href="/reports" data-nav class="back-link">返回情报周报</a><div class="page-head"><h1 id="reportTitle">周报详情</h1></div><div id="reportMeta" class="record-meta"></div><div id="reportError" class="error-message"></div><div id="reportContent"></div></section>
   </main>
+  <dialog id="recordDialog" aria-labelledby="recordTitle"><div class="section-head"><h2 id="recordTitle">数据详情</h2><button type="button" class="tertiary" id="closeRecord">关闭</button></div><div id="recordBody"></div><div class="notice" id="recordNotice" role="status"></div></dialog>
+  <dialog id="importDialog" aria-labelledby="importTitle"><h2 id="importTitle">导入采集源</h2><form id="importForm"><label>ZIP 工具包<input id="packageFile" type="file" accept=".zip" required></label><div id="importDialogNotice" class="notice" role="status"></div><div class="dialog-actions"><button type="button" class="tertiary" id="cancelImport">取消</button><button type="submit" id="importButton">导入</button></div></form></dialog>
+  <dialog id="defaultConfigDialog" aria-labelledby="defaultConfigTitle"><form id="defaultConfigForm"><h2 id="defaultConfigTitle">采集源默认配置</h2><div id="defaultParameters" class="default-parameters"></div><div id="defaultConfigNotice" class="notice" role="status"></div><div class="dialog-actions"><button type="button" class="tertiary" id="closeDefaultConfig">取消</button><button type="submit" id="saveDefaultConfig">保存默认配置</button></div></form></dialog>
+  <dialog id="journalDialog" aria-labelledby="journalTitle"><h2 id="journalTitle">选择期刊</h2><div class="journal-tools"><label>搜索期刊<input id="journalSearch" type="search" placeholder="输入刊名"></label><label>学科标签<select id="journalTag"><option value="">全部学科</option></select></label><button id="journalSelectVisible" type="button" class="secondary">选中筛选结果</button><button id="journalClearVisible" type="button" class="tertiary">清除筛选结果</button></div><div id="journalCount" class="journal-count"></div><div id="journalList" class="journal-list"></div><div id="journalNotice" class="notice" role="status"></div><div class="dialog-actions"><button id="journalCancel" type="button" class="tertiary">取消</button><button id="journalConfirm" type="button">确认选择</button></div></dialog>
+  <dialog id="scheduleDialog" aria-labelledby="scheduleDialogTitle"><form id="scheduleForm"><h2 id="scheduleDialogTitle">执行计划</h2><label>执行方式<select id="editSchedule"><option value="daily">每天</option><option value="weekly">每周</option><option value="manual">手动</option></select></label><label id="editWeekdayLabel" hidden>星期<select id="editWeekday"><option value="1">星期一</option><option value="2">星期二</option><option value="3">星期三</option><option value="4">星期四</option><option value="5">星期五</option><option value="6">星期六</option><option value="7">星期日</option></select></label><label id="editScheduleTimeLabel">北京时间<input id="editScheduleTime" type="time" required></label><label class="toggle"><input id="editScheduleEnabled" type="checkbox">启用任务</label><div id="scheduleNotice" class="notice" role="status"></div><div class="dialog-actions"><button type="button" class="tertiary" id="closeSchedule">取消</button><button type="submit" id="saveSchedule">保存计划</button></div></form></dialog>
+  <dialog id="restoreDialog" aria-labelledby="restoreDialogTitle"><form id="restoreForm"><h2 id="restoreDialogTitle">恢复任务</h2><label>任务名称<input id="restoreName" required maxlength="255"></label><div id="restoreNotice" class="notice" role="status"></div><div class="dialog-actions"><button type="button" class="tertiary" id="closeRestore">取消</button><button type="submit" id="saveRestore">恢复为停用状态</button></div></form></dialog>
+  <dialog id="assistantSourceDialog" aria-labelledby="assistantSourceTitle"><form id="assistantSourceForm"><h2 id="assistantSourceTitle">来源参数</h2><div id="assistantSourceParameters" class="default-parameters"></div><div id="assistantSourceNotice" class="notice" role="status"></div><div class="dialog-actions"><button id="assistantSourceCancel" type="button" class="tertiary">取消</button><button type="submit">保存到草案</button></div></form></dialog>
+  <dialog id="assistantConfirmDialog" aria-labelledby="assistantConfirmTitle"><h2 id="assistantConfirmTitle">确认创建任务</h2><div id="assistantConfirmSummary" class="assistant-confirm-list"></div><div id="assistantConfirmNotice" class="notice" role="status"></div><div class="dialog-actions"><button id="assistantConfirmCancel" type="button" class="tertiary">取消</button><button id="assistantConfirmSave" type="button">创建任务</button></div></dialog>
+  <script src="/assets/task-assistant.js"></script>
   <script>
-    const $ = id => document.getElementById(id);
-    const escapeHtml = value => String(value ?? '').replace(/[&<>'"]/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[char]));
-    const status = value => `<span class="status ${escapeHtml(value)}">${escapeHtml(value)}</span>`;
-    async function api(path, options={}) {
-      const response = await fetch(path, options);
-      const value = await response.json();
-      if (!response.ok) throw new Error(value.message || value.error || `HTTP ${response.status}`);
-      return value;
+    const $=id=>document.getElementById(id);
+    const escapeHtml=value=>String(value??'').replace(/[&<>'"]/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[char]));
+    const statusNames={ready:'可用',disabled:'已停用',archived:'已归档',cancelled:'已取消',queued:'排队中',running:'运行中',completed:'已完成',partial:'部分完成',failed:'失败',installing:'安装中',install_failed:'安装失败',timed_out:'超时'};
+    const status=value=>`<span class="status ${escapeHtml(value)}">${escapeHtml(statusNames[value]||value)}</span>`;
+    const formatTime=value=>value?new Date(value).toLocaleString('zh-CN',{timeZone:'Asia/Shanghai',hour12:false}):'—';
+    let currentView='',routeVersion=0,cachedPackages=[],cachedMonitors=[],cachedRuns=[],cachedReports=[],cachedProxies=[],editingProxyId=null,refreshPending=false,previewResult=null,recordLoading=false,monitorTab='active',restoringMonitorId=null;
+    const pendingMonitors=new Set();
+    let packageSignature='',activeMonitorId=null,managedPackages=[],defaultPackage=null,defaultConfigLoading=false,defaultConfigSaving=false;
+    async function api(path,options={}){const response=await fetch(path,options);const value=await response.json();if(!response.ok)throw new Error(value.message||value.error||`HTTP ${response.status}`);return value}
+
+    function renderCreationSources(packages,force=false){
+      const ready=packages.filter(row=>row.status==='ready');
+      const signature=ready.map(row=>`${row.package_key}:${row.active_version}`).join('|');
+      if(!force&&signature===packageSignature)return;
+      const previous=new Map([...document.querySelectorAll('#packageChoices tr[data-package-key]')].map(row=>[row.dataset.packageKey,{enabled:row.querySelector('.create-enabled').checked,limit:row.querySelector('.create-limit').value}]));
+      $('packageChoices').innerHTML=ready.map(row=>{const saved=previous.get(row.package_key),enabled=saved?saved.enabled:true,limit=saved?saved.limit:100;return `<tr data-package-key="${escapeHtml(row.package_key)}"><td><label class="toggle"><input class="create-enabled" type="checkbox" ${enabled?'checked':''}>启用</label></td><td><div class="source-name">${escapeHtml(row.name)}</div><div class="source-meta">${escapeHtml(row.package_key)}</div></td><td>${escapeHtml(row.category)}</td><td><input class="create-limit" type="number" min="1" max="10000" step="1" value="${escapeHtml(limit)}" aria-label="${escapeHtml(row.name)}单次采集上限"></td></tr>`}).join('')||'<tr><td colspan="4" class="empty">尚无可用工具包</td></tr>';
+      packageSignature=signature;
     }
-    async function refresh() {
-      const [packages, monitors, runs] = await Promise.all([api('/api/v1/packages'), api('/api/v1/monitors'), api('/api/v1/runs')]);
-      $('health').textContent = `已连接 · ${packages.length} 个工具包`;
-      $('packageRows').innerHTML = packages.map(row => `<tr><td>${escapeHtml(row.name)}</td><td>${escapeHtml(row.package_key)}</td><td>${escapeHtml(row.category)}</td><td>${escapeHtml(row.active_version)}</td><td>${escapeHtml(row.table_name)}</td><td>${status(row.status)}</td></tr>`).join('') || '<tr><td colspan="6" class="empty">尚未导入工具包</td></tr>';
-      $('packageChoices').innerHTML = packages.filter(row => row.status === 'ready').map(row => `<label><input type="checkbox" name="package" value="${escapeHtml(row.package_key)}" checked>${escapeHtml(row.name)}</label>`).join('');
-      $('monitorRows').innerHTML = monitors.map(row => `<tr><td>${row.id}</td><td>${escapeHtml(row.name)}</td><td>${escapeHtml(row.query_text)}</td><td>${escapeHtml(row.schedule_type)}</td><td>${row.enabled ? status('ready') : status('disabled')}</td><td><button class="secondary" onclick="runMonitor(${row.id},this)">立即运行</button></td></tr>`).join('') || '<tr><td colspan="6" class="empty">尚未创建监控任务</td></tr>';
-      $('runRows').innerHTML = runs.map(row => `<tr><td>${row.id}</td><td>${escapeHtml(row.monitor_name)}</td><td>${status(row.status)}</td><td>${row.fetched}</td><td>${row.inserted}</td><td>${row.updated}</td><td>${row.unchanged}</td><td>${escapeHtml(row.started_at || row.created_at)}</td></tr>`).join('') || '<tr><td colspan="8" class="empty">暂无运行记录</td></tr>';
+
+    function renderPackages(){
+      if(environmentBusy)return;
+      const query=$('sourceSearch').value.trim().toLowerCase();
+      const packages=cachedPackages.filter(row=>[row.name,row.package_key,row.category].some(value=>String(value).toLowerCase().includes(query)));
+      $('sourceCount').textContent=`${packages.length} 个采集源`;
+      $('packageRows').innerHTML=packages.map(row=>`<tr><td><a href="/data?source=${encodeURIComponent(row.package_key)}" data-nav>${escapeHtml(row.name)}</a></td><td>${escapeHtml(row.package_key)}</td><td>${escapeHtml(row.category)}</td><td>${escapeHtml(row.active_version)}</td><td>${escapeHtml(row.table_name)}</td><td>${status(row.status)}</td><td><div class="actions"><button class="secondary" data-environment-action="check" data-package-key="${escapeHtml(row.package_key)}">检查环境</button><button class="tertiary" data-environment-action="rebuild" data-package-key="${escapeHtml(row.package_key)}">重建环境</button></div></td><td><button class="secondary" data-default-config="${escapeHtml(row.package_key)}">默认配置</button></td></tr>`).join('')||'<tr><td colspan="8" class="empty">暂无采集源</td></tr>';
     }
-    async function runMonitor(id, button) {
-      button.disabled = true;
-      try { const value = await api(`/api/v1/monitors/${id}/runs`, {method:'POST'}); $('monitorNotice').textContent = `任务已进入队列，运行编号 ${value.run_id}`; await refresh(); }
-      catch (error) { $('monitorNotice').textContent = error.message; }
-      finally { button.disabled = false; }
+    function renderProxies(){
+      $('proxyCount').textContent=`${cachedProxies.filter(row=>row.enabled).length} 个启用节点 / 共 ${cachedProxies.length} 个`;
+      $('proxyRows').innerHTML=cachedProxies.map(row=>`<tr data-proxy-id="${row.id}"><td>${escapeHtml(row.name)}</td><td>${escapeHtml(row.proxy_url)}</td><td>${status(row.enabled?'ready':'disabled')}</td><td>${row.selected_count}</td><td>${escapeHtml(formatTime(row.last_selected_at))}</td><td><div class="actions"><button type="button" class="secondary" data-proxy-check="${row.id}">检查连接</button><button type="button" class="secondary" data-proxy-edit="${row.id}">编辑</button><button type="button" class="tertiary" data-proxy-toggle="${row.id}">${row.enabled?'停用':'启用'}</button></div></td></tr>`).join('')||'<tr><td colspan="6" class="empty">暂无代理节点，采集包沿用原有网络设置</td></tr>';
     }
-    $('monitorForm').addEventListener('submit', async event => {
-      event.preventDefault();
-      const keys = [...document.querySelectorAll('input[name=package]:checked')].map(input => input.value);
-      try {
-        const value = await api('/api/v1/monitors', {method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({name:$('monitorName').value,query:$('monitorQuery').value,package_keys:keys,schedule_type:'manual'})});
-        $('monitorNotice').textContent = `任务 #${value.id} 已创建`;
-        event.target.reset(); await refresh();
-      } catch (error) { $('monitorNotice').textContent = error.message; }
+    const normalizeMonitorText=value=>String(value??'').normalize('NFKC').trim().replace(/\s+/g,' ').toLocaleLowerCase();
+    function renderMonitorWarnings(){
+      const active=cachedMonitors.filter(row=>!row.archived_at),name=normalizeMonitorText($('monitorName').value),query=normalizeMonitorText($('monitorQuery').value);
+      const sameName=name?active.find(row=>normalizeMonitorText(row.name)===name):null;
+      const sameQuery=query?active.filter(row=>normalizeMonitorText(row.query_text)===query):[];
+      $('monitorNameWarning').textContent=sameName?`已有同名任务 #${sameName.id}，请换一个任务名称`:'';
+      $('monitorNameWarning').classList.toggle('error',Boolean(sameName));
+      $('monitorQueryWarning').textContent=sameQuery.length?`已有 ${sameQuery.length} 个任务使用相同关键词（#${sameQuery.map(row=>row.id).join('、#')}），仍可创建不同名称的任务`:'';
+    }
+    function renderMonitors(){
+      const query=$('monitorSearch').value.trim().toLowerCase(),monitors=cachedMonitors.filter(row=>(monitorTab==='archived')===Boolean(row.archived_at)&&[row.name,row.query_text].some(value=>value.toLowerCase().includes(query)));
+      document.querySelectorAll('[data-monitor-tab]').forEach(button=>button.setAttribute('aria-selected',String(button.dataset.monitorTab===monitorTab)));
+      $('monitorCount').textContent=`${monitors.length} 个任务`;
+      $('monitorRows').innerHTML=monitors.map(row=>{const schedule=row.schedule_type==='manual'?'手动执行':`${row.schedule_type==='weekly'?'每周 '+['','一','二','三','四','五','六','日'][row.weekday]:'每天'} ${String(row.schedule_time||'').slice(0,5)}（北京时间）`;const next=row.enabled&&row.next_run_at?`<div class="source-meta">下次：${escapeHtml(formatTime(row.next_run_at))}</div>`:'';const history=`<a href="/runs?monitor=${row.id}" data-nav class="button-link secondary">运行记录</a><a href="/data?monitor=${row.id}" data-nav class="button-link secondary">数据预览</a>`;return row.archived_at?`<tr><td>${row.id}</td><td>${escapeHtml(row.name)}</td><td>${escapeHtml(row.query_text)}</td><td>${escapeHtml(schedule)}<div class="source-meta">归档：${escapeHtml(formatTime(row.archived_at))}</div></td><td>${status('archived')}</td><td><div class="actions">${history}<button type="button" data-action="restore" data-monitor-id="${row.id}">恢复</button></div></td></tr>`:`<tr><td>${row.id}</td><td><a href="/monitors/${row.id}/sources" data-nav>${escapeHtml(row.name)}</a></td><td>${escapeHtml(row.query_text)}</td><td>${escapeHtml(schedule)}${next}</td><td>${row.enabled?status('ready'):status('disabled')}</td><td><div class="actions"><button class="secondary" data-action="schedule" data-monitor-id="${row.id}">执行计划</button><a href="/monitors/${row.id}/sources" data-nav class="button-link">来源设置</a><button data-action="run" data-monitor-id="${row.id}" ${pendingMonitors.has(row.id)?'disabled':''}>立即运行</button>${history}<button class="tertiary" type="button" data-action="archive" data-monitor-id="${row.id}">归档</button></div></td></tr>`}).join('')||`<tr><td colspan="6" class="empty">${monitorTab==='archived'?'暂无已归档任务':'暂无监控任务'}</td></tr>`;
+    }
+    function renderRuns(){
+      const monitor=$('runMonitorFilter').value,state=$('runStatusFilter').value;
+      const runs=cachedRuns.filter(row=>(!monitor||String(row.monitor_id)===monitor)&&(!state||row.status===state));
+      $('runCount').textContent=`近期 ${cachedRuns.length} 条中显示 ${runs.length} 条`;
+      $('runRows').innerHTML=runs.map(row=>`<tr><td><a href="/runs/${row.id}" data-nav>${row.id}</a></td><td>${escapeHtml(row.monitor_name)}</td><td>${status(row.status)}</td><td>${row.fetched}</td><td>${row.inserted}</td><td>${row.updated}</td><td>${row.unchanged}</td><td>${escapeHtml(formatTime(row.started_at||row.created_at))}</td><td><a href="/runs/${row.id}" data-nav>查看详情</a></td></tr>`).join('')||'<tr><td colspan="9" class="empty">暂无符合条件的运行记录</td></tr>';
+    }
+    function renderReports(){
+      $('reportMonitorRows').innerHTML=cachedMonitors.map(row=>`<tr><td>${escapeHtml(row.name)}</td><td>${escapeHtml(row.query_text)}</td><td><label class="toggle"><input type="checkbox" data-report-toggle="${row.id}" ${row.weekly_report_enabled?'checked':''}>启用</label></td><td><button class="secondary" data-report-create="${row.id}">生成上周周报</button></td></tr>`).join('')||'<tr><td colspan="4" class="empty">暂无监控任务</td></tr>';
+      $('reportRows').innerHTML=cachedReports.map(row=>`<tr><td>${escapeHtml(row.week_start)}</td><td>${escapeHtml(row.monitor_name)}</td><td>${status(row.status)}</td><td>${row.source_count}</td><td>${escapeHtml(formatTime(row.finished_at))}</td><td><a href="/reports/${row.id}" data-nav>查看周报</a></td></tr>`).join('')||'<tr><td colspan="6" class="empty">暂无周报</td></tr>';
+    }
+    function renderReportDetail(report){
+      $('reportTitle').textContent=`${report.monitor_name} · ${report.week_start} 周报`;
+      $('reportMeta').textContent=`状态：${statusNames[report.status]||report.status} · 本周新增匹配 ${report.source_count} 条 · 纳入摘要输入 ${(report.evidence||[]).length} 条 · ${report.model||'未调用模型'}`;
+      $('reportError').textContent=report.error_message||'';
+      const content=$('reportContent');content.innerHTML='';if(!report.content)return;
+      const overview=document.createElement('p');overview.className='report-text';overview.textContent=report.content.overview;content.appendChild(overview);
+      const evidence=new Map((report.evidence||[]).map(item=>[item.id,item]));
+      (report.content.highlights||[]).forEach(item=>{const section=document.createElement('div');section.className='report-highlight';const heading=document.createElement('h3');heading.textContent=item.headline;const detail=document.createElement('p');detail.className='report-text';detail.textContent=item.detail;const links=document.createElement('div');links.className='report-evidence';item.evidence.forEach(id=>{const source=evidence.get(id);if(!source)return;const link=document.createElement('a');link.textContent=`[${id}] ${source.package_key} · ${source.title}`;link.href=safeUrl(source.url)||`/data?monitor=${report.monitor_id}`;if(safeUrl(source.url)){link.target='_blank';link.rel='noopener noreferrer'}else link.dataset.nav='';links.appendChild(link)});section.append(heading,detail,links);content.appendChild(section)});
+      const outlook=document.createElement('div');outlook.className='report-highlight';const title=document.createElement('h2');title.textContent='后续观察';const text=document.createElement('p');text.className='report-text';text.textContent=report.content.outlook;outlook.append(title,text);content.appendChild(outlook);
+    }
+    function renderRunDetail(run){
+      $('runDetailTitle').textContent=`运行 #${run.id} · ${run.request_snapshot.query}`;
+      $('runMonitorLink').href=`/monitors/${run.monitor_id}/sources`;
+      $('backToRuns').href=`/runs?monitor=${run.monitor_id}`;
+      $('runSummary').innerHTML=[['状态',status(run.status)],['获取',run.fetched],['新增',run.inserted],['更新',run.updated],['未变化',run.unchanged],['开始时间',escapeHtml(formatTime(run.started_at))],['结束时间',escapeHtml(formatTime(run.finished_at))]].map(([label,value])=>`<div><dt>${label}</dt><dd>${value}</dd></div>`).join('');
+      $('runError').textContent=run.error_message||'';
+      $('runError').hidden=!run.error_message;
+      $('runPackageRows').innerHTML=run.packages.map(row=>`<tr><td>${escapeHtml(row.package_key)}</td><td>${status(row.status)}</td><td>${escapeHtml(row.proxy_id?`#${row.proxy_id} ${row.proxy_name}`:'未分配')}</td><td>${row.fetched}</td><td>${row.inserted}</td><td>${row.updated}</td><td>${row.unchanged}</td><td><div class="error-message">${escapeHtml(row.error_message?`${row.error_code}: ${row.error_message}`:'—')}</div></td></tr>`).join('');
+    }
+    function safeUrl(value){try{const url=new URL(value);return ['http:','https:'].includes(url.protocol)?url.href:null}catch{return null}}
+    function renderData(result){
+      previewResult=result;$('dataCount').textContent=`共 ${result.total} 条记录`;
+      const pages=Math.max(1,Math.ceil(result.total/result.limit)),first=Math.floor((result.page-1)/10)*10+1,last=Math.min(first+9,pages);
+      $('dataPagination').hidden=pages<=1;$('dataPage').textContent=`第 ${result.page} / ${pages} 页`;
+      $('dataPrevious').disabled=result.page<=1;$('dataNext').disabled=result.page>=pages;
+      $('dataPageNumbers').innerHTML=Array.from({length:Math.max(0,last-first+1)},(_,index)=>{const page=first+index;return `<button type="button" data-page="${page}" aria-label="第 ${page} 页" ${page===result.page?'aria-current="page"':''}>${page}</button>`}).join('');
+      $('dataJumpPage').max=String(pages);$('dataJumpPage').value=String(result.page);
+      $('dataRows').innerHTML=result.items.map(row=>{const url=safeUrl(row.url);return `<tr><td>${escapeHtml(row.package_name)}</td><td><button type="button" class="data-title" data-record-uid="${escapeHtml(row.resource_uid)}" data-record-package="${escapeHtml(row.package_key)}">${escapeHtml(row.title)}</button><div class="data-summary">${escapeHtml(row.summary||'')}</div></td><td>${escapeHtml(formatTime(row.published_at))}</td><td>${escapeHtml(formatTime(row.last_seen_at))}</td><td>${url?`<a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">原文</a>`:'—'}</td></tr>`}).join('')||'<tr><td colspan="5" class="empty">暂无符合条件的数据</td></tr>';
+    }
+    function dataUrl(page=1){const query=new URLSearchParams();if($('dataMonitor').value)query.set('monitor',$('dataMonitor').value);if($('dataSource').value)query.set('source',$('dataSource').value);if($('dataQuery').value.trim())query.set('q',$('dataQuery').value.trim());if(page>1)query.set('page',page);return `/data${query.size?'?'+query.toString():''}`}
+    async function openRecord(packageKey,uid){
+      if(recordLoading)return;recordLoading=true;$('recordTitle').textContent='数据详情';$('recordBody').textContent='正在加载';$('recordNotice').textContent='';$('recordDialog').showModal();
+      try{const detail=await api(`/api/v1/packages/${encodeURIComponent(packageKey)}/records/${encodeURIComponent(uid)}`);if(!$('recordDialog').open)return;$('recordTitle').textContent=detail.record[detail.mapping.title];const body=$('recordBody');body.innerHTML='';const meta=document.createElement('div');meta.className='record-meta';meta.textContent=`${detail.package_name} · 最近采集 ${formatTime(detail.record.sys_last_seen_at)}`;body.appendChild(meta);
+        const heading=document.createElement('h2');heading.textContent='关联监控任务';body.appendChild(heading);const matches=document.createElement('div');matches.className='record-matches';detail.monitors.forEach(monitor=>{const link=document.createElement('a');link.href=`/data?monitor=${monitor.id}`;link.dataset.nav='';link.textContent=`${monitor.name}（${monitor.query_text}）`;matches.appendChild(link)});if(!detail.monitors.length)matches.textContent='无关联任务';body.appendChild(matches);
+        const fields=document.createElement('dl');fields.className='record-fields';const labels={external_id:'来源编号',title:'标题',url:'原文链接',summary:'摘要',abstract:'摘要',content:'正文',published_at:'发布日期',publisher:'发布机构',source_site:'来源站点',authors:'作者',author:'作者',doi:'DOI',thumbnail_url:'缩略图链接',document_type:'文档类型',journal:'期刊',keywords:'关键词',patent_number:'专利号',price:'价格',rating:'评分'};
+        detail.fields.forEach(field=>{const row=document.createElement('div'),key=document.createElement('dt'),value=document.createElement('dd');key.textContent=labels[field.name]||field.name;const raw=detail.record[field.name];const linkUrl=field.name===detail.mapping.url?safeUrl(raw):null;if(linkUrl){const link=document.createElement('a');link.href=linkUrl;link.target='_blank';link.rel='noopener noreferrer';link.textContent=raw;value.appendChild(link)}else value.textContent=raw===null||raw===undefined?'—':typeof raw==='object'?JSON.stringify(raw,null,2):field.type==='datetime'?formatTime(raw):String(raw);row.append(key,value);fields.appendChild(row)});body.appendChild(fields)
+      }catch(error){if($('recordDialog').open){$('recordBody').textContent='';$('recordNotice').textContent=error.message}}finally{recordLoading=false}
+    }
+    async function refresh(){
+      if(refreshPending)return;
+      refreshPending=true;const version=routeVersion,view=currentView;
+      try{
+        if(view==='sourcesView'||view==='newMonitorView'){
+          const [packages,monitors]=view==='newMonitorView'?await Promise.all([api('/api/v1/packages'),api('/api/v1/monitors?status=all')]):[await api('/api/v1/packages'),null];if(version!==routeVersion)return;cachedPackages=packages;
+          if(view==='sourcesView')renderPackages();else{cachedMonitors=monitors;renderCreationSources(packages);renderMonitorWarnings()}
+        }else if(view==='proxiesView'){
+          const proxies=await api('/api/v1/proxies');if(version!==routeVersion)return;cachedProxies=proxies;renderProxies();
+        }else if(view==='assistantView'){
+          await loadTaskAssistant();if(version!==routeVersion)return;
+        }else if(view==='monitorsView'){
+          const monitors=await api('/api/v1/monitors?status=all');if(version!==routeVersion)return;cachedMonitors=monitors;renderMonitors();
+        }else if(view==='runsView'){
+          const [runs,monitors]=await Promise.all([api('/api/v1/runs?limit=200'),api('/api/v1/monitors?status=all')]);if(version!==routeVersion)return;cachedRuns=runs;cachedMonitors=monitors;
+          const selected=$('runMonitorFilter').value||new URLSearchParams(location.search).get('monitor')||'';
+          $('runMonitorFilter').innerHTML='<option value="">全部任务</option>'+monitors.map(row=>`<option value="${row.id}">${escapeHtml(row.name)}</option>`).join('');$('runMonitorFilter').value=selected;renderRuns();
+        }else if(view==='dataView'){
+          $('dataPagination').hidden=true;$('dataNotice').textContent='正在加载';
+          const [result,packages,monitors]=await Promise.all([api('/api/v1/data'+location.search),api('/api/v1/packages'),api('/api/v1/monitors?status=all')]);if(version!==routeVersion)return;
+          const filters=new URLSearchParams(location.search);$('dataMonitor').innerHTML='<option value="">全部任务</option>'+monitors.map(row=>`<option value="${row.id}">${escapeHtml(row.name)}</option>`).join('');$('dataSource').innerHTML='<option value="">全部采集源</option>'+packages.filter(row=>row.active_version).map(row=>`<option value="${escapeHtml(row.package_key)}">${escapeHtml(row.name)}</option>`).join('');$('dataMonitor').value=filters.get('monitor')||'';$('dataSource').value=filters.get('source')||'';$('dataQuery').value=filters.get('q')||'';renderData(result);$('dataNotice').textContent='';
+        }else if(view==='runDetailView'){
+          const run=await api(`/api/v1/runs/${location.pathname.split('/')[2]}`);if(version!==routeVersion)return;renderRunDetail(run);$('runDetailNotice').textContent='';
+        }else if(view==='reportsView'){
+          const [reports,monitors]=await Promise.all([api('/api/v1/weekly-reports'),api('/api/v1/monitors')]);if(version!==routeVersion)return;cachedReports=reports;cachedMonitors=monitors;renderReports();
+        }else if(view==='reportDetailView'){
+          const report=await api(`/api/v1/weekly-reports/${location.pathname.split('/')[2]}`);if(version!==routeVersion)return;renderReportDetail(report);
+        }
+        if(version===routeVersion)$('health').textContent='服务已连接';
+      }catch(error){if(version===routeVersion){$('health').textContent=`连接失败：${error.message}`;if(view==='runDetailView')$('runDetailNotice').textContent=error.message;if(view==='dataView'){$('dataNotice').textContent=error.message;$('dataRows').innerHTML='';$('dataCount').textContent='';$('dataPagination').hidden=true}}throw error}
+      finally{refreshPending=false;if(version!==routeVersion)refresh().catch(()=>{})}
+    }
+    async function showPage(){
+      const path=location.pathname;routeVersion++;
+      document.querySelectorAll('dialog[open]').forEach(dialog=>dialog.close());
+      const sourceMatch=path.match(/^\/monitors\/(\d+)\/sources$/);
+      currentView=path==='/assistant'?'assistantView':path==='/data'?'dataView':path==='/sources'?'sourcesView':path==='/proxies'?'proxiesView':path==='/monitors/new'?'newMonitorView':sourceMatch?'sourceManager':/^\/runs\/\d+$/.test(path)?'runDetailView':path==='/runs'?'runsView':/^\/reports\/\d+$/.test(path)?'reportDetailView':path==='/reports'?'reportsView':'monitorsView';
+      document.querySelectorAll('.view').forEach(view=>view.hidden=view.id!==currentView);
+      const section=currentView==='assistantView'?'assistant':currentView==='dataView'?'data':currentView==='sourcesView'?'sources':currentView==='proxiesView'?'proxies':currentView.startsWith('run')?'runs':currentView.startsWith('report')?'reports':'monitors';
+      document.querySelectorAll('[data-nav-section]').forEach(link=>{const active=link.dataset.navSection===section;link.classList.toggle('active',active);if(active)link.setAttribute('aria-current','page');else link.removeAttribute('aria-current')});
+      const titles={assistantView:'大模型辅助',dataView:'数据预览',sourcesView:'采集源管理',proxiesView:'代理池',monitorsView:'监控任务',newMonitorView:'新建任务',sourceManager:'任务来源设置',runsView:'运行记录',runDetailView:'运行详情',reportsView:'情报周报',reportDetailView:'周报详情'};document.title=`${titles[currentView]} · 采集管理平台`;window.scrollTo(0,0);
+      if(sourceMatch){$('saveSourceSettings').disabled=true;await openSourceManager(Number(sourceMatch[1]));return}
+      if(currentView==='runDetailView'){$('runDetailTitle').textContent='正在加载运行详情';$('runSummary').innerHTML='';$('runPackageRows').innerHTML='';$('runError').textContent=''}
+      if(currentView==='runsView')$('runMonitorFilter').value=new URLSearchParams(location.search).get('monitor')||'';
+      if(currentView==='dataView'){$('dataRows').innerHTML='<tr><td colspan="5" class="empty">正在加载</td></tr>';previewResult=null;$('dataCount').textContent='';$('dataPagination').hidden=true}
+      await refresh();
+    }
+    function navigate(url){history.pushState({},'',url);showPage().catch(()=>{})}
+    document.addEventListener('click',event=>{const link=event.target.closest('a[data-nav]');if(!link||event.button!==0||event.ctrlKey||event.metaKey||event.shiftKey||event.altKey)return;event.preventDefault();navigate(link.href)});
+    window.addEventListener('popstate',()=>showPage().catch(()=>{}));
+
+    function parameterControl(packageRow,key,schema){
+      const label=document.createElement('label');label.textContent=schema.title||key;let control;const value=Object.hasOwn(packageRow.config,key)?packageRow.config[key]:schema.default;
+      if(key==='journal_keys'&&schema.type==='array'){
+        label.textContent='期刊';control=document.createElement('input');control.type='hidden';control.value=JSON.stringify(Array.isArray(value)?value:[]);control.dataset.jsonValue='true';control.dataset.parameter=key;control.dataset.parameterType='array';
+        const button=document.createElement('button');button.type='button';button.className='secondary journal-picker-button';button.dataset.journalPackage=packageRow.package_key;button.textContent=`已选 ${Array.isArray(value)?value.length:0} 本 · 选择期刊`;label.append(control,button);return label;
+      }
+      if(Array.isArray(schema.enum)){control=document.createElement('select');schema.enum.forEach(option=>{const item=document.createElement('option');item.value=JSON.stringify(option);item.textContent=String(option);item.selected=option===value;control.appendChild(item)});control.dataset.jsonEnum='true';label.appendChild(control)}
+      else if(schema.type==='boolean'){label.className='toggle';control=document.createElement('input');control.type='checkbox';control.checked=value===true;label.prepend(control)}
+      else if(schema.type==='integer'||schema.type==='number'){control=document.createElement('input');control.type='number';control.step=schema.type==='integer'?'1':'any';if(schema.minimum!==undefined)control.min=schema.minimum;if(schema.maximum!==undefined)control.max=schema.maximum;control.value=value??'';label.appendChild(control)}
+      else if(schema.type==='array'&&Array.isArray(schema.items?.enum)){control=document.createElement('select');control.multiple=true;const selected=Array.isArray(value)?value:[];schema.items.enum.forEach(option=>{const item=document.createElement('option');item.value=JSON.stringify(option);item.textContent=String(option);item.selected=selected.includes(option);control.appendChild(item)});control.dataset.jsonEnum='true';label.appendChild(control)}
+      else if(schema.type==='string'){control=document.createElement('input');control.type='text';control.value=value??'';label.appendChild(control)}
+      else{control=document.createElement('textarea');control.value=value===undefined?'':JSON.stringify(value,null,2);control.dataset.jsonValue='true';label.appendChild(control)}
+      control.dataset.parameter=key;control.dataset.parameterType=schema.type;if(schema.description){const help=document.createElement('span');help.className='parameter-help';help.textContent=schema.description;label.appendChild(help)}return label;
+    }
+
+    let journalPicker=null;
+    const journalCache=new Map();
+    function visibleJournals(){
+      if(!journalPicker)return[];
+      const query=$('journalSearch').value.trim().toLocaleLowerCase(),tag=$('journalTag').value;
+      return journalPicker.rows.filter(row=>(!query||row.name.toLocaleLowerCase().includes(query))&&(!tag||row.tags.includes(tag)));
+    }
+    function renderJournalPicker(){
+      if(!journalPicker)return;
+      const rows=visibleJournals();$('journalCount').textContent=`显示 ${rows.length} 本 · 已选 ${journalPicker.selected.size} 本 · 最多 ${journalPicker.max} 本`;
+      const list=$('journalList');list.replaceChildren();
+      rows.forEach(row=>{
+        const label=document.createElement('label');label.className='journal-item';
+        const input=document.createElement('input');input.type='checkbox';input.value=row.journal_key;input.checked=journalPicker.selected.has(row.journal_key);
+        const name=document.createElement('span');name.className='journal-item-name';name.textContent=row.name;label.append(input,name);
+        row.tags.forEach(tag=>{const badge=document.createElement('span');badge.className='journal-tag';badge.textContent=tag;label.appendChild(badge)});
+        list.appendChild(label);
+      });
+    }
+    document.addEventListener('click',async event=>{
+      const button=event.target.closest('[data-journal-package]');if(!button)return;
+      const input=button.parentElement.querySelector('[data-parameter="journal_keys"]');
+      const packageKey=button.dataset.journalPackage;
+      $('journalTitle').textContent='选择期刊';$('journalNotice').textContent='';$('journalSearch').value='';$('journalTag').innerHTML='<option value="">全部学科</option>';$('journalList').textContent='正在加载';$('journalDialog').showModal();
+      try{
+        if(!journalCache.has(packageKey))journalCache.set(packageKey,await api(`/api/v1/packages/${encodeURIComponent(packageKey)}/journals`));
+        if(!$('journalDialog').open)return;
+        const rows=journalCache.get(packageKey);
+        if(!rows.length)throw new Error('此采集包未提供可选择的期刊目录');
+        const property=(managedPackages.find(row=>row.package_key===packageKey)||assistantSources.find(row=>row.package_key===packageKey)||defaultPackage)?.parameters_schema?.properties?.journal_keys||{};
+        const selected=new Set(JSON.parse(input.value)),known=new Set(rows.map(row=>row.journal_key));
+        const missing=[...selected].filter(key=>!known.has(key)).map(key=>({journal_key:key,name:`已选但不在当前目录：${key}`,tags:['旧配置']}));
+        journalPicker={rows:[...missing,...rows],input,button,selected,max:property.maxItems||rows.length,min:property.minItems||0};
+        [...new Set(rows.flatMap(row=>row.tags))].sort((a,b)=>a.localeCompare(b,'zh-CN')).forEach(tag=>{const option=document.createElement('option');option.value=tag;option.textContent=tag;$('journalTag').appendChild(option)});
+        $('journalTitle').textContent=`${packageKey} · 选择期刊`;renderJournalPicker();
+      }catch(error){$('journalList').textContent='';$('journalNotice').textContent=error.message}
     });
-    $('importForm').addEventListener('submit', async event => {
-      event.preventDefault();
-      const form = new FormData(); form.append('package', $('packageFile').files[0]);
-      try { const value = await api('/api/v1/packages/import', {method:'POST',body:form}); $('importNotice').textContent = `${value.package_key} ${value.version} 已导入`; event.target.reset(); await refresh(); }
-      catch (error) { $('importNotice').textContent = error.message; }
+    $('journalSearch').addEventListener('input',renderJournalPicker);
+    $('journalTag').addEventListener('change',renderJournalPicker);
+    $('journalList').addEventListener('change',event=>{
+      if(!journalPicker||event.target.type!=='checkbox')return;
+      const {selected,max}=journalPicker,key=event.target.value;
+      if(event.target.checked){if(selected.size>=max){event.target.checked=false;$('journalNotice').textContent=`最多选择 ${max} 本期刊`;return}selected.add(key)}else selected.delete(key);
+      $('journalNotice').textContent='';$('journalCount').textContent=`显示 ${visibleJournals().length} 本 · 已选 ${selected.size} 本 · 最多 ${max} 本`;
     });
-    refresh().catch(error => $('health').textContent = `连接失败：${error.message}`);
-    setInterval(() => refresh().catch(() => {}), 5000);
+    $('journalSelectVisible').addEventListener('click',()=>{
+      if(!journalPicker)return;const rows=visibleJournals();let skipped=0;
+      rows.forEach(row=>{if(journalPicker.selected.has(row.journal_key))return;if(journalPicker.selected.size<journalPicker.max)journalPicker.selected.add(row.journal_key);else skipped++});
+      $('journalNotice').textContent=skipped?`已达到上限，另有 ${skipped} 本未选中`:'';renderJournalPicker();
+    });
+    $('journalClearVisible').addEventListener('click',()=>{if(!journalPicker)return;visibleJournals().forEach(row=>journalPicker.selected.delete(row.journal_key));$('journalNotice').textContent='';renderJournalPicker()});
+    $('journalCancel').addEventListener('click',()=>$('journalDialog').close());
+    $('journalConfirm').addEventListener('click',()=>{
+      if(!journalPicker)return;
+      if(journalPicker.selected.size<journalPicker.min){$('journalNotice').textContent=`至少选择 ${journalPicker.min} 本期刊`;return}
+      journalPicker.input.value=JSON.stringify([...journalPicker.selected]);journalPicker.input.dispatchEvent(new Event('change',{bubbles:true}));journalPicker.button.textContent=`已选 ${journalPicker.selected.size} 本 · 选择期刊`;$('journalDialog').close();
+    });
+    $('journalDialog').addEventListener('close',()=>{journalPicker=null});
+
+    function renderSourceManager(){
+      const body=$('sourceManagerRows');body.innerHTML='';
+      managedPackages.forEach(packageRow=>{
+        const row=document.createElement('tr');row.dataset.packageKey=packageRow.package_key;
+        const enabledCell=document.createElement('td'),enabledLabel=document.createElement('label'),enabled=document.createElement('input');enabledLabel.className='toggle';enabled.type='checkbox';enabled.className='manager-enabled';enabled.checked=packageRow.enabled;enabledLabel.append(enabled,'启用');enabledCell.appendChild(enabledLabel);
+        const nameCell=document.createElement('td');nameCell.innerHTML=`<div class="source-name">${escapeHtml(packageRow.name)}</div><div class="source-meta">${escapeHtml(packageRow.category)} · ${escapeHtml(packageRow.package_key)}</div>`;
+        const limitCell=document.createElement('td'),limit=document.createElement('input');limit.type='number';limit.min='1';limit.max='10000';limit.step='1';limit.value=packageRow.item_limit;limit.className='manager-limit';limit.setAttribute('aria-label',`${packageRow.name}单次采集上限`);limitCell.appendChild(limit);
+        const parametersCell=document.createElement('td'),parameterList=document.createElement('div');parameterList.className='parameter-list';const properties=packageRow.parameters_schema?.properties||{};Object.entries(properties).forEach(([key,schema])=>parameterList.appendChild(parameterControl(packageRow,key,schema)));if(!Object.keys(properties).length)parameterList.innerHTML='<span class="empty">无额外参数</span>';parametersCell.appendChild(parameterList);
+        const stateCell=document.createElement('td');stateCell.innerHTML=packageRow.last_error?`<span class="failed">${escapeHtml(packageRow.last_error)}</span>`:escapeHtml(packageRow.last_success_at||'尚未运行');
+        row.append(enabledCell,nameCell,limitCell,parametersCell,stateCell);body.appendChild(row);
+      });
+    }
+
+    async function openSourceManager(id){
+      const version=routeVersion;activeMonitorId=id;managedPackages=[];$('sourceManagerTitle').textContent='任务来源设置';$('sourceManagerRows').innerHTML='<tr><td colspan="5" class="empty">正在加载</td></tr>';$('sourceManagerNotice').textContent='';
+      try{const [packages,monitors]=await Promise.all([api(`/api/v1/monitors/${id}/packages`),api('/api/v1/monitors')]);if(version!==routeVersion)return;managedPackages=packages;const monitor=monitors.find(row=>row.id===id);$('sourceManagerTitle').textContent=`${monitor?.name||`任务 #${id}`} · 来源设置`;renderSourceManager();$('saveSourceSettings').disabled=false}catch(error){if(version===routeVersion)$('sourceManagerNotice').textContent=error.message}
+    }
+
+    function collectParameters(row,original){
+      const config={...original.config};row.querySelectorAll('[data-parameter]').forEach(control=>{const key=control.dataset.parameter,type=control.dataset.parameterType;if(control.dataset.jsonValue){if(!control.value.trim()){delete config[key];return}try{config[key]=JSON.parse(control.value)}catch{throw new Error(`${key}：请输入有效 JSON`)}}else if(control.dataset.jsonEnum){config[key]=control.multiple?[...control.selectedOptions].map(option=>JSON.parse(option.value)):JSON.parse(control.value)}else if(type==='boolean')config[key]=control.checked;else if(type==='integer'||type==='number'){if(control.value===''){delete config[key];return}if(!control.checkValidity())throw new Error(`${key}：数值不符合范围要求`);config[key]=Number(control.value)}else config[key]=control.value});return config;
+    }
+
+    $('packageRows').addEventListener('click',async event=>{
+      const button=event.target.closest('button[data-default-config]');if(!button||defaultConfigLoading)return;
+      defaultConfigLoading=true;defaultPackage=null;$('defaultConfigTitle').textContent='采集源默认配置';$('defaultParameters').textContent='正在加载';$('defaultConfigNotice').textContent='';$('saveDefaultConfig').disabled=true;$('defaultConfigDialog').showModal();
+      try{const value=await api(`/api/v1/packages/${encodeURIComponent(button.dataset.defaultConfig)}/default-config`);if(!$('defaultConfigDialog').open)return;defaultPackage=value;$('defaultConfigTitle').textContent=`${value.name} · 默认配置`;$('defaultParameters').innerHTML='';const properties=value.parameters_schema?.properties||{};Object.entries(properties).forEach(([key,schema])=>{const label=parameterControl(value,key,schema);const control=label.querySelector('[data-parameter]');if(control&&value.parameters_schema.required?.includes(key)&&control.type!=='checkbox')control.required=true;$('defaultParameters').appendChild(label)});if(!Object.keys(properties).length)$('defaultParameters').textContent='该采集源没有额外参数';$('saveDefaultConfig').disabled=false}catch(error){$('defaultConfigNotice').textContent=error.message}finally{defaultConfigLoading=false}
+    });
+    $('closeDefaultConfig').addEventListener('click',()=>$('defaultConfigDialog').close());
+    $('defaultConfigDialog').addEventListener('cancel',event=>{if(defaultConfigSaving)event.preventDefault()});
+    $('defaultConfigForm').addEventListener('submit',async event=>{
+      event.preventDefault();if(!defaultPackage||defaultConfigSaving)return;const button=$('saveDefaultConfig');defaultConfigSaving=true;button.disabled=true;$('closeDefaultConfig').disabled=true;
+      try{const config=collectParameters($('defaultParameters'),defaultPackage);defaultPackage=await api(`/api/v1/packages/${encodeURIComponent(defaultPackage.package_key)}/default-config`,{method:'PUT',headers:{'content-type':'application/json'},body:JSON.stringify({config})});$('defaultConfigNotice').textContent='默认配置已保存，新建任务将采用此配置'}catch(error){$('defaultConfigNotice').textContent=error.message}finally{defaultConfigSaving=false;button.disabled=false;$('closeDefaultConfig').disabled=false}
+    });
+
+    async function saveSourceSettings(){
+      const button=$('saveSourceSettings'),version=routeVersion,id=activeMonitorId;button.disabled=true;
+      try{const packages=[...$('sourceManagerRows').querySelectorAll('tr[data-package-key]')].map(row=>{const original=managedPackages.find(item=>item.package_key===row.dataset.packageKey);return{package_key:row.dataset.packageKey,enabled:row.querySelector('.manager-enabled').checked,item_limit:Number.parseInt(row.querySelector('.manager-limit').value,10),config:collectParameters(row,original)}});const saved=await api(`/api/v1/monitors/${id}/packages`,{method:'PUT',headers:{'content-type':'application/json'},body:JSON.stringify({packages})});if(version!==routeVersion)return;managedPackages=saved;renderSourceManager();$('sourceManagerNotice').textContent='设置已保存，将从下一次采集开始生效'}catch(error){if(version===routeVersion)$('sourceManagerNotice').textContent=error.message}finally{if(version===routeVersion)button.disabled=false}
+    }
+
+    async function runMonitor(id,button){if(pendingMonitors.has(id))return;pendingMonitors.add(id);button.disabled=true;try{const value=await api(`/api/v1/monitors/${id}/runs`,{method:'POST'});navigate(`/runs/${value.run_id}`)}catch(error){$('taskNotice').textContent=error.message}finally{pendingMonitors.delete(id);button.disabled=false}}
+    function scheduleControls(mode,input,label){const scheduled=mode.value!=='manual';input.disabled=!scheduled;input.required=scheduled;label.hidden=!scheduled;if(mode.id==='editSchedule')$('editWeekdayLabel').hidden=mode.value!=='weekly'}
+    $('createSchedule').addEventListener('change',()=>scheduleControls($('createSchedule'),$('createScheduleTime'),$('createScheduleTimeLabel')));
+    $('editSchedule').addEventListener('change',()=>scheduleControls($('editSchedule'),$('editScheduleTime'),$('editScheduleTimeLabel')));
+    $('monitorRows').addEventListener('click',async event=>{const button=event.target.closest('button[data-action]');if(!button)return;const id=Number(button.dataset.monitorId),row=cachedMonitors.find(item=>item.id===id);if(!row)return;if(button.dataset.action==='run'){runMonitor(id,button);return}if(button.dataset.action==='schedule'){activeScheduleId=id;$('scheduleDialogTitle').textContent=`${row.name} · 执行计划`;$('editSchedule').value=row.schedule_type;$('editScheduleTime').value=String(row.schedule_time||'09:00').slice(0,5);$('editWeekday').value=String(row.weekday||1);$('editScheduleEnabled').checked=Boolean(row.enabled);$('scheduleNotice').textContent='';scheduleControls($('editSchedule'),$('editScheduleTime'),$('editScheduleTimeLabel'));$('scheduleDialog').showModal();return}if(button.dataset.action==='restore'){restoringMonitorId=id;$('restoreDialogTitle').textContent=`恢复任务 #${id}`;$('restoreName').value=row.name;$('restoreNotice').textContent='恢复后任务保持停用，可在执行计划中重新启用';$('restoreDialog').showModal();return}if(button.dataset.action==='archive'){if(!confirm(`归档任务“${row.name}”？将停止后续采集和周报，历史数据保留。`))return;button.disabled=true;try{await api(`/api/v1/monitors/${id}/archive`,{method:'POST'});$('taskNotice').textContent=`任务 #${id} 已归档`;await refresh()}catch(error){$('taskNotice').textContent=error.message}finally{button.disabled=false}}});
+    document.querySelectorAll('[data-monitor-tab]').forEach(button=>button.addEventListener('click',()=>{monitorTab=button.dataset.monitorTab;renderMonitors()}));
+    $('closeRestore').addEventListener('click',()=>$('restoreDialog').close());
+    $('restoreForm').addEventListener('submit',async event=>{event.preventDefault();const button=$('saveRestore');button.disabled=true;try{await api(`/api/v1/monitors/${restoringMonitorId}/restore`,{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({name:$('restoreName').value})});$('restoreDialog').close();monitorTab='active';$('taskNotice').textContent=`任务 #${restoringMonitorId} 已恢复为停用状态`;await refresh()}catch(error){$('restoreNotice').textContent=error.message}finally{button.disabled=false}});
+    let activeScheduleId=null;
+    $('closeSchedule').addEventListener('click',()=>$('scheduleDialog').close());
+    $('scheduleForm').addEventListener('submit',async event=>{event.preventDefault();const button=$('saveSchedule');button.disabled=true;try{const schedule_type=$('editSchedule').value;await api(`/api/v1/monitors/${activeScheduleId}/schedule`,{method:'PATCH',headers:{'content-type':'application/json'},body:JSON.stringify({schedule_type,schedule_time:schedule_type==='manual'?null:$('editScheduleTime').value,weekday:schedule_type==='weekly'?Number($('editWeekday').value):null,enabled:$('editScheduleEnabled').checked})});$('scheduleDialog').close();cachedMonitors=await api('/api/v1/monitors?status=all');renderMonitors();$('taskNotice').textContent='执行计划已保存'}catch(error){$('scheduleNotice').textContent=error.message}finally{button.disabled=false}});
+    $('monitorForm').addEventListener('submit',async event=>{event.preventDefault();const packages=[...document.querySelectorAll('#packageChoices tr[data-package-key]')].map(row=>({package_key:row.dataset.packageKey,enabled:row.querySelector('.create-enabled').checked,item_limit:Number.parseInt(row.querySelector('.create-limit').value,10),config:{}}));if(!packages.some(row=>row.enabled)){$('monitorNotice').textContent='请至少启用一个采集来源';return}const button=$('createMonitorButton');button.disabled=true;try{const schedule_type=$('createSchedule').value;const value=await api('/api/v1/monitors',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({name:$('monitorName').value,query:$('monitorQuery').value,packages,schedule_type,schedule_time:schedule_type==='daily'?$('createScheduleTime').value:null,timezone:'Asia/Shanghai'})});event.target.reset();scheduleControls($('createSchedule'),$('createScheduleTime'),$('createScheduleTimeLabel'));$('packageChoices').innerHTML='';packageSignature='';$('monitorNotice').textContent='';$('taskNotice').textContent=`任务 #${value.id} 已创建`;navigate('/monitors')}catch(error){$('monitorNotice').textContent=error.message}finally{button.disabled=false}});
+    $('monitorName').addEventListener('input',renderMonitorWarnings);$('monitorQuery').addEventListener('input',renderMonitorWarnings);
+    $('openImport').addEventListener('click',()=>{$('importDialogNotice').textContent='';$('importDialog').showModal()});
+    $('cancelImport').addEventListener('click',()=>$('importDialog').close());
+    $('importDialog').addEventListener('cancel',event=>{if($('importButton').disabled)event.preventDefault()});
+    $('importForm').addEventListener('submit',async event=>{event.preventDefault();const form=new FormData();form.append('package',$('packageFile').files[0]);$('importButton').disabled=true;$('cancelImport').disabled=true;$('importDialogNotice').textContent='正在导入';try{const value=await api('/api/v1/packages/import',{method:'POST',body:form});$('importNotice').textContent=`${value.package_key} ${value.version} 已导入`;event.target.reset();$('importDialog').close();await refresh()}catch(error){$('importDialogNotice').textContent=error.message}finally{$('importButton').disabled=false;$('cancelImport').disabled=false}});
+    let environmentBusy=false;
+    $('packageRows').addEventListener('click',async event=>{
+      const button=event.target.closest('button[data-environment-action]');
+      if(!button||environmentBusy)return;
+      environmentBusy=true;
+      const key=button.dataset.packageKey, rebuilding=button.dataset.environmentAction==='rebuild';
+      $('packageRows').querySelectorAll('button').forEach(item=>item.disabled=true);
+      $('importNotice').textContent=`${key}：${rebuilding?'正在重建环境':'正在检查环境'}`;
+      try{
+        const result=await api(`/api/v1/packages/${encodeURIComponent(key)}/environment${rebuilding?'/rebuild':''}`,{method:rebuilding?'POST':'GET'});
+        $('importNotice').textContent=rebuilding?`${key}：环境重建完成`:result.healthy?`${key}：环境正常，Python ${result.python_version}`:`${key}：环境异常，${result.error}`;
+      }catch(error){$('importNotice').textContent=`${key}：${error.message}`}
+      finally{environmentBusy=false;await refresh().catch(()=>{})}
+    });
+    $('saveSourceSettings').addEventListener('click',saveSourceSettings);
+    $('sourceSearch').addEventListener('input',renderPackages);$('monitorSearch').addEventListener('input',renderMonitors);
+    function cancelProxyEdit(){$('proxyForm').reset();editingProxyId=null;$('saveProxy').textContent='添加节点';$('cancelProxyEdit').hidden=true}
+    $('cancelProxyEdit').addEventListener('click',cancelProxyEdit);
+    $('proxyForm').addEventListener('submit',async event=>{event.preventDefault();const button=$('saveProxy');button.disabled=true;try{const original=cachedProxies.find(row=>row.id===editingProxyId),editing=Boolean(original);await api(editing?`/api/v1/proxies/${original.id}`:'/api/v1/proxies',{method:editing?'PUT':'POST',headers:{'content-type':'application/json'},body:JSON.stringify({name:$('proxyName').value,proxy_url:$('proxyUrl').value,enabled:editing?Boolean(original.enabled):true})});cancelProxyEdit();$('proxyNotice').textContent=editing?'节点设置已保存':'代理节点已添加，将从下一次包运行开始分配';await refresh()}catch(error){$('proxyNotice').textContent=error.message}finally{button.disabled=false}});
+    $('proxyRows').addEventListener('click',async event=>{const button=event.target.closest('[data-proxy-check],[data-proxy-edit],[data-proxy-toggle]');if(!button)return;const checking=button.dataset.proxyCheck!==undefined,editing=button.dataset.proxyEdit!==undefined;const id=Number(checking?button.dataset.proxyCheck:editing?button.dataset.proxyEdit:button.dataset.proxyToggle);const row=cachedProxies.find(item=>item.id===id);if(!row)return;if(editing){editingProxyId=id;$('proxyName').value=row.name;$('proxyUrl').value=row.proxy_url;$('saveProxy').textContent='保存节点';$('cancelProxyEdit').hidden=false;$('proxyName').focus();return}button.disabled=true;try{if(checking){const result=await api(`/api/v1/proxies/${id}/check`,{method:'POST'});$('proxyNotice').textContent=result.tcp_reachable?`${row.name}：端口可连接（尚未验证网站请求）`:`${row.name}：端口不可连接`;}else{await api(`/api/v1/proxies/${id}`,{method:'PUT',headers:{'content-type':'application/json'},body:JSON.stringify({name:row.name,proxy_url:row.proxy_url,enabled:!row.enabled})});$('proxyNotice').textContent=row.enabled?'节点已停用':'节点已启用';await refresh()}}catch(error){$('proxyNotice').textContent=error.message}finally{button.disabled=false}});
+    $('runStatusFilter').addEventListener('change',renderRuns);
+    $('runMonitorFilter').addEventListener('change',()=>{const value=$('runMonitorFilter').value;history.replaceState({},'',value?`/runs?monitor=${value}`:'/runs');renderRuns()});
+    $('refreshRuns').addEventListener('click',()=>refresh().catch(()=>{}));
+    $('refreshReports').addEventListener('click',()=>refresh().catch(()=>{}));
+    $('reportMonitorRows').addEventListener('change',async event=>{const input=event.target.closest('[data-report-toggle]');if(!input)return;input.disabled=true;try{await api(`/api/v1/monitors/${input.dataset.reportToggle}/weekly-report-settings`,{method:'PATCH',headers:{'content-type':'application/json'},body:JSON.stringify({enabled:input.checked})});$('reportNotice').textContent=input.checked?'已启用每周自动周报':'已停用每周自动周报';await refresh()}catch(error){input.checked=!input.checked;$('reportNotice').textContent=error.message}finally{input.disabled=false}});
+    $('reportMonitorRows').addEventListener('click',async event=>{const button=event.target.closest('[data-report-create]');if(!button)return;button.disabled=true;try{const result=await api(`/api/v1/monitors/${button.dataset.reportCreate}/weekly-reports`,{method:'POST',headers:{'content-type':'application/json'},body:'{}'});navigate(`/reports/${result.id}`)}catch(error){$('reportNotice').textContent=error.message}finally{button.disabled=false}});
+    $('dataFilters').addEventListener('submit',event=>{event.preventDefault();navigate(dataUrl())});
+    $('dataMonitor').addEventListener('change',()=>navigate(dataUrl()));$('dataSource').addEventListener('change',()=>navigate(dataUrl()));
+    $('refreshData').addEventListener('click',()=>refresh().catch(()=>{}));
+    $('dataPrevious').addEventListener('click',()=>{if(previewResult)navigate(dataUrl(previewResult.page-1))});$('dataNext').addEventListener('click',()=>{if(previewResult)navigate(dataUrl(previewResult.page+1))});
+    $('dataPageNumbers').addEventListener('click',event=>{const button=event.target.closest('button[data-page]');if(button&&previewResult&&Number(button.dataset.page)!==previewResult.page)navigate(dataUrl(Number(button.dataset.page)))});
+    $('dataJumpForm').addEventListener('submit',event=>{event.preventDefault();if(!previewResult)return;const page=Number($('dataJumpPage').value),pages=Math.max(1,Math.ceil(previewResult.total/previewResult.limit));if(Number.isInteger(page)&&page>=1&&page<=pages&&page!==previewResult.page)navigate(dataUrl(page))});
+    $('dataRows').addEventListener('click',event=>{const button=event.target.closest('[data-record-uid]');if(button)openRecord(button.dataset.recordPackage,button.dataset.recordUid)});
+    $('closeRecord').addEventListener('click',()=>$('recordDialog').close());
+    if(location.pathname==='/')history.replaceState({},'','/monitors');
+    initTaskAssistant();
+    showPage().catch(()=>{});setInterval(()=>{if(!document.hidden&&!['assistantView','sourceManager','newMonitorView','dataView'].includes(currentView))refresh().catch(()=>{})},5000);
   </script>
 </body>
 </html>

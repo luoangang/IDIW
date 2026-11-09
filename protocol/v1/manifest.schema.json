@@ -10,12 +10,12 @@
     "package_version": {"type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"},
     "name": {"type": "string", "minLength": 1},
     "description": {"type": "string"},
-    "category": {"type": "string", "minLength": 1, "maxLength": 64},
+    "category": {"type": "string", "enum": ["news", "academic", "patents", "reference", "entities", "community", "encyclopedia", "books", "paper"], "description": "Use the six canonical categories. encyclopedia/books/paper are legacy aliases."},
     "runtime": {
       "type": "object", "additionalProperties": false,
       "required": ["type", "python_version", "entrypoint", "dependencies"],
       "properties": {
-        "type": {"const": "python"}, "python_version": {"type": "string", "pattern": "^3\\.(9|10|11|12)$"},
+        "type": {"const": "python"}, "python_version": {"type": "string", "pattern": "^3\\.(9|10|11|12|13|14)$"},
         "entrypoint": {"type": "string"}, "dependencies": {"type": "string"}
       }
     },

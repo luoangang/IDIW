@@ -1,0 +1,15 @@
+{
+  "baidu_baike": {"mode": "keyword", "languages": ["zh"], "notes": "按词条名称获取百科资料，不适合每日新闻监测。"},
+  "wikipedia": {"mode": "keyword", "languages": ["zh", "en"], "notes": "按主题检索百科；language 参数决定语种。不是新闻源。"},
+  "google_news_rss": {"mode": "keyword", "languages": ["zh", "en"], "notes": "按关键词检索 Google 新闻 RSS，语种和地区使用插件参数。"},
+  "sina_news": {"mode": "keyword", "languages": ["zh"], "notes": "中文新闻关键词检索。"},
+  "rss_multi_feed": {"mode": "feed", "languages": ["zh", "en"], "notes": "先读取已配置的 RSS，再本地匹配主题；不是网站全库搜索。默认保留现有 feed_urls。keyword_groups 的内层为同时匹配，外层为任一组。"},
+  "magetech_journals": {"mode": "keyword", "languages": ["zh"], "notes": "中文期刊检索。未明确指定期刊时保留插件默认 journal_keys，可在草案中选择期刊。"},
+  "cnki_cbpt": {"mode": "keyword", "languages": ["zh"], "notes": "已验收的中文期刊站点检索，不等同于知网数据库全库搜索。"},
+  "qinyun_journals": {"mode": "keyword", "languages": ["zh"], "notes": "勤云中文期刊检索，期刊和分页范围由参数控制。"},
+  "rhzh_journals": {"mode": "keyword", "languages": ["zh"], "notes": "仁和汇智中文期刊检索，期刊和分页范围由参数控制。"},
+  "sancai_journals": {"mode": "keyword", "languages": ["zh"], "notes": "西安三才中文期刊检索，期刊和分页范围由参数控制。"},
+  "flagship_journals": {"mode": "keyword", "languages": ["en"], "notes": "Nature、Science、PNAS、Cell 公开元数据；关键词模式需英文 search_terms 或英文 aliases。不是 Google Scholar、Scopus、WoS。"},
+  "uspto_number_lookup": {"mode": "identifier", "languages": ["en"], "notes": "仅按已知美国专利号查询。query 必须是专利号列表，不能根据普通主题词检索专利。"},
+  "books_to_scrape": {"mode": "site", "languages": ["en"], "notes": "演示用书目全站采集，不支持主题检索；只有用户明确要求该站点时才选择。"}
+}

@@ -1,0 +1,752 @@
+[
+  {
+    "source_row": 257,
+    "journal_key": "3a9650563fbbaa0c",
+    "name": "东北林业大学学报",
+    "url": "http://dlxb.nefu.edu.cn",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 278,
+    "journal_key": "f198a29e7799cba4",
+    "name": "东南大学学报（自然科学版）",
+    "url": "http://journal.seu.edu.cn",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 585,
+    "journal_key": "a33c913cc6cee7e9",
+    "name": "中南林业科技大学学报",
+    "url": "http://zkxb.csuft.edu.cn",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 586,
+    "journal_key": "e23bb2a3379efc58",
+    "name": "中南林业科技大学学报（社会科学版）",
+    "url": "http://skxb.csuft.edu.cn",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 754,
+    "journal_key": "5b29e85cb1a0a782",
+    "name": "中国农史",
+    "url": "http://zgns.paperonce.org",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": "paperonce hostname",
+    "evidence": "url_signature"
+  },
+  {
+    "source_row": 1219,
+    "journal_key": "6d44278e82383558",
+    "name": "中国海上油气",
+    "url": "http://coog.cnooc.com.cn",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1570,
+    "journal_key": "e8920d7e5bffc5cb",
+    "name": "中国计划生育和妇产科",
+    "url": "http://zgjhsyhfckzz.paperonce.com",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": "paperonce hostname",
+    "evidence": "url_signature"
+  },
+  {
+    "source_row": 1865,
+    "journal_key": "2e9a77ced33cb3d1",
+    "name": "中阿科技论坛（中英文）",
+    "url": "https://zakjlt.casttc.org",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3134,
+    "journal_key": "63200ed65637fec1",
+    "name": "卒中与神经疾病",
+    "url": "http://wdstroke.paperopen.com",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3144,
+    "journal_key": "890fc8a0600db6c8",
+    "name": "南京农业大学学报",
+    "url": "http://nauxb.njau.edu.cn",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3150,
+    "journal_key": "88922c4b8063e8de",
+    "name": "南京工业大学学报（自然科学版）",
+    "url": "http://zrb.njtech.edu.cn",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3153,
+    "journal_key": "defe9f7c6106da7c",
+    "name": "南京师大学报（社会科学版）",
+    "url": "http://njsfdxskb.paperonce.org",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": "paperonce hostname",
+    "evidence": "url_signature"
+  },
+  {
+    "source_row": 3154,
+    "journal_key": "8488e874d1f9d428",
+    "name": "南京师大学报（自然科学版）",
+    "url": "http://njsfdxzrb.paperonce.org",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": "paperonce hostname",
+    "evidence": "url_signature"
+  },
+  {
+    "source_row": 3155,
+    "journal_key": "14b033690928fa2b",
+    "name": "南京师范大学学报（工程技术版）",
+    "url": "http://njsfdxgckj.paperonce.org",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": "paperonce hostname",
+    "evidence": "url_signature"
+  },
+  {
+    "source_row": 3163,
+    "journal_key": "434cd560f62809f1",
+    "name": "南京理工大学学报（社会科学版）",
+    "url": "http://xbskb.njust.edu.cn",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3164,
+    "journal_key": "7ddfa238ea0adc61",
+    "name": "南京理工大学学报（自然科学版）",
+    "url": "https://zrxuebao.njust.edu.cn",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3186,
+    "journal_key": "7211bdf75c430b6a",
+    "name": "南开经济研究",
+    "url": "https://nkes.nankai.edu.cn",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3231,
+    "journal_key": "a840bcd2e9c6414a",
+    "name": "南通职业大学学报",
+    "url": "http://ntzydxxb.paperonce.org",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": "paperonce hostname",
+    "evidence": "url_signature"
+  },
+  {
+    "source_row": 3282,
+    "journal_key": "9fa5671059867da6",
+    "name": "厦门大学学报（自然科学版）",
+    "url": "http://jxmu.xmu.edu.cn",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3367,
+    "journal_key": "868392c78e09ee6b",
+    "name": "合成橡胶工业",
+    "url": "http://hcxjgy.paperopen.com",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3638,
+    "journal_key": "702af39b326225f0",
+    "name": "国际中医中药杂志",
+    "url": "http://gjzy.cintcm.com",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3824,
+    "journal_key": "9f1abad19e0e051e",
+    "name": "地矿测绘",
+    "url": "https://qk.yndkch.com",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3843,
+    "journal_key": "5b024bf7bb36691e",
+    "name": "地震工程与工程振动",
+    "url": "https://dzgc.paperonce.org",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": "paperonce hostname",
+    "evidence": "url_signature"
+  },
+  {
+    "source_row": 3846,
+    "journal_key": "a962d60972a210b7",
+    "name": "地震研究",
+    "url": "http://dzyj.paperopen.com",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4120,
+    "journal_key": "64314ade5af5b18f",
+    "name": "天津大学学报（社会科学版）",
+    "url": "http://xbskb.tju.edu.cn",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4121,
+    "journal_key": "7ff9a11bbd40cdae",
+    "name": "天津大学学报（自然科学与工程技术版）",
+    "url": "http://xbzrb.tju.edu.cn",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4249,
+    "journal_key": "ad6f97491ab01445",
+    "name": "宁夏医学杂志",
+    "url": "http://nxyx.paperopen.com",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4262,
+    "journal_key": "47c7c16a5d359da7",
+    "name": "宁波大学学报（人文科学版）",
+    "url": "http://journalrw.nbu.edu.cn",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4263,
+    "journal_key": "24c3394364ba2455",
+    "name": "宁波大学学报（教育科学版）",
+    "url": "http://journaljk.nbu.edu.cn",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4264,
+    "journal_key": "433d2e8377ad9b2a",
+    "name": "宁波大学学报（理工版）",
+    "url": "http://journallg.nbu.edu.cn",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4559,
+    "journal_key": "dfe1669e3c38b379",
+    "name": "山东建筑大学学报",
+    "url": "http://xuebao.sdjzu.edu.cn",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4734,
+    "journal_key": "d2be8ca8f3b84138",
+    "name": "工程管理学报",
+    "url": "https://jem.hit.edu.cn",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5026,
+    "journal_key": "2e490e6578b390b2",
+    "name": "弹道学报",
+    "url": "http://ddxb.paperopen.com",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5118,
+    "journal_key": "2d95d50a6fdd3555",
+    "name": "徐州工程学院学报",
+    "url": "http://xbskb.xzit.edu.cn",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5823,
+    "journal_key": "308d3eb2f147b909",
+    "name": "无线互联科技",
+    "url": "http://qkcb.jssti.cn",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6133,
+    "journal_key": "0c321532be14ed86",
+    "name": "森林与环境学报",
+    "url": "https://fjlxyxb.fafu.edu.cn",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6534,
+    "journal_key": "fa2499f601b37560",
+    "name": "沈阳大学学报（自然科学版）",
+    "url": "http://sydxxb.paperopen.com",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6581,
+    "journal_key": "e392fae0071169d0",
+    "name": "河北工业大学学报",
+    "url": "http://zrxuebao.hebut.edu.cn",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6582,
+    "journal_key": "10a318502f3e0ef3",
+    "name": "河北工业大学学报（社会科学版）",
+    "url": "http://skxuebao.hebut.edu.cn",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6589,
+    "journal_key": "d741f8b278165a5a",
+    "name": "河北建筑工程学院学报",
+    "url": "http://xuebao.hebiace.edu.cn",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6615,
+    "journal_key": "a8ae6fe449e373e4",
+    "name": "河北经贸大学学报",
+    "url": "http://xbbjb.hueb.edu.cn",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6694,
+    "journal_key": "7d9067a9e2424d99",
+    "name": "泉州师范学院学报",
+    "url": "https://xuebao.qztc.edu.cn",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6698,
+    "journal_key": "00c16a974b425ab8",
+    "name": "法制与社会发展",
+    "url": "http://fzyshfz.paperonce.org",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": "paperonce hostname",
+    "evidence": "url_signature"
+  },
+  {
+    "source_row": 6787,
+    "journal_key": "53478da447054ded",
+    "name": "浙江外国语学院学报",
+    "url": "http://journal.zisu.edu.cn",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6802,
+    "journal_key": "f053ebe3898bf11b",
+    "name": "浙江师范大学学报（社会科学版）",
+    "url": "http://xbskb.zjnu.edu.cn",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6819,
+    "journal_key": "349faa2f85d645f3",
+    "name": "浙江科技大学学报",
+    "url": "https://xbbj.zust.edu.cn",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6912,
+    "journal_key": "449e424804e6f853",
+    "name": "淮南师范学院学报",
+    "url": "http://hnsyxb.hnnu.edu.cn",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6923,
+    "journal_key": "30c39ba63047844e",
+    "name": "深圳大学学报（理工版）",
+    "url": "http://journal.szu.edu.cn",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7116,
+    "journal_key": "3d16a1f356a1fa96",
+    "name": "火炸药学报",
+    "url": "http://hzyxb.paperopen.com",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7529,
+    "journal_key": "b5441826b0d1086b",
+    "name": "甘肃中医药大学学报",
+    "url": "http://gszyxyxb.gszy.edu.cn",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7592,
+    "journal_key": "47fa8caf91c0a516",
+    "name": "生物医学工程研究",
+    "url": "http://www.swyxgcyj.com",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7712,
+    "journal_key": "dbb63a0a8d38b723",
+    "name": "电子设计工程",
+    "url": "http://mag.ieechina.com",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7722,
+    "journal_key": "ca0e2bfa21c0ef85",
+    "name": "电机与控制学报",
+    "url": "http://emc.hrbust.edu.cn",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7827,
+    "journal_key": "ba7faec40008f0dc",
+    "name": "皮肤科学通报",
+    "url": "http://pfxbxzz.paperopen.com",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8169,
+    "journal_key": "04574f48afc596e5",
+    "name": "科技管理学报",
+    "url": "http://kjygl.hrbust.edu.cn",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8212,
+    "journal_key": "30db5efa585d260b",
+    "name": "空军军医大学学报",
+    "url": "http://kydxb.fmmu.edu.cn",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8291,
+    "journal_key": "21def9d91668f3e2",
+    "name": "精神医学杂志",
+    "url": "http://jsyxzz.paperopen.com",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8297,
+    "journal_key": "f00e8dbaf6f88a91",
+    "name": "精细石油化工进展",
+    "url": "http://jxsyhgjz.paperonce.org",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": "paperonce hostname",
+    "evidence": "url_signature"
+  },
+  {
+    "source_row": 8341,
+    "journal_key": "c5a23e9ae95d1ff2",
+    "name": "纳米技术与精密工程（英文）",
+    "url": "http://tjunpe.tju.edu.cn",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8435,
+    "journal_key": "5ea503ac02c19390",
+    "name": "绵阳师范学院学报",
+    "url": "https://xb.mtc.edu.cn",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8637,
+    "journal_key": "baf46101f36e23f5",
+    "name": "自然灾害学报",
+    "url": "https://zrzh.paperonce.org",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": "paperonce hostname",
+    "evidence": "url_signature"
+  },
+  {
+    "source_row": 8726,
+    "journal_key": "0da640036b7714ea",
+    "name": "艺术设计研究",
+    "url": "https://yssjyj.bift.edu.cn",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8749,
+    "journal_key": "c9acf06a842580a6",
+    "name": "苏州教育学院学报",
+    "url": "http://xbskb.jssvc.edu.cn",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8751,
+    "journal_key": "5670dae125b5c785",
+    "name": "苏州科技大学学报（社会科学版）",
+    "url": "http://xbsk.usts.edu.cn",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8904,
+    "journal_key": "1602ff03c8968400",
+    "name": "西南医科大学学报",
+    "url": "http://xb.swmu.edu.cn",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9371,
+    "journal_key": "9f782fc96ab49437",
+    "name": "远程教育杂志",
+    "url": "http://dej.zjtvu.edu.cn",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9415,
+    "journal_key": "7589f94e9cadbd48",
+    "name": "遵义医学院学报",
+    "url": "http://zyykdx.paperopen.com",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9422,
+    "journal_key": "e33331401daffeed",
+    "name": "邮电设计技术",
+    "url": "http://ydsjjs.paperopen.com",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9431,
+    "journal_key": "f99e92b1ac9c0d6b",
+    "name": "郑州大学学报（医学版）",
+    "url": "http://jms.zzu.edu.cn",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9624,
+    "journal_key": "d5e0500e983c3aaa",
+    "name": "镇江高专学报",
+    "url": "http://xuebao.zjc.edu.cn",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9718,
+    "journal_key": "9c44a272f82e604f",
+    "name": "陕西林业科技",
+    "url": "http://sxlykj.paperonce.org",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": "paperonce hostname",
+    "evidence": "url_signature"
+  },
+  {
+    "source_row": 9765,
+    "journal_key": "d943ecd795a2cf51",
+    "name": "青岛大学学报（医学版）",
+    "url": "https://jms.qdu.edu.cn",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9822,
+    "journal_key": "0d2184bfdabed00b",
+    "name": "非常规油气",
+    "url": "http://fcgyq.sxycpc.com",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 10026,
+    "journal_key": "10d69ca0c56cf375",
+    "name": "黄冈师范学院学报",
+    "url": "http://xuebao.hgnu.edu.cn",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 10097,
+    "journal_key": "5dce34c15fdb3084",
+    "name": "齐鲁护理杂志",
+    "url": "http://www.qlhlzzs.com",
+    "supplier": "PaperOnce",
+    "template_group": "paperonce",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  }
+]

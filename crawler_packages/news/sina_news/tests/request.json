@@ -1,0 +1,1 @@
+{"protocol_version":"1.0","execution_id":"00000000-0000-0000-0000-000000000004","package_key":"sina_news","package_version":"1.0.0","query":"中美","aliases":[],"limit":1,"parameters":{"sort":0,"page_size":10,"max_pages":10},"cursor":null,"time_range":{"from":null,"to":null},"deadline_at":"2099-01-01T00:00:00Z"}

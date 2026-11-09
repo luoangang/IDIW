@@ -40,11 +40,14 @@ CREATE TABLE IF NOT EXISTS monitors (
   weekday TINYINT UNSIGNED NULL,
   timezone VARCHAR(64) CHARACTER SET ascii COLLATE ascii_bin NOT NULL DEFAULT 'Asia/Shanghai',
   enabled TINYINT(1) NOT NULL DEFAULT 1,
+  archived_at DATETIME(6) NULL,
+  active_name_key CHAR(64) CHARACTER SET ascii COLLATE ascii_bin NULL,
   last_run_at DATETIME(6) NULL,
   next_run_at DATETIME(6) NULL,
   created_at DATETIME(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6),
   updated_at DATETIME(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6) ON UPDATE CURRENT_TIMESTAMP(6),
-  INDEX idx_monitors_due (enabled, next_run_at)
+  INDEX idx_monitors_due (enabled, next_run_at),
+  UNIQUE KEY uk_monitors_active_name (active_name_key)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 CREATE TABLE IF NOT EXISTS monitor_packages (

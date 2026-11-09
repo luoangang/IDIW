@@ -1,0 +1,102 @@
+[
+  {
+    "source_row": 602,
+    "journal_key": "8901e176561d0aa4",
+    "name": "中国与世界经济（英文版）",
+    "url": "https://onlinelibrary.wiley.com/journal/1749124x",
+    "supplier": "Wiley",
+    "template_group": "Wiley",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5227,
+    "journal_key": "b4783535a47d6afc",
+    "name": "慢性疾病与转化医学（英文）",
+    "url": "https://onlinelibrary.wiley.com/journal/25890514",
+    "supplier": "Wiley",
+    "template_group": "Wiley",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5878,
+    "journal_key": "e8b563dddac2d13a",
+    "name": "昆虫科学（英文）",
+    "url": "http://onlinelibrary.wiley.com/journal/10.1111",
+    "supplier": "Wiley",
+    "template_group": "Wiley",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5923,
+    "journal_key": "7cc050a63207fe70",
+    "name": "智能材料（英文）",
+    "url": "https://onlinelibrary.wiley.com/journal/2688819x",
+    "supplier": "Wiley",
+    "template_group": "Wiley",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5928,
+    "journal_key": "6bee59fc9f68e352",
+    "name": "智能系统与机器人（英文）",
+    "url": "https://ietresearch.onlinelibrary.wiley.com/journal/26316315",
+    "supplier": "Wiley",
+    "template_group": "Wiley",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6918,
+    "journal_key": "d1873165ebcf3172",
+    "name": "深地科学（英文）",
+    "url": "http://duse.cumt.edu.cn",
+    "supplier": "Wiley",
+    "template_group": "Wiley",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7591,
+    "journal_key": "3075473f63154c2e",
+    "name": "生物医学工程材料（英文）",
+    "url": "https://onlinelibrary.wiley.com/journal/27517446",
+    "supplier": "Wiley",
+    "template_group": "Wiley",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8288,
+    "journal_key": "9741a593ef432919",
+    "name": "精准泌尿学（英文）",
+    "url": "https://onlinelibrary.wiley.com/r/uroprecision",
+    "supplier": "Wiley",
+    "template_group": "Wiley",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8596,
+    "journal_key": "c65d20f9b25dac02",
+    "name": "能源与环境材料（英文）",
+    "url": "https://onlinelibrary.wiley.com/journal/25750356",
+    "supplier": "Wiley",
+    "template_group": "Wiley",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9668,
+    "journal_key": "120051892046c1c2",
+    "name": "门静脉高压与肝硬化（英文）",
+    "url": "https://onlinelibrary.wiley.com/journal/27705846",
+    "supplier": "Wiley",
+    "template_group": "Wiley",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  }
+]

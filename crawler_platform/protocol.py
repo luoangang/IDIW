@@ -13,6 +13,8 @@ from typing import Any
 from jsonschema import Draft202012Validator, FormatChecker
 from jsonschema.exceptions import SchemaError
 
+from crawler_platform.categories import normalize_category
+
 
 PACKAGE_KEY_RE = re.compile(r"^[a-z][a-z0-9_]{2,63}$")
 FIELD_RE = re.compile(r"^[a-z][a-z0-9_]{0,47}$")
@@ -120,7 +122,7 @@ def load_manifest(package_dir: Path) -> PackageManifest:
     if not isinstance(runtime, dict) or runtime.get("type") != "python":
         raise ProtocolError("runtime.type must be python")
     python_version = runtime.get("python_version")
-    if not isinstance(python_version, str) or not re.fullmatch(r"3\.(9|10|11|12)", python_version):
+    if not isinstance(python_version, str) or not re.fullmatch(r"3\.(9|10|11|12|13|14)", python_version):
         raise ProtocolError("runtime.python_version must be a supported major.minor version")
     entrypoint = _safe_relative(runtime.get("entrypoint"), "runtime.entrypoint")
     dependencies = _safe_relative(runtime.get("dependencies"), "runtime.dependencies")
@@ -173,10 +175,14 @@ def load_manifest(package_dir: Path) -> PackageManifest:
     schema_version = raw["output_schema_version"]
     if not isinstance(schema_version, int) or schema_version < 1:
         raise ProtocolError("output_schema_version must be positive")
+    try:
+        category = normalize_category(_require_string(raw, "category"))
+    except ValueError as exc:
+        raise ProtocolError(str(exc)) from exc
     return PackageManifest(
         raw=raw, package_key=key, package_version=version,
         protocol_version="1.0", name=_require_string(raw, "name"),
-        description=str(raw.get("description", "")), category=_require_string(raw, "category"),
+        description=str(raw.get("description", "")), category=category,
         python_version=python_version,
         entrypoint=entrypoint, dependencies=dependencies,
         incremental=bool(capabilities.get("incremental", False)),

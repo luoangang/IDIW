@@ -106,7 +106,7 @@ manifest.json、入口脚本、requirements.lock、README.md 和测试样例必�
   "package_version": "1.0.0",
   "name": "百度百科",
   "description": "根据主题词获取百科条目",
-  "category": "encyclopedia",
+  "category": "reference",
   "runtime": {
     "type": "python",
     "python_version": "3.9",
@@ -498,7 +498,7 @@ API 用 package_key + resource_uid 标识数据，响应格式建议：
 {
   "package_key": "baidu_baike",
   "resource_uid": "578eec52-e98b-4a10-a1e1-5dad405b0bd9",
-  "category": "encyclopedia",
+  "category": "reference",
   "common": {"title": "人工智能", "url": "https://example.org/entry/9180"},
   "data": {"external_id": "9180", "title": "人工智能", "content": "正文"},
   "first_seen_at": "2026-09-19T10:00:00Z",

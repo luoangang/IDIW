@@ -1,0 +1,51 @@
+{
+  "protocol_version": "1.0",
+  "package_key": "flagship_journals",
+  "package_version": "1.0.1",
+  "name": "外文重点期刊元数据",
+  "description": "检索 Nature、Science、PNAS、Cell 的公开论文元数据，不采集全文",
+  "category": "academic",
+  "runtime": {"type": "python", "python_version": "3.14", "entrypoint": "crawler.py", "dependencies": "requirements.lock"},
+  "capabilities": {"incremental": false},
+  "parameters_schema": {
+    "type": "object",
+    "properties": {
+      "journal_keys": {"type": "array", "minItems": 1, "maxItems": 4, "uniqueItems": true, "items": {"type": "string", "enum": ["nature", "science", "pnas", "cell"]}, "default": ["nature", "science", "pnas", "cell"]},
+      "search_terms": {"type": "array", "maxItems": 8, "uniqueItems": true, "items": {"type": "string", "minLength": 2, "maxLength": 100}, "default": []},
+      "lookback_days": {"type": "integer", "minimum": 0, "maximum": 3650, "default": 30},
+      "per_journal_limit": {"type": "integer", "minimum": 1, "maximum": 1000, "default": 100},
+      "timeout_seconds": {"type": "integer", "minimum": 5, "maximum": 60, "default": 20},
+      "require_abstract": {"type": "boolean", "default": false}
+    },
+    "additionalProperties": false
+  },
+  "secret_names": ["OPENALEX_API_KEY"],
+  "output_schema_version": 1,
+  "output_schema": {
+    "fields": [
+      {"name": "doi", "type": "string", "max_length": 255, "nullable": false},
+      {"name": "journal_key", "type": "string", "max_length": 32, "nullable": false},
+      {"name": "journal_name", "type": "string", "max_length": 255, "nullable": false},
+      {"name": "issn", "type": "string", "max_length": 16, "nullable": false},
+      {"name": "title", "type": "string", "max_length": 1000, "nullable": false},
+      {"name": "url", "type": "text", "nullable": false},
+      {"name": "authors", "type": "array", "nullable": false, "schema": {"type": "array", "items": {"type": "string"}}},
+      {"name": "affiliations", "type": "array", "nullable": false, "schema": {"type": "array", "items": {"type": "string"}}},
+      {"name": "abstract", "type": "text", "nullable": true},
+      {"name": "abstract_source", "type": "string", "max_length": 32, "nullable": true},
+      {"name": "published_at", "type": "date", "nullable": true},
+      {"name": "year", "type": "integer", "nullable": true},
+      {"name": "volume", "type": "string", "max_length": 64, "nullable": true},
+      {"name": "issue", "type": "string", "max_length": 64, "nullable": true},
+      {"name": "pages", "type": "string", "max_length": 128, "nullable": true},
+      {"name": "language", "type": "string", "max_length": 16, "nullable": true},
+      {"name": "open_access", "type": "boolean", "nullable": true},
+      {"name": "cited_by_count", "type": "integer", "nullable": true},
+      {"name": "openalex_id", "type": "string", "max_length": 128, "nullable": false},
+      {"name": "matched_terms", "type": "array", "nullable": false, "schema": {"type": "array", "items": {"type": "string"}}}
+    ],
+    "identity_fields": ["doi"],
+    "indexes": [["journal_key"], ["published_at"], ["year"]],
+    "mapping": {"title": "title", "url": "url", "summary": "abstract", "published_at": "published_at"}
+  }
+}

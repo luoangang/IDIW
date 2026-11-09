@@ -1,0 +1,982 @@
+[
+  {
+    "source_row": null,
+    "journal_key": "data_analysis",
+    "name": "数据分析与知识发现",
+    "url": "https://manu44.magtech.com.cn/Jwk_infotech_wk3/CN/home",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "verified_builtin"
+  },
+  {
+    "source_row": null,
+    "journal_key": "lis",
+    "name": "图书情报工作",
+    "url": "https://www.lis.ac.cn/CN/0252-3116/home.shtml",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "verified_builtin"
+  },
+  {
+    "source_row": 35,
+    "journal_key": "9ce281b4f0db9839",
+    "name": "上海交通大学学报（医学版）",
+    "url": "https://xuebao.shsmu.edu.cn",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 173,
+    "journal_key": "c536c34f4c2cb9ba",
+    "name": "世界地质（英文版）",
+    "url": "http://sjdz.jlu.edu.cn",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 260,
+    "journal_key": "8d18f91e3b7a139e",
+    "name": "东北电力大学学报",
+    "url": "https://xb.neepu.edu.cn",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 406,
+    "journal_key": "15e7c7aa67f07b34",
+    "name": "中华医学教育杂志",
+    "url": "http://zhyxjy.magtechjournal.com",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": "magtech hostname",
+    "evidence": "url_signature"
+  },
+  {
+    "source_row": 647,
+    "journal_key": "2bd547dbaaee3159",
+    "name": "中国乳业",
+    "url": "http://zhgry.aiijournal.com",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 760,
+    "journal_key": "a783388ee9ed1468",
+    "name": "中国农机化学报",
+    "url": "http://zgnjhxb.niam.com.cn",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 844,
+    "journal_key": "59fcc5d489beb78a",
+    "name": "中国医药导刊",
+    "url": "http://www.zgyydk.cn",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1122,
+    "journal_key": "4cc3a661c6e08163",
+    "name": "中国新药杂志",
+    "url": "http://www.newdrug.cn",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1142,
+    "journal_key": "bb5d2b3eaa601d48",
+    "name": "中国机械",
+    "url": "http://www.machinechina1982.cn/CN/home",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1331,
+    "journal_key": "ea53ed84a1b19ca8",
+    "name": "中国畜禽种业",
+    "url": "http://xq.aiijournal.com",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1347,
+    "journal_key": "4e1024de9562cb1e",
+    "name": "中国眼耳鼻喉科杂志",
+    "url": "https://cjoo.fdeent.org",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1548,
+    "journal_key": "03f0a72cbf6db23b",
+    "name": "中国药物警戒",
+    "url": "https://zgywjj.magtechjournal.com",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": "magtech hostname",
+    "evidence": "url_signature"
+  },
+  {
+    "source_row": 1746,
+    "journal_key": "9ccb311d50d3e48a",
+    "name": "中央财经大学学报",
+    "url": "https://xbbjb.cufe.edu.cn",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2071,
+    "journal_key": "8efa0aef79d01c66",
+    "name": "人工晶体学报",
+    "url": "http://rgjtxb.jtxb.cn",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2265,
+    "journal_key": "a461355a075eb833",
+    "name": "作物杂志",
+    "url": "http://zwzz.chinacrops.org",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2320,
+    "journal_key": "a3a0e993f88da1aa",
+    "name": "信息网络安全",
+    "url": "http://netinfo-security.org",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2324,
+    "journal_key": "4775013c4ca046f0",
+    "name": "信息通信技术与政策",
+    "url": "http://ictp.caict.ac.cn",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2373,
+    "journal_key": "abb85563ce7c9a9a",
+    "name": "光散射学报",
+    "url": "http://journal-cjls.cn",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2551,
+    "journal_key": "c8dcb9b942bd07d3",
+    "name": "内陆地震",
+    "url": "https://nldz.magtechjournal.com",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": "magtech hostname",
+    "evidence": "url_signature"
+  },
+  {
+    "source_row": 2573,
+    "journal_key": "f6d99f539a3a048b",
+    "name": "农业图书情报学报",
+    "url": "http://nytsqb.aiijournal.com",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2574,
+    "journal_key": "c24e17612e5d78cd",
+    "name": "农业大数据学报",
+    "url": "http://agbigdata.aiijournal.com",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2575,
+    "journal_key": "a171dd71ab658720",
+    "name": "农业展望",
+    "url": "http://agrioutlook.aiijournal.com",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2680,
+    "journal_key": "60c1eabc0c0816c2",
+    "name": "冶金自动化",
+    "url": "http://yjzdh.chinamet.cn",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2716,
+    "journal_key": "9c78b6dc930b065b",
+    "name": "分布式能源",
+    "url": "http://der.tsinghuajournals.com",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2828,
+    "journal_key": "9d4a23bbb7f048aa",
+    "name": "包头医学院学报",
+    "url": "http://btyxyxb.btmc.edu.cn",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2888,
+    "journal_key": "39d6966a9dadb10f",
+    "name": "北京交通大学学报",
+    "url": "https://jdxb.bjtu.edu.cn",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2906,
+    "journal_key": "6317c7bb73693762",
+    "name": "北京大学学报（哲学社会科学版）",
+    "url": "http://journal.pku.edu.cn",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2915,
+    "journal_key": "5069f5b8759477bc",
+    "name": "北京师范大学学报（社会科学版）",
+    "url": "https://wkxb.bnu.edu.cn",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3162,
+    "journal_key": "5fd2b4c6fc0f68ab",
+    "name": "南京林业大学学报（自然科学版）",
+    "url": "http://nldxb.njfu.edu.cn",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3251,
+    "journal_key": "2f6910d7fdf30a4a",
+    "name": "卫生软科学",
+    "url": "http://www.wsrkx.net",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3387,
+    "journal_key": "183c8814ab43d464",
+    "name": "吉首大学学报（社会科学版）",
+    "url": "https://skxb.jsu.edu.cn",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3529,
+    "journal_key": "eef233349edd93b9",
+    "name": "四川戏剧",
+    "url": "https://scxj.scyishu.org.cn",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3657,
+    "journal_key": "393547c52b8af585",
+    "name": "国际医药卫生导报",
+    "url": "http://www.imhgn.com",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3688,
+    "journal_key": "b294d2bbb2d16335",
+    "name": "国际新闻界",
+    "url": "http://cjjc.ruc.edu.cn",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3747,
+    "journal_key": "4554cb1e65de61b6",
+    "name": "图书与情报",
+    "url": "https://tsyqb.gslib.com.cn",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3758,
+    "journal_key": "bf5ada3140925f98",
+    "name": "图书馆工作与研究",
+    "url": "http://bjb.tjl.tj.cn",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3766,
+    "journal_key": "634a543a13425d2f",
+    "name": "图书馆论坛",
+    "url": "http://tsglt.zslib.com.cn",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3817,
+    "journal_key": "ee68530d2b6f27a7",
+    "name": "地理教学",
+    "url": "https://dljx.ecnu.edu.cn",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3820,
+    "journal_key": "e75f1982223e91bb",
+    "name": "地理科学",
+    "url": "http://geoscien.neigae.ac.cn",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3948,
+    "journal_key": "17e0a603ec1f173b",
+    "name": "复旦学报（医学版）",
+    "url": "https://jms.fudan.edu.cn",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3955,
+    "journal_key": "9c98fa66ebd5a6c8",
+    "name": "复杂系统与复杂性科学",
+    "url": "https://fzkx.qdu.edu.cn",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4016,
+    "journal_key": "e498694accd50c35",
+    "name": "大地测量与地球动力学",
+    "url": "http://www.jgg09.com",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4017,
+    "journal_key": "369afbf72b881ae7",
+    "name": "大坝与安全",
+    "url": "http://magtech.dam.com.cn",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": "magtech hostname",
+    "evidence": "url_signature"
+  },
+  {
+    "source_row": 4083,
+    "journal_key": "afd9231e5be327bb",
+    "name": "大连海洋大学学报",
+    "url": "http://xuebao.dlou.edu.cn",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4109,
+    "journal_key": "786d0ed83e2a14b2",
+    "name": "天津农学院学报",
+    "url": "http://xuebao.tjau.edu.cn",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4136,
+    "journal_key": "b91e3f5886aded6d",
+    "name": "天津科技",
+    "url": "http://tougao.tisti.ac.cn",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4428,
+    "journal_key": "35107f98728d5c1f",
+    "name": "家畜生态学报",
+    "url": "http://jcst.magtech.com.cn",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": "magtech hostname",
+    "evidence": "url_signature"
+  },
+  {
+    "source_row": 4672,
+    "journal_key": "8b9a31fdbf27ff48",
+    "name": "巢湖学院学报",
+    "url": "http://xb.chu.edu.cn",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4724,
+    "journal_key": "9080b6972eda6750",
+    "name": "工程数学学报",
+    "url": "http://jgsx-csiam.org.cn",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4764,
+    "journal_key": "2dccdafb15a9c806",
+    "name": "干旱区地理",
+    "url": "http://alg.xjegi.com",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4876,
+    "journal_key": "2d63c866f28344aa",
+    "name": "广西林业科学",
+    "url": "http://gxlykx.gxlky.com.cn",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5034,
+    "journal_key": "32ee319e8c2ea670",
+    "name": "当代亚太",
+    "url": "https://journal34.magtechjournal.com/ddyt/CN/1007-161X/home.shtml",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": "magtech hostname",
+    "evidence": "url_signature"
+  },
+  {
+    "source_row": 5099,
+    "journal_key": "4e4dfec0b12f60bf",
+    "name": "当代财经",
+    "url": "http://cfejxufe.magtech.com.cn",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": "magtech hostname",
+    "evidence": "url_signature"
+  },
+  {
+    "source_row": 5217,
+    "journal_key": "qbzl",
+    "name": "情报资料工作",
+    "url": "http://qbzl.ruc.edu.cn",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5270,
+    "journal_key": "19ce33c3c7a15ab2",
+    "name": "承德医学院学报",
+    "url": "https://tougao.cdmc.edu.cn",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5359,
+    "journal_key": "f6091328d1415b92",
+    "name": "政治经济学评论",
+    "url": "http://crpe.ruc.edu.cn",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5438,
+    "journal_key": "1c8e7fca5c88ec52",
+    "name": "数字人文研究",
+    "url": "http://dhr.ruc.edu.cn",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5477,
+    "journal_key": "a02f8beb3a2f0e14",
+    "name": "数学教学",
+    "url": "https://sxjx.ecnu.edu.cn",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6036,
+    "journal_key": "4377f45dbbf101ec",
+    "name": "极地研究",
+    "url": "https://journal.chinare.org.cn",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6099,
+    "journal_key": "ae9d25e8287735cd",
+    "name": "桂林理工大学学报",
+    "url": "http://xbz.glut.edu.cn",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6151,
+    "journal_key": "f7c27edbab2c66db",
+    "name": "植物研究",
+    "url": "http://bbr.nefu.edu.cn",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6159,
+    "journal_key": "3f3c66f018c480bd",
+    "name": "楚雄师范学院学报",
+    "url": "http://cxtc.magtechjournal.com",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": "magtech hostname",
+    "evidence": "url_signature"
+  },
+  {
+    "source_row": 6499,
+    "journal_key": "7987b542e73df332",
+    "name": "汽车实用技术",
+    "url": "http://www.aenauto.com",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6609,
+    "journal_key": "964cd40c92eb59eb",
+    "name": "河北科技图苑",
+    "url": "http://hbkjty.hbu.cn",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6760,
+    "journal_key": "2a5e53d02be289cb",
+    "name": "测绘通报",
+    "url": "http://tb.chinasmp.com",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6876,
+    "journal_key": "e3ca701424ee8bb5",
+    "name": "海洋湖沼通报",
+    "url": "https://journal32.magtechjournal.com/hyhztb/CN/home",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": "magtech hostname",
+    "evidence": "url_signature"
+  },
+  {
+    "source_row": 6907,
+    "journal_key": "8c676fea238ad48c",
+    "name": "液压气动与密封",
+    "url": "https://j.chpsa.org.cn",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7174,
+    "journal_key": "f5080346c831c98e",
+    "name": "煤炭工程",
+    "url": "http://www.coale.com.cn",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7347,
+    "journal_key": "b68a4d9cabf60b5e",
+    "name": "现代免疫学",
+    "url": "https://shmy.shsmu.edu.cn",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7450,
+    "journal_key": "312aeb086dca50b0",
+    "name": "现代纺织技术",
+    "url": "http://journal.zjtextile.com.cn",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7546,
+    "journal_key": "572fbf1a93266eb9",
+    "name": "甘肃科技纵横",
+    "url": "http://kjzh.gskj.net.cn",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7621,
+    "journal_key": "c227c9f9d293dc96",
+    "name": "生理科学进展",
+    "url": "http://physiol.bjmu.edu.cn",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7664,
+    "journal_key": "76327f8b1b7fb3f2",
+    "name": "电化学（中英文）",
+    "url": "https://electrochem.xmu.edu.cn",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7926,
+    "journal_key": "e65bb069a07db90b",
+    "name": "石窟与土遗址保护研究",
+    "url": "https://skytyz.dha.ac.cn",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7957,
+    "journal_key": "4dccbb257e6f2f9b",
+    "name": "硅酸盐通报",
+    "url": "http://gsytb.jtxb.cn",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7977,
+    "journal_key": "c1a239dc5db25658",
+    "name": "社会学评论",
+    "url": "http://src.ruc.edu.cn",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7981,
+    "journal_key": "6001fb56d3fc0c72",
+    "name": "社会建设",
+    "url": "http://shjs.ruc.edu.cn",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8063,
+    "journal_key": "54d332e80c1aa5a1",
+    "name": "福建电脑",
+    "url": "http://fjdn.fjinfo.org.cn",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8415,
+    "journal_key": "f2bc501638179d41",
+    "name": "结构工程师",
+    "url": "https://stru-en.tongji.edu.cn",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8645,
+    "journal_key": "9bd013a904612fa5",
+    "name": "自然资源科普与文化",
+    "url": "https://zrzykpywh.magtechjournal.com",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": "magtech hostname",
+    "evidence": "url_signature"
+  },
+  {
+    "source_row": 8697,
+    "journal_key": "a5351bcc1ea92574",
+    "name": "船舶",
+    "url": "http://chuanbo.magtechjournal.com",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": "magtech hostname",
+    "evidence": "url_signature"
+  },
+  {
+    "source_row": 8778,
+    "journal_key": "dbd80c0590bb85c1",
+    "name": "草业学报",
+    "url": "http://cyxb.magtech.com.cn",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": "magtech hostname",
+    "evidence": "url_signature"
+  },
+  {
+    "source_row": 8993,
+    "journal_key": "d6dbd98e4f77b532",
+    "name": "观察与思考",
+    "url": "https://gcysk.magtechjournal.com",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": "magtech hostname",
+    "evidence": "url_signature"
+  },
+  {
+    "source_row": 9036,
+    "journal_key": "87f3d138668c3691",
+    "name": "计算机工程与科学",
+    "url": "http://joces.nudt.edu.cn",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9110,
+    "journal_key": "1d5a2526b77cd0c0",
+    "name": "语言战略研究",
+    "url": "http://yyzlyj.cp.com.cn",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9229,
+    "journal_key": "510eddb1cd56008b",
+    "name": "资源环境与工程",
+    "url": "http://ree.hubgs.com",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9299,
+    "journal_key": "6ff9ecbd12ed0e42",
+    "name": "辐射防护",
+    "url": "http://journal01.magtech.org.cn/Jwk3_fsfh/CN/1000-8187/home.shtml",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": "magtech hostname",
+    "evidence": "url_signature"
+  },
+  {
+    "source_row": 9300,
+    "journal_key": "8d5cd9896cea9dda",
+    "name": "辐射防护通讯",
+    "url": "http://journal01.magtech.org.cn/Jwk3_fsfhtx/CN/1004-6356/home.shtml",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": "magtech hostname",
+    "evidence": "url_signature"
+  },
+  {
+    "source_row": 9362,
+    "journal_key": "aa072afa7a0ed9b0",
+    "name": "运筹与管理",
+    "url": "http://www.jorms.net",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9469,
+    "journal_key": "cb119447fb13a01a",
+    "name": "重庆交通大学学报（社会科学版）",
+    "url": "http://xbskb.cqjtu.edu.cn",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9470,
+    "journal_key": "33dc009a2559a1e2",
+    "name": "重庆交通大学学报（自然科学版）",
+    "url": "http://xbzk.cqjtu.edu.cn",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9698,
+    "journal_key": "be29e137e31f5282",
+    "name": "陆军工程大学学报",
+    "url": "https://xbzrb.aeu.edu.cn",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9764,
+    "journal_key": "2419704af0cc8e28",
+    "name": "青岛医药卫生",
+    "url": "http://www.qdma.com.cn/qikan",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9921,
+    "journal_key": "e2c88add6485dd9e",
+    "name": "首都体育学院学报",
+    "url": "http://sdtyxyxb.magtechjournal.com",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": "magtech hostname",
+    "evidence": "url_signature"
+  },
+  {
+    "source_row": 9984,
+    "journal_key": "a947ba08db15be05",
+    "name": "高校马克思主义理论研究",
+    "url": "http://smthe.tsinghuajournals.com",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 10095,
+    "journal_key": "540c86607b41c8f7",
+    "name": "齐鲁工业大学学报",
+    "url": "https://journal.qlu.edu.cn",
+    "supplier": "玛格泰克",
+    "template_group": "magetech",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  }
+]

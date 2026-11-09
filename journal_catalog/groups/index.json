@@ -1,0 +1,162 @@
+[
+  {
+    "group": "BMJ",
+    "file": "bmj_1702a229.json",
+    "count": 1
+  },
+  {
+    "group": "BioMed Central",
+    "file": "biomed_central_da9c04ef.json",
+    "count": 1
+  },
+  {
+    "group": "Cambridge University Press",
+    "file": "cambridge_university_press_5fa80bac.json",
+    "count": 1
+  },
+  {
+    "group": "De Gruyter",
+    "file": "de_gruyter_618e6fd4.json",
+    "count": 1
+  },
+  {
+    "group": "EDP Sciences",
+    "file": "edp_sciences_df453202.json",
+    "count": 1
+  },
+  {
+    "group": "Elsevier",
+    "file": "elsevier_f31e959b.json",
+    "count": 12
+  },
+  {
+    "group": "KeAi",
+    "file": "keai_0e54dd2b.json",
+    "count": 13
+  },
+  {
+    "group": "OAE Publishing",
+    "file": "oae_publishing_bd6f80b5.json",
+    "count": 1
+  },
+  {
+    "group": "Pluto Journals",
+    "file": "pluto_journals_2f788eb1.json",
+    "count": 1
+  },
+  {
+    "group": "SciOpen",
+    "file": "sciopen_654c44a6.json",
+    "count": 2
+  },
+  {
+    "group": "Springer Nature",
+    "file": "springer_nature_caf49556.json",
+    "count": 11
+  },
+  {
+    "group": "Taylor & Francis",
+    "file": "taylor_francis_4376741e.json",
+    "count": 4
+  },
+  {
+    "group": "Tiller Beijing Science and Technology Development Co., Ltd.",
+    "file": "tiller_beijing_science_and_technology_development_co_ltd_a09d11e6.json",
+    "count": 1
+  },
+  {
+    "group": "Wiley",
+    "file": "wiley_206b7cc7.json",
+    "count": 10
+  },
+  {
+    "group": "Wolters Kluwer",
+    "file": "wolters_kluwer_5b1f0b00.json",
+    "count": 4
+  },
+  {
+    "group": "cnki",
+    "file": "cnki_a4f0a175.json",
+    "count": 313
+  },
+  {
+    "group": "cnki_cbpt",
+    "file": "cnki_cbpt_3941ef47.json",
+    "count": 731
+  },
+  {
+    "group": "founder",
+    "file": "founder_59458508.json",
+    "count": 157
+  },
+  {
+    "group": "magetech",
+    "file": "magetech_e868f32d.json",
+    "count": 350
+  },
+  {
+    "group": "paperonce",
+    "file": "paperonce_500406fe.json",
+    "count": 75
+  },
+  {
+    "group": "qinyun",
+    "file": "qinyun_8329130d.json",
+    "count": 365
+  },
+  {
+    "group": "rhzh",
+    "file": "rhzh_d203fcbb.json",
+    "count": 261
+  },
+  {
+    "group": "vsb",
+    "file": "vsb_0bf7c64c.json",
+    "count": 28
+  },
+  {
+    "group": "yiigle",
+    "file": "yiigle_9caeb0e6.json",
+    "count": 14
+  },
+  {
+    "group": "中华医学电子期刊资源库",
+    "file": "vendor_49966ae8.json",
+    "count": 1
+  },
+  {
+    "group": "中视蓝图",
+    "file": "vendor_bca7097f.json",
+    "count": 1
+  },
+  {
+    "group": "九州科创",
+    "file": "vendor_b89d2376.json",
+    "count": 1
+  },
+  {
+    "group": "北京博渊星辰网络科技有限公司",
+    "file": "vendor_e444a7ac.json",
+    "count": 2
+  },
+  {
+    "group": "同方知网/期刊平台",
+    "file": "vendor_ff466b61.json",
+    "count": 4
+  },
+  {
+    "group": "河北百商胜软件科技有限公司",
+    "file": "vendor_95373eda.json",
+    "count": 1
+  },
+  {
+    "group": "牛津大学出版社",
+    "file": "vendor_8651d8e9.json",
+    "count": 6
+  },
+  {
+    "group": "西安三才",
+    "file": "vendor_45577080.json",
+    "count": 3
+  }
+]

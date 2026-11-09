@@ -1,0 +1,74 @@
+{
+  "protocol_version": "1.0",
+  "package_key": "rss_multi_feed",
+  "package_version": "1.0.0",
+  "name": "通用 RSS 多源采集",
+  "description": "读取多个 RSS/Atom 地址，按主题宽松匹配或采集全部订阅条目",
+  "category": "news",
+  "runtime": {
+    "type": "python",
+    "python_version": "3.14",
+    "entrypoint": "crawler.py",
+    "dependencies": "requirements.lock"
+  },
+  "capabilities": {"incremental": false},
+  "parameters_schema": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "type": "object",
+    "properties": {
+      "feed_urls": {
+        "type": "array",
+        "minItems": 1,
+        "maxItems": 32,
+        "uniqueItems": true,
+        "items": {"type": "string", "format": "uri", "pattern": "^https?://"},
+        "default": [
+          "https://spectrum.ieee.org/feeds/feed.rss",
+          "https://breakingdefense.com/full-rss-feed/",
+          "https://www.defensenews.com/arc/outboundfeeds/rss/?outputType=xml",
+          "https://www.navalnews.com/feed/"
+        ]
+      },
+      "match_mode": {"type": "string", "enum": ["keywords", "all"], "default": "keywords"},
+      "extra_keywords": {
+        "type": "array", "maxItems": 100,
+        "items": {"type": "string", "minLength": 1, "maxLength": 200}, "default": []
+      },
+      "keyword_groups": {
+        "type": "array", "maxItems": 30,
+        "items": {
+          "type": "array", "minItems": 1, "maxItems": 10,
+          "items": {"type": "string", "minLength": 1, "maxLength": 200}
+        },
+        "default": []
+      },
+      "per_feed_limit": {"type": "integer", "minimum": 1, "maximum": 1000, "default": 100},
+      "timeout_seconds": {"type": "integer", "minimum": 1, "maximum": 60, "default": 20},
+      "max_feed_bytes": {"type": "integer", "minimum": 1024, "maximum": 10485760, "default": 5242880},
+      "lookback_days": {"type": "integer", "minimum": 0, "maximum": 3650, "default": 0}
+    },
+    "additionalProperties": false
+  },
+  "secret_names": [],
+  "output_schema_version": 1,
+  "output_schema": {
+    "fields": [
+      {"name": "external_id", "type": "string", "max_length": 64, "nullable": false},
+      {"name": "title", "type": "string", "max_length": 1000, "nullable": false},
+      {"name": "url", "type": "text", "nullable": false},
+      {"name": "summary", "type": "text", "nullable": true},
+      {"name": "content", "type": "text", "nullable": true},
+      {"name": "content_scope", "type": "string", "max_length": 32, "nullable": false},
+      {"name": "publisher", "type": "string", "max_length": 255, "nullable": true},
+      {"name": "author", "type": "string", "max_length": 255, "nullable": true},
+      {"name": "published_at", "type": "datetime", "nullable": true},
+      {"name": "updated_at", "type": "datetime", "nullable": true},
+      {"name": "language", "type": "string", "max_length": 32, "nullable": true},
+      {"name": "source_site", "type": "string", "max_length": 255, "nullable": false},
+      {"name": "feed_url", "type": "text", "nullable": false}
+    ],
+    "identity_fields": ["source_site", "external_id"],
+    "indexes": [["published_at"], ["source_site"]],
+    "mapping": {"title": "title", "url": "url", "summary": "summary", "published_at": "published_at"}
+  }
+}

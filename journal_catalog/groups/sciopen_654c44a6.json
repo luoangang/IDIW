@@ -1,0 +1,22 @@
+[
+  {
+    "source_row": 2031,
+    "journal_key": "91951a14a7ce0ca5",
+    "name": "交通研究通讯（英文）",
+    "url": "https://www.sciopen.com/journal/2097-5023",
+    "supplier": "SciOpen",
+    "template_group": "SciOpen",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8344,
+    "journal_key": "4600de152f843993",
+    "name": "纳米研究（英文版）",
+    "url": "https://www.sciopen.com/journal/1998-0124",
+    "supplier": "SciOpen",
+    "template_group": "SciOpen",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  }
+]

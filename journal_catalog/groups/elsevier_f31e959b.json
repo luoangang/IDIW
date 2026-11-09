@@ -1,0 +1,122 @@
+[
+  {
+    "source_row": 236,
+    "journal_key": "992197026efc799a",
+    "name": "世界针灸杂志（英文版）",
+    "url": "https://www.journals.elsevier.com/world-journal-of-acupuncture-moxibustion",
+    "supplier": "Elsevier",
+    "template_group": "Elsevier",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1852,
+    "journal_key": "67ed458588131783",
+    "name": "中草药（英文版）",
+    "url": "https://www.sciencedirect.com/journal/chinese-herbal-medicines",
+    "supplier": "Elsevier",
+    "template_group": "Elsevier",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2012,
+    "journal_key": "4d9a7a2f22caa158",
+    "name": "亚洲泌尿外科杂志（英文）",
+    "url": "https://www.sciencedirect.com/journal/asian-journal-of-urology",
+    "supplier": "Elsevier",
+    "template_group": "Elsevier",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2014,
+    "journal_key": "f9c42bedf9702d90",
+    "name": "亚洲药物制剂科学（英文版）",
+    "url": "https://www.sciencedirect.com/journal/asian-journal-of-pharmaceutical-sciences",
+    "supplier": "Elsevier",
+    "template_group": "Elsevier",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2264,
+    "journal_key": "0328860a3995cba9",
+    "name": "作物学报（英文版）",
+    "url": "http://www.sciencedirect.com/journal/the-crop-journal",
+    "supplier": "Elsevier",
+    "template_group": "Elsevier",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3698,
+    "journal_key": "980146e3b94f5bc6",
+    "name": "国际泥沙研究（英文版）",
+    "url": "http://www.sciencedirect.com/journal/international-journal-of-sediment-research",
+    "supplier": "Elsevier",
+    "template_group": "Elsevier",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5910,
+    "journal_key": "f1ca303c15e6d13c",
+    "name": "智慧医学（英文）",
+    "url": "https://www.sciencedirect.com/journal/intelligent-medicine",
+    "supplier": "Elsevier",
+    "template_group": "Elsevier",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5968,
+    "journal_key": "a883b668b15054aa",
+    "name": "未来食品学报（英文）",
+    "url": "https://www.sciencedirect.com/journal/journal-of-future-foods",
+    "supplier": "Elsevier",
+    "template_group": "Elsevier",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6156,
+    "journal_key": "9a962bdb300d161b",
+    "name": "植物通讯（英文）",
+    "url": "https://www.cell.com/plant-communications/home",
+    "supplier": "Elsevier",
+    "template_group": "Elsevier",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7599,
+    "journal_key": "88aa922af5aad18c",
+    "name": "生物安全与健康（英文）",
+    "url": "https://www.sciencedirect.com/journal/biosafety-and-health",
+    "supplier": "Elsevier",
+    "template_group": "Elsevier",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8623,
+    "journal_key": "a468ca4f75122d47",
+    "name": "自动化与人工智能（英文）",
+    "url": "https://www.sciencedirect.com/journal/journal-of-automation-and-intelligence",
+    "supplier": "Elsevier",
+    "template_group": "Elsevier",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8793,
+    "journal_key": "8439a3cfc218a1e8",
+    "name": "药学学报（英文版）",
+    "url": "https://www.sciencedirect.com/journal/acta-pharmaceutica-sinica-b",
+    "supplier": "Elsevier",
+    "template_group": "Elsevier",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  }
+]

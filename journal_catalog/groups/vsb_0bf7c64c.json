@@ -1,0 +1,282 @@
+[
+  {
+    "source_row": 290,
+    "journal_key": "bca1715978e6821d",
+    "name": "东方论坛—青岛大学学报（社会科学版）",
+    "url": "http://dflt.qdu.edu.cn",
+    "supplier": "VSB",
+    "template_group": "vsb",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 811,
+    "journal_key": "5993e6a4abe68449",
+    "name": "中国区域文化研究",
+    "url": "http://zgqywhw.ahnu.edu.cn",
+    "supplier": "VSB",
+    "template_group": "vsb",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1442,
+    "journal_key": "c2acca12953dbda5",
+    "name": "中国粉体技术",
+    "url": "http://ftjs.ujn.edu.cn",
+    "supplier": "VSB",
+    "template_group": "vsb",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1978,
+    "journal_key": "d7165891114fb733",
+    "name": "云南艺术学院学报",
+    "url": "http://xb.ynart.edu.cn",
+    "supplier": "VSB",
+    "template_group": "vsb",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1995,
+    "journal_key": "e245799434449a85",
+    "name": "井冈山大学学报（社会科学版）",
+    "url": "https://xb.jgsu.edu.cn",
+    "supplier": "VSB",
+    "template_group": "vsb",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2271,
+    "journal_key": "d13cf3c2e5ede02f",
+    "name": "俄罗斯东欧中亚研究",
+    "url": "http://oyyj-oys.ajcass.com",
+    "supplier": "VSB",
+    "template_group": "vsb",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2272,
+    "journal_key": "b13c4c952f222dc9",
+    "name": "俄罗斯学刊",
+    "url": "http://elsxk.hlju.edu.cn",
+    "supplier": "VSB",
+    "template_group": "vsb",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3392,
+    "journal_key": "d6405c8c178437a2",
+    "name": "同济大学学报（社会科学版）",
+    "url": "http://wkxuebao.tongji.edu.cn",
+    "supplier": "VSB",
+    "template_group": "vsb",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4129,
+    "journal_key": "858a7ce6b08fb5c6",
+    "name": "天津开放大学学报",
+    "url": "http://www.tjrtvu.edu.cn",
+    "supplier": "VSB",
+    "template_group": "vsb",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5198,
+    "journal_key": "76f17532e889e921",
+    "name": "思想教育研究",
+    "url": "http://sxjyyj.ustb.edu.cn",
+    "supplier": "VSB",
+    "template_group": "vsb",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5371,
+    "journal_key": "aa07d99f24c96b1b",
+    "name": "教学学术",
+    "url": "https://jxxs.sjtu.edu.cn",
+    "supplier": "VSB",
+    "template_group": "vsb",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5372,
+    "journal_key": "84c43f1c3db95d53",
+    "name": "教学月刊·中学版",
+    "url": "http://jxyk.zisu.edu.cn",
+    "supplier": "VSB",
+    "template_group": "vsb",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5679,
+    "journal_key": "ae8bf329c82eb29e",
+    "name": "新疆和田学院学报",
+    "url": "http://xbbjb.xjhtc.edu.cn",
+    "supplier": "VSB",
+    "template_group": "vsb",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6173,
+    "journal_key": "5b4d7f8aaf0b066e",
+    "name": "欧亚经济",
+    "url": "http://oyjj-oys.ajcass.com",
+    "supplier": "VSB",
+    "template_group": "vsb",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6210,
+    "journal_key": "3202c90fd9b4773d",
+    "name": "武汉轻工大学学报",
+    "url": "http://xuebao.whpu.edu.cn",
+    "supplier": "VSB",
+    "template_group": "vsb",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6443,
+    "journal_key": "7e8be700fac6075b",
+    "name": "江苏第二师范学院学报",
+    "url": "http://xb.jssnu.edu.cn",
+    "supplier": "VSB",
+    "template_group": "vsb",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6763,
+    "journal_key": "e03c3f0f88baa4f7",
+    "name": "济南大学学报（自然科学版）",
+    "url": "https://jdxbzkb.ujn.edu.cn",
+    "supplier": "VSB",
+    "template_group": "vsb",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7508,
+    "journal_key": "9e078ff25b96d2c1",
+    "name": "理论学习与探索",
+    "url": "http://www.tddx.cn",
+    "supplier": "VSB",
+    "template_group": "vsb",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7989,
+    "journal_key": "dc5782791704b55f",
+    "name": "社会科学家",
+    "url": "http://www.glkxj.com",
+    "supplier": "VSB",
+    "template_group": "vsb",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8021,
+    "journal_key": "17f1467d3a0ca0a7",
+    "name": "福州大学学报（自然科学版）",
+    "url": "http://xbzrb.fzu.edu.cn",
+    "supplier": "VSB",
+    "template_group": "vsb",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8427,
+    "journal_key": "e4308cf7f105e832",
+    "name": "统计学报",
+    "url": "http://tjxb.sxufe.edu.cn",
+    "supplier": "VSB",
+    "template_group": "vsb",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8543,
+    "journal_key": "3d1be8e2beaa84f3",
+    "name": "职业技术教育",
+    "url": "https://zyjsjy.jlenu.edu.cn",
+    "supplier": "VSB",
+    "template_group": "vsb",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9103,
+    "journal_key": "c5b76552a5d0347b",
+    "name": "语言与文化论坛",
+    "url": "https://xuebao.zyufl.edu.cn",
+    "supplier": "VSB",
+    "template_group": "vsb",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9197,
+    "journal_key": "91743b9fb6cf357a",
+    "name": "贵州医科大学学报",
+    "url": "http://xbbjb.gmc.edu.cn",
+    "supplier": "VSB",
+    "template_group": "vsb",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9416,
+    "journal_key": "1fe29ebdb727ecd2",
+    "name": "遵义师范学院学报",
+    "url": "https://www.zync.edu.cn/xbbjb",
+    "supplier": "VSB",
+    "template_group": "vsb",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9573,
+    "journal_key": "a0e346c5ffc29275",
+    "name": "铁合金",
+    "url": "http://thj.jltc.edu.cn",
+    "supplier": "VSB",
+    "template_group": "vsb",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9645,
+    "journal_key": "e9eb381d88924ab8",
+    "name": "长江学术",
+    "url": "http://cjxs.whu.edu.cn",
+    "supplier": "VSB",
+    "template_group": "vsb",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9689,
+    "journal_key": "c7c96bb5a74b34f8",
+    "name": "防爆电机",
+    "url": "http://www.jexm.net",
+    "supplier": "VSB",
+    "template_group": "vsb",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "source_row": 303,
+    "journal_key": "7e031562b3c2a670",
+    "name": "中东与伊斯兰研究（英文版）",
+    "url": "https://www.tandfonline.com/journals/rmis20",
+    "supplier": "Taylor & Francis",
+    "template_group": "Taylor & Francis",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 977,
+    "journal_key": "11037791c6a74b17",
+    "name": "中国宗教研究（英文版）",
+    "url": "https://www.tandfonline.com/rstu",
+    "supplier": "Taylor & Francis",
+    "template_group": "Taylor & Francis",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2010,
+    "journal_key": "69f45a374376b102",
+    "name": "亚洲天然物产研究（英文版）",
+    "url": "https://www.tandfonline.com/loi/ganp20",
+    "supplier": "Taylor & Francis",
+    "template_group": "Taylor & Francis",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7848,
+    "journal_key": "ae79c5b0ad0bd7ed",
+    "name": "真菌学（英文）",
+    "url": "https://www.tandfonline.com/journals/tmyc20",
+    "supplier": "Taylor & Francis",
+    "template_group": "Taylor & Francis",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  }
+]

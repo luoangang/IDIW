@@ -1,0 +1,119 @@
+{
+  "protocol_version": "1.0",
+  "package_key": "uspto_number_lookup",
+  "package_version": "1.0.3",
+  "name": "USPTO 专利号码查询",
+  "category": "patents",
+  "description": "按美国授权专利号查询 USPTO 官方标题、摘要、申请人与受让人、申请日期及授权日期",
+  "runtime": {
+    "type": "python",
+    "python_version": "3.14",
+    "entrypoint": "crawler.py",
+    "dependencies": "requirements.lock"
+  },
+  "capabilities": {
+    "incremental": true
+  },
+  "parameters_schema": {
+    "type": "object",
+    "properties": {},
+    "additionalProperties": false
+  },
+  "secret_names": [],
+  "output_schema_version": 1,
+  "output_schema": {
+    "fields": [
+      {
+        "name": "external_id",
+        "type": "string",
+        "nullable": false,
+        "max_length": 128
+      },
+      {
+        "name": "patent_number",
+        "type": "string",
+        "nullable": false,
+        "max_length": 32
+      },
+      {
+        "name": "kind_code",
+        "type": "string",
+        "nullable": false,
+        "max_length": 8
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "url",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "summary",
+        "type": "text",
+        "nullable": true
+      },
+      {
+        "name": "applicants",
+        "type": "text",
+        "nullable": true
+      },
+      {
+        "name": "assignees",
+        "type": "text",
+        "nullable": true
+      },
+      {
+        "name": "inventors",
+        "type": "text",
+        "nullable": true
+      },
+      {
+        "name": "application_number",
+        "type": "string",
+        "nullable": true,
+        "max_length": 64
+      },
+      {
+        "name": "application_date",
+        "type": "date",
+        "nullable": true
+      },
+      {
+        "name": "grant_date",
+        "type": "date",
+        "nullable": true
+      },
+      {
+        "name": "source_site",
+        "type": "string",
+        "nullable": false,
+        "max_length": 32
+      }
+    ],
+    "identity_fields": [
+      "source_site",
+      "external_id"
+    ],
+    "indexes": [
+      [
+        "patent_number"
+      ],
+      [
+        "application_date"
+      ],
+      [
+        "grant_date"
+      ]
+    ],
+    "mapping": {
+      "title": "title",
+      "url": "url",
+      "summary": "summary",
+      "published_at": "grant_date"
+    }
+  }
+}

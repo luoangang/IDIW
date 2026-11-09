@@ -1,0 +1,15 @@
+{
+  "total": 731,
+  "status_counts": {
+    "passed_with_items": 509,
+    "failed": 212,
+    "passed_no_items": 10
+  },
+  "failure_kinds": {
+    "http_500": 206,
+    "http_404": 4,
+    "template_mismatch": 2
+  },
+  "retried": 246,
+  "recovered_on_retry": 34
+}

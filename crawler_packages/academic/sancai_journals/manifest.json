@@ -1,0 +1,39 @@
+{
+  "protocol_version": "1.0",
+  "package_key": "sancai_journals",
+  "package_version": "1.0.1",
+  "name": "西安三才中文期刊检索包",
+  "description": "按关键词检索西安三才新版 ArticleSearch 期刊，旧版站点明确报不兼容",
+  "category": "academic",
+  "runtime": {"type": "python", "python_version": "3.14", "entrypoint": "crawler.py", "dependencies": "requirements.lock"},
+  "capabilities": {"incremental": false},
+  "parameters_schema": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "type": "object",
+    "properties": {
+      "journal_keys": {"type": "array", "minItems": 1, "maxItems": 3, "uniqueItems": true, "items": {"type": "string", "minLength": 16, "maxLength": 16}, "default": ["7371a30d9aa7945b"]},
+      "per_journal_limit": {"type": "integer", "minimum": 1, "maximum": 500, "default": 20},
+      "timeout_seconds": {"type": "integer", "minimum": 5, "maximum": 60, "default": 20}
+    },
+    "additionalProperties": false
+  },
+  "secret_names": [],
+  "output_schema_version": 1,
+  "output_schema": {
+    "fields": [
+      {"name": "journal_key", "type": "string", "max_length": 16, "nullable": false},
+      {"name": "journal_name", "type": "string", "max_length": 255, "nullable": false},
+      {"name": "journal_url", "type": "text", "nullable": false},
+      {"name": "external_id", "type": "string", "max_length": 128, "nullable": false},
+      {"name": "title", "type": "string", "max_length": 1000, "nullable": false},
+      {"name": "url", "type": "text", "nullable": false},
+      {"name": "authors", "type": "text", "nullable": true},
+      {"name": "abstract", "type": "text", "nullable": true},
+      {"name": "doi", "type": "string", "max_length": 255, "nullable": true},
+      {"name": "year", "type": "integer", "nullable": true}
+    ],
+    "identity_fields": ["journal_key", "external_id"],
+    "indexes": [["journal_key"], ["doi"], ["year"]],
+    "mapping": {"title": "title", "url": "url", "summary": "abstract"}
+  }
+}

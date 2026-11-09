@@ -1,0 +1,3652 @@
+[
+  {
+    "source_row": 56,
+    "journal_key": "0eb50457b4d030d9",
+    "name": "上海商业",
+    "url": "http://www.shsyzz.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 75,
+    "journal_key": "c9c2b03a042479e1",
+    "name": "上海师范大学学报（自然科学版）",
+    "url": "http://shnu.ijournals.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 82,
+    "journal_key": "6d1744a2c2a38374",
+    "name": "上海护理",
+    "url": "http://shhl.ijournal.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 96,
+    "journal_key": "cd31e80ebdd3bf53",
+    "name": "上海涂料",
+    "url": "http://shtl.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 99,
+    "journal_key": "4be4ac7f54ef8c74",
+    "name": "上海理工大学学报",
+    "url": "http://jns.usst.edu.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 100,
+    "journal_key": "77989859edb9462a",
+    "name": "上海理工大学学报（社会科学版）",
+    "url": "http://jss.usst.edu.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 210,
+    "journal_key": "72f7992320714a7e",
+    "name": "世界睡眠医学杂志",
+    "url": "http://www.sjsmyxzz.com",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 275,
+    "journal_key": "c3cd23730ecaa89d",
+    "name": "东南国防医药",
+    "url": "http://dngfyy.paperopen.com",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 277,
+    "journal_key": "2f13b0950759e0c2",
+    "name": "东南大学学报（哲学社会科学版）",
+    "url": "http://skxb.seu.edu.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 321,
+    "journal_key": "e169aba0a3620074",
+    "name": "中共成都市委党校学报",
+    "url": "http://cddx.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 324,
+    "journal_key": "94a92ca09f30e7a1",
+    "name": "中共济南市委党校学报",
+    "url": "http://jndx.gov.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 348,
+    "journal_key": "e6428230da2971a7",
+    "name": "中医眼耳鼻喉杂志",
+    "url": "http://zyyebhzz.paperopen.com",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 353,
+    "journal_key": "cc31432ea76d571f",
+    "name": "中医药信息",
+    "url": "http://zyyxx.hljucm.net/ch/index.aspx",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 355,
+    "journal_key": "8a8513ccd5251bd2",
+    "name": "中医药学报",
+    "url": "http://zyyxb.hljucm.net",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 356,
+    "journal_key": "a317a0b27f8af91e",
+    "name": "中医药导报",
+    "url": "http://www.zyydb.com",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 357,
+    "journal_key": "27cca1fd7dfd4e87",
+    "name": "中医药文化",
+    "url": "http://ygwz.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 358,
+    "journal_key": "fd2c5d0e6e21fa9b",
+    "name": "中医药文化（英文）",
+    "url": "https://www.editorialmanager.com/cmc",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 433,
+    "journal_key": "0cf4fdac8a7cf2ef",
+    "name": "中华女子学院学报",
+    "url": "http://znxy.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 465,
+    "journal_key": "f16c09bfb691acd3",
+    "name": "中华放射医学与防护杂志",
+    "url": "http://www.cjrmp.net",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 487,
+    "journal_key": "ecf1f1f0fc1c1b2d",
+    "name": "中华流行病学杂志",
+    "url": "http://chinaepi.icdc.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 580,
+    "journal_key": "9eb617598cfb7ac6",
+    "name": "中南医学科学杂志",
+    "url": "http://nhqks.cnjournals.com/yx",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 616,
+    "journal_key": "1b3949cd4acde7e9",
+    "name": "中国中药杂志",
+    "url": "http://www.cjcmm.com.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 618,
+    "journal_key": "9dac0750ac9bebdf",
+    "name": "中国中西医结合外科杂志",
+    "url": "http://tcmsj.ijournal.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 622,
+    "journal_key": "e4bc646cf79121f2",
+    "name": "中国中西医结合皮肤性病学杂志",
+    "url": "http://zxyd.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 624,
+    "journal_key": "c87d36422778037d",
+    "name": "中国中西医结合肾病杂志",
+    "url": "http://JXSB.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 632,
+    "journal_key": "aed34ef08ab4dd40",
+    "name": "中国临床新医学",
+    "url": "http://www.zglcxyxzz.com",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 671,
+    "journal_key": "f3e4acb5d5a5b938",
+    "name": "中国介入影像与治疗学",
+    "url": "http://www.cjiit.com",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 700,
+    "journal_key": "94128c9d10f83790",
+    "name": "中国保安",
+    "url": "http://www.zgba.org",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 712,
+    "journal_key": "5dd8741e45289333",
+    "name": "中国修船",
+    "url": "http://zgxc.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 737,
+    "journal_key": "956a23beff9c91cb",
+    "name": "中国兽药杂志",
+    "url": "http://zgsyzz.ivdc.org.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 746,
+    "journal_key": "b6e9c4269ec3bb32",
+    "name": "中国农业大学学报（社会科学版）",
+    "url": "http://zgnydxsk.cnjournals.net",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 748,
+    "journal_key": "d460a22dffaa2e3b",
+    "name": "中国农业文摘-农业工程",
+    "url": "http://zgnywz.cnjournals.net",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 753,
+    "journal_key": "72e1e50d662fbc78",
+    "name": "中国农业资源与区划",
+    "url": "http://cjarrp.ijournals.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 787,
+    "journal_key": "2e5c0c8cac402118",
+    "name": "中国初级卫生保健",
+    "url": "http://www.cphc.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 819,
+    "journal_key": "fe0c4cc5349a7506",
+    "name": "中国医学影像技术",
+    "url": "http://www.cjmit.com",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 839,
+    "journal_key": "57a1b79740fcf4e0",
+    "name": "中国医疗美容",
+    "url": "http://zgylmr.org.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 854,
+    "journal_key": "9315179ed7df988d",
+    "name": "中国医院管理",
+    "url": "http://www.zgyygl.com",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 867,
+    "journal_key": "0a8e3dbe7016749e",
+    "name": "中国卫生政策研究",
+    "url": "http://journal.healthpolicy.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 872,
+    "journal_key": "156e0a5131fdd0b7",
+    "name": "中国卫生经济",
+    "url": "http://www.cn-he.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 919,
+    "journal_key": "5261148fb0383dc3",
+    "name": "中国图书馆学报",
+    "url": "http://www.jlis.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 921,
+    "journal_key": "ead9e7ee5c315dd0",
+    "name": "中国图象图形学报",
+    "url": "http://www.cjig.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1002,
+    "journal_key": "526ef8f7974e1915",
+    "name": "中国小儿血液与肿瘤杂志",
+    "url": "http://zgxy.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1006,
+    "journal_key": "b101fac010368464",
+    "name": "中国工业医学杂志",
+    "url": "http://zggyyx.ijournals.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1027,
+    "journal_key": "c1d61a939f28a7c8",
+    "name": "中国康复",
+    "url": "http://www.zgkfzz.com",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1059,
+    "journal_key": "caccd8a5b86cebcf",
+    "name": "中国性科学",
+    "url": "http://www.zgxkxzzs.com",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1063,
+    "journal_key": "318e07b2969133fc",
+    "name": "中国感染控制杂志",
+    "url": "http://www.zggrkz.com",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1100,
+    "journal_key": "39dd2005992e24ec",
+    "name": "中国整形与重建外科（英文）",
+    "url": "http://cjprs.org.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1117,
+    "journal_key": "57c856e448f004ce",
+    "name": "中国斜视与小儿眼科杂志",
+    "url": "http://zgxs.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1147,
+    "journal_key": "fc21d96bc64a4bca",
+    "name": "中国材料进展",
+    "url": "http://www.mat-china.com",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1186,
+    "journal_key": "1227d9ee0e362761",
+    "name": "中国民族民间医药",
+    "url": "http://www.mzmjyy.com",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1257,
+    "journal_key": "dc18e2d163c7942f",
+    "name": "中国照明电器",
+    "url": "http://zgzm.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1263,
+    "journal_key": "c531f51e6b7aa782",
+    "name": "中国物业管理",
+    "url": "http://www.ecpmi.org.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1277,
+    "journal_key": "a319cd999cfc194d",
+    "name": "中国环境管理",
+    "url": "http://www.zghjgl.com",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1282,
+    "journal_key": "d0d82d5ce3a1c949",
+    "name": "中国现代医生",
+    "url": "http://www.zgxdys.com",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1329,
+    "journal_key": "636afdf7d3f23c2a",
+    "name": "中国畜牧兽医文摘",
+    "url": "http://www.zxwa.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1507,
+    "journal_key": "90fb2ff6c7892aec",
+    "name": "中国肿瘤生物治疗杂志",
+    "url": "http://www.biother.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1580,
+    "journal_key": "967fa2632d7dc8ab",
+    "name": "中国证券期货",
+    "url": "http://www.zqqh.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1681,
+    "journal_key": "fa1f51351e4e6377",
+    "name": "中国骨伤",
+    "url": "http://www.zggszz.com",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1683,
+    "journal_key": "9a7bb82b46dbf7da",
+    "name": "中国骨质疏松杂志",
+    "url": "http://www.chinacjo.com",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1876,
+    "journal_key": "e87304b8af6a99a5",
+    "name": "临床医药实践",
+    "url": "http://sxlc.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1926,
+    "journal_key": "9245873d16de2cea",
+    "name": "乐府新声",
+    "url": "http://www.sycm.edu.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1944,
+    "journal_key": "272eee67e3973078",
+    "name": "云南中医中药杂志",
+    "url": "http://yzyy.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1957,
+    "journal_key": "8b2c130f21e4afb5",
+    "name": "云南大学学报（法学版）",
+    "url": "http://ynfx.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1973,
+    "journal_key": "589acc2266c72634",
+    "name": "云南电力技术",
+    "url": "http://yndljs.cnjournals.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2020,
+    "journal_key": "4bf211261f900e6b",
+    "name": "交大法学",
+    "url": "http://lawreview.sjtu.edu.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2076,
+    "journal_key": "8b3fb741b2fb407a",
+    "name": "人才资源开发",
+    "url": "http://xzrg.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2095,
+    "journal_key": "9ccae64ff85a2173",
+    "name": "人民论坛·学术前沿",
+    "url": "http://rmxs.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2124,
+    "journal_key": "21e0dacd9a69a83b",
+    "name": "今日科苑",
+    "url": "http://modsci.cnais.org.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2135,
+    "journal_key": "488d232367f29cf4",
+    "name": "仪器仪表学报（英文版）",
+    "url": "http://www.etmchina.com",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2146,
+    "journal_key": "9c9d540c0cbff866",
+    "name": "价格理论与实践",
+    "url": "http://www.price-world.com.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2178,
+    "journal_key": "5b4fe0837d6b60ab",
+    "name": "会计研究",
+    "url": "http://kjyj.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2188,
+    "journal_key": "c680faf8615f187c",
+    "name": "传感器世界",
+    "url": "http://www.sensorworld.com.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2189,
+    "journal_key": "34dc0e2df64cb679",
+    "name": "传感技术学报",
+    "url": "http://chinatransducers.seu.edu.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2231,
+    "journal_key": "7934fe4fdd274b89",
+    "name": "体育科学研究",
+    "url": "https://xuebaobangong.jmu.edu.cn/tyb",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2290,
+    "journal_key": "3c189c58dcb9f4c9",
+    "name": "保鲜与加工",
+    "url": "http://www.bxyjg.com",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2325,
+    "journal_key": "cdccfe0de1f69e37",
+    "name": "信阳农林学院学报",
+    "url": "http://xyng.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2347,
+    "journal_key": "7b669781d203d249",
+    "name": "儿科药学杂志",
+    "url": "http://www.ekyxzz.com.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2368,
+    "journal_key": "49f584b5df6a1cbb",
+    "name": "光学仪器",
+    "url": "http://joi.usst.edu.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2376,
+    "journal_key": "01cc41d3056fd4ce",
+    "name": "光源与照明",
+    "url": "http://gyzm.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2427,
+    "journal_key": "bf91f345ed45a30a",
+    "name": "全球变化数据仓储（中英文）",
+    "url": "http://www.geodoi.ac.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2434,
+    "journal_key": "d647a113c5629e95",
+    "name": "全科医学临床与教育",
+    "url": "http://www.zhqkyx.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2462,
+    "journal_key": "d75c6418e77b1734",
+    "name": "公路交通技术",
+    "url": "http://gljt.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2471,
+    "journal_key": "fead91fc2a60528d",
+    "name": "兰州大学学报（社会科学版）",
+    "url": "http://www.ldsk.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2472,
+    "journal_key": "53d07a0c31f66aab",
+    "name": "兰州大学学报（自然科学版）",
+    "url": "http://ldzk.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2507,
+    "journal_key": "32941de87d6e2813",
+    "name": "内江科技",
+    "url": "http://kjnj.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2514,
+    "journal_key": "aaafc1a86263dd7c",
+    "name": "内科急危重症杂志",
+    "url": "http://nkjwzzzz.chmed.net",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2534,
+    "journal_key": "3a70fb0d4ccc9908",
+    "name": "内蒙古民族大学学报（社会科学版）",
+    "url": "http://nmsx.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2540,
+    "journal_key": "07e9609253d00754",
+    "name": "内蒙古石油化工",
+    "url": "http://nmsh.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2541,
+    "journal_key": "36d74fb9189ffe5b",
+    "name": "内蒙古社会科学",
+    "url": "http://nmgshkx.paperopen.com",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2565,
+    "journal_key": "36b34b965b9dc352",
+    "name": "军事高等教育研究",
+    "url": "http://gdjyyjxb.nudt.edu.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2569,
+    "journal_key": "e6521284304ba05b",
+    "name": "军队政工理论研究",
+    "url": "http://www.jdzg.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2580,
+    "journal_key": "2216e63cddc2b871",
+    "name": "农业工程技术·农产品加工业",
+    "url": "http://nygn.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2592,
+    "journal_key": "d486f953645ea450",
+    "name": "农业环境科学学报",
+    "url": "https://www.aes.org.cn/nyhjkxxb/ch/index.aspx",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2614,
+    "journal_key": "39897ff0e0e35e8f",
+    "name": "农业资源与环境学报",
+    "url": "https://www.aed.org.cn/nyzyyhjxb/ch/index.aspx",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2646,
+    "journal_key": "bb21c7e76eaae5ab",
+    "name": "农村金融研究",
+    "url": "http://ncjr.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2657,
+    "journal_key": "221736e17f43312b",
+    "name": "农银学刊",
+    "url": "http://lhwg.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2734,
+    "journal_key": "36f1ede8b1cff8e7",
+    "name": "创意世界",
+    "url": "http://www.iprchn.com/cysj",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2735,
+    "journal_key": "32ed243228fcb866",
+    "name": "创意设计源",
+    "url": "https://idea.sada.edu.cn/cysjy/home",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2747,
+    "journal_key": "a02e4c49b7284da6",
+    "name": "创造",
+    "url": "http://cuza.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2858,
+    "journal_key": "cf3bcd358c450600",
+    "name": "化学通报（印刷版）",
+    "url": "http://www.hxtb.org.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2883,
+    "journal_key": "5e23cab608a2d9fe",
+    "name": "化纤与纺织技术",
+    "url": "http://www.gdhq.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2967,
+    "journal_key": "b1b0d1e1d5b34bf5",
+    "name": "北华航天工业学院学报",
+    "url": "http://hhgy.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2979,
+    "journal_key": "2a9ca0fcf18f674e",
+    "name": "北方园艺",
+    "url": "http://bfyy.haasep.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3015,
+    "journal_key": "fbdb99f154df56e3",
+    "name": "医学与社会",
+    "url": "http://yxysh.hust.edu.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3020,
+    "journal_key": "b7574be55e56c62e",
+    "name": "医学动物防制",
+    "url": "http://www.yxdwfz.com",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3028,
+    "journal_key": "ac5ad5935c475268",
+    "name": "医学研究杂志",
+    "url": "http://www.yxyjzz.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3071,
+    "journal_key": "64c0b9e4d99a1f8e",
+    "name": "华东电力",
+    "url": "http://hddl.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3081,
+    "journal_key": "69fcb22e4618f491",
+    "name": "华中师范大学研究生论丛",
+    "url": "https://zsdx.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3088,
+    "journal_key": "caad31f515891d61",
+    "name": "华人时刊",
+    "url": "http://hrsk.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3089,
+    "journal_key": "c3d0caf85f12e769",
+    "name": "华侨华人历史研究",
+    "url": "http://hqly.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3110,
+    "journal_key": "5337102f3eed69b8",
+    "name": "华南农业大学学报（社会科学版）",
+    "url": "https://xuebao.scau.edu.cn/sk/ch/index.aspx",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3121,
+    "journal_key": "bfb45fc2426d9bd7",
+    "name": "华夏医学",
+    "url": "https://hxyx.glmc.edu.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3126,
+    "journal_key": "a567677e4e0d99ce",
+    "name": "华章",
+    "url": "http://www.hjts.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3165,
+    "journal_key": "fb3e283a4b537cac",
+    "name": "南京社会科学",
+    "url": "http://njsh.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3172,
+    "journal_key": "2c1be600e1e343c9",
+    "name": "南华大学学报（自然科学版）",
+    "url": "http://nhqks.cnjournals.com/zr/ch/index.aspx",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3185,
+    "journal_key": "1378f99e250e089a",
+    "name": "南开管理评论",
+    "url": "http://nbr.nankai.edu.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3206,
+    "journal_key": "032f397f0d77838f",
+    "name": "南方职业教育学刊",
+    "url": "http://www.nfzj.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3249,
+    "journal_key": "9f53855ac96e8237",
+    "name": "卫生经济研究",
+    "url": "http://www.wsjjyj.com",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3261,
+    "journal_key": "0f65cab6a6b3ce7b",
+    "name": "印染",
+    "url": "https://yira.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3277,
+    "journal_key": "8aee93044feb13ef",
+    "name": "原子与分子物理学报",
+    "url": "http://jamp.ijournals.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3359,
+    "journal_key": "73ac2b1acddc7a66",
+    "name": "右江民族医学院学报",
+    "url": "http://xb.ymun.edu.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3366,
+    "journal_key": "bd2589c5c46353ad",
+    "name": "合成树脂及塑料",
+    "url": "http://hcsz.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3376,
+    "journal_key": "6161fa602f0eb35e",
+    "name": "吉林体育学院学报",
+    "url": "http://jlty.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3410,
+    "journal_key": "2a686be18094033a",
+    "name": "听力学及言语疾病杂志",
+    "url": "http://tlxj.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3427,
+    "journal_key": "c4288c5127810852",
+    "name": "哈尔滨医科大学学报",
+    "url": "http://hydx.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3429,
+    "journal_key": "277b37562ac1aaca",
+    "name": "哈尔滨商业大学学报（社会科学版）",
+    "url": "http://www.hljc.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3432,
+    "journal_key": "588358831368b82d",
+    "name": "哈尔滨工业大学学报",
+    "url": "http://hit.alljournals.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3434,
+    "journal_key": "3e70db7ce9732836",
+    "name": "哈尔滨工业大学学报（英文版）",
+    "url": "http://hit.alljournals.cn/jhit_cn/ch/index.aspx",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3438,
+    "journal_key": "f92ed5dc6ac2e9be",
+    "name": "哈尔滨市委党校学报",
+    "url": "http://www.bswd.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3455,
+    "journal_key": "979a090ca84eb671",
+    "name": "唐山学院学报",
+    "url": "http://xuebao.tsc.edu.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3468,
+    "journal_key": "52156f0a45297d2a",
+    "name": "商业文化",
+    "url": "http://sywh.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3536,
+    "journal_key": "39395f3f65bf5e37",
+    "name": "四川档案",
+    "url": "http://scda.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3538,
+    "journal_key": "77741bc2d77e2c5e",
+    "name": "四川水利",
+    "url": "http://scsn.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3574,
+    "journal_key": "9cdcc229c0c4f403",
+    "name": "固体力学学报（英文版）",
+    "url": "http://www.editorialmanager.com/amss/default.aspx",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3666,
+    "journal_key": "cc9f4cbb779a8a10",
+    "name": "国际城市规划",
+    "url": "http://www.upi-planning.org.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3804,
+    "journal_key": "5636d3ff7212bc02",
+    "name": "地球学报",
+    "url": "http://www.cagsbulletin.com",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3893,
+    "journal_key": "2db1ad993d8145b4",
+    "name": "城镇供水",
+    "url": "http://www.czgszz.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3953,
+    "journal_key": "2801bffa66176712",
+    "name": "复旦教育论坛",
+    "url": "http://fdjylt.ijournals.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3962,
+    "journal_key": "c882ae1d13aeb066",
+    "name": "外国教育研究",
+    "url": "http://www.sfe.org.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4038,
+    "journal_key": "51752a69a625e72d",
+    "name": "大家",
+    "url": "http://daji.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4061,
+    "journal_key": "911e424333c39409",
+    "name": "大电机技术",
+    "url": "http://djdj.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4075,
+    "journal_key": "3cb577d1ad5742ba",
+    "name": "大连医科大学学报",
+    "url": "https://journal.dmu.edu.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4078,
+    "journal_key": "4c0ee94bafc4a023",
+    "name": "大连干部学刊",
+    "url": "https://dlgb.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4096,
+    "journal_key": "6a59d34db4be441a",
+    "name": "天府新论",
+    "url": "http://www.tianfuxinlun.com",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4113,
+    "journal_key": "4c6f43d6d18067e4",
+    "name": "天津医科大学学报",
+    "url": "http://tjykdxxb.paperopen.com",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4119,
+    "journal_key": "56587206a18ec241",
+    "name": "天津外国语大学学报",
+    "url": "http://tjwg.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4127,
+    "journal_key": "e704927b8703e4e5",
+    "name": "天津师范大学学报（基础教育版）",
+    "url": "http://tsjy.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4221,
+    "journal_key": "68ac73cb33b95037",
+    "name": "学术交流",
+    "url": "http://xsjl.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4223,
+    "journal_key": "eb777ad673cb2fa4",
+    "name": "学术探索",
+    "url": "http://yxst.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4229,
+    "journal_key": "765c32f663eca953",
+    "name": "学校党建与思想教育",
+    "url": "http://xxdj.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4247,
+    "journal_key": "f2971d791d509e19",
+    "name": "宁夏党校学报",
+    "url": "http://nxdb.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4313,
+    "journal_key": "4e2499a176dab411",
+    "name": "安徽建筑大学学报",
+    "url": "http://xuebao.ahjzu.edu.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4396,
+    "journal_key": "58c932ec3481d2a0",
+    "name": "实验室研究与探索",
+    "url": "http://sysy.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4407,
+    "journal_key": "a6b06d97662d3fec",
+    "name": "审计研究",
+    "url": "http://sjyz.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4457,
+    "journal_key": "126cd92f3966721b",
+    "name": "小学教学研究",
+    "url": "http://xxjy.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4529,
+    "journal_key": "82836de721c7003d",
+    "name": "山东农业大学学报（社会科学版）",
+    "url": "http://www.sdnd.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4565,
+    "journal_key": "3671c3394e523510",
+    "name": "山东水利",
+    "url": "http://sdsl.ijournals.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4625,
+    "journal_key": "2c8ec2f75c22a6e5",
+    "name": "山西林业",
+    "url": "http://sxly.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4627,
+    "journal_key": "03dd9e27cc1fb6c4",
+    "name": "山西果树（已更名为《果树资源学报》）",
+    "url": "http://sxgs.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4633,
+    "journal_key": "3222de5cf5b82c4a",
+    "name": "山西煤炭",
+    "url": "http://sxmt.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4648,
+    "journal_key": "32670fd074d31755",
+    "name": "山西高等学校社会科学学报",
+    "url": "http://sxgd.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4657,
+    "journal_key": "d5b9ed4836e18ec0",
+    "name": "岩石矿物学杂志",
+    "url": "http://www.yskw.ac.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4674,
+    "journal_key": "0b27df440c8c6497",
+    "name": "工业仪表与自动化装置",
+    "url": "http://yb-zdh.shaangu-group.com",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4681,
+    "journal_key": "8c52e666ab456be5",
+    "name": "工业安全与环保",
+    "url": "http://gyaf.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4692,
+    "journal_key": "9dc6502000685b80",
+    "name": "工业用水与废水",
+    "url": "http://hggs.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4731,
+    "journal_key": "eb2e56f838579ae0",
+    "name": "工程科学与技术",
+    "url": "http://jsuese.scu.edu.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4887,
+    "journal_key": "e7d3361ef389677a",
+    "name": "广西畜牧兽医",
+    "url": "http://gxsm.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4888,
+    "journal_key": "b03c1541d0ba978a",
+    "name": "广西社会主义学院学报",
+    "url": "http://gxsx.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4890,
+    "journal_key": "bea287f20343ff80",
+    "name": "广西科学",
+    "url": "http://gxkx.ijournals.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4900,
+    "journal_key": "499af0ba2d032d98",
+    "name": "广西财经学院学报",
+    "url": "http://gxsy.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4901,
+    "journal_key": "450693a151ed2234",
+    "name": "广西质量监督导报",
+    "url": "http://gxzl.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4902,
+    "journal_key": "42bb32a3c3a0a7a8",
+    "name": "广西通信技术",
+    "url": "http://gxtx.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4925,
+    "journal_key": "367f86a5fcd49c53",
+    "name": "应用数学年刊（英文版）",
+    "url": "http://aam.fzu.edu.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4926,
+    "journal_key": "825175c63ef7b359",
+    "name": "应用昆虫学报",
+    "url": "http://www.ent-bull.com.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4950,
+    "journal_key": "207ca7b3389a95bd",
+    "name": "延安职业技术学院学报",
+    "url": "http://yaxb.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4979,
+    "journal_key": "4e871f743dec6f96",
+    "name": "建筑师",
+    "url": "http://thearchitect.cabp.com.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4994,
+    "journal_key": "d3e4f07fdae6e883",
+    "name": "建筑科学",
+    "url": "http://jzkx.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5004,
+    "journal_key": "407bbf998779b585",
+    "name": "建筑设计管理",
+    "url": "http://jzgl.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5011,
+    "journal_key": "9767755d1a2bae52",
+    "name": "开发研究",
+    "url": "http://kfyj.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5018,
+    "journal_key": "f5a0fd28c6f831c8",
+    "name": "开放导报",
+    "url": "http://www.kfdb.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5130,
+    "journal_key": "783d4e5ea99c45c7",
+    "name": "微循环学杂志",
+    "url": "http://wxhx.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5175,
+    "journal_key": "e7f68c87b158e4bc",
+    "name": "心血管病学进展",
+    "url": "http://xxgbxzz.paperopen.com",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5212,
+    "journal_key": "c097072813f99134",
+    "name": "情报工程",
+    "url": "http://tie.istic.ac.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5223,
+    "journal_key": "814c4a05c861621b",
+    "name": "感染医学（英文）",
+    "url": "http://www.editorialmanager.com/imj/default2.aspx",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5278,
+    "journal_key": "e6617e666872491a",
+    "name": "投资与合作",
+    "url": "http://tzyh.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5315,
+    "journal_key": "14273ee1adf880a6",
+    "name": "探求",
+    "url": "http://taqu.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5317,
+    "journal_key": "e44531a8b77a5b01",
+    "name": "探索",
+    "url": "http://www.tszzs.net",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5324,
+    "journal_key": "520abd55a8b4035a",
+    "name": "控制理论与应用",
+    "url": "http://jcta.alljournals.ac.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5341,
+    "journal_key": "ba73907a271a23cb",
+    "name": "收获",
+    "url": "http://www.shouhuo-harvest.com",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5349,
+    "journal_key": "7b4d5f038bf0c455",
+    "name": "放射学实践",
+    "url": "http://www.fsxsj.net",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5400,
+    "journal_key": "9966d2024d8900c2",
+    "name": "教育学报",
+    "url": "http://xkjy.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5435,
+    "journal_key": "0a165801390c7aba",
+    "name": "数字与缩微影像",
+    "url": "http://svji.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5513,
+    "journal_key": "0c286bec1ed1f16e",
+    "name": "数理统计与管理",
+    "url": "http://sltj.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5521,
+    "journal_key": "366aebd154838152",
+    "name": "数量经济技术经济研究",
+    "url": "http://www.jqte.net",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5568,
+    "journal_key": "e92231adf9e4ba06",
+    "name": "文山学院学报",
+    "url": "http://wssz.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5675,
+    "journal_key": "9f554d77818b6446",
+    "name": "新疆农垦经济",
+    "url": "http://www.xjnkjj.com",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5676,
+    "journal_key": "70aec81a5dea6c47",
+    "name": "新疆农机化",
+    "url": "http://xjnj.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5810,
+    "journal_key": "64f07b507865963a",
+    "name": "旅游纵览",
+    "url": "http://lyzl.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5908,
+    "journal_key": "0bee72b294fae703",
+    "name": "智慧农业导刊",
+    "url": "http://www.zhnydk.com",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5929,
+    "journal_key": "78fb999d36d0f8ab",
+    "name": "智能系统学报",
+    "url": "http://tis.hrbeu.edu.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5954,
+    "journal_key": "6e2af7a557a2aa53",
+    "name": "有色金属材料与工程",
+    "url": "http://snm.usst.edu.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5961,
+    "journal_key": "4fb71bd5b0fdc82a",
+    "name": "服装学报",
+    "url": "http://fzxb.paperonce.org",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6040,
+    "journal_key": "2e869766686ac06a",
+    "name": "林业与环境科学",
+    "url": "http://sci.sinogaf.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6055,
+    "journal_key": "69d3d2f1b6d9e38d",
+    "name": "林业科技通讯",
+    "url": "http://www.lykt.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6056,
+    "journal_key": "94c4e302d21875ae",
+    "name": "林业经济",
+    "url": "http://lyjj.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6080,
+    "journal_key": "00978e1ee3be6ec6",
+    "name": "校园心理",
+    "url": "http://yxxl.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6198,
+    "journal_key": "d6ab4495f483137c",
+    "name": "武汉工程大学学报",
+    "url": "http://www.jwit.org.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6281,
+    "journal_key": "4c13ff2d510ff14c",
+    "name": "气象与减灾研究",
+    "url": "http://journal.weather.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6317,
+    "journal_key": "5fe126950f68a229",
+    "name": "水利水电科技进展",
+    "url": "http://jour.hhu.edu.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6324,
+    "journal_key": "87d978741a9e5772",
+    "name": "水利经济",
+    "url": "http://jour.hhu.edu.cn/sljj",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6325,
+    "journal_key": "13986b4ccc70ddbc",
+    "name": "水利规划与设计",
+    "url": "http://slgh.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6349,
+    "journal_key": "0cf7f53e62dde0bd",
+    "name": "水电站设计",
+    "url": "http://SDSJ.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6352,
+    "journal_key": "a3d591f61844c3d3",
+    "name": "水科学与工程技术",
+    "url": "http://hbsd.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6356,
+    "journal_key": "8e11170c500c7013",
+    "name": "水资源与水工程学报",
+    "url": "http://szyysgcxb.alljournals.ac.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6374,
+    "journal_key": "658e1d06cf6452a1",
+    "name": "汉字文化",
+    "url": "http://hzwz.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6384,
+    "journal_key": "4af5bb099d2c0eb0",
+    "name": "汉语学报",
+    "url": "http://www.hyxa.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6388,
+    "journal_key": "df27f3e8d6cb2071",
+    "name": "汉语言文学研究",
+    "url": "http://hywx.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6390,
+    "journal_key": "e2793129ff222857",
+    "name": "汕头大学学报（人文社会科学版）",
+    "url": "http://rwst.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6393,
+    "journal_key": "6883c4aabead225f",
+    "name": "江南大学学报（人文社会科学版）",
+    "url": "http://jndxxbrwb.paperonce.org",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6400,
+    "journal_key": "427dfa7693948a25",
+    "name": "江海学刊",
+    "url": "http://www.jhxk.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6408,
+    "journal_key": "b79dfd7c29f4ddc0",
+    "name": "江苏农业学报",
+    "url": "http://jsnyxb.jaas.ac.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6427,
+    "journal_key": "3af0e5641a97576c",
+    "name": "江苏建材",
+    "url": "http://JSJW.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6433,
+    "journal_key": "1de78b1d689d5ac5",
+    "name": "江苏水利",
+    "url": "http://jssl.paperopen.com",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6449,
+    "journal_key": "a4ee20bb6fb91328",
+    "name": "江苏蚕业",
+    "url": "http://kscy.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6455,
+    "journal_key": "210907d47428a418",
+    "name": "江苏预防医学",
+    "url": "http://jsyf.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6467,
+    "journal_key": "2d9a386cf85ae52c",
+    "name": "江西师范大学学报（自然科学版）",
+    "url": "http://lkxb.jxnu.edu.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6479,
+    "journal_key": "3d609e9c815fd017",
+    "name": "江西畜牧兽医杂志",
+    "url": "http://jxxs.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6530,
+    "journal_key": "2693c382d3688cd2",
+    "name": "沈阳农业大学学报（社会科学版）",
+    "url": "http://syld.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6540,
+    "journal_key": "50ff202503d27511",
+    "name": "沈阳师范大学学报（社会科学版）",
+    "url": "http://syss.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6541,
+    "journal_key": "3a5aa1197ab6b7c9",
+    "name": "沈阳师范大学学报（自然科学版）",
+    "url": "http://zrb.synu.edu.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6561,
+    "journal_key": "003ba34d3cf92deb",
+    "name": "河北体育学院学报",
+    "url": "http://xb.hepec.edu.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6569,
+    "journal_key": "a7fbf2499d3156a4",
+    "name": "河北冶金",
+    "url": "http://www.hbyjqk.com",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6570,
+    "journal_key": "40854a614dca6737",
+    "name": "河北北方学院学报（社会科学版）",
+    "url": "http://hbbfxyxb.ijournals.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6590,
+    "journal_key": "fa954fbeecf63610",
+    "name": "河北开放大学学报",
+    "url": "http://hbgd.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6591,
+    "journal_key": "a00ea97c8eba2585",
+    "name": "河北教育（教学版）",
+    "url": "http://www.hbsjyxczx.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6595,
+    "journal_key": "40c3e45e9d62b95e",
+    "name": "河北果树",
+    "url": "http://hbgs.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6616,
+    "journal_key": "2f0b8511a32fe506",
+    "name": "河北经贸大学学报（综合版）",
+    "url": "http://hbyt.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6634,
+    "journal_key": "06f76038acd1a0ca",
+    "name": "河南城建学院学报",
+    "url": "http://cjgz.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6638,
+    "journal_key": "f1dbc3b71c3302f2",
+    "name": "河南大学学报（自然科学版）",
+    "url": "https://hdzr.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6641,
+    "journal_key": "72eb147b64df3719",
+    "name": "河南工学院学报",
+    "url": "http://hnjd.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6673,
+    "journal_key": "1cd9c468ad3b4712",
+    "name": "河海大学学报（哲学社会科学版）",
+    "url": "https://jour.hhu.edu.cn/hhdxxbsk/home",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6674,
+    "journal_key": "344ec3659672d3c6",
+    "name": "河海大学学报（自然科学版）",
+    "url": "https://jour.hhu.edu.cn/hhdxxbzr/home",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6771,
+    "journal_key": "e89f3e0a2652a5b0",
+    "name": "浙江中医药大学学报",
+    "url": "https://xuebao.zcmu.edu.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6773,
+    "journal_key": "70343cffc97b5bf9",
+    "name": "浙江临床医学",
+    "url": "http://www.zjlcyx.com",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6782,
+    "journal_key": "dd0a1eb6f6491bc2",
+    "name": "浙江创伤外科",
+    "url": "http://www.zjcswk.net",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6784,
+    "journal_key": "2aa8f9017bdd9379",
+    "name": "浙江医学",
+    "url": "http://www.zjyxzzs.com",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6823,
+    "journal_key": "84d733bbb9f6acef",
+    "name": "浙江艺术职业学院学报",
+    "url": "http://zjys.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6841,
+    "journal_key": "fe508fa894016f08",
+    "name": "海南师范大学学报（自然科学版）",
+    "url": "http://hsxblk.hainnu.edu.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6870,
+    "journal_key": "158ac7057f047724",
+    "name": "海洋开发与管理",
+    "url": "http://www.haiyangkaifayuguanli.com",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6936,
+    "journal_key": "cf51edbf91bded2e",
+    "name": "清华大学教育研究",
+    "url": "http://tje.ioe.tsinghua.edu.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6951,
+    "journal_key": "05af81e8a9ac25a3",
+    "name": "渔业致富指南",
+    "url": "http://yyzf.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6952,
+    "journal_key": "05d9d393e2f37e13",
+    "name": "渤海大学学报（哲学社会科学版）",
+    "url": "https://zaie.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6970,
+    "journal_key": "ccd97e5f82c36f70",
+    "name": "湖北中医药大学学报",
+    "url": "http://hbzyy.cnjournals.com",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6992,
+    "journal_key": "15afcdb3146b050b",
+    "name": "湖北民族大学学报（医学版）",
+    "url": "http://hbmdyx.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6994,
+    "journal_key": "a66bb88a95a01845",
+    "name": "湖北民族大学学报（自然科学版）",
+    "url": "http://hbxz.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7029,
+    "journal_key": "6266b62f12b19c37",
+    "name": "湖南工业大学学报",
+    "url": "http://qkxb.hut.edu.cn/zk",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7030,
+    "journal_key": "99110c4c0829dfdb",
+    "name": "湖南工业大学学报（社会科学版）",
+    "url": "http://qkxb.hut.edu.cn/sk",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7059,
+    "journal_key": "c2121f2a93a92b66",
+    "name": "湖南警察学院学报",
+    "url": "http://hnga.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7068,
+    "journal_key": "9ba0d8b7e9314afa",
+    "name": "湖湘论坛",
+    "url": "http://hxlt.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7106,
+    "journal_key": "0644b07d532b4802",
+    "name": "激光杂志",
+    "url": "http://www.laserjournal.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7147,
+    "journal_key": "e0bebab0a3716038",
+    "name": "热带农业科学",
+    "url": "http://rdnk.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7157,
+    "journal_key": "4d443e58527d5d58",
+    "name": "热科学与技术",
+    "url": "http://rkxyjs.ijournals.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7196,
+    "journal_key": "b02d196c4d97383d",
+    "name": "燃气资讯",
+    "url": "http://www.gas800.com",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7215,
+    "journal_key": "728721f1bd86d8d3",
+    "name": "牡丹江教育学院学报",
+    "url": "http://mdjj.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7235,
+    "journal_key": "61ab100cd246f163",
+    "name": "物理通报",
+    "url": "http://wltb.ijournal.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7255,
+    "journal_key": "d3754d9497e0e8a2",
+    "name": "特钢技术",
+    "url": "http://www.tgjs.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7292,
+    "journal_key": "26b156457340c047",
+    "name": "环境监测管理与技术",
+    "url": "http://hjjcgl.cnjournals.net",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7308,
+    "journal_key": "759bd4b46a32133b",
+    "name": "环球人文地理",
+    "url": "http://hqdl.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7321,
+    "journal_key": "885b1b2764d11bf3",
+    "name": "现代世界警察",
+    "url": "http://phcppsu.com.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7330,
+    "journal_key": "9f85bc1051d07ab1",
+    "name": "现代中西医结合杂志",
+    "url": "http://www.87738668.com",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7331,
+    "journal_key": "7911e42fed55aeec",
+    "name": "现代临床医学",
+    "url": "http://www.tougao120.com",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7335,
+    "journal_key": "4d82d009322b7ebe",
+    "name": "现代交通技术",
+    "url": "http://www.xdjtjs.com",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7355,
+    "journal_key": "26ebc3f0028d809a",
+    "name": "现代农业科技",
+    "url": "http://www.xdnykj.com",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7357,
+    "journal_key": "57a9b0af102fde1d",
+    "name": "现代农村科技",
+    "url": "http://www.xdnckj.com",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7362,
+    "journal_key": "172823ac02187c52",
+    "name": "现代制造技术与装备",
+    "url": "http://sdji.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7378,
+    "journal_key": "cdefc462bd1cf580",
+    "name": "现代商贸工业",
+    "url": "http://www.xdsm.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7384,
+    "journal_key": "51c6d48e77ac9691",
+    "name": "现代基础教育研究",
+    "url": "http://shnu.ijournals.cn/jyb/ch/index.aspx",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7399,
+    "journal_key": "fc2ff54a78b60c88",
+    "name": "现代工业经济和信息化",
+    "url": "http://xdgy.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7406,
+    "journal_key": "570684491c86df96",
+    "name": "现代技术陶瓷",
+    "url": "http://www.xdjstc.com",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7415,
+    "journal_key": "cf8561a2bec7b8e7",
+    "name": "现代日本经济",
+    "url": "http://xdrj.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7452,
+    "journal_key": "a8e877f0298f5585",
+    "name": "现代经济探讨",
+    "url": "http://jjtl.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7470,
+    "journal_key": "659a812005466878",
+    "name": "现代远程教育研究",
+    "url": "http://xdyjyj.scou.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7533,
+    "journal_key": "d215644bc998e351",
+    "name": "甘肃冶金",
+    "url": "http://gsye.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7549,
+    "journal_key": "55a24d6ac63e9dcf",
+    "name": "甘肃高师学报",
+    "url": "http://xuebao.lzcu.edu.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7585,
+    "journal_key": "330dc8ae8411daa0",
+    "name": "生物化学与生物物理进展",
+    "url": "http://www.pibb.ac.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7590,
+    "journal_key": "523ee66365771173",
+    "name": "生物医学工程学进展",
+    "url": "http://www.bmeprogress.com",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7602,
+    "journal_key": "b0615870ada23b5c",
+    "name": "生物工程学报",
+    "url": "http://journals.im.ac.cn/cjbcn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7619,
+    "journal_key": "029d4573fa91ed49",
+    "name": "生物骨科材料与临床研究",
+    "url": "http://www.swgkcl.com",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7674,
+    "journal_key": "7ec91f711f376924",
+    "name": "电子世界",
+    "url": "http://elew.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7688,
+    "journal_key": "9b49858bfc62826f",
+    "name": "电子器件",
+    "url": "http://chinaelectrondevices.seu.edu.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7734,
+    "journal_key": "95ba256b11e94608",
+    "name": "电气电子教学学报",
+    "url": "http://jeee.seu.edu.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7739,
+    "journal_key": "5268c320bd1f662e",
+    "name": "电池工业",
+    "url": "http://www.chinabattery.org",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7751,
+    "journal_key": "cd9dc16aa9eff77c",
+    "name": "电网与清洁能源",
+    "url": "http://apshe.ijournals.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7776,
+    "journal_key": "80b225e7cb60f04a",
+    "name": "电讯技术",
+    "url": "http://www.teleonline.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7798,
+    "journal_key": "a1d47a9d867f9cab",
+    "name": "疯狂英语（理论版）",
+    "url": "http://fdjs.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7831,
+    "journal_key": "b804b04b38dd16e2",
+    "name": "盐城工学院学报（社会科学版）",
+    "url": "http://ygsk.ycit.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7832,
+    "journal_key": "4fc0647829f3dd02",
+    "name": "盐城工学院学报（自然科学版）",
+    "url": "http://ygzk.ycit.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7846,
+    "journal_key": "15719554014f5cdd",
+    "name": "真空电子技术",
+    "url": "http://zkdj.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7909,
+    "journal_key": "75fc2f3e9b249630",
+    "name": "石油沥青",
+    "url": "http://Oile.Chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7917,
+    "journal_key": "32d64e190ea044f9",
+    "name": "石油研究（英文）",
+    "url": "http://www.editorialmanager.com/ptlrs",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7944,
+    "journal_key": "bbb232f7d7002548",
+    "name": "矿床地质",
+    "url": "http://www.kcdz.ac.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7991,
+    "journal_key": "7b04c8ce7e8a6ce5",
+    "name": "社会科学研究",
+    "url": "http://shkxyj.ijournals.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8034,
+    "journal_key": "73cd8f144e946c9f",
+    "name": "福建分析测试",
+    "url": "http://fjfc.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8045,
+    "journal_key": "df27374684fa2eef",
+    "name": "福建师范大学学报（自然科学版）",
+    "url": "http://fjsz.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8056,
+    "journal_key": "7713213ba19d76d9",
+    "name": "福建林业科技",
+    "url": "http://fjlk.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8076,
+    "journal_key": "3f1319b7b0f810f9",
+    "name": "福建轻纺",
+    "url": "http://www.fjqgs.com",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8077,
+    "journal_key": "32d5aba9bae348ab",
+    "name": "福建金融",
+    "url": "http://fjjr.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8115,
+    "journal_key": "0da5df72000d4e9f",
+    "name": "科学技术与工程",
+    "url": "http://www.stae.com.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8139,
+    "journal_key": "ed24664e08ef2e17",
+    "name": "科技与经济",
+    "url": "http://www.kjyjj.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8190,
+    "journal_key": "2457ca171e4344e2",
+    "name": "秘书之友",
+    "url": "http://misy.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8202,
+    "journal_key": "9cc7c64b2c3492f6",
+    "name": "税务与经济",
+    "url": "http://swyj.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8213,
+    "journal_key": "a7e44a58c56e8bbf",
+    "name": "空军工程大学学报",
+    "url": "http://kjgcdx.ijournal.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8271,
+    "journal_key": "4eb1da941acc93c1",
+    "name": "粮油与饲料科技",
+    "url": "http://jxsl.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8348,
+    "journal_key": "f3c9ecfa538d94bb",
+    "name": "纸和造纸",
+    "url": "http://zzxx.cnjournals.com",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8371,
+    "journal_key": "b1150029f44f5b11",
+    "name": "经济与管理",
+    "url": "http://jjgl.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8392,
+    "journal_key": "73db7e161cef0d45",
+    "name": "经济法论坛",
+    "url": "https://jjfl.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8420,
+    "journal_key": "e28d8ac1b6f378f6",
+    "name": "统一战线学研究",
+    "url": "http://www.cqsh.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8440,
+    "journal_key": "990ff14fa6350550",
+    "name": "综合运输",
+    "url": "http://yszh.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8498,
+    "journal_key": "32b77c38ea06c294",
+    "name": "美术教育研究",
+    "url": "http://www.msjyyj.com",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8557,
+    "journal_key": "7ca46701ee237b9e",
+    "name": "聚酯工业",
+    "url": "http://jzgy.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8608,
+    "journal_key": "a558d4ac70e7b24a",
+    "name": "能源研究与信息",
+    "url": "http://eri.usst.edu.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8612,
+    "journal_key": "cbff869f1fe39f9c",
+    "name": "脊柱外科杂志",
+    "url": "http://www.spinejournal.net",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8624,
+    "journal_key": "2e5dd2463af9e67a",
+    "name": "自动化与仪器仪表",
+    "url": "http://www.zdhyyqyb.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8638,
+    "journal_key": "2cefcb64539c7390",
+    "name": "自然科学博物馆研究",
+    "url": "http://zrkxbwg.cnjournals.com",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8656,
+    "journal_key": "9da154d4b91d777a",
+    "name": "航天器工程",
+    "url": "http://htgc.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8776,
+    "journal_key": "bbdf9376a647161a",
+    "name": "荆楚学刊",
+    "url": "http://szsz.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8797,
+    "journal_key": "f0e401992791b6a8",
+    "name": "药学研究",
+    "url": "http://www.yaoxueyanjiu.org.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8811,
+    "journal_key": "6313aa47014f75e6",
+    "name": "萍乡学院学报",
+    "url": "http://pxjy.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8872,
+    "journal_key": "da5563ffa7f9bf00",
+    "name": "西北农业学报",
+    "url": "http://xbnyxb.alljournals.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8874,
+    "journal_key": "8c8de922e99e8e57",
+    "name": "西北农林科技大学学报（自然科学版）",
+    "url": "http://www.xnxbz.net",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8889,
+    "journal_key": "d26088e6f78b2a81",
+    "name": "西北民族大学学报（自然科学版）",
+    "url": "http://xmxb.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8920,
+    "journal_key": "6530b2ae72285e16",
+    "name": "西南金融",
+    "url": "http://scjr.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8966,
+    "journal_key": "23217b7a1ea453dd",
+    "name": "西部中医药",
+    "url": "http://gszy.paperopen.com",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8969,
+    "journal_key": "9c7e96b85cc4c4ba",
+    "name": "西部人居环境学刊",
+    "url": "http://www.hsfwest.com",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8970,
+    "journal_key": "057813db16cc21b2",
+    "name": "西部医学",
+    "url": "http://www.xbyxqk.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9020,
+    "journal_key": "5aac4b11c15c405e",
+    "name": "计算力学学报",
+    "url": "http://cjcm.ijournals.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9022,
+    "journal_key": "cca291a268c4cc17",
+    "name": "计算技术与自动化",
+    "url": "http://jsjsyzdh.cnjournals.net",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9090,
+    "journal_key": "eff77f26c8a6aa4d",
+    "name": "语文建设",
+    "url": "http://www.ywjs.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9111,
+    "journal_key": "3f89b0c824dbfeda",
+    "name": "语言教学与研究",
+    "url": "http://yyjx.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9174,
+    "journal_key": "22b2ceee52081f99",
+    "name": "财经理论研究",
+    "url": "http://ncxb.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9263,
+    "journal_key": "e88d57a6736db20f",
+    "name": "轨道交通装备与技术",
+    "url": "http://tdgr.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9286,
+    "journal_key": "5edf218759c065c3",
+    "name": "轻工机械",
+    "url": "http://www.qgjxzz.com",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9428,
+    "journal_key": "7a91ccec92c6311c",
+    "name": "邵阳学院学报（社会科学版）",
+    "url": "http://sysg.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9433,
+    "journal_key": "92198d33470c3c6c",
+    "name": "郑州大学学报（工学版）",
+    "url": "http://gxb.zzu.edu.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9472,
+    "journal_key": "6df402f7eb36627d",
+    "name": "重庆医科大学学报",
+    "url": "http://cyxb.cnjournals.com",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9494,
+    "journal_key": "e0d5d4829c127e94",
+    "name": "重庆邮电大学学报（社会科学版）",
+    "url": "http://journal2.cqupt.edu.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9521,
+    "journal_key": "b36f391c99ba4969",
+    "name": "金融发展研究",
+    "url": "http://www.sdjr.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9528,
+    "journal_key": "5ebdebceae1cf3de",
+    "name": "金融理论探索",
+    "url": "http://jrjy.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9542,
+    "journal_key": "7a62929e9dfffbb7",
+    "name": "针灸临床杂志",
+    "url": "http://zjlczz.hljucm.net",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9594,
+    "journal_key": "849ff77b8c788239",
+    "name": "铁道标准设计",
+    "url": "http://tdbs.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9598,
+    "journal_key": "63f28f62f33082c7",
+    "name": "铁道运营技术",
+    "url": "http://tdyy.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9599,
+    "journal_key": "28d899272a410834",
+    "name": "铁道运输与经济",
+    "url": "http://tdys.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9601,
+    "journal_key": "2f0ce523ce58cb86",
+    "name": "铜业工程",
+    "url": "http://www.tygc.net",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9643,
+    "journal_key": "30b792b02c003abc",
+    "name": "长江大学学报（社会科学版）",
+    "url": "http://cjdxxbskb.paperonce.org",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9728,
+    "journal_key": "bc7ae7105d9c14a7",
+    "name": "陕西行政学院学报",
+    "url": "http://sxsx.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9743,
+    "journal_key": "817e0fdddbace580",
+    "name": "集美大学学报（自然科学版）",
+    "url": "http://xuebaobangong.jmu.edu.cn/zkb",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9858,
+    "journal_key": "877fbd40ad8f4630",
+    "name": "预防医学论坛",
+    "url": "http://yxwx.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9965,
+    "journal_key": "16e0a0eb27fb618d",
+    "name": "高教学刊",
+    "url": "http://www.gjxkzzs.com",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9966,
+    "journal_key": "955e34ec8eb4f6ea",
+    "name": "高教探索",
+    "url": "http://gjta.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 10002,
+    "journal_key": "bbeafe0f5cb4d566",
+    "name": "高等数学研究",
+    "url": "http://xusj.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 10020,
+    "journal_key": "a374834a687fb8dc",
+    "name": "鸭绿江",
+    "url": "http://yalv.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 10023,
+    "journal_key": "08f8479e319af198",
+    "name": "麦类作物学报",
+    "url": "http://mlzwxb.alljournals.ac.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 10044,
+    "journal_key": "6f5592fb6c9c544b",
+    "name": "黑河学刊",
+    "url": "http://hhxk.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 10053,
+    "journal_key": "83ae1d19d34179a3",
+    "name": "黑龙江农业科学",
+    "url": "http://hljnykx.paperonce.org",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 10088,
+    "journal_key": "dfd9dc7552662327",
+    "name": "黑龙江金融",
+    "url": "http://hljr.chinajournal.net.cn",
+    "supplier": "勤云",
+    "template_group": "qinyun",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "source_row": 1204,
+    "journal_key": "e030932e88a73fc8",
+    "name": "中国油料作物学报（英文）",
+    "url": "https://www.keaipublishing.com/en/journals/oil-crop-science",
+    "supplier": "KeAi",
+    "template_group": "KeAi",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2033,
+    "journal_key": "423b8321d3ff24ce",
+    "name": "交通科学与技术（英文）",
+    "url": "https://www.keaipublishing.com/en/journals/international-journal-of-transportation-science-and-technology",
+    "supplier": "KeAi",
+    "template_group": "KeAi",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3653,
+    "journal_key": "daa268cf56f3a49e",
+    "name": "国际创新研究学报（英文）",
+    "url": "http://keaipublishing.com/en/journals/international-journal-of-innovation-studies",
+    "supplier": "KeAi",
+    "template_group": "KeAi",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3684,
+    "journal_key": "faa34964e3472633",
+    "name": "国际护理科学（英文）",
+    "url": "http://www.sciencedirect.com/journal/international-journal-of-nursing-sciences",
+    "supplier": "KeAi",
+    "template_group": "KeAi",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3693,
+    "journal_key": "e6f3578670f4cf99",
+    "name": "国际水土保持研究（英文）",
+    "url": "http://www.sciencedirect.com/journal/international-soil-and-water-conservation-research",
+    "supplier": "KeAi",
+    "template_group": "KeAi",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3847,
+    "journal_key": "7af879bd051cd795",
+    "name": "地震研究进展（英文）",
+    "url": "https://www.keaipublishing.com/en/journals/earthquake-research-advances",
+    "supplier": "KeAi",
+    "template_group": "KeAi",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5500,
+    "journal_key": "7c65d5aae9da259f",
+    "name": "数据科学与管理（英文）",
+    "url": "https://www.keaipublishing.com/en/journals/data-science-and-management",
+    "supplier": "KeAi",
+    "template_group": "KeAi",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5931,
+    "journal_key": "db7e9e250e2cf5a8",
+    "name": "智能肿瘤学（英文）",
+    "url": "https://www.keaipublishing.com/en/journals/intelligent-oncology",
+    "supplier": "KeAi",
+    "template_group": "KeAi",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6277,
+    "journal_key": "15392a934903a5c7",
+    "name": "气候变化研究进展（英文版）",
+    "url": "http://www.keaipublishing.com/en/journals/advances-in-climate-change-research",
+    "supplier": "KeAi",
+    "template_group": "KeAi",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7600,
+    "journal_key": "2781e39ef74e3d5a",
+    "name": "生物安全和生物安保（英文）",
+    "url": "https://www.sciencedirect.com/journal/journal-of-biosafety-and-biosecurity",
+    "supplier": "KeAi",
+    "template_group": "KeAi",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8277,
+    "journal_key": "4a951c6bcd792a34",
+    "name": "粮油科技（英文）",
+    "url": "https://www.keaipublishing.com/en/journals/grain-and-oil-science-and-technology",
+    "supplier": "KeAi",
+    "template_group": "KeAi",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8640,
+    "journal_key": "0fddaf8bb175d444",
+    "name": "自然科学基础研究（英文）",
+    "url": "https://www.sciencedirect.com/journal/fundamental-research",
+    "supplier": "KeAi",
+    "template_group": "KeAi",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 10012,
+    "journal_key": "22e638a3265ffda8",
+    "name": "高速铁路（英文）",
+    "url": "https://www.keaipublishing.com/en/journals/high-speed-railway",
+    "supplier": "KeAi",
+    "template_group": "KeAi",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  }
+]

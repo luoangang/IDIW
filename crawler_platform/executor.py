@@ -4,7 +4,9 @@ import os
 import socket
 import subprocess
 import sys
+import threading
 import time
+import traceback
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
@@ -12,6 +14,7 @@ from typing import Any
 from crawler_platform.config import Settings
 from crawler_platform.importer import PackageImporter
 from crawler_platform.protocol import ProtocolError, load_manifest, strict_json_loads, validate_item
+from crawler_platform.proxy_pool import proxy_environment
 from crawler_platform.storage import PlatformStore, json_dump
 
 
@@ -45,6 +48,16 @@ class PackageExecutor:
             env_name = f"CRAWLER_SECRET_{name}"
             if env_name in os.environ:
                 child_env[env_name] = os.environ[env_name]
+        try:
+            proxy = self.store.assign_proxy(claimed["id"])
+            if proxy is not None:
+                child_env.update(proxy_environment(proxy["proxy_url"]))
+        except Exception as exc:
+            self.store.fail_package_run(
+                claimed["id"], claimed["lease_token"], "failed", "PROXY_CONFIG_ERROR",
+                f"proxy assignment failed: {type(exc).__name__}", None, work_dir, log_path,
+            )
+            return None
         started = time.monotonic()
         try:
             with log_path.open("w", encoding="utf-8") as log:
@@ -61,7 +74,7 @@ class PackageExecutor:
             self.store.fail_package_run(
                 claimed["id"], claimed["lease_token"], "timed_out", "TIMEOUT",
                 f"package exceeded {self.settings.package_timeout_seconds} seconds",
-                None, work_dir, log_path,
+                None, work_dir, log_path, retryable=True,
             )
             return None
         except Exception as exc:
@@ -82,6 +95,7 @@ class PackageExecutor:
                     str(error.get("code", "PACKAGE_FAILED")),
                     str(error.get("message", "package reported failure")),
                     completed.returncode, work_dir, log_path,
+                    retryable=error.get("retryable") is True,
                 )
                 return None
             if completed.returncode != 0:
@@ -190,17 +204,42 @@ class Worker:
         self.store = store
         self.executor = PackageExecutor(settings, store)
         self.worker_id = f"{socket.gethostname()}-{os.getpid()}"
+        self._last_recovery = 0.0
+
+    def _heartbeat(self, claimed: dict[str, Any], stop: threading.Event) -> None:
+        while not stop.wait(30):
+            try:
+                if not self.store.renew_package_run_lease(claimed["id"], claimed["lease_token"]):
+                    return
+            except Exception:
+                # The next tick may recover a transient database interruption.
+                continue
 
     def run_once(self) -> bool:
+        if time.monotonic() - self._last_recovery >= 30:
+            self.store.recover_expired_package_runs()
+            self._last_recovery = time.monotonic()
         claimed = self.store.claim_package_run(self.worker_id)
         if not claimed:
             return False
-        self.executor.execute(claimed)
+        stop = threading.Event()
+        heartbeat = threading.Thread(target=self._heartbeat, args=(claimed, stop), daemon=True)
+        heartbeat.start()
+        try:
+            self.executor.execute(claimed)
+        finally:
+            stop.set()
+            heartbeat.join(timeout=2)
         return True
 
     def run_forever(self) -> None:
         while True:
-            if not self.run_once():
+            try:
+                worked = self.run_once()
+            except Exception:
+                traceback.print_exc()
+                worked = False
+            if not worked:
                 time.sleep(self.settings.worker_poll_seconds)
 
 
@@ -211,5 +250,12 @@ class Scheduler:
 
     def run_forever(self) -> None:
         while True:
-            self.store.enqueue_due_monitors()
+            try:
+                self.store.enqueue_due_monitors()
+                if os.getenv("DEEPSEEK_API_KEY"):
+                    from crawler_platform.weekly_report import process_one
+                    self.store.enqueue_due_weekly_reports()
+                    process_one(self.store)
+            except Exception:
+                traceback.print_exc()
             time.sleep(self.settings.scheduler_poll_seconds)

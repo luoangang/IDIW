@@ -1,0 +1,142 @@
+[
+  {
+    "source_row": 397,
+    "journal_key": "5900a0d0094d3052",
+    "name": "中华医史杂志",
+    "url": "http://zhyszz.yiigle.com",
+    "supplier": "中华医学会",
+    "template_group": "yiigle",
+    "url_signature": "yiigle.com",
+    "evidence": "url_signature"
+  },
+  {
+    "source_row": 410,
+    "journal_key": "8b0cdd05aa472760",
+    "name": "中华医学科研管理杂志",
+    "url": "http://zhyxkyglzz.yiigle.com",
+    "supplier": "中华医学会",
+    "template_group": "yiigle",
+    "url_signature": "yiigle.com",
+    "evidence": "url_signature"
+  },
+  {
+    "source_row": 411,
+    "journal_key": "b744d9344f655da9",
+    "name": "中华医学美学美容杂志",
+    "url": "http://zhyxmxmrzz.yiigle.com",
+    "supplier": "中华医学会",
+    "template_group": "yiigle",
+    "url_signature": "yiigle.com",
+    "evidence": "url_signature"
+  },
+  {
+    "source_row": 413,
+    "journal_key": "7591c9194a27001b",
+    "name": "中华医学遗传学杂志",
+    "url": "http://zhyxycxzz.yiigle.com",
+    "supplier": "中华医学会",
+    "template_group": "yiigle",
+    "url_signature": "yiigle.com",
+    "evidence": "url_signature"
+  },
+  {
+    "source_row": 416,
+    "journal_key": "cac0294aacbc408b",
+    "name": "中华医院管理杂志",
+    "url": "http://zhyyglzz.yiigle.com",
+    "supplier": "中华医学会",
+    "template_group": "yiigle",
+    "url_signature": "yiigle.com",
+    "evidence": "url_signature"
+  },
+  {
+    "source_row": 431,
+    "journal_key": "5093af6459bb193d",
+    "name": "中华地方病学杂志",
+    "url": "http://www.medjournals.cn",
+    "supplier": "中华医学会",
+    "template_group": "yiigle",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 452,
+    "journal_key": "290a898177f05df7",
+    "name": "中华心律失常学杂志",
+    "url": "http://zhxlscxzz.yiigle.com",
+    "supplier": "中华医学会",
+    "template_group": "yiigle",
+    "url_signature": "yiigle.com",
+    "evidence": "url_signature"
+  },
+  {
+    "source_row": 455,
+    "journal_key": "2f8bb04f65843dc4",
+    "name": "中华心血管病杂志（网络版）",
+    "url": "http://e-zhxxgbzz.yiigle.com",
+    "supplier": "中华医学会",
+    "template_group": "yiigle",
+    "url_signature": "yiigle.com",
+    "evidence": "url_signature"
+  },
+  {
+    "source_row": 468,
+    "journal_key": "72ae4b2770a2e251",
+    "name": "中华整形外科杂志",
+    "url": "http://zhzxwkzz.yiigle.com",
+    "supplier": "中华医学会",
+    "template_group": "yiigle",
+    "url_signature": "yiigle.com",
+    "evidence": "url_signature"
+  },
+  {
+    "source_row": 474,
+    "journal_key": "4b4e671ae6379de3",
+    "name": "中华显微外科杂志",
+    "url": "http://zhxwwkzz.yiigle.com",
+    "supplier": "中华医学会",
+    "template_group": "yiigle",
+    "url_signature": "yiigle.com",
+    "evidence": "url_signature"
+  },
+  {
+    "source_row": 512,
+    "journal_key": "a08165508f5404ed",
+    "name": "中华眼科杂志",
+    "url": "http://zhykzz.yiigle.com",
+    "supplier": "中华医学会",
+    "template_group": "yiigle",
+    "url_signature": "yiigle.com",
+    "evidence": "url_signature"
+  },
+  {
+    "source_row": 550,
+    "journal_key": "4f4c4c51097c065b",
+    "name": "中华胸心血管外科杂志",
+    "url": "http://zhxxxgwkzz.yiigle.com",
+    "supplier": "中华医学会",
+    "template_group": "yiigle",
+    "url_signature": "yiigle.com",
+    "evidence": "url_signature"
+  },
+  {
+    "source_row": 559,
+    "journal_key": "d96daaef5bf3650c",
+    "name": "中华药械研究与临床",
+    "url": "https://medpress.yiigle.com",
+    "supplier": "中华医学会",
+    "template_group": "yiigle",
+    "url_signature": "yiigle.com",
+    "evidence": "url_signature"
+  },
+  {
+    "source_row": 4250,
+    "journal_key": "f9a61f6d40ab3480",
+    "name": "宁夏医科大学学报",
+    "url": "https://nxykdxxb.yiigle.com",
+    "supplier": "中华医学会",
+    "template_group": "yiigle",
+    "url_signature": "yiigle.com",
+    "evidence": "url_signature"
+  }
+]

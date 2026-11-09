@@ -1,0 +1,22 @@
+[
+  {
+    "source_row": 8869,
+    "journal_key": "8c3a0f777618fdc8",
+    "name": "西亚非洲",
+    "url": "http://xyfz.ajcass.com",
+    "supplier": "北京博渊星辰网络科技有限公司",
+    "template_group": "北京博渊星辰网络科技有限公司",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9183,
+    "journal_key": "db1cf1efeac451c2",
+    "name": "财贸经济",
+    "url": "http://cmjj.ajcass.com",
+    "supplier": "北京博渊星辰网络科技有限公司",
+    "template_group": "北京博渊星辰网络科技有限公司",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  }
+]

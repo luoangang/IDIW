@@ -1,0 +1,25 @@
+{
+  "total": 350,
+  "status_counts": {
+    "passed_with_items": 187,
+    "failed": 131,
+    "passed_no_items": 32
+  },
+  "failure_kinds": {
+    "http_404": 44,
+    "http_502": 13,
+    "unsupported_template": 38,
+    "http_403": 24,
+    "http_308": 1,
+    "http_412": 1,
+    "timeout": 2,
+    "tls": 5,
+    "other": 1,
+    "http_500": 1,
+    "http_422": 1
+  },
+  "failed_retried": 137,
+  "no_items_retried": 40,
+  "recovered_failures": 6,
+  "new_matches_on_broad_query": 8
+}

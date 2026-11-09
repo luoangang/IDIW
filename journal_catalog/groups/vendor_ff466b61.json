@@ -1,0 +1,42 @@
+[
+  {
+    "source_row": 78,
+    "journal_key": "9045a99ee6c3c6f4",
+    "name": "上海戏剧",
+    "url": "http://shxj.qikan.cn",
+    "supplier": "同方知网/期刊平台",
+    "template_group": "同方知网/期刊平台",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4592,
+    "journal_key": "eb9a9650595882d3",
+    "name": "山东青年",
+    "url": "http://sdqq.qikan.cn",
+    "supplier": "同方知网/期刊平台",
+    "template_group": "同方知网/期刊平台",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5057,
+    "journal_key": "49be9885cfbbdd68",
+    "name": "当代小说",
+    "url": "http://ddss.qikan.cn",
+    "supplier": "同方知网/期刊平台",
+    "template_group": "同方知网/期刊平台",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5550,
+    "journal_key": "8b3135bbb1ce810c",
+    "name": "文史杂志",
+    "url": "http://wszz.qikan.cn",
+    "supplier": "同方知网/期刊平台",
+    "template_group": "同方知网/期刊平台",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  }
+]

@@ -1,0 +1,3132 @@
+[
+  {
+    "source_row": 34,
+    "journal_key": "30378c1dc0702f16",
+    "name": "上海交通大学学报（农业科学版）",
+    "url": "http://www.qk.sjtu.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 83,
+    "journal_key": "358dc2defe2d181a",
+    "name": "上海政法学院学报",
+    "url": "http://www.shupl.edu.cn/xbbjb",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 122,
+    "journal_key": "e0d7052b6e805a7a",
+    "name": "上海计量测试",
+    "url": "https://smt.simt.com.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 254,
+    "journal_key": "c2a68e685cbf53f7",
+    "name": "东北师大学报（哲学社会科学版）",
+    "url": "http://xsqks.nenu.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 263,
+    "journal_key": "ef797010cbe60f78",
+    "name": "东北财经大学学报",
+    "url": "https://zzs.dufe.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 292,
+    "journal_key": "5d64f6bcbb9215be",
+    "name": "东莞理工学院学报",
+    "url": "https://publish.cnki.net/dglg",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 311,
+    "journal_key": "85f5f2095adb9e5f",
+    "name": "中共党史研究",
+    "url": "http://www.dswxyjy.org.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 340,
+    "journal_key": "acf3b7d0fc2f55e1",
+    "name": "中医学报",
+    "url": "http://zyxb.hactcm.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 463,
+    "journal_key": "71e8c7ea9b330fea",
+    "name": "中华护理杂志",
+    "url": "http://www.zhhlzzs.com",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 588,
+    "journal_key": "b9317fe92c3fdbdf",
+    "name": "中南民族大学学报（人文社会科学版）",
+    "url": "https://www.scuec.edu.cn/xuebao",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 623,
+    "journal_key": "439e82039f916231",
+    "name": "中国中西医结合耳鼻咽喉科杂志",
+    "url": "http://xyjh.chinajournal.net.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 684,
+    "journal_key": "1b5d54533fde108a",
+    "name": "中国体外生命支持",
+    "url": "https://twxh.chinajournal.net.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 865,
+    "journal_key": "ff66cdc324164624",
+    "name": "中国卫生信息管理杂志",
+    "url": "http://www.chim.org.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 969,
+    "journal_key": "90842aeebd6d0402",
+    "name": "中国学校体育",
+    "url": "http://www.zgxt.chinajournal.net.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1038,
+    "journal_key": "7aa86d8fc7272bbe",
+    "name": "中国建设信息化",
+    "url": "http://www.mohurdic.org.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1052,
+    "journal_key": "89fcd7e7d316154b",
+    "name": "中国心理卫生杂志",
+    "url": "http://www.cmhj.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1054,
+    "journal_key": "72926e9655915374",
+    "name": "中国心血管杂志",
+    "url": "http://zgxxgzz.yiigle.com",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1058,
+    "journal_key": "2fbaa4e9dfef38f3",
+    "name": "中国急救复苏与灾害医学杂志",
+    "url": "http://www.caderm.org",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1194,
+    "journal_key": "655b003aa25eb89b",
+    "name": "中国水利",
+    "url": "http://www.chinawater.com.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1211,
+    "journal_key": "6e576f33246aac36",
+    "name": "中国法学",
+    "url": "http://clsjp.chinalaw.org.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1294,
+    "journal_key": "d249a145c52bd938",
+    "name": "中国瓜菜",
+    "url": "http://www.chinacuveg.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1330,
+    "journal_key": "af123259b6221ead",
+    "name": "中国畜牧杂志",
+    "url": "http://www.zgxmzz.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1464,
+    "journal_key": "5e19ecc975cebc66",
+    "name": "中国经济学人（英文版）",
+    "url": "http://www.chinaeconomist.com",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1508,
+    "journal_key": "c3e41157091f35c2",
+    "name": "中国胶粘剂",
+    "url": "https://gxlj.chinajournal.net.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1547,
+    "journal_key": "d099ba5ebdf89d6d",
+    "name": "中国药物经济学",
+    "url": "http://www.zgywjjxzz.com",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1651,
+    "journal_key": "6ca5add24281c718",
+    "name": "中国集体经济",
+    "url": "http://www.ccenet.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1691,
+    "journal_key": "5f043dcda224b77a",
+    "name": "中国高校科技",
+    "url": "http://zgkc.chinajournal.net.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1855,
+    "journal_key": "5e8426603ee6533f",
+    "name": "中药材",
+    "url": "http://zyca.chinajournal.net.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1930,
+    "journal_key": "d7287cc219012c50",
+    "name": "乡村科技",
+    "url": "http://www.cxkjcm.com",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1953,
+    "journal_key": "8e9a9536ac05bf36",
+    "name": "云南医药",
+    "url": "http://www.yxweb.com.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1977,
+    "journal_key": "d178fecb393098ac",
+    "name": "云南科技管理",
+    "url": "http://tnkj.chinajournal.net.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1985,
+    "journal_key": "64d51e276193d84a",
+    "name": "云梦学刊",
+    "url": "http://qks.hnist.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1999,
+    "journal_key": "77d01aa6e9c39bb9",
+    "name": "亚太教育",
+    "url": "http://cfed.cnki.net",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2026,
+    "journal_key": "87a22a0ce16939ac",
+    "name": "交通医学",
+    "url": "http://jtyx.ntu.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2028,
+    "journal_key": "2a5e85b41f87846d",
+    "name": "交通工程",
+    "url": "http://www.btea.org.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2045,
+    "journal_key": "a55b5d3d8c68a9e4",
+    "name": "产业组织评论",
+    "url": "https://publish.cnki.net/cyzp",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2169,
+    "journal_key": "b457baeb8cc79307",
+    "name": "企业经济",
+    "url": "http://www.qyjj.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2220,
+    "journal_key": "df9bceb32f74ff26",
+    "name": "体育学刊",
+    "url": "http://tyxk.scnu.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2221,
+    "journal_key": "3c1b46c38f3e14ac",
+    "name": "体育学研究",
+    "url": "http://ntxb.nipes.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2224,
+    "journal_key": "b11b42a993351632",
+    "name": "体育教育学刊",
+    "url": "http://qks.whsu.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2233,
+    "journal_key": "f04de2e59c35caed",
+    "name": "体育科技文献通报",
+    "url": "http://www.sport.gov.cn/tykjwxtb",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2273,
+    "journal_key": "0bd7333c7bdcbded",
+    "name": "俄罗斯文艺",
+    "url": "http://elsw.chinajournal.net.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2305,
+    "journal_key": "0350112a700d0cf7",
+    "name": "信息工程大学学报",
+    "url": "http://xxgcxb.ijournals.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2307,
+    "journal_key": "40b0ba543defe840",
+    "name": "信息技术与信息化",
+    "url": "https://www.sdie.org.cn/journal",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2321,
+    "journal_key": "d7f529eba9e3c759",
+    "name": "信息记录材料",
+    "url": "http://wap.cnki.net",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2338,
+    "journal_key": "dfc3b752ae6bd8bd",
+    "name": "健康研究",
+    "url": "http://hzyg.chinajournal.net.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2476,
+    "journal_key": "38d7e5ffe273022b",
+    "name": "兰州文理学院学报（自然科学版）",
+    "url": "http://xb.luas.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2481,
+    "journal_key": "2a2b29d23f64b864",
+    "name": "共产党人",
+    "url": "http://www.nxgcdr.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2515,
+    "journal_key": "bc5626366d61eaf9",
+    "name": "内科理论与实践",
+    "url": "https://www.qk.sjtu.edu.cn/jimcp/CN/1673-6087/home.shtml",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2524,
+    "journal_key": "37fd22952f9f9402",
+    "name": "内蒙古师范大学学报（哲学社会科学版）",
+    "url": "https://publish.cnki.net/nmgs",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2526,
+    "journal_key": "644d2f641a0d9184",
+    "name": "内蒙古师范大学学报（自然科学版）",
+    "url": "https://publish.cnki.net/nmsb",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2549,
+    "journal_key": "6b582776c2d1c161",
+    "name": "内蒙古财经大学学报",
+    "url": "https://www.imufe.edu.cn/xbb",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2610,
+    "journal_key": "027972ae925007ba",
+    "name": "农业考古",
+    "url": "https://www.nykg.net.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2615,
+    "journal_key": "652a70ddfa2c4190",
+    "name": "农产品加工",
+    "url": "http://www.ncpjg.com",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2629,
+    "journal_key": "e581d8f7e867a099",
+    "name": "农机化研究",
+    "url": "https://publish.cnki.net/njyj",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2663,
+    "journal_key": "0966c4d0293159f8",
+    "name": "决策咨询",
+    "url": "http://jzw.sc.gov.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2723,
+    "journal_key": "14cd936a0928747f",
+    "name": "分析科学学报",
+    "url": "http://www.fxkxxb.whu.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2724,
+    "journal_key": "36ce50f8a7155437",
+    "name": "分析试验室",
+    "url": "http://www.analab.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2737,
+    "journal_key": "3dbe5564c1565cce",
+    "name": "创新与创业教育",
+    "url": "http://cxcyjy.csu.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2770,
+    "journal_key": "638ef82db96b95da",
+    "name": "制冷技术",
+    "url": "http://www.cnssr.org",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2837,
+    "journal_key": "943fe6b9bba0b43d",
+    "name": "化学与生物工程",
+    "url": "http://www.hxyswgc.com",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2869,
+    "journal_key": "83cdb05e0c3a2021",
+    "name": "化工矿产地质",
+    "url": "http://hgkc.chinajournal.net.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2877,
+    "journal_key": "138b258f4e1f9151",
+    "name": "化工设计",
+    "url": "http://publish.cnki.net",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3085,
+    "journal_key": "6a7df9cc17654a61",
+    "name": "华中科技大学学报（社会科学版）",
+    "url": "http://skxb.hust.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3097,
+    "journal_key": "290940aa9eed1e59",
+    "name": "华北水利水电大学学报（社会科学版）",
+    "url": "http://publish.cnki.net/slsb",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3100,
+    "journal_key": "9ae992d89109b292",
+    "name": "华北理工大学学报（社会科学版）",
+    "url": "http://hlxb.chinajournal.net.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3101,
+    "journal_key": "cb8bbe992c578b77",
+    "name": "华北理工大学学报（自然科学版）",
+    "url": "http://hblg.chinajournal.net.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3103,
+    "journal_key": "f845107ca391dfd4",
+    "name": "华北电力大学学报（社会科学版）",
+    "url": "http://hdlb.chinajournal.net.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3141,
+    "journal_key": "e8ae8fc432b6c827",
+    "name": "南京体育学院学报",
+    "url": "http://ntxb.nsi.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3142,
+    "journal_key": "fd25b2418c1c8cac",
+    "name": "南京信息工程大学学报",
+    "url": "http://nxdxb.cnjournals.org",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3160,
+    "journal_key": "6dc46ea7db8719e9",
+    "name": "南京晓庄学院学报",
+    "url": "http://xuebao.njxzc.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3177,
+    "journal_key": "ae1bbf7243306b58",
+    "name": "南大法学",
+    "url": "http://law.nju.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3180,
+    "journal_key": "2a2a1dedf3b5f238",
+    "name": "南宁师范大学学报（哲学社会科学版）",
+    "url": "https://publish.cnki.net/syxi",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3181,
+    "journal_key": "da4ccf509afa2c4d",
+    "name": "南宁师范大学学报（自然科学版）",
+    "url": "https://xbbjb.nnnu.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3216,
+    "journal_key": "f53463d8f2b8c656",
+    "name": "南昌师范学院学报",
+    "url": "http://xb.ncnu.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3227,
+    "journal_key": "4df15c0daa2e8a6c",
+    "name": "南通大学学报（医学版）",
+    "url": "https://xbyxb.ntu.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3229,
+    "journal_key": "1231275b066ee547",
+    "name": "南通大学学报（社会科学版）",
+    "url": "http://xbzsb.ntu.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3230,
+    "journal_key": "008c3755db405347",
+    "name": "南通大学学报（自然科学版）",
+    "url": "http://xbzkb.ntu.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3281,
+    "journal_key": "349da8367a0043ca",
+    "name": "厦门大学学报（哲学社会科学版）",
+    "url": "http://xdxbs.xmu.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3336,
+    "journal_key": "b277fa67510048a2",
+    "name": "古籍整理研究学刊",
+    "url": "http://gssh.chinajournal.net.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3339,
+    "journal_key": "67a3e73294daf0fd",
+    "name": "可再生能源",
+    "url": "http://www.kzsny.com",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3364,
+    "journal_key": "a09fbc7f91a0050c",
+    "name": "合成技术及应用",
+    "url": "http://hcsy.chinajournal.net.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3390,
+    "journal_key": "bcd7da87c799260c",
+    "name": "同学少年",
+    "url": "http://qkcbzx.tjnu.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3447,
+    "journal_key": "71cdd3214012c78f",
+    "name": "哲学动态",
+    "url": "https://publish.cnki.net/zxdt",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3450,
+    "journal_key": "4d5d20efe01f999a",
+    "name": "哲学门",
+    "url": "http://www.oaj.pku.edu.cn/zxm/CN/1zxm/home.shtml",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3453,
+    "journal_key": "fdbe161fec123941",
+    "name": "唐史论丛",
+    "url": "https://publish.cnki.net/tslc",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3504,
+    "journal_key": "dd16b877f722e58a",
+    "name": "四川中医",
+    "url": "https://publish.cnki.net/sczy",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3526,
+    "journal_key": "fbd5856a45258142",
+    "name": "四川建筑",
+    "url": "http://www.scjzzz.com.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3584,
+    "journal_key": "dbdbf8b1e9032e60",
+    "name": "国医论坛",
+    "url": "http://gylt.nymc.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3761,
+    "journal_key": "8cf6aa5b404dc855",
+    "name": "图书馆理论与实践",
+    "url": "http://www.libedit.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3777,
+    "journal_key": "a36236d62144c0bc",
+    "name": "土木工程与管理学报",
+    "url": "http://juse.hust.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3796,
+    "journal_key": "d2bd40ea48ac2135",
+    "name": "地方财政研究",
+    "url": "http://www.dfczyj.com",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3885,
+    "journal_key": "f4eaebb438cb2479",
+    "name": "城市规划学刊",
+    "url": "http://upforum.wupen.org",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3971,
+    "journal_key": "ef5131178c06b6a3",
+    "name": "外国语文研究",
+    "url": "http://www.wgyj.cnpt.cnki.net",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3978,
+    "journal_key": "c87a910f542294e8",
+    "name": "外文研究",
+    "url": "http://wwyj.henu.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4024,
+    "journal_key": "0bd9a7facfeae7b2",
+    "name": "大学图书馆学报",
+    "url": "http://www.scal.edu.cn/xuebao",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4076,
+    "journal_key": "5f4657ae5ab033a3",
+    "name": "大连大学学报",
+    "url": "http://xbbj.dlu.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4077,
+    "journal_key": "9b33e278153ae5c8",
+    "name": "大连工业大学学报",
+    "url": "http://xb.dlpu.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4085,
+    "journal_key": "ea950ea3d29cb6c7",
+    "name": "大连理工大学学报（社会科学版）",
+    "url": "http://xbsk.dlut.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4134,
+    "journal_key": "ad56338a9349613b",
+    "name": "天津理工大学学报",
+    "url": "http://xkbjb.tjut.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4137,
+    "journal_key": "312abe5b7bcade9a",
+    "name": "天津科技大学学报",
+    "url": "http://xuebao.tust.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4142,
+    "journal_key": "382a86bbf2556b4a",
+    "name": "天津职业技术师范大学学报",
+    "url": "http://xuebao.tute.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4166,
+    "journal_key": "f30fdb87675a68de",
+    "name": "太原理工大学学报（社会科学版）",
+    "url": "http://tyls.chinajournal.net.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4212,
+    "journal_key": "32dff80b363488a7",
+    "name": "学前教育研究",
+    "url": "http://www.xqjyyj.com",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4258,
+    "journal_key": "526fceaf416d9432",
+    "name": "宁德师范学院学报（哲学社会科学版）",
+    "url": "http://xb.ndnu.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4259,
+    "journal_key": "6f35fb39f5b724dc",
+    "name": "宁德师范学院学报（自然科学版）",
+    "url": "http://ndsx.chinajournal.net.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4290,
+    "journal_key": "fb90746b17284a7a",
+    "name": "安徽乡村振兴研究",
+    "url": "http://ahxz.chinajournal.net.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4332,
+    "journal_key": "5fa6f895fc944e8e",
+    "name": "安阳工学院学报",
+    "url": "https://xbbjb.ayit.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4340,
+    "journal_key": "5a693bfe560bb120",
+    "name": "宏观质量研究",
+    "url": "http://hgzlyj.whu.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4382,
+    "journal_key": "2772f38d201bbda2",
+    "name": "实用肿瘤杂志",
+    "url": "http://www.syzlzz.com",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4397,
+    "journal_key": "22a0b4296094ecc6",
+    "name": "实验室科学",
+    "url": "http://publish.cnki.net/yskt",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4410,
+    "journal_key": "4a65775877a349d9",
+    "name": "客车技术与研究",
+    "url": "http://bus-in.cmvr.com.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4413,
+    "journal_key": "6c42cb2332552224",
+    "name": "家具",
+    "url": "http://www.furmag.com.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4414,
+    "journal_key": "e657c617ec0736c3",
+    "name": "家具与室内装饰",
+    "url": "http://www.fidchina.com",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4523,
+    "journal_key": "1349e06ea4efc2cc",
+    "name": "山东中医杂志",
+    "url": "http://sdzy.chinajournal.net.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4525,
+    "journal_key": "9fc18e806494077d",
+    "name": "山东交通学院学报",
+    "url": "http://jnjt.chinajournal.net.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4554,
+    "journal_key": "8837c7a92c93a3e6",
+    "name": "山东工商学院学报",
+    "url": "http://bxyx.chinajournal.net.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4557,
+    "journal_key": "56f5dca375eb3c3c",
+    "name": "山东师范大学学报（自然科学版）",
+    "url": "http://www.lkxb.sdnu.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4569,
+    "journal_key": "2ce3daf555f9ac17",
+    "name": "山东理工大学学报（社会科学版）",
+    "url": "http://journal.sdut.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4573,
+    "journal_key": "8517ca5f0f65c10a",
+    "name": "山东畜牧兽医",
+    "url": "http://xmsy.sdau.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4578,
+    "journal_key": "2364e06ec52735e7",
+    "name": "山东科技大学学报（社会科学版）",
+    "url": "https://xuebao.sdust.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4584,
+    "journal_key": "91e550a22d308f38",
+    "name": "山东航空学院学报",
+    "url": "http://jbu.sdua.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4589,
+    "journal_key": "4c329528a066a91b",
+    "name": "山东财经大学学报",
+    "url": "https://journal.sdufe.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4594,
+    "journal_key": "0b4af2ca8e05d499",
+    "name": "山东高等教育",
+    "url": "https://qks.qdu.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4620,
+    "journal_key": "3d406bf45bb49694",
+    "name": "山西师范大学学报（自然科学版）",
+    "url": "http://xbweb.sxnu.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4644,
+    "journal_key": "1ff08eacca081eea",
+    "name": "山西财政税务专科学校学报",
+    "url": "http://cszk.chinajournal.net.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4782,
+    "journal_key": "0c1e10d8522f8569",
+    "name": "广东交通职业技术学院学报",
+    "url": "https://xb.gdcp.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4850,
+    "journal_key": "d3f0cf0d2f2726dc",
+    "name": "广西中医药",
+    "url": "http://gxzy.chinajournal.net.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4879,
+    "journal_key": "b2673cefb6cc4cc8",
+    "name": "广西民族大学学报（哲学社会科学版）",
+    "url": "http://xuebao.gxmzu.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4953,
+    "journal_key": "9ba3863a0c3da91b",
+    "name": "延边大学农学学报",
+    "url": "http://journal.ybu.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4954,
+    "journal_key": "f38ac0a0013c7511",
+    "name": "延边大学医学学报",
+    "url": "http://ybyb.chinajournal.net.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4955,
+    "journal_key": "9ae902fff0f337a1",
+    "name": "延边大学学报（自然科学版）",
+    "url": "http://ybdz.chinajournal.net.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4957,
+    "journal_key": "210ebddbc76b8de8",
+    "name": "建井技术",
+    "url": "http://jjjs.chinajournal.net.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4971,
+    "journal_key": "f79b9c1b7490f04e",
+    "name": "建筑创作",
+    "url": "https://archicreation.bucea.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4973,
+    "journal_key": "b1c9d8daf6d0e649",
+    "name": "建筑学报",
+    "url": "http://www.aj.org.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4983,
+    "journal_key": "af8384c43fa15010",
+    "name": "建筑技艺",
+    "url": "http://www.atd.com.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5005,
+    "journal_key": "58d73056782d16c4",
+    "name": "建筑遗产",
+    "url": "http://jianzhuyichan.tongji.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5037,
+    "journal_key": "3fd8cd4796f7f1bb",
+    "name": "当代会计评论",
+    "url": "http://cascar.xmu.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5104,
+    "journal_key": "a528c481d05be003",
+    "name": "当代青年研究",
+    "url": "http://www.qing.chinajournal.net.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5112,
+    "journal_key": "f12492466e566048",
+    "name": "影像诊断与介入放射学",
+    "url": "http://www.yxyjr.com",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5190,
+    "journal_key": "82bd58226b2819bd",
+    "name": "忻州师范学院学报",
+    "url": "http://yzsf.chinajournal.net.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5244,
+    "journal_key": "675a0636351ea139",
+    "name": "成都中医药大学学报",
+    "url": "http://xuebao.cdutcm.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5248,
+    "journal_key": "58d4c3582c1996a2",
+    "name": "成都大学学报",
+    "url": "https://journal.cdu.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5269,
+    "journal_key": "0c98635fd446e914",
+    "name": "扬州职业大学学报",
+    "url": "https://gjxb.yzpc.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5383,
+    "journal_key": "3f6bed0bd9539109",
+    "name": "教师教育论坛",
+    "url": "http://ghxz.chinajournal.net.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5399,
+    "journal_key": "dd3c821a7b7b97f7",
+    "name": "教育学展望",
+    "url": "https://jyxzw.cnu.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5410,
+    "journal_key": "2b45d7f690dc8017",
+    "name": "教育理论与实践",
+    "url": "https://www.sxsjky.com",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5526,
+    "journal_key": "07011b5e3e5a8706",
+    "name": "文化与传播",
+    "url": "https://xbbj.gxu.edu.cn/whycb.htm",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5755,
+    "journal_key": "9fee683aef1028da",
+    "name": "新金融",
+    "url": "http://xirp.chpt.cnki.net",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5773,
+    "journal_key": "9e8733c98ef62ca9",
+    "name": "新闻界",
+    "url": "http://www.ixinwenjie.com",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5799,
+    "journal_key": "f1a5a90c729dc235",
+    "name": "施工技术（中英文）",
+    "url": "http://www.shigongjishu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5831,
+    "journal_key": "52f6f88045d01b9d",
+    "name": "无锡商业职业技术学院学报",
+    "url": "http://wxsy.chinajournal.net.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5844,
+    "journal_key": "0b0b68b81ac14039",
+    "name": "日语学习与研究",
+    "url": "http://ryxy.chinajournal.net.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5851,
+    "journal_key": "fca26e046820a394",
+    "name": "时代建筑",
+    "url": "http://timearchi.tongji.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5874,
+    "journal_key": "38dedbd3b37e12f4",
+    "name": "昆明学院学报",
+    "url": "http://kmxyxb.kmu.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5921,
+    "journal_key": "fe4079e40577b5e9",
+    "name": "智能建筑电气技术",
+    "url": "http://www.znjzdq.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5926,
+    "journal_key": "94bf0b29c5d16dd9",
+    "name": "智能矿山",
+    "url": "http://www.chinamai.org.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5940,
+    "journal_key": "d55cd09c959542ba",
+    "name": "曲阜师范大学学报（自然科学版）",
+    "url": "https://publish.cnki.net/qfsf",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6009,
+    "journal_key": "f9c6301c549a8aed",
+    "name": "杂交水稻",
+    "url": "https://publish.cnki.net/zjsd",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6064,
+    "journal_key": "4367ba29220e60d9",
+    "name": "果农之友",
+    "url": "http://guonongzhiyou.zzgss.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6065,
+    "journal_key": "1e75bf0ec3e61b28",
+    "name": "果树学报",
+    "url": "http://fruitsci.zzgss.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6067,
+    "journal_key": "464b15e5b1e1dda3",
+    "name": "枣庄学院学报",
+    "url": "https://xb.uzz.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6092,
+    "journal_key": "436e0787123739e4",
+    "name": "核电子学与探测技术",
+    "url": "http://here.chinajournal.net.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6137,
+    "journal_key": "8c76733605b01cfb",
+    "name": "森林防火",
+    "url": "https://publish.cnki.net/slfh",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6161,
+    "journal_key": "2087d087575f6ed5",
+    "name": "榆林学院学报",
+    "url": "http://xuebao.yulinu.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6192,
+    "journal_key": "0602f06b59555e5e",
+    "name": "武汉大学学报（哲学社会科学版）",
+    "url": "http://www.wujhss.whu.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6309,
+    "journal_key": "a832a6178b74b71c",
+    "name": "水利发展研究",
+    "url": "http://www.slfz.chinajournal.net.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6311,
+    "journal_key": "419901602d27b448",
+    "name": "水利建设与管理",
+    "url": "http://www.sljsygl.com",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6330,
+    "journal_key": "782f9eb4a9cd4296",
+    "name": "水动力学研究与进展B辑",
+    "url": "http://www.jhydrodynamics.com",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6361,
+    "journal_key": "664241588ecc38db",
+    "name": "水道港口",
+    "url": "http://sdgk.chinajournal.net.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6391,
+    "journal_key": "61f5b138c42dae75",
+    "name": "汕头大学学报（自然科学版）",
+    "url": "http://stdx.chinajournal.net.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6395,
+    "journal_key": "a9fcd4666a0e18fc",
+    "name": "江汉大学学报（社会科学版）",
+    "url": "https://qks.jhun.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6426,
+    "journal_key": "78a6747c70313993",
+    "name": "江苏师范大学学报（自然科学版）",
+    "url": "http://xxuebao.jsnu.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6428,
+    "journal_key": "fa0877b9ef0bca7f",
+    "name": "江苏建筑职业技术学院学报",
+    "url": "http://xb.jsviat.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6431,
+    "journal_key": "be0910f762ad82c5",
+    "name": "江苏教育研究",
+    "url": "http://zzs.jsies.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6461,
+    "journal_key": "22ea44886293f217",
+    "name": "江西农业大学学报",
+    "url": "http://xuebao.jxau.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6472,
+    "journal_key": "63d4e8a175152836",
+    "name": "江西水利电力大学学报",
+    "url": "https://paper.juwp.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6480,
+    "journal_key": "0ea38a65be42b819",
+    "name": "江西社会科学",
+    "url": "http://www.jxshkx.net",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6487,
+    "journal_key": "2fae0c12bf411314",
+    "name": "池州学院学报",
+    "url": "http://xueb.czu.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6560,
+    "journal_key": "2be03294330ae795",
+    "name": "河北企业",
+    "url": "http://www.hbqyzz.com",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6576,
+    "journal_key": "f97d88808bc8068a",
+    "name": "河北地质大学学报",
+    "url": "http://xscbzx.hgu.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6602,
+    "journal_key": "c74ef489f1cfd0ce",
+    "name": "河北环境工程学院学报",
+    "url": "http://journal.hebuee.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6607,
+    "journal_key": "a6eeb27e184ec02a",
+    "name": "河北省科学院学报",
+    "url": "http://publish.cnki.net/hbkx",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6625,
+    "journal_key": "0fd712f5d5aef23a",
+    "name": "河南农业大学学报",
+    "url": "http://xb.henau.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6642,
+    "journal_key": "4b320ef5ff37a439",
+    "name": "河南工程学院学报（社会科学版）",
+    "url": "http://journal.haue.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6645,
+    "journal_key": "a725fb5c6d94ff9f",
+    "name": "河南师范大学学报（自然科学版）",
+    "url": "http://www.htu.edu.cn/nature",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6664,
+    "journal_key": "df8d45f9a1d0e3d9",
+    "name": "河南科技大学学报（社会科学版）",
+    "url": "http://xbbjb.haust.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6669,
+    "journal_key": "186c1a31ac5d83ef",
+    "name": "河南财政金融学院学报（哲学社会科学版）",
+    "url": "http://qkzx.hafu.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6671,
+    "journal_key": "1c2a697ed3ce8003",
+    "name": "河南财经政法大学学报",
+    "url": "http://xbbjb.huel.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6682,
+    "journal_key": "2c755bb869b67641",
+    "name": "油气田环境保护",
+    "url": "https://publish.cnki.net/yqtb",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6740,
+    "journal_key": "5d800d2fcb80033f",
+    "name": "洛阳理工学院学报（社会科学版）",
+    "url": "https://www.lit.edu.cn/xb",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6754,
+    "journal_key": "627e097d35bb07e0",
+    "name": "测绘技术装备",
+    "url": "http://www.chbzh.com",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6765,
+    "journal_key": "89b0fbb4948bc6a3",
+    "name": "济源职业技术学院学报",
+    "url": "http://www.jyvtc.edu.cn/xb/index.html",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6798,
+    "journal_key": "67d9f08c1c7abb1e",
+    "name": "浙江工商大学学报",
+    "url": "http://zzs.zjgsu.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6801,
+    "journal_key": "7a9ba42f4e771646",
+    "name": "浙江工贸职业技术学院学报",
+    "url": "http://ghzlc.zjitc.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6808,
+    "journal_key": "dc916d719c1bc532",
+    "name": "浙江树人学院学报",
+    "url": "http://sdxb.zjsru.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6814,
+    "journal_key": "0cfadfc8641a91ca",
+    "name": "浙江海洋大学学报（自然科学版）",
+    "url": "http://www.zjou.edu.cn/info/1033/6754.htm",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6839,
+    "journal_key": "6648c985eeb57366",
+    "name": "海南大学学报（社会科学版）",
+    "url": "http://xb.hainanu.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6860,
+    "journal_key": "278c66a459ee64a6",
+    "name": "海洋信息技术与应用",
+    "url": "https://publish.cnki.net/htxx",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6869,
+    "journal_key": "927301286326b4e3",
+    "name": "海洋工程装备与技术",
+    "url": "http://www.qk.sjtu.edu.cn/oeet",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6921,
+    "journal_key": "b2b0a008479dc0e3",
+    "name": "深圳信息职业技术学院学报",
+    "url": "http://publish.cnki.net/szxz",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6959,
+    "journal_key": "67c4db3dc32cc1ac",
+    "name": "渭南师范学院学报",
+    "url": "http://xbbjb.wnu.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6969,
+    "journal_key": "1ced21d49f121443",
+    "name": "湖北中医杂志",
+    "url": "http://hbzz.chinajournal.net.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6971,
+    "journal_key": "a99958a619560c4b",
+    "name": "湖北体育科技",
+    "url": "http://hbtkstykj.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6981,
+    "journal_key": "511c2c2a3d9c755d",
+    "name": "湖北师范大学学报（哲学社会科学版）",
+    "url": "http://hsxb.hbnu.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6993,
+    "journal_key": "180f6b123e997f52",
+    "name": "湖北民族大学学报（哲学社会科学版）",
+    "url": "http://hbza.chinajournal.net.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7004,
+    "journal_key": "551fce1212813251",
+    "name": "湖北社会科学",
+    "url": "http://fbsf.chinajournal.net.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7005,
+    "journal_key": "fd32cea8b3eaefab",
+    "name": "湖北科技学院学报",
+    "url": "http://xbbjb.hbust.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7018,
+    "journal_key": "eceb7126669f0579",
+    "name": "湖南农业大学学报（社会科学版）",
+    "url": "http://skxb.hunau.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7025,
+    "journal_key": "16b4f3e52ba6d4a5",
+    "name": "湖南大众传媒职业技术学院学报",
+    "url": "http://xbbjb.hnmmc.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7035,
+    "journal_key": "8ec2c3b91902451a",
+    "name": "湖南师范大学教育科学学报",
+    "url": "https://publish.cnki.net/fljy",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7048,
+    "journal_key": "0d7c5edcab751d46",
+    "name": "湖南理工学院学报（自然科学版）",
+    "url": "https://xuebao.hnist.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7049,
+    "journal_key": "68c3031db31094dd",
+    "name": "湖南生态科学学报",
+    "url": "http://www.hnstkxxb.com",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7061,
+    "journal_key": "65318e74885b084b",
+    "name": "湖南邮电职业技术学院学报",
+    "url": "https://xb.hnptc.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7064,
+    "journal_key": "052aac581dd4ea78",
+    "name": "湖州师范大学学报",
+    "url": "https://xuebao.huznu.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7096,
+    "journal_key": "70fbe55cca316da1",
+    "name": "潍坊学院学报",
+    "url": "http://xuebao.wfu.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7134,
+    "journal_key": "8383c833dea5a748",
+    "name": "烟台大学学报（哲学社会科学版）",
+    "url": "http://xuebao.ytu.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7165,
+    "journal_key": "257b06cd195a5588",
+    "name": "焦作大学学报",
+    "url": "http://bjb.jzu.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7166,
+    "journal_key": "6dcea741aa28647a",
+    "name": "焦作师范高等专科学校学报",
+    "url": "http://xb.jzsz.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7171,
+    "journal_key": "f40265c0c8e2de3b",
+    "name": "煤炭加工与综合利用",
+    "url": "http://www.mtjgly.com",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7181,
+    "journal_key": "b90fbc2e70e86f99",
+    "name": "煤炭高等教育",
+    "url": "http://journal.cumt.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7190,
+    "journal_key": "d9bc8c0cb96e0308",
+    "name": "照明工程学报",
+    "url": "http://www.cies.ac.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7214,
+    "journal_key": "e56f1a3efa382284",
+    "name": "牡丹江师范学院学报（哲学社会科学版）",
+    "url": "http://xb.mdjnu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7220,
+    "journal_key": "e0a7d8fdc3363051",
+    "name": "物流工程与管理",
+    "url": "http://www.leam.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7233,
+    "journal_key": "d308d44943b486ea",
+    "name": "物理实验",
+    "url": "http://wlsy.nenu.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7246,
+    "journal_key": "fc64f7593163c0a4",
+    "name": "特教天地",
+    "url": "http://xb.hbxytc.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7269,
+    "journal_key": "0181618a16a8b5e2",
+    "name": "环境与可持续发展",
+    "url": "http://www.prcee.org",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7337,
+    "journal_key": "532a6d6e92cf019d",
+    "name": "现代仪器与医疗",
+    "url": "http://www.miamt.com",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7345,
+    "journal_key": "c90c5509de5f9948",
+    "name": "现代信息科技",
+    "url": "http://www.xdxxkj.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7370,
+    "journal_key": "09c1e933ffba1a35",
+    "name": "现代医院",
+    "url": "http://www.xdyy.net",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7379,
+    "journal_key": "b84550bf911541ad",
+    "name": "现代园艺",
+    "url": "http://www.xdyyzzs.com",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7463,
+    "journal_key": "badc42da8ce2073e",
+    "name": "现代诊断与治疗",
+    "url": "http://xdzd.chinajournal.net.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7578,
+    "journal_key": "e1cfaa826f665a00",
+    "name": "生活教育",
+    "url": "https://publish.cnki.net/jysh",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7603,
+    "journal_key": "24047b4543ea3866",
+    "name": "生物技术",
+    "url": "http://hljiam.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7618,
+    "journal_key": "4def32eab6de071e",
+    "name": "生物进化",
+    "url": "http://www.nigpas.cas.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7679,
+    "journal_key": "1c449a19ee288ae4",
+    "name": "电子元件与材料",
+    "url": "http://www.cnelecom.net",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7784,
+    "journal_key": "1bab037382a4e2a0",
+    "name": "畜牧与兽医",
+    "url": "http://xmys.chinajournal.net.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7792,
+    "journal_key": "872aded16dc3bce6",
+    "name": "畜禽业",
+    "url": "http://xqyi.chinajournal.net.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7793,
+    "journal_key": "98591f7bfc9b93c2",
+    "name": "疑难病杂志",
+    "url": "http://www.ynbzz.com",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7822,
+    "journal_key": "58871f0e81e4d184",
+    "name": "百色学院学报",
+    "url": "http://mzsf.chinajournal.net.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7834,
+    "journal_key": "e9630cae584691dd",
+    "name": "盐城师范学院学报（人文社会科学版）",
+    "url": "http://xb.yctu.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7849,
+    "journal_key": "45c13c2d219e895f",
+    "name": "眼科学报",
+    "url": "http://journal.gzzoc.com",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7965,
+    "journal_key": "afa1071a09801ec9",
+    "name": "磁共振成像",
+    "url": "http://www.chinesemri.com",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8025,
+    "journal_key": "7116253e1fb5f009",
+    "name": "福建交通科技",
+    "url": "https://publish.cnki.net/fjjt",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8039,
+    "journal_key": "53c882c9db41201d",
+    "name": "福建商学院学报",
+    "url": "http://xb.fjbu.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8050,
+    "journal_key": "568facea8b1fcb71",
+    "name": "福建技术师范学院学报",
+    "url": "http://xbbj.fpnu.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8180,
+    "journal_key": "5f38b51971f706f9",
+    "name": "科教文汇",
+    "url": "http://www.kjwhzzs.com",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8196,
+    "journal_key": "af18734405a19ae6",
+    "name": "移动通信",
+    "url": "http://www.mbcom.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8197,
+    "journal_key": "58c69e68a6269dc8",
+    "name": "稀土",
+    "url": "http://www.cre-journal.com",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8216,
+    "journal_key": "3b18242f0f23940e",
+    "name": "空天防御",
+    "url": "http://www.qk.sjtu.edu.cn/ktfy",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8246,
+    "journal_key": "026ba7dafd73c64e",
+    "name": "管理世界",
+    "url": "http://www.mwm.net.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8256,
+    "journal_key": "cd98460386ebc57d",
+    "name": "管理现代化",
+    "url": "http://www.glxdh.com",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8275,
+    "journal_key": "ef1ecda970c3bd05",
+    "name": "粮油科学与工程",
+    "url": "http://qks.just.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8306,
+    "journal_key": "505ce078a66b48c1",
+    "name": "系统工程",
+    "url": "http://www.xitonggongcheng.com",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8351,
+    "journal_key": "362ed50dd1c93fea",
+    "name": "纺织导报",
+    "url": "http://www.texleader.com.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8364,
+    "journal_key": "b6d8748376175517",
+    "name": "组织工程与重建外科杂志",
+    "url": "http://www.qk.sjtu.edu.cn/jter/CN/1673-0364/home.shtml",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8373,
+    "journal_key": "b690fee6416a7592",
+    "name": "经济与管理评论",
+    "url": "http://jjyglpl.sdufe.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8376,
+    "journal_key": "26d2433c8fc73cce",
+    "name": "经济动物学报",
+    "url": "https://publish.cnki.net/jjdx",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8390,
+    "journal_key": "483ef7405f980337",
+    "name": "经济法学评论",
+    "url": "http://www.law.ruc.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8402,
+    "journal_key": "e703289c4598b5c1",
+    "name": "经济视角",
+    "url": "http://jjxy.jlu.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8418,
+    "journal_key": "b03c40e1039d51b9",
+    "name": "给水排水",
+    "url": "http://www.wwe1964.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8422,
+    "journal_key": "710e0b84a68c88a6",
+    "name": "统计与信息论坛",
+    "url": "http://tjlt.chinajournal.net.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8423,
+    "journal_key": "8d089eebfb72d15c",
+    "name": "统计与决策",
+    "url": "http://www.tjyjc.com",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8560,
+    "journal_key": "ac3074e3d7d946d8",
+    "name": "肇庆学院学报",
+    "url": "http://xbbjb.zqu.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8587,
+    "journal_key": "40e57ccd760f517a",
+    "name": "胃肠病学和肝病学杂志",
+    "url": "http://wcbx.chinajournal.net.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8620,
+    "journal_key": "223ec82b230e8cce",
+    "name": "腹腔镜外科杂志",
+    "url": "https://fqjwkzz.qiluhospital.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8718,
+    "journal_key": "27d833d8d4ad2629",
+    "name": "艺术探索",
+    "url": "http://ysts.chinajournal.net.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8741,
+    "journal_key": "c2fb102b10246595",
+    "name": "花生学报",
+    "url": "https://publish.cnki.net/pean",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8745,
+    "journal_key": "a258f3db616e537e",
+    "name": "苏州大学学报（教育科学版）",
+    "url": "http://sdxb.suda.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8806,
+    "journal_key": "53aafc1eb447921e",
+    "name": "莆田学院学报",
+    "url": "https://www.ptu.edu.cn/xyxb",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8810,
+    "journal_key": "b0f03f18ac6724dc",
+    "name": "菏泽学院学报",
+    "url": "http://xb.hezeu.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8829,
+    "journal_key": "e4b735c1ce1948c7",
+    "name": "蚌埠学院学报",
+    "url": "https://web.bbc.edu.cn/xuebao/main.htm",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8830,
+    "journal_key": "c0b3f83b8bbe623e",
+    "name": "蚕业科学",
+    "url": "http://www.cykxjournal.com",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8851,
+    "journal_key": "331ed356498d13ce",
+    "name": "衡水学院学报",
+    "url": "http://xuebao.hsnc.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8853,
+    "journal_key": "f8b1546a09de5ee7",
+    "name": "衡阳师范学院学报",
+    "url": "http://xb.hynu.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8973,
+    "journal_key": "c5e94db550b4c9aa",
+    "name": "西部学刊",
+    "url": "http://www.xbxkzz.com",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8979,
+    "journal_key": "b991770428a73ffb",
+    "name": "西部皮革",
+    "url": "http://www.westleather.com.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8986,
+    "journal_key": "a96f571db947be2b",
+    "name": "西部论坛（陕西）",
+    "url": "http://zzs.bjwlxy.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9027,
+    "journal_key": "c6c7756bb1172c01",
+    "name": "计算机与网络",
+    "url": "http://publish.cnki.net/jsyw",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9060,
+    "journal_key": "508a6c3b2bac7b7b",
+    "name": "许昌学院学报",
+    "url": "http://xuebao.xcu.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9215,
+    "journal_key": "84e9c4a569d03dfc",
+    "name": "贺州学院学报",
+    "url": "http://wzgz.chinajournal.net.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9233,
+    "journal_key": "a9edaf4a69f15d92",
+    "name": "赣南医科大学学报",
+    "url": "http://gnyx.chinajournal.net.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9288,
+    "journal_key": "f7e6b35e70cdf85b",
+    "name": "轻工科技",
+    "url": "http://qgy.gxnk.com.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9425,
+    "journal_key": "173b6fc14251e2bd",
+    "name": "邯郸学院学报",
+    "url": "http://szhd.chinajournal.net.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9438,
+    "journal_key": "4236d6bfefdc8d65",
+    "name": "郑州航空工业管理学院学报",
+    "url": "http://xbbjb.zua.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9454,
+    "journal_key": "5a76333767650dc0",
+    "name": "鄱阳湖学刊",
+    "url": "https://www.pyhxk.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9466,
+    "journal_key": "8ddb93c440f4ee33",
+    "name": "重庆三峡科技大学学报",
+    "url": "http://xbbjb.sanxiau.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9495,
+    "journal_key": "c555f0bf9519d551",
+    "name": "重庆高教研究",
+    "url": "http://yxxy.cqwu.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9526,
+    "journal_key": "b84de6054fe2a6cd",
+    "name": "金融理论与实践",
+    "url": "http://jrls.chinajournal.net.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9602,
+    "journal_key": "863a0d489985049c",
+    "name": "铜仁学院学报",
+    "url": "https://www.gztrc.edu.cn/xbbjb/index.htm",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9603,
+    "journal_key": "1d8d952e6cb55d57",
+    "name": "铜陵学院学报",
+    "url": "http://tlxy.chinajournal.net.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9617,
+    "journal_key": "a095d99f77b0bb7b",
+    "name": "锦州医科大学学报",
+    "url": "https://jzykdxxb.jzmu.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9635,
+    "journal_key": "41136fefac314873",
+    "name": "长春工程学院学报",
+    "url": "http://xbbjb.ccit.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9637,
+    "journal_key": "bd54aa9ec44bf6a1",
+    "name": "长春师范大学学报",
+    "url": "http://xuebao.ccsfu.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9639,
+    "journal_key": "2d9e67c0d00b094e",
+    "name": "长春理工大学学报",
+    "url": "http://xuebao.cust.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9640,
+    "journal_key": "a96cbffe7044be51",
+    "name": "长春金融高等专科学校学报",
+    "url": "http://ccjr.chinajournal.net.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9644,
+    "journal_key": "5bdd9da4d43f499e",
+    "name": "长江大学学报（自然科学版）",
+    "url": "http://qks.yangtzeu.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9664,
+    "journal_key": "f2eb90c5306b4232",
+    "name": "长治学院学报",
+    "url": "http://xbbjb.czc.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9724,
+    "journal_key": "4ebc7e3463687fcc",
+    "name": "陕西理工大学学报（社会科学版）",
+    "url": "http://xuebao.snut.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9732,
+    "journal_key": "a44ae565a0b02717",
+    "name": "陶瓷学报",
+    "url": "http://qkzzs.jci.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9766,
+    "journal_key": "7e41e7b7bcf9dad0",
+    "name": "青岛理工大学学报",
+    "url": "http://xuebao.qut.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9769,
+    "journal_key": "c94d0f30dda06e3d",
+    "name": "青岛科技大学学报（自然科学版）",
+    "url": "http://xbzr.qust.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9797,
+    "journal_key": "ddc09afa104195ec",
+    "name": "青海大学学报（自然科学版）",
+    "url": "https://xbbj.qhu.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9799,
+    "journal_key": "ea903da3fc6e7a88",
+    "name": "青海师范大学学报（社会科学版）",
+    "url": "https://xbbjb.qhnu.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9871,
+    "journal_key": "7445e33866d98b4b",
+    "name": "风湿病与关节炎",
+    "url": "http://www.fsbygjy.com",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9885,
+    "journal_key": "4b12652028adea44",
+    "name": "食品与发酵科技",
+    "url": "http://www.sc-ffm.com",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9906,
+    "journal_key": "5b1d0aef331f8676",
+    "name": "食管疾病",
+    "url": "http://lyyz.chinajournal.net.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9910,
+    "journal_key": "a0ba7f85e6133c15",
+    "name": "饮料工业",
+    "url": "http://www.bimag.com.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 10029,
+    "journal_key": "af7d24d15cea30b0",
+    "name": "黄山学院学报",
+    "url": "https://xb.hsu.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 10036,
+    "journal_key": "d2041e950a80a7ed",
+    "name": "黄河科技大学学报",
+    "url": "http://wlxb.hhstu.edu.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 10058,
+    "journal_key": "7f340d94afc2d5b8",
+    "name": "黑龙江史志",
+    "url": "http://hlsz.chinajournal.net.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 10096,
+    "journal_key": "08ba3229773e9293",
+    "name": "齐鲁师范学院学报",
+    "url": "http://sdjx.chinajournal.net.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 10099,
+    "journal_key": "5d63058bfbe666fd",
+    "name": "齐鲁珠坛",
+    "url": "http://qlzt.chinajournal.net.cn",
+    "supplier": "同方知网",
+    "template_group": "cnki",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  }
+]

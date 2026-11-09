@@ -1,0 +1,32 @@
+[
+  {
+    "source_row": 3375,
+    "journal_key": "7371a30d9aa7945b",
+    "name": "合肥师范学院学报",
+    "url": "http://xbbjb.hfnu.edu.cn",
+    "supplier": "西安三才",
+    "template_group": "西安三才",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4311,
+    "journal_key": "1d43330d46323f18",
+    "name": "安徽师范大学学报（社会科学版）",
+    "url": "http://journal.ahnu.edu.cn",
+    "supplier": "西安三才",
+    "template_group": "西安三才",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5978,
+    "journal_key": "0c2a365ad24fa663",
+    "name": "机械与电子",
+    "url": "http://xueb.git.edu.cn",
+    "supplier": "西安三才",
+    "template_group": "西安三才",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  }
+]

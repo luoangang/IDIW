@@ -1,0 +1,42 @@
+[
+  {
+    "source_row": 360,
+    "journal_key": "2b332a5385a6fd21",
+    "name": "中医药科学（英文）",
+    "url": "https://journals.lww.com/stcm",
+    "supplier": "Wolters Kluwer",
+    "template_group": "Wolters Kluwer",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6224,
+    "journal_key": "a4f50284a6049697",
+    "name": "母胎医学杂志（英文）",
+    "url": "https://journals.lww.com/mfm/pages/default.aspx",
+    "supplier": "Wolters Kluwer",
+    "template_group": "Wolters Kluwer",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8583,
+    "journal_key": "b184197c3997e36c",
+    "name": "肿瘤营养学杂志（英文）",
+    "url": "https://journals.lww.com/jno",
+    "supplier": "Wolters Kluwer",
+    "template_group": "Wolters Kluwer",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9543,
+    "journal_key": "36462d1174f5e973",
+    "name": "针灸和草药（英文）",
+    "url": "https://journals.lww.com/ahm",
+    "supplier": "Wolters Kluwer",
+    "template_group": "Wolters Kluwer",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  }
+]

@@ -1,0 +1,1572 @@
+[
+  {
+    "source_row": 142,
+    "journal_key": "f145095027f91faa",
+    "name": "专门用途外语研究",
+    "url": "http://cjlsp.hssonline.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 218,
+    "journal_key": "ab2ec77312ac7106",
+    "name": "世界科学技术-中医药现代化",
+    "url": "http://www.wst.ac.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 276,
+    "journal_key": "f5f97df4151c1df8",
+    "name": "东南大学学报（医学版）",
+    "url": "http://www.ddxbyxb.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 335,
+    "journal_key": "be32c576b89c6bf1",
+    "name": "中北大学学报（社会科学版）",
+    "url": "http://xuebao.nuc.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 345,
+    "journal_key": "cb3bcb6eed68f208",
+    "name": "中医杂志",
+    "url": "http://www.jtcm.net.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 419,
+    "journal_key": "9713b475e1d049d6",
+    "name": "中华危重病急救医学",
+    "url": "http://www.cccm-em120.com",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 488,
+    "journal_key": "6b7cd670288586fd",
+    "name": "中华消化内镜杂志",
+    "url": "http://www.zhxhnjzz.com",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 581,
+    "journal_key": "044ddea2899a56ed",
+    "name": "中南大学学报（医学版）",
+    "url": "http://xbyxb.csu.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 583,
+    "journal_key": "3808cef852b3b00a",
+    "name": "中南大学学报（自然科学版）",
+    "url": "http://zkxb.csu.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 584,
+    "journal_key": "aca63db4d9ee9c24",
+    "name": "中南大学学报（英文版）",
+    "url": "http://xbyw.csu.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 660,
+    "journal_key": "e5221895ccc72251",
+    "name": "中国人口·资源与环境",
+    "url": "http://www.cpre.sdnu.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 681,
+    "journal_key": "053358b3dbb23a7c",
+    "name": "中国传媒科技",
+    "url": "http://www.scimedia.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 745,
+    "journal_key": "d4056ec2a4dac4b9",
+    "name": "中国农业大学学报",
+    "url": "https://nydx.publish.founderss.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 814,
+    "journal_key": "e166392cabe3bfe2",
+    "name": "中国医学伦理学",
+    "url": "http://yxllx.xjtu.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 820,
+    "journal_key": "a8e8ee0d73690c05",
+    "name": "中国医学教育技术",
+    "url": "http://cmet.xjtu.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1170,
+    "journal_key": "3d3a994a7ed5b4a7",
+    "name": "中国森林病虫",
+    "url": "http://zgslbc.bdpc.org.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1176,
+    "journal_key": "27c5450b8c1f5a4b",
+    "name": "中国毕业后医学教育",
+    "url": "http://www.gmecn.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1317,
+    "journal_key": "cb84ab6fc0ada706",
+    "name": "中国电子杂志（英文版）",
+    "url": "http://www.ejournal.org.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1339,
+    "journal_key": "cc47c647ee484976",
+    "name": "中国病理生理杂志",
+    "url": "http://www.cjpp.net",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1340,
+    "journal_key": "ed7cf0568b3324a0",
+    "name": "中国癌症杂志",
+    "url": "http://www.china-oncology.com",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1372,
+    "journal_key": "f4a8885e4e6de894",
+    "name": "中国社会科学",
+    "url": "http://sscp.cssn.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1382,
+    "journal_key": "cb54b2a3a3838048",
+    "name": "中国神经精神疾病杂志",
+    "url": "http://www.zgsjjs.com",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1500,
+    "journal_key": "8e8d6e879c0737bb",
+    "name": "中国肛肠病杂志",
+    "url": "https://gcbz.publish.founderss.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1604,
+    "journal_key": "6fe4f0cfa8d06305",
+    "name": "中国输血杂志",
+    "url": "http://www.cjbt.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1627,
+    "journal_key": "a327d08139d0d1f0",
+    "name": "中国针灸",
+    "url": "http://www.cjacupuncture.com",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1834,
+    "journal_key": "ba7239bcad1d5001",
+    "name": "中山大学学报（医学科学版）",
+    "url": "https://xuebaoyx.sysu.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1835,
+    "journal_key": "88eca320cb9ba52f",
+    "name": "中山大学学报（社会科学版）",
+    "url": "https://xuebaosk.sysu.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1836,
+    "journal_key": "75b3fbc1e3f43011",
+    "name": "中山大学学报（自然科学版）（中英文）",
+    "url": "https://xuebaozr.sysu.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1841,
+    "journal_key": "24b2875c6d20df6a",
+    "name": "中德法学论坛",
+    "url": "https://skch.nju.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1857,
+    "journal_key": "1263ae4cfc349285",
+    "name": "中西医结合心脑血管病杂志",
+    "url": "http://www.suo1.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1950,
+    "journal_key": "329e6bc7de64d012",
+    "name": "云南农业科技",
+    "url": "http://ynnykj.portal.founderss.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 1958,
+    "journal_key": "33a19047d5699106",
+    "name": "云南大学学报（社会科学版）",
+    "url": "http://www.wkxb.ynu.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2062,
+    "journal_key": "8c3c0332c0ee3b5c",
+    "name": "人口与社会",
+    "url": "https://rkysh.publish.founderss.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2063,
+    "journal_key": "706ba0e9b111f02f",
+    "name": "人口与经济",
+    "url": "http://rkyjj.cueb.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2078,
+    "journal_key": "0217511313e33fba",
+    "name": "人权",
+    "url": "http://www.humanrights.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2092,
+    "journal_key": "f8eedeb1ae595cbc",
+    "name": "人民珠江",
+    "url": "http://www.renminzhujiang.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2211,
+    "journal_key": "4bcea18a6ba81024",
+    "name": "低碳化学与化工",
+    "url": "http://www.dthxyhg.com",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2370,
+    "journal_key": "c38ea32e16cca24f",
+    "name": "光学技术",
+    "url": "http://gxjs.publish.founderss.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2371,
+    "journal_key": "cd1356843eaf30e3",
+    "name": "光学精密工程",
+    "url": "http://ope.lightpublishing.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2480,
+    "journal_key": "b2c92e6ee28ca18e",
+    "name": "兰州财经大学学报",
+    "url": "http://journal.lzufe.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2518,
+    "journal_key": "78a91a7d196ea6e4",
+    "name": "内蒙古农业大学学报（哲学社会科学版）",
+    "url": "https://xuebao.imau.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2519,
+    "journal_key": "dbb7cb71750088f6",
+    "name": "内蒙古农业大学学报（自然科学版）",
+    "url": "https://xuebao.imau.edu.cn/index.htm",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2598,
+    "journal_key": "c7373454966dffcd",
+    "name": "农业科学研究",
+    "url": "https://jas.nxu.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2636,
+    "journal_key": "4606deb7802095a8",
+    "name": "农村新技术",
+    "url": "https://ncxjs.gxinfo.org",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2841,
+    "journal_key": "f518fd551e21e3ae",
+    "name": "化学分析计量",
+    "url": "http://www.cam1992.net",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2871,
+    "journal_key": "23131501b53a6dfd",
+    "name": "化工科技",
+    "url": "https://hgkj.publish.founderss.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 2887,
+    "journal_key": "aa05c4d535a35d67",
+    "name": "北京中医药大学学报",
+    "url": "https://xb.bucm.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3022,
+    "journal_key": "1d2ce83fb0487131",
+    "name": "医学教育研究与实践",
+    "url": "http://yxjy.xjtu.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3080,
+    "journal_key": "7593c9504747fa03",
+    "name": "华中师范大学学报（自然科学版）",
+    "url": "https://xbzk.ccnu.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3086,
+    "journal_key": "dc8fddb96c115fa6",
+    "name": "华中科技大学学报（自然科学版）",
+    "url": "http://xb.hust.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3166,
+    "journal_key": "575ef6cafff4a3ff",
+    "name": "南京航空航天大学学报",
+    "url": "http://jnuaa.nuaa.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3307,
+    "journal_key": "53a02d2d1511c198",
+    "name": "发电技术",
+    "url": "http://www.pgtjournal.com",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3509,
+    "journal_key": "bfa3a221ce334489",
+    "name": "四川农业大学学报",
+    "url": "https://xb.sicau.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3512,
+    "journal_key": "b016593f2331a61d",
+    "name": "四川动物",
+    "url": "http://www.scdwzz.com",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3521,
+    "journal_key": "b9e05c37c6512fdf",
+    "name": "四川大学学报（哲学社会科学版）",
+    "url": "https://wkxb.scu.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3588,
+    "journal_key": "46ce51b95e5a719f",
+    "name": "国土资源导刊",
+    "url": "https://gtdk.publish.founderss.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3722,
+    "journal_key": "584766d3c16804fc",
+    "name": "国际老年医学杂志",
+    "url": "http://gwll.publish.founderss.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3738,
+    "journal_key": "4a5ff641d91f856b",
+    "name": "国际转化医学杂志（英文版）",
+    "url": "http://www.jitm.hk",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 3963,
+    "journal_key": "e829605c200f083a",
+    "name": "外国文学",
+    "url": "http://wgwx.hssonline.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4012,
+    "journal_key": "398c3ac25d7ded5a",
+    "name": "大医生",
+    "url": "http://dys.bjzzcb.com",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4094,
+    "journal_key": "9f240c5590319506",
+    "name": "天地一体化信息网络",
+    "url": "http://www.j-sigin.com.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4153,
+    "journal_key": "fa3cd7d3c1b0a0b8",
+    "name": "天然气勘探与开发",
+    "url": "https://www.gaskk.com",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4165,
+    "journal_key": "f8ef1e01b0adfc6d",
+    "name": "太原理工大学学报",
+    "url": "http://tyutjournal.tyut.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4206,
+    "journal_key": "3e8c688059d95865",
+    "name": "学习与探索",
+    "url": "http://www.xxyts.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4248,
+    "journal_key": "e37b4f619748f847",
+    "name": "宁夏农林科技",
+    "url": "http://nxnlkj.nxaas.com.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4252,
+    "journal_key": "be729d7d8f6f59c7",
+    "name": "宁夏大学学报（自然科学版中英文）",
+    "url": "https://nse.nxu.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4272,
+    "journal_key": "19036b7c39790bd7",
+    "name": "宇航学报",
+    "url": "http://www.yhxb.org.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4312,
+    "journal_key": "e55a75d9f7160d2d",
+    "name": "安徽建筑",
+    "url": "http://www.ahjz.org.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4419,
+    "journal_key": "38efad87a7a4dbda",
+    "name": "家政学刊",
+    "url": "http://jzxk.jlau.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4530,
+    "journal_key": "fe928b26b8d53190",
+    "name": "山东农业大学学报（自然科学版）",
+    "url": "http://xuebao.sdau.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4545,
+    "journal_key": "f146a041825f97d3",
+    "name": "山东大学学报（哲学社会科学版）",
+    "url": "https://www.journal.sdu.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4603,
+    "journal_key": "ca33474ff000fde6",
+    "name": "山西农业大学学报（社会科学版）",
+    "url": "http://qks.sxau.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4690,
+    "journal_key": "eb52c2f2916e5f16",
+    "name": "工业水处理",
+    "url": "http://www.iwt.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4702,
+    "journal_key": "f3089062dca5981a",
+    "name": "工程·信息与电子工程（英文）",
+    "url": "http://www.fitee.zjujournals.com",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4710,
+    "journal_key": "7da708a4bbd77f34",
+    "name": "工程与建设",
+    "url": "http://www.gcyujs.com",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4909,
+    "journal_key": "ed68687f1d2b5fb7",
+    "name": "应用力学学报",
+    "url": "http://cjam.xjtu.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4947,
+    "journal_key": "0126ffa69e9762e6",
+    "name": "延安大学学报（医学科学版）",
+    "url": "http://ykxb.yau.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4948,
+    "journal_key": "6ebcdf0c35419376",
+    "name": "延安大学学报（社会科学版）",
+    "url": "http://skxb.yau.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4949,
+    "journal_key": "2fa529ac761881d8",
+    "name": "延安大学学报（自然科学版）",
+    "url": "http://zkxb.yau.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 4995,
+    "journal_key": "af4e71dd5e2c04eb",
+    "name": "建筑科学与工程学报",
+    "url": "http://jace.chd.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5006,
+    "journal_key": "41530811883e2d79",
+    "name": "建筑钢结构进展",
+    "url": "https://steelpro.tongji.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5031,
+    "journal_key": "fd3441d67d1aecdb",
+    "name": "当代世界社会主义问题",
+    "url": "https://krics.sdu.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5040,
+    "journal_key": "9ec4e946b751abfe",
+    "name": "当代作家评论",
+    "url": "https://ddzjpl.publish.founderss.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5089,
+    "journal_key": "ec5dbd394b684cee",
+    "name": "当代经济科学",
+    "url": "http://jjkx.xjtu.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5094,
+    "journal_key": "6f2f84bad0b88a00",
+    "name": "当代美术家",
+    "url": "https://www.scfai.edu.cn/xb",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5285,
+    "journal_key": "682fb2ad58b583ba",
+    "name": "抗癌",
+    "url": "http://anticancer.shac.org.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5294,
+    "journal_key": "c6525a2c85bdeee9",
+    "name": "护理研究",
+    "url": "http://www.hlyjzz.com",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5602,
+    "journal_key": "75da8bc1dd61ad02",
+    "name": "新一代信息技术",
+    "url": "http://www.newit.ejournal.org.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5638,
+    "journal_key": "e82c3c0e96a56b19",
+    "name": "新媒体与网络",
+    "url": "http://xmtwl.xjtu.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5822,
+    "journal_key": "761a29181a0968d4",
+    "name": "无机盐工业",
+    "url": "http://www.wjygy.com.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5869,
+    "journal_key": "049bd2eb9e5e960f",
+    "name": "时珍国医国药",
+    "url": "http://www.shizhenchina.com",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5920,
+    "journal_key": "95be696c95ff071c",
+    "name": "智能建筑与智慧城市",
+    "url": "http://www.ibzxchina.com",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5927,
+    "journal_key": "33d1a2ad41df7276",
+    "name": "智能科学与技术学报",
+    "url": "http://www.cjist.com.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5979,
+    "journal_key": "31d601b67bd3b4e6",
+    "name": "机械传动",
+    "url": "http://www.jxcd.net.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 5987,
+    "journal_key": "6a4ba8c0e34fdb61",
+    "name": "机械强度",
+    "url": "http://www.jxqd.net.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6006,
+    "journal_key": "bc5c280ac4da24a8",
+    "name": "机车电传动",
+    "url": "http://edl.csrzic.com",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6027,
+    "journal_key": "5b3194f9322c4c26",
+    "name": "条码与信息系统",
+    "url": "http://www.aidchina.com.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6191,
+    "journal_key": "ec33bd9892ea4f34",
+    "name": "武汉大学学报（医学版）",
+    "url": "http://xbyx.whu.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6193,
+    "journal_key": "e761f77d8ec8b98d",
+    "name": "武汉大学学报（工学版）",
+    "url": "http://xbgx.whu.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6194,
+    "journal_key": "ef21573e2151bdaa",
+    "name": "武汉大学学报（理学版）",
+    "url": "http://xblx.whu.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6195,
+    "journal_key": "340ae790ff580bc0",
+    "name": "武汉大学自然科学学报（英文版）",
+    "url": "http://wujns.whu.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6230,
+    "journal_key": "326d7130dda5127a",
+    "name": "毛泽东思想研究",
+    "url": "https://mzdsxyj.portal.founderss.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6237,
+    "journal_key": "ff2c3df3be75cdc0",
+    "name": "民俗研究",
+    "url": "https://msya.portal.founderss.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6463,
+    "journal_key": "9f5f4b91df917970",
+    "name": "江西冶金",
+    "url": "http://jxyj.publish.founderss.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6577,
+    "journal_key": "c0a315476eabb9a7",
+    "name": "河北大学学报（哲学社会科学版）",
+    "url": "http://xb-zsb.hbu.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6753,
+    "journal_key": "3232a1eba3cd6c6f",
+    "name": "测绘学报（英文版）",
+    "url": "http://jggs.chinasmp.com",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6762,
+    "journal_key": "9157dbd5527fb14f",
+    "name": "济南大学学报（社会科学版）",
+    "url": "http://journal.ujn.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6836,
+    "journal_key": "26cb6ef1f649ceb9",
+    "name": "海南医学",
+    "url": "http://www.hainanyixue.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6867,
+    "journal_key": "e38ff0b6ff8fdd48",
+    "name": "海洋工程",
+    "url": "http://www.theoceaneng.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6881,
+    "journal_key": "3df3d693423625ef",
+    "name": "海洋科学集刊",
+    "url": "http://hykxjk.iocasjournals.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6908,
+    "journal_key": "196534afdddf0557",
+    "name": "液晶与显示",
+    "url": "http://cjlcd.lightpublishing.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 6919,
+    "journal_key": "8f5a28672a4a82af",
+    "name": "深地能源科技",
+    "url": "http://sd.wpi.org.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7169,
+    "journal_key": "1c9df0876b478dcc",
+    "name": "煤气与热力",
+    "url": "https://www.gasheat.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7180,
+    "journal_key": "37c454a8dd9b2260",
+    "name": "煤炭转化",
+    "url": "https://ebcc.tyut.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7236,
+    "journal_key": "a47ce274a1db9aee",
+    "name": "物联网学报",
+    "url": "http://www.wlwxb.com.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7254,
+    "journal_key": "400e272e54074c08",
+    "name": "特种铸造及有色合金",
+    "url": "http://www.special-cast.com",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7299,
+    "journal_key": "8f83efa32d569377",
+    "name": "环境科学学报",
+    "url": "https://www.actasc.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7365,
+    "journal_key": "5277820543954abf",
+    "name": "现代医学",
+    "url": "http://www.xdyx.org.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7381,
+    "journal_key": "010a150a9ab92c17",
+    "name": "现代地质",
+    "url": "http://www.geoscience.net.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7509,
+    "journal_key": "bd5443e8d431ced8",
+    "name": "理论学刊",
+    "url": "https://llsj.portal.founderss.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7630,
+    "journal_key": "dd433a100a6724bd",
+    "name": "电信科学",
+    "url": "http://www.telecomsci.com",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7647,
+    "journal_key": "6131e304885055d4",
+    "name": "电力电容器与无功补偿",
+    "url": "http://www.dldrq.com",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7715,
+    "journal_key": "ccaa9a5f7bd8caa1",
+    "name": "电子质量",
+    "url": "https://dzzl.publish.founderss.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7746,
+    "journal_key": "3e376ebdfcd335b8",
+    "name": "电瓷避雷器",
+    "url": "http://www.dcblq.com",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7823,
+    "journal_key": "418178a35fc7f07a",
+    "name": "皖南医学院学报",
+    "url": "http://xuebao.wnmc.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7876,
+    "journal_key": "47f541150389c0a0",
+    "name": "石油与天然气地质",
+    "url": "http://ogg.pepris.com",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 7984,
+    "journal_key": "75a0fdc46703d68c",
+    "name": "社会治理",
+    "url": "https://shzl.bnu.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8374,
+    "journal_key": "92710cdadb25b516",
+    "name": "经济体制改革",
+    "url": "http://jjtzgg.publish.founderss.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8564,
+    "journal_key": "9b5afd3673411f74",
+    "name": "肝博士",
+    "url": "https://gbsh.publish.founderss.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8579,
+    "journal_key": "1e6671a134a2c369",
+    "name": "肿瘤影像学",
+    "url": "http://www.zhongliuyingxiangxue.com",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8671,
+    "journal_key": "61977634bb9ea6fc",
+    "name": "航空制造技术",
+    "url": "https://amte.publish.founderss.cn/homeNav?lang=zh",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8686,
+    "journal_key": "4bef1b87492b1f78",
+    "name": "航空计算技术",
+    "url": "https://hkjj.publish.founderss.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8758,
+    "journal_key": "c801aa010c76c49f",
+    "name": "英语学习（中英文）",
+    "url": "https://yyxx.hssonline.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8871,
+    "journal_key": "ac1bf3a4998eeea5",
+    "name": "西北人口",
+    "url": "http://xbrka.publish.founderss.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 8976,
+    "journal_key": "e6751916f4c04cff",
+    "name": "西部林业科学",
+    "url": "http://xblykx.publish.founderss.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9006,
+    "journal_key": "28edb70a96f3551b",
+    "name": "解放军医学杂志",
+    "url": "http://www.jfjyxzz.org.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9270,
+    "journal_key": "a471d107703a3e19",
+    "name": "软件",
+    "url": "https://software.publish.founderss.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9276,
+    "journal_key": "29508d7f566554eb",
+    "name": "软件导刊",
+    "url": "http://www.rjdk.org.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9280,
+    "journal_key": "b9d543b4463bd00b",
+    "name": "轴承",
+    "url": "http://www.chinabearing.com.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9298,
+    "journal_key": "40be4970af20b432",
+    "name": "辐射研究与辐射工艺学报",
+    "url": "http://www.fs.sinap.ac.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9380,
+    "journal_key": "e38833060ca0405f",
+    "name": "通信与信息网络学报（英文）",
+    "url": "http://www.jcin.com.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9384,
+    "journal_key": "e5be95a84fcc636b",
+    "name": "通信学报",
+    "url": "https://www.joconline.com.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9412,
+    "journal_key": "a9709e4edff3848e",
+    "name": "遥感学报",
+    "url": "http://www.ygxb.ac.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9499,
+    "journal_key": "ca6ca720942d2ddc",
+    "name": "野生动物学报",
+    "url": "http://ysdw.nefu.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9541,
+    "journal_key": "29558cce7158e8f3",
+    "name": "针刺研究",
+    "url": "https://zhenciyanjiu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9577,
+    "journal_key": "259058086e941ed9",
+    "name": "铁路物流",
+    "url": "http://tlwl.crj.com.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9580,
+    "journal_key": "7ff06b8cb48cdc8e",
+    "name": "铁路通信信号工程技术",
+    "url": "http://rsce.crscd.com.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9595,
+    "journal_key": "ef28704342c922d3",
+    "name": "铁道科学与工程学报",
+    "url": "http://jrse.csu.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9600,
+    "journal_key": "3261fa054544392b",
+    "name": "铁道通信信号",
+    "url": "http://tdtxxh.llyj.net",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9627,
+    "journal_key": "02e3b1b9d92a6b30",
+    "name": "长安大学学报（社会科学版）",
+    "url": "http://skxb.chd.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9663,
+    "journal_key": "3c9f46fd573ebd00",
+    "name": "长治医学院学报",
+    "url": "https://xb.czmc.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9709,
+    "journal_key": "67f3adb97c50a040",
+    "name": "陕西学前师范学院学报",
+    "url": "https://xb.snsy.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9721,
+    "journal_key": "ddd54f375003d924",
+    "name": "陕西水利",
+    "url": "http://www.sxslzz.com",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9946,
+    "journal_key": "a458d296797a4a54",
+    "name": "高分子学报",
+    "url": "http://www.gfzxb.org",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9953,
+    "journal_key": "abe3b9552a3979f7",
+    "name": "高压电器",
+    "url": "http://www.zgydq.com",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9954,
+    "journal_key": "8779c10bc58ef784",
+    "name": "高原农业",
+    "url": "http://gyny.publish.founderss.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  },
+  {
+    "source_row": 9999,
+    "journal_key": "3f7427330f9a286f",
+    "name": "高等建筑教育",
+    "url": "http://gdjzjy.com.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "url_signature": null,
+    "evidence": "supplier_label_only"
+  }
+]
