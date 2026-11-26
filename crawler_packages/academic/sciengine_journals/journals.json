@@ -1,0 +1,426 @@
+[
+  {
+    "journal_key": "a2a415ad37482923",
+    "name": "中国科学数据中英文网络版",
+    "core_levels": [
+      "CSTPCD"
+    ],
+    "categories": [
+      "综合性科学技术"
+    ],
+    "catalog_source": "core_c_group_2026-11-24",
+    "url": "https://www.sciengine.com/CSD/home",
+    "official_url": "https://www.sciengine.com/CSD/home",
+    "current_url": "https://www.sciengine.com/CSD/issue/11/3",
+    "json_api": "https://www.sciengine.com/sci-open/api/v1/open/journalVolumeAndIssue/selectArticlesInJournalOfVolumeAndIssue?journalBaseId=99c1761b8bb54e2db4e108f792a39380&volume=11&code=3&isLatest=true",
+    "journal_base_id": "99c1761b8bb54e2db4e108f792a39380",
+    "fla": "CSD",
+    "volume": "11",
+    "issue": "3",
+    "probe_items": 49,
+    "probe_first_title": "2005–2020年千烟洲人工林系统内外气象数据集",
+    "source_type": "official_api",
+    "source_note": "官网 API（SciEngine selectArticlesInJournalOfVolumeAndIssue 公开 JSON）",
+    "data_source": "official_api",
+    "data_source_detail": "SciEngine 当期目次公开 JSON，不下载 PDF",
+    "status": "verified",
+    "note": "当期取卷11期3（官方 current 期，与行内 sample/first_title 一致）；latest 卷11期4仅1条英文网络首发，不作当期",
+    "latest_issue_api": "https://www.sciengine.com/sci-open/api/v1/open/journalVolumeAndIssue/getJournalLatestVolumeAndIssue?journalBaseId=99c1761b8bb54e2db4e108f792a39380",
+    "article_api_template": "https://www.sciengine.com/sci-open/api/v1/open/journalVolumeAndIssue/selectArticlesInJournalOfVolumeAndIssue?journalBaseId=99c1761b8bb54e2db4e108f792a39380&volume={volume}&code={code}&isLatest=true"
+  },
+  {
+    "journal_key": "8b235c89e71721e7",
+    "name": "分子科学学报",
+    "core_levels": [
+      "CSTPCD"
+    ],
+    "categories": [
+      "化学"
+    ],
+    "catalog_source": "core_c_group_2026-11-24",
+    "url": "https://www.sciengine.com/JMoleS/home",
+    "official_url": "https://www.sciengine.com/JMoleS/home",
+    "current_url": "https://www.sciengine.com/JMoleS/issue/42/4",
+    "json_api": "https://www.sciengine.com/sci-open/api/v1/open/journalVolumeAndIssue/selectArticlesInJournalOfVolumeAndIssue?journalBaseId=132247ed32f94abab55c59855361a68f&volume=42&code=4&isLatest=true",
+    "journal_base_id": "132247ed32f94abab55c59855361a68f",
+    "fla": "JMoleS",
+    "volume": "42",
+    "issue": "4",
+    "probe_items": 6,
+    "probe_first_title": "傅-克烷基化构筑高比表面积及孔结构可调的三芳基硼烷多孔芳香骨架",
+    "source_type": "official_api",
+    "source_note": "官网 API（SciEngine selectArticlesInJournalOfVolumeAndIssue 公开 JSON）",
+    "data_source": "official_api",
+    "data_source_detail": "SciEngine 当期目次公开 JSON，不下载 PDF",
+    "status": "verified",
+    "latest_issue_api": "https://www.sciengine.com/sci-open/api/v1/open/journalVolumeAndIssue/getJournalLatestVolumeAndIssue?journalBaseId=132247ed32f94abab55c59855361a68f",
+    "article_api_template": "https://www.sciengine.com/sci-open/api/v1/open/journalVolumeAndIssue/selectArticlesInJournalOfVolumeAndIssue?journalBaseId=132247ed32f94abab55c59855361a68f&volume={volume}&code={code}&isLatest=true"
+  },
+  {
+    "journal_key": "85b4c55efb8b5ad7",
+    "name": "原子核物理评论",
+    "core_levels": [
+      "CSTPCD",
+      "北大核心",
+      "扩展版"
+    ],
+    "categories": [
+      "物理学",
+      "物理学与力学"
+    ],
+    "catalog_source": "core_c_group_2026-11-24",
+    "url": "https://www.sciengine.com/NPR/home",
+    "official_url": "https://www.sciengine.com/NPR",
+    "current_url": "https://www.sciengine.com/NPR/issue/43/3",
+    "json_api": "https://www.sciengine.com/sci-open/api/v1/open/journalVolumeAndIssue/selectArticlesInJournalOfVolumeAndIssue?journalBaseId=d640e7b328ae407694d8db3dfadf6723&volume=43&code=3&isLatest=true",
+    "journal_base_id": "d640e7b328ae407694d8db3dfadf6723",
+    "fla": "NPR",
+    "volume": "43",
+    "issue": "3",
+    "probe_items": 26,
+    "probe_first_title": "第一性原理粒子空穴多体微扰理论",
+    "source_type": "official_api",
+    "source_note": "官网 API（SciEngine selectArticlesInJournalOfVolumeAndIssue 公开 JSON）",
+    "data_source": "official_api",
+    "data_source_detail": "SciEngine 当期目次公开 JSON，不下载 PDF",
+    "status": "verified",
+    "latest_issue_api": "https://www.sciengine.com/sci-open/api/v1/open/journalVolumeAndIssue/getJournalLatestVolumeAndIssue?journalBaseId=d640e7b328ae407694d8db3dfadf6723",
+    "article_api_template": "https://www.sciengine.com/sci-open/api/v1/open/journalVolumeAndIssue/selectArticlesInJournalOfVolumeAndIssue?journalBaseId=d640e7b328ae407694d8db3dfadf6723&volume={volume}&code={code}&isLatest=true"
+  },
+  {
+    "journal_key": "93228fce19fb1a2e",
+    "name": "古生物学报",
+    "core_levels": [
+      "CSCD",
+      "CSTPCD",
+      "北大核心"
+    ],
+    "categories": [
+      "地球科学",
+      "生物科学"
+    ],
+    "catalog_source": "core_c_group_2026-11-24",
+    "url": "https://www.sciengine.com/ActaPalaSin/home",
+    "official_url": "https://www.sciengine.com/ActaPalaSin",
+    "current_url": "https://www.sciengine.com/ActaPalaSin/issue/65/1",
+    "json_api": "https://www.sciengine.com/sci-open/api/v1/open/journalVolumeAndIssue/selectArticlesInJournalOfVolumeAndIssue?journalBaseId=f63ee0622702448b9b3b63915b9b9747&volume=65&code=1&isLatest=true",
+    "journal_base_id": "f63ee0622702448b9b3b63915b9b9747",
+    "fla": "ActaPalaSin",
+    "volume": "65",
+    "issue": "1",
+    "probe_items": 8,
+    "probe_first_title": "寒武纪澄江生物群鳃曳动物Selkirkia尾肢结构及其生态模式新认识",
+    "source_type": "official_api",
+    "source_note": "官网 API（SciEngine selectArticlesInJournalOfVolumeAndIssue 公开 JSON）",
+    "data_source": "official_api",
+    "data_source_detail": "SciEngine 当期目次公开 JSON，不下载 PDF",
+    "status": "verified",
+    "latest_issue_api": "https://www.sciengine.com/sci-open/api/v1/open/journalVolumeAndIssue/getJournalLatestVolumeAndIssue?journalBaseId=f63ee0622702448b9b3b63915b9b9747",
+    "article_api_template": "https://www.sciengine.com/sci-open/api/v1/open/journalVolumeAndIssue/selectArticlesInJournalOfVolumeAndIssue?journalBaseId=f63ee0622702448b9b3b63915b9b9747&volume={volume}&code={code}&isLatest=true"
+  },
+  {
+    "journal_key": "b85cac1cb2958ea4",
+    "name": "合成化学",
+    "core_levels": [
+      "CSTPCD"
+    ],
+    "categories": [
+      "化学"
+    ],
+    "catalog_source": "core_c_group_2026-11-24",
+    "url": "https://www.sciengine.com/CJSC/home",
+    "official_url": "https://www.sciengine.com/CJSC/home",
+    "current_url": "https://www.sciengine.com/CJSC/issue/34/10",
+    "json_api": "https://www.sciengine.com/sci-open/api/v1/open/journalVolumeAndIssue/selectArticlesInJournalOfVolumeAndIssue?journalBaseId=f9fb8cb710744848a0ae9942f48daef0&volume=34&code=10&isLatest=true",
+    "journal_base_id": "f9fb8cb710744848a0ae9942f48daef0",
+    "fla": "CJSC",
+    "volume": "34",
+    "issue": "10",
+    "probe_items": 7,
+    "probe_first_title": "钯催化[3+2]环加成反应构建咪唑烷酮类化合物",
+    "source_type": "official_api",
+    "source_note": "官网 API（SciEngine selectArticlesInJournalOfVolumeAndIssue 公开 JSON）",
+    "data_source": "official_api",
+    "data_source_detail": "SciEngine 当期目次公开 JSON，不下载 PDF",
+    "status": "verified",
+    "latest_issue_api": "https://www.sciengine.com/sci-open/api/v1/open/journalVolumeAndIssue/getJournalLatestVolumeAndIssue?journalBaseId=f9fb8cb710744848a0ae9942f48daef0",
+    "article_api_template": "https://www.sciengine.com/sci-open/api/v1/open/journalVolumeAndIssue/selectArticlesInJournalOfVolumeAndIssue?journalBaseId=f9fb8cb710744848a0ae9942f48daef0&volume={volume}&code={code}&isLatest=true"
+  },
+  {
+    "journal_key": "a48d3b84257ff923",
+    "name": "固体电子学研究与进展",
+    "core_levels": [
+      "CSTPCD"
+    ],
+    "categories": [
+      "电子与自动控制"
+    ],
+    "catalog_source": "core_c_group_2026-11-24",
+    "url": "https://www.sciengine.com/GTDZX/home",
+    "official_url": "https://www.sciengine.com/GTDZX/home",
+    "current_url": "https://www.sciengine.com/GTDZX/issue/46/4",
+    "json_api": "https://www.sciengine.com/sci-open/api/v1/open/journalVolumeAndIssue/selectArticlesInJournalOfVolumeAndIssue?journalBaseId=22c3f6852bf14479990036ff03707862&volume=46&code=4&isLatest=true",
+    "journal_base_id": "22c3f6852bf14479990036ff03707862",
+    "fla": "GTDZX",
+    "volume": "46",
+    "issue": "4",
+    "probe_items": 17,
+    "probe_first_title": "Recent Advances in the Integration of RF Microsystems Using Advanced Packaging Technologies",
+    "source_type": "official_api",
+    "source_note": "官网 API（SciEngine selectArticlesInJournalOfVolumeAndIssue 公开 JSON）",
+    "data_source": "official_api",
+    "data_source_detail": "SciEngine 当期目次公开 JSON，不下载 PDF；列表接口无摘要",
+    "status": "verified",
+    "latest_issue_api": "https://www.sciengine.com/sci-open/api/v1/open/journalVolumeAndIssue/getJournalLatestVolumeAndIssue?journalBaseId=22c3f6852bf14479990036ff03707862",
+    "article_api_template": "https://www.sciengine.com/sci-open/api/v1/open/journalVolumeAndIssue/selectArticlesInJournalOfVolumeAndIssue?journalBaseId=22c3f6852bf14479990036ff03707862&volume={volume}&code={code}&isLatest=true"
+  },
+  {
+    "journal_key": "ed8cd492a666cc73",
+    "name": "新型炭材料",
+    "name_aliases": [
+      "新型炭材料(中英文)(曾用名:新型炭材料)"
+    ],
+    "core_levels": [
+      "CSTPCD",
+      "北大核心"
+    ],
+    "categories": [
+      "材料科学",
+      "其他化工"
+    ],
+    "catalog_source": "core_c_group_2026-11-24",
+    "url": "https://www.sciengine.com/NCM/home",
+    "official_url": "https://www.sciengine.com/NCM/home",
+    "current_url": "https://www.sciengine.com/NCM/issue/41/5",
+    "json_api": "https://www.sciengine.com/sci-open/api/v1/open/journalVolumeAndIssue/selectArticlesInJournalOfVolumeAndIssue?journalBaseId=92873af084b34ea0aabe36afc8068388&volume=41&code=5&isLatest=true",
+    "journal_base_id": "92873af084b34ea0aabe36afc8068388",
+    "fla": "NCM",
+    "volume": "41",
+    "issue": "5",
+    "probe_items": 17,
+    "probe_first_title": "石墨烯基热界面材料的制备与结构调控研究进展",
+    "source_type": "official_api",
+    "source_note": "官网 API（SciEngine selectArticlesInJournalOfVolumeAndIssue 公开 JSON）",
+    "data_source": "official_api",
+    "data_source_detail": "SciEngine 当期目次公开 JSON，不下载 PDF",
+    "status": "verified",
+    "note": "与「新型炭材料(中英文)(曾用名:新型炭材料)」同刊同入口，已按 current_url 合并；核心级别/学科取两条目录行的并集",
+    "latest_issue_api": "https://www.sciengine.com/sci-open/api/v1/open/journalVolumeAndIssue/getJournalLatestVolumeAndIssue?journalBaseId=92873af084b34ea0aabe36afc8068388",
+    "article_api_template": "https://www.sciengine.com/sci-open/api/v1/open/journalVolumeAndIssue/selectArticlesInJournalOfVolumeAndIssue?journalBaseId=92873af084b34ea0aabe36afc8068388&volume={volume}&code={code}&isLatest=true"
+  },
+  {
+    "journal_key": "6c2a3053752a74d4",
+    "name": "植物生理学报",
+    "core_levels": [
+      "CSCD",
+      "CSTPCD",
+      "北大核心"
+    ],
+    "categories": [
+      "植物学",
+      "生物学"
+    ],
+    "catalog_source": "core_c_group_2026-11-24",
+    "url": "https://www.sciengine.com/PPJ/home",
+    "official_url": "https://www.sciengine.com/PPJ",
+    "current_url": "https://www.sciengine.com/PPJ/issue/62/9",
+    "json_api": "https://www.sciengine.com/sci-open/api/v1/open/journalVolumeAndIssue/selectArticlesInJournalOfVolumeAndIssue?journalBaseId=420b845537a34d2db31e4cd16d0e680c&volume=62&code=9&isLatest=true",
+    "journal_base_id": "420b845537a34d2db31e4cd16d0e680c",
+    "fla": "PPJ",
+    "volume": "62",
+    "issue": "9",
+    "probe_items": 10,
+    "probe_first_title": "橡胶树对低温胁迫的响应以及耐寒性评价的研究进展",
+    "source_type": "official_api",
+    "source_note": "官网 API（SciEngine selectArticlesInJournalOfVolumeAndIssue 公开 JSON）",
+    "data_source": "official_api",
+    "data_source_detail": "SciEngine 当期目次公开 JSON，不下载 PDF",
+    "status": "verified",
+    "latest_issue_api": "https://www.sciengine.com/sci-open/api/v1/open/journalVolumeAndIssue/getJournalLatestVolumeAndIssue?journalBaseId=420b845537a34d2db31e4cd16d0e680c",
+    "article_api_template": "https://www.sciengine.com/sci-open/api/v1/open/journalVolumeAndIssue/selectArticlesInJournalOfVolumeAndIssue?journalBaseId=420b845537a34d2db31e4cd16d0e680c&volume={volume}&code={code}&isLatest=true"
+  },
+  {
+    "journal_key": "cf8a6fd80037d70e",
+    "name": "河南科学",
+    "core_levels": [
+      "CSTPCD"
+    ],
+    "categories": [
+      "综合性科学技术"
+    ],
+    "catalog_source": "core_c_group_2026-11-24",
+    "url": "https://www.sciengine.com/HNKX/home",
+    "official_url": "https://www.sciengine.com/HNKX/home",
+    "current_url": "https://www.sciengine.com/HNKX/issue/44/5",
+    "json_api": "https://www.sciengine.com/sci-open/api/v1/open/journalVolumeAndIssue/selectArticlesInJournalOfVolumeAndIssue?journalBaseId=839e02b2361e4af189a7a0a17e9fc1e5&volume=44&code=5&isLatest=true",
+    "journal_base_id": "839e02b2361e4af189a7a0a17e9fc1e5",
+    "fla": "HNKX",
+    "volume": "44",
+    "issue": "5",
+    "probe_items": 22,
+    "probe_first_title": "近优翻箱引导的Q-learning箱位分配算法",
+    "source_type": "official_api",
+    "source_note": "官网 API（SciEngine selectArticlesInJournalOfVolumeAndIssue 公开 JSON）",
+    "data_source": "official_api",
+    "data_source_detail": "SciEngine 当期目次公开 JSON，不下载 PDF",
+    "status": "verified",
+    "latest_issue_api": "https://www.sciengine.com/sci-open/api/v1/open/journalVolumeAndIssue/getJournalLatestVolumeAndIssue?journalBaseId=839e02b2361e4af189a7a0a17e9fc1e5",
+    "article_api_template": "https://www.sciengine.com/sci-open/api/v1/open/journalVolumeAndIssue/selectArticlesInJournalOfVolumeAndIssue?journalBaseId=839e02b2361e4af189a7a0a17e9fc1e5&volume={volume}&code={code}&isLatest=true"
+  },
+  {
+    "journal_key": "1b8f9acf33ba5c52",
+    "name": "燃料化学学报",
+    "name_aliases": [
+      "燃料化学学报(中英文)(曾用名:燃料化学学报)"
+    ],
+    "core_levels": [
+      "CSTPCD",
+      "北大核心"
+    ],
+    "categories": [
+      "化学",
+      "其他化工"
+    ],
+    "catalog_source": "core_c_group_2026-11-24",
+    "url": "https://www.sciengine.com/JFCT/home",
+    "official_url": "https://www.sciengine.com/JFCT/home",
+    "current_url": "https://www.sciengine.com/JFCT/issue/54/11",
+    "json_api": "https://www.sciengine.com/sci-open/api/v1/open/journalVolumeAndIssue/selectArticlesInJournalOfVolumeAndIssue?journalBaseId=6b16fa23f9344ef69827630e0e37d7f6&volume=54&code=11&isLatest=true",
+    "journal_base_id": "6b16fa23f9344ef69827630e0e37d7f6",
+    "fla": "JFCT",
+    "volume": "54",
+    "issue": "11",
+    "probe_items": 18,
+    "probe_first_title": "面向CO与NOx协同脱除的CO-SCR催化体系表面调控机理研究进展",
+    "source_type": "official_api",
+    "source_note": "官网 API（SciEngine selectArticlesInJournalOfVolumeAndIssue 公开 JSON）",
+    "data_source": "official_api",
+    "data_source_detail": "SciEngine 当期目次公开 JSON，不下载 PDF",
+    "status": "verified",
+    "note": "与「燃料化学学报(中英文)(曾用名:燃料化学学报)」同刊同入口，已按 current_url 合并；核心级别/学科取两条目录行的并集",
+    "latest_issue_api": "https://www.sciengine.com/sci-open/api/v1/open/journalVolumeAndIssue/getJournalLatestVolumeAndIssue?journalBaseId=6b16fa23f9344ef69827630e0e37d7f6",
+    "article_api_template": "https://www.sciengine.com/sci-open/api/v1/open/journalVolumeAndIssue/selectArticlesInJournalOfVolumeAndIssue?journalBaseId=6b16fa23f9344ef69827630e0e37d7f6&volume={volume}&code={code}&isLatest=true"
+  },
+  {
+    "journal_key": "b091eaadec1bbf73",
+    "name": "环境工程学报",
+    "core_levels": [
+      "CSTPCD",
+      "北大核心",
+      "扩展版"
+    ],
+    "categories": [
+      "环境与安全科学",
+      "环境科学"
+    ],
+    "catalog_source": "core_c_group_2026-11-24",
+    "url": "https://www.sciengine.com/CJEE/home",
+    "official_url": "https://www.sciengine.com/CJEE/home",
+    "current_url": "https://www.sciengine.com/CJEE/issue/20/10",
+    "json_api": "https://www.sciengine.com/sci-open/api/v1/open/journalVolumeAndIssue/selectArticlesInJournalOfVolumeAndIssue?journalBaseId=mtTudCbtocXmYwi2s&volume=20&code=10&isLatest=true",
+    "journal_base_id": "mtTudCbtocXmYwi2s",
+    "fla": "CJEE",
+    "volume": "20",
+    "issue": "10",
+    "probe_items": 36,
+    "probe_first_title": "美丽河湖保护与建设的科学内涵与发展趋势",
+    "source_type": "official_api",
+    "source_note": "官网 API（SciEngine selectArticlesInJournalOfVolumeAndIssue 公开 JSON）",
+    "data_source": "official_api",
+    "data_source_detail": "SciEngine 当期目次公开 JSON，不下载 PDF",
+    "status": "verified",
+    "latest_issue_api": "https://www.sciengine.com/sci-open/api/v1/open/journalVolumeAndIssue/getJournalLatestVolumeAndIssue?journalBaseId=mtTudCbtocXmYwi2s",
+    "article_api_template": "https://www.sciengine.com/sci-open/api/v1/open/journalVolumeAndIssue/selectArticlesInJournalOfVolumeAndIssue?journalBaseId=mtTudCbtocXmYwi2s&volume={volume}&code={code}&isLatest=true"
+  },
+  {
+    "journal_key": "9e040efd13654a92",
+    "name": "生命的化学",
+    "core_levels": [
+      "CSTPCD"
+    ],
+    "categories": [
+      "生物学"
+    ],
+    "catalog_source": "core_c_group_2026-11-24",
+    "url": "https://www.sciengine.com/CL/home",
+    "official_url": "https://www.sciengine.com/CL/aboutus",
+    "current_url": "https://www.sciengine.com/CL/issue/46/7",
+    "json_api": "https://www.sciengine.com/sci-open/api/v1/open/journalVolumeAndIssue/selectArticlesInJournalOfVolumeAndIssue?journalBaseId=e43ab09a2b0e4ac699b08047bfc759f8&volume=46&code=7&isLatest=true",
+    "journal_base_id": "e43ab09a2b0e4ac699b08047bfc759f8",
+    "fla": "CL",
+    "volume": "46",
+    "issue": "7",
+    "probe_items": 22,
+    "probe_first_title": "中药成分靶点的筛选技术",
+    "source_type": "official_api",
+    "source_note": "官网 API（SciEngine selectArticlesInJournalOfVolumeAndIssue 公开 JSON）",
+    "data_source": "official_api",
+    "data_source_detail": "SciEngine 当期目次公开 JSON，不下载 PDF",
+    "status": "verified",
+    "note": "当期取卷46期7（官方 current 期，与行内 sample/first_title 一致）；latest 卷46期11为另一批文章，不作当期",
+    "latest_issue_api": "https://www.sciengine.com/sci-open/api/v1/open/journalVolumeAndIssue/getJournalLatestVolumeAndIssue?journalBaseId=e43ab09a2b0e4ac699b08047bfc759f8",
+    "article_api_template": "https://www.sciengine.com/sci-open/api/v1/open/journalVolumeAndIssue/selectArticlesInJournalOfVolumeAndIssue?journalBaseId=e43ab09a2b0e4ac699b08047bfc759f8&volume={volume}&code={code}&isLatest=true"
+  },
+  {
+    "journal_key": "2aa4728885d150a2",
+    "name": "生态毒理学报",
+    "core_levels": [
+      "CSTPCD",
+      "北大核心",
+      "扩展版"
+    ],
+    "categories": [
+      "环境与安全科学",
+      "环境科学"
+    ],
+    "catalog_source": "core_c_group_2026-11-24",
+    "url": "https://www.sciengine.com/AJE/home",
+    "official_url": "https://www.sciengine.com/AJE/home",
+    "current_url": "https://www.sciengine.com/AJE/issue/21/5",
+    "json_api": "https://www.sciengine.com/sci-open/api/v1/open/journalVolumeAndIssue/selectArticlesInJournalOfVolumeAndIssue?journalBaseId=fa752131450047e0ac1a1722ae949f11&volume=21&code=5&isLatest=true",
+    "journal_base_id": "fa752131450047e0ac1a1722ae949f11",
+    "fla": "AJE",
+    "volume": "21",
+    "issue": "5",
+    "probe_items": 39,
+    "probe_first_title": "水体污染物毒性预测及综合风险评估平台及其应用——以全氟及多氟烷基化合物（PFAS）为例",
+    "source_type": "official_api",
+    "source_note": "官网 API（SciEngine selectArticlesInJournalOfVolumeAndIssue 公开 JSON）",
+    "data_source": "official_api",
+    "data_source_detail": "SciEngine 当期目次公开 JSON，不下载 PDF",
+    "status": "verified",
+    "latest_issue_api": "https://www.sciengine.com/sci-open/api/v1/open/journalVolumeAndIssue/getJournalLatestVolumeAndIssue?journalBaseId=fa752131450047e0ac1a1722ae949f11",
+    "article_api_template": "https://www.sciengine.com/sci-open/api/v1/open/journalVolumeAndIssue/selectArticlesInJournalOfVolumeAndIssue?journalBaseId=fa752131450047e0ac1a1722ae949f11&volume={volume}&code={code}&isLatest=true"
+  },
+  {
+    "journal_key": "bc2a09d5b761f0a4",
+    "name": "矿物岩石地球化学通报",
+    "core_levels": [
+      "CSCD",
+      "CSTPCD",
+      "北大核心"
+    ],
+    "categories": [
+      "地球科学",
+      "地质"
+    ],
+    "catalog_source": "core_c_group_2026-11-24",
+    "url": "https://www.sciengine.com/BMPG/home",
+    "official_url": "http://www.bmpg.ac.cn/",
+    "current_url": "https://www.sciengine.com/BMPG/issue/45/5",
+    "json_api": "https://www.sciengine.com/sci-open/api/v1/open/journalVolumeAndIssue/selectArticlesInJournalOfVolumeAndIssue?journalBaseId=c1ca05087017497f9e9f24ce4a44869a&volume=45&code=5&isLatest=true",
+    "journal_base_id": "c1ca05087017497f9e9f24ce4a44869a",
+    "fla": "BMPG",
+    "volume": "45",
+    "issue": "5",
+    "probe_items": 36,
+    "probe_first_title": "活动断裂带土壤气氡的释放机制及其在地震监测中的应用",
+    "source_type": "official_api",
+    "source_note": "官网 API（SciEngine selectArticlesInJournalOfVolumeAndIssue 公开 JSON）",
+    "data_source": "official_api",
+    "data_source_detail": "SciEngine 当期目次公开 JSON，不下载 PDF",
+    "status": "verified",
+    "latest_issue_api": "https://www.sciengine.com/sci-open/api/v1/open/journalVolumeAndIssue/getJournalLatestVolumeAndIssue?journalBaseId=c1ca05087017497f9e9f24ce4a44869a",
+    "article_api_template": "https://www.sciengine.com/sci-open/api/v1/open/journalVolumeAndIssue/selectArticlesInJournalOfVolumeAndIssue?journalBaseId=c1ca05087017497f9e9f24ce4a44869a&volume={volume}&code={code}&isLatest=true"
+  }
+]

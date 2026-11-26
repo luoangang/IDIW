@@ -2,6 +2,8 @@ let assistantSources=[],assistantHistory=[],assistantPlan=null,assistantApproval
 let assistantBusy=false,assistantConfigured=false,assistantSourceEditing=null,assistantCreating=false;
 const assistantModes={keyword:'关键词检索',feed:'RSS 订阅匹配',identifier:'编号查询',site:'全站采集',unknown:'未登记'};
 const assistantPost=(path,body)=>api(`/api/v1/assistant/${path}`,{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify(body)});
+const assistantHelpBadge=source=>{const help=source&&(source.help||source.description);return help?`<span class="package-help" title="${escapeHtml(help)}">说明</span>`:''};
+const assistantDataBadges=source=>{const parts=[];if(source&&source.meta_tag)parts.push(`<span class="package-data meta" title="${escapeHtml(source.meta_help||'')}">${escapeHtml(source.meta_tag)}</span>`);if(source&&source.pdf_tag){const cls=String(source.pdf_tag).includes('链接')?'pdf':'no-pdf';parts.push(`<span class="package-data ${cls}" title="${escapeHtml(source.pdf_help||'')}">${escapeHtml(source.pdf_tag)}</span>`)}return parts.join('')};
 
 function renderAssistantChat(pending=''){
   const container=$('assistantMessages');container.replaceChildren();
@@ -26,7 +28,7 @@ function renderAssistantSources(){
   const ordered=[...assistantSources].sort((a,b)=>selectedWeight(b)-selectedWeight(a));
   $('assistantSourceRows').innerHTML=ordered.map(source=>{
     const setting=selected.get(source.package_key),enabled=source.supported&&Boolean(setting&&setting.enabled!==false);
-    return `<tr data-assistant-source="${escapeHtml(source.package_key)}"><td><input type="checkbox" class="assistant-source-enabled" aria-label="启用${escapeHtml(source.name)}" ${enabled?'checked':''} ${source.supported?'':'disabled'}></td><td><div class="source-name">${escapeHtml(source.name)}</div><div class="source-meta">${escapeHtml(assistantModes[source.profile.mode]||source.profile.mode)}</div></td><td><input type="number" class="assistant-source-limit" min="1" max="10000" step="1" value="${escapeHtml(Number.isInteger(setting?.item_limit)?setting.item_limit:100)}" aria-label="${escapeHtml(source.name)}单次上限" ${enabled?'':'disabled'}></td><td><button type="button" class="secondary" data-assistant-parameters="${escapeHtml(source.package_key)}" ${enabled?'':'disabled'}>参数</button></td></tr>`;
+    return `<tr data-assistant-source="${escapeHtml(source.package_key)}"><td><input type="checkbox" class="assistant-source-enabled" aria-label="启用${escapeHtml(source.name)}" ${enabled?'checked':''} ${source.supported?'':'disabled'}></td><td><div class="source-name">${escapeHtml(source.name)}${assistantHelpBadge(source)}${assistantDataBadges(source)}</div><div class="source-meta">${escapeHtml(assistantModes[source.profile.mode]||source.profile.mode)}</div></td><td><input type="number" class="assistant-source-limit" min="1" max="10000" step="1" value="${escapeHtml(Number.isInteger(setting?.item_limit)?setting.item_limit:100)}" aria-label="${escapeHtml(source.name)}单次上限" ${enabled?'':'disabled'}></td><td><button type="button" class="secondary" data-assistant-parameters="${escapeHtml(source.package_key)}" ${enabled?'':'disabled'}>参数</button></td></tr>`;
   }).join('')||'<tr><td colspan="4" class="empty">没有可用采集来源</td></tr>';
 }
 

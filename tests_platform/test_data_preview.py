@@ -1,4 +1,5 @@
 import unittest
+from pathlib import Path
 from types import SimpleNamespace
 from unittest.mock import MagicMock, patch
 
@@ -75,6 +76,30 @@ class DataPreviewTests(unittest.TestCase):
         self.assertEqual(200, response.status_code)
         store.preview_records.assert_called_once_with(monitor_id=7, package_key="example", query="AI", page=2, limit=25)
         self.assertEqual(422, client.get("/api/v1/data?page=invalid").status_code)
+
+    def test_api_passes_since_and_change_filters(self):
+        store = MagicMock()
+        store.preview_records.return_value = {"items": [], "total": 0, "page": 1, "limit": 25}
+        client = create_app(SETTINGS, store).test_client()
+        response = client.get("/api/v1/data?source=example&since=2026-11-25T00:00:00.000Z&change=updated")
+        self.assertEqual(200, response.status_code)
+        store.preview_records.assert_called_once_with(
+            monitor_id=None, package_key="example", query="", page=1, limit=25,
+            since="2026-11-25T00:00:00.000Z", change="updated",
+        )
+        store.preview_records.side_effect = ValueError("unknown change filter")
+        self.assertEqual(422, client.get("/api/v1/data?change=bogus").status_code)
+
+    def test_dashboard_data_page_exposes_change_filter_and_change_times(self):
+        markup = (Path(__file__).resolve().parents[1] / "crawler_platform" / "dashboard.html").read_text(encoding="utf-8")
+        for snippet in ('id="dataChange"', '<option value="changed">今天有变动</option>',
+                        "<th>首次发现</th>", "<th>最近更新</th>",
+                        "row.first_seen_at", "row.last_changed_at", "row.is_new", "row.is_updated",
+                        'colspan="6"'):
+            with self.subTest(snippet=snippet):
+                self.assertIn(snippet, markup)
+        self.assertNotIn('<option value="new">', markup)
+        self.assertNotIn('<option value="updated">', markup)
 
 
 if __name__ == "__main__":

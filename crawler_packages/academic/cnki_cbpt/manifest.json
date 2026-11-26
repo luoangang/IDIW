@@ -1,19 +1,105 @@
 {
   "protocol_version": "1.0",
   "package_key": "cnki_cbpt",
-  "package_version": "1.0.1",
+  "package_version": "1.12.7",
   "name": "知网期刊门户（CBPT 模板）",
-  "description": "按关键词检索 cbpt.cnki.net 期刊门户，逐刊提取文章元数据",
+  "description": "按关键词检索或读取当期目次，逐刊提取 cbpt.cnki.net 期刊门户文章元数据",
   "category": "academic",
-  "runtime": {"type": "python", "python_version": "3.14", "entrypoint": "crawler.py", "dependencies": "requirements.lock"},
-  "capabilities": {"incremental": false},
+  "runtime": {
+    "type": "python",
+    "python_version": "3.14",
+    "entrypoint": "crawler.py",
+    "dependencies": "requirements.lock"
+  },
+  "capabilities": {
+    "incremental": false
+  },
   "parameters_schema": {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "type": "object",
     "properties": {
-      "journal_keys": {"type": "array", "minItems": 1, "maxItems": 30, "uniqueItems": true, "items": {"type": "string", "minLength": 16, "maxLength": 16}, "default": ["40ef15e1a2fb290f", "33bbac1cb397cca0", "56a780a5c8cc7659"]},
-      "per_journal_limit": {"type": "integer", "minimum": 1, "maximum": 500, "default": 20},
-      "timeout_seconds": {"type": "integer", "minimum": 5, "maximum": 60, "default": 20}
+      "journal_keys": {
+        "type": "array",
+        "minItems": 1,
+        "maxItems": 846,
+        "uniqueItems": true,
+        "items": {
+          "type": "string",
+          "minLength": 16,
+          "maxLength": 16
+        },
+        "default": [
+          "40ef15e1a2fb290f",
+          "33bbac1cb397cca0",
+          "56a780a5c8cc7659",
+          "66b7d5e8aeea0d60",
+          "f74bf2b95858a406",
+          "a73a0f82f4e1ce47",
+          "18ff7eeafd81f5dd",
+          "3c825e6fbb774765",
+          "b3ddfb2a9885ff20",
+          "ea65f5faeeb80978",
+          "e5320b7a13df13d2",
+          "140227682122a471",
+          "2caf7d9ece620fd5",
+          "e887d41d6bf77294",
+          "cf0cac258a8e5de4",
+          "2c727d98a8c41c33",
+          "bba5c2a1b7fc1ac1",
+          "0eb7f261772bc966",
+          "000be15418496947",
+          "cb2b250208ed1388",
+          "cdbc5edffa0701d5",
+          "ad430c19023dd2d3",
+          "f6fd0c1ff6426846",
+          "0a48fb3e1c752e9c",
+          "f7980d7eb837a410",
+          "1341006ec5e918ba",
+          "8e32f50f82f107bd",
+          "3c263300561959fe",
+          "0e718dbeb682b4e7",
+          "91b422ec006526e8"
+        ]
+      },
+      "collect_mode": {
+        "type": "string",
+        "enum": [
+          "keywords",
+          "latest_issue"
+        ],
+        "default": "keywords"
+      },
+      "per_journal_limit": {
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 500,
+        "default": 20
+      },
+      "enrich_abstract": {
+        "type": "boolean",
+        "default": true,
+        "description": "latest_issue 模式下为 WK 型期刊逐条补取 paperDigest.aspx 摘要（复用列表页匿名会话）"
+      },
+      "abstract_enrich_limit": {
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 10,
+        "default": 5,
+        "description": "每刊最多补取摘要的条数；0 表示不补取"
+      },
+      "max_pages_per_journal": {
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 40,
+        "default": 20,
+        "description": "latest_issue 模式下每刊最多读取的当期页数（含首页），实际页数取该值与分页控件最大页码的较小者"
+      },
+      "timeout_seconds": {
+        "type": "integer",
+        "minimum": 5,
+        "maximum": 60,
+        "default": 20
+      }
     },
     "additionalProperties": false
   },
@@ -21,18 +107,70 @@
   "output_schema_version": 1,
   "output_schema": {
     "fields": [
-      {"name": "journal_key", "type": "string", "max_length": 16, "nullable": false},
-      {"name": "journal_name", "type": "string", "max_length": 255, "nullable": false},
-      {"name": "journal_url", "type": "text", "nullable": false},
-      {"name": "external_id", "type": "string", "max_length": 128, "nullable": false},
-      {"name": "title", "type": "string", "max_length": 1000, "nullable": false},
-      {"name": "url", "type": "text", "nullable": false},
-      {"name": "authors", "type": "text", "nullable": true},
-      {"name": "abstract", "type": "text", "nullable": true},
-      {"name": "issue", "type": "string", "max_length": 255, "nullable": true}
+      {
+        "name": "journal_key",
+        "type": "string",
+        "max_length": 16,
+        "nullable": false
+      },
+      {
+        "name": "journal_name",
+        "type": "string",
+        "max_length": 255,
+        "nullable": false
+      },
+      {
+        "name": "journal_url",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "external_id",
+        "type": "string",
+        "max_length": 128,
+        "nullable": false
+      },
+      {
+        "name": "title",
+        "type": "string",
+        "max_length": 1000,
+        "nullable": false
+      },
+      {
+        "name": "url",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "authors",
+        "type": "text",
+        "nullable": true
+      },
+      {
+        "name": "abstract",
+        "type": "text",
+        "nullable": true
+      },
+      {
+        "name": "issue",
+        "type": "string",
+        "max_length": 255,
+        "nullable": true
+      }
     ],
-    "identity_fields": ["journal_key", "external_id"],
-    "indexes": [["journal_key"]],
-    "mapping": {"title": "title", "url": "url", "summary": "abstract"}
+    "identity_fields": [
+      "journal_key",
+      "external_id"
+    ],
+    "indexes": [
+      [
+        "journal_key"
+      ]
+    ],
+    "mapping": {
+      "title": "title",
+      "url": "url",
+      "summary": "abstract"
+    }
   }
 }

@@ -1,0 +1,10 @@
+journal_name,journal_key,target_package,items,first_title,core_levels,categories,source,notes
+系统工程,cf5d7d21b37d886b,custom_toc_journals,10,数据风险管理：演化特征、治理挑战与趋势展望,北大核心;CSCD扩展;AMI扩展;WJCI,基础科学;经济与管理科学,官网首页本期目录,题录级；文章链接为 CNKI kcms2 摘要页（详情可能验证码）；relaxed_title_filter
+中国园林,c9309ee32a6076cc,qinyun_journals,19,大尺度景观系统治理：理论框架与核心命题,北大核心;CSCD扩展;AMI扩展;WJCI,工程科技Ⅱ辑,官网当期目次,勤云 issue_list 2026年第10期；摘要需详情页
+控制理论与应用,7a76e5f54fc4c89f,magetech_journals,21,复杂动力学约束平流层飞艇控制研究综述,北大核心;CSCD;CAS;EI;INSPEC;Pж(AJ);WJCI,信息科技,官网当期目次,玛格泰克 issue_list 2026年第10期；过滤排行榜侧栏与目录标签
+农村金融研究,e5320b7a13df13d2,cnki_cbpt,6,推动农文旅融合高质量发展的需求及其对金融支持的启示,北大核心;AMI核心,经济与管理科学,知网WKH3题录,2026年第10期；paperDigest 摘要需验证码，摘要 best-effort
+高教探索,140227682122a471,cnki_cbpt,17,人工智能时代高校工科拔尖创新人才培养——面向卓越工程能力的育人逻辑重构与生态重塑,北大核心;CSSCI扩展版;AMI扩展,社会科学Ⅱ辑,知网CBPT门户当期,2026年第11期/2页；含摘要
+中华中医药学刊,2caf7d9ece620fd5,cnki_cbpt,46,凋亡因子TRAIL、Caspase-3在不明原因复发性流产肾虚血瘀证患者中的表达及临床意义,北大核心;CSCD扩展;CAS;WJCI,医药卫生科技,知网CBPT门户当期,2026年第11期/5页；含摘要
+工程科学与技术,3799964d7c0d3e2f,rhzh_journals,32,面向城市轨道交通系统的网络安全智能防御关键技术研究构想与成果展望,北大核心;CSCD;CAS;EI;Pж(AJ);WJCI,工程科技Ⅱ辑,官网当期目次,仁和汇智 resName 模板；含内联摘要；parser 增加 gzip/resName 支持
+水文地质工程地质,4de981cdcc1014c0,rhzh_journals,24,含水程度对砂岩岩爆能量演化规律的影响机制,北大核心;CSCD;CAS;WJCI;卓越期刊,基础科学,官网当期目次,仁和汇智当期；摘要详情页 best-effort
+现代大学教育,f753891e78259661,rhzh_journals,11,数智时代过渡劳动的挑战与高等教育的应对,北大核心;CSSCI;AMI核心,社会科学Ⅱ辑,官网当期目次,仁和汇智当期；相对 article/id 链接；parser 允许相对链接

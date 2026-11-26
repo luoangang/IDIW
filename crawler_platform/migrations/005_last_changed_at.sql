@@ -1,0 +1,22 @@
+-- Migration 005: per-record data change tracking for package data tables.
+--
+-- Package data tables are created dynamically (`pkg_data_######`), so the ALTER
+-- statements are executed by PlatformStore._migrate_last_changed_at() for every
+-- installed package table. This file is the static marker/manifest of the
+-- migration; its checksum is recorded in schema_migrations(version='5').
+--
+-- Per data table (only when the columns are missing):
+--   ALTER TABLE `pkg_data_######`
+--     ADD COLUMN sys_last_changed_at DATETIME(6) NULL AFTER sys_last_seen_at,
+--     ADD COLUMN sys_change_count INT UNSIGNED NOT NULL DEFAULT 0 AFTER sys_last_changed_at;
+--
+-- Backfill of pre-existing rows (idempotent, only rows not yet tracked):
+--   UPDATE `pkg_data_######`
+--      SET sys_last_changed_at=sys_last_seen_at, sys_change_count=1
+--    WHERE sys_last_changed_at IS NULL;
+--
+-- Index (only when missing):
+--   ALTER TABLE `pkg_data_######` ADD INDEX idx_last_changed (sys_last_changed_at,sys_id);
+--
+-- New tables created by PlatformStore._create_table_sql() already include both
+-- columns and the index.

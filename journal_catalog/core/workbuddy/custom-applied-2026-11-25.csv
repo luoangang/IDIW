@@ -1,0 +1,38 @@
+﻿journal_name,journal_key,target_package,items,first_title,core_levels,categories,official_url,current_url,data_source,mode
+中国地方志,0124318b03d7f859,custom_toc_journals,12,人工智能幻觉在地方志编纂领域的风险表现及治理对策,扩展版,中国文学,https://zgdfz.ajcass.com,https://zgdfz.ajcass.com/home,official_site,regex
+临床与实验病理学杂志,1d60dcb3973c11ae,custom_toc_journals,27,混合性神经节细胞瘤-垂体神经内分泌肿瘤的临床与病理特征分析,CSTPCD;北大核心,临床医学;医药卫生,http://www.cjcep.com/,http://www.cjcep.com/,official_api,json
+临床神经外科杂志,003500d60cdf55e5,custom_toc_journals,20,脑深部电刺激治疗难治性强迫症术后程控中国专家共识(2026),CSTPCD,医药卫生,http://lcsjwk.c-nbh.com/,http://lcsjwk.c-nbh.com/,official_api,json
+仪表技术与传感器,038be0918e937929,custom_toc_journals,18,硅基压阻式压力传感器Ti-Pt-Au欧姆接触工艺优化研究,CSTPCD;北大核心;扩展版,机械、仪表;机械工程,http://www.17sensor.com/,http://www.17sensor.com/,official_api,json
+创伤外科杂志,1968c3b12c9cee14,custom_toc_journals,12,AI驱动下的创伤救治新进展,CSTPCD,医药卫生,http://www.dph-fsi.com:8010/,http://www.dph-fsi.com:8010/,official_api,json
+北京大学教育评论,8c731fa085826699,custom_toc_journals,10,公民受教育权与国家教育权: 教育法学知识体系的一对基本范畴,北大核心;来源期刊,教育事业，师范教育、教师教育;教育学,https://ccj.pku.edu.cn/jypl,https://ccj.pku.edu.cn/journal/Info?jid=93664&volumeNo=24&issueNo=03&viid=860453382451269,official_site,json
+华东理工大学学报（社会科学版）,43a070455a87e589,custom_toc_journals,10,算法控制视角下互联网零工群体劳动权益保障研究,北大核心;扩展版,综合人文、社会科学类;高校学报,http://journal.ecust.edu.cn,https://xuebao.ecust.edu.cn/hdlgdxxbsk/home,official_site,pair
+吉林农业大学学报,bd10bba1f63cbead,custom_toc_journals,9,miRNA在疾病治疗和免疫调节中的研究与应用现状,CSTPCD;北大核心;扩展版,农业科学;综合农业科学,https://xuebao.jlau.edu.cn/,https://opaj.napstic.cn/periodical/37?activeIssue=005&activeYear=2026,public_platform,regex
+商业经济研究,6821b508283964be,custom_toc_journals,79,耐心资本驱动商贸流通新业态培育的理论机制与路径探索,北大核心,贸易经济,http://www.j-ce.com.cn/,http://www.j-ce.com.cn/qikan_list.asp?classid=289,official_site,regex
+塑料工业,70ee5aefda7d815d,custom_toc_journals,22,聚乳酸立构复合体系的结晶调控与应用研究进展,CSCD;CSTPCD;北大核心,化学工程;有机化工,http://www.iplast.cn/,http://www.iplast.cn/,official_api,json
+复旦学报. 自然科学版,1ce786958ffc0bba,custom_toc_journals,11,中国人群臭氧暴露与健康风险: 基于2013—2023年MDA8 O 3 数据的分析,CSTPCD;北大核心;扩展版,综合性科学技术;综合理工农医类,https://www.jns.fudan.edu.cn/,https://www.jns.fudan.edu.cn/,official_api,json
+天然气工业,d26f8afef4bf4958,custom_toc_journals,18,深层煤层气聚能压裂技术研究与工程实践,CSCD;CSTPCD;北大核心,石油天然气;能源与石油工程,https://www.trqgy.cn/,https://trqgy.paperonce.org/,official_api,json
+太赫兹科学与电子信息学报,aa6c2945af3228a9,custom_toc_journals,14,自由电子激发二维周期金属光栅SSP太赫兹辐射源,CSTPCD,电子与自动控制,http://www.iaeej.com/,http://www.iaeej.com/xxydzgc/home,official_site,regex
+实用口腔医学杂志,f0ea6778765c52a5,custom_toc_journals,22,唾液腺癌整合诊治技术专家共识,CSTPCD;北大核心;扩展版,医药卫生;口腔,http://sykqyxzz.fmmu.edu.cn/,http://sykqyxzz.fmmu.edu.cn/,official_api,json
+广州中医药大学学报,dd38350ed3d789db,custom_toc_journals,40,基于“脉生痰核”理论的温胆化核汤治疗稳定型心绞痛痰瘀互结证临床观察,CSTPCD,医药卫生,https://xb.zyxy.com.cn/,https://xb.zyxy.com.cn/gzzyydxxb/home,official_site,regex
+应用与环境生物学报,105cb20b508a21b7,custom_toc_journals,16,五小叶槭幼苗抗水淹胁迫的生理阈值,CSCD;CSTPCD;北大核心,生物学;生物科学,http://www.cibj.com/,http://yyyhjsw.paperonce.org/api/api/Web/LastIssueList?PageSize=0&IssueId=0,official_api,json
+情报杂志,868e968f7021d71c,custom_toc_journals,20,俄罗斯“非法”情报研究∗,北大核心;来源期刊,信息资源管理;图书馆、信息事业,https://www.qbzz.net/,https://www.qbzz.net/,official_api,json
+探测与控制学报,2f2129dbd12d09a3,custom_toc_journals,32,复杂电子信息装备智能故障诊断综述,CSTPCD;北大核心;扩展版,机械工程;武器工业,http://www.tcykz.com/,http://www.tcykz.com/,official_api,json
+故宫博物院院刊,bc5f29285b77c7cc,custom_toc_journals,16,《文化遗产学视域下的考古学理论与实务研究》,北大核心;来源期刊,管理学;考古,https://www.dpm.org.cn/journals.html,https://www.dpm.org.cn/journals.html,official_site,regex
+教育科学研究期刊,f1fcdf86599c74c2,custom_toc_journals,9,跨組織協作：大學與縣市合作推動社會情緒學習運作之研究,来源期刊,教育学,https://jories.ntnu.edu.tw/jres/PaperList.aspx,https://jories.ntnu.edu.tw/jres/PaperCate.aspx?ItemId=302&loc=tw,official_site,regex
+数学年刊. A 辑,3cb76300f8250a75,custom_toc_journals,8,Hardy空间上一类算子与函数方程的解,CSCD;北大核心,数学,https://camath.fudan.edu.cn/,https://camath.fudan.edu.cn/camacn/ch/reader/issue_list.aspx?year_id=2026&quarter_id=1,official_site,regex
+机电工程,8546e3417f290f67,custom_toc_journals,20,基于GA-CNN-SVM的气囊抛光陶瓷涂层轴承表面粗糙度预测,CSTPCD;北大核心,机械、仪表;机械工程,https://www.meem.com.cn/,https://www.meem.com.cn/official/website/api/journalMagazines/search?pageNum=1&pageSize=20,official_api,json
+水力发电,56c0b22527005143,custom_toc_journals,15,2025年我国绿色电力证书市场发展综述,CSTPCD,电子与自动控制,http://www.slfdzz.com/,http://www.slfdzz.com/api/website/allArticle?current=1&periodicalId=156,official_api,json
+水力发电学报,6c2016592333bd68,custom_toc_journals,12,编辑部推荐论文：千米水头冲击式水轮机内流特性与水力性能分析,CSCD;CSTPCD;北大核心,水利;电子与自动控制,http://www.slfdxb.cn/,http://www.slfdxb.cn/CN/1003-1243/current.shtml,official_site,pair
+水文,30c5013120a91ea2,custom_toc_journals,14,山洪灾害应急疏散模拟研究,CSTPCD;北大核心;扩展版,地球物理;地球科学,https://sw.allmaga.net/sw/home,http://sw.allmaga.net/sw/article/issue/2026_46_3,official_site,regex
+浙江大学学报. 工学版,a5aa7b8b054ecac8,custom_toc_journals,22,面向变工况迁移学习的泵阀小波残差网络异常检测,CSCD;CSTPCD;北大核心,综合性科学技术;综合理工农医类,https://www.zjujournals.com/eng/,https://www.zjujournals.com/eng/CN/1008-973X/current.shtml,official_site,pair
+海军工程大学学报,5d18fd05aa187967,custom_toc_journals,14,基于深度学习的中长波通信天电噪声参数估计,CSTPCD;北大核心,工程技术综合;综合理工农医类,http://hjgc.ijournals.cn/hjgcdxxb/home,http://hjgc.ijournals.cn/hjgcdxxb/article/issue/2026_38_5,official_site,json
+澳门理工学报（人文社会科学版）,f0e9413489aea7f6,custom_toc_journals,18,《說文解字》的古文經學《易》說,来源期刊,高校学报,https://journal.ipm.edu.mo/,https://journal.ipm.edu.mo/home5/get_issues/-1,official_api,json
+生命科学,e9cbba2038177245,custom_toc_journals,16,半克隆技术的建立与应用 [1689-1696],CSCD;CSTPCD,生物学,https://lifescience.sinh.ac.cn/,https://lifescience.sinh.ac.cn/,official_site,regex
+科学学与科学技术管理,6c01cc2a05a7d5e6,custom_toc_journals,11,中国教育科技人才纽带系统的转化效率研究,CSCD;CSTPCD;北大核心;来源期刊,科学研究;管理学;管理科学,https://www.ssstm.org/,https://www.ssstm.org/CN/current,official_site,regex
+空间结构,1f2b34c3f6ba1315,custom_toc_journals,11,复合材料厚面板夹层梁的弯曲力学特性研究,北大核心;扩展版,建筑,https://kjjg.zju.edu.cn/_s1201/main.psp,https://kjjg.zju.edu.cn/_s1201/main.psp,official_site,regex
+肉类研究,2cbb5a9fa96773be,custom_toc_journals,16,猪血浆蛋白-亚麻籽胶基油凝胶替代动物脂肪对鸡肉肠品质的影响,CSTPCD;北大核心,轻工业;食品工业,https://www.rlyj.net.cn/,https://www.rlyj.net.cn/CN/volumn/current.shtml,official_site,pair
+膜科学与技术,ba33f7424277dbd9,custom_toc_journals,20,耐溶剂PVDF膜的制备及其原油分离性能研究,CSCD;CSTPCD;北大核心,化学工程;化工,http://www.mkxyjs.com/,https://mkxyjs.boyuancb.com/,official_site,regex
+设计学报,b1b822ed4e8e8bc5,custom_toc_journals,4,《海》—反思性沉浸劇場的虛實整合實踐,来源期刊,艺术学,https://www.jodesign.org.tw/,https://www.jodesign.org.tw/index.php/JODesign/issue/current,official_api,pair
+载人航天,b7e3d503a0194ead,custom_toc_journals,15,基于模型的空间推进系统故障模式及影响分析方法,CSCD;CSTPCD;北大核心,航空航天,https://www.cmse.gov.cn/dmt/cbw/,https://www.cmse.gov.cn/dmt/cbw/zrht/2026nian/2026dyq/,official_site,regex
+非金属矿,95e440df16abfbc0,custom_toc_journals,31,磷石膏基层水稳定性调控及养生工艺研究,CSTPCD,矿业工程,http://www.szfjsk.com/,http://www.szfjsk.com/Default.html,official_site,regex
+食品与生物技术学报,9e0b3d1044b5d016,custom_toc_journals,35,食源性糖蛋白/糖肽调控骨代谢的作用机制研究进展,CSTPCD;北大核心;扩展版,轻工业;食品工业,http://spyswjs.cnjournals.com/spyswjs/home,http://spyswjs.cnjournals.com/spyswjs/home,official_site,regex

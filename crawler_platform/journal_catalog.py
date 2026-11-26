@@ -16,6 +16,23 @@ SUBJECT_RULES = (
 )
 
 
+CAPABILITY_TAGS = {
+    "magetech_journals": "能追新期，也能搜关键词",
+    "cnki_cbpt": "能追新期，也能搜关键词",
+    "qinyun_journals": "能追新期，也能搜关键词",
+    "rhzh_journals": "能追新期，也能搜关键词",
+    "sancai_journals": "能追新期，也能搜关键词",
+    "custom_toc_journals": "能追新期，只能筛本期",
+    "founder_journals": "能追新期，只能筛本期",
+    "paperonce_journals": "能追新期，只能筛本期",
+    "vsb_journals": "能追新期，只能筛本期",
+    "oa_rss_journals": "能追订阅，只能筛订阅",
+    "hep_mirror_journals": "能追镜像，只能筛镜像",
+    "supplement_journals": "只能查论文摘要",
+    "flagship_journals": "只能搜旗舰刊",
+}
+
+
 def subject_tags(name: str, declared: object = None) -> list[str]:
     if isinstance(declared, list) and declared and all(isinstance(tag, str) and tag.strip() for tag in declared):
         return list(dict.fromkeys(tag.strip()[:24] for tag in declared[:4]))
@@ -23,7 +40,7 @@ def subject_tags(name: str, declared: object = None) -> list[str]:
     return matches[:2] or ["综合/待细分"]
 
 
-def load_journal_catalog(artifact: Path, schema: dict) -> list[dict[str, object]]:
+def load_journal_catalog(artifact: Path, schema: dict, package_key: str | None = None) -> list[dict[str, object]]:
     journal_keys = schema.get("properties", {}).get("journal_keys")
     if not isinstance(journal_keys, dict):
         return []
@@ -31,10 +48,10 @@ def load_journal_catalog(artifact: Path, schema: dict) -> list[dict[str, object]
     if path.is_file():
         if not path.resolve().is_relative_to(artifact.resolve()):
             raise ValueError("journal catalog must stay inside package")
-        if path.stat().st_size > 4_000_000:
+        if path.stat().st_size > 8_000_000:
             raise ValueError("journal catalog is too large")
         rows = json.loads(path.read_text(encoding="utf-8"))
-        if not isinstance(rows, list) or len(rows) > 5000:
+        if not isinstance(rows, list) or len(rows) > 10000:
             raise ValueError("invalid journal catalog")
     else:
         keys = journal_keys.get("items", {}).get("enum", [])
@@ -51,5 +68,9 @@ def load_journal_catalog(artifact: Path, schema: dict) -> list[dict[str, object]
         if allowed is not None and key not in allowed:
             continue
         seen.add(key)
-        catalog.append({"journal_key": key, "name": name, "tags": subject_tags(name, row.get("tags"))})
+        tags = subject_tags(name, row.get("tags"))
+        capability = CAPABILITY_TAGS.get(package_key or "")
+        if capability:
+            tags = [capability] + [tag for tag in tags if tag != capability]
+        catalog.append({"journal_key": key, "name": name, "tags": tags})
     return catalog

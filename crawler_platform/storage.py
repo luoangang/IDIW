@@ -154,6 +154,7 @@ class PlatformStore:
         finally:
             connection.close()
         self._migrate_monitor_archive()
+        self._migrate_last_changed_at()
         for directory in (
             self.settings.runtime_dir, self.settings.packages_dir,
             self.settings.environments_dir, self.settings.runs_dir,
@@ -205,6 +206,66 @@ class PlatformStore:
                 cursor.execute(
                     """INSERT INTO schema_migrations(version,name,checksum)
                     VALUES('4','monitor archive and active names',%s)
+                    ON DUPLICATE KEY UPDATE checksum=VALUES(checksum)""",
+                    (hashlib.sha256(migration_path.read_bytes()).hexdigest(),),
+                )
+            connection.commit()
+        except Exception:
+            connection.rollback()
+            raise
+        finally:
+            connection.close()
+
+    def _migrate_last_changed_at(self) -> None:
+        """Add change tracking columns/index to every installed package data table."""
+        migration_path = Path(__file__).with_name("migrations") / "005_last_changed_at.sql"
+        database = self.settings.mysql_database
+        connection = self.connect()
+        try:
+            with connection.cursor() as cursor:
+                cursor.execute(
+                    """SELECT p.table_name FROM crawler_packages p
+                    JOIN information_schema.TABLES t
+                      ON t.TABLE_SCHEMA=%s AND t.TABLE_NAME=p.table_name
+                    WHERE p.table_name IS NOT NULL ORDER BY p.id""",
+                    (database,),
+                )
+                tables = [row["table_name"] for row in cursor.fetchall()]
+                for table in tables:
+                    self._assert_table(table)
+                    cursor.execute(
+                        """SELECT COLUMN_NAME FROM information_schema.COLUMNS
+                        WHERE TABLE_SCHEMA=%s AND TABLE_NAME=%s
+                          AND COLUMN_NAME IN ('sys_last_changed_at','sys_change_count')""",
+                        (database, table),
+                    )
+                    columns = {row["COLUMN_NAME"] for row in cursor.fetchall()}
+                    if not columns:
+                        cursor.execute(
+                            f"ALTER TABLE `{table}` "
+                            "ADD COLUMN sys_last_changed_at DATETIME(6) NULL AFTER sys_last_seen_at, "
+                            "ADD COLUMN sys_change_count INT UNSIGNED NOT NULL DEFAULT 0 "
+                            "AFTER sys_last_changed_at"
+                        )
+                    elif columns != {"sys_last_changed_at", "sys_change_count"}:
+                        raise ValueError(f"incomplete data change tracking migration: {table}")
+                    cursor.execute(
+                        f"UPDATE `{table}` SET sys_last_changed_at=sys_first_seen_at,"
+                        "sys_change_count=1 WHERE sys_last_changed_at IS NULL"
+                    )
+                    cursor.execute(
+                        """SELECT 1 FROM information_schema.STATISTICS
+                        WHERE TABLE_SCHEMA=%s AND TABLE_NAME=%s
+                          AND INDEX_NAME='idx_last_changed' LIMIT 1""",
+                        (database, table),
+                    )
+                    if not cursor.fetchone():
+                        cursor.execute(
+                            f"ALTER TABLE `{table}` ADD INDEX idx_last_changed (sys_last_changed_at,sys_id)"
+                        )
+                cursor.execute(
+                    """INSERT INTO schema_migrations(version,name,checksum)
+                    VALUES('5','data change tracking',%s)
                     ON DUPLICATE KEY UPDATE checksum=VALUES(checksum)""",
                     (hashlib.sha256(migration_path.read_bytes()).hexdigest(),),
                 )
@@ -1207,7 +1268,13 @@ class PlatformStore:
                         assignments.extend([
                             "sys_content_hash=%s", "sys_last_package_run_id=%s", "sys_last_seen_at=%s",
                         ])
-                        values.extend([new_hash, claimed["id"], now, existing["sys_id"]])
+                        values.extend([new_hash, claimed["id"], now])
+                        if changed:
+                            assignments.extend([
+                                "sys_last_changed_at=%s", "sys_change_count=sys_change_count+1",
+                            ])
+                            values.append(now)
+                        values.append(existing["sys_id"])
                         cursor.execute(
                             f"UPDATE `{table}` SET {','.join(assignments)} WHERE sys_id=%s", values,
                         )
@@ -1223,8 +1290,12 @@ class PlatformStore:
                             "sys_resource_uid", "sys_identity_hash", "sys_content_hash",
                             "sys_first_package_run_id", "sys_last_package_run_id",
                             "sys_first_seen_at", "sys_last_seen_at",
+                            "sys_last_changed_at", "sys_change_count",
                         ])
-                        values.extend([uid, identity_hash, new_hash, claimed["id"], claimed["id"], now, now])
+                        values.extend([
+                            uid, identity_hash, new_hash, claimed["id"], claimed["id"],
+                            now, now, now, 1,
+                        ])
                         placeholders = ",".join(["%s"] * len(values))
                         cursor.execute(
                             f"INSERT INTO `{table}` ({','.join(f'`{name}`' for name in columns)}) VALUES({placeholders})",
@@ -1662,13 +1733,46 @@ class PlatformStore:
         finally:
             connection.close()
 
+    @staticmethod
+    def _parse_since(since: str | None) -> datetime | None:
+        """Parse an ISO 8601 timestamp into a naive UTC datetime."""
+        if since is None:
+            return None
+        if not isinstance(since, str) or not since.strip():
+            raise ValueError("since must be an ISO 8601 timestamp")
+        try:
+            parsed = datetime.fromisoformat(since.strip())
+        except ValueError as exc:
+            raise ValueError("since must be an ISO 8601 timestamp") from exc
+        if parsed.tzinfo is not None:
+            parsed = parsed.astimezone(timezone.utc).replace(tzinfo=None)
+        return parsed
+
+    @staticmethod
+    def _change_markers(since_at: datetime | None) -> tuple[str, list[datetime]]:
+        """Select-list fragment marking new/updated rows relative to ``since_at``."""
+        if since_at is None:
+            return "NULL AS is_new,NULL AS is_updated", []
+        return (
+            "(r.sys_first_seen_at >= %s) AS is_new,"
+            "(r.sys_last_changed_at >= %s AND r.sys_first_seen_at < %s) AS is_updated",
+            [since_at, since_at, since_at],
+        )
+
     def preview_records(self, monitor_id: int | None = None, package_key: str | None = None,
-                        query: str = "", page: int = 1, limit: int = 25) -> dict[str, Any]:
+                        query: str = "", page: int = 1, limit: int = 25,
+                        since: str | None = None, change: str | None = None) -> dict[str, Any]:
         if page < 1 or limit < 1 or limit > 100:
             raise ValueError("page must be positive and limit must be 1..100")
         query = query.strip()
         if len(query) > 200:
             raise ValueError("search query must not exceed 200 characters")
+        since_at = self._parse_since(since)
+        if change is not None:
+            if change not in {"new", "updated", "changed"}:
+                raise ValueError("change must be one of: new, updated, changed")
+            if since_at is None:
+                raise ValueError("change requires since")
         connection = self.connect()
         try:
             with connection.cursor() as cursor:
@@ -1700,17 +1804,32 @@ class PlatformStore:
                         from_sql += (" JOIN monitor_resource_matches m ON m.resource_uid=r.sys_resource_uid "
                                      "AND m.package_id=%s AND m.monitor_id=%s")
                         params.extend([package["id"], monitor_id])
+                    where_parts = []
                     if query:
-                        from_sql += f" WHERE {title} LIKE %s"
+                        where_parts.append(f"{title} LIKE %s")
                         pattern = query.replace("\\", "\\\\").replace("%", "\\%").replace("_", "\\_")
                         params.append(f"%{pattern}%")
+                    if since_at is not None:
+                        if change == "new":
+                            where_parts.append("r.sys_first_seen_at >= %s")
+                            params.append(since_at)
+                        elif change == "updated":
+                            where_parts.append("r.sys_last_changed_at >= %s AND r.sys_first_seen_at < %s")
+                            params.extend([since_at, since_at])
+                        elif change == "changed":
+                            where_parts.append("r.sys_last_changed_at >= %s")
+                            params.append(since_at)
+                    if where_parts:
+                        from_sql += " WHERE " + " AND ".join(where_parts)
                     last_seen = "m.last_matched_at" if monitor_id is not None else "r.sys_last_seen_at"
+                    marker_sql, marker_params = self._change_markers(since_at)
                     selects.append(
                         f"SELECT %s AS package_key,%s AS package_name,r.sys_resource_uid AS resource_uid,"
                         f"{title} AS title,{url} AS url,{summary} AS summary,{published} AS published_at,"
-                        f"{last_seen} AS last_seen_at {from_sql}"
+                        f"r.sys_first_seen_at AS first_seen_at,{last_seen} AS last_seen_at,"
+                        f"r.sys_last_changed_at AS last_changed_at,{marker_sql} {from_sql}"
                     )
-                    select_params.extend([package["package_key"], package["name"], *params])
+                    select_params.extend([package["package_key"], package["name"], *marker_params, *params])
                     counts.append(f"SELECT COUNT(*) AS n {from_sql}")
                     count_params.extend(params)
                 if not selects:
@@ -1782,12 +1901,15 @@ class PlatformStore:
             "sys_last_package_run_id BIGINT UNSIGNED NOT NULL",
             "sys_first_seen_at DATETIME(6) NOT NULL",
             "sys_last_seen_at DATETIME(6) NOT NULL",
+            "sys_last_changed_at DATETIME(6) NULL",
+            "sys_change_count INT UNSIGNED NOT NULL DEFAULT 0",
         ]
         for field in manifest.fields:
             null = "NULL" if field.nullable else "NOT NULL"
             columns.append(f"`{field.name}` {self._field_sql(field)} {null}")
         columns.extend([
             "INDEX idx_last_seen (sys_last_seen_at,sys_id)",
+            "INDEX idx_last_changed (sys_last_changed_at,sys_id)",
             "INDEX idx_first_run (sys_first_package_run_id)",
             "INDEX idx_last_run (sys_last_package_run_id)",
             f"CONSTRAINT fk_{table}_first_run FOREIGN KEY (sys_first_package_run_id) REFERENCES package_runs(id) ON DELETE RESTRICT",

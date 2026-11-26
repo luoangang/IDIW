@@ -15,6 +15,7 @@ MAX_RESPONSE = 3_000_000
 API_SITES = {
     "7371a30d9aa7945b": "https://xbbjb.hfnu.edu.cn",
     "1d43330d46323f18": "http://journal.ahnu.edu.cn",
+    "9f879411fdb3ae21": "http://jms.zzu.edu.cn",
 }
 
 
@@ -44,6 +45,26 @@ def search_page(journal, query, page, timeout):
     return data["Data"]
 
 
+def read_current_issue(journal, timeout):
+    base = API_SITES.get(journal["journal_key"])
+    if not base:
+        raise ValueError("UNSUPPORTED_TEMPLATE: no verified Samson ArticleSearch API")
+    request = Request(
+        f"{base}/api/api/Web/LastIssueList?PageSize=0&IssueId=0",
+        headers={"User-Agent": USER_AGENT, "Accept": "application/json", "Referer": base + "/"},
+    )
+    with urlopen(request, timeout=timeout) as response:
+        raw = response.read(MAX_RESPONSE + 1)
+        if len(raw) > MAX_RESPONSE:
+            raise ValueError("response exceeds 3 MB")
+    data = json.loads(raw.decode("utf-8"))
+    if not isinstance(data, dict) or not isinstance(data.get("Data"), list):
+        raise ValueError("UNSUPPORTED_TEMPLATE: Samson response lacks Data list")
+    if data.get("IsSuccess") is False:
+        raise ValueError(f"current issue rejected: {data.get('Message')}")
+    return data["Data"]
+
+
 def clean(value):
     return " ".join(html.unescape(re.sub(r"<[^>]+>", " ", str(value or ""))).split())
 
@@ -70,6 +91,9 @@ def normalize(record, journal):
 
 def collect(request_data, journals):
     params = request_data.get("parameters") or {}
+    mode = params.get("collect_mode", "keywords")
+    if mode not in {"keywords", "latest_issue"}:
+        raise ValueError(f"unsupported collect_mode: {mode}")
     keys = params.get("journal_keys", list(API_SITES))
     query = request_data["query"].strip()
     if not keys or not query:
@@ -87,6 +111,17 @@ def collect(request_data, journals):
             continue
         seen = set()
         try:
+            if mode == "latest_issue":
+                rows = read_current_issue(journal, timeout)
+                for record in rows:
+                    item = normalize(record, journal)
+                    if item and item["external_id"] not in seen:
+                        seen.add(item["external_id"])
+                        items.append(item)
+                        if len(seen) >= per_journal or len(items) >= limit:
+                            break
+                successful += 1
+                continue
             for page in range(1, min(100, per_journal) + 1):
                 rows = search_page(journal, query, page, timeout)
                 if not rows:

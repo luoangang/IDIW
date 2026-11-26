@@ -1,9 +1,9 @@
 {
   "protocol_version": "1.0",
   "package_key": "magetech_journals",
-  "package_version": "1.1.1",
+  "package_version": "1.16.9",
   "name": "玛格泰克中文期刊检索包",
-  "description": "同一包管理供应商标记为玛格泰克的期刊，按站点结果模板检索文章元数据",
+  "description": "同一包管理供应商标记为玛格泰克的期刊，支持关键词检索与当期目次两种采集模式",
   "category": "paper",
   "runtime": {
     "type": "python",
@@ -11,7 +11,9 @@
     "entrypoint": "crawler.py",
     "dependencies": "requirements.lock"
   },
-  "capabilities": {"incremental": false},
+  "capabilities": {
+    "incremental": false
+  },
   "parameters_schema": {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "type": "object",
@@ -19,13 +21,75 @@
       "journal_keys": {
         "type": "array",
         "minItems": 1,
-        "maxItems": 30,
+        "maxItems": 417,
         "uniqueItems": true,
-        "items": {"type": "string", "minLength": 1, "maxLength": 64},
-        "default": ["data_analysis", "lis", "qbzl"]
+        "items": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 64
+        },
+        "default": [
+          "data_analysis",
+          "lis",
+          "qbzl",
+          "812d0d4dc764475f",
+          "a282652c483d2c98",
+          "d049310dbd48547e",
+          "fe0f7b94a77360ee",
+          "0870f39b4bc397c5",
+          "00e8dca750329a7a",
+          "69d883cf840f5112",
+          "77babb7c846e6136",
+          "c8623be90683a7d9",
+          "c7ab1ce956f59205",
+          "3ff0be6270563cb0",
+          "a62db5bce84d6648",
+          "76cbd2c2e92766c0",
+          "575e623ba276c71e",
+          "3591dbe91e051d14",
+          "f9a38aa7f90d7a7b",
+          "7a76e5f54fc4c89f",
+          "69681fa3d06c06b4",
+          "2cdaa3076b9c4317",
+          "441794f8530b5324",
+          "413253f6780167f8",
+          "e09714b310cecb1d",
+          "23826413ca219234",
+          "03cb3c431d981249"
+        ]
       },
-      "max_pages_per_journal": {"type": "integer", "minimum": 1, "maximum": 100, "default": 20},
-      "request_delay_ms": {"type": "integer", "minimum": 0, "maximum": 5000, "default": 300}
+      "collect_mode": {
+        "type": "string",
+        "enum": [
+          "keywords",
+          "latest_issue"
+        ],
+        "default": "keywords"
+      },
+      "max_pages_per_journal": {
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 100,
+        "default": 20
+      },
+      "request_delay_ms": {
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 5000,
+        "default": 300
+      },
+      "enrich_abstract": {
+        "type": "boolean",
+        "default": true,
+        "description": "latest_issue 模式下，对摘要为空的文章抓取详情页补采摘要（只填空，不覆盖已有摘要）"
+      },
+      "abstract_enrich_limit": {
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 10,
+        "default": 5,
+        "description": "每刊本次最多补采摘要的文章数，0 表示关闭补采"
+      }
     },
     "additionalProperties": false
   },
@@ -33,23 +97,112 @@
   "output_schema_version": 1,
   "output_schema": {
     "fields": [
-      {"name": "journal_key", "type": "string", "max_length": 64, "nullable": false},
-      {"name": "journal_name", "type": "string", "max_length": 255, "nullable": false},
-      {"name": "external_id", "type": "string", "max_length": 255, "nullable": false},
-      {"name": "title", "type": "string", "max_length": 1000, "nullable": false},
-      {"name": "url", "type": "text", "nullable": false},
-      {"name": "authors", "type": "array", "nullable": false, "schema": {"type": "array", "items": {"type": "string"}}},
-      {"name": "abstract", "type": "text", "nullable": true},
-      {"name": "doi", "type": "string", "max_length": 255, "nullable": true},
-      {"name": "year", "type": "integer", "nullable": true},
-      {"name": "volume", "type": "string", "max_length": 64, "nullable": true},
-      {"name": "issue", "type": "string", "max_length": 64, "nullable": true},
-      {"name": "pages", "type": "string", "max_length": 64, "nullable": true},
-      {"name": "pdf_url", "type": "text", "nullable": true},
-      {"name": "source_site", "type": "string", "max_length": 128, "nullable": false}
+      {
+        "name": "journal_key",
+        "type": "string",
+        "max_length": 64,
+        "nullable": false
+      },
+      {
+        "name": "journal_name",
+        "type": "string",
+        "max_length": 255,
+        "nullable": false
+      },
+      {
+        "name": "external_id",
+        "type": "string",
+        "max_length": 255,
+        "nullable": false
+      },
+      {
+        "name": "title",
+        "type": "string",
+        "max_length": 1000,
+        "nullable": false
+      },
+      {
+        "name": "url",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "authors",
+        "type": "array",
+        "nullable": false,
+        "schema": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      {
+        "name": "abstract",
+        "type": "text",
+        "nullable": true
+      },
+      {
+        "name": "doi",
+        "type": "string",
+        "max_length": 255,
+        "nullable": true
+      },
+      {
+        "name": "year",
+        "type": "integer",
+        "nullable": true
+      },
+      {
+        "name": "volume",
+        "type": "string",
+        "max_length": 64,
+        "nullable": true
+      },
+      {
+        "name": "issue",
+        "type": "string",
+        "max_length": 64,
+        "nullable": true
+      },
+      {
+        "name": "pages",
+        "type": "string",
+        "max_length": 64,
+        "nullable": true
+      },
+      {
+        "name": "pdf_url",
+        "type": "text",
+        "nullable": true
+      },
+      {
+        "name": "source_site",
+        "type": "string",
+        "max_length": 128,
+        "nullable": false
+      }
     ],
-    "identity_fields": ["journal_key", "external_id"],
-    "indexes": [["journal_key", "external_id"], ["year"], ["doi"]],
-    "mapping": {"title": "title", "url": "url", "summary": "abstract"}
+    "identity_fields": [
+      "journal_key",
+      "external_id"
+    ],
+    "indexes": [
+      [
+        "journal_key",
+        "external_id"
+      ],
+      [
+        "year"
+      ],
+      [
+        "doi"
+      ]
+    ],
+    "mapping": {
+      "title": "title",
+      "url": "url",
+      "summary": "abstract"
+    }
   }
 }

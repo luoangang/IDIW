@@ -1,0 +1,4237 @@
+[
+  {
+    "journal_key": "f145095027f91faa",
+    "name": "专门用途外语研究",
+    "url": "http://cjlsp.hssonline.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "evidence": "supplier_label_only",
+    "source_file": "founder_59458508.json",
+    "catalog_source": "2377_catalog",
+    "official_url": "http://cjlsp.hssonline.cn",
+    "data_source": "official_api",
+    "data_source_detail": "Founder rc-pub API（官网接口，非页面）",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "verified_at": "2026-11-21",
+    "base_url": "https://www.hssonline.cn",
+    "sld": "CESP",
+    "site_id": 747,
+    "publication_index_id": 2180,
+    "probe_items": 9,
+    "probe_first_title": "双重认知过载与身份焦虑：AI时代ESP教师发展路径——基于跨学科与心理视角的实证研究",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "ab2ec77312ac7106",
+    "name": "世界科学技术-中医药现代化",
+    "url": "http://www.wst.ac.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "catalog_source": "2377_catalog",
+    "official_url": "http://www.wst.ac.cn",
+    "data_source": "official_api",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "base_url": "https://sjkx.publish.founderss.cn",
+    "site_id": 511,
+    "probe_items": [
+      {
+        "title": "中药监管科学的形成与发展20年：系统性述评与未来展望",
+        "url": "https://sjkx.publish.founderss.cn/zh/article/doi/10.11842/wst.20260715001"
+      },
+      {
+        "title": "基于《伤寒论》顾护脾胃学术思想探讨徐振晔教授诊治结直肠癌经验",
+        "url": "https://sjkx.publish.founderss.cn/zh/article/doi/10.11842/wst.20250922009"
+      },
+      {
+        "title": "震颤型帕金森病脑白质微结构研究",
+        "url": "https://sjkx.publish.founderss.cn/zh/article/doi/10.11842/wst.20260225010"
+      },
+      {
+        "title": "基于SrTO探析当代中医肾病领域名家论治膜性肾病的学术思想",
+        "url": "https://sjkx.publish.founderss.cn/zh/article/doi/10.11842/wst.20250327008"
+      },
+      {
+        "title": "儿童中医症状适用性的赋分疗效评价方法构建及应用",
+        "url": "https://sjkx.publish.founderss.cn/zh/article/doi/10.11842/wst.20250424010"
+      },
+      {
+        "title": "基于变分自编码的支气管哮喘证候解耦与量化分析",
+        "url": "https://sjkx.publish.founderss.cn/zh/article/doi/10.11842/wst.20250617004"
+      },
+      {
+        "title": "基于中医多维望诊信息的慢病防治研究型数据库架构设计与实现",
+        "url": "https://sjkx.publish.founderss.cn/zh/article/doi/10.11842/wst.20251010009"
+      },
+      {
+        "title": "基于多源数据融合的中医药防治过敏性鼻炎和哮喘知识图谱的构建与应用",
+        "url": "https://sjkx.publish.founderss.cn/zh/article/doi/10.11842/wst.20251215008"
+      },
+      {
+        "title": "基于复杂网络分析技术探究邱健行教授运用“毒垢理论”治疗慢性萎缩性胃炎的用药规律及作用机制",
+        "url": "https://sjkx.publish.founderss.cn/zh/article/doi/10.11842/wst.20251029001"
+      },
+      {
+        "title": "数字人文视阈下湖湘现当代名中医学术传承脉络知识图谱构建与演化规律研究<sup>＊</sup>",
+        "url": "https://sjkx.publish.founderss.cn/zh/article/doi/10.11842/wst.20250528002"
+      }
+    ],
+    "probe_first_title": "中药监管科学的形成与发展20年：系统性述评与未来展望",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "f5f97df4151c1df8",
+    "name": "东南大学学报（医学版）",
+    "url": "http://www.ddxbyxb.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "catalog_source": "2377_catalog",
+    "official_url": "http://www.ddxbyxb.cn",
+    "data_source": "official_api",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "base_url": "https://njtd.publish.founderss.cn",
+    "site_id": 1287,
+    "probe_items": [
+      {
+        "title": "中国二代测序技术相关共识的质量评价",
+        "url": "https://njtd.publish.founderss.cn/rc-pub/front/front-article/177207717"
+      },
+      {
+        "title": "PSA灰区临床局限性前列腺癌包膜外侵犯的MRI影像组学-血清miR-181c-5p诊断模型的建立与泛化能力验证",
+        "url": "https://njtd.publish.founderss.cn/rc-pub/front/front-article/177208202"
+      },
+      {
+        "title": "功能性近红外光谱成像联合全身运动质量评估对脑损伤高危儿神经发育结局的预测价值",
+        "url": "https://njtd.publish.founderss.cn/rc-pub/front/front-article/177208422"
+      },
+      {
+        "title": "多模态影像联合血清同型半胱氨酸的机器学习模型对颈动脉斑块患者发生缺血性脑卒中的预测价值",
+        "url": "https://njtd.publish.founderss.cn/rc-pub/front/front-article/177208593"
+      },
+      {
+        "title": "基于多时间窗动态监测的AIS患者AQP-4/MIP-1α/CTRP12时序规律与卒中神经功能恶化轨迹的关联研究",
+        "url": "https://njtd.publish.founderss.cn/rc-pub/front/front-article/177208793"
+      },
+      {
+        "title": "超声评分与血清SDC-1、ANGPTL-4联合预测NRDS预后的价值分析",
+        "url": "https://njtd.publish.founderss.cn/rc-pub/front/front-article/177209004"
+      },
+      {
+        "title": "基于Lasso-Logistic回归分析构建甲状腺癌术后<sup>131</sup>I治疗疗效的预测模型",
+        "url": "https://njtd.publish.founderss.cn/rc-pub/front/front-article/177209263"
+      },
+      {
+        "title": "血清SGK1、14,15-DHET、MLR对Her2<sup>+</sup>转移性乳腺癌患者化疗相关心脏毒性的评估价值",
+        "url": "https://njtd.publish.founderss.cn/rc-pub/front/front-article/177209427"
+      },
+      {
+        "title": "中老年人群静息心率与血脂异常的相关性研究",
+        "url": "https://njtd.publish.founderss.cn/rc-pub/front/front-article/177209698"
+      },
+      {
+        "title": "血液灌流联合血浆置换对急性虫螨腈中毒救治病例分析",
+        "url": "https://njtd.publish.founderss.cn/rc-pub/front/front-article/177209895"
+      }
+    ],
+    "probe_first_title": "中国二代测序技术相关共识的质量评价",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "be32c576b89c6bf1",
+    "name": "中北大学学报（社会科学版）",
+    "url": "http://xuebao.nuc.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "catalog_source": "2377_catalog",
+    "official_url": "http://xuebao.nuc.edu.cn",
+    "data_source": "official_api",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "base_url": "https://hgxs.publish.founderss.cn",
+    "site_id": 631,
+    "probe_items": 25,
+    "probe_first_title": "“因角设法”：《笑傲江湖》的人物设置与游戏规则",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "cb3bcb6eed68f208",
+    "name": "中医杂志",
+    "url": "http://www.jtcm.net.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "catalog_source": "2377_catalog",
+    "official_url": "http://www.jtcm.net.cn",
+    "data_source": "official_api",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "base_url": "https://zzyz.publish.founderss.cn",
+    "site_id": 210,
+    "probe_items": [
+      {
+        "title": "从金岳霖“两个态度”看中医思维的概念结构及其限度",
+        "url": "https://zzyz.publish.founderss.cn/zh/article/doi/10.13288/j.11-2166/r.2026.22.001"
+      },
+      {
+        "title": "基于经脉医学文献的“胃气”思想溯源",
+        "url": "https://zzyz.publish.founderss.cn/zh/article/doi/10.13288/j.11-2166/r.2026.22.002"
+      },
+      {
+        "title": "韩明向运用角药治疗肺结节经验",
+        "url": "https://zzyz.publish.founderss.cn/zh/article/doi/10.13288/j.11-2166/r.2026.22.003"
+      },
+      {
+        "title": "熊大经以“鼻五度辨证”治疗嗅觉障碍经验",
+        "url": "https://zzyz.publish.founderss.cn/zh/article/doi/10.13288/j.11-2166/r.2026.22.004"
+      },
+      {
+        "title": "冠心病中西医结合智能辅助诊疗系统的构建框架与实施路径",
+        "url": "https://zzyz.publish.founderss.cn/zh/article/doi/10.13288/j.11-2166/r.2026.22.005"
+      },
+      {
+        "title": "基于系统生物学构建中西医融合恶性肿瘤症状群研究框架",
+        "url": "https://zzyz.publish.founderss.cn/zh/article/doi/10.13288/j.11-2166/r.2026.22.006"
+      },
+      {
+        "title": "“以证统病-方证相应”视角下中医药核心结局指标集的构建",
+        "url": "https://zzyz.publish.founderss.cn/zh/article/doi/10.13288/j.11-2166/r.2026.22.007"
+      },
+      {
+        "title": "从少阳枢机不利探析血脂异常相关心血管残余风险的病机与辨治",
+        "url": "https://zzyz.publish.founderss.cn/zh/article/doi/10.13288/j.11-2166/r.2026.22.008"
+      },
+      {
+        "title": "化痰逐瘀散结汤联合化疗方案治疗非小细胞肺癌痰热阻肺证的临床观察",
+        "url": "https://zzyz.publish.founderss.cn/zh/article/doi/10.13288/j.11-2166/r.2026.22.009"
+      },
+      {
+        "title": "独活寄生汤加减辅助化疗方案治疗肾虚血瘀型多发性骨髓瘤的随机对照试验",
+        "url": "https://zzyz.publish.founderss.cn/zh/article/doi/10.13288/j.11-2166/r.2026.22.010"
+      }
+    ],
+    "probe_first_title": "从金岳霖“两个态度”看中医思维的概念结构及其限度",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "6b7cd670288586fd",
+    "name": "中华消化内镜杂志",
+    "url": "http://www.zhxhnjzz.com",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "catalog_source": "2377_catalog",
+    "official_url": "http://www.zhxhnjzz.com",
+    "data_source": "official_api",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "base_url": "https://zhxh.publish.founderss.cn",
+    "site_id": 649,
+    "probe_items": [
+      {
+        "title": "显微内镜在结直肠肿瘤诊疗中的应用专家共识",
+        "url": "https://zhxh.publish.founderss.cn/zh/article/doi/10.3760/cma.j.cn321463-20260924-00368"
+      },
+      {
+        "title": "不同监测间隔对黑斑息肉综合征合并小肠息肉患者疾病进展的影响",
+        "url": "https://zhxh.publish.founderss.cn/zh/article/doi/10.3760/cma.j.cn321463-20251016-00430"
+      },
+      {
+        "title": "定点冲洗对结肠镜肠道清洁度及息肉/腺瘤检出率的影响：一项随机对照研究",
+        "url": "https://zhxh.publish.founderss.cn/zh/article/doi/10.3760/cma.j.cn321463-20260125-00037"
+      },
+      {
+        "title": "下咽浅表癌内镜黏膜下剥离术治疗价值及JES分型对浸润深度的预测价值",
+        "url": "https://zhxh.publish.founderss.cn/zh/article/doi/10.3760/cma.j.cn321463-20250925-00401"
+      },
+      {
+        "title": "超声内镜对急性胰腺炎患者发生胰腺导管腺癌的诊断价值",
+        "url": "https://zhxh.publish.founderss.cn/zh/article/doi/10.3760/cma.j.cn321463-20251224-00479"
+      },
+      {
+        "title": "基于人工智能的湖北省域医院胃镜操作现状调查",
+        "url": "https://zhxh.publish.founderss.cn/zh/article/doi/10.3760/cma.j.cn321463-20260117-00026"
+      },
+      {
+        "title": "2024年期刊发表中国消化病领域指南和共识的科学性、透明性及适用性评级",
+        "url": "https://zhxh.publish.founderss.cn/zh/article/doi/10.3760/cma.j.cn321463-20260101-00002"
+      },
+      {
+        "title": "自体网膜组织填塞在双镜联合非暴露式胃病灶全层切除术中应用的初步探索（含视频）",
+        "url": "https://zhxh.publish.founderss.cn/zh/article/doi/10.3760/cma.j.cn321463-20260103-00005"
+      },
+      {
+        "title": "上消化道异物消化内镜成功取出的影响因素",
+        "url": "https://zhxh.publish.founderss.cn/zh/article/doi/10.3760/cma.j.cn321463-20250826-00352"
+      },
+      {
+        "title": "牵引辅助内镜黏膜下剥离术治疗早期食管癌合并憩室1例（含视频）",
+        "url": "https://zhxh.publish.founderss.cn/zh/article/doi/10.3760/cma.j.cn321463-20251124-00499"
+      }
+    ],
+    "probe_first_title": "显微内镜在结直肠肿瘤诊疗中的应用专家共识",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "3808cef852b3b00a",
+    "name": "中南大学学报（自然科学版）",
+    "url": "http://zkxb.csu.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "catalog_source": "2377_catalog",
+    "official_url": "http://zkxb.csu.edu.cn",
+    "data_source": "official_api",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "base_url": "http://zkxb.csu.edu.cn",
+    "site_id": 9,
+    "probe_items": 37,
+    "probe_first_title": "非洲某锂辉石矿工艺矿物学特征及其对浮选工艺的指导",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "aca63db4d9ee9c24",
+    "name": "中南大学学报（英文版）",
+    "url": "http://xbyw.csu.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "catalog_source": "2377_catalog",
+    "official_url": "http://xbyw.csu.edu.cn",
+    "data_source": "official_api",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "base_url": "https://zngy.publish.founderss.cn",
+    "site_id": 221,
+    "probe_items": [
+      {
+        "title": "超低温多向锻稀铝合金的强韧化：双峰异质组织晶粒和多尺度缺陷的协同效应",
+        "url": "https://zngy.publish.founderss.cn/zh/article/doi/10.1007/s11771-026-6396-x"
+      },
+      {
+        "title": "配分时间对中硅低合金钢双重淬火-配分过程中显微组织演变与力学性能的影响",
+        "url": "https://zngy.publish.founderss.cn/zh/article/doi/10.1007/s11771-026-6414-z"
+      },
+      {
+        "title": "多尺度异质结构金属的性能优化与变形机制：综述",
+        "url": "https://zngy.publish.founderss.cn/zh/article/doi/10.1007/s11771-026-6385-0"
+      },
+      {
+        "title": "基于柔性烷基链连接的巨分子给体用于高效稳定有机太阳能电池",
+        "url": "https://zngy.publish.founderss.cn/zh/article/doi/10.1007/s11771-026-6374-3"
+      },
+      {
+        "title": "原位熔融反应法制备碳纤维表面钛碳涂层的微观组织演变与生长动力学",
+        "url": "https://zngy.publish.founderss.cn/zh/article/doi/10.1007/s11771-026-6416-x"
+      },
+      {
+        "title": "碳/碳(C/C)复合材料在高温氧化环境下的微观结构与界面退化对磨损行为的影响",
+        "url": "https://zngy.publish.founderss.cn/zh/article/doi/10.1007/s11771-026-6423-y"
+      },
+      {
+        "title": "碳材料表面含氧官能团对异丙苯液相氧化反应的影响",
+        "url": "https://zngy.publish.founderss.cn/zh/article/doi/10.1007/s11771-026-6381-4"
+      },
+      {
+        "title": "含碳高砷硫化物包裹多重难处理金精矿两段氧化过程中的砷固化与环境友好利用",
+        "url": "https://zngy.publish.founderss.cn/zh/article/doi/10.1007/s11771-026-6323-1"
+      },
+      {
+        "title": "碱度控制氧化焙烧过程中三种红土镍矿球团的固结机制和镍铁富集路径",
+        "url": "https://zngy.publish.founderss.cn/zh/article/doi/10.1007/s11771-026-6407-y"
+      },
+      {
+        "title": "一种废旧三元正极材料与镍铁合金氧化还原协同回收的可持续途径",
+        "url": "https://zngy.publish.founderss.cn/zh/article/doi/10.1007/s11771-026-6245-y"
+      }
+    ],
+    "probe_first_title": "超低温多向锻稀铝合金的强韧化：双峰异质组织晶粒和多尺度缺陷的协同效应",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "e5221895ccc72251",
+    "name": "中国人口·资源与环境",
+    "url": "http://www.cpre.sdnu.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "catalog_source": "2377_catalog",
+    "official_url": "http://www.cpre.sdnu.edu.cn",
+    "data_source": "official_api",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "base_url": "https://rzyh.publish.founderss.cn",
+    "site_id": 247,
+    "probe_items": [
+      {
+        "title": "人工智能赋能制造业企业绿色转型：机制与非线性特征",
+        "url": "https://rzyh.publish.founderss.cn/zh/article/doi/10.12062/cpre.20251219"
+      },
+      {
+        "title": "人工智能技术对新能源企业资源配置效率提升的影响",
+        "url": "https://rzyh.publish.founderss.cn/zh/article/doi/10.12062/cpre.20251034"
+      },
+      {
+        "title": "疏堵相济：能源大数据与安全生产",
+        "url": "https://rzyh.publish.founderss.cn/zh/article/doi/10.12062/cpre.20251032"
+      },
+      {
+        "title": "跨境碳约束下的中国高碳行业出口：风险与效应评估",
+        "url": "https://rzyh.publish.founderss.cn/zh/article/doi/10.12062/cpre.20251203"
+      },
+      {
+        "title": "“以购促治”视角下政府绿色采购的碳减排效应与影响路径",
+        "url": "https://rzyh.publish.founderss.cn/zh/article/doi/10.12062/cpre.20251220"
+      },
+      {
+        "title": "中国碳交易市场转型中的多元目标法律规制",
+        "url": "https://rzyh.publish.founderss.cn/zh/article/doi/10.12062/cpre.20260307"
+      },
+      {
+        "title": "气候政策转型风险敞口对企业财务柔性的影响",
+        "url": "https://rzyh.publish.founderss.cn/zh/article/doi/10.12062/cpre.20260518"
+      },
+      {
+        "title": "新能源汽车动力蓄电池回收利用对驱动城市焕能提效的影响",
+        "url": "https://rzyh.publish.founderss.cn/zh/article/doi/10.12062/cpre.20251231"
+      },
+      {
+        "title": "矫正规范期望：家庭节能行为信息型干预策略的多主体仿真",
+        "url": "https://rzyh.publish.founderss.cn/zh/article/doi/10.12062/cpre.20251207"
+      },
+      {
+        "title": "气候生态产品与县域经济增长——来自国家气候标志的证据",
+        "url": "https://rzyh.publish.founderss.cn/zh/article/doi/10.12062/cpre.20260339"
+      }
+    ],
+    "probe_first_title": "人工智能赋能制造业企业绿色转型：机制与非线性特征",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "053358b3dbb23a7c",
+    "name": "中国传媒科技",
+    "url": "http://www.scimedia.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "catalog_source": "2377_catalog",
+    "official_url": "http://www.scimedia.cn",
+    "data_source": "official_api",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "base_url": "https://cmkja.publish.founderss.cn",
+    "site_id": 506,
+    "probe_items": [
+      {
+        "title": "数智传播时代我国主流媒体的新形态新生态",
+        "url": "https://cmkja.publish.founderss.cn/zh/article/doi/10.19483/j.cnki.11-4653/n.2026.10.001"
+      },
+      {
+        "title": "从空间建构到生态治理：可信内容空间的三维框架与主流媒体角色升维",
+        "url": "https://cmkja.publish.founderss.cn/zh/article/doi/10.19483/j.cnki.11-4653/n.2026.10.002"
+      },
+      {
+        "title": "主流媒体系统性变革中的“智变”路径实践与思考",
+        "url": "https://cmkja.publish.founderss.cn/zh/article/doi/10.19483/j.cnki.11-4653/n.2026.10.003"
+      },
+      {
+        "title": "媒介全球化背景下对外传播主流媒体的舆论引导研究",
+        "url": "https://cmkja.publish.founderss.cn/zh/article/doi/10.19483/j.cnki.11-4653/n.2026.10.004"
+      },
+      {
+        "title": "“AI主播”与“情感空洞”：人机协同传播中的情感边界与补偿机制",
+        "url": "https://cmkja.publish.founderss.cn/zh/article/doi/10.19483/j.cnki.11-4653/n.2026.10.005"
+      },
+      {
+        "title": "融媒技术支撑的媒体融合平台构建与应用研究",
+        "url": "https://cmkja.publish.founderss.cn/zh/article/doi/10.19483/j.cnki.11-4653/n.2026.10.007"
+      },
+      {
+        "title": "效率神话笼罩下的公共性贫困——人工智能政务传播的技术理性迷思及其海德格尔哲学审思",
+        "url": "https://cmkja.publish.founderss.cn/zh/article/doi/10.19483/j.cnki.11-4653/n.2026.10.008"
+      },
+      {
+        "title": "社交媒体时代“情绪传播”的机制与舆情引导策略",
+        "url": "https://cmkja.publish.founderss.cn/zh/article/doi/10.19483/j.cnki.11-4653/n.2026.10.009"
+      },
+      {
+        "title": "短视频环境下大学生认知趋同与反向驯化实践研究",
+        "url": "https://cmkja.publish.founderss.cn/zh/article/doi/10.19483/j.cnki.11-4653/n.2026.10.010"
+      },
+      {
+        "title": "赋权与规约：平台可供性视角下网络游戏对大学生社交实践的双重逻辑",
+        "url": "https://cmkja.publish.founderss.cn/zh/article/doi/10.19483/j.cnki.11-4653/n.2026.10.011"
+      }
+    ],
+    "probe_first_title": "数智传播时代我国主流媒体的新形态新生态",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "d4056ec2a4dac4b9",
+    "name": "中国农业大学学报",
+    "url": "https://nydx.publish.founderss.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "evidence": "supplier_label_only",
+    "source_file": "founder_59458508.json",
+    "catalog_source": "2377_catalog",
+    "official_url": "https://nydx.publish.founderss.cn",
+    "data_source": "official_api",
+    "data_source_detail": "Founder rc-pub API（官网接口，非页面）",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "verified_at": "2026-11-21",
+    "base_url": "https://nydx.publish.founderss.cn",
+    "sld": "nydx",
+    "site_id": 615,
+    "publication_index_id": 1818,
+    "probe_items": 27,
+    "probe_first_title": "全基因组重测序解析白龙驹马群体遗传结构与白色（奶油稀释）毛色候选基因",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "e166392cabe3bfe2",
+    "name": "中国医学伦理学",
+    "url": "http://yxllx.xjtu.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "catalog_source": "2377_catalog",
+    "official_url": "http://yxllx.xjtu.edu.cn",
+    "data_source": "official_api",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "base_url": "https://xnlx.publish.founderss.cn",
+    "site_id": 580,
+    "probe_items": [
+      {
+        "title": "让道德发挥作用——与埃里克·梅斯林教授谈ELSI的历史与未来",
+        "url": "https://xnlx.publish.founderss.cn/zh/article/doi/10.12026/j.issn.1001-8565.2026.10.01"
+      },
+      {
+        "title": "新兴生物技术的可信任性伦理框架探析",
+        "url": "https://xnlx.publish.founderss.cn/zh/article/doi/10.12026/j.issn.1001-8565.2026.10.02"
+      },
+      {
+        "title": "生物政治学视域下脑类器官应用的伦理规制刍议",
+        "url": "https://xnlx.publish.founderss.cn/zh/article/doi/10.12026/j.issn.1001-8565.2026.10.03"
+      },
+      {
+        "title": "研究者发起的临床研究法律规制——制度构建与伦理合规审查要点",
+        "url": "https://xnlx.publish.founderss.cn/zh/article/doi/10.12026/j.issn.1001-8565.2026.10.04"
+      },
+      {
+        "title": "政策演进视角下中国科研诚信治理困境及优化策略（2004-2025）",
+        "url": "https://xnlx.publish.founderss.cn/zh/article/doi/10.12026/j.issn.1001-8565.2026.10.05"
+      },
+      {
+        "title": "基于伦理视角探讨临床试验注册现状与挑战",
+        "url": "https://xnlx.publish.founderss.cn/zh/article/doi/10.12026/j.issn.1001-8565.2026.10.06"
+      },
+      {
+        "title": "强化理论视域下临床研究者负责任研究行为塑造与思考",
+        "url": "https://xnlx.publish.founderss.cn/zh/article/doi/10.12026/j.issn.1001-8565.2026.10.07"
+      },
+      {
+        "title": "期刊编辑视角下儿童真实世界研究的伦理风险识别与结构化审查框架",
+        "url": "https://xnlx.publish.founderss.cn/zh/article/doi/10.12026/j.issn.1001-8565.2026.10.08"
+      },
+      {
+        "title": "数字医保治理中的伦理问题：生成、表现及因应",
+        "url": "https://xnlx.publish.founderss.cn/zh/article/doi/10.12026/j.issn.1001-8565.2026.10.09"
+      },
+      {
+        "title": "医院流量化建设中技术失能群体脱嵌的伦理审视",
+        "url": "https://xnlx.publish.founderss.cn/zh/article/doi/10.12026/j.issn.1001-8565.2026.10.10"
+      }
+    ],
+    "probe_first_title": "让道德发挥作用——与埃里克·梅斯林教授谈ELSI的历史与未来",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "a8e8ee0d73690c05",
+    "name": "中国医学教育技术",
+    "url": "http://cmet.xjtu.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "catalog_source": "2377_catalog",
+    "official_url": "http://cmet.xjtu.edu.cn",
+    "data_source": "official_api",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "base_url": "https://zyxj.publish.founderss.cn",
+    "site_id": 597,
+    "probe_items": [
+      {
+        "title": "大语言模型辅助教学模式在消化内科临床见习教学中的应用",
+        "url": "https://zyxj.publish.founderss.cn/zh/article/doi/10.13566/j.cnki.cmet.cn61-1317/g4.202605001"
+      },
+      {
+        "title": "生物化学与分子生物学课程轻量化知识图谱及智能问答系统构建",
+        "url": "https://zyxj.publish.founderss.cn/zh/article/doi/10.13566/j.cnki.cmet.cn61-1317/g4.202605002"
+      },
+      {
+        "title": "基于大语言模型的医学主观题批量评分与反馈生成系统研究",
+        "url": "https://zyxj.publish.founderss.cn/zh/article/doi/10.13566/j.cnki.cmet.cn61-1317/g4.202605003"
+      },
+      {
+        "title": "基于UTAUT模型的医学院校教师AI接受度影响因素研究",
+        "url": "https://zyxj.publish.founderss.cn/zh/article/doi/10.13566/j.cnki.cmet.cn61-1317/g4.202605004"
+      },
+      {
+        "title": "AI幻觉识别与验证的批判性思维教学对神经外科轮转住培医师AI素养的影响",
+        "url": "https://zyxj.publish.founderss.cn/zh/article/doi/10.13566/j.cnki.cmet.cn61-1317/g4.202605005"
+      },
+      {
+        "title": "人工智能态度对临床医学生批判性思维动机与临床决策的影响",
+        "url": "https://zyxj.publish.founderss.cn/zh/article/doi/10.13566/j.cnki.cmet.cn61-1317/g4.202605006"
+      },
+      {
+        "title": "人工智能在医学教育中的双语文献计量学分析：中英文研究热点与趋势比较",
+        "url": "https://zyxj.publish.founderss.cn/zh/article/doi/10.13566/j.cnki.cmet.cn61-1317/g4.202605007"
+      },
+      {
+        "title": "算法中介与认知重构：生成式AI驱动的混合式医学英语教学对医学生高阶思维能力的影响研究",
+        "url": "https://zyxj.publish.founderss.cn/zh/article/doi/10.13566/j.cnki.cmet.cn61-1317/g4.202605008"
+      },
+      {
+        "title": "镜像训练与虚拟仿真结合的手部灵巧度培养对口腔医学生临床前技能与自信心的影响",
+        "url": "https://zyxj.publish.founderss.cn/zh/article/doi/10.13566/j.cnki.cmet.cn61-1317/g4.202605009"
+      },
+      {
+        "title": "多智能体协同的医学Python数据分析实验辅导系统设计与实践",
+        "url": "https://zyxj.publish.founderss.cn/zh/article/doi/10.13566/j.cnki.cmet.cn61-1317/g4.202605010"
+      }
+    ],
+    "probe_first_title": "大语言模型辅助教学模式在消化内科临床见习教学中的应用",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "3d3a994a7ed5b4a7",
+    "name": "中国森林病虫",
+    "url": "http://zgslbc.bdpc.org.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "catalog_source": "2377_catalog",
+    "official_url": "http://zgslbc.bdpc.org.cn",
+    "data_source": "official_api",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "base_url": "https://slbc.publish.founderss.cn",
+    "site_id": 570,
+    "probe_items": [
+      {
+        "title": "杜仲梦尼夜蛾保幼激素酯酶基因鉴定及配体结合特性预测",
+        "url": "https://slbc.publish.founderss.cn/zh/article/doi/10.19688/j.cnki.issn1671-0886.20260047"
+      },
+      {
+        "title": "山桐子叶斑病病原菌生物学特性及药剂室内生物活性测定",
+        "url": "https://slbc.publish.founderss.cn/zh/article/doi/10.19688/j.cnki.issn1671-0886.20250054"
+      },
+      {
+        "title": "利用小灰长角天牛幼虫繁育松褐天牛肿腿蜂",
+        "url": "https://slbc.publish.founderss.cn/zh/article/doi/10.19688/j.cnki.issn1671-0886.20250060"
+      },
+      {
+        "title": "中国红环钝颊叶蜂种团三新种",
+        "url": "https://slbc.publish.founderss.cn/zh/article/doi/10.19688/j.cnki.issn1671-0886.20260024"
+      },
+      {
+        "title": "赤松梢斑螟嗅觉结合蛋白的筛选及表达模式分析",
+        "url": "https://slbc.publish.founderss.cn/zh/article/doi/10.19688/j.cnki.issn1671-0886.20250072"
+      },
+      {
+        "title": "中国西藏花尺蛾亚科盘尺蛾属二种记述",
+        "url": "https://slbc.publish.founderss.cn/zh/article/doi/10.19688/j.cnki.issn1671-0886.20260001"
+      },
+      {
+        "title": "山东省济宁市美国白蛾防治成本效益分析",
+        "url": "https://slbc.publish.founderss.cn/zh/article/doi/10.19688/j.cnki.issn1671-0886.20260048"
+      },
+      {
+        "title": "元宝枫细蛾生物学特性及其天敌",
+        "url": "https://slbc.publish.founderss.cn/zh/article/doi/10.19688/j.cnki.issn1671-0886.20260019"
+      },
+      {
+        "title": "高原鼠兔生态阈值研究进展与关键问题",
+        "url": "https://slbc.publish.founderss.cn/zh/article/doi/10.19688/j.cnki.issn1671-0886.20260042"
+      },
+      {
+        "title": "西宁市多毛切梢小蠹发生规律及防治药剂筛选",
+        "url": "https://slbc.publish.founderss.cn/zh/article/doi/10.19688/j.cnki.issn1671-0886.20250058"
+      }
+    ],
+    "probe_first_title": "杜仲梦尼夜蛾保幼激素酯酶基因鉴定及配体结合特性预测",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "cc47c647ee484976",
+    "name": "中国病理生理杂志",
+    "url": "http://www.cjpp.net",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "catalog_source": "2377_catalog",
+    "official_url": "http://www.cjpp.net",
+    "data_source": "official_api",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "base_url": "https://zbls.publish.founderss.cn",
+    "site_id": 205,
+    "probe_items": [
+      {
+        "title": "成体海马神经发生在运动抑制PTSD小鼠恐惧记忆泛化中的可能介导作用",
+        "url": "https://zbls.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1000-4718.2026.10.001"
+      },
+      {
+        "title": "金雀花碱衍生物hosieine A抑制阿尔茨海默病细胞和小鼠模型中的双硫死亡",
+        "url": "https://zbls.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1000-4718.2026.10.002"
+      },
+      {
+        "title": "虾青素预处理小胶质细胞来源小细胞外囊泡通过调控小胶质细胞极化和神经元铁死亡减轻脑缺血再灌注损伤",
+        "url": "https://zbls.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1000-4718.2026.10.003"
+      },
+      {
+        "title": "靶向抑制SHP2/NF-κB轴促进小胶质细胞M2极化并减轻小鼠脊髓损伤后炎症反应",
+        "url": "https://zbls.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1000-4718.2026.10.004"
+      },
+      {
+        "title": "基于多模型比较筛选骨癌痛背根神经节核心基因",
+        "url": "https://zbls.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1000-4718.2026.10.005"
+      },
+      {
+        "title": "淫黄葛合剂通过GSK-3β/PGC-1α信号通路调控线粒体生物合成进而改善APP/PS1小鼠认知功能",
+        "url": "https://zbls.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1000-4718.2026.10.006"
+      },
+      {
+        "title": "小续命汤通过SLC7A11/GPX4/ACSL4轴抑制铁死亡改善Aβ损伤HT22细胞突触完整性",
+        "url": "https://zbls.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1000-4718.2026.10.007"
+      },
+      {
+        "title": "SUMO1蛋白通过调控PPARγ信号通路促进氧化低密度脂蛋白诱导的巨噬细胞泡沫化",
+        "url": "https://zbls.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1000-4718.2026.10.008"
+      },
+      {
+        "title": "阿魏酸通过抑制HIF-1α促进PINK1/parkin介导的线粒体自噬并抑制脂多糖诱导的巨噬细胞炎症",
+        "url": "https://zbls.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1000-4718.2026.10.009"
+      },
+      {
+        "title": "麝香通心滴丸通过Drp1/MFN1调控线粒体动力学缓解心肌梗死后小鼠微血管功能障碍",
+        "url": "https://zbls.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1000-4718.2026.10.010"
+      }
+    ],
+    "probe_first_title": "成体海马神经发生在运动抑制PTSD小鼠恐惧记忆泛化中的可能介导作用",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "ed7cf0568b3324a0",
+    "name": "中国癌症杂志",
+    "url": "http://www.china-oncology.com",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "catalog_source": "2377_catalog",
+    "official_url": "http://www.china-oncology.com",
+    "data_source": "official_api",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "base_url": "https://www.china-oncology.com",
+    "site_id": 1179,
+    "probe_items": 11,
+    "probe_first_title": "肿瘤肾脏病学的疾病表型、诊断评估与治疗管理前沿进展及展望",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "cb54b2a3a3838048",
+    "name": "中国神经精神疾病杂志",
+    "url": "http://www.zgsjjs.com",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "catalog_source": "2377_catalog",
+    "official_url": "http://www.zgsjjs.com",
+    "data_source": "official_api",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "base_url": "https://zsjj.publish.founderss.cn",
+    "site_id": 614,
+    "probe_items": [
+      {
+        "title": "急性缺血性卒中严重程度与患者接受不同剂量替奈普酶静脉溶栓疗效的相关性研究：INTACT-China研究事后分析",
+        "url": "https://zsjj.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1002-0152.2026.09.001"
+      },
+      {
+        "title": "2012—2025年重庆市脑出血死亡特征及变化趋势",
+        "url": "https://zsjj.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1002-0152.2026.09.002"
+      },
+      {
+        "title": "早期帕金森病自主神经功能障碍病例对照研究",
+        "url": "https://zsjj.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1002-0152.2026.09.003"
+      },
+      {
+        "title": "首发精神分裂症结构式曼陀罗绘画特征及其与疾病关联分析",
+        "url": "https://zsjj.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1002-0152.2026.09.004"
+      },
+      {
+        "title": "急性缺血性卒中再灌注治疗后无复流现象的研究进展",
+        "url": "https://zsjj.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1002-0152.2026.09.005"
+      },
+      {
+        "title": "颈内静脉狭窄从分类评估到病理诊疗研究进展",
+        "url": "https://zsjj.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1002-0152.2026.09.006"
+      },
+      {
+        "title": "神经影像与电生理引导下重复经颅磁刺激精准治疗帕金森病抑郁研究进展",
+        "url": "https://zsjj.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1002-0152.2026.9.007"
+      },
+      {
+        "title": "青少年重性抑郁障碍与胰岛素抵抗研究进展",
+        "url": "https://zsjj.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1002-0152.2026.09.008"
+      },
+      {
+        "title": "微表情在抑郁症研究中的应用进展与展望",
+        "url": "https://zsjj.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1002-0152.2026.09.009"
+      },
+      {
+        "title": "脑类器官在精神疾病研究中的应用进展与挑战",
+        "url": "https://zsjj.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1002-0152.2026.09.010"
+      }
+    ],
+    "probe_first_title": "急性缺血性卒中严重程度与患者接受不同剂量替奈普酶静脉溶栓疗效的相关性研究：INTACT-China研究事后分析",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "8e8d6e879c0737bb",
+    "name": "中国肛肠病杂志",
+    "url": "https://gcbz.publish.founderss.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "catalog_source": "2377_catalog",
+    "official_url": "https://gcbz.publish.founderss.cn",
+    "data_source": "official_api",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "base_url": "https://gcbz.publish.founderss.cn",
+    "site_id": 1061,
+    "probe_items": 11,
+    "probe_first_title": "结直肠癌高危人群中医体质分布及与病变表型的探索性研究",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "6fe4f0cfa8d06305",
+    "name": "中国输血杂志",
+    "url": "http://www.cjbt.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "catalog_source": "2377_catalog",
+    "official_url": "http://www.cjbt.cn",
+    "data_source": "official_api",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "base_url": "https://bloo.publish.founderss.cn",
+    "site_id": 543,
+    "probe_items": [
+      {
+        "title": "医疗机构输血医学科诊疗业务范围与技术内涵专家共识",
+        "url": "https://bloo.publish.founderss.cn/zh/article/doi/10.13303/j.cjbt.issn.1004-549x.2026.10.001"
+      },
+      {
+        "title": "TRALI小鼠来源血小板输注加重受体小鼠肺损伤的实验研究",
+        "url": "https://bloo.publish.founderss.cn/zh/article/doi/10.13303/j.cjbt.issn.1004-549x.2026.10.002"
+      },
+      {
+        "title": "富血小板血浆预激活脐带间充质干细胞旁分泌修复放射性皮肤损伤",
+        "url": "https://bloo.publish.founderss.cn/zh/article/doi/10.13303/j.cjbt.issn.1004-549x.2026.10.003"
+      },
+      {
+        "title": "红细胞储存不同时间对巨噬细胞极化和输注效果的研究",
+        "url": "https://bloo.publish.founderss.cn/zh/article/doi/10.13303/j.cjbt.issn.1004-549x.2026.10.004"
+      },
+      {
+        "title": "同种异体血小板裂解液不同制备及储存方式的对比研究",
+        "url": "https://bloo.publish.founderss.cn/zh/article/doi/10.13303/j.cjbt.issn.1004-549x.2026.10.005"
+      },
+      {
+        "title": "离心式膜滤过血浆置换治疗神经免疫性疾病的选择性清除效应及安全性研究",
+        "url": "https://bloo.publish.founderss.cn/zh/article/doi/10.13303/j.cjbt.issn.1004-549x.2026.10.006"
+      },
+      {
+        "title": "基于围术期输血量的肝移植术后脓毒症预测模型建立与验证",
+        "url": "https://bloo.publish.founderss.cn/zh/article/doi/10.13303/j.cjbt.issn.1004-549x.2026.10.007"
+      },
+      {
+        "title": "基于列线图的急诊主动脉夹层手术患者围术期大量输血风险预测模型及其临床价值",
+        "url": "https://bloo.publish.founderss.cn/zh/article/doi/10.13303/j.cjbt.issn.1004-549x.2026.10.008"
+      },
+      {
+        "title": "青少年特发性脊柱侧凸后路矫形术中异体红细胞输注负荷分层及相关因素分析",
+        "url": "https://bloo.publish.founderss.cn/zh/article/doi/10.13303/j.cjbt.issn.1004-549x.2026.10.009"
+      },
+      {
+        "title": "血小板抗体与ITP患者血小板输注及血栓弹力图的关系",
+        "url": "https://bloo.publish.founderss.cn/zh/article/doi/10.13303/j.cjbt.issn.1004-549x.2026.10.010"
+      }
+    ],
+    "probe_first_title": "医疗机构输血医学科诊疗业务范围与技术内涵专家共识",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "a327d08139d0d1f0",
+    "name": "中国针灸",
+    "url": "http://www.cjacupuncture.com",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "catalog_source": "2377_catalog",
+    "official_url": "http://www.cjacupuncture.com",
+    "data_source": "official_api",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "base_url": "http://www.cjacupuncture.cn",
+    "site_id": 520,
+    "probe_items": 24,
+    "probe_first_title": "基于多源证据的针灸选穴方案证据生态路径构建浅析",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "88eca320cb9ba52f",
+    "name": "中山大学学报（社会科学版）",
+    "url": "https://xuebaosk.sysu.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "catalog_source": "2377_catalog",
+    "official_url": "https://xuebaosk.sysu.edu.cn",
+    "data_source": "official_api",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "base_url": "https://xuebaosk.sysu.edu.cn",
+    "site_id": 253,
+    "probe_items": 20,
+    "probe_first_title": "孙中山与晚清“革命党”的多维自觉",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "1263ae4cfc349285",
+    "name": "中西医结合心脑血管病杂志",
+    "url": "http://www.suo1.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "catalog_source": "2377_catalog",
+    "official_url": "http://www.suo1.cn",
+    "data_source": "official_api",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "base_url": "https://zyyy.publish.founderss.cn",
+    "site_id": 857,
+    "probe_items": [
+      {
+        "title": "基于GEO数据库、网络药理学及分子动力学模拟探讨瓜蒌薤白半夏汤治疗缺血性心脏病的作用机制",
+        "url": "https://zyyy.publish.founderss.cn/zh/article/doi/10.12102/j.issn.1672-1349.2026.22.001"
+      },
+      {
+        "title": "基于多组学数据探讨缺血性脑卒中的分子分型与标志物",
+        "url": "https://zyyy.publish.founderss.cn/zh/article/doi/10.12102/j.issn.1672-1349.2026.22.002"
+      },
+      {
+        "title": "基于PRKG1/PINK1/STING信号通路探讨山茱萸苷对慢性心力衰竭大鼠的保护作用",
+        "url": "https://zyyy.publish.founderss.cn/zh/article/doi/10.12102/j.issn.1672-1349.2026.22.003"
+      },
+      {
+        "title": "miR-146a-5p调控TRAF6/NF-κB通路对慢性心力衰竭大鼠心功能及炎症反应的影响",
+        "url": "https://zyyy.publish.founderss.cn/zh/article/doi/10.12102/j.issn.1672-1349.2026.22.004"
+      },
+      {
+        "title": "荭草素调节SphK1/S1P信号通路对射血分数保留型心力衰竭大鼠心脏功能及心肌纤维化的影响",
+        "url": "https://zyyy.publish.founderss.cn/zh/article/doi/10.12102/j.issn.1672-1349.2026.22.005"
+      },
+      {
+        "title": "鹰嘴豆芽素A减轻脑缺血再灌注损伤大鼠抗炎、抗氧化和抗细胞焦亡的作用机制",
+        "url": "https://zyyy.publish.founderss.cn/zh/article/doi/10.12102/j.issn.1672-1349.2026.22.006"
+      },
+      {
+        "title": "基于“脾气散精，浊气归心”理论探讨线粒体质量控制对心力衰竭影响的中医药研究进展",
+        "url": "https://zyyy.publish.founderss.cn/zh/article/doi/10.12102/j.issn.1672-1349.2026.22.007"
+      },
+      {
+        "title": "尿酸和清蛋白及其比值与心力衰竭关系的研究进展",
+        "url": "https://zyyy.publish.founderss.cn/zh/article/doi/10.12102/j.issn.1672-1349.2026.22.008"
+      },
+      {
+        "title": "吉泮类药物对偏头痛及相关缺血性脑卒中的作用机制及应用",
+        "url": "https://zyyy.publish.founderss.cn/zh/article/doi/10.12102/j.issn.1672-1349.2026.22.009"
+      },
+      {
+        "title": "中医药治疗小脑共济失调的研究进展",
+        "url": "https://zyyy.publish.founderss.cn/zh/article/doi/10.12102/j.issn.1672-1349.2026.22.010"
+      }
+    ],
+    "probe_first_title": "基于GEO数据库、网络药理学及分子动力学模拟探讨瓜蒌薤白半夏汤治疗缺血性心脏病的作用机制",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "33a19047d5699106",
+    "name": "云南大学学报（社会科学版）",
+    "url": "http://www.wkxb.ynu.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "catalog_source": "2377_catalog",
+    "official_url": "http://www.wkxb.ynu.edu.cn",
+    "data_source": "official_api",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "base_url": "https://ynxs.publish.founderss.cn",
+    "site_id": 1158,
+    "probe_items": [
+      {
+        "title": "构建中华文明标识体系的语境、价值与理路",
+        "url": "https://ynxs.publish.founderss.cn/rc-pub/front/front-article/158999166"
+      },
+      {
+        "title": "人类命运共同体理念的哲学意蕴及意义",
+        "url": "https://ynxs.publish.founderss.cn/rc-pub/front/front-article/158999176"
+      },
+      {
+        "title": "后马克思主义对抗逻辑及其政治实践的限度",
+        "url": "https://ynxs.publish.founderss.cn/rc-pub/front/front-article/158999184"
+      },
+      {
+        "title": "简论普罗提诺的元一学说——兼论元一与梵、道、太一和至一的异同",
+        "url": "https://ynxs.publish.founderss.cn/rc-pub/front/front-article/158999191"
+      },
+      {
+        "title": "爱比克泰德的自由思想与当代哲学咨询",
+        "url": "https://ynxs.publish.founderss.cn/rc-pub/front/front-article/158999199"
+      },
+      {
+        "title": "从正义到良善生活——兼论赫勒独特正义观的理论前提",
+        "url": "https://ynxs.publish.founderss.cn/rc-pub/front/front-article/158999208"
+      },
+      {
+        "title": "“仁爱”“兼爱”与“博爱”——中西方“爱”的学说比较",
+        "url": "https://ynxs.publish.founderss.cn/rc-pub/front/front-article/158999217"
+      },
+      {
+        "title": "党建引领基层治理有效的实践逻辑——基于云南省L镇H村的个案分析",
+        "url": "https://ynxs.publish.founderss.cn/rc-pub/front/front-article/158999225"
+      },
+      {
+        "title": "行政公益诉讼诉前程序的司法地位、法理回归与规范运行",
+        "url": "https://ynxs.publish.founderss.cn/rc-pub/front/front-article/158999235"
+      },
+      {
+        "title": "监察调查中认罪认罚从宽制度的适用与优化",
+        "url": "https://ynxs.publish.founderss.cn/rc-pub/front/front-article/158999245"
+      }
+    ],
+    "probe_first_title": "构建中华文明标识体系的语境、价值与理路",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "8c3c0332c0ee3b5c",
+    "name": "人口与社会",
+    "url": "https://rkysh.publish.founderss.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "evidence": "supplier_label_only",
+    "source_file": "founder_59458508.json",
+    "catalog_source": "2377_catalog",
+    "official_url": "https://rkysh.publish.founderss.cn",
+    "data_source": "official_api",
+    "data_source_detail": "Founder rc-pub API（官网接口，非页面）",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "verified_at": "2026-11-21",
+    "base_url": "https://rkysh.publish.founderss.cn",
+    "sld": "rkysh",
+    "site_id": 889,
+    "publication_index_id": 2533,
+    "probe_items": 10,
+    "probe_first_title": "以人口高质量发展赋能银发经济：逻辑理路与实践路径",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "706ba0e9b111f02f",
+    "name": "人口与经济",
+    "url": "http://rkyjj.cueb.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "catalog_source": "2377_catalog",
+    "official_url": "http://rkyjj.cueb.edu.cn",
+    "data_source": "official_api",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "base_url": "https://rkjj.publish.founderss.cn",
+    "site_id": 850,
+    "probe_items": [
+      {
+        "title": "机器学习应用于中国人口学研究：进展、框架与展望",
+        "url": "https://rkjj.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1000-4149.2026.00.041"
+      },
+      {
+        "title": "安宁疗护的家庭决策机制——基于扎根理论的研究",
+        "url": "https://rkjj.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1000-4149.2026.00.049"
+      },
+      {
+        "title": "包容性数智养老：运行逻辑、现实挑战与优化路径",
+        "url": "https://rkjj.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1000-4149.2026.00.050"
+      },
+      {
+        "title": "不同类型生育支持政策对生育意愿的影响——基于调查实验的证据",
+        "url": "https://rkjj.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1000-4149.2026.00.051"
+      },
+      {
+        "title": "低生育背景下女性婚育谨慎的生成机制——基于婚育风险链条的分析",
+        "url": "https://rkjj.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1000-4149.2026.00.044"
+      },
+      {
+        "title": "中国托育服务供需结构研究——为何托位扩张未能转化为有效使用",
+        "url": "https://rkjj.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1000-4149.2026.00.046"
+      },
+      {
+        "title": "从投资于物到投资于人：健康人力资本与物质资本的经济效应比较研究",
+        "url": "https://rkjj.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1000-4149.2026.00.043"
+      },
+      {
+        "title": "多状态转换矩阵视角下青年就业稳定性再探究",
+        "url": "https://rkjj.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1000-4149.2026.00.045"
+      },
+      {
+        "title": "外卖骑手时间密度压力对职业伤害的影响——基于资源保存理论视角的解释",
+        "url": "https://rkjj.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1000-4149.2026.00.032"
+      },
+      {
+        "title": "数字经济下的非适度劳动向适度劳动转化探索——基于数字人力资源管理的视角",
+        "url": "https://rkjj.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1000-4149.2026.00.048"
+      }
+    ],
+    "probe_first_title": "机器学习应用于中国人口学研究：进展、框架与展望",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "f8eedeb1ae595cbc",
+    "name": "人民珠江",
+    "url": "http://www.renminzhujiang.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "catalog_source": "2377_catalog",
+    "official_url": "http://www.renminzhujiang.cn",
+    "data_source": "official_api",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "base_url": "https://rmzj.publish.founderss.cn",
+    "site_id": 638,
+    "probe_items": [
+      {
+        "title": "基于输运路径特征的珠江口微塑料时空演化格局（2019—2025）",
+        "url": "https://rmzj.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1001-9235.2026.10.001"
+      },
+      {
+        "title": "近30年都柳江流域水源涵养功能动态演变特征及驱动因子分析",
+        "url": "https://rmzj.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1001-9235.2026.10.002"
+      },
+      {
+        "title": "不连续植被斑对河道水动力-生境调控与应用",
+        "url": "https://rmzj.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1001-9235.2026.10.003"
+      },
+      {
+        "title": "西江三角洲主干水道洪潮水面线变化研究",
+        "url": "https://rmzj.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1001-9235.2026.10.004"
+      },
+      {
+        "title": "北江流域中上游龙舟水期间降水分析（1966—2025）",
+        "url": "https://rmzj.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1001-9235.2026.10.005"
+      },
+      {
+        "title": "基于云模型的市县级水网功能完整性综合评价",
+        "url": "https://rmzj.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1001-9235.2026.10.006"
+      },
+      {
+        "title": "基于隐患探测及数值模拟的水库溃坝概率与直接经济风险分析",
+        "url": "https://rmzj.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1001-9235.2026.10.007"
+      },
+      {
+        "title": "南宁抽蓄沥青混凝土心墙施工配合比优化设计与试验研究",
+        "url": "https://rmzj.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1001-9235.2026.10.008"
+      },
+      {
+        "title": "1971—2024年钱塘江流域持续强降水事件特征分析",
+        "url": "https://rmzj.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1001-9235.2026.10.009"
+      },
+      {
+        "title": "低应力水平流变条件下堆石料单颗粒强度时效性劣化规律研究",
+        "url": "https://rmzj.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1001-9235.2026.10.010"
+      }
+    ],
+    "probe_first_title": "基于输运路径特征的珠江口微塑料时空演化格局（2019—2025）",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "4bcea18a6ba81024",
+    "name": "低碳化学与化工",
+    "url": "http://www.dthxyhg.com",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "catalog_source": "2377_catalog",
+    "official_url": "http://www.dthxyhg.com",
+    "data_source": "official_api",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "base_url": "https://dthxyhg.publish.founderss.cn",
+    "site_id": 507,
+    "probe_items": 15,
+    "probe_first_title": "等离子体裂解甲烷制氢及碳材料研究进展",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "c38ea32e16cca24f",
+    "name": "光学技术",
+    "url": "http://gxjs.publish.founderss.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "evidence": "supplier_label_only",
+    "source_file": "founder_59458508.json",
+    "catalog_source": "2377_catalog",
+    "official_url": "http://gxjs.publish.founderss.cn",
+    "data_source": "official_api",
+    "data_source_detail": "Founder rc-pub API（官网接口，非页面）",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "verified_at": "2026-11-21",
+    "base_url": "https://gxjs.publish.founderss.cn",
+    "sld": "gxjs",
+    "site_id": 954,
+    "publication_index_id": 2554,
+    "probe_items": 18,
+    "probe_first_title": "微型化高色准投影照明系统设计与仿真",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "b2c92e6ee28ca18e",
+    "name": "兰州财经大学学报",
+    "url": "http://journal.lzufe.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "catalog_source": "2377_catalog",
+    "official_url": "http://journal.lzufe.edu.cn",
+    "data_source": "official_api",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "base_url": "https://sxgza.publish.founderss.cn",
+    "site_id": 428,
+    "probe_items": 13,
+    "probe_first_title": "城镇居民消费信贷的同群效应——基于中国家庭金融调查的实证研究",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "78a91a7d196ea6e4",
+    "name": "内蒙古农业大学学报（哲学社会科学版）",
+    "url": "https://xuebao.imau.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "catalog_source": "2377_catalog",
+    "official_url": "https://xuebao.imau.edu.cn",
+    "data_source": "official_api",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "base_url": "https://nmndzs.publish.founderss.cn",
+    "site_id": 429,
+    "probe_items": [
+      {
+        "title": "乡村振兴视域下农村精神文明建设的逻辑理路与实践方略",
+        "url": "https://nmndzs.publish.founderss.cn/zh/article/doi/10.16853/j.issn.1009-4458.2026.06.001"
+      },
+      {
+        "title": "新时代“两山”理念研究的演进脉络、发展动态与未来趋势",
+        "url": "https://nmndzs.publish.founderss.cn/zh/article/doi/10.16853/j.issn.1009-4458.2026.06.002"
+      },
+      {
+        "title": "中华农耕文明赋能中国式农业现代化的机理与进路",
+        "url": "https://nmndzs.publish.founderss.cn/zh/article/doi/10.16853/j.issn.1009-4458.2026.06.003"
+      },
+      {
+        "title": "中国新质生产力的研究图景：热点解析与未来展望",
+        "url": "https://nmndzs.publish.founderss.cn/zh/article/doi/10.16853/j.issn.1009-4458.2026.06.004"
+      },
+      {
+        "title": "“投资于物”和“投资于人”紧密结合推进乡村全面振兴的价值、挑战与路向",
+        "url": "https://nmndzs.publish.founderss.cn/zh/article/doi/10.16853/j.issn.1009-4458.2026.06.005"
+      },
+      {
+        "title": "农业产业集聚的时空演化及其对城乡收入差距的影响研究——基于31个省份的实证分析",
+        "url": "https://nmndzs.publish.founderss.cn/zh/article/doi/10.16853/j.issn.1009-4458.2026.06.006"
+      },
+      {
+        "title": "数字能力、感知风险与蒙古国居民农产品电商使用意向——基于结构方程模型的实证分析",
+        "url": "https://nmndzs.publish.founderss.cn/zh/article/doi/10.16853/j.issn.1009-4458.2026.06.007"
+      },
+      {
+        "title": "未成年子女数量对牧户牲畜养殖规模的双重影响：一个“U”型关系",
+        "url": "https://nmndzs.publish.founderss.cn/zh/article/doi/10.16853/j.issn.1009-4458.2026.06.008"
+      },
+      {
+        "title": "高价彩礼的异化逻辑、反噬机制与治理路径",
+        "url": "https://nmndzs.publish.founderss.cn/zh/article/doi/10.16853/j.issn.1009-4458.2026.06.009"
+      },
+      {
+        "title": "短视频赋能铸牢中华民族共同体意识的机制研究：实践、挑战与路径",
+        "url": "https://nmndzs.publish.founderss.cn/zh/article/doi/10.16853/j.issn.1009-4458.2026.06.010"
+      }
+    ],
+    "probe_first_title": "乡村振兴视域下农村精神文明建设的逻辑理路与实践方略",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "dbb7cb71750088f6",
+    "name": "内蒙古农业大学学报（自然科学版）",
+    "url": "https://xuebao.imau.edu.cn/index.htm",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "catalog_source": "2377_catalog",
+    "official_url": "https://xuebao.imau.edu.cn/index.htm",
+    "data_source": "official_api",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "base_url": "https://nmndzr.publish.founderss.cn",
+    "site_id": 430,
+    "probe_items": [
+      {
+        "title": "关键生育期施用液体有机肥对滴灌马铃薯产量及土壤碳氮特性的影响",
+        "url": "https://nmndzr.publish.founderss.cn/zh/article/doi/10.16853/j.cnki.1009-3575.2026.06.001"
+      },
+      {
+        "title": "航天诱变对4种禾本科牧草SP<sub>1</sub>代农艺性状的影响",
+        "url": "https://nmndzr.publish.founderss.cn/zh/article/doi/10.16853/j.cnki.1009-3575.2026.06.002"
+      },
+      {
+        "title": "内蒙古地区花蓟马对4种低风险农药的敏感性研究",
+        "url": "https://nmndzr.publish.founderss.cn/zh/article/doi/10.16853/j.cnki.1009-3575.2026.06.003"
+      },
+      {
+        "title": "岱海浮游植物群落结构特征及水质评价",
+        "url": "https://nmndzr.publish.founderss.cn/zh/article/doi/10.16853/j.cnki.1009-3575.2026.06.004"
+      },
+      {
+        "title": "基于蛋白质组和代谢组解析兴安落叶松针叶衰老调控",
+        "url": "https://nmndzr.publish.founderss.cn/zh/article/doi/10.16853/j.cnki.1009-3575.2026.06.005"
+      },
+      {
+        "title": "基于冻融循环下复合材料改良盐渍土土水特性研究",
+        "url": "https://nmndzr.publish.founderss.cn/zh/article/doi/10.16853/j.cnki.1009-3575.2026.06.006"
+      },
+      {
+        "title": "多源数据支持下的城市路网功能评价与分析",
+        "url": "https://nmndzr.publish.founderss.cn/zh/article/doi/10.16853/j.cnki.1009-3575.2026.06.007"
+      },
+      {
+        "title": "基于CFD的双层膜日光温室冬季循环风机对温湿度分布特性影响的研究",
+        "url": "https://nmndzr.publish.founderss.cn/zh/article/doi/10.16853/j.cnki.1009-3575.2026.06.008"
+      },
+      {
+        "title": "日光温室环境变量远程监测及自动调控系统研究",
+        "url": "https://nmndzr.publish.founderss.cn/zh/article/doi/10.16853/j.cnki.1009-3575.2026.06.009"
+      },
+      {
+        "title": "多尺度残差-边缘感知融合的荒漠草原高光谱弱监督分类模型",
+        "url": "https://nmndzr.publish.founderss.cn/zh/article/doi/10.16853/j.cnki.1009-3575.2026.06.010"
+      }
+    ],
+    "probe_first_title": "关键生育期施用液体有机肥对滴灌马铃薯产量及土壤碳氮特性的影响",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "c7373454966dffcd",
+    "name": "农业科学研究",
+    "url": "https://jas.nxu.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "catalog_source": "2377_catalog",
+    "official_url": "https://jas.nxu.edu.cn",
+    "data_source": "official_api",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "base_url": "https://lxlx.publish.founderss.cn",
+    "site_id": 517,
+    "probe_items": [
+      {
+        "title": "宁夏不同子产区‘赤霞珠’葡萄园土壤酶活性及细菌生物多样性",
+        "url": "https://lxlx.publish.founderss.cn/zh/article/doi/10.13907/j.cnki.nykxyj.2026.03.001"
+      },
+      {
+        "title": "水凝胶基固定化酵母的构建及其低温葡萄酒发酵性能",
+        "url": "https://lxlx.publish.founderss.cn/zh/article/doi/10.13907/j.cnki.nykxyj.2026.03.002"
+      },
+      {
+        "title": "基于定性培养基的非酿酒酵母产酯酶能力分析",
+        "url": "https://lxlx.publish.founderss.cn/zh/article/doi/10.13907/j.cnki.nykxyj.2026.03.003"
+      },
+      {
+        "title": "数字普惠金融对农业企业新质生产力的影响",
+        "url": "https://lxlx.publish.founderss.cn/zh/article/doi/10.13907/j.cnki.nykxyj.20250908.001"
+      },
+      {
+        "title": "数字技能对农村家庭收入不平等的影响",
+        "url": "https://lxlx.publish.founderss.cn/zh/article/doi/10.13907/j.cnki.nykxyj.2026.03.005"
+      },
+      {
+        "title": "新型农村集体经济赋能乡村产业振兴的机制与实践路径：基于福建南平市政和县乡村振兴公司的案例分析",
+        "url": "https://lxlx.publish.founderss.cn/zh/article/doi/10.13907/j.cnki.nykxyj.20250916.001"
+      },
+      {
+        "title": "奶牛乳腺炎源肺炎克雷伯菌毒力基因分布及<italic>kfuBC</italic>与耐药的相关性研究",
+        "url": "https://lxlx.publish.founderss.cn/zh/article/doi/10.13907/j.cnki.nykxyj.20251013.005"
+      },
+      {
+        "title": "大柴胡汤治疗奶牛脂肪肝的网络药理学效应机制",
+        "url": "https://lxlx.publish.founderss.cn/zh/article/doi/10.13907/j.cnki.nykxyj.20250515.001"
+      },
+      {
+        "title": "TRIM蛋白在抗流感病毒感染中的作用",
+        "url": "https://lxlx.publish.founderss.cn/zh/article/doi/10.13907/j.cnki.nykxyj.20250516.001"
+      },
+      {
+        "title": "一起陕北白绒山羊传染性胸膜肺炎的诊断分析",
+        "url": "https://lxlx.publish.founderss.cn/zh/article/doi/10.13907/j.cnki.nykxyj.20251013.002"
+      }
+    ],
+    "probe_first_title": "宁夏不同子产区‘赤霞珠’葡萄园土壤酶活性及细菌生物多样性",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "4606deb7802095a8",
+    "name": "农村新技术",
+    "url": "https://ncxjs.gxinfo.org",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "catalog_source": "2377_catalog",
+    "official_url": "https://ncxjs.gxinfo.org",
+    "data_source": "official_api",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "base_url": "https://ncxjs.publish.founderss.cn",
+    "site_id": 920,
+    "probe_items": [
+      {
+        "title": "畅通资金活水 夯实乡村振兴发展根基",
+        "url": "https://ncxjs.publish.founderss.cn/rc-pub/front/front-article/176319944"
+      },
+      {
+        "title": "泔水喂猪禁令下的养猪新变局",
+        "url": "https://ncxjs.publish.founderss.cn/rc-pub/front/front-article/176319965"
+      },
+      {
+        "title": "甘蔗黑穗病的发生与防治",
+        "url": "https://ncxjs.publish.founderss.cn/rc-pub/front/front-article/176319990"
+      },
+      {
+        "title": "“稻-莓”水旱轮作高产栽培技术",
+        "url": "https://ncxjs.publish.founderss.cn/rc-pub/front/front-article/176320075"
+      },
+      {
+        "title": "谷子膜下滴灌栽培技术要点",
+        "url": "https://ncxjs.publish.founderss.cn/rc-pub/front/front-article/176320115"
+      },
+      {
+        "title": "红小糯高粱适时播种技术",
+        "url": "https://ncxjs.publish.founderss.cn/rc-pub/front/front-article/176320151"
+      },
+      {
+        "title": "林下参育苗技术要点",
+        "url": "https://ncxjs.publish.founderss.cn/rc-pub/front/front-article/176320202"
+      },
+      {
+        "title": "软枣猕猴桃快速繁殖技术",
+        "url": "https://ncxjs.publish.founderss.cn/rc-pub/front/front-article/176320234"
+      },
+      {
+        "title": "电商销售柑橘高产栽培技术要点",
+        "url": "https://ncxjs.publish.founderss.cn/rc-pub/front/front-article/176320267"
+      },
+      {
+        "title": "高原山地苹果高效栽培技术要点",
+        "url": "https://ncxjs.publish.founderss.cn/rc-pub/front/front-article/176320308"
+      }
+    ],
+    "probe_first_title": "畅通资金活水 夯实乡村振兴发展根基",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "f518fd551e21e3ae",
+    "name": "化学分析计量",
+    "url": "http://www.cam1992.net",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "catalog_source": "2377_catalog",
+    "official_url": "http://www.cam1992.net",
+    "data_source": "official_api",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "base_url": "https://hxfj.publish.founderss.cn",
+    "site_id": 637,
+    "probe_items": [
+      {
+        "title": "替加环素标准物质的研制",
+        "url": "https://hxfj.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1008-6145.2026.10.001"
+      },
+      {
+        "title": "超高效液相色谱-三重四极杆串联质谱法测定化妆品中9种<italic>β</italic>-受体阻滞剂",
+        "url": "https://hxfj.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1008-6145.2026.10.002"
+      },
+      {
+        "title": "超高效液相色谱-四极杆静电场轨道阱高分辨质谱法测定血浆中甲硝唑",
+        "url": "https://hxfj.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1008-6145.2026.10.003"
+      },
+      {
+        "title": "固相萃取-超高效液相色谱法同时测定苦参中6种生物碱",
+        "url": "https://hxfj.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1008-6145.2026.10.004"
+      },
+      {
+        "title": "高效液相色谱法同时测定乳宁合剂多组分含量及制剂提取工艺优化",
+        "url": "https://hxfj.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1008-6145.2026.10.005"
+      },
+      {
+        "title": "化学计量学结合熵权TOPSIS法综合评价沙田柚柚皮的质量",
+        "url": "https://hxfj.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1008-6145.2026.10.006"
+      },
+      {
+        "title": "微波辅助萃取-高效液相色谱法同时测定纺织品中5种苯并噻唑类化合物",
+        "url": "https://hxfj.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1008-6145.2026.10.007"
+      },
+      {
+        "title": "高效液相色谱法测定静脉输液套件中呋塞米",
+        "url": "https://hxfj.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1008-6145.2026.10.008"
+      },
+      {
+        "title": "原子吸收分光光度法测定注射用头孢噻肟钠中钠含量及成盐率",
+        "url": "https://hxfj.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1008-6145.2026.10.009"
+      },
+      {
+        "title": "超高效液相色谱-串联质谱法测定电子烟油中8种咪酯类化合物",
+        "url": "https://hxfj.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1008-6145.2026.10.010"
+      }
+    ],
+    "probe_first_title": "替加环素标准物质的研制",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "23131501b53a6dfd",
+    "name": "化工科技",
+    "url": "https://hgkj.publish.founderss.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "evidence": "supplier_label_only",
+    "source_file": "founder_59458508.json",
+    "catalog_source": "2377_catalog",
+    "official_url": "https://hgkj.publish.founderss.cn",
+    "data_source": "official_api",
+    "data_source_detail": "Founder rc-pub API（官网接口，非页面）",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "verified_at": "2026-11-21",
+    "base_url": "https://hgkj.publish.founderss.cn",
+    "sld": "hgkj",
+    "site_id": 682,
+    "publication_index_id": 1968,
+    "probe_items": 14,
+    "probe_first_title": "椭圆形单腐蚀缺陷失效压力",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "aa05c4d535a35d67",
+    "name": "北京中医药大学学报",
+    "url": "https://xb.bucm.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "catalog_source": "2377_catalog",
+    "official_url": "https://xb.bucm.edu.cn",
+    "data_source": "official_api",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "base_url": "https://jzyb.publish.founderss.cn",
+    "site_id": 171,
+    "probe_items": [
+      {
+        "title": "从针刺镇痛走向精准针灸",
+        "url": "https://jzyb.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1006-2157.2026.10.001"
+      },
+      {
+        "title": "体质土壤论视角下基于“未病五态”理论的慢性肾脏病全周期防治管理策略",
+        "url": "https://jzyb.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1006-2157.2026.10.002"
+      },
+      {
+        "title": "基于“体质土壤论”探讨益气养阴法治疗IgA肾病",
+        "url": "https://jzyb.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1006-2157.2026.10.003"
+      },
+      {
+        "title": "活血消癥方调控STING/TBK1/IRF3信号通路改善慢性肾脏病大鼠肾纤维化的作用机制",
+        "url": "https://jzyb.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1006-2157.2026.10.004"
+      },
+      {
+        "title": "中药监管科学学科体系构建与思考",
+        "url": "https://jzyb.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1006-2157.2026.10.005"
+      },
+      {
+        "title": "构建中药基本理论体系之思考",
+        "url": "https://jzyb.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1006-2157.2026.10.006"
+      },
+      {
+        "title": "补肾填精方联合免疫抑制治疗改善再生障碍性贫血小鼠免疫炎症及造血功能的实验研究",
+        "url": "https://jzyb.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1006-2157.2026.10.007"
+      },
+      {
+        "title": "温经汤对慢传输型便秘小鼠结肠功能紊乱的改善作用及机制探讨",
+        "url": "https://jzyb.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1006-2157.2026.10.008"
+      },
+      {
+        "title": "基于母胎界面免疫微环境探讨温阳化浊方治疗不明原因复发性流产的作用机制",
+        "url": "https://jzyb.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1006-2157.2026.10.009"
+      },
+      {
+        "title": "基于聚类分析探讨1型糖尿病中医证素特征及其与临床综合指标的相关性",
+        "url": "https://jzyb.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1006-2157.2026.10.010"
+      }
+    ],
+    "probe_first_title": "从针刺镇痛走向精准针灸",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "1d2ce83fb0487131",
+    "name": "医学教育研究与实践",
+    "url": "http://yxjy.xjtu.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "catalog_source": "2377_catalog",
+    "official_url": "http://yxjy.xjtu.edu.cn",
+    "data_source": "official_api",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "base_url": "https://xbyx.publish.founderss.cn",
+    "site_id": 594,
+    "probe_items": [
+      {
+        "title": "新医科背景下医学检验技术专业产教融合实施路径",
+        "url": "https://xbyx.publish.founderss.cn/zh/article/doi/10.13555/j.cnki.c.m.e.2026.05.001"
+      },
+      {
+        "title": "审核评估视域下医学院校教学质量文化建设路径研究",
+        "url": "https://xbyx.publish.founderss.cn/zh/article/doi/10.13555/j.cnki.c.m.e.2026.05.002"
+      },
+      {
+        "title": "临床医学专业学生终身学习能力实证研究",
+        "url": "https://xbyx.publish.founderss.cn/zh/article/doi/10.13555/j.cnki.c.m.e.2026.05.003"
+      },
+      {
+        "title": "新质生产力视域下放射医学专业人才培养模式改革探究",
+        "url": "https://xbyx.publish.founderss.cn/zh/article/doi/10.13555/j.cnki.c.m.e.2026.05.004"
+      },
+      {
+        "title": "“口腔预防医学”课程“价值·双创·专业”融合育人模式构建",
+        "url": "https://xbyx.publish.founderss.cn/zh/article/doi/10.13555/j.cnki.c.m.e.2026.05.005"
+      },
+      {
+        "title": "医学课程思政“七维素养”体系的构建逻辑与价值分析",
+        "url": "https://xbyx.publish.founderss.cn/zh/article/doi/10.13555/j.cnki.c.m.e.2026.05.006"
+      },
+      {
+        "title": "数智技术赋能中医活态传承述评",
+        "url": "https://xbyx.publish.founderss.cn/zh/article/doi/10.13555/j.cnki.c.m.e.2026.05.007"
+      },
+      {
+        "title": "生物电磁与医工交叉研究生培养模式探索",
+        "url": "https://xbyx.publish.founderss.cn/zh/article/doi/10.13555/j.cnki.c.m.e.2026.05.008"
+      },
+      {
+        "title": "AI赋能医学研究生逻辑性科研思维能力提升探索",
+        "url": "https://xbyx.publish.founderss.cn/zh/article/doi/10.13555/j.cnki.c.m.e.2026.05.009"
+      },
+      {
+        "title": "第二课堂赋能医工交叉方向研究生人文伦理素养培育探析",
+        "url": "https://xbyx.publish.founderss.cn/zh/article/doi/10.13555/j.cnki.c.m.e.2026.05.010"
+      }
+    ],
+    "probe_first_title": "新医科背景下医学检验技术专业产教融合实施路径",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "7593c9504747fa03",
+    "name": "华中师范大学学报（自然科学版）",
+    "url": "https://xbzk.ccnu.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "catalog_source": "2377_catalog",
+    "official_url": "https://xbzk.ccnu.edu.cn",
+    "data_source": "official_api",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "base_url": "https://hzsfdx.publish.founderss.cn",
+    "site_id": 868,
+    "probe_items": [
+      {
+        "title": "笔谈：《旅游强国建设“十五五”规划》的价值导向与实践路径",
+        "url": "https://hzsfdx.publish.founderss.cn/zh/article/doi/10.19603/j.cnki.1000-1190.2026.05.001"
+      },
+      {
+        "title": "新质生产力重塑旅游消费场景的总体逻辑与典型模式——基于多案例的扎根理论与交叉分析",
+        "url": "https://hzsfdx.publish.founderss.cn/zh/article/doi/10.19603/j.cnki.1000-1190.2026.05.002"
+      },
+      {
+        "title": "正向地域梗影响旅游意愿的双路径研究——以“苏超”为例",
+        "url": "https://hzsfdx.publish.founderss.cn/zh/article/doi/10.19603/j.cnki.1000-1190.2026.05.003"
+      },
+      {
+        "title": "夜间文旅消费集聚区网络关注度的空间特征及影响机制",
+        "url": "https://hzsfdx.publish.founderss.cn/zh/article/doi/10.19603/j.cnki.1000-1190.2026.05.004"
+      },
+      {
+        "title": "双碳背景下江汉平原耕地利用绿色转型的时空格局和驱动机制研究",
+        "url": "https://hzsfdx.publish.founderss.cn/zh/article/doi/10.19603/j.cnki.1000-1190.2026.05.005"
+      },
+      {
+        "title": "碳限额交易政策下考虑政府补贴的多渠道供应链定价决策与协调研究",
+        "url": "https://hzsfdx.publish.founderss.cn/zh/article/doi/10.19603/j.cnki.1000-1190.2026.05.006"
+      },
+      {
+        "title": "气候风险冲击下城市韧性的演化逻辑与传导机制",
+        "url": "https://hzsfdx.publish.founderss.cn/zh/article/doi/10.19603/j.cnki.1000-1190.2026.05.007"
+      },
+      {
+        "title": "融合多层次分割与XGBoost的青海省地貌分类研究",
+        "url": "https://hzsfdx.publish.founderss.cn/zh/article/doi/10.19603/j.cnki.1000-1190.2026.05.008"
+      },
+      {
+        "title": "半自磨机筒体提升条高度与充填率对介质运动特性的影响关系",
+        "url": "https://hzsfdx.publish.founderss.cn/zh/article/doi/10.19603/j.cnki.1000-1190.2026.05.009"
+      },
+      {
+        "title": "高湿中药废渣自活化制备生物炭及其反应动力学机理研究",
+        "url": "https://hzsfdx.publish.founderss.cn/zh/article/doi/10.19603/j.cnki.1000-1190.2026.05.010"
+      }
+    ],
+    "probe_first_title": "笔谈：《旅游强国建设“十五五”规划》的价值导向与实践路径",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "dc8fddb96c115fa6",
+    "name": "华中科技大学学报（自然科学版）",
+    "url": "http://xb.hust.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "catalog_source": "2377_catalog",
+    "official_url": "http://xb.hust.edu.cn",
+    "data_source": "official_api",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "base_url": "https://hzlg.publish.founderss.cn",
+    "site_id": 500,
+    "probe_items": [
+      {
+        "title": "低强度聚焦超声：无创神经调控与脑机接口的前沿进展",
+        "url": "https://hzlg.publish.founderss.cn/zh/article/doi/10.13245/j.hust.260119"
+      },
+      {
+        "title": "头皮脑电脑机接口在血液病神经并发症中的应用",
+        "url": "https://hzlg.publish.founderss.cn/zh/article/doi/10.13245/j.hust.260121"
+      },
+      {
+        "title": "跨被试有限数据微调的SSVEP识别",
+        "url": "https://hzlg.publish.founderss.cn/zh/article/doi/10.13245/j.hust.251107"
+      },
+      {
+        "title": "改进K-means的抑郁症动态BFN聚类分析",
+        "url": "https://hzlg.publish.founderss.cn/zh/article/doi/10.13245/j.hust.260195"
+      },
+      {
+        "title": "基于时空门控图卷积的脑纹识别算法",
+        "url": "https://hzlg.publish.founderss.cn/zh/article/doi/10.13245/j.hust.260260"
+      },
+      {
+        "title": "基于IAO-MVMD与MobileMamba1D的表面肌电信号手势识别方法",
+        "url": "https://hzlg.publish.founderss.cn/zh/article/doi/10.13245/j.hust.260094"
+      },
+      {
+        "title": "基于多视图高斯增强TSK的抑郁症检测",
+        "url": "https://hzlg.publish.founderss.cn/zh/article/doi/10.13245/j.hust.260314"
+      },
+      {
+        "title": "不可靠通信的云控网联车辆运动控制研究综述",
+        "url": "https://hzlg.publish.founderss.cn/zh/article/doi/10.13245/j.hust.250718"
+      },
+      {
+        "title": "考虑动态预判的无人机编队高效围捕方法",
+        "url": "https://hzlg.publish.founderss.cn/zh/article/doi/10.13245/j.hust.250442"
+      },
+      {
+        "title": "基于行列注意力的自然场景表格结构识别",
+        "url": "https://hzlg.publish.founderss.cn/zh/article/doi/10.13245/j.hust.250169"
+      }
+    ],
+    "probe_first_title": "低强度聚焦超声：无创神经调控与脑机接口的前沿进展",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "575ef6cafff4a3ff",
+    "name": "南京航空航天大学学报",
+    "url": "http://jnuaa.nuaa.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "catalog_source": "2377_catalog",
+    "official_url": "http://jnuaa.nuaa.edu.cn",
+    "data_source": "official_api",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "base_url": "https://njhk.publish.founderss.cn",
+    "site_id": 446,
+    "probe_items": [
+      {
+        "title": "面向可信人工智能的神经过程不确定性建模研究综述",
+        "url": "https://njhk.publish.founderss.cn/zh/article/doi/10.16356/j.2097-6771.2026.05.001"
+      },
+      {
+        "title": "视‑触觉融合的空间机器人精细作业研究综述",
+        "url": "https://njhk.publish.founderss.cn/zh/article/doi/10.16356/j.2097-6771.2026.05.002"
+      },
+      {
+        "title": "场景文本图像超分辨率方法研究综述",
+        "url": "https://njhk.publish.founderss.cn/zh/article/doi/10.16356/j.2097-6771.2026.05.003"
+      },
+      {
+        "title": "基于多模态大模型的工业异常检测及定位方法",
+        "url": "https://njhk.publish.founderss.cn/zh/article/doi/10.16356/j.2097-6771.2026.05.004"
+      },
+      {
+        "title": "基于学习的无力传感器双臂协同搬运控制",
+        "url": "https://njhk.publish.founderss.cn/zh/article/doi/10.16356/j.2097-6771.2026.05.005"
+      },
+      {
+        "title": "基于色度联合直方图的极端过曝成像色彩校正",
+        "url": "https://njhk.publish.founderss.cn/zh/article/doi/10.16356/j.2097-6771.2026.05.006"
+      },
+      {
+        "title": "基于雷达红外传感器协同的目标运动状态估计",
+        "url": "https://njhk.publish.founderss.cn/zh/article/doi/10.16356/j.2097-6771.2026.05.007"
+      },
+      {
+        "title": "高光谱与激光雷达分类的模态感知平衡网络",
+        "url": "https://njhk.publish.founderss.cn/zh/article/doi/10.16356/j.2097-6771.2026.05.008"
+      },
+      {
+        "title": "面向星载TDI CCD影像震颤退化校正任务的深度学习复原方法对比分析",
+        "url": "https://njhk.publish.founderss.cn/zh/article/doi/10.16356/j.2097-6771.2026.05.009"
+      },
+      {
+        "title": "变拓扑并联式六维加速度感知机构的灵敏度性能",
+        "url": "https://njhk.publish.founderss.cn/zh/article/doi/10.16356/j.2097-6771.2026.05.010"
+      }
+    ],
+    "probe_first_title": "面向可信人工智能的神经过程不确定性建模研究综述",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "bfa3a221ce334489",
+    "name": "四川农业大学学报",
+    "url": "https://xb.sicau.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "catalog_source": "2377_catalog",
+    "official_url": "https://xb.sicau.edu.cn",
+    "data_source": "official_api",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "base_url": "https://scnd.publish.founderss.cn",
+    "site_id": 261,
+    "probe_items": [
+      {
+        "title": "氮肥配施腐植酸叶面肥对带状间作大豆叶片光合功能及产量形成的影响",
+        "url": "https://scnd.publish.founderss.cn/zh/article/doi/10.16036/j.issn.1000-2650.202601777"
+      },
+      {
+        "title": "生防菌肥对带状间作大豆荚粒发育及产质量的影响",
+        "url": "https://scnd.publish.founderss.cn/zh/article/doi/10.16036/j.issn.1000-2650.202602775"
+      },
+      {
+        "title": "高温与荫蔽胁迫对大豆花芽分化及开花的影响",
+        "url": "https://scnd.publish.founderss.cn/zh/article/doi/10.16036/j.issn.1000-2650.202512702"
+      },
+      {
+        "title": "行比配置对带状间作系统生产力及蛋白质产量的调控效应",
+        "url": "https://scnd.publish.founderss.cn/zh/article/doi/10.16036/j.issn.1000-2650.202609811"
+      },
+      {
+        "title": "大豆炭疽病抗性评价及生理指标分析",
+        "url": "https://scnd.publish.founderss.cn/zh/article/doi/10.16036/j.issn.1000-2650.202603814"
+      },
+      {
+        "title": "耐盐碱大豆优异种质的筛选与综合评价",
+        "url": "https://scnd.publish.founderss.cn/zh/article/doi/10.16036/j.issn.1000-2650.202511781"
+      },
+      {
+        "title": "海藻糖处理对黑麦花粉体内外萌发生长及多作物花粉活力的影响",
+        "url": "https://scnd.publish.founderss.cn/zh/article/doi/10.16036/j.issn.1000-2650.202604804"
+      },
+      {
+        "title": "花生果型和产量相关性状的遗传分析及QTL定位",
+        "url": "https://scnd.publish.founderss.cn/zh/article/doi/10.16036/j.issn.1000-2650.202602812"
+      },
+      {
+        "title": "不同播期与带宽组合对河北省花生/玉米复合种植系统综合效益的影响",
+        "url": "https://scnd.publish.founderss.cn/zh/article/doi/10.16036/j.issn.1000-2650.202510813"
+      },
+      {
+        "title": "直播密植下施氮量对不同油菜品种产量和氮素吸收利用的影响",
+        "url": "https://scnd.publish.founderss.cn/zh/article/doi/10.16036/j.issn.1000-2650.202605800"
+      }
+    ],
+    "probe_first_title": "氮肥配施腐植酸叶面肥对带状间作大豆叶片光合功能及产量形成的影响",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "b016593f2331a61d",
+    "name": "四川动物",
+    "url": "http://www.scdwzz.com",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "catalog_source": "2377_catalog",
+    "official_url": "http://www.scdwzz.com",
+    "data_source": "official_api",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "base_url": "https://scdw.publish.founderss.cn",
+    "site_id": 389,
+    "probe_items": [
+      {
+        "title": "四川省猕猴分布及栖息地适宜性评价",
+        "url": "https://scdw.publish.founderss.cn/zh/article/doi/10.11984/j.issn.1000-7083.20250281"
+      },
+      {
+        "title": "腹腔注射右旋糖酐铁对黄鳝卵巢功能的影响",
+        "url": "https://scdw.publish.founderss.cn/zh/article/doi/10.11984/j.issn.1000-7083.20260120"
+      },
+      {
+        "title": "3种萤火虫幼期形态首次报道",
+        "url": "https://scdw.publish.founderss.cn/zh/article/doi/10.11984/j.issn.1000-7083.20260018"
+      },
+      {
+        "title": "一株乳酸片球菌的益生特性及发酵美洲大蠊粉的抗炎活性研究",
+        "url": "https://scdw.publish.founderss.cn/zh/article/doi/10.11984/j.issn.1000-7083.20260057"
+      },
+      {
+        "title": "镉暴露对鲫血清抗氧化指标及肝脏炎症细胞因子基因表达的影响",
+        "url": "https://scdw.publish.founderss.cn/zh/article/doi/10.11984/j.issn.1000-7083.20260063"
+      },
+      {
+        "title": "滇池蓝藻典型富集区域粘皮鲻虾虎鱼的摄食分析",
+        "url": "https://scdw.publish.founderss.cn/zh/article/doi/10.11984/j.issn.1000-7083.20260093"
+      },
+      {
+        "title": "中国小姬蛙属的分布格局与广西种群的分类修订（两栖纲：无尾目：姬蛙科）",
+        "url": "https://scdw.publish.founderss.cn/zh/article/doi/10.11984/j.issn.1000-7083.20260098"
+      },
+      {
+        "title": "新疆肿腮长蝽秋冬过冷却点及其冰晶修饰活性观测",
+        "url": "https://scdw.publish.founderss.cn/zh/article/doi/10.11984/j.issn.1000-7083.20250299"
+      },
+      {
+        "title": "四川山鹧鸪的行为多样性及年活动节律研究",
+        "url": "https://scdw.publish.founderss.cn/zh/article/doi/10.11984/j.issn.1000-7083.20260090"
+      },
+      {
+        "title": "基于红外相机技术的白鹇峨眉亚种活动节律及集群行为研究：以四川省沐川县为例",
+        "url": "https://scdw.publish.founderss.cn/zh/article/doi/10.11984/j.issn.1000-7083.20250260"
+      }
+    ],
+    "probe_first_title": "四川省猕猴分布及栖息地适宜性评价",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "b9e05c37c6512fdf",
+    "name": "四川大学学报（哲学社会科学版）",
+    "url": "https://wkxb.scu.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "catalog_source": "2377_catalog",
+    "official_url": "https://wkxb.scu.edu.cn",
+    "data_source": "official_api",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "base_url": "http://wkxb.scu.edu.cn",
+    "site_id": 653,
+    "probe_items": 20,
+    "probe_first_title": "考古学的第三次科学革命？",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "46ce51b95e5a719f",
+    "name": "国土资源导刊",
+    "url": "https://gtdk.publish.founderss.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "evidence": "supplier_label_only",
+    "source_file": "founder_59458508.json",
+    "catalog_source": "2377_catalog",
+    "official_url": "https://gtdk.publish.founderss.cn",
+    "data_source": "official_api",
+    "data_source_detail": "Founder rc-pub API（官网接口，非页面）",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "verified_at": "2026-11-21",
+    "base_url": "https://gtdk.publish.founderss.cn",
+    "sld": "gtdk",
+    "site_id": 645,
+    "publication_index_id": 1844,
+    "probe_items": 16,
+    "probe_first_title": "“双碳”目标下全域土地综合整治的协同机制与实施路径",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "584766d3c16804fc",
+    "name": "国际老年医学杂志",
+    "url": "http://gwll.publish.founderss.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "evidence": "supplier_label_only",
+    "source_file": "founder_59458508.json",
+    "catalog_source": "2377_catalog",
+    "official_url": "http://gwll.publish.founderss.cn",
+    "data_source": "official_api",
+    "data_source_detail": "Founder rc-pub API（官网接口，非页面）",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "verified_at": "2026-11-21",
+    "base_url": "https://gwll.publish.founderss.cn",
+    "sld": "gwll",
+    "site_id": 590,
+    "publication_index_id": 454,
+    "probe_items": 28,
+    "probe_first_title": "从口腔衰老到全身慢性病：牙周组织衰老与常见慢性病的关联机制及防治进展",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "e829605c200f083a",
+    "name": "外国文学",
+    "url": "http://wgwx.hssonline.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "evidence": "supplier_label_only",
+    "source_file": "founder_59458508.json",
+    "catalog_source": "2377_catalog",
+    "official_url": "http://wgwx.hssonline.cn",
+    "data_source": "official_api",
+    "data_source_detail": "Founder rc-pub API（官网接口，非页面）",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "verified_at": "2026-11-21",
+    "base_url": "https://www.hssonline.cn",
+    "sld": "GHJK",
+    "site_id": 735,
+    "publication_index_id": 2175,
+    "probe_items": 18,
+    "probe_first_title": "美国非洲文学研究的学术版图与动力机制",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "398c3ac25d7ded5a",
+    "name": "大医生",
+    "url": "http://dys.bjzzcb.com",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "catalog_source": "2377_catalog",
+    "official_url": "http://dys.bjzzcb.com",
+    "data_source": "official_api",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "base_url": "https://dys.publish.founderss.cn",
+    "site_id": 1185,
+    "probe_items": [
+      {
+        "title": "伏诺拉生联合高剂量阿莫西林二联疗法根除幽门螺杆菌的短期疗效及安全性观察",
+        "url": "https://dys.publish.founderss.cn/zh/article/doi/10.3969/j.issn.2096-2665.2026.17.001"
+      },
+      {
+        "title": "右美托咪定辅助全身麻醉在胃癌根治术中的应用效果",
+        "url": "https://dys.publish.founderss.cn/zh/article/doi/10.3969/j.issn.2096-2665.2026.17.002"
+      },
+      {
+        "title": "双镜联合治疗胆囊结石合并胆总管结石的围手术期观察",
+        "url": "https://dys.publish.founderss.cn/zh/article/doi/10.3969/j.issn.2096-2665.2026.17.003"
+      },
+      {
+        "title": "伏诺拉生 − 阿莫西林二联疗法在幽门螺杆菌根除治疗中的 效果分析",
+        "url": "https://dys.publish.founderss.cn/zh/article/doi/10.3969/j.issn.2096-2665.2026.17.004"
+      },
+      {
+        "title": "贝伐珠单抗联合信迪利单抗治疗中晚期不可切除肝癌患者的 效果与预后观察",
+        "url": "https://dys.publish.founderss.cn/zh/article/doi/10.3969/j.issn.2096-2665.2026.17.005"
+      },
+      {
+        "title": "肝爽颗粒联合复方甘草酸苷辅助治疗慢性乙型肝炎的效果 及对肝功能、肝纤维化指标的影响",
+        "url": "https://dys.publish.founderss.cn/zh/article/doi/10.3969/j.issn.2096-2665.2026.17.006"
+      },
+      {
+        "title": "益生菌治疗溃疡性结肠炎的研究现状与临床应用局限",
+        "url": "https://dys.publish.founderss.cn/zh/article/doi/10.3969/j.issn.2096-2665.2026.17.007"
+      },
+      {
+        "title": "英夫利西单抗诱导治疗 14 周时中性粒细胞与淋巴细胞比值 对儿童克罗恩病肠壁厚度的预测价值",
+        "url": "https://dys.publish.founderss.cn/zh/article/doi/10.3969/j.issn.2096-2665.2026.17.008"
+      },
+      {
+        "title": "布比卡因脂质体腹横肌平面阻滞在剖宫产术后镇痛的应用",
+        "url": "https://dys.publish.founderss.cn/zh/article/doi/10.3969/j.issn.2096-2665.2026.17.009"
+      },
+      {
+        "title": "负压封闭引流联合脂质水胶体硫酸银敷料用于 Ⅳ期压疮感染性创面患者创面修复的价值",
+        "url": "https://dys.publish.founderss.cn/zh/article/doi/10.3969/j.issn.2096-2665.2026.17.010"
+      }
+    ],
+    "probe_first_title": "伏诺拉生联合高剂量阿莫西林二联疗法根除幽门螺杆菌的短期疗效及安全性观察",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "9f240c5590319506",
+    "name": "天地一体化信息网络",
+    "url": "http://www.j-sigin.com.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "catalog_source": "2377_catalog",
+    "official_url": "http://www.j-sigin.com.cn",
+    "data_source": "official_api",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "base_url": "https://sigin.publish.founderss.cn",
+    "site_id": 777,
+    "probe_items": [
+      {
+        "title": "公有云虚拟机直连卫星网络协议与系统",
+        "url": "https://sigin.publish.founderss.cn/zh/article/doi/10.11959/j.issn.2096-8930.tdyt2025082"
+      },
+      {
+        "title": "面向低轨卫星与公有云融合网络的遥测系统研究",
+        "url": "https://sigin.publish.founderss.cn/zh/article/doi/10.11959/j.issn.2096-8930.tdyt2025086"
+      },
+      {
+        "title": "基于一致性哈希的低轨卫星网络无状态四层负载均衡器架构",
+        "url": "https://sigin.publish.founderss.cn/zh/article/doi/10.11959/j.issn.2096-8930.tdyt2026033"
+      },
+      {
+        "title": "数字孪生赋能的巨型星座智算服务模拟与管理系统框架设计",
+        "url": "https://sigin.publish.founderss.cn/zh/article/doi/10.11959/j.issn.2096-8930.tdyt2025033"
+      },
+      {
+        "title": "面向星上大语言模型训练的语义驱动RDMA协议",
+        "url": "https://sigin.publish.founderss.cn/zh/article/doi/10.11959/j.issn.2096-8930.tdyt2026028"
+      },
+      {
+        "title": "星—机协同联邦学习：重叠感知与多属性博弈融合的海洋船舶检测",
+        "url": "https://sigin.publish.founderss.cn/zh/article/doi/10.11959/j.issn.2096-8930.tdyt2026005"
+      },
+      {
+        "title": "卫星通信信号抗截获性能评估方法研究",
+        "url": "https://sigin.publish.founderss.cn/zh/article/doi/10.11959/j.issn.2096-8930.tdyt2025067"
+      },
+      {
+        "title": "6G星地融合的低空智联需求和关键技术",
+        "url": "https://sigin.publish.founderss.cn/zh/article/doi/10.11959/j.issn.2096-8930.tdyt2026049"
+      },
+      {
+        "title": "面向星地通信资源受限场景的星地协同加权定轨与预报方法",
+        "url": "https://sigin.publish.founderss.cn/zh/article/doi/10.11959/j.issn.2096-8930.tdyt2026006"
+      },
+      {
+        "title": "卫星与水下设备之间信息安全传输的加密算法分析",
+        "url": "https://sigin.publish.founderss.cn/zh/article/doi/10.11959/j.issn.2096-8930.tdyt2025065"
+      }
+    ],
+    "probe_first_title": "公有云虚拟机直连卫星网络协议与系统",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "fa3cd7d3c1b0a0b8",
+    "name": "天然气勘探与开发",
+    "url": "https://www.gaskk.com",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "catalog_source": "2377_catalog",
+    "official_url": "https://www.gaskk.com",
+    "data_source": "official_api",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "base_url": "https://trkt.publish.founderss.cn",
+    "site_id": 1193,
+    "probe_items": [
+      {
+        "title": "四川盆地高浓度天然氢气的发现：零碳能源勘探的新突破",
+        "url": "https://trkt.publish.founderss.cn/zh/article/doi/10.12055/gaskk.issn.1673-3177.20260721046"
+      },
+      {
+        "title": "莺歌海盆地黄流组重力流沉积主控因素及沉积模式",
+        "url": "https://trkt.publish.founderss.cn/zh/article/doi/10.12055/gaskk.issn.1673-3177.20260010"
+      },
+      {
+        "title": "川中古隆起东南部志留系龙马溪组古地貌特征及其形成机制",
+        "url": "https://trkt.publish.founderss.cn/zh/article/doi/10.12055/gaskk.issn.1673-3177.20260032"
+      },
+      {
+        "title": "深水环境水下高地页岩气陆源碳酸盐岩碎屑储层发育新模式及地震预测",
+        "url": "https://trkt.publish.founderss.cn/zh/article/doi/10.12055/gaskk.issn.1673-3177.20260067"
+      },
+      {
+        "title": "葡萄花边白云岩储层发育特征与主控因素——以川北地区震旦系上统灯影组二段为例",
+        "url": "https://trkt.publish.founderss.cn/zh/article/doi/10.12055/gaskk.issn.1673-3177.20260020"
+      },
+      {
+        "title": "页岩气储层孔隙结构分形维数及其地质意义——以渝西地区大足区块志留系龙马溪组为例",
+        "url": "https://trkt.publish.founderss.cn/zh/article/doi/10.12055/gaskk.issn.1673-3177.20260005"
+      },
+      {
+        "title": "陆相页岩气储层测井评价关键技术及其应用",
+        "url": "https://trkt.publish.founderss.cn/zh/article/doi/10.12055/gaskk.issn.1673-3177.20260031"
+      },
+      {
+        "title": "沉积微相约束下的深层页岩气储层发育模式及立体开发潜力评价",
+        "url": "https://trkt.publish.founderss.cn/zh/article/doi/10.12055/gaskk.issn.1673-3177.20260017"
+      },
+      {
+        "title": "“一点法”气井产能评价校正系数<italic>β</italic>的确定",
+        "url": "https://trkt.publish.founderss.cn/zh/article/doi/10.12055/gaskk.issn.1673-3177.20250153"
+      },
+      {
+        "title": "微幅度构造页岩储层压裂效果评价与差异化压裂方案优化",
+        "url": "https://trkt.publish.founderss.cn/zh/article/doi/10.12055/gaskk.issn.1673-3177.20250043"
+      }
+    ],
+    "probe_first_title": "四川盆地高浓度天然氢气的发现：零碳能源勘探的新突破",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "f8ef1e01b0adfc6d",
+    "name": "太原理工大学学报",
+    "url": "http://tyutjournal.tyut.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "catalog_source": "2377_catalog",
+    "official_url": "http://tyutjournal.tyut.edu.cn",
+    "data_source": "official_api",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "base_url": "https://tylz.publish.founderss.cn",
+    "site_id": 1203,
+    "probe_items": [
+      {
+        "title": "含水率对平遥夯土城墙物理力学性质的影响及其稳定性分析",
+        "url": "https://tylz.publish.founderss.cn/zh/article/doi/10.16355/j.tyut.1007-9432.20240522"
+      },
+      {
+        "title": "城市森林花园住宅空间形态解析与提升策略研究——以山西省寒冷地区“第四代住房”为例",
+        "url": "https://tylz.publish.founderss.cn/zh/article/doi/10.16355/j.tyut.1007-9432.20240817"
+      },
+      {
+        "title": "基于PSR模型的传统村落文化生态风险测度及其空间分异研究——以山西省为例",
+        "url": "https://tylz.publish.founderss.cn/zh/article/doi/10.16355/j.tyut.1007-9432.20240740"
+      },
+      {
+        "title": "乌鲁木齐机场T4航站楼屋面系统风灾易损性分析",
+        "url": "https://tylz.publish.founderss.cn/zh/article/doi/10.16355/j.tyut.1007-9432.20240572"
+      },
+      {
+        "title": "基于人致振动的悬挑钢结构旋转楼梯舒适度研究",
+        "url": "https://tylz.publish.founderss.cn/zh/article/doi/10.16355/j.tyut.1007-9432.20240656"
+      },
+      {
+        "title": "海底能源土⁃结构界面剪切试验研究",
+        "url": "https://tylz.publish.founderss.cn/zh/article/doi/10.16355/j.tyut.1007-9432.20240370"
+      },
+      {
+        "title": "混菌矿化对不同粒径再生骨料物理力学性能影响研究",
+        "url": "https://tylz.publish.founderss.cn/zh/article/doi/10.16355/j.tyut.1007-9432.20240222"
+      },
+      {
+        "title": "基于响应面法的铅砷污染土固化剂优化设计及机理研究",
+        "url": "https://tylz.publish.founderss.cn/zh/article/doi/10.16355/j.tyut.1007-9432.20240304"
+      },
+      {
+        "title": "小型生物质锅炉燃烧模型构建及送风参数优化研究",
+        "url": "https://tylz.publish.founderss.cn/zh/article/doi/10.16355/j.tyut.1007-9432.20240523"
+      },
+      {
+        "title": "基于机器学习的瓦斯隧道钻机行为感知和煤岩识别——以昭通隧道为例",
+        "url": "https://tylz.publish.founderss.cn/zh/article/doi/10.16355/j.tyut.1007-9432.20240402"
+      }
+    ],
+    "probe_first_title": "含水率对平遥夯土城墙物理力学性质的影响及其稳定性分析",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "e37b4f619748f847",
+    "name": "宁夏农林科技",
+    "url": "http://nxnlkj.nxaas.com.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "catalog_source": "2377_catalog",
+    "official_url": "http://nxnlkj.nxaas.com.cn",
+    "data_source": "official_api",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "base_url": "https://nxnl.publish.founderss.cn",
+    "site_id": 724,
+    "probe_items": [
+      {
+        "title": "施肥对玉米-大豆间作土壤肥力、作物农艺性状及养分吸收的影响",
+        "url": "https://nxnl.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1002-204x.2026.09.001"
+      },
+      {
+        "title": "不同类型农膜对蔬菜种植农田土壤微塑料特征的影响",
+        "url": "https://nxnl.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1002-204x.2026.09.002"
+      },
+      {
+        "title": "青铜峡市水资源利用存在的问题及对策建议",
+        "url": "https://nxnl.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1002-204x.2026.09.003"
+      },
+      {
+        "title": "荒漠草原优势植物不同器官养分重吸收特征对氮添加的响应",
+        "url": "https://nxnl.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1002-204x.2026.09.004"
+      },
+      {
+        "title": "宁夏不同草原类型昆虫多样性及其对海拔的响应",
+        "url": "https://nxnl.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1002-204x.2026.09.005"
+      },
+      {
+        "title": "宁夏基本草原划定工作实践与思考",
+        "url": "https://nxnl.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1002-204x.2026.09.006"
+      },
+      {
+        "title": "耐盐水稻不同生育时期光谱特征动态变化研究",
+        "url": "https://nxnl.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1002-204x.2026.09.007"
+      },
+      {
+        "title": "宁夏“六特”产业数据中台建设与应用研究",
+        "url": "https://nxnl.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1002-204x.2026.09.008"
+      },
+      {
+        "title": "农产品“保险+期货”项目对县域农村居民收入水平的影响研究",
+        "url": "https://nxnl.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1002-204x.2026.09.009"
+      },
+      {
+        "title": "“双碳”背景下农产品碳足迹研究进展",
+        "url": "https://nxnl.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1002-204x.2026.09.010"
+      }
+    ],
+    "probe_first_title": "施肥对玉米-大豆间作土壤肥力、作物农艺性状及养分吸收的影响",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "be729d7d8f6f59c7",
+    "name": "宁夏大学学报（自然科学版中英文）",
+    "url": "https://nse.nxu.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "catalog_source": "2377_catalog",
+    "official_url": "https://nse.nxu.edu.cn",
+    "data_source": "official_api",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "base_url": "https://nxdz.publish.founderss.cn",
+    "site_id": 516,
+    "probe_items": [
+      {
+        "title": "Ni落位对正庚烷加氢异构-氢解竞争的调控作用",
+        "url": "https://nxdz.publish.founderss.cn/zh/article/doi/10.20176/j.cnki.nxdz.20260901"
+      },
+      {
+        "title": "气固流化床流动-换热研究进展：表征与颗粒-内构件调控",
+        "url": "https://nxdz.publish.founderss.cn/zh/article/doi/10.20176/j.cnki.nxdz.20260902"
+      },
+      {
+        "title": "机器学习在化工过程优化中的应用",
+        "url": "https://nxdz.publish.founderss.cn/zh/article/doi/10.20176/j.cnki.nxdz.20260903"
+      },
+      {
+        "title": "CuO纳米线电催化甘油氧化耦合CO<sub>2</sub>还原实现双极产甲酸盐",
+        "url": "https://nxdz.publish.founderss.cn/zh/article/doi/10.20176/j.cnki.nxdz.20260904"
+      },
+      {
+        "title": "Na-Fe/C催化剂的设计及其CO加氢制烯烃性能",
+        "url": "https://nxdz.publish.founderss.cn/zh/article/doi/10.20176/j.cnki.nxdz.20260905"
+      },
+      {
+        "title": "配煤对煤灰熔融温度和黏温特性的影响",
+        "url": "https://nxdz.publish.founderss.cn/zh/article/doi/10.20176/j.cnki.nxdz.20260906"
+      },
+      {
+        "title": "硅基负极体系从液态电解质到全固态电解质的转变：界面构效关系与调控策略",
+        "url": "https://nxdz.publish.founderss.cn/zh/article/doi/10.20176/j.cnki.nxdz.20260907"
+      },
+      {
+        "title": "水稻秸秆与PVC共热解制备炭材料及其电化学性能",
+        "url": "https://nxdz.publish.founderss.cn/zh/article/doi/10.20176/j.cnki.nxdz.20260908"
+      }
+    ],
+    "probe_first_title": "Ni落位对正庚烷加氢异构-氢解竞争的调控作用",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "19036b7c39790bd7",
+    "name": "宇航学报",
+    "url": "http://www.yhxb.org.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "catalog_source": "2377_catalog",
+    "official_url": "http://www.yhxb.org.cn",
+    "data_source": "official_api",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "base_url": "https://yhxb.publish.founderss.cn",
+    "site_id": 599,
+    "probe_items": [
+      {
+        "title": "深空探测航天器若干动力学与控制问题",
+        "url": "https://yhxb.publish.founderss.cn/zh/article/doi/10.3873/j.issn.1000-1328.2026.10.001"
+      },
+      {
+        "title": "基于航天器虚拟样本的器箭界面载荷智能预测方法研究",
+        "url": "https://yhxb.publish.founderss.cn/zh/article/doi/10.3873/j.issn.1000-1328.2026.10.002"
+      },
+      {
+        "title": "大范围运动柔性航天器动力学简化分析方法",
+        "url": "https://yhxb.publish.founderss.cn/zh/article/doi/10.3873/j.issn.1000-1328.2026.10.003"
+      },
+      {
+        "title": "多工况下超大型柔性航天器动力学模型降阶方法",
+        "url": "https://yhxb.publish.founderss.cn/zh/article/doi/10.3873/j.issn.1000-1328.2026.10.004"
+      },
+      {
+        "title": "在轨组装刚柔耦合模块的动力学畸变相似方法",
+        "url": "https://yhxb.publish.founderss.cn/zh/article/doi/10.3873/j.issn.1000-1328.2026.10.005"
+      },
+      {
+        "title": "基于变拓扑递推组集方法的在轨组装系统动力学建模与分析",
+        "url": "https://yhxb.publish.founderss.cn/zh/article/doi/10.3873/j.issn.1000-1328.2026.10.006"
+      },
+      {
+        "title": "液体大幅晃动类空间机器人耦合动力学建模及轨迹规划",
+        "url": "https://yhxb.publish.founderss.cn/zh/article/doi/10.3873/j.issn.1000-1328.2026.10.007"
+      },
+      {
+        "title": "空间环驱式柔索捕获机构动力学建模修正方法",
+        "url": "https://yhxb.publish.founderss.cn/zh/article/doi/10.3873/j.issn.1000-1328.2026.10.008"
+      },
+      {
+        "title": "多源观测下大型索网天线三维变分同化变形重构方法",
+        "url": "https://yhxb.publish.founderss.cn/zh/article/doi/10.3873/j.issn.1000-1328.2026.10.009"
+      },
+      {
+        "title": "串并混联空间机械臂动力学建模与精柔控制方法",
+        "url": "https://yhxb.publish.founderss.cn/zh/article/doi/10.3873/j.issn.1000-1328.2026.10.010"
+      }
+    ],
+    "probe_first_title": "深空探测航天器若干动力学与控制问题",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "e55a75d9f7160d2d",
+    "name": "安徽建筑",
+    "url": "http://www.ahjz.org.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "catalog_source": "2377_catalog",
+    "official_url": "http://www.ahjz.org.cn",
+    "data_source": "official_api",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "base_url": "https://ahjz.publish.founderss.cn",
+    "site_id": 882,
+    "probe_items": [
+      {
+        "title": "艺术介入与社区治理研究——以韩国釜山甘川文化村为例",
+        "url": "https://ahjz.publish.founderss.cn/zh/article/doi/10.16330/j.cnki.1007-7359.2026.9.01"
+      },
+      {
+        "title": "《装配式内装修工程技术标准》编制中的关键技术选用研究",
+        "url": "https://ahjz.publish.founderss.cn/zh/article/doi/10.16330/j.cnki.1007-7359.2026.9.02"
+      },
+      {
+        "title": "基于行人视觉体验的高校步行空间更新改造策略研究——以长沙理工大学金盆岭校区东部片区改造为例",
+        "url": "https://ahjz.publish.founderss.cn/zh/article/doi/10.16330/j.cnki.1007-7359.2026.9.03"
+      },
+      {
+        "title": "基于景观影响性评价的景区周边项目建设合理性分析——以黄山市汤口镇美居酒店改造项目为例",
+        "url": "https://ahjz.publish.founderss.cn/zh/article/doi/10.16330/j.cnki.1007-7359.2026.9.04"
+      },
+      {
+        "title": "基于国土空间规划动态维护的歙县斗山历史文化街区更新策略分析",
+        "url": "https://ahjz.publish.founderss.cn/zh/article/doi/10.16330/j.cnki.1007-7359.2026.9.05"
+      },
+      {
+        "title": "地方指南下的“工业上楼”设计实践与要点分析——以工投·包河智造产业园为例",
+        "url": "https://ahjz.publish.founderss.cn/zh/article/doi/10.16330/j.cnki.1007-7359.2026.9.06"
+      },
+      {
+        "title": "城市存量更新背景下建设用地高效利用的空间策略与模式分析——以肥西县实践为例",
+        "url": "https://ahjz.publish.founderss.cn/zh/article/doi/10.16330/j.cnki.1007-7359.2026.9.07"
+      },
+      {
+        "title": "测绘地理信息技术在村庄规划编制中的应用",
+        "url": "https://ahjz.publish.founderss.cn/zh/article/doi/10.16330/j.cnki.1007-7359.2026.9.08"
+      },
+      {
+        "title": "消能减震技术在绿色建筑结构设计中的应用",
+        "url": "https://ahjz.publish.founderss.cn/zh/article/doi/10.16330/j.cnki.1007-7359.2026.9.09"
+      },
+      {
+        "title": "近断层脉冲型地震动作用下LRB隔震桥梁动力反应分析",
+        "url": "https://ahjz.publish.founderss.cn/zh/article/doi/10.16330/j.cnki.1007-7359.2026.9.10"
+      }
+    ],
+    "probe_first_title": "艺术介入与社区治理研究——以韩国釜山甘川文化村为例",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "38efad87a7a4dbda",
+    "name": "家政学刊",
+    "url": "http://jzxk.jlau.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "catalog_source": "2377_catalog",
+    "official_url": "http://jzxk.jlau.edu.cn",
+    "data_source": "official_api",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "base_url": "https://jzxk.jlau.edu.cn",
+    "site_id": 542,
+    "probe_items": 8,
+    "probe_first_title": "以标准化引领家政服务高质量发展",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "fe928b26b8d53190",
+    "name": "山东农业大学学报（自然科学版）",
+    "url": "http://xuebao.sdau.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "catalog_source": "2377_catalog",
+    "official_url": "http://xuebao.sdau.edu.cn",
+    "data_source": "official_api",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "base_url": "https://scho.publish.founderss.cn",
+    "site_id": 613,
+    "probe_items": [
+      {
+        "title": "基于三维点云测量个体树木疏透度的方法研究",
+        "url": "https://scho.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1000-2324.2026.05.001"
+      },
+      {
+        "title": "基于番茄、黄瓜残果和茎叶基料的富硒酵素制备及其在番茄、黄瓜生产中的应用效果研究",
+        "url": "https://scho.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1000-2324.2026.05.002"
+      },
+      {
+        "title": "基质混拌控释肥对烟苗生理特性及成苗素质的影响",
+        "url": "https://scho.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1000-2324.2026.05.003"
+      },
+      {
+        "title": "<italic>Fusarium annulatum</italic>引起的草莓根腐病及其药剂敏感性分析",
+        "url": "https://scho.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1000-2324.2026.05.004"
+      },
+      {
+        "title": "枣树/生姜间作模式下生姜光合特性及产量分析",
+        "url": "https://scho.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1000-2324.2026.05.005"
+      },
+      {
+        "title": "还原型谷胱甘肽对‘王林’苹果果实采后贮藏品质的影响",
+        "url": "https://scho.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1000-2324.2026.05.006"
+      },
+      {
+        "title": "煤样常规压缩声发射特征及破坏前兆信息",
+        "url": "https://scho.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1000-2324.2026.05.007"
+      },
+      {
+        "title": "橡胶树健康和患病叶片的叶际微生物差异分析",
+        "url": "https://scho.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1000-2324.2026.05.008"
+      },
+      {
+        "title": "玫瑰<italic>RrWRKY47X1-2</italic>基因克隆及耐盐功能验证",
+        "url": "https://scho.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1000-2324.2026.05.009"
+      },
+      {
+        "title": "有机改良剂配施菌剂对油橄榄土壤肥力及微生物群落的影响",
+        "url": "https://scho.publish.founderss.cn/zh/article/doi/10.3969/j.issn.1000-2324.2026.05.010"
+      }
+    ],
+    "probe_first_title": "基于三维点云测量个体树木疏透度的方法研究",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "ca33474ff000fde6",
+    "name": "山西农业大学学报（社会科学版）",
+    "url": "http://qks.sxau.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "catalog_source": "2377_catalog",
+    "official_url": "http://qks.sxau.edu.cn",
+    "data_source": "official_api",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "base_url": "https://sxnd.publish.founderss.cn",
+    "site_id": 266,
+    "probe_items": 12,
+    "probe_first_title": "由“三农”到“三食”：食学天下观与食事自主知识体系",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "eb52c2f2916e5f16",
+    "name": "工业水处理",
+    "url": "http://www.iwt.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "catalog_source": "2377_catalog",
+    "official_url": "http://www.iwt.cn",
+    "data_source": "official_api",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "base_url": "https://gyscl.publish.founderss.cn",
+    "site_id": 305,
+    "probe_items": [
+      {
+        "title": "锂离子电池生产废水处理与回用技术研究进展",
+        "url": "https://gyscl.publish.founderss.cn/zh/article/doi/10.19965/j.cnki.iwt.2025-0827"
+      },
+      {
+        "title": "机器学习在水质管理中的应用",
+        "url": "https://gyscl.publish.founderss.cn/zh/article/doi/10.19965/j.cnki.iwt.2025-0832"
+      },
+      {
+        "title": "光热膜蒸馏技术及其在水处理领域的研究进展",
+        "url": "https://gyscl.publish.founderss.cn/zh/article/doi/10.19965/j.cnki.iwt.2025-0840"
+      },
+      {
+        "title": "冷冻强化体系对重金属与有机污染物去除的研究进展",
+        "url": "https://gyscl.publish.founderss.cn/zh/article/doi/10.19965/j.cnki.iwt.2025-0829"
+      },
+      {
+        "title": "高级氧化法去除工业废水中新污染物的研究进展",
+        "url": "https://gyscl.publish.founderss.cn/zh/article/doi/10.19965/j.cnki.iwt.2025-0839"
+      },
+      {
+        "title": "人工合成沸石强化低温短程硝化反硝化脱氮效能及微生物群落研究",
+        "url": "https://gyscl.publish.founderss.cn/zh/article/doi/10.19965/j.cnki.iwt.2025-0752"
+      },
+      {
+        "title": "生物炭还原制备CuFeO<sub>2</sub>非均相Fenton催化剂以降解卡马西平",
+        "url": "https://gyscl.publish.founderss.cn/zh/article/doi/10.19965/j.cnki.iwt.2025-0780"
+      },
+      {
+        "title": "Cd（Ⅱ）长期胁迫下小球藻的生长生理响应及恢复与吸附特性",
+        "url": "https://gyscl.publish.founderss.cn/zh/article/doi/10.19965/j.cnki.iwt.2025-0773"
+      },
+      {
+        "title": "油田采出水中钡离子回收的核晶造粒工艺研究",
+        "url": "https://gyscl.publish.founderss.cn/zh/article/doi/10.19965/j.cnki.iwt.2025-0794"
+      },
+      {
+        "title": "旋流除砂器在隧道施工废水处理中的应用研究",
+        "url": "https://gyscl.publish.founderss.cn/zh/article/doi/10.19965/j.cnki.iwt.2025-0797"
+      }
+    ],
+    "probe_first_title": "锂离子电池生产废水处理与回用技术研究进展",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "f3089062dca5981a",
+    "name": "工程·信息与电子工程（英文）",
+    "url": "http://www.fitee.zjujournals.com",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "catalog_source": "2377_catalog",
+    "official_url": "http://www.fitee.zjujournals.com",
+    "data_source": "official_api",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "base_url": "http://www.fitee.zjujournals.com",
+    "site_id": 20,
+    "probe_items": 9,
+    "probe_first_title": "艺术图像创作智能交互系统：挑战、方法与未来展望",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "ed68687f1d2b5fb7",
+    "name": "应用力学学报",
+    "url": "http://cjam.xjtu.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "catalog_source": "2377_catalog",
+    "official_url": "http://cjam.xjtu.edu.cn",
+    "data_source": "official_api",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "base_url": "https://yylx.publish.founderss.cn",
+    "site_id": 821,
+    "probe_items": [
+      {
+        "title": "民用飞机纤维增强聚合物复合材料火灾安全防护与验证方法研究进展",
+        "url": "https://yylx.publish.founderss.cn/zh/article/doi/10.11776/j.issn.1000-4939.2026.05.001"
+      },
+      {
+        "title": "AI赋能的力学超材料设计范式演进",
+        "url": "https://yylx.publish.founderss.cn/zh/article/doi/10.11776/j.issn.1000-4939.2026.05.002"
+      },
+      {
+        "title": "负泊松比力学超材料研究进展：从结构介导的多场响应到系统设计",
+        "url": "https://yylx.publish.founderss.cn/zh/article/doi/10.11776/j.issn.1000-4939.2026.05.003"
+      },
+      {
+        "title": "可编程离散组装机械超材料研究进展",
+        "url": "https://yylx.publish.founderss.cn/zh/article/doi/10.11776/j.issn.1000-4939.2026.05.004"
+      },
+      {
+        "title": "超薄涂层变系数瞬态热传导比例变换边界元法",
+        "url": "https://yylx.publish.founderss.cn/zh/article/doi/10.11776/j.issn.1000-4939.2026.05.005"
+      },
+      {
+        "title": "改进正弦负泊松比超材料的等效面内力学性能研究",
+        "url": "https://yylx.publish.founderss.cn/zh/article/doi/10.11776/j.issn.1000-4939.2026.05.006"
+      },
+      {
+        "title": "循环载荷作用下Nb<sub>3</sub> Sn复合超导体临界性能不可逆退化的模拟研究",
+        "url": "https://yylx.publish.founderss.cn/zh/article/doi/10.11776/j.issn.1000-4939.2026.05.007"
+      },
+      {
+        "title": "基于空间算子代数的有限段柔索动力学模型",
+        "url": "https://yylx.publish.founderss.cn/zh/article/doi/10.11776/j.issn.1000-4939.2026.05.008"
+      },
+      {
+        "title": "基于GRNN的碳纤维复合材料雷击损伤程度预测",
+        "url": "https://yylx.publish.founderss.cn/zh/article/doi/10.11776/j.issn.1000-4939.2026.05.009"
+      },
+      {
+        "title": "薄壁波纹板盒体结构抗弯分析与轻量化设计",
+        "url": "https://yylx.publish.founderss.cn/zh/article/doi/10.11776/j.issn.1000-4939.2026.05.010"
+      }
+    ],
+    "probe_first_title": "民用飞机纤维增强聚合物复合材料火灾安全防护与验证方法研究进展",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "0126ffa69e9762e6",
+    "name": "延安大学学报（医学科学版）",
+    "url": "http://ykxb.yau.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "catalog_source": "2377_catalog",
+    "official_url": "http://ykxb.yau.edu.cn",
+    "data_source": "official_api",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "base_url": "https://yaxy.publish.founderss.cn",
+    "site_id": 914,
+    "probe_items": [
+      {
+        "title": "头孢他啶预处理对帕金森病小鼠模型的神经保护作用及机制研究",
+        "url": "https://yaxy.publish.founderss.cn/zh/article/doi/10.19893/j.cnki.ydyxb.2026-0096"
+      },
+      {
+        "title": "基于网络药理学和分子对接技术探讨芍药苷调控血小板活化作用机制初步研究",
+        "url": "https://yaxy.publish.founderss.cn/zh/article/doi/10.19893/j.cnki.ydyxb.2026-0021"
+      },
+      {
+        "title": "中药复方YCNHFⅠ/Ⅱ联合益生菌对溃疡性结肠炎大鼠的协同治疗作用研究",
+        "url": "https://yaxy.publish.founderss.cn/zh/article/doi/10.19893/j.cnki.ydyxb.2026-0085"
+      },
+      {
+        "title": "慢性痛通过损害海马神经可塑性诱发抑郁样行为的机制研究",
+        "url": "https://yaxy.publish.founderss.cn/zh/article/doi/10.19893/j.cnki.ydyxb.2025-0134"
+      },
+      {
+        "title": "闽医萧氏复方加味脂桂酊与原方治疗银屑病机制比较分析",
+        "url": "https://yaxy.publish.founderss.cn/zh/article/doi/10.19893/j.cnki.ydyxb.2026-0113"
+      },
+      {
+        "title": "靳三针联合平衡舒筋推拿治疗脑卒中偏瘫的临床效果",
+        "url": "https://yaxy.publish.founderss.cn/zh/article/doi/10.19893/j.cnki.ydyxb.2026-0020"
+      },
+      {
+        "title": "应用“膝痹责之于腰”治疗膝骨关节炎经验探析",
+        "url": "https://yaxy.publish.founderss.cn/zh/article/doi/10.19893/j.cnki.ydyxb.2026-0061"
+      },
+      {
+        "title": "绝经后出血患者子宫内膜恶变的危险因素及风险预测",
+        "url": "https://yaxy.publish.founderss.cn/zh/article/doi/10.19893/j.cnki.ydyxb.2026-0018"
+      },
+      {
+        "title": "超声引导髂筋膜阻滞超前镇痛在老年髋部骨折患者镇痛中的临床运用观察",
+        "url": "https://yaxy.publish.founderss.cn/zh/article/doi/10.19893/j.cnki.ydyxb.2026-0083"
+      },
+      {
+        "title": "罗沙司他联合重组人促红素用于维持性血液透析患者肾性贫血的疗效与安全性的Meta分析",
+        "url": "https://yaxy.publish.founderss.cn/zh/article/doi/10.19893/j.cnki.ydyxb.2026-0104"
+      }
+    ],
+    "probe_first_title": "头孢他啶预处理对帕金森病小鼠模型的神经保护作用及机制研究",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "9ec4e946b751abfe",
+    "name": "当代作家评论",
+    "url": "https://ddzjpl.publish.founderss.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "evidence": "supplier_label_only",
+    "source_file": "founder_59458508.json",
+    "catalog_source": "2377_catalog",
+    "official_url": "https://ddzjpl.publish.founderss.cn",
+    "data_source": "official_api",
+    "data_source_detail": "Founder rc-pub API（官网接口，非页面）",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "verified_at": "2026-11-21",
+    "base_url": "https://ddzjpl.publish.founderss.cn",
+    "sld": "ddzjpl",
+    "site_id": 652,
+    "publication_index_id": 1854,
+    "probe_items": 29,
+    "probe_first_title": "旷野之上，千年之下——行走文学、作家心态与时代症候",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "682fb2ad58b583ba",
+    "name": "抗癌",
+    "url": "http://anticancer.shac.org.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "catalog_source": "2377_catalog",
+    "official_url": "http://anticancer.shac.org.cn",
+    "data_source": "official_api",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "base_url": "https://anticancer.shac.org.cn",
+    "site_id": 1177,
+    "probe_items": 14,
+    "probe_first_title": "新技术，带来前列腺癌诊治的“精准导航”",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "75da8bc1dd61ad02",
+    "name": "新一代信息技术",
+    "url": "http://www.newit.ejournal.org.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "catalog_source": "2377_catalog",
+    "official_url": "http://www.newit.ejournal.org.cn",
+    "data_source": "official_api",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "base_url": "https://www.newit.ejournal.org.cn",
+    "site_id": 467,
+    "probe_items": 32,
+    "probe_first_title": "基于GRUB4DOS的多系统共存技术在机房管理中的应用",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "31d601b67bd3b4e6",
+    "name": "机械传动",
+    "url": "http://www.jxcd.net.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "catalog_source": "2377_catalog",
+    "official_url": "http://www.jxcd.net.cn",
+    "data_source": "official_api",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "base_url": "https://www.jxcd.net.cn",
+    "site_id": 423,
+    "probe_items": 22,
+    "probe_first_title": "城轨列车齿轮箱飞溅润滑冷却特性研究",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "6a4ba8c0e34fdb61",
+    "name": "机械强度",
+    "url": "http://www.jxqd.net.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "catalog_source": "2377_catalog",
+    "official_url": "http://www.jxqd.net.cn",
+    "data_source": "official_api",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "base_url": "https://www.jxqd.net.cn",
+    "site_id": 424,
+    "probe_items": 22,
+    "probe_first_title": "基于纳米压痕的锡铅钎料力学性能研究",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "bc5c280ac4da24a8",
+    "name": "机车电传动",
+    "url": "http://edl.csrzic.com",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "catalog_source": "2377_catalog",
+    "official_url": "http://edl.csrzic.com",
+    "data_source": "official_api",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "base_url": "http://edl.csrzic.com",
+    "site_id": 265,
+    "probe_items": 22,
+    "probe_first_title": "功率半导体器件可靠性技术研究",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "9f5f4b91df917970",
+    "name": "江西冶金",
+    "url": "http://jxyj.publish.founderss.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "evidence": "supplier_label_only",
+    "source_file": "founder_59458508.json",
+    "catalog_source": "2377_catalog",
+    "official_url": "http://jxyj.publish.founderss.cn",
+    "data_source": "official_api",
+    "data_source_detail": "Founder rc-pub API（官网接口，非页面）",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "verified_at": "2026-11-21",
+    "base_url": "https://jxyj.publish.founderss.cn",
+    "sld": "jxyj",
+    "site_id": 718,
+    "publication_index_id": 2206,
+    "probe_items": 9,
+    "probe_first_title": "钨尾矿中金属微生物浸出的研究进展",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "c0a315476eabb9a7",
+    "name": "河北大学学报（哲学社会科学版）",
+    "url": "http://xb-zsb.hbu.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "catalog_source": "2377_catalog",
+    "official_url": "http://xb-zsb.hbu.edu.cn",
+    "data_source": "official_api",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "base_url": "https://hbds.publish.founderss.cn",
+    "site_id": 1204,
+    "probe_items": 15,
+    "probe_first_title": "“坚持依法治国和依规治党有机统一”的必然性和必要性",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "3232a1eba3cd6c6f",
+    "name": "测绘学报（英文版）",
+    "url": "http://jggs.chinasmp.com",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "catalog_source": "2377_catalog",
+    "official_url": "http://jggs.chinasmp.com",
+    "data_source": "official_api",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "base_url": "http://jggs.chinasmp.com",
+    "site_id": 382,
+    "probe_items": 5,
+    "probe_first_title": "An M-estimation Enhanced Adaptive Kalman Filter for Tightly Coupled Integrated Navigation",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "9157dbd5527fb14f",
+    "name": "济南大学学报（社会科学版）",
+    "url": "http://journal.ujn.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "catalog_source": "2377_catalog",
+    "official_url": "http://journal.ujn.edu.cn",
+    "data_source": "official_api",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "base_url": "http://journal.ujn.edu.cn",
+    "site_id": 271,
+    "probe_items": 20,
+    "probe_first_title": "中国马克思主义政治哲学的兴起与发展——访马克思主义哲学家陈晏清",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "400e272e54074c08",
+    "name": "特种铸造及有色合金",
+    "url": "http://www.special-cast.com",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "catalog_source": "2377_catalog",
+    "official_url": "http://www.special-cast.com",
+    "data_source": "official_api",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "base_url": "http://www.special-cast.com",
+    "site_id": 607,
+    "probe_items": 24,
+    "probe_first_title": "滑动速度对Al0.3CoCrFeNi高熵合金纳米划痕行为的影响",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "6131e304885055d4",
+    "name": "电力电容器与无功补偿",
+    "url": "http://www.dldrq.com",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "catalog_source": "2377_catalog",
+    "official_url": "http://www.dldrq.com",
+    "data_source": "official_api",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "base_url": "https://dldrq.publish.founderss.cn",
+    "site_id": 805,
+    "probe_items": 12,
+    "probe_first_title": "风电柔直电容器稳暂态运行特性研究",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "ccaa9a5f7bd8caa1",
+    "name": "电子质量",
+    "url": "https://dzzl.publish.founderss.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "evidence": "supplier_label_only",
+    "source_file": "founder_59458508.json",
+    "catalog_source": "2377_catalog",
+    "official_url": "https://dzzl.publish.founderss.cn",
+    "data_source": "official_api",
+    "data_source_detail": "Founder rc-pub API（官网接口，非页面）",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "verified_at": "2026-11-21",
+    "base_url": "https://dzzl.publish.founderss.cn",
+    "sld": "dzzl",
+    "site_id": 797,
+    "publication_index_id": 2370,
+    "probe_items": 25,
+    "probe_first_title": "低成本装备元器件差异化质量保证体系研究与实践",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "47f541150389c0a0",
+    "name": "石油与天然气地质",
+    "url": "http://ogg.pepris.com",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "catalog_source": "2377_catalog",
+    "official_url": "http://ogg.pepris.com",
+    "data_source": "official_api",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "base_url": "https://ogg.pepris.com",
+    "site_id": 272,
+    "probe_items": 21,
+    "probe_first_title": "四川盆地中二叠统地质特征独特性和油气勘探关键地质问题",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "92710cdadb25b516",
+    "name": "经济体制改革",
+    "url": "http://jjtzgg.publish.founderss.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "evidence": "supplier_label_only",
+    "source_file": "founder_59458508.json",
+    "catalog_source": "2377_catalog",
+    "official_url": "http://jjtzgg.publish.founderss.cn",
+    "data_source": "official_api",
+    "data_source_detail": "Founder rc-pub API（官网接口，非页面）",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "verified_at": "2026-11-21",
+    "base_url": "https://jjtzgg.publish.founderss.cn",
+    "sld": "jjtzgg",
+    "site_id": 407,
+    "publication_index_id": 1369,
+    "probe_items": 17,
+    "probe_first_title": "以区域联动发展促进区域协调发展——基于“通道—核心—节点—平台”的四维分析框架",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "9b5afd3673411f74",
+    "name": "肝博士",
+    "url": "https://gbsh.publish.founderss.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "evidence": "supplier_label_only",
+    "source_file": "founder_59458508.json",
+    "catalog_source": "2377_catalog",
+    "official_url": "https://gbsh.publish.founderss.cn",
+    "data_source": "official_api",
+    "data_source_detail": "Founder rc-pub API（官网接口，非页面）",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "verified_at": "2026-11-21",
+    "base_url": "https://gbsh.publish.founderss.cn",
+    "sld": "gbsh",
+    "site_id": 731,
+    "publication_index_id": 628,
+    "probe_items": 27,
+    "probe_first_title": "十五载深耕不辍，守护中原大地健康——记河南省人民医院　尚佳教授",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "1e6671a134a2c369",
+    "name": "肿瘤影像学",
+    "url": "http://www.zhongliuyingxiangxue.com",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "catalog_source": "2377_catalog",
+    "official_url": "http://www.zhongliuyingxiangxue.com",
+    "data_source": "official_api",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "base_url": "https://www.zhongliuyingxiangxue.com",
+    "site_id": 1178,
+    "probe_items": 15,
+    "probe_first_title": "177Lu-PSMA放射性配体疗法治疗前列腺癌的临床实践专家共识（2026年版）",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "61977634bb9ea6fc",
+    "name": "航空制造技术",
+    "url": "https://amte.publish.founderss.cn/homeNav?lang=zh",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "evidence": "supplier_label_only",
+    "source_file": "founder_59458508.json",
+    "catalog_source": "2377_catalog",
+    "official_url": "https://amte.publish.founderss.cn/homeNav?lang=zh",
+    "data_source": "official_api",
+    "data_source_detail": "Founder rc-pub API（官网接口，非页面）",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "verified_at": "2026-11-21",
+    "base_url": "https://amte.publish.founderss.cn",
+    "sld": "amte",
+    "site_id": 841,
+    "publication_index_id": 2486,
+    "probe_items": 12,
+    "probe_first_title": "飞行器结构健康监测：典型技术进展与趋势",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "4bef1b87492b1f78",
+    "name": "航空计算技术",
+    "url": "https://hkjj.publish.founderss.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "evidence": "supplier_label_only",
+    "source_file": "founder_59458508.json",
+    "catalog_source": "2377_catalog",
+    "official_url": "https://hkjj.publish.founderss.cn",
+    "data_source": "official_api",
+    "data_source_detail": "Founder rc-pub API（官网接口，非页面）",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "verified_at": "2026-11-21",
+    "base_url": "https://hkjj.publish.founderss.cn",
+    "sld": "hkjj",
+    "site_id": 654,
+    "publication_index_id": 1468,
+    "probe_items": 23,
+    "probe_first_title": "基于时延感知Transformer的终端区流量预测",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "c801aa010c76c49f",
+    "name": "英语学习（中英文）",
+    "url": "https://yyxx.hssonline.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "evidence": "supplier_label_only",
+    "source_file": "founder_59458508.json",
+    "catalog_source": "2377_catalog",
+    "official_url": "https://yyxx.hssonline.cn",
+    "data_source": "official_api",
+    "data_source_detail": "Founder rc-pub API（官网接口，非页面）",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "verified_at": "2026-11-21",
+    "base_url": "https://www.hssonline.cn",
+    "sld": "YYXI",
+    "site_id": 742,
+    "publication_index_id": 2191,
+    "probe_items": 14,
+    "probe_first_title": "反馈圈视角下小学英语形成性评价实践研究",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "ac1bf3a4998eeea5",
+    "name": "西北人口",
+    "url": "http://xbrka.publish.founderss.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "evidence": "supplier_label_only",
+    "source_file": "founder_59458508.json",
+    "catalog_source": "2377_catalog",
+    "official_url": "http://xbrka.publish.founderss.cn",
+    "data_source": "official_api",
+    "data_source_detail": "Founder rc-pub API（官网接口，非页面）",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "verified_at": "2026-11-21",
+    "base_url": "https://xbrka.publish.founderss.cn",
+    "sld": "xbrka",
+    "site_id": 191,
+    "publication_index_id": 291,
+    "probe_items": 10,
+    "probe_first_title": "人口高质量发展：概念、挑战与实践路径",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "e6751916f4c04cff",
+    "name": "西部林业科学",
+    "url": "http://xblykx.publish.founderss.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "evidence": "supplier_label_only",
+    "source_file": "founder_59458508.json",
+    "catalog_source": "2377_catalog",
+    "official_url": "http://xblykx.publish.founderss.cn",
+    "data_source": "official_api",
+    "data_source_detail": "Founder rc-pub API（官网接口，非页面）",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "verified_at": "2026-11-21",
+    "base_url": "https://xblykx.publish.founderss.cn",
+    "sld": "xblykx",
+    "site_id": 1259,
+    "publication_index_id": 4022,
+    "probe_items": 20,
+    "probe_first_title": "极端干旱环境下梭梭优树表现优异生长性状的遗传表达特性",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "a471d107703a3e19",
+    "name": "软件",
+    "url": "https://software.publish.founderss.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "evidence": "supplier_label_only",
+    "source_file": "founder_59458508.json",
+    "catalog_source": "2377_catalog",
+    "official_url": "https://software.publish.founderss.cn",
+    "data_source": "official_api",
+    "data_source_detail": "Founder rc-pub API（官网接口，非页面）",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "verified_at": "2026-11-21",
+    "base_url": "https://software.publish.founderss.cn",
+    "sld": "software",
+    "site_id": 829,
+    "publication_index_id": 1590,
+    "probe_items": 52,
+    "probe_first_title": "人工智能技术在自动驾驶系统的资源协同与任务调度设计研究",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "29508d7f566554eb",
+    "name": "软件导刊",
+    "url": "http://www.rjdk.org.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "catalog_source": "2377_catalog",
+    "official_url": "http://www.rjdk.org.cn",
+    "data_source": "official_api",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "base_url": "http://www.rjdk.org.cn",
+    "site_id": 268,
+    "probe_items": 25,
+    "probe_first_title": "十倍程序员：智能时代的软件开发转型",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "8779c10bc58ef784",
+    "name": "高原农业",
+    "url": "http://gyny.publish.founderss.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "evidence": "supplier_label_only",
+    "source_file": "founder_59458508.json",
+    "catalog_source": "2377_catalog",
+    "official_url": "http://gyny.publish.founderss.cn",
+    "data_source": "official_api",
+    "data_source_detail": "Founder rc-pub API（官网接口，非页面）",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "verified_at": "2026-11-21",
+    "base_url": "https://gyny.publish.founderss.cn",
+    "sld": "gyny",
+    "site_id": 953,
+    "publication_index_id": 2680,
+    "probe_items": 15,
+    "probe_first_title": "西藏杜鹃花属植物空间分布格局解析",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "ef21573e2151bdaa",
+    "name": "武汉大学学报（理学版）",
+    "url": "http://xblx.whu.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "evidence": "supplier_label_only",
+    "source_file": "founder_59458508.json",
+    "catalog_source": "2377_catalog",
+    "official_url": "http://xblx.whu.edu.cn",
+    "data_source": "official_api",
+    "data_source_detail": "Founder rc-pub API（官网接口，非页面）",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "verified_at": "2026-11-22",
+    "base_url": "https://xblx.whu.edu.cn",
+    "sld": "xblx",
+    "site_id": 502,
+    "probe_items": 15,
+    "probe_first_title": "基于ARIMA-iTransformer混合模型的库岸滑坡位移高精度预测",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "e38833060ca0405f",
+    "name": "通信与信息网络学报（英文）",
+    "url": "http://www.jcin.com.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "evidence": "supplier_label_only",
+    "source_file": "founder_59458508.json",
+    "catalog_source": "2377_catalog",
+    "official_url": "http://www.jcin.com.cn",
+    "data_source": "official_api",
+    "data_source_detail": "Founder rc-pub API（官网接口，非页面）",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "verified_at": "2026-11-22",
+    "base_url": "https://www.jcin.com.cn",
+    "sld": "jcin",
+    "site_id": 779,
+    "probe_items": 11,
+    "probe_first_title": "Low-Latency Underground Emergency Communication with Magnetic Beamforming",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "e5be95a84fcc636b",
+    "name": "通信学报",
+    "url": "https://www.joconline.com.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "evidence": "supplier_label_only",
+    "source_file": "founder_59458508.json",
+    "catalog_source": "2377_catalog",
+    "official_url": "https://www.joconline.com.cn",
+    "data_source": "official_api",
+    "data_source_detail": "Founder rc-pub API（官网接口，非页面）",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "verified_at": "2026-11-22",
+    "base_url": "https://www.joconline.com.cn",
+    "sld": "joconline",
+    "site_id": 887,
+    "probe_items": 18,
+    "probe_first_title": "电网碳强度感知的数据中心电算协同任务调度方法",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "ca6ca720942d2ddc",
+    "name": "野生动物学报",
+    "url": "http://ysdw.nefu.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "evidence": "supplier_label_only",
+    "source_file": "founder_59458508.json",
+    "catalog_source": "2377_catalog",
+    "official_url": "http://ysdw.nefu.edu.cn",
+    "data_source": "official_api",
+    "data_source_detail": "Founder rc-pub API（官网接口，非页面）",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "verified_at": "2026-11-22",
+    "base_url": "http://ysdw.nefu.edu.cn",
+    "sld": "ysdw",
+    "site_id": 726,
+    "probe_items": 15,
+    "probe_first_title": "梵净山保护区主要兽类活动节律研究",
+    "tags": [
+      "北大方正",
+      "采集:官网API",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "2e04c584d7a27512",
+    "name": "中华解剖与临床杂志",
+    "url": "https://www.cjac.com.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "evidence": "workbuddy_accepted_2026-11-25",
+    "source_file": "accepted-workbuddy-2026-11-25.csv",
+    "catalog_source": "core_2026-11-25",
+    "official_url": "https://www.cjac.com.cn",
+    "data_source": "official_api",
+    "data_source_detail": "WorkBuddy 证据 + 主线程 parser live 复核",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "verified_at": "2026-11-25",
+    "probe_items": 11,
+    "probe_first_title": "6~15岁儿童上颌单侧埋伏中切牙牙龄及形态学特征的锥形束CT分析",
+    "core_levels": "CSTPCD",
+    "categories": "医药卫生",
+    "tags": [
+      "北大方正",
+      "采集:API",
+      "目录:核心",
+      "当期核验"
+    ],
+    "current_url": "https://www.cjac.com.cn/issue?year=2026&issue=11&lang=zh",
+    "url_signature": "www.cjac.com.cn",
+    "base_url": "https://www.cjac.com.cn",
+    "site_id": 847,
+    "publication_index_id": 2493
+  },
+  {
+    "journal_key": "749be4f78755bd69",
+    "name": "中国现代中药",
+    "url": "https://www.zgxdzy.net",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "evidence": "workbuddy_accepted_2026-11-25",
+    "source_file": "accepted-workbuddy-2026-11-25.csv",
+    "catalog_source": "core_2026-11-25",
+    "official_url": "https://www.zgxdzy.net",
+    "data_source": "official_api",
+    "data_source_detail": "WorkBuddy 证据 + 主线程 parser live 复核",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "verified_at": "2026-11-25",
+    "probe_items": 21,
+    "probe_first_title": "按照传统既是食品又是中药材的物质及其产品标准体系框架构建的探析",
+    "core_levels": "CSTPCD",
+    "categories": "医药卫生",
+    "tags": [
+      "北大方正",
+      "采集:API",
+      "目录:核心",
+      "当期核验"
+    ],
+    "current_url": "https://www.zgxdzy.net/issue?year=2026&issue=11&lang=zh",
+    "url_signature": "www.zgxdzy.net",
+    "base_url": "https://www.zgxdzy.net",
+    "site_id": 705,
+    "publication_index_id": 206
+  },
+  {
+    "journal_key": "bd50d9c1f19ddaa4",
+    "name": "山西医科大学学报",
+    "url": "https://jsxmu.publish.founderss.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "evidence": "workbuddy_accepted_2026-11-25",
+    "source_file": "accepted-workbuddy-2026-11-25.csv",
+    "catalog_source": "core_2026-11-25",
+    "official_url": "https://jsxmu.publish.founderss.cn",
+    "data_source": "official_api",
+    "data_source_detail": "WorkBuddy 证据 + 主线程 parser live 复核",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "verified_at": "2026-11-25",
+    "probe_items": 14,
+    "probe_first_title": "水飞蓟宾通过DNA损伤修复与p38 MAPK通路抑制UVB诱导的眼睑基底细胞癌细胞恶性表型",
+    "core_levels": "CSTPCD",
+    "categories": "医药卫生",
+    "tags": [
+      "北大方正",
+      "采集:API",
+      "目录:核心",
+      "当期核验"
+    ],
+    "current_url": "https://jsxmu.publish.founderss.cn/issue?year=2026&issue=10&lang=zh",
+    "url_signature": "xuebao.sxmu.edu.cn",
+    "base_url": "https://jsxmu.publish.founderss.cn",
+    "site_id": 1028,
+    "publication_index_id": 500
+  },
+  {
+    "journal_key": "bd06a5619cd9ae61",
+    "name": "油气地质与采收率",
+    "url": "https://yqcs.publish.founderss.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "evidence": "workbuddy_accepted_2026-11-25",
+    "source_file": "accepted-workbuddy-2026-11-25.csv",
+    "catalog_source": "core_2026-11-25",
+    "official_url": "https://yqcs.publish.founderss.cn",
+    "data_source": "official_api",
+    "data_source_detail": "WorkBuddy 证据 + 主线程 parser live 复核",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "verified_at": "2026-11-25",
+    "probe_items": 18,
+    "probe_first_title": "盖层突破压力确定方法研究进展",
+    "core_levels": "CSCD;CSTPCD;北大核心",
+    "categories": "石油天然气;能源与石油工程",
+    "tags": [
+      "北大方正",
+      "采集:API",
+      "目录:核心",
+      "当期核验"
+    ],
+    "current_url": "https://yqcs.publish.founderss.cn/issue?year=2026&issue=5&lang=zh",
+    "url_signature": "yqcs.publish.founderss.cn",
+    "base_url": "https://yqcs.publish.founderss.cn",
+    "site_id": 565,
+    "publication_index_id": 1696
+  },
+  {
+    "journal_key": "2225f54bac66d653",
+    "name": "温州医科大学学报",
+    "url": "https://xb.wmu.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "evidence": "workbuddy_accepted_2026-11-25",
+    "source_file": "accepted-workbuddy-2026-11-25.csv",
+    "catalog_source": "core_2026-11-25",
+    "official_url": "https://xb.wmu.edu.cn",
+    "data_source": "official_api",
+    "data_source_detail": "WorkBuddy 证据 + 主线程 parser live 复核",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "verified_at": "2026-11-25",
+    "probe_items": 12,
+    "probe_first_title": "CaMKⅡ-ASK1轴通过调控枯否细胞促炎极化加剧急性肝损伤",
+    "core_levels": "CSTPCD",
+    "categories": "医药卫生",
+    "tags": [
+      "北大方正",
+      "采集:API",
+      "目录:核心",
+      "当期核验"
+    ],
+    "current_url": "https://xb.wmu.edu.cn/issue?year=2026&issue=11&lang=zh",
+    "url_signature": "xb.wmu.edu.cn",
+    "base_url": "https://xb.wmu.edu.cn",
+    "site_id": 730,
+    "publication_index_id": 545
+  },
+  {
+    "journal_key": "257986ce6c8a3667",
+    "name": "肝胆胰外科杂志",
+    "url": "http://gdy.wmu.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "evidence": "workbuddy_accepted_2026-11-25",
+    "source_file": "accepted-workbuddy-2026-11-25.csv",
+    "catalog_source": "core_2026-11-25",
+    "official_url": "http://gdy.wmu.edu.cn",
+    "data_source": "official_api",
+    "data_source_detail": "WorkBuddy 证据 + 主线程 parser live 复核",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "verified_at": "2026-11-25",
+    "probe_items": 11,
+    "probe_first_title": "以患者生存获益为导向的胆道恶性肿瘤围手术期综合治疗",
+    "core_levels": "CSTPCD",
+    "categories": "医药卫生",
+    "tags": [
+      "北大方正",
+      "采集:API",
+      "目录:核心",
+      "当期核验"
+    ],
+    "current_url": "http://gdy.wmu.edu.cn/issue?year=2026&issue=12&lang=zh",
+    "url_signature": "gdy.wmu.edu.cn",
+    "base_url": "http://gdy.wmu.edu.cn",
+    "site_id": 720,
+    "publication_index_id": 544
+  },
+  {
+    "journal_key": "e35ea24cb6e08c8d",
+    "name": "饲料研究",
+    "url": "https://slyj.publish.founderss.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "evidence": "workbuddy_accepted_2026-11-25",
+    "source_file": "accepted-workbuddy-2026-11-25.csv",
+    "catalog_source": "core_2026-11-25",
+    "official_url": "https://slyj.publish.founderss.cn",
+    "data_source": "official_api",
+    "data_source_detail": "WorkBuddy 证据 + 主线程 parser live 复核",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "verified_at": "2026-11-25",
+    "probe_items": 35,
+    "probe_first_title": "不同水平缬氨酸对藏羊前腿肉品质及风味的影响",
+    "core_levels": "CSTPCD;北大核心",
+    "categories": "农业科学;畜牧动物医学",
+    "tags": [
+      "北大方正",
+      "采集:API",
+      "目录:核心",
+      "当期核验"
+    ],
+    "current_url": "https://slyj.publish.founderss.cn/issue?year=2026&issue=21&lang=zh",
+    "url_signature": "slyj.publish.founderss.cn",
+    "base_url": "https://slyj.publish.founderss.cn",
+    "site_id": 169,
+    "publication_index_id": 258
+  },
+  {
+    "journal_key": "a35dcec1ee3d9611",
+    "name": "四川大学学报. 自然科学版",
+    "url": "https://science.scu.edu.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "evidence": "workbuddy_accepted_2026-11-25",
+    "source_file": "accepted-workbuddy-2026-11-25.csv",
+    "catalog_source": "core_2026-11-25",
+    "official_url": "https://science.scu.edu.cn",
+    "data_source": "official_api",
+    "data_source_detail": "WorkBuddy 证据 + 主线程 parser live 复核",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "verified_at": "2026-11-25",
+    "probe_items": 23,
+    "probe_first_title": "聚碳酸酯阻燃及低烟低热释放研究进展",
+    "core_levels": "CSTPCD;北大核心;扩展版",
+    "categories": "综合性科学技术;综合理工农医类",
+    "tags": [
+      "北大方正",
+      "采集:API",
+      "目录:核心",
+      "当期核验"
+    ],
+    "current_url": "https://science.scu.edu.cn/rc-pub/front/front-article/getArticlesByPeriodicalId/287465?siteId=601",
+    "url_signature": "science.scu.edu.cn",
+    "base_url": "https://science.scu.edu.cn",
+    "site_id": 601,
+    "publication_index_id": 1805
+  },
+  {
+    "journal_key": "fe47986a55a5437a",
+    "name": "新疆石油地质",
+    "url": "https://www.zgxjpg.com",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "evidence": "workbuddy_accepted_2026-11-25",
+    "source_file": "accepted-workbuddy-2026-11-25.csv",
+    "catalog_source": "core_2026-11-25",
+    "official_url": "https://www.zgxjpg.com",
+    "data_source": "official_api",
+    "data_source_detail": "WorkBuddy 证据 + 主线程 parser live 复核",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "verified_at": "2026-11-25",
+    "probe_items": 14,
+    "probe_first_title": "塔里木盆地构造研究认识进展及油气勘探成效",
+    "core_levels": "CSCD;CSTPCD;北大核心",
+    "categories": "石油天然气;能源与石油工程",
+    "tags": [
+      "北大方正",
+      "采集:API",
+      "目录:核心",
+      "当期核验"
+    ],
+    "current_url": "https://www.zgxjpg.com/issue?year=2026&issue=5&lang=zh",
+    "url_signature": "www.zgxjpg.com",
+    "base_url": "https://www.zgxjpg.com",
+    "site_id": 1221,
+    "publication_index_id": 3869
+  },
+  {
+    "journal_key": "ebc4f4ac47c9f6d5",
+    "name": "测试技术学报",
+    "url": "https://csjs.publish.founderss.cn",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "evidence": "workbuddy_accepted_2026-11-25",
+    "source_file": "accepted-workbuddy-2026-11-25.csv",
+    "catalog_source": "core_2026-11-25",
+    "official_url": "https://csjs.publish.founderss.cn",
+    "data_source": "official_api",
+    "data_source_detail": "WorkBuddy 证据 + 主线程 parser live 复核",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "verified_at": "2026-11-25",
+    "probe_items": 15,
+    "probe_first_title": "面向光纤法珀腔压力传感器的高精度联合解调算法",
+    "core_levels": "CSTPCD",
+    "categories": "电子与自动控制",
+    "tags": [
+      "北大方正",
+      "采集:API",
+      "目录:核心",
+      "当期核验"
+    ],
+    "current_url": "https://csjs.publish.founderss.cn/issue?year=2026&issue=5&lang=zh",
+    "url_signature": "csjs.publish.founderss.cn",
+    "base_url": "https://csjs.publish.founderss.cn",
+    "site_id": 632,
+    "publication_index_id": 1830
+  },
+  {
+    "journal_key": "bd94f1daf342f852",
+    "name": "电焊机",
+    "url": "https://www.71dhj.com",
+    "supplier": "北大方正",
+    "template_group": "founder",
+    "evidence": "workbuddy_accepted_2026-11-25",
+    "source_file": "accepted-workbuddy-2026-11-25.csv",
+    "catalog_source": "core_2026-11-25",
+    "official_url": "https://www.71dhj.com",
+    "data_source": "official_api",
+    "data_source_detail": "WorkBuddy 证据 + 主线程 parser live 复核",
+    "source_group": "founder",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "verified_at": "2026-11-25",
+    "probe_items": 17,
+    "probe_first_title": "Ag-Cu-xTi@Sc2W3O12颗粒增强钎料在SiC表面的润湿行为及界面反应机理",
+    "core_levels": "CSTPCD",
+    "categories": "机械工程",
+    "tags": [
+      "北大方正",
+      "采集:API",
+      "目录:核心",
+      "当期核验"
+    ],
+    "current_url": "https://www.71dhj.com/issue?year=2026&issue=10&lang=zh",
+    "url_signature": "www.71dhj.com",
+    "base_url": "https://www.71dhj.com",
+    "site_id": 301,
+    "publication_index_id": 936
+  }
+]

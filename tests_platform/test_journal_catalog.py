@@ -2,6 +2,8 @@ import json
 from pathlib import Path
 from unittest.mock import patch
 
+import pytest
+
 from crawler_platform.api import create_app
 from crawler_platform.config import SETTINGS
 from crawler_platform.journal_catalog import load_journal_catalog, subject_tags
@@ -28,6 +30,13 @@ def test_journal_catalog_reads_package_directory(tmp_path: Path):
     ]
 
 
+def test_journal_catalog_adds_capability_tag_for_known_package(tmp_path: Path):
+    (tmp_path / "journals.json").write_text('[{"journal_key":"a","name":"计算机学报"}]', encoding="utf-8")
+    schema = {"properties": {"journal_keys": {"items": {"type": "string"}}}}
+    catalog = load_journal_catalog(tmp_path, schema, package_key="custom_toc_journals")
+    assert catalog[0]["tags"] == ["能追新期，只能筛本期", "信息智能"]
+
+
 def test_journal_catalog_falls_back_to_manifest_enum(tmp_path: Path):
     schema = {"properties": {"journal_keys": {"items": {"enum": ["nature", "science"]}}}}
     assert [row["journal_key"] for row in load_journal_catalog(tmp_path, schema)] == ["nature", "science"]
@@ -44,6 +53,21 @@ def test_journal_catalog_endpoint_uses_installed_artifact(tmp_path: Path):
         response = app.test_client().get("/api/v1/packages/example/journals")
     assert response.status_code == 200
     assert response.get_json()[0]["tags"] == ["信息智能"]
+
+
+def test_journal_catalog_accepts_more_than_5000_rows(tmp_path: Path):
+    rows = [{"journal_key": f"k{index}", "name": f"期刊 {index}"} for index in range(5238)]
+    (tmp_path / "journals.json").write_text(json.dumps(rows, ensure_ascii=False), encoding="utf-8")
+    schema = {"properties": {"journal_keys": {"items": {"type": "string"}}}}
+    assert len(load_journal_catalog(tmp_path, schema)) == 5238
+
+
+def test_journal_catalog_rejects_over_10000_rows(tmp_path: Path):
+    rows = [{"journal_key": f"k{index}", "name": f"期刊 {index}"} for index in range(10001)]
+    (tmp_path / "journals.json").write_text(json.dumps(rows, ensure_ascii=False), encoding="utf-8")
+    schema = {"properties": {"journal_keys": {"items": {"type": "string"}}}}
+    with pytest.raises(ValueError, match="invalid journal catalog"):
+        load_journal_catalog(tmp_path, schema)
 
 
 def test_all_delivered_chinese_journal_catalogs_can_be_listed():

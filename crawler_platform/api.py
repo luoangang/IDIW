@@ -18,8 +18,20 @@ from crawler_platform.protocol import ProtocolError, strict_json_loads
 from crawler_platform.storage import MonitorNameConflict, PlatformStore
 from crawler_platform.categories import CATEGORIES
 from crawler_platform.journal_catalog import load_journal_catalog
+from crawler_platform.package_help import data_profile, help_for
 from crawler_platform.weekly_report import previous_week
 from crawler_platform.assistant import AssistantUnavailable, TaskAssistant
+
+
+def with_package_help(rows):
+    for row in rows:
+        profile = data_profile(row.get("package_key"))
+        row["help"] = help_for(row.get("package_key"))
+        row["meta_tag"] = profile.get("meta_tag", "")
+        row["meta_help"] = profile.get("meta_help", "")
+        row["pdf_tag"] = profile.get("pdf_tag", "")
+        row["pdf_help"] = profile.get("pdf_help", "")
+    return rows
 
 
 def json_response(value: Any, status: int = 200):
@@ -99,7 +111,7 @@ def create_app(settings: Settings, store: PlatformStore) -> Flask:
     @app.get("/api/v1/packages")
     @authenticated
     def packages():
-        return json_response(store.list_packages())
+        return json_response(with_package_help(store.list_packages()))
 
     @app.get("/api/v1/categories")
     @authenticated
@@ -122,7 +134,7 @@ def create_app(settings: Settings, store: PlatformStore) -> Flask:
     def assistant_catalog():
         return json_response({"configured": bool(os.getenv("DEEPSEEK_API_KEY")),
                               "model": os.getenv("DEEPSEEK_ASSISTANT_MODEL", "deepseek-flash"),
-                              "sources": assistant.catalog()})
+                              "sources": with_package_help(assistant.catalog())})
 
     @app.post("/api/v1/assistant/chat")
     @authenticated
@@ -222,6 +234,7 @@ def create_app(settings: Settings, store: PlatformStore) -> Flask:
         package = store.package(package_key)
         return json_response(load_journal_catalog(
             Path(package["active_artifact_path"]), package["manifest"]["parameters_schema"],
+            package_key=package_key,
         ))
 
     @app.get("/api/v1/packages/<package_key>/records")
@@ -235,11 +248,13 @@ def create_app(settings: Settings, store: PlatformStore) -> Flask:
     @app.get("/api/v1/data")
     @authenticated
     def preview_data():
+        change_filter = {key: request.args[key] for key in ("since", "change") if request.args.get(key)}
         return json_response(store.preview_records(
             monitor_id=int(request.args["monitor"]) if request.args.get("monitor") else None,
             package_key=request.args.get("source") or None,
             query=request.args.get("q", ""), page=int(request.args.get("page", 1)),
             limit=int(request.args.get("limit", 25)),
+            **change_filter,
         ))
 
     @app.get("/api/v1/packages/<package_key>/records/<resource_uid>")
@@ -294,7 +309,7 @@ def create_app(settings: Settings, store: PlatformStore) -> Flask:
     @app.get("/api/v1/monitors/<int:monitor_id>/packages")
     @authenticated
     def monitor_packages(monitor_id):
-        return json_response(store.monitor_package_settings(monitor_id))
+        return json_response(with_package_help(store.monitor_package_settings(monitor_id)))
 
     @app.put("/api/v1/monitors/<int:monitor_id>/packages")
     @authenticated

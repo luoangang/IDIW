@@ -1,0 +1,15 @@
+﻿journal_key,journal_name,target_package,core_levels,categories,source_note
+a2a415ad37482923,中国科学数据中英文网络版,sciengine_journals,['CSTPCD'],['综合性科学技术'],官网 API（SciEngine selectArticlesInJournalOfVolumeAndIssue 公开 JSON）
+8b235c89e71721e7,分子科学学报,sciengine_journals,['CSTPCD'],['化学'],官网 API（SciEngine selectArticlesInJournalOfVolumeAndIssue 公开 JSON）
+85b4c55efb8b5ad7,原子核物理评论,sciengine_journals,"['CSTPCD', '北大核心', '扩展版']","['物理学', '物理学与力学']",官网 API（SciEngine selectArticlesInJournalOfVolumeAndIssue 公开 JSON）
+93228fce19fb1a2e,古生物学报,sciengine_journals,"['CSCD', 'CSTPCD', '北大核心']","['地球科学', '生物科学']",官网 API（SciEngine selectArticlesInJournalOfVolumeAndIssue 公开 JSON）
+b85cac1cb2958ea4,合成化学,sciengine_journals,['CSTPCD'],['化学'],官网 API（SciEngine selectArticlesInJournalOfVolumeAndIssue 公开 JSON）
+a48d3b84257ff923,固体电子学研究与进展,sciengine_journals,['CSTPCD'],['电子与自动控制'],官网 API（SciEngine selectArticlesInJournalOfVolumeAndIssue 公开 JSON）
+ed8cd492a666cc73,新型炭材料,sciengine_journals,"['CSTPCD', '北大核心']","['材料科学', '其他化工']",官网 API（SciEngine selectArticlesInJournalOfVolumeAndIssue 公开 JSON）
+6c2a3053752a74d4,植物生理学报,sciengine_journals,"['CSCD', 'CSTPCD', '北大核心']","['植物学', '生物学']",官网 API（SciEngine selectArticlesInJournalOfVolumeAndIssue 公开 JSON）
+cf8a6fd80037d70e,河南科学,sciengine_journals,['CSTPCD'],['综合性科学技术'],官网 API（SciEngine selectArticlesInJournalOfVolumeAndIssue 公开 JSON）
+1b8f9acf33ba5c52,燃料化学学报,sciengine_journals,"['CSTPCD', '北大核心']","['化学', '其他化工']",官网 API（SciEngine selectArticlesInJournalOfVolumeAndIssue 公开 JSON）
+b091eaadec1bbf73,环境工程学报,sciengine_journals,"['CSTPCD', '北大核心', '扩展版']","['环境与安全科学', '环境科学']",官网 API（SciEngine selectArticlesInJournalOfVolumeAndIssue 公开 JSON）
+9e040efd13654a92,生命的化学,sciengine_journals,['CSTPCD'],['生物学'],官网 API（SciEngine selectArticlesInJournalOfVolumeAndIssue 公开 JSON）
+2aa4728885d150a2,生态毒理学报,sciengine_journals,"['CSTPCD', '北大核心', '扩展版']","['环境与安全科学', '环境科学']",官网 API（SciEngine selectArticlesInJournalOfVolumeAndIssue 公开 JSON）
+bc2a09d5b761f0a4,矿物岩石地球化学通报,sciengine_journals,"['CSCD', 'CSTPCD', '北大核心']","['地球科学', '地质']",官网 API（SciEngine selectArticlesInJournalOfVolumeAndIssue 公开 JSON）

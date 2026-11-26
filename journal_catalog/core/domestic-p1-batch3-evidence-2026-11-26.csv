@@ -1,0 +1,117 @@
+﻿rank,journal_name,probe_status,probe_items,current_url,platform_guess,package_guess,disposition,live_package,live_items,first_title,reason
+81,铁道标准设计,ok,27,https://tdbs.chinajournal.net.cn/WKC3/WebPublication/index.aspx?mid=TDBS,cnki,cnki_wkc3,写回,cnki_cbpt,27,水平旋喷注浆试验装置研制及初步应用 Development and Preliminary Application of a Horizontal Jet Grouting Test Device,生产 parser live 复核通过
+82,现代地质,blocked,0,https://www.geoscience.net.cn/,founder,founder_portal,不可写回,,,,方正/JS SPA 空壳
+83,中国畜牧杂志,warn,59,https://www.zgxmzz.cn/online/thesis,custom_toc,custom_sudy_cms,待定,,,,苏迪 CMS；站点停在第10期
+84,航空材料学报,ok,11,https://jam.biam.ac.cn/CN/current,magetech,magetech_journals,写回,magetech_journals,12,低频电磁吸收超材料研究进展及其应用,生产 parser live 复核通过
+85,无机盐工业,blocked,0,https://www.wjygy.com.cn/,founder,founder_portal,不可写回,,,,方正/JS SPA 空壳
+86,药学学报,fail,0,https://www.yxxb.com.cn/,unknown,unknown,不可写回,,,,TLS 证书链/主机名错误
+87,轴承,blocked,0,http://www.chinabearing.com.cn/,founder,founder_portal,不可写回,,,,方正/JS SPA 空壳
+88,建筑学报,warn,18,http://www.aj.org.cn/periodicaldetail-54483.aspx,custom_toc,custom_aspnet_cms,待定,,,,目次纯文本，无文章链接
+89,中药材,fail,0,https://zyca.cbpt.cnki.net/portal,cnki,cnki_wki_portal,不可写回,,,,入口不可用
+90,地下空间与工程学报,ok,37,https://dxkjxb.cqu.edu.cn/CN/current,magetech,magetech_journals,写回,magetech_journals,37,基于节点-场所模型的站域效能耦合协调性评估,生产 parser live 复核通过
+91,渔业现代化,fail,0,https://fm.fmiri.ac.cn/,unknown,unknown,不可写回,,,,TLS 证书链/主机名错误
+92,时珍国医国药,warn,0,https://www.shizhenchina.com/,founder,founder,待定,,,,方正 SPA，静态无目录
+93,煤炭转化,warn,0,https://ebcc.tyut.edu.cn/,founder,founder,待定,,,,方正 SPA，静态无目录
+94,河南师范大学学报(自然科学版),ok,19,https://www.htu.edu.cn/nature/2026/0817/c24915a402168/page.htm,custom_toc,custom,写回,custom_toc_journals,19,虚假交易风险、成交量信息含量与价格发现--基于A股高频数据的经验证据 浏览次数 (11) 附件下载 （pdf）,生产 parser live 复核通过
+95,中华肿瘤防治杂志,no_current,0,http://www.cjcpt.cn/index.php/zh/,unknown,unknown,不可写回,,,,官网无公开当期目录
+96,水利经济,blocked,0,http://jour.hhu.edu.cn/sljj,unknown,unknown,不可写回,,,,访问被拦截/无公开当期
+97,防灾减灾工程学报,fail,0,https://js-fzjzgcxb.cn/,unknown,unknown,不可写回,,,,TLS 证书链/主机名错误
+98,中华医院感染学杂志,warn,0,https://zhyygrxzz.xml-journal.net/cn/article/prepublish,rhhz,rhhz,待定,,,,rhzh prepublish JS 模板，当期目录未取到
+99,中华危重病急救医学,pdf_only,13,http://www.cccm-em120.com/weizhongbingguokan/wei2026-10.html,custom_toc,custom,待定,,,,仅 PDF 版目次
+100,兰州大学学报(自然科学版),ok,17,https://ldzk.chinajournal.net.cn/WKE/WebPublication/index.aspx?mid=ldzk,custom_toc,wke,写回,cnki_cbpt,17,观测约束下青藏高原的未来增温预估,生产 parser live 复核通过
+101,有色金属(冶炼部分),warn,29,http://ysyl.bgrimm.cn/ysjsylbf/ch/reader/issue_list.aspx?year_id=2025&quarter_id=6,magetech,magetech_ysyl_journal,待定,,,,magtech 目录可用但最新只到 2025-6
+102,磁共振成像,ok,28,https://www.chinesemri.com/CN115902202611/index.htm?tplReset=qikan,custom_toc,yiigle_cma_journal,写回,custom_toc_journals,28,体内植入物患者行MRI检查全流程安全管理专家共识（2026）,生产 parser live 复核通过
+103,中共党史研究,no_current,0,https://www.dswxyjy.org.cn/n1/2026/1026/c222844-40821800.html,custom_toc,rmw_cms_no_article,不可写回,,,,官网无公开当期目录
+104,广西民族大学学报(哲学社会科学版),no_current,0,https://xuebao.gxmzu.edu.cn/,vsb,vsb_editorial_site,不可写回,,,,官网无公开当期目录
+105,当代世界社会主义问题,ok,11,https://krics.sdu.edu.cn/info/1088/2931.htm,custom_toc,sdu_custom_toc_plus_founder_submit,待定,,,,纯文本整期目录，无单篇链接/摘要
+106,领导科学,warn,18,http://ldkx.hnskl.org/zhuanti/ldkx/mqml/20260605/23439.html,custom_toc,hnskl_custom_toc,待定,,,,最新 2026-3，仅 5 篇有链接
+107,中华医院管理杂志,warn,12,https://zhyyglzz.yiigle.com/CN111325202608/index.jhtml?tplReset=qikan,custom_toc,yiigle_cma_journal,待定,,,,yiigle 2026-08 期，疑似滞后
+108,合成生物学,warn,17,https://synbioj.cip.com.cn/CN/2096-8280/current.shtml,magetech,magetech_synbioj,待定,,,,magtech 目录停在 2025 年
+109,建筑科学,fail,0,http://jzkx.chinajournal.net.cn/WKD/Error.aspx?code=5,cnki,cnki_chinajournal_legacy,不可写回,,,,入口不可用
+110,中国有色冶金,blocked,0,https://zgys.cbpt.cnki.net/WKE/showValidateCode.aspx,cnki,cnki_cbpt_editorial,不可写回,,,,验证码/登录拦截
+111,郑州大学学报(医学版),ok,37,http://jms.zzu.edu.cn/api/api/Web/LastIssueList?PageSize=0&IssueId=0,custom_toc,sancai_journals,写回,sancai_journals,37,人体衰老检测技术的研究进展,生产 parser live 复核通过
+112,空气动力学学报,no_current,0,http://journal16.magtechjournal.com/Jweb_aas/index/index.html,unknown,magentech_journals,不可写回,,,,官网无公开当期目录
+113,建筑钢结构进展,blocked,0,https://steelpro.tongji.edu.cn/CN/volumn/home.shtml,unknown,founder_journals,不可写回,,,,方正/JS SPA 空壳
+114,给水排水,warn,0,http://www.wwe1964.cn/Category_524/Index.aspx,custom_toc,custom_toc_journals,待定,,,,站点年期止于 2023
+115,激光杂志,no_current,0,http://www.laserjournal.cn/article/106,custom_toc,custom_toc_journals,不可写回,,,,官网无公开当期目录
+116,航天返回与遥感,ok,14,https://htfhyyg.spacejournal.cn/,custom_toc,custom_toc_journals,写回,custom_toc_journals,14,地外无人探测系统激光自主导航与定位技术,生产 parser live 复核通过
+117,海洋工程,blocked,0,http://www.theoceaneng.cn/,unknown,unknown,不可写回,,,,方正/JS SPA 空壳
+118,印染,blocked,0,https://yira.chinajournal.net.cn/EditorD2N/Quit.aspx,cnki,cnki_cbpt,不可写回,,,,验证码/登录拦截
+119,质谱学报,blocked,0,http://www.jcmss.com.cn/,unknown,unknown,不可写回,,,,访问被拦截/无公开当期
+120,出土文献,ok,10,https://www.ctwx.tsinghua.edu.cn/info/1093/3531.htm,custom_toc,vsb_journals,待定,,,,纯文本“作者：篇名”，无文章链接
+121,中华地方病学杂志,login,0,https://casmp.yiigle.com:443/login?service=https%3A%2F%2Fwww.medjournals.cn%2Findex.do&gateway=true,unknown,yiigle_sso,不可写回,,,,需登录/SSO/校园 VPN
+122,光通信研究,warn,0,https://www.gtxyj.com.cn/zh/issue/2026/5/,founder,founder_journal,待定,,,,founder 当期页为空
+123,化学与生物工程,no_current,0,http://www.hxyswgc.com/557/557/254,custom_toc,custom_cms_issue,不可写回,,,,官网无公开当期目录
+124,分析科学学报,warn,30,https://fxkxxb.whu.edu.cn/,custom_toc,custom_ecms,待定,,,,目录停在 2022
+125,福州大学学报(自然科学版),warn,0,https://xbzrb1.fzu.edu.cn/ch/reader/issue_list.aspx?year_id=2026&quarter_id=6,qinyun,qinyun_journals,待定,,,,当期未抓到（issue_list 空/超时）
+126,听力学及言语疾病杂志,ok,20,https://tlxj.chinajournal.net.cn/WKD2/WebPublication/index.aspx?mid=tlxj,cnki,cnki_wkd2,写回,cnki_cbpt,22,听力损失儿童听觉言语能力评估方法的专家共识,生产 parser live 复核通过
+127,重庆师范大学学报(自然科学版),fail,0,https://cqnuj.cqnu.edu.cn/,unknown,unknown,不可写回,,,,DNS 不存在
+128,合成树脂及塑料,blocked,0,https://hcsz.chinajournal.net.cn/WKA/showValidateCode.aspx,cnki,cnki_wka,不可写回,,,,验证码/登录拦截
+129,热加工工艺,ok,33,http://www.rjggy.com/cn/article/current,rhzh,rhzh_journals,写回,rhzh_journals,33,高强铝合金应力腐蚀开裂的研究现状及展望,生产 parser live 复核通过
+130,江西师范大学学报(自然科学版),fail,0,https://lkxb.jxnu.edu.cn:443/,unknown,unknown,不可写回,,,,连接超时/端口不可达
+131,中华显微外科杂志,ok,22,https://zhxwwkzz.yiigle.com/CN441206202605/index.jhtml?tplReset=qikan,custom_toc,yiigle_cma,写回,custom_toc_journals,22,健侧第7颈神经移位术40年发展,生产 parser live 复核通过
+132,中国档案,no_current,0,https://zz.chinaarchives.cn/CN/home,magtech,magtech_journalx,不可写回,,,,官网无公开当期目录
+133,电子元件与材料,ok,14,http://www.cnelecom.net/cont.asp?classid=289,custom_toc,asp_contread,写回,custom_toc_journals,20,基于嵌套EBG结构的飞行器表面缝隙双频带RCS减缩技术研究,生产 parser live 复核通过
+134,化学研究与应用,no_current,0,http://www.chemistryra.com/CN/volumn/current.shtml,magtech,magtech_journals,不可写回,,,,官网无公开当期目录
+135,华侨华人历史研究,ok,14,https://hqly.chinajournal.net.cn/WKH2/WebPublication/index.aspx?mid=HQLY,qinyun,qinyun_aspx,写回,cnki_cbpt,14,内陆新侨乡的生成、运作及其类型学意义——以湖南邵东为例,生产 parser live 复核通过
+136,腐蚀与防护,ok,14,https://fsyfh.mat-test.com/,rhzh,rhzh_journals,写回,rhzh_journals,15,蜡状芽孢杆菌作用下印制电路板的腐蚀行为,生产 parser live 复核通过
+137,高等学校化学学报,ok,20,http://www.cjcu.jlu.edu.cn/CN/0251-0790/current.shtml,magtech,magtech_journals,写回,magetech_journals,19,纳米孔道单分子技术检测寡核苷酸定制样品中的杂质,生产 parser live 复核通过
+138,中华眼科杂志,ok,16,https://zhykzz.yiigle.com/CN112142202611/index.htm?tplReset=qikan,custom_toc,yiigle_cma,写回,custom_toc_journals,15,黄斑裂孔手术改良术式的多样化与反思,生产 parser live 复核通过
+139,化工设备与管道,fail,0,http://www.chinapep.cn:8080/Jwk_hgsbygd/CN/volumn/current.shtml,unknown,unknown,不可写回,,,,DNS 不存在
+140,航天器环境工程,ok,9,https://see.spacejournal.cn/,rhzh,rhzh_journals,写回,rhzh_journals,9,空间低频磁场探测任务及关键技术发展建议,生产 parser live 复核通过
+141,中华整形外科杂志,ok,15,https://zhzxwkzz.yiigle.com/CN114453202610/index.jhtml?tplReset=qikan,custom_toc,custom_toc_journals,写回,custom_toc_journals,15,性别重置手术：从生理矫治迈向性别美学表达,生产 parser live 复核通过
+142,农业考古,no_current,0,https://www.nykg.net.cn/year2025/9,custom_toc,custom_toc_journals,不可写回,,,,官网无公开当期目录
+143,中华胸心血管外科杂志,ok,12,https://zhxxxgwkzz.yiigle.com/CN112434202610/index.jhtml?tplReset=qikan,custom_toc,custom_toc_journals,写回,custom_toc_journals,12,原发性纵隔生殖细胞瘤的临床特点及治疗,生产 parser live 复核通过
+144,高校应用数学学报A辑,pdf_only,10,http://www.amjcu.zju.edu.cn/amjcua/2020-2029/202603/100.html,custom_toc,custom_toc_journals,待定,,,,仅整篇 PDF
+145,收获,no_current,0,https://www.shouhuo-harvest.com/,unknown,none,不可写回,,,,官网无公开当期目录
+146,数学学报,blocked,0,https://actamath.cjoe.ac.cn/Jwk_sxxb_cn/CN/home,rhzh,rhzh,不可写回,,,,验证码/登录拦截
+147,芙蓉,warn,10,https://www.chinawriter.com.cn/n1/2026/1113/c418986-40833482.html,custom_toc,custom_toc_journals,待定,,,,纯文本目录，无单篇链接
+148,哈尔滨商业大学学报(社会科学版),ok,12,https://hljc.chinajournal.net.cn/WKG/WebPublication/index.aspx?mid=hljc,cnki,cnki_wkg,写回,cnki_cbpt,12,耐心资本适配未来产业企业高质量发展的机制研究——基于全量专利数据的企业微观识别证据,生产 parser live 复核通过
+149,大数据,warn,0,https://www.j-bigdataresearch.com.cn/,founder,founder_journals,待定,,,,方正 SPA，无 SSR 目录
+150,图书馆理论与实践,warn,0,http://www.libedit.cn/WKA/WebPublication/index.aspx?mid=lsgl,cnki,cnki_cbpt,待定,,,,CBPT 门户读取超时
+151,哈尔滨工业大学学报(社会科学版),ok,19,http://www.jss.hit.edu.cn/,custom_toc,custom_toc_journals,写回,custom_toc_journals,19,中华文明现代转型理论的学理基础、创新性贡献与时代启示,生产 parser live 复核通过
+152,心理研究,ok,11,http://xlyj.magtech.com.cn/CN/volumn/home.shtml,magetech,magetech_journals,写回,magetech_journals,11,具身决策:身体及所处环境对决策的影响,生产 parser live 复核通过
+153,烟台大学学报(哲学社会科学版),ok,12,https://ytxs.cbpt.cnki.net/WKH/WebPublication/index.aspx?mid=YTXS,qinyun,qinyun_journals,写回,cnki_cbpt,12,文明价值与经济发展的内在统一:中国人文经济学自主知识体系的生成逻辑与理论建构,生产 parser live 复核通过
+154,中国细胞生物学学报,ok,17,http://www.cjcb.org/cjcb/portal/zxqk1.jsp?ID=483,custom_toc,custom_toc_journals,写回,custom_toc_journals,16,胆固醇代谢重编程塑造肝癌免疫生态及治疗响应: 从代谢稳态到免疫脆弱性 [2489-2506],生产 parser live 复核通过
+155,高原科学研究,blocked,0,https://xzzk.cbpt.cnki.net/EditorDN/Quit.aspx,qinyun,qinyun_journals,不可写回,,,,验证码/登录拦截
+156,建筑遗产,warn,0,https://jianzhuyichan.tongji.edu.cn/qkll/a2025/d1q.htm,vsb,vsb_journals,待定,,,,VSB 站点停更于 2025-1
+157,中国法医学杂志,blocked,0,https://zgfyxzz.cbpt.cnki.net/WKA/WebPublication/index.aspx?mid=FUAN,qinyun,qinyun_journals,不可写回,,,,验证码/登录拦截
+158,中华医学遗传学杂志,ok,11,https://zhyxycxzz.yiigle.com/CN511374202612/index.jhtml?tplReset=qikan,custom_toc,custom_toc_journals,写回,custom_toc_journals,11,Kabuki综合征专家诊疗共识(2026版),生产 parser live 复核通过
+159,俄罗斯文艺,fail,0,https://elsw.cbpt.cnki.net/portal,qinyun,qinyun_journals,不可写回,,,,入口不可用
+160,艺术工作,warn,22,https://www.lumei.edu.cn/ysgzbjb/info/1081/1327.htm,vsb,vsb_journals,待定,,,,VSB 停更 2025-6，纯文本无链接
+161,中医学报,ok,42,https://zyxb.hactcm.edu.cn/info/1010/1896.htm,custom_toc,custom_text_toc,待定,,,,纯文本目录，无单篇链接；CNKI 验证码
+162,实用肿瘤杂志,ok,10,https://syzz.cbpt.cnki.net/portal/journal/portal/client/paper_list/type_benqi,cnki,cnki_wke_portal,写回,cnki_cbpt,14,局部晚期宫颈癌临床治疗新进展,生产 parser live 复核通过
+163,中医药导报,ok,42,https://www.zyydb.com/browseArticles.aspx,custom_toc,custom_toc_aspnet,写回,custom_toc_journals,40,虎七通噎颗粒调控Gas6/Axl通路抑制食管鳞癌细胞上皮-间充质转化的机制*,生产 parser live 复核通过
+164,中国卫生信息管理杂志,warn,0,https://www.chim.org.cn/,cnki,cnki_wka_portal,待定,,,,CBPT 过刊入口 404，实走 WKA
+165,食品与发酵科技,warn,30,http://www.sc-ffm.com/,custom_toc,custom_go_c_toc,待定,,,,2026 仅 1 期且无期次标识
+166,中国急救复苏与灾害医学杂志,no_current,0,https://www.caderm.org/site/content/2196.html,custom_toc,none,不可写回,,,,官网无公开当期目录
+167,中国胶粘剂,ok,16,https://gxlj.cbpt.cnki.net/portal,cnki,cnki_wke_portal,写回,cnki_cbpt,10,风电混塔拼装用关键材料性能对比与工程应用研究Performance comparison and engineering application of key materials for wind turbine hybrid tower assembly,生产 parser live 复核通过
+168,中国医药导报,no_current,42,https://www.yiyaodaobao.com.cn/CN/volumn/current.shtml,magetech,magetech_std,不可写回,,,,官网无公开当期目录
+169,中国中西医结合肾病杂志,ok,28,https://jxsb.chinajournal.net.cn/WKD/WebPublication/index.aspx?mid=JXSB,cnki,cnki_wkd,写回,cnki_cbpt,28,陈以平教授基于“阴火”理论从“虚-火-湿-瘀”论治儿童难治性肾病综合征,生产 parser live 复核通过
+170,中国性科学,warn,0,http://www.zgxkxzzs.com/ch/reader/issue_list.aspx?year_id=2026&quarter_id=1,custom_toc,none,待定,,,,当期目录空，issue_browser 502
+171,腹腔镜外科杂志,no_current,0,https://fqjwkzz.qiluhospital.cn/index.php?m=content&c=index&a=lists&catid=361,custom_toc,phpcms_custom,不可写回,,,,官网无公开当期目录
+172,医学动物防制,blocked,0,http://www.yxdwfz.com/WKD3/WebPublication/index.aspx?mid=yxdz,cnki,cnki_wkd3,不可写回,,,,验证码/登录拦截
+173,土木工程与管理学报,pdf_only,0,http://juse.hust.edu.cn/info/1021/1707.htm,vsb,vsb_pdf,待定,,,,目录仅内嵌 PDF
+174,微生物学免疫学进展,blocked,0,https://wsmy.cbpt.cnki.net/WKA3/WebPublication/index.aspx?mid=wsmy,cnki,cnki_wka3,不可写回,,,,验证码/登录拦截
+175,中国中西医结合皮肤性病学杂志,blocked,0,https://zxyd.chinajournal.net.cn/WKD2/WebPublication/index.aspx?mid=zxyd,cnki,cnki_wkd2,不可写回,,,,验证码/登录拦截
+176,医学研究杂志,fail,0,https://www.yxyjzz.cn/,unknown,unknown,不可写回,,,,TLS 证书链/主机名错误
+177,南昌大学学报(理科版),ok,12,https://qks.ncu.edu.cn/Jwk_xblxb/CN/volumn/current.shtml,magetech,magtech_static,待定,,,,当期停在 2025年49卷6期，站点疑似滞后
+178,青岛科技大学学报(自然科学版),ok,6,http://xbzr.qust.edu.cn/,vsb,vsb_custom,写回,vsb_journals,6,耦合辨识（10）： 多变量CARARMA系统的 耦合递阶广义增广参数辨识,生产 parser live 复核通过
+179,武汉大学学报(医学版),warn,0,https://xbyx.whu.edu.cn/,unknown,spa,待定,,,,Vue SPA，纯 JS 渲染
+180,宁夏医科大学学报,login,0,https://casmp.yiigle.com/login?service=https%3A%2F%2Fnxykdxxb.yiigle.com%3A%2F&gateway=true&loginUrl=%2F,unknown,yiigle,不可写回,,,,需登录/SSO/校园 VPN
+181,现代医学,blocked,0,http://www.xdyx.org.cn/,founder,founder_journals,不可写回,,,,方正/JS SPA 空壳
+182,中华心血管病杂志(网络版),warn,unknown,http://www.cvjc.org.cn/,custom_toc,custom_toc_journals,待定,,,,已迁站，仅最新发布，无当期目次
+183,中华医学科研管理杂志,ok,15,https://zhyxkyglzz.yiigle.com/CN113565202605/index.jhtml?tplReset=qikan,custom_toc,custom_toc_journals,写回,custom_toc_journals,14,促进生物医学技术临床研究与转化管理专家共识,生产 parser live 复核通过
+184,无损检测,ok,15,https://wsjc.mat-test.com/cn/article/current,rhzh,rhzh_journals,写回,rhzh_journals,15,核电厂主泵外置热交换器内壁超声扫查工艺及试验验证,生产 parser live 复核通过
+185,自动化与仪器仪表,pdf_only,0,http://www.zdhyyqyb.cn/article/106,custom_toc,custom_toc_journals,待定,,,,仅 2016 年版 PDF，站点停更
+186,中华医学美学美容杂志,ok,19,https://zhyxmxmrzz.yiigle.com/CN114657202605/index.jhtml?tplReset=qikan,custom_toc,custom_toc_journals,写回,custom_toc_journals,19,中面部年轻化术式的演变与发展,生产 parser live 复核通过
+187,中国斜视与小儿眼科杂志,ok,15,http://zgxs.chinajournal.net.cn/wkd/WebPublication/index.aspx?mid=zgxs,cnki,cnki_cbpt,写回,cnki_cbpt,15,基于高空间频率滤波技术干预屈光参差性弱视患儿的临床观察,生产 parser live 复核通过
+188,中国中西医结合耳鼻咽喉科杂志,ok,14,https://xyjh.cbpt.cnki.net/portal,cnki,cnki_cbpt,写回,cnki_cbpt,15,针对文献中出现的耳鸣相关命名合理性与否的解析,生产 parser live 复核通过
+189,中华心律失常学杂志,ok,15,https://zhxlscxzz.yiigle.com/CN113859202605/index.htm?tplReset=qikan,custom_toc,custom_toc_journals,写回,custom_toc_journals,15,生理性起搏：从循证突破到临床挑战,生产 parser live 复核通过
+190,哈尔滨医科大学学报,ok,24,http://hydx.chinajournal.net.cn/wke2/WebPublication/index.aspx?mid=hydx,cnki,cnki_cbpt,写回,cnki_cbpt,24,卵巢衰老的空间代谢组学研究,生产 parser live 复核通过
+191,真空与低温,warn,14,https://vaccryjour.spacejournal.cn/,rhzh,rhzh_journals,写回,rhzh_journals,14,我国空间环境探测技术发展及展望,生产 parser live 复核通过
+192,影像诊断与介入放射学,ok,13,https://yxzd.cbpt.cnki.net/portal,cnki,cnki_cbpt,写回,cnki_cbpt,13,融合肾供肾移植后肾动脉狭窄,生产 parser live 复核通过
+193,生物技术,warn,16,https://swjs.cbpt.cnki.net/WKD/WebPublication/index.aspx?mid=swjs,cnki,cnki_cbpt,写回,cnki_cbpt,16,ASH2L蛋白生物信息学分析及GST-ASH2L融合蛋白的表达纯化 Bioinformatics analysis of ASH2L protein and expression purification of GST-ASH2L fusion protein,生产 parser live 复核通过
+194,中国小儿血液与肿瘤杂志,warn,15,https://zgxy.chinajournal.net.cn/WKI/WebPublication/index.aspx?mid=ZGXY,cnki,cnki_cbpt,写回,cnki_cbpt,15,儿童复发/难治性横纹肌肉瘤的治疗进展,生产 parser live 复核通过
+195,中华眼科医学杂志(电子版),fail,0,http://cjom.cma-cmc.com.cn,unknown,unknown,不可写回,,,,连接超时/端口不可达
+196,云南农业大学学报,ok,19,https://xb.ynau.edu.cn/jwk_zk/article/current,rhzh,rhzh_journals,写回,rhzh_journals,19,夏季草莓炭疽病病原菌鉴定、生物学特性与拮抗细菌筛选,生产 parser live 复核通过

@@ -1,0 +1,32 @@
+﻿journal_name,recheck_status,items,latest_issue,has_article_links,has_abstract,current_url,changed_since_last,disposition,live_package,live_items,reason
+建筑学报,warn,18,2026年第9期（No.692，2026-09）,no,no,http://www.aj.org.cn/periodicaldetail-54483.aspx,no,待定,,,入口200（19KB，自建 ASP.NET：MagazineList/periodicaldetail/download.aspx）；当期页标题《建筑学报》No.692期，页脚 2026 | 09 |
+当代世界社会主义问题,ok,11,2026年第5期（发布2026-11-07）,no,yes,https://krics.sdu.edu.cn/info/1088/2930.htm,yes,待定,,,入口（第4期页，2026-08-29）仍200；同站『期刊动态』/qkdt.htm（200）顶部已列 2026年第5期（11-07），比上次记录的第4期新一期 → changed=yes（上次只取入口
+出土文献,ok,21,2026年第3期（总第27期，2026-09-15）,no,no,https://www.ctwx.tsinghua.edu.cn/info/1093/3531.htm,no,待定,,,期页仍《出土文献》2026年第3期（总第27期，发布2026-09-15），季刊第4期未出；VSB 站群（vsb_content 23处）。目次纯文本『作者：篇名』21条（正文18 | 海外汉学1 |
+芙蓉,warn,10,2026年第6期（2026-11-13）,partial,no,https://www.chinawriter.com.cn/n1/2026/1113/c418986-40833482.html,no,待定,,,目录页仍《芙蓉》2026年第6期（2026-11-13 15:02），纯文本栏目清单10条（长篇小说1 | 中篇小说3 | 短篇小说3 | 散文2 | 诗歌 芙蓉诗粹1组），无单篇链接、无摘要。同站栏
+中医学报,ok,39,2026年第41卷第10期（2026-10-12）,no,no,https://zyxb.hactcm.edu.cn/info/1010/1896.htm,no,待定,,,期页仍2026年第41卷第10期（2026-10-12 10:33），纯文本点线目次39条（『标题.......作者 页码』，标题常跨行需合并；栏目：本刊特稿/专题研究/创新思维与技术前沿/论著/述评
+艺术工作,warn,22,2025年第6期（发布2026-03-10）,no,no,https://www.lumei.edu.cn/ysgzbjb/info/1081/1327.htm,no,待定,,,仍为『2025年第6期 期刊目录』（发布2026-03-10），纯文本22条（栏目+标题+作者;起止页，专稿2 | 理论探索1 | 创作与评论5 | 艺术史研究3 | 文献整理2 | 设计平台4 |
+领导科学,warn,19,2026年第5期（2026-09-30）,partial,no,http://ldkx.hnskl.org/zhuanti/ldkx/mqml/20260930/24232.html,yes,待定,,,入口第3期页（2026-06-05）仍200；『每期目录』列表 /zhuanti/ldkx/mqml/（200）已列 2026年第4期（07-21）、第5期（09-30），比上次记录的第3期新两期 →
+时珍国医国药,warn,0,,no,unknown,https://www.shizhenchina.com/,no,待定,,,首页仍为 Founder Vue SPA 空壳（6244B，app.1795500891740.js） | /app-config.js 302 到 publish.founderss.cn 通用配置
+煤炭转化,warn,0,,no,unknown,https://ebcc.tyut.edu.cn/,no,待定,,,首页仍为同一 Founder SPA 空壳（6244B，app.1795500891740.js），首包 15.6s | /rc-pub/front/site/findBySld?sld=ebcc 返
+大数据,ok,15,2026年第12卷第6期,yes,yes,https://www.j-bigdataresearch.com.cn/zh/issue/2026/6/,yes,写回,custom_toc_journals,15,复测恢复，生产 parser live 复核通过
+武汉大学学报(医学版),warn,0,,no,unknown,https://xbyx.whu.edu.cn/,no,待定,,,首页仍为 Founder Vue SPA 空壳（6244B） | findBySld?sld=xbyx 返回 data:null，sld=www 返回 nginx 500 | /zh/issue/20
+中华心血管病杂志(网络版),ok,62,2026年第9卷第9期（页面标注2026年01月）,yes,yes,http://www.cvjc.org.cn/,yes,待定,,,非 SPA，PHP CMS（index.php） | 首页“最新期刊”已按栏目列出 2026年01月 第9卷 第9期，62 个唯一 columncon/article_id 链接 | 文章页含中英文摘
+光通信研究,ok,4,2026年第5期,yes,yes,https://www.gtxyj.com.cn/zh/issue/2026/5/,yes,待定,,,指定 /zh/issue/2026/5/ 仍为 167KB 空目录（0 篇） | 但首页为 Founder Nuxt SSR（1.0MB），显示 2026年第5期、4 篇 2026 文章及摘要 | /
+中国畜牧杂志,warn,59,2026年第62卷第10期（文章更新至2026-10-27）,yes,link_only,https://www.zgxmzz.cn/online/thesis,no,待定,,,入口200/243KB/0.6s；苏迪(Nuxt)定制门户，服务端渲染出『2026年 第62卷 第10期』，10个栏目共59篇（唯一 /paper/{id} 59个，[摘要]与题名同址）；『上一期/下
+有色金属(冶炼部分),warn,29,2025年第6期,yes,yes,http://ysyl.bgrimm.cn/ysjsylbf/ch/reader/issue_list.aspx?year_id=2025&quarter_id=6,no,待定,,,入口200/185KB/0.3s（meta声明gb2312、实际UTF-8）；年份导航2025→1954，无2026；整期29篇（file_no=YSYL…唯一29个，其中23篇有PDF），目录页内嵌
+中华医院管理杂志,warn,12,2026年第42卷第8期（2026-08-02出版）,yes,no,https://zhyyglzz.yiigle.com/CN111325202608/index.jhtml?tplReset=qikan,no,待定,,,入口200/58KB/1.4s；往期目录 /gkmc/index.htm 200/37KB 证实『2026年42卷08期』即站内当前期，2026-09/10/11均未上线（滞后约3期）；正文12篇（c
+合成生物学,warn,17,2025年第6卷第5期（2025-10-31刊出）,yes,link_only,https://synbioj.cip.com.cn/CN/2096-8280/current.shtml,no,待定,,,"入口200/100KB/0.9s；当期『2025, 6(5)』刊出日期2025-10-31，17篇；题名/DOI链接 https://synbioj.cip.com.cn/CN/10.12211/20"
+给水排水,no_current,0,2023年（第1–8期）,no,no,http://www.wwe1964.cn/Category_524/Index.aspx,no,不可写回,,,入口200/36KB/0.2s；IIS/ASP.NET+jQuery.peex站点群；『近期杂志』正文区为空，年类目只到2023(/Category_776/)，页内『当前:2023年期次 第1–8期
+分析科学学报,warn,20,2022年第38卷第6期,no,yes,https://fxkxxb.whu.edu.cn/,no,待定,,,入口200/90KB/0.2s；首页『本期目次』共30条，其中2022 Vol.38 No.6为20条(当期)、No.5为10条(上期)；每条『查看摘要』为javascript:void(0)弹层，摘
+建筑遗产,no_current,1,2025年第1期（总第37期）,no,no,https://jianzhuyichan.tongji.edu.cn/qkll/a2025/d1q.htm,no,不可写回,,,入口200/10.7KB/0.1s；博达VSB；该期『共1条 1/1』，唯一为第1期期次卡片→导言页 https://jianzhuyichan.tongji.edu.cn/info/1555/239
+南昌大学学报(理科版),warn,12,2025年第49卷第6期（2025-12-28刊出）,yes,link_only,https://qks.ncu.edu.cn/Jwk_xblxb/CN/volumn/current.shtml,no,待定,,,入口200/76KB/0.3s；当期『2025年 49卷 6期』刊出日期2025-12-28，12篇（abstract链接12个）；链接样例 https://qks.ncu.edu.cn/Jwk_xb
+中华危重病急救医学,pdf_only,13,2026年第10期（2026-10）,no,no,http://www.cccm-em120.com/weizhongbingguokan/wei2026-10.html,no,待定,,,过刊浏览列至2026年10期（11期未出） | 13篇题目+作者+起始页，条目仅图片链接整篇PDF（38/885.pdf 等），另1份非目次PDF 38/794.pdf 与2份协议PDF不计 | 首页
+高校应用数学学报A辑,pdf_only,10,第41卷A辑第3期（2026年，No.3）,no,no,http://www.amjcu.zju.edu.cn/amjcua/2020-2029/202603/100.html,no,待定,,,索引页仍只列2026 No.1–No.3，No.4未出 | 202603/100.html 为 Word 导出静态目次（meta Generator=Microsoft Word 12），10篇篇名+
+土木工程与管理学报,pdf_only,0,2026年第5期（2026-11-06 发布）,no,no,http://juse.hust.edu.cn/info/1021/1707.htm,no,待定,,,最新目录页仍为2026年第5期；正文仅 showVsbpdfIframe(/__local/.../B4A2F.pdf) + 2张jpg预览，无HTML条目与摘要 | 首页近期目录列出2026第1–5
+自动化与仪器仪表,pdf_only,0,2016年第12期（2016-12-27 上传）,no,no,http://www.zdhyyqyb.cn/article/106,no,待定,,,当期目录仍只链『自动化2016第12期目录.pdf』(/upload/file/20161227/1482826740866033170.pdf) | 过刊目录仅2014/2016，2016-11目录
+中华医院感染学杂志,no_current,65,无当期/预出版期次；单篇首发 65 篇（DOI 2026–2027）,yes,yes,https://zhyygrxzz.xml-journal.net/,partial,不可写回,,,预出版页 200/139KB 仍为 JS 模板，当月目录容器为空；/cn/article/current 404；首页“单篇首发”服务端渲染 65 篇，链接 article/doi/10.11816/
+福州大学学报(自然科学版),ok,16,2026年第6期,yes,yes,https://xbzrb1.fzu.edu.cn/ch/reader/issue_list.aspx?year_id=2026&quarter_id=6,yes,写回,magetech_journals,16,复测恢复，生产 parser live 复核通过
+图书馆理论与实践,ok,12,2026年第5期（No.283）,yes,yes,https://lsgl.cbpt.cnki.net/portal,yes,写回,cnki_cbpt,12,复测恢复，生产 parser live 复核通过
+中国卫生信息管理杂志,ok,5,2026年第5期（v.23）,yes,yes,https://wsgl.cbpt.cnki.net/portal,yes,写回,cnki_cbpt,24,复测恢复，生产 parser live 复核通过
+食品与发酵科技,ok,24,2026年第1期（62卷）,yes,yes,http://www.sc-ffm.com/go-c95.htm,partial,待定,,,首页当期目录 24 篇；期页 2026 第一期 3 页×8；文章编号 1674-506X(2026)01；中文摘要+Abstract 可见；2026 仍仅第1期（站点滞后），首页无年期标签
+中国性科学,no_current,0,2026年第11期（目录为空）,no,no,http://www.zgxkxzzs.com/ch/reader/issue_list.aspx?year_id=2026&quarter_id=11,no,不可写回,,,issue_list 200 但目录区 0 条（2026-01 与 2026-11 均空）；index.aspx 与 first_menu.aspx 均 500 运行时错误；仍不可写回
