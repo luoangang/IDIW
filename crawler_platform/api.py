@@ -4,13 +4,16 @@ import stat
 import os
 import tempfile
 import zipfile
-from datetime import date, datetime, timedelta
+import uuid
+from datetime import date, datetime, timedelta, timezone
 from decimal import Decimal
 from functools import wraps
 from pathlib import Path
 from typing import Any
+from urllib.parse import urlsplit
 
-from flask import Flask, jsonify, request, send_file
+from flask import Flask, jsonify, request, send_file, send_from_directory
+from werkzeug.exceptions import HTTPException
 
 from crawler_platform.config import Settings
 from crawler_platform.importer import PackageImporter
@@ -20,6 +23,7 @@ from crawler_platform.categories import CATEGORIES
 from crawler_platform.journal_catalog import load_journal_catalog
 from crawler_platform.weekly_report import previous_week
 from crawler_platform.assistant import AssistantUnavailable, TaskAssistant
+from crawler_platform.process_lock import inspect_process_lock
 
 
 def json_response(value: Any, status: int = 200):
@@ -46,11 +50,37 @@ def app_jsonify(value: Any, converter):
     )
 
 
+def _origin(value):
+    try:
+        parts = urlsplit(value)
+        if (parts.scheme not in {"http", "https"} or not parts.hostname or parts.username or parts.password
+                or parts.query or parts.fragment or parts.path not in {"", "/"}):
+            return None
+        return parts.scheme, parts.hostname.lower().rstrip("."), parts.port or (443 if parts.scheme == "https" else 80)
+    except (ValueError, AttributeError):
+        return None
+
+
 def create_app(settings: Settings, store: PlatformStore) -> Flask:
     app = Flask(__name__)
     importer = PackageImporter(settings, store)
     assistant = TaskAssistant(store)
     app.extensions["task_assistant"] = assistant
+    if not settings.trusted_hosts:
+        raise ValueError("PLATFORM_TRUSTED_HOSTS must explicitly list allowed hostnames")
+    if settings.public_origin and _origin(settings.public_origin) is None:
+        raise ValueError("PLATFORM_PUBLIC_ORIGIN must be an HTTP(S) origin without a path or credentials")
+
+    @app.before_request
+    def protect_local_management():
+        target = _origin(request.host_url)
+        if target is None or target[1] not in settings.trusted_hosts:
+            return jsonify({"error": "untrusted_host", "message": "请求主机未列入 PLATFORM_TRUSTED_HOSTS"}), 400
+        if request.path.startswith("/api/") and request.method not in {"GET", "HEAD", "OPTIONS"}:
+            origin = request.headers.get("Origin")
+            expected = _origin(settings.public_origin) if settings.public_origin else target
+            if request.headers.get("Sec-Fetch-Site") == "cross-site" or (origin is not None and _origin(origin) != expected):
+                return jsonify({"error": "cross_origin_request", "message": "管理写操作只接受同源网页或授权命令行客户端"}), 403
 
     def authenticated(function):
         @wraps(function)
@@ -64,8 +94,15 @@ def create_app(settings: Settings, store: PlatformStore) -> Flask:
 
     @app.errorhandler(Exception)
     def handle_error(exc):
+        if isinstance(exc, HTTPException):
+            return jsonify({"error": exc.name, "message": exc.description}), exc.code
         status = (503 if isinstance(exc, AssistantUnavailable) else 404 if isinstance(exc, KeyError) else 409 if isinstance(exc, MonitorNameConflict)
                   else 422 if isinstance(exc, (ValueError, ProtocolError)) else 500)
+        if status == 500:
+            reference = uuid.uuid4().hex[:12]
+            app.logger.exception("Unhandled request error [%s] %s %s", reference, request.method, request.path)
+            return jsonify({"error": "internal_error", "message": "服务器暂时无法完成请求，请联系管理员并提供错误编号",
+                            "reference": reference}), 500
         return jsonify({"error": type(exc).__name__, "message": str(exc)}), status
 
     @app.get("/health/live")
@@ -76,6 +113,26 @@ def create_app(settings: Settings, store: PlatformStore) -> Flask:
     def ready():
         store.list_packages()
         return jsonify({"status": "ready"})
+
+    @app.get("/api/v1/system/status")
+    @authenticated
+    def system_status():
+        locks = settings.runtime_dir / "locks"
+        roles = [{"role": role, **inspect_process_lock(locks / f"{role}.lock")}
+                 for role in ("serve", "scheduler", "worker-default")]
+        for path in sorted(locks.glob("worker-*.lock"))[:100]:
+            if path.stem != "worker-default":
+                roles.append({"role": path.stem, **inspect_process_lock(path)})
+        database = {"state": "ready"}
+        snapshot = None
+        try:
+            snapshot = store.operational_status()
+        except Exception:
+            reference = uuid.uuid4().hex[:12]
+            app.logger.exception("System status database probe failed [%s]", reference)
+            database = {"state": "unavailable", "reference": reference}
+        return json_response({"checked_at": datetime.now(timezone.utc).replace(tzinfo=None), "timezone": "Asia/Shanghai",
+                              "database": database, "processes": roles, "collection": snapshot})
 
     @app.get("/")
     @app.get("/sources")
@@ -89,12 +146,21 @@ def create_app(settings: Settings, store: PlatformStore) -> Flask:
     @app.get("/reports")
     @app.get("/reports/<int:report_id>")
     @app.get("/assistant")
+    @app.get("/system")
     def dashboard(**route_parameters):
         return send_file(Path(__file__).with_name("dashboard.html"))
 
     @app.get("/assets/task-assistant.js")
     def assistant_script():
         return send_file(Path(__file__).with_name("task-assistant.js"))
+
+    @app.get("/assets/assistant.css")
+    def assistant_stylesheet():
+        return send_file(Path(__file__).with_name("assistant.css"))
+
+    @app.get("/assets/vendor/lucide/<path:filename>")
+    def assistant_icons(filename):
+        return send_from_directory(Path(__file__).parent / "vendor" / "lucide", filename)
 
     @app.get("/api/v1/packages")
     @authenticated

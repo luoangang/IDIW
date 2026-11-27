@@ -16,11 +16,12 @@ class RssContractTests(unittest.TestCase):
         config = validate_parameters(self.manifest.parameters_schema, {})
         self.assertEqual(4, len(config["feed_urls"]))
         self.assertFalse(self.manifest.incremental)
+        self.assertEqual("union", config["keyword_policy"])
         sample = json.loads((PACKAGE / "tests" / "items.jsonl").read_text(encoding="utf-8"))
         validate_item(self.manifest, sample)
 
     def test_invalid_feed_and_nested_groups_are_rejected(self):
-        for values in ({"feed_urls": []}, {"feed_urls": ["file:///secret"]}, {"keyword_groups": [[123]]}):
+        for values in ({"feed_urls": []}, {"feed_urls": ["file:///secret"]}, {"keyword_groups": [[123]]}, {"keyword_policy": "typo"}):
             with self.subTest(values=values), self.assertRaises(ProtocolError):
                 validate_parameters(self.manifest.parameters_schema, values)
 

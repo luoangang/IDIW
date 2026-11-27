@@ -2,6 +2,8 @@ import copy
 import io
 import json
 import unittest
+import tempfile
+from pathlib import Path
 from unittest.mock import Mock, patch
 
 from crawler_platform.api import create_app
@@ -161,6 +163,85 @@ class TaskAssistantTests(unittest.TestCase):
                          [{"role": "user", "content": "hello"}, {"role": "assistant", "content": "reply"}]):
             with self.subTest(messages=str(messages)[:100]), self.assertRaises(ValueError):
                 validate_messages(messages)
+
+    def journal_catalog(self):
+        source = self.assistant.catalog()[0]
+        source.update(package_key="chinese_journals", name="中文测试期刊包", category="academic",
+                      profile={"mode": "keyword", "languages": ["zh"]}, config={"journal_keys": ["a"]},
+                      parameters_schema={"type": "object", "additionalProperties": False, "properties": {
+                          "journal_keys": {"type": "array", "minItems": 1, "maxItems": 2,
+                                           "items": {"type": "string", "enum": ["a", "b", "c"]}},
+                      }})
+        return [source]
+
+    def test_all_journals_cannot_silently_use_defaults(self):
+        draft = plan() | {"journal_scope": "all_chinese", "packages": [
+            {"package_key": "chinese_journals", "item_limit": 100, "config": {}},
+        ]}
+        result = self.assistant.preview(draft, self.journal_catalog())
+        self.assertFalse(result["ready"])
+        self.assertNotIn("confirmation_token", result)
+        self.assertEqual(1, result["coverage"][0]["selected"])
+        self.assertEqual(3, result["coverage"][0]["total"])
+        self.assertTrue(any("1/3" in error for error in result["errors"]))
+        self.assertTrue(self.assistant.preview(draft | {"journal_scope": "selected"}, self.journal_catalog())["ready"])
+
+    def test_all_journals_checks_missing_package_and_accepts_complete_scope(self):
+        catalog = self.journal_catalog()
+        catalog[0]["parameters_schema"]["properties"]["journal_keys"]["maxItems"] = 3
+        draft = plan() | {"journal_scope": "all_chinese"}
+        result = self.assistant.preview(draft, catalog)
+        self.assertFalse(result["ready"])
+        self.assertEqual(0, result["coverage"][0]["selected"])
+        draft["packages"] = [{"package_key": "chinese_journals", "config": {"journal_keys": ["a", "b", "c"]}}]
+        self.assertTrue(self.assistant.preview(draft, catalog)["ready"])
+        self.assertFalse(self.assistant.preview(draft | {"journal_scope": "typo"}, catalog)["ready"])
+
+    def test_user_all_journal_scope_survives_model_omission_and_followup(self):
+        catalog = self.journal_catalog()
+        draft = plan() | {"packages": [{"package_key": "chinese_journals", "config": {}}]}
+        with patch.object(self.assistant, "catalog", return_value=catalog), patch(
+            "crawler_platform.assistant.generate_reply", return_value={"reply": "已配置", "draft": draft},
+        ):
+            result = self.assistant.chat([{"role": "user", "content": "监控所有已接入的中文期刊中的人工智能"}])
+        self.assertEqual("all_chinese", result["draft"]["journal_scope"])
+        self.assertFalse(result["preview"]["ready"])
+        with patch.object(self.assistant, "catalog", return_value=catalog), patch(
+            "crawler_platform.assistant.generate_reply", return_value={"reply": "已调整", "draft": {"schedule_time": "10:00", "journal_scope": "selected"}},
+        ):
+            followup = self.assistant.chat([{"role": "user", "content": "改到十点"}], result["draft"])
+        self.assertEqual("all_chinese", followup["draft"]["journal_scope"])
+        self.assertFalse(followup["preview"]["ready"])
+
+    def test_real_package_journals_file_is_authoritative_without_schema_enum(self):
+        with tempfile.TemporaryDirectory() as directory:
+            (Path(directory) / "journals.json").write_text(json.dumps([
+                {"journal_key": "a", "name": "测试期刊甲"}, {"journal_key": "b", "name": "测试期刊乙"},
+            ]), encoding="utf-8")
+            schema = {"type": "object", "properties": {"journal_keys": {
+                "type": "array", "minItems": 1, "maxItems": 1, "default": ["a"], "items": {"type": "string"},
+            }}}
+            self.store.list_packages.return_value = [{"package_key": "magetech_journals", "name": "期刊包",
+                                                      "category": "academic", "status": "ready", "active_version": "1.0.0"}]
+            self.store.package.side_effect = lambda key: {"manifest": {"parameters_schema": schema},
+                                                        "default_config": {}, "active_artifact_path": directory}
+            catalog = self.assistant.catalog()
+            self.assertEqual(["a", "b"], catalog[0]["journal_keys_available"])
+            draft = plan() | {"journal_scope": "all_chinese", "packages": [{"package_key": "magetech_journals", "config": {}}]}
+            result = self.assistant.preview(draft, catalog)
+            self.assertFalse(result["ready"])
+            self.assertEqual(2, result["coverage"][0]["total"])
+            draft["journal_scope"] = "selected"
+            draft["packages"][0]["config"] = {"journal_keys": ["invented"]}
+            self.assertFalse(self.assistant.preview(draft, catalog)["ready"])
+
+    def test_missing_catalog_cannot_confirm_all_scope(self):
+        catalog = self.journal_catalog()
+        catalog[0]["journal_keys_available"] = []
+        draft = plan() | {"journal_scope": "all_chinese", "packages": [{"package_key": "chinese_journals", "config": {}}]}
+        result = self.assistant.preview(draft, catalog)
+        self.assertFalse(result["ready"])
+        self.assertTrue(any("无法读取期刊目录" in error for error in result["errors"]))
 
 
 class DeepSeekResponseTests(unittest.TestCase):

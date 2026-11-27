@@ -1,12 +1,12 @@
 from __future__ import annotations
 
 import os
+import logging
 import socket
 import subprocess
 import sys
 import threading
 import time
-import traceback
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
@@ -96,6 +96,7 @@ class PackageExecutor:
                     str(error.get("message", "package reported failure")),
                     completed.returncode, work_dir, log_path,
                     retryable=error.get("retryable") is True,
+                    result=result,
                 )
                 return None
             if completed.returncode != 0:
@@ -237,7 +238,7 @@ class Worker:
             try:
                 worked = self.run_once()
             except Exception:
-                traceback.print_exc()
+                logging.getLogger(__name__).exception("Worker iteration failed")
                 worked = False
             if not worked:
                 time.sleep(self.settings.worker_poll_seconds)
@@ -257,5 +258,5 @@ class Scheduler:
                     self.store.enqueue_due_weekly_reports()
                     process_one(self.store)
             except Exception:
-                traceback.print_exc()
+                logging.getLogger(__name__).exception("Scheduler iteration failed")
             time.sleep(self.settings.scheduler_poll_seconds)

@@ -4,7 +4,7 @@
 
 命令行也可创建每日任务，例如 `python platform_main.py create-monitor "AI 监控" "人工智能" --packages rss_multi_feed --daily-at 09:00`。现有手动任务通过网页或 `PATCH /api/v1/monitors/{id}/schedule` 设置，JSON 内容为 `{"schedule_type":"daily","schedule_time":"09:00","enabled":true}`。
 
-后台需要同时运行三个长期进程：API、Scheduler、Worker。Windows 的 `启动平台.bat` 已启动这三个进程；仅运行 `platform_main.py serve` 只会提供网页，不会触发自动采集。
+后台需要同时运行三个长期进程：API、Scheduler、Worker。Windows 的 `启动平台.bat` 会尝试启动这三个进程；仅运行 `platform_main.py serve` 只会提供网页，不会触发自动采集。打开 `/system` 检查本机 CLI 进程与队列，不能把 API 能访问视作三个组件都正常。
 
 Linux 服务器可用 systemd 分别守护三个进程。下面的路径和用户按实际部署位置替换；三个服务均使用同一个项目目录、虚拟环境和 `.env`。MySQL 应先启动，首次部署先执行 `python platform_main.py init-db`。API 使用 WSGI 服务器，例如先在该虚拟环境安装 `gunicorn`；不要将 Flask 内置开发服务器直接暴露为生产服务。
 
@@ -28,4 +28,8 @@ Worker 和 Scheduler 各建一个同样的 service 文件，分别将 `Descripti
 
 调度器每 30 秒检查到点任务；即使同时运行两个调度器，同一个计划时刻也只会创建一条任务。停机时已到点的任务会在服务恢复后补执行一次，然后安排下一个未来时刻，不逐日补建大量历史任务。若任务还在执行，到点计划会等待其结束后入队。Worker 每 30 秒续租；Worker 中断、插件超时或插件明确报告可重试错误时，同一页最多尝试三次，依次延迟 30、60 秒；协议错误不会自动重试。失败历史保留在运行记录里。插件返回 `has_more=true` 时会在同一轮自动继续采集，最多 100 页；成功结束后游标归零，次日重新从第一页读取，数据库按来源身份去重。对于只保留短列表的 RSS，服务停机超过源站保留期时仍可能漏掉条目，平台无法从已经消失的列表中恢复它们。
 
-监控运行可从网页“运行记录”查看，或调用 `GET /api/v1/runs/{id}`。采集包进程日志在 `crawler_platform_runtime/runs/<execution_id>/process.log`。
+监控运行可从网页“运行记录”查看，或调用 `GET /api/v1/runs/{id}`。页面展示执行批次、结构化 warnings 和日志位置，最多显示前 100 项说明；旧失败记录没有自动回填 warnings。采集包进程日志在 `crawler_platform_runtime/runs/<execution_id>/process.log`。
+
+CLI 进程从 2026-11-19 起使用 OS 文件锁阻止同名角色重复启动，崩溃后操作系统自动释放，不应仅因看见 `.lock` 文件就认为服务仍运行。多个 Worker 可显式使用不同 `--instance` 名称。该锁是本机保障；不同服务器的服务管理仍依赖部署编排和数据库租约。
+
+后台服务日志在 `crawler_platform_runtime/logs/serve.log`、`scheduler.log`、`worker-default.log`，时间标记 `+08:00`，每个约 5 MB，保留四个滚动备份。Linux 的 systemd journal 和原有 Windows BAT 重定向日志仍可辅助查看。系统状态页探测的是进程存在性，不是心跳健康或全部外部网站连通性。

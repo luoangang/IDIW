@@ -3,7 +3,7 @@
   "wikipedia": {"mode": "keyword", "languages": ["zh", "en"], "notes": "按主题检索百科；language 参数决定语种。不是新闻源。"},
   "google_news_rss": {"mode": "keyword", "languages": ["zh", "en"], "notes": "按关键词检索 Google 新闻 RSS，语种和地区使用插件参数。"},
   "sina_news": {"mode": "keyword", "languages": ["zh"], "notes": "中文新闻关键词检索。"},
-  "rss_multi_feed": {"mode": "feed", "languages": ["zh", "en"], "notes": "先读取已配置的 RSS，再本地匹配主题；不是网站全库搜索。默认保留现有 feed_urls。keyword_groups 的内层为同时匹配，外层为任一组。"},
+  "rss_multi_feed": {"mode": "feed", "languages": ["zh", "en"], "notes": "先读取已配置的 RSS，再本地匹配主题；不是网站全库搜索。默认保留现有 feed_urls。keyword_groups 的内层为同时匹配，外层为任一组。若参数目录支持 keyword_policy 且用户要求 AND 组合，设置 groups_only，防止普通关键词绕过分组条件；旧包无此参数时不可编造。"},
   "magetech_journals": {"mode": "keyword", "languages": ["zh"], "notes": "中文期刊检索。未明确指定期刊时保留插件默认 journal_keys，可在草案中选择期刊。"},
   "cnki_cbpt": {"mode": "keyword", "languages": ["zh"], "notes": "已验收的中文期刊站点检索，不等同于知网数据库全库搜索。"},
   "qinyun_journals": {"mode": "keyword", "languages": ["zh"], "notes": "勤云中文期刊检索，期刊和分页范围由参数控制。"},

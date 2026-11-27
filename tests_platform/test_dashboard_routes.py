@@ -9,7 +9,7 @@ class DashboardRouteTests(unittest.TestCase):
         client = create_app(SETTINGS, object()).test_client()
         for path in ("/", "/sources", "/monitors", "/monitors/new",
                      "/monitors/5/sources", "/runs?monitor=5", "/runs/10", "/data?monitor=5",
-                     "/reports", "/reports/4", "/assistant"):
+                     "/reports", "/reports/4", "/assistant", "/system"):
             with self.subTest(path=path):
                 with client.get(path) as response:
                     self.assertEqual(200, response.status_code)

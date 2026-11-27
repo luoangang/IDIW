@@ -8,6 +8,21 @@ from crawler_platform.storage import PlatformStore
 
 
 class ScheduleTimeTests(unittest.TestCase):
+    def test_enqueue_uses_mysql57_compatible_shared_lock(self):
+        store = PlatformStore(SETTINGS)
+        connection = MagicMock()
+        cursor = connection.cursor.return_value.__enter__.return_value
+        cursor.fetchone.side_effect = [{"enabled": True, "archived_at": None}, None]
+        cursor.fetchall.return_value = []
+        store.connect = Mock(return_value=connection)
+        with self.assertRaisesRegex(ValueError, "no runnable packages"):
+            store.enqueue_monitor(12)
+        package_query = cursor.execute.call_args_list[2].args[0]
+        self.assertIn("LOCK IN SHARE MODE", package_query)
+        self.assertNotIn("FOR SHARE", package_query)
+        connection.rollback.assert_called_once()
+        connection.commit.assert_not_called()
+
     def test_daily_time_uses_beijing_and_crosses_local_midnight(self):
         before = datetime(2026, 10, 14, 0, 59, 59)  # 08:59:59 Beijing
         self.assertEqual(

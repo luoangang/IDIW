@@ -16,12 +16,13 @@ from urllib.request import Request, urlopen
 
 from crawler_platform.protocol import ProtocolError, strict_json_loads, validate_parameters
 from crawler_platform.storage import monitor_name_key
+from crawler_platform.journal_catalog import load_journal_catalog
 
 
 PROFILE_PATH = Path(__file__).resolve().parent.parent / "configs" / "assistant-source-profiles.json"
 MAX_MESSAGES = 20
 MAX_CONTEXT_CHARS = 24000
-DRAFT_FIELDS = {"name", "query", "aliases", "schedule_type", "schedule_time", "weekday", "timezone", "packages"}
+DRAFT_FIELDS = {"name", "query", "aliases", "schedule_type", "schedule_time", "weekday", "timezone", "packages", "journal_scope"}
 SENSITIVE = re.compile(r"password|secret|token|api[_-]?key|credential|proxy|authorization|cookie|session", re.I)
 
 
@@ -90,8 +91,29 @@ def _model_catalog(catalog):
             default = source["config"].get(key)
             if default is not None and not isinstance(default, (dict, list)) and not re.search(r"(^|_)urls?$", key):
                 params[key]["default"] = default
-        output.append({key: source[key] for key in ("package_key", "name", "category", "profile")} | {"parameters": params})
+        output.append({key: source[key] for key in ("package_key", "name", "category", "profile")} | {
+            "parameters": params, "journal_count": len(_journal_keys(source)),
+        })
     return output
+
+
+def _journal_keys(source):
+    field = source["parameters_schema"].get("properties", {}).get("journal_keys", {})
+    return source.get("journal_keys_available", field.get("items", {}).get("enum", []))
+
+
+def _chinese_journals(source):
+    return (source["supported"] and source["category"] == "academic"
+            and "zh" in source["profile"].get("languages", [])
+            and "journal_keys" in source["parameters_schema"].get("properties", {}))
+
+
+def _requests_all_chinese_journals(text):
+    # Preserve explicit scope independently of model compliance; never infer it from the reply.
+    if re.search(r"(?:不需要|不要|不用|不必|并非|不是).{0,6}(?:全部|所有)", text):
+        return False
+    return bool(re.search(r"(?:全部|所有)(?:的|已接入|可用|已安装|目前|这些|平台|中|所|接入|中文|期刊|文献|包|来源|\s){0,24}中文期刊", text)
+                or re.search(r"中文期刊.{0,8}(?:全部|所有)", text))
 
 
 def generate_reply(messages, catalog, draft, *, opener=urlopen):
@@ -107,11 +129,13 @@ def generate_reply(messages, catalog, draft, *, opener=urlopen):
         "普通主题不要选择专利号查询包。默认保留插件配置，config 只输出明确需要改变的参数；"
         "后续对话沿用 current_draft 中未要求修改的字段；config 是对当前草案参数的增量修改。"
         "大型期刊枚举未完整提供，不能猜 journal_keys；需要精确选刊时让用户在草案中选择。"
+        "journal_scope 为 selected 或 all_chinese；要求全部中文期刊时必须用 all_chinese。"
+        "平台会检查全部范围；超出单包选刊上限时必须说明当前不能在一个任务内覆盖，不能改成默认期刊后宣称完成。"
         "英文文献补充准确的英文检索短语；不要用泛化单词替代专门主题。相关概念不是同义词。"
         "没有指定上限时建议每个来源 100 条，不得承诺一定获取足额或完整正文。"
         "你不能读取任意网址或文件。对未提供的来源能力应如实说明。"
         "回复必须是 JSON，且只有 reply 和 draft 两个键。reply 为简明中文解释或追问；"
-        "draft 为 null 或完整/部分任务草案，字段只允许 name,query,aliases,schedule_type,schedule_time,weekday,timezone,packages。"
+        "draft 为 null 或完整/部分任务草案，字段只允许 name,query,aliases,schedule_type,schedule_time,weekday,timezone,packages,journal_scope。"
         "packages 为 [{package_key,enabled:true,item_limit:100,config:{}}]；aliases 为字符串数组；"
         "schedule_time 为 HH:MM，weekly 的 weekday 为1至7，timezone 固定 Asia/Shanghai。"
         "信息未确认的字段用 null，不要默默补齐时间。不要输出 Markdown。"
@@ -176,13 +200,23 @@ class TaskAssistant:
             profile = profiles.get(row["package_key"])
             sensitive = _sensitive_schema(schema)
             supported = profile is not None and not sensitive
-            catalog.append({
+            source = {
                 "package_key": row["package_key"], "name": row["name"], "category": row["category"],
                 "version": row["active_version"], "supported": supported,
                 "profile": profile or {"mode": "unknown", "languages": [], "notes": "能力尚未登记，请手动配置"},
                 "parameters_schema": schema if supported else {"type": "object", "properties": {}},
                 "config": validate_parameters(schema, package["default_config"]) if supported else {},
-            })
+            }
+            if supported and "journal_keys" in schema.get("properties", {}):
+                if package.get("active_artifact_path"):
+                    try:
+                        source["journal_keys_available"] = [row["journal_key"] for row in load_journal_catalog(
+                            Path(package["active_artifact_path"]), schema)]
+                    except (OSError, ValueError):
+                        source["journal_keys_available"] = []
+                else:
+                    source["journal_keys_available"] = schema["properties"]["journal_keys"].get("items", {}).get("enum", [])
+            catalog.append(source)
         return catalog
 
     def preview(self, draft, catalog=None):
@@ -191,6 +225,10 @@ class TaskAssistant:
         if not isinstance(draft, dict) or set(draft) - DRAFT_FIELDS:
             return {"ready": False, "errors": ["草案字段无效"], "warnings": [], "draft": draft}
         normalized = {key: draft.get(key) for key in DRAFT_FIELDS}
+        scope = draft.get("journal_scope") or "selected"
+        normalized["journal_scope"] = scope
+        if scope not in ("selected", "all_chinese"):
+            errors.append("期刊范围无效，请选择指定期刊或全部中文期刊")
         try:
             name_key = monitor_name_key(draft.get("name"))
             normalized["name"] = draft["name"].strip()
@@ -257,6 +295,11 @@ class TaskAssistant:
                     if not isinstance(config, dict):
                         raise ValueError("参数必须是对象")
                     config = validate_parameters(source["parameters_schema"], {**source["config"], **config})
+                    known_journals = _journal_keys(source)
+                    if known_journals and "journal_keys" in config:
+                        unknown = set(config["journal_keys"]) - set(known_journals)
+                        if unknown:
+                            raise ValueError("所选期刊不在当前目录：" + "、".join(sorted(unknown)[:5]))
                     if source["profile"]["mode"] == "identifier" and isinstance(query, str):
                         if not re.search(r"\bUS\s*\d[\d, ]{5,}", query, re.I):
                             raise ValueError("该来源仅支持美国专利号，不支持普通主题词")
@@ -280,15 +323,34 @@ class TaskAssistant:
                 errors.append(f"任务名称与 #{monitor['id']} 重复，请修改名称")
             if isinstance(query, str) and query.strip().casefold() == monitor["query_text"].strip().casefold():
                 warnings.append(f"任务 #{monitor['id']} 已使用相同关键词，可以保留不同名称分别采集")
+        coverage = []
+        settings = {row["package_key"]: row for row in normalized["packages"]}
+        for source in catalog:
+            keys = _journal_keys(source)
+            if scope == "all_chinese" and _chinese_journals(source) and not keys:
+                errors.append(f"{source['name']}：无法读取期刊目录，不能确认全部范围")
+                continue
+            if not keys or (source["package_key"] not in settings and not (scope == "all_chinese" and _chinese_journals(source))):
+                continue
+            setting = settings.get(source["package_key"])
+            selected = setting["config"].get("journal_keys", []) if setting else []
+            field = source["parameters_schema"]["properties"]["journal_keys"]
+            coverage.append({"package_key": source["package_key"], "name": source["name"],
+                             "selected": len(selected), "total": len(keys), "max_select": field.get("maxItems", len(keys))})
+            if scope == "all_chinese" and _chinese_journals(source) and set(selected) != set(keys):
+                errors.append(f"{source['name']}：要求全部中文期刊，但只选择 {len(selected)}/{len(keys)} 本；"
+                              f"单包最多 {field.get('maxItems', len(keys))} 本。请缩小范围或分别创建分批任务，不会自动退回默认期刊")
+        if scope == "all_chinese" and not any(_chinese_journals(source) for source in catalog):
+            errors.append("没有已登记且可用的中文期刊目录，无法确认全部范围")
         result = {"ready": not errors, "draft": normalized if not errors else draft,
-                  "errors": errors, "warnings": warnings, "next_run_at": next_run}
+                  "errors": errors, "warnings": warnings, "next_run_at": next_run, "coverage": coverage}
         if not errors:
             result["confirmation_token"] = self._sign(normalized, catalog)
         return result
 
     def _signature(self, draft, catalog, expires):
         selected = {row["package_key"] for row in draft["packages"]}
-        versions = sorted((row["package_key"], row["version"], row["parameters_schema"], row["profile"])
+        versions = sorted((row["package_key"], row["version"], row["parameters_schema"], row["profile"], _journal_keys(row))
                           for row in catalog if row["package_key"] in selected)
         payload = json.dumps([draft, versions, expires], sort_keys=True, ensure_ascii=False, separators=(",", ":"))
         return hmac.new(self._secret, payload.encode("utf-8"), hashlib.sha256).hexdigest()
@@ -344,6 +406,12 @@ class TaskAssistant:
                         merged.append(setting)
                     planned["packages"] = merged
                 generated["draft"] = planned
+            if isinstance(generated["draft"], dict):
+                if _requests_all_chinese_journals(messages[-1]["content"]):
+                    generated["draft"]["journal_scope"] = "all_chinese"
+                elif isinstance(draft, dict) and draft.get("journal_scope") == "all_chinese":
+                    # Scope changes require an explicit control in the reviewed draft, not a model guess.
+                    generated["draft"]["journal_scope"] = "all_chinese"
             preview = self.preview(generated["draft"], catalog) if generated["draft"] is not None else None
             return generated | {"preview": preview}
         finally:

@@ -2,13 +2,15 @@
 
 当前建设主线是一个独立的爬虫工具包平台。第三方开发者按协议提交目录，平台负责验证、为每个包建立独立结果表、创建关键词任务、定时启动独立进程、去重入库并提供查询 API。新工具包不继承平台类，也不能直接连接数据库。
 
-最新进度与待办统一见 [当前进度](docs/current-progress.md)（更新于 2026-11-09），其中区分已上线、已验收、已知缺陷和仅有视觉稿的设计。
+最新进度与待办统一见 [当前进度](docs/current-progress.md)；2026-11-19 的 UI、运行可靠性和升级保护见 [本轮优化记录](docs/platform-improvement-2026-11-19.md)。
 
 ## 大模型辅助建任务
 
 侧边栏“大模型辅助”使用 DeepSeek 将对话整理成新任务草案。填写采集主题、来源范围、北京时间执行时刻和数量要求后，可在右侧调整关键词、别名、每源上限和插件参数，再点击“检查配置”和“确认创建”。只有确认对话框中的“创建任务”会写入现有任务表；模型不能修改旧任务、运行命令或直接启动采集。
 
 服务器 `.env` 配置 `DEEPSEEK_API_KEY`，可用 `DEEPSEEK_ASSISTANT_MODEL` 指定模型（默认 `deepseek-flash`），修改后重启 API。对话内容会发送到 DeepSeek，不要填写密码或密钥。首版会话只保存在当前页面内存，刷新或新对话会清空，不增加数据库表；已创建的任务不受影响。模型不可用时，已有任务与手动配置仍可正常使用。
+
+助手页面已提供别名标签、来源添加/移除、参数侧栏和期刊覆盖统计。选择“全部中文期刊”时，平台读取包内真实目录，缺包、选刊不足或超过单包能力均不能确认；目前不会自动拆分为几百本的批量任务。
 
 插件能力目录位于 [configs/assistant-source-profiles.json](configs/assistant-source-profiles.json)，区分 `keyword`、`feed`、`identifier`、`site`。新导入但未登记能力的包不会被 AI 自动选择；登记后仍按包内 `parameters_schema` 校验。带敏感参数名的包暂不开放给助手。大期刊目录不会全部发送给模型，精确选刊可在草案的来源参数中使用期刊选择器。确认凭据有效期 15 分钟；改参数、更新插件或重启 API 后需重新检查。
 
@@ -20,12 +22,13 @@
 - 当前源码含十张固定平台表（含版本记录表），以及“每个工具包一张结果表”的自动建表机制。
 - 已实现独立环境、进程执行、持久队列、任务关联、游标和结果查询。
 - 已提供百度百科、Wikipedia、Google 新闻 RSS 等可独立导入的示例工具包。
-- 通用 RSS/Atom 多地址采集包 [`rss_multi_feed`](crawler_packages/news/rss_multi_feed/README.md) 已在本机导入并实测，支持主题叫法、关键词组和整站订阅；新部署仍需手动导入，源码本身不会自动创建监控。关键词组与主词并列 OR 的限制见当前进度。
+- 通用 RSS/Atom 多地址采集包 [`rss_multi_feed`](crawler_packages/news/rss_multi_feed/README.md) 已升级到 `1.1.0`；可用 `groups_only` 实现组内 AND、组间 OR，防止普通词绕过条件。旧任务缺省仍为宽松 `union`。新部署需手动导入，源码不会自动创建监控。
 - 期刊工作簿已按模板/供应商整理为 [分类目录](docs/journal-template-classification.md)；候选站点的 [逐站验收结果](docs/journal-audit-2026-10-23.md) 已归档。当前 CBPT 包仅保留 509 家、玛格泰克包仅保留 98 家可选期刊；[清理口径](docs/journal-catalog-pruning-2026-10-30.md) 记录了筛选依据，新部署需手动导入。
 - 勤云、仁和汇智、西安三才三个独立期刊包已完成 [630 家逐刊测试](docs/supplier-journal-audit-2026-10-26.md)，将通过筛选的 104、122、1 家纳入目录；2026-11-06 平台验收已确认这三个包与玛格泰克、CBPT 均已安装。目录数不是当日全源可用性保证。
 - DeepSeek [情报周报](docs/weekly-intelligence-reports.md) 已接入：按任务选择性启用，周一北京时间 10:00 汇总上周新增匹配，保存可追溯证据与模型输出。具身智能、军事智能体两项任务已完成真实报告验收。
 - 任务归档/恢复、活跃名称唯一约束和十页分组/输入跳页已上线。助手七场景验收为五项完整、两项部分满足，见 [验收报告](reports/assistant-evaluation-20261106-224559.md)。
-- Google 新闻 RSS 已于 2026-11-08 升级到 `1.0.3`，补齐主词与别名分别检索、合并去重及全局上限；[实网记录](reports/google-news-rss-aliases-20261108-115859.json)。助手 UI 新视觉稿、标签式别名和统一布尔检索计划尚未落地。
+- Google 新闻 RSS 已于 2026-11-08 升级到 `1.0.3`，补齐主词与别名分别检索、合并去重及全局上限；[实网记录](reports/google-news-rss-aliases-20261108-115859.json)。助手新版 UI 与标签式别名已落地；跨插件统一布尔检索计划仍待设计。
+- 新增 `/system` 系统状态页，区分 API、调度器、Worker 和数据库。CLI 角色使用 OS 进程锁防重复启动，并写入带北京时间的滚动日志；插件升级保留默认配置，准备失败恢复旧包元数据。
 
 ### 平台代理池
 
@@ -46,6 +49,16 @@
 ```
 
 执行 `启动平台.bat` 后，API 地址为 `http://127.0.0.1:8090`。详细命令见 `docs/crawler-platform-quickstart.md`。
+
+打开 `http://127.0.0.1:8090/system` 检查三个组件，不能只看网页是否打开。CLI 服务日志在 `crawler_platform_runtime/logs/`，插件进程日志在 `crawler_platform_runtime/runs/<execution_id>/process.log`。需要额外 Worker 时用 `platform_main.py worker --instance second`；同名实例不能重复运行。
+
+### 服务器访问保护
+
+默认只接受 `127.0.0.1`、`localhost`、`::1` 主机名，管理写操作拒绝跨源网页请求。命令行请求可不带 `Origin`，仍须遵守已配置的 Bearer Token 鉴权；这些检查不代替身份认证。
+
+通过反向代理部署时，在 `.env` 显式设置 `PLATFORM_TRUSTED_HOSTS=127.0.0.1,localhost,collector.example.com`，并设置 `PLATFORM_PUBLIC_ORIGIN=https://collector.example.com`（不带路径）；代理应保留正确的 Host。平台不依据任意客户端传入的 `X-Forwarded-Host` 放行请求。修改后重启 API。
+
+对外开放必须同时配置访问控制、TLS 和网络限制，不要把未认证的插件上传、模型调用或采集管理接口直接暴露到公网。仅将 `PLATFORM_HOST` 改成 `0.0.0.0` 并不足以安全部署。
 
 ## 核心目录
 

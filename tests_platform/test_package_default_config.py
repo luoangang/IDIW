@@ -25,7 +25,7 @@ class PackageDefaultConfigTests(unittest.TestCase):
         self.connection.cursor.return_value.__enter__ = Mock(return_value=self.cursor)
         self.connection.cursor.return_value.__exit__ = Mock(return_value=False)
         self.cursor.fetchone.return_value = {
-            "name": "Example", "manifest_json": json_dump({"parameters_schema": SCHEMA}),
+            "name": "Example", "manifest_json": json_dump({"parameters_schema": SCHEMA}), "status": "ready",
         }
         self.client = create_app(SETTINGS, self.store).test_client()
 

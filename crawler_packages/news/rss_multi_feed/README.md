@@ -1,6 +1,6 @@
 # 通用 RSS 多源采集包
 
-版本 1.0.0，Python 3.14，平台文件协议 1.0，分类 news。
+版本 1.1.0，Python 3.14，平台文件协议 1.0，分类 news。
 
 使用开源 [feedparser](https://github.com/kurtmckee/feedparser) 6.0.14 解析 RSS/Atom，平台负责调度、结果表、任务关联和幂等入库。本包不连接数据库，不使用浏览器，不抓取文章详情网页，也不调用 AI。
 
@@ -12,6 +12,7 @@
 | match_mode | keywords | keywords 按主题匹配；all 保留全部条目 |
 | extra_keywords | [] | 额外主题叫法，与 query、aliases 任意一项命中即可 |
 | keyword_groups | [] | 每组内部全部命中，各组之间为 OR；与普通关键词也为 OR |
+| keyword_policy | union | 保留原有宽松 OR；groups_only 时只允许关键词组通过，query、aliases、extra_keywords 不再单独放行 |
 | per_feed_limit | 100 | 每个订阅最多输出的匹配条数 |
 | timeout_seconds | 20 | 每个 HTTP 请求超时，秒 |
 | max_feed_bytes | 5242880 | 单个订阅最大读取字节数 |
@@ -22,6 +23,19 @@
 默认来源：IEEE Spectrum、Breaking Defense、Defense News、Naval News。来源数组在网页参数编辑器中以 JSON 输入，或者通过任务来源配置 API 设置。
 
 匹配标题、订阅摘要以及订阅本身提供的 content；统一大小写、全半角和标点。英文使用词边界，避免 AI 匹配到其他单词中。不会自动翻译，中文关键词要通过 extra_keywords 或 aliases 添加英文叫法。没有使用排除词、相关性硬阈值或全文下载。
+
+### 组合检索
+
+如果要求“人工智能 AND 科学研究”，使用以下参数。组内全部命中、组间任意命中；`groups_only` 下普通词和别名不会绕过这个条件。空的关键词组将直接报配置错误，不能退化成采集全部。`match_mode=all` 仍明确表示不做主题匹配。
+
+```json
+{
+  "keyword_policy": "groups_only",
+  "keyword_groups": [["人工智能", "科学研究"], ["AI", "scientific research"]]
+}
+```
+
+升级不改变既有任务：缺省仍为 `union`，不会自动收窄此前两个主题的高召回配置。这只是本包的本地文本组合匹配，不等于 Google、WoS 等数据库的原生布尔检索，也不代表语义相关性保证。
 
 具身智能的任务级参数示例：
 
@@ -55,7 +69,7 @@
 
 本包声明 incremental=false，每次重新读取订阅当前内容，返回空游标，由平台幂等入库。不会将易变 RSS 列表的页码当作第二天进度，不会启用无限续采。时间窗口为左闭右开；没有日期的匹配条目仍保留并提示，以保证召回。
 
-建议每天执行，每周读取已经入库的记录汇总。RSS 是滚动窗口，不保证不漏收；高频发布且窗口很短的来源应增加采集频率或选择其他授权接口。当前平台的调度时区和崩溃恢复仍有待修复，安装本包不代表上述平台缺口已经解决。
+建议每天执行，每周读取已经入库的记录汇总。RSS 是滚动窗口，不保证不漏收；高频发布且窗口很短的来源应增加采集频率或选择其他授权接口。平台已有北京时间调度和租约恢复；仍需结合系统状态页和实际跨日运行验收，不能仅凭安装成功认定连续监控可靠。
 
 ## 导入和本地运行
 
@@ -65,7 +79,7 @@
 .\.venv\Scripts\python.exe -X utf8 platform_main.py import crawler_packages\news\rss_multi_feed
 ```
 
-也可以将生成的 `packages_ready_to_import/news/rss_multi_feed-1.0.0.zip` 上传到平台来源页面。导入后平台自动建立该包独立结果表，不修改其他包的结果表。
+也可以将生成的 `packages_ready_to_import/news/rss_multi_feed-1.1.0.zip` 上传到平台来源页面。导入后平台自动建立该包独立结果表，不修改其他包的结果表。
 
 独立运行：在 Python 3.14 虚拟环境安装 requirements.lock，然后执行：
 

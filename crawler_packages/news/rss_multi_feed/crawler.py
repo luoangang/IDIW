@@ -79,9 +79,9 @@ def contains_term(text, term):
     return needle in text
 
 
-def matching_terms(item, terms, groups):
+def matching_terms(item, terms, groups, policy="union"):
     text = normalize(" ".join(str(item.get(key) or "") for key in ("title", "summary", "content")))
-    matched = [term for term in terms if contains_term(text, term)]
+    matched = [term for term in terms if contains_term(text, term)] if policy == "union" else []
     matched.extend(" + ".join(group) for group in groups if all(contains_term(text, term) for term in group))
     return matched
 
@@ -171,6 +171,16 @@ def collect(request_data, fetcher=None):
     terms = list(dict.fromkeys([request_data.get("query", ""), *request_data.get("aliases", []), *parameters["extra_keywords"]]))
     terms = [term for term in terms if isinstance(term, str) and normalize(term)]
     groups = parameters["keyword_groups"]
+    policy = parameters["keyword_policy"]
+    if policy not in {"union", "groups_only"}:
+        raise CrawlerError("CONFIG_INVALID", "invalid keyword_policy")
+    if (not isinstance(groups, list) or len(groups) > 30
+            or any(not isinstance(group, list) or not 1 <= len(group) <= 10
+                   or any(not isinstance(term, str) or not 1 <= len(term.strip()) <= 200 or not normalize(term)
+                          for term in group) for group in groups)):
+        raise CrawlerError("CONFIG_INVALID", "keyword_groups must contain non-empty groups of search phrases")
+    if mode == "keywords" and policy == "groups_only" and not groups:
+        raise CrawlerError("CONFIG_INVALID", "groups_only requires at least one keyword group")
     if mode == "keywords" and not terms and not groups:
         raise CrawlerError("CONFIG_INVALID", "keywords mode requires a query, alias or keyword group")
     limit = request_data.get("limit")
@@ -217,7 +227,7 @@ def collect(request_data, fetcher=None):
             dated = parse_boundary(item["published_at"] or item["updated_at"])
             if dated is not None and ((start is not None and dated < start) or (end is not None and dated >= end)):
                 continue
-            if mode == "keywords" and not matching_terms(item, terms, groups):
+            if mode == "keywords" and not matching_terms(item, terms, groups, policy):
                 continue
             if dated is None and (start is not None or end is not None):
                 unknown_dates += 1

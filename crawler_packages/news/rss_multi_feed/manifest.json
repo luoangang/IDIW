@@ -1,7 +1,7 @@
 {
   "protocol_version": "1.0",
   "package_key": "rss_multi_feed",
-  "package_version": "1.0.0",
+  "package_version": "1.1.0",
   "name": "通用 RSS 多源采集",
   "description": "读取多个 RSS/Atom 地址，按主题宽松匹配或采集全部订阅条目",
   "category": "news",
@@ -41,6 +41,11 @@
           "items": {"type": "string", "minLength": 1, "maxLength": 200}
         },
         "default": []
+      },
+      "keyword_policy": {
+        "type": "string", "title": "关键词组合规则",
+        "enum": ["union", "groups_only"], "default": "union",
+        "description": "union：普通关键词与关键词组任一命中；groups_only：仅按关键词组匹配，组内 AND、组间 OR，普通关键词不单独放行。"
       },
       "per_feed_limit": {"type": "integer", "minimum": 1, "maximum": 1000, "default": 100},
       "timeout_seconds": {"type": "integer", "minimum": 1, "maximum": 60, "default": 20},

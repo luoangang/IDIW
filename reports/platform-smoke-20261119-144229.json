@@ -1,0 +1,46 @@
+{
+  "checked_at_beijing": "20261119-144229",
+  "status": "superseded",
+  "note": "本次发现真实目录覆盖统计缺失，随后修复并增加非空断言。以稍后的 platform-smoke 报告为准。",
+  "checks": [
+    "/health/live",
+    "/health/ready",
+    "/assistant",
+    "/system",
+    "/sources",
+    "/monitors",
+    "/runs",
+    "/data",
+    "/reports",
+    "/assets/task-assistant.js",
+    "/assets/assistant.css",
+    "/assets/vendor/lucide/icons.js",
+    "/assets/vendor/lucide/createElement.js",
+    "/assets/vendor/lucide/defaultAttributes.js",
+    "/assets/vendor/lucide/icons/bot.js"
+  ],
+  "processes": [
+    {
+      "role": "serve",
+      "state": "running"
+    },
+    {
+      "role": "scheduler",
+      "state": "stopped"
+    },
+    {
+      "role": "worker-default",
+      "state": "running"
+    }
+  ],
+  "collection": {
+    "queued": 1,
+    "running": 0,
+    "overdue_monitors": 2
+  },
+  "valid_draft_preview": true,
+  "all_journal_scope_ready": false,
+  "coverage": [],
+  "created_monitors": 0,
+  "model_calls": 0
+}

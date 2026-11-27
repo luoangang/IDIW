@@ -87,6 +87,36 @@ class RssCrawlerTests(unittest.TestCase):
         data["query"] = "no-match"
         self.assertEqual(2, len(crawler.collect(data, rss_fetcher)[0]))
 
+    def test_groups_only_cannot_be_bypassed_by_query_or_alias(self):
+        data = request(keyword_policy="groups_only", keyword_groups=[["autonomous", "defense"]], extra_keywords=["humanoid"])
+        data["aliases"] = ["embodied AI"]
+        items, _ = crawler.collect(data, rss_fetcher)
+        self.assertEqual(["Military autonomous agents"], [item["title"] for item in items])
+
+    def test_union_default_retains_existing_broad_matching(self):
+        data = request(keyword_groups=[["autonomous", "defense"]])
+        items, _ = crawler.collect(data, rss_fetcher)
+        self.assertEqual(2, len(items))
+
+    def test_groups_only_keeps_or_between_groups_and_and_within_each_group(self):
+        data = request(keyword_policy="groups_only", keyword_groups=[["robot", "AI"], ["autonomous", "defense"]])
+        self.assertEqual(2, len(crawler.collect(data, rss_fetcher)[0]))
+        data["parameters"]["keyword_groups"] = [["robot", "defense"], ["AI", "autonomous"]]
+        self.assertEqual([], crawler.collect(data, rss_fetcher)[0])
+
+    def test_empty_or_malformed_groups_fail_closed(self):
+        for groups in ([], [[]], [[""]], [[" "]], [["!!!"]], [[123]], ["robot"], "robot"):
+            with self.subTest(groups=groups), self.assertRaises(crawler.CrawlerError):
+                crawler.collect(request(keyword_policy="groups_only", keyword_groups=groups), rss_fetcher)
+
+    def test_all_mode_explicitly_bypasses_group_matching(self):
+        data = request(match_mode="all", keyword_policy="groups_only")
+        self.assertEqual(2, len(crawler.collect(data, rss_fetcher)[0]))
+
+    def test_invalid_policy_is_rejected(self):
+        with self.assertRaises(crawler.CrawlerError):
+            crawler.collect(request(keyword_policy="typo"), rss_fetcher)
+
     def test_no_match_is_success_not_failure(self):
         data = request()
         data["query"] = "no-match"

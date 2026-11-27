@@ -1,6 +1,10 @@
 from __future__ import annotations
 
 import argparse
+import logging
+import re
+import time
+from logging.handlers import RotatingFileHandler
 from pathlib import Path
 
 from crawler_platform.api import create_app
@@ -9,6 +13,7 @@ from crawler_platform.executor import Scheduler, Worker
 from crawler_platform.importer import PackageImporter
 from crawler_platform.storage import PlatformStore
 from crawler_platform.categories import discover_packages
+from crawler_platform.process_lock import AlreadyRunning, ProcessLock
 
 
 def main() -> None:
@@ -29,6 +34,7 @@ def main() -> None:
     enqueue.add_argument("monitor_id", type=int)
     worker = sub.add_parser("worker", help="运行 Worker")
     worker.add_argument("--once", action="store_true")
+    worker.add_argument("--instance", default="default", help="Worker 实例名；同名实例不能重复启动")
     sub.add_parser("scheduler", help="运行定时调度器")
     sub.add_parser("serve", help="启动管理 API")
     list_parser = sub.add_parser("list", help="查看包、任务或运行")
@@ -63,11 +69,13 @@ def main() -> None:
         if args.once:
             print({"processed": instance.run_once()})
         else:
-            instance.run_forever()
+            if not re.fullmatch(r"[A-Za-z0-9_-]{1,40}", args.instance):
+                parser.error("worker instance must contain 1-40 letters, digits, underscores or hyphens")
+            run_service(f"worker-{args.instance}", instance.run_forever)
     elif args.command == "scheduler":
-        Scheduler(SETTINGS, store).run_forever()
+        run_service("scheduler", Scheduler(SETTINGS, store).run_forever)
     elif args.command == "serve":
-        create_app(SETTINGS, store).run(host=SETTINGS.host, port=SETTINGS.port, threaded=True)
+        run_service("serve", lambda: create_app(SETTINGS, store).run(host=SETTINGS.host, port=SETTINGS.port, threaded=True))
     elif args.command == "list":
         if args.kind == "packages":
             print(store.list_packages())
@@ -77,6 +85,35 @@ def main() -> None:
             parser.error("list run requires id")
         else:
             print(store.run(args.id))
+
+
+def run_service(role, target):
+    try:
+        with ProcessLock(SETTINGS.runtime_dir / "locks" / f"{role}.lock"):
+            log_dir = SETTINGS.runtime_dir / "logs"
+            log_dir.mkdir(parents=True, exist_ok=True)
+            handler = RotatingFileHandler(log_dir / f"{role}.log", maxBytes=5_000_000,
+                                          backupCount=4, encoding="utf-8")
+            formatter = logging.Formatter("%(asctime)s+08:00 %(levelname)s %(name)s %(message)s", "%Y-%m-%dT%H:%M:%S")
+            formatter.converter = lambda timestamp: time.gmtime(timestamp + 8 * 3600)
+            handler.setFormatter(formatter)
+            logger = logging.getLogger()
+            previous_level = logger.level
+            logger.setLevel(min(previous_level, logging.INFO))
+            logger.addHandler(handler)
+            try:
+                logging.getLogger(__name__).info("Starting service %s", role)
+                target()
+            except Exception:
+                logging.getLogger(__name__).exception("Service %s stopped unexpectedly", role)
+                raise
+            finally:
+                logging.getLogger(__name__).info("Service %s stopped", role)
+                logger.removeHandler(handler)
+                handler.close()
+                logger.setLevel(previous_level)
+    except AlreadyRunning as exc:
+        raise SystemExit(str(exc)) from None
 
 
 if __name__ == "__main__":

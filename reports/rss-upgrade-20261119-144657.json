@@ -1,0 +1,24 @@
+{
+  "checked_at_beijing": "20261119-144657",
+  "status": "passed",
+  "old_version": "1.0.0",
+  "new_version": "1.1.0",
+  "table": "pkg_data_000007",
+  "table_preserved": true,
+  "defaults_preserved": true,
+  "monitor_settings_preserved": true,
+  "monitor_settings_count": 9,
+  "feed_count": 31,
+  "keyword_policy": "union",
+  "environment_healthy": true,
+  "settings_digest": "43c3e68eb9bc3cd420277364b00cd503d6a1e51e04726b60755bb62ef8714a25",
+  "created_monitors": 0,
+  "result": {
+    "id": 7,
+    "package_key": "rss_multi_feed",
+    "version": "1.1.0",
+    "table_name": "pkg_data_000007",
+    "status": "ready",
+    "idempotent": false
+  }
+}

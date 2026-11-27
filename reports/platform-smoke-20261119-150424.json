@@ -1,0 +1,81 @@
+{
+  "checked_at_beijing": "20261119-150424",
+  "status": "passed",
+  "checks": [
+    "/health/live",
+    "/health/ready",
+    "/assistant",
+    "/system",
+    "/sources",
+    "/monitors",
+    "/runs",
+    "/data",
+    "/reports",
+    "/assets/task-assistant.js",
+    "/assets/assistant.css",
+    "/assets/vendor/lucide/icons.js",
+    "/assets/vendor/lucide/createElement.js",
+    "/assets/vendor/lucide/defaultAttributes.js",
+    "/assets/vendor/lucide/icons/bot.js"
+  ],
+  "processes": [
+    {
+      "role": "serve",
+      "state": "running"
+    },
+    {
+      "role": "scheduler",
+      "state": "running"
+    },
+    {
+      "role": "worker-default",
+      "state": "running"
+    }
+  ],
+  "collection": {
+    "queued": 0,
+    "running": 0,
+    "overdue_monitors": 3
+  },
+  "valid_draft_preview": true,
+  "all_journal_scope_ready": false,
+  "coverage": [
+    {
+      "package_key": "magetech_journals",
+      "name": "玛格泰克中文期刊检索包",
+      "selected": 3,
+      "total": 98,
+      "max_select": 30
+    },
+    {
+      "package_key": "cnki_cbpt",
+      "name": "知网期刊门户（CBPT 模板）",
+      "selected": 3,
+      "total": 509,
+      "max_select": 30
+    },
+    {
+      "package_key": "qinyun_journals",
+      "name": "勤云中文期刊检索包",
+      "selected": 1,
+      "total": 104,
+      "max_select": 30
+    },
+    {
+      "package_key": "rhzh_journals",
+      "name": "仁和汇智中文期刊检索包",
+      "selected": 1,
+      "total": 122,
+      "max_select": 30
+    },
+    {
+      "package_key": "sancai_journals",
+      "name": "西安三才中文期刊检索包",
+      "selected": 1,
+      "total": 1,
+      "max_select": 3
+    }
+  ],
+  "created_monitors": 0,
+  "model_calls": 0
+}

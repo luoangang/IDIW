@@ -76,6 +76,26 @@ class PlatformStore:
             kwargs["database"] = self.settings.mysql_database
         return pymysql.connect(**kwargs)
 
+    def operational_status(self):
+        connection = self.connect()
+        try:
+            with connection.cursor() as cursor:
+                cursor.execute("SELECT status,COUNT(*) AS total FROM package_runs "
+                               "WHERE status IN ('queued','running') GROUP BY status")
+                queue = {row["status"]: row["total"] for row in cursor.fetchall()}
+                cursor.execute("SELECT COUNT(*) AS total FROM monitors m "
+                               "WHERE enabled=1 AND archived_at IS NULL AND schedule_type<>'manual' "
+                               "AND next_run_at<=NOW(6) AND NOT EXISTS "
+                               "(SELECT 1 FROM monitor_runs r WHERE r.monitor_id=m.id AND r.status IN ('queued','running'))")
+                overdue = cursor.fetchone()["total"]
+                cursor.execute("SELECT r.id,r.monitor_id,m.name,r.status,r.started_at,r.finished_at "
+                               "FROM monitor_runs r JOIN monitors m ON m.id=r.monitor_id "
+                               "WHERE r.status IN ('failed','partial') ORDER BY r.id DESC LIMIT 5")
+                return {"queued": queue.get("queued", 0), "running": queue.get("running", 0),
+                        "overdue_monitors": overdue, "recent_issues": cursor.fetchall()}
+        finally:
+            connection.close()
+
     def initialize(self) -> None:
         if not SAFE_DATABASE.fullmatch(self.settings.mysql_database):
             raise ValueError("unsafe platform database name")
@@ -332,6 +352,26 @@ class PlatformStore:
                         raise ProtocolError("same package version has a different artifact digest")
                 state = {"stage": "registered", "candidate_version": manifest.package_version}
                 if existing:
+                    if existing["status"] == "installing":
+                        raise ProtocolError("package installation is already in progress")
+                    cursor.execute("SELECT id FROM package_runs WHERE package_id=%s "
+                                   "AND status IN ('queued','running') LIMIT 1", (existing["id"],))
+                    if cursor.fetchone():
+                        raise ValueError("package has queued or running tasks; retry after completion")
+                    defaults = validate_parameters(manifest.parameters_schema,
+                                                   json_load(existing["default_config_json"], {}))
+                    cursor.execute("SELECT monitor_id,config_json FROM monitor_packages WHERE package_id=%s",
+                                   (existing["id"],))
+                    for setting in cursor.fetchall():
+                        try:
+                            validate_parameters(manifest.parameters_schema,
+                                                {**defaults, **json_load(setting["config_json"], {})})
+                        except ProtocolError as exc:
+                            raise ProtocolError(f"monitor #{setting['monitor_id']} config is incompatible with this upgrade: {exc}") from exc
+                    if existing.get("active_version") and existing["status"] == "ready":
+                        state["previous"] = {key: existing[key] for key in (
+                            "name", "description", "category", "protocol_version", "manifest_json", "default_config_json",
+                        )}
                     cursor.execute(
                         """UPDATE crawler_packages SET name=%s,description=%s,category=%s,
                         protocol_version=%s,manifest_json=%s,default_config_json=%s,
@@ -449,11 +489,30 @@ class PlatformStore:
         connection = self.connect()
         try:
             with connection.cursor() as cursor:
-                cursor.execute(
-                    """UPDATE crawler_packages SET status='install_failed',install_state_json=%s
-                    WHERE package_key=%s""",
-                    (json_dump({"stage": "failed", "error": message[:2000]}), package_key),
-                )
+                cursor.execute("SELECT install_state_json,active_version,status FROM crawler_packages "
+                               "WHERE package_key=%s FOR UPDATE", (package_key,))
+                row = cursor.fetchone()
+                if row and row.get("status", "installing") != "installing":
+                    connection.rollback()
+                    return
+                previous = json_load(row["install_state_json"], {}).get("previous") if row else None
+                if isinstance(previous, dict):
+                    cursor.execute(
+                        """UPDATE crawler_packages SET name=%s,description=%s,category=%s,protocol_version=%s,
+                        manifest_json=%s,default_config_json=%s,status='ready',install_state_json=%s,updated_at=NOW(6)
+                        WHERE package_key=%s""",
+                        (previous["name"], previous["description"], previous["category"], previous["protocol_version"],
+                         json_dump(previous["manifest_json"]) if isinstance(previous["manifest_json"], dict) else previous["manifest_json"],
+                         json_dump(previous["default_config_json"]) if isinstance(previous["default_config_json"], dict) else previous["default_config_json"],
+                         json_dump({"stage": "upgrade_failed", "active_version": row["active_version"], "error": message[:2000]}),
+                         package_key),
+                    )
+                else:
+                    cursor.execute(
+                        """UPDATE crawler_packages SET status='install_failed',install_state_json=%s
+                        WHERE package_key=%s""",
+                        (json_dump({"stage": "failed", "error": message[:2000]}), package_key),
+                    )
             connection.commit()
         finally:
             connection.close()
@@ -516,12 +575,14 @@ class PlatformStore:
         try:
             with connection.cursor() as cursor:
                 cursor.execute(
-                    "SELECT name,manifest_json FROM crawler_packages WHERE package_key=%s FOR UPDATE",
+                    "SELECT name,manifest_json,status FROM crawler_packages WHERE package_key=%s FOR UPDATE",
                     (package_key,),
                 )
                 package = cursor.fetchone()
                 if not package:
                     raise KeyError(f"package not found: {package_key}")
+                if package["status"] == "installing":
+                    raise ValueError("package installation is in progress; save defaults after it finishes")
                 schema = json_load(package["manifest_json"], {})["parameters_schema"]
                 normalized = validate_parameters(schema, config)
                 cursor.execute(
@@ -855,7 +916,7 @@ class PlatformStore:
                     """SELECT mp.*,p.package_key,p.active_version,p.output_schema_version,
                     p.artifact_digest,p.active_artifact_path,p.default_config_json,p.manifest_json
                     FROM monitor_packages mp JOIN crawler_packages p ON p.id=mp.package_id
-                    WHERE mp.monitor_id=%s AND mp.enabled=1 AND p.status='ready' ORDER BY p.id""",
+                    WHERE mp.monitor_id=%s AND mp.enabled=1 AND p.status='ready' ORDER BY p.id LOCK IN SHARE MODE""",
                     (monitor_id,),
                 )
                 packages = cursor.fetchall()
@@ -1121,15 +1182,17 @@ class PlatformStore:
 
     def fail_package_run(self, package_run_id: int, lease_token: str, status: str,
                          code: str, message: str, exit_code: int | None,
-                         work_dir: Path, log_path: Path, retryable: bool = False) -> None:
+                         work_dir: Path, log_path: Path, retryable: bool = False,
+                         result: dict[str, Any] | None = None) -> None:
         connection = self.connect()
         try:
             with connection.cursor() as cursor:
                 cursor.execute(
                     """UPDATE package_runs SET status=%s,error_code=%s,error_message=%s,
-                    exit_code=%s,work_dir=%s,log_path=%s,finished_at=NOW(6),
+                    exit_code=%s,work_dir=%s,log_path=%s,result_json=%s,finished_at=NOW(6),
                     lease_expires_at=NULL WHERE id=%s AND status='running' AND lease_token=%s""",
-                    (status, code, message[:8000], exit_code, str(work_dir), str(log_path), package_run_id, lease_token),
+                    (status, code, message[:8000], exit_code, str(work_dir), str(log_path),
+                     json_dump(result) if result is not None else None, package_run_id, lease_token),
                 )
                 if cursor.rowcount != 1:
                     connection.rollback()
@@ -1194,7 +1257,7 @@ class PlatformStore:
                         (identity_hash,),
                     )
                     existing = cursor.fetchone()
-                    now = datetime.utcnow()
+                    now = datetime.now(timezone.utc).replace(tzinfo=None)
                     if existing:
                         merged = {
                             field.name: existing.get(field.name) for field in manifest.fields
@@ -1364,6 +1427,7 @@ class PlatformStore:
                     """SELECT pr.id,pr.package_id,p.package_key,pr.attempt_no,pr.execution_id,
                     pr.status,pr.fetched,pr.inserted,pr.updated,pr.unchanged,pr.rejected,
                     pr.error_code,pr.error_message,pr.started_at,pr.finished_at,
+                    JSON_EXTRACT(pr.result_json,'$.warnings') AS warnings_json,
                     pe.id AS proxy_id,pe.name AS proxy_name
                     FROM package_runs pr JOIN crawler_packages p ON p.id=pr.package_id
                     LEFT JOIN proxy_run_assignments pa ON pa.package_run_id=pr.id
@@ -1372,6 +1436,11 @@ class PlatformStore:
                     (run_id,),
                 )
                 run["packages"] = list(cursor.fetchall())
+                for package in run["packages"]:
+                    warnings = json_load(package.pop("warnings_json", None), [])
+                    warnings = warnings if isinstance(warnings, list) else []
+                    package["warning_count"] = len(warnings)
+                    package["warnings"] = warnings[:100]
             run["request_snapshot"] = json_load(run.pop("request_snapshot_json"), {})
             return run
         finally:

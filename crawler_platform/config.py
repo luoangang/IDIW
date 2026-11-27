@@ -33,6 +33,9 @@ class Settings:
     host: str = os.getenv("PLATFORM_HOST", "127.0.0.1")
     port: int = int(os.getenv("PLATFORM_PORT", "8090"))
     token: str = os.getenv("PLATFORM_TOKEN", "")
+    trusted_hosts: tuple[str, ...] = tuple(host.strip().lower().rstrip(".") for host in
+                                          os.getenv("PLATFORM_TRUSTED_HOSTS", "127.0.0.1,localhost,::1").split(",") if host.strip())
+    public_origin: str = os.getenv("PLATFORM_PUBLIC_ORIGIN", "").strip()
     worker_poll_seconds: float = float(os.getenv("PLATFORM_WORKER_POLL_SECONDS", "2"))
     scheduler_poll_seconds: float = float(os.getenv("PLATFORM_SCHEDULER_POLL_SECONDS", "30"))
     package_timeout_seconds: int = int(os.getenv("PLATFORM_PACKAGE_TIMEOUT_SECONDS", "300"))
