@@ -1,19 +1,88 @@
 {
   "protocol_version": "1.0",
   "package_key": "rhzh_journals",
-  "package_version": "1.0.1",
+  "package_version": "1.3.7",
   "name": "仁和汇智中文期刊检索包",
-  "description": "按关键词检索已验证的仁和汇智 JSON、HTML 和 search-data 期刊",
+  "description": "按关键词检索或读取当期文章列表，支持已验证的仁和汇智 JSON、HTML 和 search-data 期刊，可补全文章摘要",
   "category": "academic",
-  "runtime": {"type": "python", "python_version": "3.14", "entrypoint": "crawler.py", "dependencies": "requirements.lock"},
-  "capabilities": {"incremental": false},
+  "runtime": {
+    "type": "python",
+    "python_version": "3.14",
+    "entrypoint": "crawler.py",
+    "dependencies": "requirements.lock"
+  },
+  "capabilities": {
+    "incremental": false
+  },
   "parameters_schema": {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "type": "object",
     "properties": {
-      "journal_keys": {"type": "array", "minItems": 1, "maxItems": 30, "uniqueItems": true, "items": {"type": "string", "minLength": 16, "maxLength": 16}, "default": ["b11e9e7fdb08aa16"]},
-      "per_journal_limit": {"type": "integer", "minimum": 1, "maximum": 500, "default": 20},
-      "timeout_seconds": {"type": "integer", "minimum": 5, "maximum": 60, "default": 20}
+      "journal_keys": {
+        "type": "array",
+        "minItems": 1,
+        "maxItems": 328,
+        "uniqueItems": true,
+        "items": {
+          "type": "string",
+          "minLength": 16,
+          "maxLength": 16
+        },
+        "default": [
+          "b11e9e7fdb08aa16",
+          "a31afa81c84f452b",
+          "310dbe6b59c1e166",
+          "93ca63312c8f76e5",
+          "af49e3bb99250fd7",
+          "6ccc47ea838ad245",
+          "0e4d29ef7952315d",
+          "952e8958b44a5441",
+          "70286bd199a747de",
+          "00796374865b63f7",
+          "3799964d7c0d3e2f",
+          "4de981cdcc1014c0",
+          "f753891e78259661",
+          "b0906a87028db664",
+          "a34e5f33c6dff333",
+          "adddd2e6d7dfebcc",
+          "7ac3266b43d8cfd1",
+          "247e58619cce134e",
+          "e1abe19aac375dcc",
+          "73ec8717f60fe46c"
+        ]
+      },
+      "collect_mode": {
+        "type": "string",
+        "enum": [
+          "keywords",
+          "latest_issue"
+        ],
+        "default": "keywords"
+      },
+      "per_journal_limit": {
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 500,
+        "default": 20
+      },
+      "enrich_abstract": {
+        "type": "boolean",
+        "default": true,
+        "description": "latest_issue 模式下为缺摘要文章抓取详情页；优先 meta[name=dc.description]，12 秒间隔并退避重试"
+      },
+      "abstract_enrich_limit": {
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 20,
+        "default": 5,
+        "description": "每刊最多抓取摘要的条数，0 表示不抓取"
+      },
+      "timeout_seconds": {
+        "type": "integer",
+        "minimum": 5,
+        "maximum": 60,
+        "default": 20
+      }
     },
     "additionalProperties": false
   },
@@ -21,19 +90,81 @@
   "output_schema_version": 1,
   "output_schema": {
     "fields": [
-      {"name": "journal_key", "type": "string", "max_length": 16, "nullable": false},
-      {"name": "journal_name", "type": "string", "max_length": 255, "nullable": false},
-      {"name": "journal_url", "type": "text", "nullable": false},
-      {"name": "external_id", "type": "string", "max_length": 128, "nullable": false},
-      {"name": "title", "type": "string", "max_length": 1000, "nullable": false},
-      {"name": "url", "type": "text", "nullable": false},
-      {"name": "authors", "type": "text", "nullable": true},
-      {"name": "abstract", "type": "text", "nullable": true},
-      {"name": "doi", "type": "string", "max_length": 255, "nullable": true},
-      {"name": "year", "type": "integer", "nullable": true}
+      {
+        "name": "journal_key",
+        "type": "string",
+        "max_length": 16,
+        "nullable": false
+      },
+      {
+        "name": "journal_name",
+        "type": "string",
+        "max_length": 255,
+        "nullable": false
+      },
+      {
+        "name": "journal_url",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "external_id",
+        "type": "string",
+        "max_length": 128,
+        "nullable": false
+      },
+      {
+        "name": "title",
+        "type": "string",
+        "max_length": 1000,
+        "nullable": false
+      },
+      {
+        "name": "url",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "authors",
+        "type": "text",
+        "nullable": true
+      },
+      {
+        "name": "abstract",
+        "type": "text",
+        "nullable": true
+      },
+      {
+        "name": "doi",
+        "type": "string",
+        "max_length": 255,
+        "nullable": true
+      },
+      {
+        "name": "year",
+        "type": "integer",
+        "nullable": true
+      }
     ],
-    "identity_fields": ["journal_key", "external_id"],
-    "indexes": [["journal_key"], ["doi"], ["year"]],
-    "mapping": {"title": "title", "url": "url", "summary": "abstract"}
+    "identity_fields": [
+      "journal_key",
+      "external_id"
+    ],
+    "indexes": [
+      [
+        "journal_key"
+      ],
+      [
+        "doi"
+      ],
+      [
+        "year"
+      ]
+    ],
+    "mapping": {
+      "title": "title",
+      "url": "url",
+      "summary": "abstract"
+    }
   }
 }

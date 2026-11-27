@@ -13,7 +13,7 @@ const output=path.join(root,'.test_tmp','assistant-ui');
 await mkdir(output,{recursive:true});
 const schema={type:'object',additionalProperties:false,properties:{pages:{type:'integer',minimum:1,maximum:10,default:2}}};
 const sources=[
-  {package_key:'google_news_rss',name:'Google 新闻 RSS',category:'news',supported:true,version:'1.0.3',profile:{mode:'keyword',languages:['zh','en'],notes:'新闻检索'},parameters_schema:schema,config:{pages:2}},
+  {package_key:'google_news_rss',name:'Google 新闻 RSS',category:'news',supported:true,version:'1.0.3',help:'近期新闻检索',meta_tag:'RSS·标题+摘要',pdf_tag:'无PDF',profile:{mode:'keyword',languages:['zh','en'],notes:'新闻检索'},parameters_schema:schema,config:{pages:2}},
   {package_key:'rss_multi_feed',name:'通用 RSS',category:'news',supported:true,version:'1.0.0',profile:{mode:'feed',languages:['zh','en'],notes:'订阅匹配'},parameters_schema:schema,config:{pages:2}},
   {package_key:'qinyun_journals',name:'勤云中文期刊检索包',category:'academic',supported:true,version:'1.0.0',profile:{mode:'keyword',languages:['zh'],notes:'中文文献'},parameters_schema:{type:'object',properties:{journal_keys:{type:'array',minItems:1,maxItems:2,items:{type:'string',enum:['a','b','c']}}}},config:{journal_keys:['a']}},
   {package_key:'not_supported',name:'未登记来源',category:'news',supported:false,profile:{mode:'unknown',languages:[]},parameters_schema:{},config:{}},
@@ -23,7 +23,7 @@ const requests=[],errors=[];
 let creates=0,chats=0,failChat=false;
 const browser=await chromium.launch({channel:process.env.PLAYWRIGHT_CHANNEL||'msedge',headless:true});
 try{
-  const page=await browser.newPage({viewport:{width:1440,height:1050},deviceScaleFactor:1});
+  const page=await browser.newPage({viewport:{width:1440,height:1050},deviceScaleFactor:1,timezoneId:'America/New_York'});
   page.on('pageerror',error=>errors.push(error.message));
   await page.route('http://platform.test/**',async route=>{
     const url=new URL(route.request().url()),pathname=url.pathname;
@@ -31,6 +31,9 @@ try{
     if(pathname==='/api/v1/system/status')return json({checked_at:'2026-11-19T06:00:00Z',database:{state:'ready'},processes:[{role:'serve',state:'running',pid:123,started_at:'2026-11-19T05:00:00Z'},{role:'scheduler',state:'stopped'},{role:'worker-default',state:'stopped'}],collection:{queued:10,running:1,overdue_monitors:2,recent_issues:[{id:70,name:'RSS 验收任务',status:'partial',started_at:'2026-11-19T01:00:00Z',finished_at:'2026-11-19T01:05:00Z'}]}});
     if(pathname==='/api/v1/runs/70')return json({id:70,monitor_id:8,status:'partial',fetched:10,inserted:4,updated:1,unchanged:5,started_at:'2026-11-19T01:00:00Z',finished_at:'2026-11-19T01:05:00Z',request_snapshot:{query:'军事智能体'},packages:[{package_key:'rss_multi_feed',status:'partial',attempt_no:2,execution_id:'00000000-0000-0000-0000-000000000007',fetched:10,inserted:4,updated:1,unchanged:5,warning_count:1,warnings:[{code:'FEED_FAILED',message:'HTTP 503 <img src=x onerror=alert(1)>',feed_url:'https://example.org/feed'}]}]});
     if(pathname==='/api/v1/assistant/catalog')return json({configured:true,model:'fixture',sources});
+    if(pathname==='/api/v1/data')return json({items:[],total:0,page:1,limit:25});
+    if(pathname==='/api/v1/packages')return json(sources.map(source=>({...source,active_version:source.version,status:'ready'})));
+    if(pathname==='/api/v1/monitors')return json([]);
     if(pathname==='/api/v1/assistant/chat'){
       chats++;
       if(failChat)return route.fulfill({status:503,contentType:'application/json',body:JSON.stringify({message:'模型暂时不可用'})});
@@ -44,7 +47,7 @@ try{
     }
     if(pathname==='/api/v1/assistant/monitors'){creates++;await new Promise(resolve=>setTimeout(resolve,150));return json({id:42})}
     if(pathname.startsWith('/api/v1/packages/')&&pathname.endsWith('/journals'))return json([{journal_key:'a',name:'测试期刊甲',tags:['基础科学']},{journal_key:'b',name:'测试期刊乙',tags:['信息智能']},{journal_key:'c',name:'测试期刊丙',tags:['基础科学']}]);
-    let filename=['/assistant','/system','/runs/70'].includes(pathname)?'dashboard.html':pathname==='/assets/task-assistant.js'?'task-assistant.js':pathname==='/assets/assistant.css'?'assistant.css':pathname.startsWith('/assets/vendor/lucide/')?`vendor/lucide/${pathname.slice('/assets/vendor/lucide/'.length)}`:null;
+    let filename=['/assistant','/system','/runs/70','/data'].includes(pathname)?'dashboard.html':pathname==='/assets/task-assistant.js'?'task-assistant.js':pathname==='/assets/assistant.css'?'assistant.css':pathname.startsWith('/assets/vendor/lucide/')?`vendor/lucide/${pathname.slice('/assets/vendor/lucide/'.length)}`:null;
     if(filename){
       const resolved=path.resolve(root,'crawler_platform',filename);
       assert.ok(resolved.startsWith(path.join(root,'crawler_platform')+path.sep));
@@ -58,6 +61,8 @@ try{
   await page.locator('#assistantInput').fill('每天九点监控人工智能在科学研究中的新闻和论文');
   await page.locator('#assistantSend').click();
   await page.waitForFunction(()=>document.querySelectorAll('.assistant-message').length===2);
+  assert.equal(await page.locator('[data-assistant-source="google_news_rss"] .package-help').getAttribute('title'),'近期新闻检索');
+  assert.equal(await page.locator('[data-assistant-source="google_news_rss"] .package-data.meta').innerText(),'RSS·标题+摘要');
   await page.waitForFunction(()=>document.querySelectorAll('[data-assistant-icon] svg').length>10);
   assert.equal(await page.locator('.assistant-tag').count(),2);
   assert.equal(await page.locator('#assistantSourceRows tr[data-assistant-source]').count(),3);
@@ -125,6 +130,15 @@ try{
   assert.ok((await page.locator('.run-warning-details').first().innerText()).includes('HTTP 503'));
   assert.equal(await page.locator('#runPackageRows img').count(),0);
   await page.screenshot({path:path.join(output,'run-diagnostics.png'),fullPage:true});
+  await page.goto('http://platform.test/data');
+  await page.waitForFunction(()=>document.querySelector('#dataCount').textContent.includes('0'));
+  assert.equal(await page.evaluate(()=>beijingDayStart(new Date('2026-11-27T02:00:00Z'))),'2026-11-26T16:00:00.000Z');
+  assert.equal(await page.evaluate(()=>beijingDayStart(new Date('2026-11-27T17:00:00Z'))),'2026-11-27T16:00:00.000Z');
+  await page.locator('#dataChange').selectOption('changed');
+  await page.locator('#dataFilters button[type="submit"]').click();
+  await page.waitForURL(url=>url.searchParams.get('change')==='changed');
+  assert.equal(new URL(page.url()).searchParams.get('since'),await page.evaluate(()=>beijingDayStart()));
+  await page.screenshot({path:path.join(output,'data-changes.png'),fullPage:true});
   assert.deepEqual(errors,[]);
-  console.log(JSON.stringify({status:'passed',viewports:[1280,1440,1920],mockCreates:creates,screenshots:output,checks:['aliases','duplicate aliases','remove/add source','parameter drawer','nested journal picker','scope blocker','review invalidation','single create','model outage','system status','run warnings and log location','escaped warning content','no overflow','no JavaScript errors']},null,2));
+  console.log(JSON.stringify({status:'passed',viewports:[1280,1440,1920],mockCreates:creates,screenshots:output,checks:['aliases','duplicate aliases','remove/add source','parameter drawer','nested journal picker','scope blocker','review invalidation','single create','model outage','system status','run warnings and log location','escaped warning content','package help and metadata badges','Beijing change filter in non-Beijing browser','no overflow','no JavaScript errors']},null,2));
 }finally{await browser.close()}

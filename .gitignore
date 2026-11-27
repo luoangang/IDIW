@@ -25,3 +25,22 @@ reports/_rendered*/
 htmlcov/
 .idea/
 .vscode/
+
+# Local research workspace (portable DB, raw probes, backups)
+.local/
+
+# Third-party source data and generated analysis/report data
+journal_catalog/source/
+journal_catalog/foreign/
+journal_catalog/out-of-2377-*
+journal_catalog/core/core-coverage-*
+journal_catalog/core/core-adapter-backlog-*
+journal_catalog/core/core-new-candidates-*
+journal_catalog/core/domestic-addable-*
+journal_catalog/core/core-source-summary-*
+journal_catalog/core/core-discipline-*
+journal_catalog/core/daily-sample-*
+journal_catalog/core/run-journals-*
+journal_catalog/core/pagination-audit-*
+journal_catalog/core/abstract-detail-audit-*
+journal_catalog/core/cnki-wanfang-*

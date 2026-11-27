@@ -1,0 +1,57 @@
+﻿journal_name,retry_status,items,latest_issue,has_article_links,has_abstract,current_url,changed_since_last,disposition,live_package,live_items,reason
+中国现代手术学杂志,ok_stale,19,2018年 22卷 4期,yes | 样例 https://www.surgerychina.com/CN/abstract/abstract327.shtml | regex /CN/abstract/abstract(\d+)\.shtml,yes | 摘要页静态 HTML 含［摘要］目的/方法/结果/结论全文，无需 JS,https://www.surgerychina.com/CN/1009-2188/current.shtml,直连恢复：上次 UNSUPPORTED_TEMPLATE → 本次 200、19 条题录+摘要可解析；但站点内容停更在 2018 年,待定,,,恢复但停更 2018
+网络与信息安全学报,blocked,0,,no,no,https://www.cjnis.com.cn/cn/issue/2026/4,未恢复：与上次一致，期次页 403、首页仅 SPA 空壳,不可写回,,,4 请求：/cn/issue/2026/4 403/548B/0.24s（https 与 http 同）；cjnis.com.cn 无 www 证书主机名不匹配 SSL 错；首页 200/6244B，<div id=ap
+世界历史,fail,0,,no,no,http://sjjls.cssn.cn/,未恢复：上次 502 实为代理假象；直连 DNS 直接 NXDOMAIN,不可写回,,,2 请求均 NameResolutionError；223.5.5.5 与本地 DNS 均返回 Non-existent domain；同域 cssn.cn 可解析(103.247.176.19)，sjls/shijie
+中国食物与营养,ok_non_official,15,2023年04期,no,no,http://zgswyyy.juqk.net/sell/itemid-278322.shtml,直连恢复：502 → 200，但站点自述“非杂志官网”，目录停在 2023,待定,,,恢复但非官网聚合页，2023 期
+公共行政学报,fail,0,,no,no,https://pa.nccu.edu.tw/PagePublication?fid=2500,未恢复：上次 HTTPS 失败属实，直连仍连不上（非代理问题）,不可写回,,,2 请求：https 19.68s 后 WinError 10061 拒绝；http 18.13s 同样拒绝；DNS 解析到 140.119.168.39，但该 IP 443 直连超时、80 拒绝；对照 nccu.edu
+包装与食品机械,ok_stale,17,2023年 41卷 4期,yes | 样例 https://qikan.cmes.org/bzyspjx/CN/10.3969/j.issn.1005-1295.2023.04.001 | regex /bzyspjx/CN/10\.3969/j\.issn\.1005-1295\.\d{4}\.\d{2}\.\d{3} | 导出 showArticleByLexeme.do?articleID=\d+,no | 题录页与文章页静态 HTML 均无摘要字段（疑似 JS/接口异步加载），仅题名/作者/页码/DOI,https://qikan.cmes.org/bzyspjx/CN/current,部分恢复：上次 504/当期无题录 → 本次 200、17 条题录可取；但期次停在 2023,待定,,,恢复但期次冻结 2023
+化工环保,ok,19,2024年03期,no,no,http://hghb.juqk.net/sell/,直连恢复：上次502→本次200；但站内最新仍为2024-03，无当期,待定,,,代理站，最新 2024-03，纯文本无链接
+北京行政学院学报,fail,0,,no,no,,未恢复且更差：上次502→本次TCP连接超时,不可写回,,,www.bac.gov.cn 解析 120.52.186.8，http:80 / https:443 直连均约21s超时（curl 28） | 裸域 bac.gov.cn 无 A/AAAA 记录（curl 6） | 3个
+医学研究与战创伤救治,maintenance,0,,no,no,http://dngfyy.paperopen.com/,"502→200 但返回""系统升级维护通知""页（维护窗口 2026-11-24～11-27）",待定,,,http 根路径被维护页整体替换，无当期/无目录 | https 根路径证书与域名不匹配（curl 60） | 加 -k 访问 https 返回 IIS 404（315B），说明站点在线、仅首页被替换 | 建议 2026
+南京审计大学学报,ok,10,2026年第23卷第6期,yes,yes,http://xbbjb.nau.edu.cn/sjxyxb/home,完全恢复：上次502→本次200，当期10篇全部可抓,写回,custom_toc_journals,10,直连重试恢复，生产 parser live 复核通过
+台大历史学报,ok,5,第77期（2026年6月出版）,yes,partial,https://homepage.ntu.edu.tw/~history/public_html/Journal/content/content77.html,证书错误消失：上次证书错误→本次 TLS 直连 200,待定,,,TOAJ 二跳，仅题录；待文本/二跳适配
+台大社会工作学刊,ok,0,第53期（2026年6月；第54期预计2026年12月待出刊）,no,no,https://ntusw.ntu.edu.tw/zh_tw/publicatoions_0/publicatoions_4,证书链问题消失：上次证书链不完整→本次直连 200,待定,,,"各期目录页仅到期级条目（第6–54期，约49条），每期1个""完整版""整期PDF链接（Google Drive file/d/<id>/view） | 无篇级标题/作者/摘要，无法产出 items | 54期标注""待出刊"""
+台湾大学美术史研究集刊,ok,239,第60期（2026年3月）,yes,partial,https://arthistory.ntu.edu.tw/pub_01.html,是（上次 SSL 证书错误 → 本次 200 直连恢复）,待定,,,多期混排+TOAJ 二跳，需期次切段
+国外文学,fail,0,未知,no,no,（无可达 URL）,是（上次 502 → 本次 DNS NXDOMAIN，环境更差）,不可写回,,,直连 DNS 失败：curl(6)，路由器与 AliDNS 223.5.5.5 均返回 NXDOMAIN；http/https/www 三态均不可达；pku.edu.cn 主域正常（162.105.131.160）。需改
+国外电子测量技术,ok,51,2024年第43卷第12期,yes,no,http://femt.cnjournals.com/femt/home,是（上次 502 → 本次 200 直连恢复）,待定,,,恢复但内容冻结 2024-12，滞后约 23 个月
+国家教育行政学院学报,partial,0,2026年第10期（总第346期）,no,no,https://www.naea.edu.cn/naea/zbqk/qkml/gjjyxzxyxb/index.html,是（上次门户/子站 502 → 本次门户 200、目录页 200；但目录正文为空）,待定,,,恢复但期页空壳/JS
+国际政治研究,fail,0,2026年第4期（上次基线）,no,no,https://www.jis.pku.edu.cn/,否（证书链不完整依旧：unable to get local issuer certificate）,不可写回,,,https 直连仍 curl(60)，缺中间证书（Missing Subject Key Identifier 同类问题）；http 301→https 同样失败；非 www jis.pku.edu.cn 为 NXDOM
+土木工程学报,fail,0,未知,no,no,https://tmcxb.cbpt.cnki.net/DispatchInfo/Error.aspx?code=2,是（上次 magtech 502 / CNKI 500 → 本次 200，但被站内跳错+验证码拦截）,不可写回,,,https 与 http 根路径均 200 但仅 129 字节 meta refresh 到 /DispatchInfo/Error.aspx?code=2；WKC/WebPublication/index.aspx?m
+大气科学学报,partial,0,无（仅简介页，无期次/目录）,no,no,https://jourtrics.hep.com.cn/journal?journalId=1019598576178507812&basicId=1,是 | 独立站 http://dqkxxb.cnjournals.org/dqkxxb 由502变为200但内容是SafeDog 403错误页；jourtrics 直连200可打开,待定,,,直连可开但只有刊名/ISSN/CN/主办/简介/编委会等元数据，无当期目录、无文章链接；独立站被安全狗拦截（403自签名错误页），按要求不绕WAF；换 xb.nuist.edu.cn 是校长办公室站，非期刊站；需HEP接
+山东社会科学,partial,0,2026年第2期（期次编号20262，2026-03-16）,no,no,https://www.skj.gov.cn/col/col160184/index.html（实际站点域名 www.sdskw.cn，同源同内容）,否 | 上次“目录空/停2026-02”，直连仍然空：列表项标题字段为空，期次页正文只有“20262”编号,待定,,,最新 2026-2，目录正文空，疑似停更
+广东药科大学学报,fail,0,无（站内无当期目录）,no,no,https://qkbjb.gdpu.edu.cn/（校主页“学术期刊”指向的编辑部站，直连200）,是 | xb.gdpu.edu.cn 权威DNS为 NXDOMAIN（https/http 均解析失败），属域名下线而非HTTPS/代理问题；改走校主页找到 qkbjb.gdpu.edu.cn,不可写回,,,https 与 http 各试1次均 NameResolutionError（阿里DNS 报 Non-existent domain）；www.gdpu.edu.cn 正常；“过刊查询”直接跳 kns.cnki.net
+心理学报,ok,14,2026年第58卷第11期（刊出日期 2026-11-25）,yes,yes,https://journal.psych.ac.cn/xlxb/CN/0439-755X/home.shtml,是 | 上次四条路径全502，本次直连完全恢复（入口200后JS跳转到 home.shtml，200/114KB）,写回,magetech_journals,14,直连重试恢复，生产 parser live 复核通过
+摩擦学学报,fail,0,未知,no,no,无可达URL（www 与裸域 DNS 均 SERVFAIL）,是 | 上次是代理502，本次为域名解析整体失败：tribology.com.cn 权威NS返回SERVFAIL（阿里223.5.5.5 与 Google 8.8.8.8 一致），与代理无关,不可写回,,,http/https、www/裸域合计3次均 NameResolutionError(11002)；www.tribology.org.cn、tribology.cas.cn 亦 NXDOMAIN；候选新家 SciEng
+政治大学哲学学报,fail,0,未知,no,no,无可达URL（DNS 正常，TCP 连接超时）,否 | 上次代理502，本次换直连后 DNS 可解析，但 443/80 均 TCP connect timeout（21s/15s），属链路不可达而非WAF,不可写回,,,https 与 http 各试1次均 ConnectTimeout；不绕网络限制、不换代理；需境外链路才能验证，暂不可写回
+数学进展,ok,17,2026年第55卷第06期,yes,yes,https://ccj.pku.edu.cn/journal/Info?jid=99894,是：代理 502 → 直连 200,写回,custom_toc_journals,16,直连重试恢复，生产 parser live 复核通过
+文化纵横,fail,0,,no,no,http://www.21bcr.com/,否：仍不可达,不可写回,,,http 80 ConnectTimeout 21.3s；https 443 同样 21.0s 超时；裸域 21bcr.com DNS 解析失败；三种直连组合全失败，排除代理因素（直连未恢复）
+文献,partial,0,,no,no,https://www.nlc.cn/web/yejiefuwu/gtqk/wenxian/index.shtml,否：仍只有介绍页,待定,,,仅介绍页，无目录
+新乡医学院学报,fail,0,,no,no,https://www.hnyydxxb.cn/,否：仍证书错误,不可写回,,,https 与 http 均 SSLCertVerificationError（unable to get local issuer certificate），http 被强制跳 443；裸域无 DNS；即使忽略校验也仅
+新疆社会科学,partial,0,,no,no,https://www.xjass.cn/,是：证书错误→系统信任库直连 200,待定,,,证书信任库问题解决，但官网无目次
+暖通空调,ok,24,2026年第4期,yes,yes,http://www.hvacjournal.cn/,是：502 → 直连 200,待定,,,恢复但最新 2026-4，站点滞后
+机械设计,ok,36,2020年第37卷第11期（刊出2020-11-20）,yes,yes,https://qikan.cmes.org/jxsj/CN/current,no,待定,,,恢复但停 2020 年
+标记免疫分析与临床,fail,0,,no,no,http://www.chinabjmy.com/,no,不可写回,,,直连未恢复，原因从502变为备案拦截：http://www.chinabjmy.com/ 403/640B，标题 Non-compliance ICP Filing，正文 JS 跳 aliyun.com/beian/be
+棉纺织技术,ok,16,2026年第54卷第11期（2026-11-10）,yes,yes,http://mfzjs.paperonce.org/api/api/Web/LastIssueList?PageSize=0&IssueId=0,yes,写回,paperonce_journals,16,直连重试恢复，生产 parser live 复核通过
+植物遗传资源学报,ok,16,2026年第27卷第11期,yes,yes,https://www.zwyczy.cn/zwyczyxb/home,yes,写回,qinyun_journals,16,直连重试恢复，生产 parser live 复核通过
+民国档案,fail,0,,no,no,http://www.shac.net.cn/,no,不可写回,,,官网200但无刊物栏目：http://www.shac.net.cn/ 200/15KB/0.12s，中国第二历史档案馆门户，全页仅26个链接（馆情/查档/民国旧影/视频/决算公告），『期刊/出版/刊物/编研』均0处，无
+流体机械,ok,15,2023年第51卷第8期（刊出2023-08-28）,yes,yes,https://qikan.cmes.org/ltjx/CN/current,no,待定,,,恢复但停 2023 年
+海军航空大学学报,ok,17,2026年第5期,yes | hjhkgcx/article/abstract/{id} | 例 202605001,yes,http://hjhyxb.ijournals.cn/hjhkgcx/article/issue/2026_5,yes: 502 -> 200 直连恢复,写回,custom_toc_journals,15,直连重试恢复，生产 parser live 复核通过
+清华中文学报,ok(partial),6,第三十五期 Issue 35（2026.6）,"partial | 无逐篇详情页 | 整期目录 /p/406-1401-310941,r3772.php",no,"https://cl.site.nthu.edu.tw/p/406-1401-310941,r3772.php?Lang=zh-tw",yes: 证书错误 -> 直连 200,待定,,,恢复但仅整期目录/PDF，无篇级链接
+现代制造工程,ok(换域后恢复),19,2026年第10期（总第553期 2026-10-18）,yes | /CN/10.16731/j.cnki.1671-3133.2026.10.001-019,yes,http://xdzzgc.bjast.ac.cn/CN/1671-3133/home.shtml,yes: 代理502/超时 -> 新域 bjast 直连 200,写回,magetech_journals,19,直连重试恢复，生产 parser live 复核通过
+电网技术,fail,0,,no,no,,no: 502 -> DNS NXDOMAIN 恶化,不可写回,,,www.dwjs.com.cn 在本地 DNS(192.168.31.1) 与 AliDNS(223.5.5.5) 均 NXDOMAIN；裸域 dwjs.com.cn 无 A/AAAA 记录；http、https、www
+石河子大学学报自然科学版,ok(curl 恢复 / python 仍 TLS fail),14,第44卷第5期（2026-10-20）,yes | /CN/10.13880/j.cnki.65-1174/n.2026.21.014-018 等,yes,https://dxxbzrkx.shzu.edu.cn/CN/1007-7383/home.shtml,partial: TLS 握手仍失败于 OpenSSL3，curl 直连 200,待定,,,curl 可读/urllib TLS 不兼容，需换 TLS 栈
+石油学报(石油加工),fail,0,,no,no,http://www.syxbsyjg.com/CN/current,no: 无效页/502 -> 仍为 1334B JS 壳,不可写回,,,http 首页与 /CN/current 均 200 但仅 1334B，body 只有 <script src=/1ywuKELSO2ahQuWZ/js/app.49692bf2.js>，含 IE 低版本提示；https
+神经解剖学杂志,fail,0,,no,no,,no,不可写回,,,直连未恢复：http://www.cjana.org、https://www.cjana.org、http://cjana.org、https://cjana.org 四次全部 NameResolutionError（g
+粮食与饲料工业,fail,0,,no,no,http://www.lsyslgy.com/_guard/html.js?js=easy_slider_html,no,不可写回,,,直连仍未恢复：http://www.lsyslgy.com/ 返回 200 但仅 59 字节 <script src=/_guard/html.js?js=easy_slider_html>，即 JS 滑块人机校验页（上
+组合机床与自动化加工技术,warn,38（基于点云的包含狭长区域的复杂曲面喷涂轨迹规划 | 采用IWOA-DFS-RRT*算法的机械臂末端路径规划 | 基于距离场改进Theta*的路径规划算法）,2026年第10期（页次1–241，共4栏目：设计与研究/控制与检测/工艺与装备/先进管理技术）,no,no,http://www.zhjcz.com.cn/index/catalog/info?id=102,yes,待定,,,恢复但纯表格目录无文章链接
+经济学（季刊）,fail,0,,no,no,,no,不可写回,,,"直连未恢复：https（及 http 301 后）均 SSLError CERTIFICATE_VERIFY_FAILED『Hostname mismatch, certificate is not valid for "
+美术学报,fail,0,,no,no,https://www.gzarts.edu.cn/index/jxjg/jfjg1/xbbjb.htm,yes,不可写回,,,页面由上次 50x 恢复为 200（27KB，UTF-8），但仍只是『学报编辑部』机构介绍页（信息来源 2017.12.14，一句话职责说明），全页无当期目次、无文章、无期刊子站链接（仅 xbbjb.htm 自链）。推测
+西北民族大学学报（藏文哲学社会科学版）,warn,0（目次为嵌入PDF/图片，HTML无条目）,2024年第4期（发布 2024-12-16，站内最新；往期页仅 2024年1–3期）,no,no,https://www.xbmu.edu.cn/qkbj/zxshkx_zwb_/wqhg.htm,yes,待定,,,直连恢复：入口 https://www.xbmu.edu.cn/qkbj/zxshkx_zwb_.htm 由上次 502 变为 200（5.6KB，UTF-8）；『本期目次』指向 info/1261/2131.htm（2
+西安电子科技大学学报自然科学版,fail,0,,no,unknown,https://journal_xdxb.xidian.edu.cn/zh/issue/2026/5/,no,不可写回,,,直连未恢复：https 的 /zh/issue/2026/5/ 与 /zh/home/ 均 SSLError CERTIFICATE_VERIFY_FAILED，http 同址 301 强制跳 https 后同样校验失败
+财务与会计,fail,0,,no,unknown,http://czzz.mof.gov.cn/qikandaodu/cwykj/,no,不可写回,,,http 与 https 均 NameResolutionError（getaddrinfo failed，0.0–0.1s，已非 502） | 公网 DNS 复核：dns.alidns.com resolve czzz
+近代史研究,warn,0,2025年第3期（发布2025-06-03）,no,no,http://jds.cass.cn/xsqk/jdsyj/bkxx/202506/t20250623_5882783.shtml,no,待定,,,最新 2025-3，正文空，停更 17 个月
+造纸科学与技术,warn,36,站内当期标签『2017年 第卷 第1期』（异常，无法确认真实最新期）,yes,yes(link_only),http://zzkxyjs.alljournal.cn/ch/index.aspx,yes,待定,,,恢复但期次异常/陈旧，无法确认真实最新期
+遥测遥控,ok,17,2026年第47卷第5期,yes,yes,https://ycyk.spacejournal.cn/,yes,写回,rhzh_journals,17,直连重试恢复，生产 parser live 复核通过
+长江流域资源与环境,warn,18,2024年第33卷第7期,yes,yes,https://www.geores.com.cn/cjzylyyhj/CN/current,no,待定,,,恢复但停 2024 年 33 卷 7 期
+高校应用数学学报.A辑,http_200_recovered,10,第41卷A辑第3期（2026年 No.3）,partial（10条仅整篇PDF链接 253-261.pdf 等，无单篇页）,no,http://www.amjcu.zju.edu.cn/amjcua/2020-2029/202603/100.html,yes：入口由 502 恢复为直连 200，目录页 10 条完整可解析,待定,,,恢复但仍仅整期 PDF
+高电压技术,fail_js_challenge,0,未知（未取到目录）,no,no,http://hve.epri.sgcc.com.cn/,partial：http 由 502 变为 200，但仅是 JS 挑战桩页；https 仍 SSL handshake failure,待定,,,trust_env=False 直连；根路径与 /CN/1003-6520/home.shtml 均返回同一 560B 空壳（仅 <script src=/ob_k8D2mP7sV4nQ9/js/index-Bzg6Qu

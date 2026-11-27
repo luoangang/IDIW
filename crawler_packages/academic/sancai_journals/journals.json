@@ -8,5 +8,62 @@
     "template_group": "西安三才",
     "url_signature": null,
     "evidence": "supplier_label_only"
+  },
+  {
+    "journal_key": "1d43330d46323f18",
+    "name": "安徽师范大学学报（社会科学版）",
+    "url": "http://journal.ahnu.edu.cn",
+    "supplier": "西安三才",
+    "template_group": "西安三才",
+    "evidence": "supplier_label_only",
+    "source_file": "vendor_45577080.json",
+    "catalog_source": "2377_catalog",
+    "official_url": "http://journal.ahnu.edu.cn",
+    "data_source": "official_site",
+    "data_source_detail": "官网当期目次",
+    "source_group": "西安三才",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "verified_at": "2026-11-21",
+    "probe_items": 12,
+    "probe_first_title": "基于去噪知识图谱的社会关系融合推荐算法",
+    "tags": [
+      "西安三才",
+      "采集:官网当期目次",
+      "目录:2377",
+      "当期核验"
+    ]
+  },
+  {
+    "journal_key": "9f879411fdb3ae21",
+    "name": "郑州大学学报(医学版)",
+    "issn": "1671-6825",
+    "cn": "41-1340/R",
+    "url": "http://jms.zzu.edu.cn",
+    "supplier": "西安三才",
+    "template_group": "西安三才",
+    "evidence": "domestic_p1_batch3_2026-11-26",
+    "source_file": ".local/domestic-p1-batch3/agent04.csv",
+    "catalog_source": "core_2026-11-26",
+    "official_url": "http://jms.zzu.edu.cn",
+    "data_source": "official_site",
+    "data_source_detail": "西安三才 LastIssueList API（P1 81–196 live 复核；含摘要）",
+    "source_group": "西安三才",
+    "status": "verified_current_issue",
+    "verification_mode": "latest_issue",
+    "verified_at": "2026-11-26",
+    "probe_items": 37,
+    "probe_first_title": "人体衰老检测技术的研究进展",
+    "core_levels": "北大核心;CAS;WJCI",
+    "categories": "医药卫生科技",
+    "tags": [
+      "西安三才",
+      "核心:北大核心/CAS",
+      "学科:医药卫生科技",
+      "采集:官网API",
+      "当期核验",
+      "目录:P1"
+    ],
+    "url_signature": "jms.zzu.edu.cn"
   }
 ]

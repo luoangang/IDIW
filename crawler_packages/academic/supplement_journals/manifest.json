@@ -1,0 +1,510 @@
+{
+  "protocol_version": "1.0",
+  "package_key": "supplement_journals",
+  "package_version": "1.1.2",
+  "name": "补充期刊包",
+  "description": "读取 OpenAlex/Crossref 公开 API 获取期刊最近文章元数据；收录核心/2377 目录中官网不可达或仅英文出版的期刊，来源明确标注非官网。",
+  "category": "academic",
+  "runtime": {
+    "type": "python",
+    "python_version": "3.14",
+    "entrypoint": "crawler.py",
+    "dependencies": "requirements.lock"
+  },
+  "capabilities": {
+    "incremental": false
+  },
+  "parameters_schema": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "type": "object",
+    "properties": {
+      "journal_keys": {
+        "type": "array",
+        "minItems": 1,
+        "maxItems": 358,
+        "uniqueItems": true,
+        "items": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 64
+        },
+        "default": [
+          "91951a14a7ce0ca5",
+          "e60fb00be47651cc",
+          "423b8321d3ff24ce",
+          "785ddd67c51d3964",
+          "892e181a3cc87253",
+          "b9b38431befa5e1a",
+          "a9aa74cfde74a938",
+          "45cc1dfb858c2e86",
+          "05ef0f8ebc6973ad",
+          "4b50498cc6058c18",
+          "d043088478393576",
+          "520ce86087d3db6e",
+          "0b6119a283a7f3e1",
+          "763419b5ee0dc80d",
+          "c5bd18a680daaa26",
+          "2b5741ba2bfb5c79",
+          "381e2a8b5172d244",
+          "9d1ff08424540616",
+          "efa514a15166f44f",
+          "f7af8e1f9b4835a4",
+          "e0851a2590dc3c2d",
+          "368c4e4fb091accd",
+          "bbcae736dd4363f6",
+          "fc0a089080a7f323",
+          "a62e9f15d21e2705",
+          "66de8dad12182ce9",
+          "45003480ca3e41a5",
+          "28e521bacbf16c24",
+          "e56f68075a5609a2",
+          "e154135bc748801e",
+          "1004907edf2b7586",
+          "54d8f79f36c64ccf",
+          "96e24035a5b7fe6e",
+          "00482b65d623babd",
+          "cbb55c830d96604f",
+          "4d9b809aeaea5e96",
+          "c7826d08279bab7b",
+          "01381fe9fa1b53cd",
+          "07e354be4f14b141",
+          "0e1f3140681988c3",
+          "2bb0e482e65b400b",
+          "4c787e634f5bef6d",
+          "0a26eb292d57a7f2",
+          "f6adfc2c2559d401",
+          "f43f81f75aa6dab7",
+          "50d854198f43b0ea",
+          "5c49d9e68ef29d20",
+          "e2c603f15a25f71c",
+          "cea1f6fd1359f827",
+          "d734266b062e53dd",
+          "cd5512c244005464",
+          "a6222b431fc92a9c",
+          "efa1a90ed5a511b6",
+          "fe1bf455e5d426f8",
+          "7b45d0a1a90b5a4b",
+          "533efd922b6a34fe",
+          "e86cbf946eee0bb6",
+          "6b340fc4743e3236",
+          "0221f344213039af",
+          "f9b16160e257859d",
+          "9443d3bdc1ff04f5",
+          "3b5c31a42c88c9a8",
+          "fc58d9bcfc67b8ec",
+          "b2fd1747d7ad961b",
+          "559a9b762a3462fb",
+          "3227bfbafc93378f",
+          "6ffa3389bbcd1d66",
+          "0e2a74e87bd6b75d",
+          "ca0969c538be2e4d",
+          "9712e22178246c98",
+          "fd9534b80b939d70",
+          "c24c8095edc394f1",
+          "1a1c497b688a0f39",
+          "6a4bc2ffbd7a5fd5",
+          "66860506c4350ff0",
+          "8a63a28d65673199",
+          "48ca9aa5e48ac3cb",
+          "603eba3c03ba8a0a",
+          "d438671abc22e033",
+          "c5abd4887cf17272",
+          "f13c75c6dfc0c74b",
+          "a8d1cb04f80af1f7",
+          "fc38fc03b66c7ed6",
+          "133320249ca4227a",
+          "ef8458cb4380a2c9",
+          "92ff179f495aada3",
+          "bc8deb7a4d45b044",
+          "aa4a37080b53e8ad",
+          "c189f66fd5d2a5a7",
+          "fdc46679436ef9b0",
+          "e69278181c85fc87",
+          "ec0956ed467d1b1b",
+          "8cb668dd31b70139",
+          "109136a6b7bc1223",
+          "beb28eb92f645142",
+          "a3d0c3ee63e5e6a6",
+          "a814d0836cbce902",
+          "6bedae718ffb7a01",
+          "780dac15dbfe3d27",
+          "f5735b5db8bf0ea0",
+          "efdb8d1e69dedaf5",
+          "be7888e7da35604c",
+          "bca41109fe2ff844",
+          "ab9696b16f571096",
+          "d74f52bfce3bdd22",
+          "46dd718242d8908b",
+          "4b8f9068e971f4ca",
+          "f189b0d8d1f20d1c",
+          "3b05ae1da44c8ea6",
+          "246a8197c1bd5a94",
+          "c23099fa53e7bf40",
+          "6744c8eb2b4d3449",
+          "d570f434cc7b6d0f",
+          "6ec37ae8836baca7",
+          "678363e240e6f694",
+          "1c75fc2f74ab9044",
+          "4d9b81dcc1d45341",
+          "cc50ddd6120d6246",
+          "b1b94590521873a3",
+          "9e1d3adea826b3a9",
+          "17db7ad94cd3f3af",
+          "cdfc65fa0cf3aaec",
+          "a8a3baa7a0260133",
+          "e86b962ef55e3f32",
+          "7ef92b84858a5668",
+          "279c1e4747ebec20",
+          "ba215d1f2db5b2e6",
+          "8ac0f6ea49b43579",
+          "3dcb022193b673ee",
+          "49f3831d31d42d3b",
+          "732346fa31d7cfce",
+          "3535b45aa0911a4c",
+          "ba4e4ad8dfc5f30a",
+          "89fdc7c76bd9367f",
+          "c293327ee64e8a92",
+          "cebb84e0839899d5",
+          "5ec636a11fa73f4a",
+          "c24dcd9bb726f417",
+          "7a48aae46ada0728",
+          "19699e84f580ebce",
+          "49a9138527688c77",
+          "3a461119a68dfc31",
+          "16b1d7e539d452c5",
+          "1d6ab55aaed21f7f",
+          "083c16d635ab309a",
+          "2eeadd6c98602d14",
+          "0f5ea9e6ffed8f18",
+          "b3fa8b58226bde01",
+          "b3538a0be3f83d8e",
+          "863bde7f6ce30776",
+          "841632044712e054",
+          "ea876223316595a1",
+          "a8682b73aafd2a6e",
+          "cd28520c0ede2782",
+          "9d126d3da4a02318",
+          "5d25f89f11ab2e15",
+          "817137bdbec6398c",
+          "47cce6c55de892b9",
+          "f93eeab9ccc1be3b",
+          "2094c884eb5247b5",
+          "876ee2807865fc2b",
+          "60a14620415967ca",
+          "17bd911573141996",
+          "299ad778e785c7af",
+          "1903301bf39ecdcb",
+          "6be75bb3be774b49",
+          "d1a6ba69eb3fddb4",
+          "15a50d5f61b7ae76",
+          "2cb4ef8350998b7a",
+          "6ae732ebddd7932f",
+          "7471b71b803bba09",
+          "41bf438cfc97fa66",
+          "efba1a44a6d8ec22",
+          "dca1b7230ccff111",
+          "e5c173663d0b35c6",
+          "b1dc75438d50b712",
+          "0e07dc3cea0dcbcc",
+          "e8e0ce8c09b30125",
+          "2e4a71f520114a90",
+          "2a03017d449e71c6",
+          "9de4f7af260be2f8",
+          "dc0cb769a4e1227c",
+          "ffde8e941fbb0e24",
+          "61237ca82429d479",
+          "83ba15dab1d79d72",
+          "9bd9486959659e6d",
+          "4ec686031122888c",
+          "1fce29630a287435",
+          "46856a441370a739",
+          "e0c115fdbd4fae82",
+          "be094545a829e49c",
+          "beca043346fb94da",
+          "485b6dcb3fa8eabf",
+          "33d01beaae8631c5",
+          "d92ae71e74d7d436",
+          "149919fdfd55fc25",
+          "115cd54981ac63ef",
+          "c37a1943dfca1afb",
+          "de7858af1ecd6231",
+          "57956927057dd9b6",
+          "ce9275a4bdf2cf5a",
+          "76c8603024f19e53",
+          "d788266bd8461982",
+          "b61b06f21aa659c0",
+          "cb463c44c04b85c8",
+          "aa486b8d9bfeb08b",
+          "8684e105fb8fb14e",
+          "78bd53321c240543",
+          "31c229129ec22a23",
+          "5197d3616ab00447",
+          "f4e223c14cd1213d",
+          "f2b86c6f82262c16",
+          "a8815a5afdf2ffbf",
+          "6e4f509d6ee95d58",
+          "c1a66d8ed432d67e",
+          "6badc2e7eb615cfe",
+          "e0d513987eb5e40e",
+          "30e10211ffde40f7",
+          "d2008bf081444f8b",
+          "9c3eca85987bdee0",
+          "8e19a5c3f9970995",
+          "7cd3d589499be403",
+          "e014e81a735d4f74",
+          "fce204bcfa3890fa",
+          "39ca5516b4fa0e9b",
+          "8e218ed648e288c9",
+          "7d79832420ad2624",
+          "c820e0d13eb5bde6",
+          "fbff2cbc5a8146c3",
+          "4ad33fe9c24fd4f2",
+          "f3193d670288a809",
+          "4b82bd22d8d66b85",
+          "c733a45c6a7711b7",
+          "6e16f7fcfd9d9a6f",
+          "f351121ea2dec7bc",
+          "f06f4e9ced684a99",
+          "04c6197a91a69aaa",
+          "0cabc6e3fd9d6f35",
+          "795fcd1fe7a6ab64",
+          "44535c0c43c0417a",
+          "d85813490f0680d6",
+          "d178a61d6677fa1a",
+          "77dda6a73f095720",
+          "7c4eca1a52aa2e8d",
+          "876f2b496c2e4e36",
+          "7b8d9671b6a6a64c",
+          "50fa6491a23c8479",
+          "b401a37ba86537b4",
+          "1500a028b3d46e5c",
+          "15aef1cb3082fd82",
+          "708c784b7e716c8b",
+          "0326f9c29f692d95",
+          "90850e68193d0620",
+          "0cff5a261ae714ba",
+          "a5472a60e2e0ecd2",
+          "fbbb6125c5bb3784",
+          "f095ea486ad23670",
+          "ce65e47ddb879935",
+          "0f28605a16e13a42",
+          "d43a4c32ae0a86f1",
+          "453e8b75dd7b144a",
+          "ad7035a5587d3b31",
+          "35b6daafbb467339",
+          "cb983650e9872c56",
+          "7eff49c2be140042",
+          "96990850e039e779",
+          "62713479dfc69a9b",
+          "456c2297222d495c",
+          "84d761053dd03a97",
+          "c7ec133d573da6bc",
+          "89605e0d63386cd4",
+          "4984de7cde7dd64c",
+          "5a2da899ac3f7f64",
+          "d09740db55d36428",
+          "51ad128ce2b248fd"
+        ]
+      },
+      "collect_mode": {
+        "type": "string",
+        "enum": [
+          "keywords",
+          "latest_issue"
+        ],
+        "default": "keywords"
+      },
+      "search_terms": {
+        "type": "array",
+        "maxItems": 10,
+        "uniqueItems": true,
+        "items": {
+          "type": "string",
+          "minLength": 2,
+          "maxLength": 200
+        },
+        "default": []
+      },
+      "lookback_days": {
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 3650,
+        "default": 30
+      },
+      "per_journal_limit": {
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 500,
+        "default": 50
+      },
+      "timeout_seconds": {
+        "type": "integer",
+        "minimum": 5,
+        "maximum": 60,
+        "default": 20
+      },
+      "require_abstract": {
+        "type": "boolean",
+        "default": false
+      }
+    },
+    "additionalProperties": false
+  },
+  "secret_names": [
+    "OPENALEX_API_KEY"
+  ],
+  "output_schema_version": 1,
+  "output_schema": {
+    "fields": [
+      {
+        "name": "doi",
+        "type": "string",
+        "max_length": 255,
+        "nullable": false
+      },
+      {
+        "name": "journal_key",
+        "type": "string",
+        "max_length": 64,
+        "nullable": false
+      },
+      {
+        "name": "journal_name",
+        "type": "string",
+        "max_length": 255,
+        "nullable": false
+      },
+      {
+        "name": "issn",
+        "type": "string",
+        "max_length": 16,
+        "nullable": false
+      },
+      {
+        "name": "title",
+        "type": "string",
+        "max_length": 1000,
+        "nullable": false
+      },
+      {
+        "name": "url",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "authors",
+        "type": "array",
+        "nullable": false,
+        "schema": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      {
+        "name": "affiliations",
+        "type": "array",
+        "nullable": false,
+        "schema": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      {
+        "name": "abstract",
+        "type": "text",
+        "nullable": true
+      },
+      {
+        "name": "published_at",
+        "type": "date",
+        "nullable": true
+      },
+      {
+        "name": "year",
+        "type": "integer",
+        "nullable": true
+      },
+      {
+        "name": "volume",
+        "type": "string",
+        "max_length": 64,
+        "nullable": true
+      },
+      {
+        "name": "issue",
+        "type": "string",
+        "max_length": 64,
+        "nullable": true
+      },
+      {
+        "name": "pages",
+        "type": "string",
+        "max_length": 128,
+        "nullable": true
+      },
+      {
+        "name": "language",
+        "type": "string",
+        "max_length": 16,
+        "nullable": true
+      },
+      {
+        "name": "open_access",
+        "type": "boolean",
+        "nullable": true
+      },
+      {
+        "name": "cited_by_count",
+        "type": "integer",
+        "nullable": true
+      },
+      {
+        "name": "source_api",
+        "type": "string",
+        "max_length": 16,
+        "nullable": false
+      },
+      {
+        "name": "openalex_id",
+        "type": "string",
+        "max_length": 128,
+        "nullable": true
+      },
+      {
+        "name": "matched_terms",
+        "type": "array",
+        "nullable": false,
+        "schema": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    ],
+    "identity_fields": [
+      "doi"
+    ],
+    "indexes": [
+      [
+        "journal_key"
+      ],
+      [
+        "year"
+      ],
+      [
+        "published_at"
+      ]
+    ],
+    "mapping": {
+      "title": "title",
+      "url": "url",
+      "summary": "abstract",
+      "published_at": "published_at"
+    }
+  }
+}

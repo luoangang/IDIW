@@ -10,7 +10,7 @@ from crawler_platform.protocol import load_manifest, validate_item
 
 
 ROOT = Path(__file__).resolve().parents[1] / "crawler_packages" / "academic"
-COUNTS = {"qinyun_journals": 104, "rhzh_journals": 122, "sancai_journals": 1}
+COUNTS = {"qinyun_journals": 173, "rhzh_journals": 328, "sancai_journals": 3}
 
 
 def package(name):
@@ -38,8 +38,15 @@ def test_only_verified_journals_are_in_delivery_catalogs():
         audited = list(csv.DictReader(handle))
     assert len(audited) == 630
     verified = {(row["package"], row["journal_key"]) for row in audited if row["status"] == "verified"}
+    promoted = set()
+    for name in ("promoted-2026-11-21.csv", "oa-rss-promoted-2026-11-22.csv", "qinyun-extra-promoted-2026-11-22.csv", "rhzh-extra-promoted-2026-11-22.csv", "core/core-additions-applied-2026-11-22.csv", "core/core-stem-additions-applied-2026-11-22.csv", "core/core-social-additions-applied-2026-11-23.csv", "core/core-stem2-additions-applied-2026-11-23.csv", "core/core-social2-additions-applied-2026-11-23.csv", "core/core-social3-additions-applied-2026-11-23.csv", "core/core-social4-additions-applied-2026-11-23.csv", "core/core-en-additions-applied-2026-11-23.csv", "core/core-supplement-additions-applied-2026-11-24.csv", "core/core-cmacmc-additions-applied-2026-11-24.csv", "core/core-h-additions-applied-2026-11-24.csv", "core/core-g7-additions-applied-2026-11-24.csv", "core/core-a3-additions-applied-2026-11-24.csv", "core/core-a4-additions-applied-2026-11-24.csv", "core/core-a5g6-additions-applied-2026-11-24.csv", "core/workbuddy/b-applied-2026-11-24.csv", "core/sciengine-applied-2026-11-25.csv", "core/workbuddy/accepted-known-applied-2026-11-25.csv", "core/workbuddy/custom-applied-2026-11-25.csv", "core/domestic-p1-applied-2026-11-26.csv", "core/domestic-p1-batch2-applied-2026-11-26.csv", "core/domestic-p1-batch3-applied-2026-11-26.csv", "core/domestic-core-retry-applied-2026-11-26.csv"):
+        with (ROOT.parents[1] / "journal_catalog" / name).open(encoding="utf-8-sig", newline="") as handle:
+            for row in csv.DictReader(handle):
+                target = row.get("promoted_to") or row.get("target_package")
+                if target in COUNTS:
+                    promoted.add((target, row["journal_key"]))
     delivered = {(name, row["journal_key"]) for name in COUNTS for row in package(name)[2]}
-    assert delivered == verified
+    assert delivered == verified | promoted
 
 
 def test_qinyun_normalizes_article_and_discovery():

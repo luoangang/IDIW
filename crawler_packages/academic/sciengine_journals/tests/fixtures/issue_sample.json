@@ -1,0 +1,80 @@
+{
+  "success": true,
+  "code": 0,
+  "message": null,
+  "data": [
+    {
+      "articleType": "数据论文",
+      "content": [
+        {
+          "id": "T1",
+          "title": " <bold>2005–2020</bold>年千烟洲人工林系统内外气象数据集 ",
+          "doi": "10.11922/11-6035.nesdc.2025.0187.zh",
+          "volumeCode": "11",
+          "issueCode": "3",
+          "pubYear": "2026",
+          "pubMonth": "9",
+          "spage": "1",
+          "epage": "8",
+          "intro": "<p indent=\"0mm\">本数据集记录千烟洲人工林气象观测数据 &amp; 质量控制说明。</p>",
+          "pAuthorList": [
+            {"fullName": "吕云"},
+            {"surName": "曾", "givenName": "文静"}
+          ],
+          "pdfPath": "/2096-2223/test-article.pdf",
+          "articleTypeStr": "数据论文"
+        },
+        {
+          "id": "T2",
+          "title": "无 DOI 的目次条目",
+          "doi": null,
+          "volumeCode": "11",
+          "issueCode": "3",
+          "pubYear": "2026",
+          "pAuthorList": []
+        },
+        {
+          "id": "T3",
+          "title": "《某专题》卷首语",
+          "doi": "10.11922/editorial.2026.0001",
+          "volumeCode": "11",
+          "issueCode": "3",
+          "pubYear": "2026",
+          "articleTypeStr": "卷首语",
+          "pAuthorList": []
+        }
+      ]
+    },
+    {
+      "articleType": "综述",
+      "content": [
+        {
+          "id": "T4",
+          "title": "面向CO<sub><italic>x</italic></sub>协同脱除的催化机理",
+          "doi": "10.1016/S1872-5813(26)60712-8",
+          "volumeCode": "54",
+          "issueCode": "11",
+          "pubYear": "2026",
+          "spage": "1001",
+          "epage": "1012",
+          "intro": "<p>研究 &lt;CO&gt; 氧化与 &amp; 表面调控。</p>",
+          "pAuthorList": [
+            {"surName": "张", "givenName": "三"},
+            {"fullName": "Li Si"}
+          ],
+          "pdfPath": "https://www.sciengine.com/files/test-review.pdf",
+          "articleTypeStr": "综述"
+        },
+        {
+          "id": "T5",
+          "title": "重复 DOI 的条目",
+          "doi": "10.1016/S1872-5813(26)60712-8",
+          "volumeCode": "54",
+          "issueCode": "11",
+          "pubYear": "2026",
+          "pAuthorList": [{"fullName": "王五"}]
+        }
+      ]
+    }
+  ]
+}

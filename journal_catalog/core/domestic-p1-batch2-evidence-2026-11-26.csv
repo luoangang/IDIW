@@ -1,0 +1,61 @@
+﻿rank,journal_name,probe_status,probe_items,current_url,platform_guess,package_guess,disposition,live_package,live_items,reason
+21,新闻与传播研究,blocked,0,https://xwycbyj.cbpt.cnki.net/WKA/showValidateCode.aspx,cnki,cnki_cbpt,不可写回,,,验证码/登录拦截
+22,新疆社会科学,fail,0,https://www.xjass.cn/,unknown,unknown,不可写回,,,TLS 证书链/主机名错误
+23,生态经济,no_current,0,https://stj.cbpt.cnki.net/DispatchInfo/Error.aspx?code=2,cnki,cnki_cbpt,不可写回,,,官网无公开当期目录
+24,思想教育研究,warn,3,http://sxjyyj.ustb.edu.cn/zuixinqikan/,custom_toc,custom_toc_journals,待定,,,最新仅 2022-10 旧文，站点停更
+25,企业经济,no_current,0,https://www.qyjj.cn/contents/index.html,custom_toc,custom_toc_journals,不可写回,,,官网无公开当期目录
+26,中国中药杂志,fail,0,https://www.tcmjc.com/zgzy/home,unknown,unknown,不可写回,,,入口 404/停更
+27,档案学通讯,warn,unknown,https://daxtx.net/CN/column/item105.shtml,magtech,magtech_journals,待定,,,当期页空白模板，volumn 404，未取得目次
+28,系统工程,ok,10,https://www.xitonggongcheng.com/list-1778.html,custom_toc,custom_site_plus_cnki_links,写回,custom_toc_journals,10,官网首页 10 条；cnki kcms2 题录级
+29,中国卫生政策研究,fail,unknown,https://journal.healthpolicy.cn/ch/index.aspx,unknown,unknown,不可写回,,,TLS 证书链/主机名错误
+30,重庆高教研究,login,unknown,https://clientvpn.cqwu.edu.cn/https/webvpn59d0bc9d379c5ab4c8862215bef3f5fda118a4a3f9b95e0f1bc8fa7ca56ae1d8/authserver/login?service=https%3A%2F%2Fclientvpn.cqwu.edu.cn%2Fenlink%2Fapi%2Fclient%2Fcallback%2Fcas,unknown,unknown,不可写回,,,需登录/SSO/校园 VPN
+31,理论学刊,login,unknown,https://journal.ids.fzyun.cn/auth/realms/journal/protocol/openid-connect/auth?client_id=journal-llsj-author&redirect_uri=https%3A%2F%2Fllsj.portal.founderss.cn%2Foauth%2Fcallback&response_type=code&scope=phone+openid+email+profile&state=423d0ae1-37ac-497e-9472-c89a009a9598,founder,founder_portal_sso,不可写回,,,需登录/SSO/校园 VPN
+32,中华中医药学刊,ok,10,https://zyhs.cbpt.cnki.net/portal/journal/portal/client/guokan_list?year=2026&issue=11&yearId=74c2821b3b2083c39eca71dbfcf8570d&issueId=289fe1d5-edc5-4f26-9962-fe3ae8d78acd,cnki,cnki_cbpt_portal,写回,cnki_cbpt,46,CNKI portal 2026-11；5 页 46 条，含摘要
+33,妇女研究论丛,warn,10,https://fnyjlc.wsic.ac.cn/CN/volumn/current.shtml,magtech,magetech_journals,待定,,,magtech 结构可用，但当期停在 2025-05
+34,中国大学教学,blocked,0,https://jxyc.cbpt.cnki.net/DispatchInfo/Error.aspx?code=2,cnki_cbpt,cnki_cbpt,不可写回,,,验证码/登录拦截
+35,天津社会科学,warn,18,https://www.tass-tj.org.cn/xkml/2026/06/18/detail8_2026061817253.html,custom_toc,custom_toc_journals,待定,,,纯文本目次无文章链接/摘要，且期次滞后
+36,中南民族大学学报(人文社会科学版),no_current,0,https://www.scuec.edu.cn/xuebao/,custom,none,不可写回,,,官网无公开当期目录
+37,管理现代化,warn,26,https://www.glxdh.com/,custom_toc+cnki_kns,custom_toc_journals,待定,,,题录 26 条但链接跳知网验证码，且期次滞后
+38,求是学刊,warn,16,https://qsxk.hlju.edu.cn/info/2020/1369.htm,custom_toc,custom_toc_journals,待定,,,纯文本目次无文章链接/摘要，且期次滞后
+39,学习与探索,pdf_only,0,http://www.xxyts.cn/index/index/info.html?id=128,custom_toc,custom_toc_journals,待定,,,仅整期 PDF
+40,水利水电科技进展,blocked,0,http://jour.hhu.edu.cn/,unknown,unknown,不可写回,,,访问被拦截/无公开当期
+41,农村金融研究,ok,6,https://ncjr.chinajournal.net.cn/WKH3/WebPublication/index.aspx?mid=NCJR,cnki,cnki_cbpt,写回,cnki_cbpt,6,WKH3 2026-10；6 条，摘要 best-effort
+42,石油物探,fail,0,http://gpp.geophysics.cn/,unknown,unknown,不可写回,,,TLS 证书链/主机名错误
+43,中国园林,ok,19,http://www.jchla.com/ch/reader/issue_list.aspx?year_id=2026&quarter_id=10,qinyun,qinyun_journals,写回,qinyun_journals,19,勤云 issue_list 2026-10；19 条
+44,价格理论与实践,fail,0,https://www.price-world.com.cn/,unknown,unknown,不可写回,,,TLS 证书链/主机名错误
+45,投资研究,fail,0,,unknown,unknown,不可写回,,,入口 404/停更
+46,学前教育研究,pdf_only,0,http://www.xqjyyj.com/zxqk/content_90502,custom_toc,custom_cms_image_toc,待定,,,当期仅封面图片
+47,工程科学与技术,ok,32,https://jsuese.scu.edu.cn/zh/issue/2026/6/,rhhz,rhhz_journal,写回,rhzh_journals,32,仁和汇智 2026-6；32 条，含内联摘要
+48,教育与职业,pdf_only,0,http://www.evchina.com.cn/CN/home#mytab1,magtech,magtech_image_toc,待定,,,当期仅封面图片
+49,外语教学,ok,15,https://xwxb.xisu.edu.cn/info/1196/3013.htm,custom_toc,custom_static_htm,待定,,,纯文本目次 15 篇，无文章链接/摘要，custom_toc 无法生成条目
+50,高压电器,blocked,0,,founder,founder_portal_spa,不可写回,,,方正/JS SPA 空壳，无 SSR 当期
+51,教育理论与实践,warn,0,https://www.sxsjky.com/web/QikanML.aspx?MenuID=698d69b0-d69d-449b-8406-6b3f2c1317e5,custom_toc,custom_toc_journals,待定,,,当期目录以新闻发布，探测未取到目录正文
+52,植物遗传资源学报,fail,0,https://zwyczy.cn/zwyczyxb/home,unknown,unknown,不可写回,,,TLS 证书链/主机名错误
+53,江西社会科学,pdf_only,0,https://www.jxshkx.net/NewsView.aspx?id=26385,custom_toc,custom_toc_journals,待定,,,仅扫描目次图
+54,语文建设,fail,0,http://www.ywjs.chinajournal.net.cn/,cnki,cnki_cbpt,不可写回,,,TLS 证书链/主机名错误
+55,水文地质工程地质,ok,24,https://www.swdzgcdz.com/article/current,rhzh,rhzh_journals,写回,rhzh_journals,24,仁和汇智 2026-6；24 条
+56,马克思主义与现实,blocked,0,https://mksz.cbpt.cnki.net/WKG/WebPublication/index.aspx?mid=mksz,cnki,cnki_cbpt,不可写回,,,验证码/登录拦截
+57,南通大学学报(社会科学版),no_current,0,https://xbzsb.ntu.edu.cn/,custom_toc,custom_toc_journals,不可写回,,,官网无公开当期目录
+58,语言教学与研究,blocked,0,https://yyjx.chinajournal.net.cn/WKB3/WebPublication/index.aspx?mid=YYJX,cnki,cnki_cbpt,不可写回,,,验证码/登录拦截
+59,民俗研究,login,0,https://journal.ids.fzyun.cn/auth/realms/journal/protocol/openid-connect/auth?client_id=journal-msya-author&redirect_uri=https%3A%2F%2Fmsya.portal.founderss.cn%2Foauth%2Fcallback&response_type=code&scope=phone+openid+email+profile,founder,founder_journals,不可写回,,,需登录/SSO/校园 VPN
+60,心理与行为研究,fail,0,http://psybeh.tjnu.edu.cn/,unknown,none,不可写回,,,DNS 不存在
+61,森林与环境学报,blocked,0,https://fjlxyxb.fafu.edu.cn/,unknown,unknown,不可写回,,,方正/JS SPA 空壳，无 SSR 当期
+62,医学与社会,warn,10,http://yxysh.hust.edu.cn/gkll.htm,vsb,vsb_journals,待定,,,仅 2019 年过刊
+63,国际政治研究,ok,5,https://www.jis.pku.edu.cn/,custom_toc,custom_toc_journals,待定,,,TLS 证书链不完整，生产 parser 无法直连；仅 5 条
+64,护理研究,blocked,0,https://www.hlyjzz.com/,founder,founder_journals,不可写回,,,方正/JS SPA 空壳，无 SSR 当期
+65,控制理论与应用,ok,21,https://jcta.ijournals.cn/cta_cn/ch/index.aspx,magetech,magetech_journals,写回,magetech_journals,21,magetech issue_list 2026-10；21 条
+66,新金融,fail,0,,unknown,unknown,不可写回,,,DNS 不存在
+67,高教探索,ok,10,https://gjta.cbpt.cnki.net/portal/journal/portal/client/paper_list/type_benqi,cnki,cnki_cbpt,写回,cnki_cbpt,17,CNKI portal 2026-11；2 页 17 条，含摘要
+68,地方财政研究,pdf_only,9,http://www.dfczyj.com/portal/dfczyj/magazine/detail/2108749717636042754,custom_toc,custom_toc_journals,待定,,,仅 PDF 附件，无摘要
+69,现代日本经济,blocked,0,http://xdrj.chinajournal.net.cn/WKG/showValidateCode.aspx,cnki_cbpt,cnki_cbpt,不可写回,,,验证码/登录拦截
+70,山东农业科学,blocked,0,https://sdnykx.cbpt.cnki.net/WKI/showValidateCode.aspx,cnki_cbpt,cnki_cbpt,不可写回,,,验证码/登录拦截
+71,环境科学学报,blocked,0,https://www.actasc.cn/,founder,founder_journals,不可写回,,,方正/JS SPA 空壳，无 SSR 当期
+72,现代大学教育,ok,11,https://mue.csu.edu.cn/#current,rhzh,rhzh_journals,写回,rhzh_journals,11,仁和汇智 2026-5；11 条
+73,基础教育,warn,1,https://jss.ecnu.edu.cn/CN/current,magtech,magetech_journals,待定,,,停更在 2021 年
+74,解放军医学杂志,blocked,0,https://www.jfjyxzz.org.cn/,founder,founder_journals,不可写回,,,方正/JS SPA 空壳，无 SSR 当期
+75,可再生能源,blocked,0,https://ncny.cbpt.cnki.net/WKE/WebPublication/wkTextContent.aspx?colType=4&yt=2026&st=09,cnki,cnki_wke,不可写回,,,验证码/登录拦截
+76,北京理工大学学报,warn,12,https://journal.bit.edu.cn/zrb/ch/reader/issue_list.aspx?year_id=2026&quarter_id=11,qinyun,qinyun_aspx,待定,,,当期为空，仅最新录用 12 条，RSS 停在 2022
+77,流体机械,warn,15,https://qikan.cmes.org/ltjx/CN/current,magetech,magtech_cn,待定,,,停更在 2023 年
+78,智能科学与技术学报,blocked,0,https://www.cjist.com.cn/,founder,founder_portal,不可写回,,,方正/JS SPA 空壳，无 SSR 当期
+79,武汉大学学报(工学版),blocked,0,https://xbgx.whu.edu.cn/,founder,founder_portal,不可写回,,,方正/JS SPA 空壳，无 SSR 当期
+80,建筑科学与工程学报,blocked,0,https://jace.chd.edu.cn/,founder,founder_portal,不可写回,,,方正/JS SPA 空壳，无 SSR 当期

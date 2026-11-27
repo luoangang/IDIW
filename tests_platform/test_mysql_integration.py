@@ -50,11 +50,11 @@ def monitor(store, name="Integration", **kwargs):
                                 [MANIFEST.package_key], **kwargs)
 
 
-def complete(store, run_id):
+def complete(store, run_id, title="AI research"):
     claimed = store.claim_package_run("integration-worker")
     assert claimed and claimed["run_id"] == run_id
     assert store.renew_package_run_lease(claimed["id"], claimed["lease_token"])
-    item = {"external_id": "article-1", "title": "AI research", "url": "https://example.org/article-1",
+    item = {"external_id": "article-1", "title": title, "url": "https://example.org/article-1",
             "content_scope": "feed_summary", "summary": "Example summary", "source_site": "example.org",
             "feed_url": "https://example.org/feed"}
     result = {"status": "completed", "item_count": 1, "next_cursor": None, "has_more": False,
@@ -128,3 +128,44 @@ def test_due_schedule_is_caught_up_once_and_advances_beijing_slot(database):
     assert row["next_run_at"] > datetime.now(timezone.utc).replace(tzinfo=None)
     assert (row["next_run_at"] + timedelta(hours=8)).time().isoformat() == "09:00:00"
     assert store.operational_status()["overdue_monitors"] == 0
+
+
+def test_change_tracking_and_legacy_migration_are_idempotent(database):
+    store = database
+    monitor_id = monitor(store)
+    complete(store, store.enqueue_monitor(monitor_id))
+    table = store.package(MANIFEST.package_key)["table_name"]
+    store._assert_table(table)
+
+    def tracking():
+        connection = store.connect()
+        try:
+            with connection.cursor() as cursor:
+                cursor.execute(f"SELECT sys_first_seen_at,sys_last_changed_at,sys_change_count FROM `{table}`")
+                return cursor.fetchone()
+        finally:
+            connection.close()
+
+    original = tracking()
+    assert original["sys_change_count"] == 1
+    assert complete(store, store.enqueue_monitor(monitor_id))["unchanged"] == 1
+    assert tracking() == original
+    assert complete(store, store.enqueue_monitor(monitor_id), "AI research updated")["updated"] == 1
+    assert tracking()["sys_change_count"] == 2
+    since = original["sys_first_seen_at"].replace(tzinfo=timezone.utc).isoformat()
+    assert store.preview_records(since=since, change="changed")["total"] == 1
+    # Recreate only the old system columns in this generated, isolated test database.
+    connection = store.connect()
+    try:
+        with connection.cursor() as cursor:
+            cursor.execute(f"ALTER TABLE `{table}` DROP INDEX idx_last_changed, "
+                           "DROP COLUMN sys_last_changed_at,DROP COLUMN sys_change_count")
+        connection.commit()
+    finally:
+        connection.close()
+    store._migrate_last_changed_at()
+    migrated = tracking()
+    assert migrated["sys_last_changed_at"] == migrated["sys_first_seen_at"]
+    assert migrated["sys_change_count"] == 1
+    store._migrate_last_changed_at()
+    assert tracking() == migrated
